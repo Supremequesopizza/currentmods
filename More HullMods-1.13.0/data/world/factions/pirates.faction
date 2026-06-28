@@ -1,0 +1,21 @@
+{
+    "knownHullMods": {
+        "hullMods": [
+            "mhmods_antiarmorgammunition",
+            "mhmods_emergencyventingsystem",
+            "mhmods_fluxbooster",
+            "mhmods_fluxoverdrive",
+            "mhmods_FuelAdditive",
+            "mhmods_splitChamber",
+            "mhmods_torpedospec",
+            "mhmods_voltageregulationsystem",
+            "mhmods_weaponinhibitor",
+            "mhmods_fluxgenerator"
+        ]
+    },
+    "hullmodSellFrequency": {
+        "mhmods_antiarmorgammunition": 10,
+        "mhmods_splitChamber": 10,
+        "mhmods_torpedospec": 10
+    }
+}

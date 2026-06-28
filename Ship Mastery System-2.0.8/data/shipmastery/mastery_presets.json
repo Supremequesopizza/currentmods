@@ -1,0 +1,115 @@
+{
+  "_DEFAULT_": {
+    "maxLevel": 7,
+    "levels": {
+      "1": {
+        "A": "RandomMastery 1 1",
+        "B": "RandomMastery 1 1",
+        "C": "RandomMastery 1 1"
+      },
+      "2": [
+        "SModCapacityAsFractionOfMax 0.5 ROUND_DOWN",
+        "RestorationCost"
+      ],
+      "3": {
+        "A": "RandomMastery 1 2",
+        "B": "RandomMastery 1 2",
+        "C": "RandomMastery 1 2"
+      },
+      "4": {
+        "A": "RandomMastery 1 3",
+        "B": "RandomMastery 1 3",
+        "C": "RandomMastery 1 3"
+      },
+      "5": [
+        "SModCapacityAsFractionOfMax 0.5 ROUND_UP",
+        "SModCreditsCost"
+      ],
+      "6": {
+        "A": "RandomMastery 1 3",
+        "B": "RandomMastery 1 3",
+        "C": "RandomMastery 1 3"
+      },
+      "7": {
+        "A": "RandomMastery 1 4",
+        "B": "RandomMastery 1 4",
+        "C": "RandomMastery 1 4"
+      }
+    }
+  },
+
+  "derelict_drone": {
+    "preset": "_DEFAULT_",
+    "presetCheckScript": "shipmastery.mastery.preset.DerelictDroneCheck",
+    "levels": {
+      "max": "MaxCRFloor"
+    }
+  },
+
+  "logistic_cargo": {
+    "preset": "_DEFAULT_",
+    "presetCheckScript": "shipmastery.mastery.preset.LogisticCargoCheck",
+    "levels": {
+      "max": {
+        "A": "EfficiencyOverhaulBoost",
+        "B": "ExpandedCargoBoost"
+      }
+    }
+  },
+
+  "logistic_fuel": {
+    "preset": "_DEFAULT_",
+    "presetCheckScript": "shipmastery.mastery.preset.LogisticFuelCheck",
+    "levels": {
+      "max": {
+        "A": "EfficiencyOverhaulBoost",
+        "B": "ExpandedFuelBoost"
+      }
+    }
+  },
+
+  "logistic_crew": {
+    "preset": "_DEFAULT_",
+    "presetCheckScript": "shipmastery.mastery.preset.LogisticCrewCheck",
+    "levels": {
+      "max": {
+        "A": "EfficiencyOverhaulBoost",
+        "B": "ExpandedCrewBoost"
+      }
+    }
+  },
+
+  "threat": {
+    "maxLevel": 10,
+    "presetCheckScript": "shipmastery.mastery.preset.ThreatCheck",
+    "levels": {
+      "1": "ModifyStatsMult 1 DeploymentPoints -0.025",
+      "2": "ModifyStatsMult 1 DeploymentPoints -0.025641",
+      "3": "ModifyStatsMult 1 DeploymentPoints -0.0263158",
+      "4": "ModifyStatsMult 1 DeploymentPoints -0.027027",
+      "5": "ModifyStatsMult 1 DeploymentPoints -0.0277778",
+      "6": "ModifyStatsMult 1 DeploymentPoints -0.0285714",
+      "7": "ModifyStatsMult 1 DeploymentPoints -0.0294118",
+      "8": "ModifyStatsMult 1 DeploymentPoints -0.030303",
+      "9": "ModifyStatsMult 1 DeploymentPoints -0.03125",
+      "10": "ModifyStatsMult 1 DeploymentPoints -0.032258"
+    }
+  },
+
+  "dweller": {
+    "maxLevel": 10,
+    "presetCheckScript": "shipmastery.mastery.preset.DwellerCheck",
+    "levels": {
+      "1": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "2": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "3": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "4": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "5": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "6": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "7": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "8": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "9": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"],
+      "10": ["ModifyStatsMult 1 HullPoints 0.025", "ModifyStatsFlat 1 EffectiveArmorBonus 10"]
+    }
+  }
+}

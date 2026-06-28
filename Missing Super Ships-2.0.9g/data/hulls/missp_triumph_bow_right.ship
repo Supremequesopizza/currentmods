@@ -1,0 +1,60 @@
+{
+  "hullName": "Triumph Right Bow Module",
+  "hullId": "missp_triumph_bow_right",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/triumph/triumph bow right module.png",
+  "style": "MIDLINE",
+  "height": 182,
+  "width": 96,
+  "center": [45, 23],
+  "collisionRadius": 229,
+  "shieldCenter": [-6, -30],
+  "shieldRadius": 0,
+  "viewOffset": 229,
+  "builtInMods": [
+	"missp_linked_hull",
+	"always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -67,
+      "locations": [28, -6]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 158,
+      "angle": -73.5,
+      "locations": [91, 8]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [137, 12]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    5, -23.5,
+    -1, -31,
+    5, -39,
+    21, -39,
+    74, -20.5,
+    141, -4,
+    137.5, 13.5,
+    142, 33.5,
+    84, 24,
+    0, -0
+  ]
+}

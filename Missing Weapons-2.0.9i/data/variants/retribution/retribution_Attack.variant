@@ -1,0 +1,63 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 5,
+    "fluxVents": 50,
+    "goalVariant": false,
+    "hullId": "retribution",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "armoredweapons",
+        "missleracks",
+        "fluxdistributor",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "retribution_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "breach",
+                "WS 008": "breach",
+                "WS 009": "breach",
+                "WS 010": "breach",
+                "WS 020": "breach",
+                "WS 021": "breach"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "miningblaster",
+                "WS 004": "miningblaster",
+                "WS 005": "miningblaster",
+                "WS 006": "miningblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "missp_octuple_machinegun",
+                "WS 001": "missp_octuple_machinegun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "devastator",
+                "WS 011": "mininglaser",
+                "WS 012": "mininglaser",
+                "WS 013": "mininglaser",
+                "WS 014": "mininglaser",
+                "WS 015": "mininglaser",
+                "WS 016": "mininglaser",
+                "WS 017": "mininglaser"
+            }
+        }
+    ]
+}

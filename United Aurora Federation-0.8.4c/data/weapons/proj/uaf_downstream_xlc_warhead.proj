@@ -1,0 +1,52 @@
+{
+	"id":"uaf_downstream_xlc_warhead",
+	"onHitEffect":"data.scripts.weapons.uaf_downstream_xlc_onhit",
+	#"onHitEffect":"data.scripts.weapons.uaf_awp_onhit",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":120.0,
+	"hitGlowRadius":100,
+	"width":18.5,
+	"fadeTime":0.30,
+	"fringeColor":[100,100,250,240],
+	"coreColor":[50,50,175,240],	
+	"glowColor":[60,60,235,30],	
+	"textureScrollSpeed":64.0,
+	"glowRadius":85,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large.png",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":170, # purely visual
+	"explosionSpec":{"duration":10f, # not visual
+					 "radius":150,
+					 "coreRadius":50, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":1,
+					 "particleSizeRange":8.0,
+					 "particleDuration":8,
+					 "particleCount":350,
+					 "particleColor":[255,155,155,255]
+					 },
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"onExplosionEffect":"data.scripts.weapons.uaf_downstream_xlc_explosion_effect",
+					"slowToMaxSpeed":true,
+					"shotRangeVariance":0,
+					"range":0,
+					"vsMissileRange":0,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":150,
+									 "coreRadius":100, # full damage within core radius - at least equal to proximity fuse range
+									 "collisionClass":PROJECTILE_NO_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":5.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":5.0,
+									 "particleCount":0,
+									 "particleColor":[210,130,90,100],
+									 #"sound":"uaf_bomb_explosion_medium"
+									 },									 
+					},
+}

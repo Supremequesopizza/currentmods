@@ -1,0 +1,542 @@
+{
+  "WeldedArmor": {
+    "name": "Welded Armor",
+    "color": [90, 225, 60],
+    "bandwidthPerLevel": 15,
+    "tag": "weldedarmor",
+    "hints": ["durability"],
+    "stats": [
+      {"id": "hull", "scalingEffect": 30},
+      {"id": "armor", "scalingEffect": 30},
+      {"id": "engineHealth", "scalingEffect": -20, "startingLevel": 5},
+      {"id": "weaponHealth", "scalingEffect": -20, "startingLevel": 5}
+    ],
+    "resourceRatios": {
+      "volatiles": 1.0,
+      "metals": 3.5,
+      "rare_metals": 3.0,
+      "heavy_machinery": 0.5
+    },
+    "conditions": [
+      { "id": "armor", "operator": ">=", "expected": 600, "weightOnly": true, "weight": 1.25 },
+      { "id": "hullmods", "operator": "in", "expected": "heavyarmor", "weightOnly": true, "weight": 1.5 }
+    ]
+  },
+  "PinataConfig": {
+    "name": "Piñata Config",
+    "color": [225, 120, 200],
+    "bandwidthPerLevel": 15,
+    "tag": "weldedarmor",
+    "hints": ["durability"],
+    "stats": [
+      {"id": "hull", "scalingEffect": 50},
+      {"id": "empDamageTaken", "scalingEffect": -50},
+      {"id": "explosionRadius", "scalingEffect": 100},
+      {"id": "armor", "scalingEffect": -20, "startingLevel": 3}
+    ],
+    "resourceRatios": {
+      "volatiles": 1.0,
+      "metals": 6.0,
+      "heavy_machinery": 1.0
+    },
+    "valueMult": 0.5
+  },
+  "IronShell": {
+    "name": "Iron Shell",
+    "color": [ 252,173,60 ],
+    "bandwidthPerLevel": 5,
+    "spawnChance": 3.0,
+    "salvageChance": 0.1,
+    "hints": ["durability"],
+    "showInStoreIfNotInstalled": false,
+    "chipFirstInstall": true,
+    "stats": [
+      { "id": "armorDamageTaken", "scalingEffect": -10 },
+      { "id": "heDamageTaken", "scalingEffect": -20 },
+      { "id": "kineticDamageTaken", "scalingEffect": 20, "startingLevel": 3 },
+      { "id": "energyDamageTaken", "scalingEffect": 20, "startingLevel": 3 },
+      { "id": "fragDamageTaken", "scalingEffect": 20, "startingLevel": 3 }
+    ],
+    "resourceRatios": {
+      "heavy_machinery": 1.0,
+      "volatiles": 1.5,
+      "metals": 2.0,
+      "rare_metals": 4.0
+    },
+    "valueMult": 2.0
+  },
+  "InfernalEngines": {
+    "name": "Infernal Engines",
+    "color": [255, 225, 95],
+    "bandwidthPerLevel": 10,
+    "tag": "infengines",
+    "hints": ["speed"],
+    "stats": [
+      {"id": "maxSpeed", "scalingEffect": 20},
+      {"id": "acceleration", "scalingEffect": 30},
+      {"id": "turnRate", "scalingEffect": 30},
+      {"id": "burnLevel", "scalingEffect": 1, "flat": true},
+      {"id": "deceleration", "scalingEffect": -24, "startingLevel": 5},
+      {"id": "fuelUse", "scalingEffect": 16, "startingLevel": 5}
+    ],
+    "resourceRatios": {
+      "volatiles": 3.0,
+      "organics": 1.0,
+      "metals": 1.0,
+      "rare_metals": 0.25,
+      "heavy_machinery": 1.5
+    },
+    "conditions": [
+      { "id": "maxSpeed", "operator": ">=", "expected": 100, "weightOnly": true, "weight": 1.25},
+      { "id": "hullmods", "operator": "in", "expected": "unstable_injector", "weightOnly": true, "weight": 1.5}
+    ]
+  },
+  "FluxInductionDrive": {
+    "name": "Flux-Induction Drive",
+    "color": [150, 140, 240],
+    "bandwidthPerLevel": 10,
+    "tag": "infengines",
+    "hints": ["speed"],
+    "stats": [
+      {"id": "zeroFluxSpeed", "scalingEffect": 80},
+      {"id": "acceleration", "scalingEffect": 30},
+      {"id": "maxSpeed", "scalingEffect": -20}
+    ],
+    "resourceRatios": {
+      "volatiles": 2.0,
+      "rare_metals": 1.0,
+      "heavy_machinery": 1.0
+    }
+  },
+  "HelDrives": {
+    "name": "Hel Drives",
+    "color": [ 255,100,60 ],
+    "bandwidthPerLevel": 10,
+    "tag": "infengines",
+    "spawnChance": 3.0,
+    "salvageChance": 0.1,
+    "hints": ["speed"],
+    "showInStoreIfNotInstalled": false,
+    "chipOnlyInstall": true,
+    "stats": [
+      { "id": "maxSpeed", "scalingEffect": 15 },
+      { "id": "acceleration", "scalingEffect": 30 },
+      { "id": "turnRate", "scalingEffect": 30 },
+      { "id": "burnLevel", "scalingEffect": 1, "flat": true },
+      { "id": "engineHealth", "scalingEffect": -16, "startingLevel": 4 }
+    ],
+    "conditions": [
+      { "id": "globalMemory", "extra": "$tahlan_triggered", "operator": "==", "expected": true, "cannotApplyReason": "Hel has not awakened." },
+      { "id": "maxSpeed", "operator": ">=", "expected": 100, "weightOnly": true, "weight": 1.25 },
+      { "id": "hullmods", "operator": "in", "expected": "unstable_injector", "weightOnly": true, "weight": 1.5 }
+    ],
+    "resourceRatios": {
+      "metals": 4.0,
+      "volatiles": 4.0,
+      "rare_metals": 4.0,
+      "heavy_machinery": 4.0
+    },
+    "valueMult": 3.0
+  },
+  "HyperactiveCapacitors": {
+    "name": "Hyperactive Capacitors",
+    "color": [143, 86, 182],
+    "bandwidthPerLevel": 15,
+    "tag": "hypecap",
+    "hints": ["flux"],
+    "stats": [
+      {"id": "fluxCapacity", "scalingEffect": 25},
+      {"id": "ventSpeed", "scalingEffect": 50},
+      {"id": "weaponFluxCost", "scalingEffect": 24, "startingLevel": 6}
+    ],
+    "conditions": [
+      { "id": "fluxCapacity", "operator": ">=", "expected": 5000, "weightOnly": true, "weight": 1.25 },
+      { "id": "shieldFluxDam", "operator": ">=", "expected": 0.75, "weightOnly": true, "weight": 1.25 }
+    ],
+    "resourceRatios": {
+      "supplies": 1.0,
+      "volatiles": 2.0,
+      "organics": 2.0,
+      "metals": 2.0,
+      "rare_metals": 3.0,
+      "heavy_machinery": 1.0
+    }
+  },
+  "AdvancedFluxCoils": {
+    "name": "Advanced Flux Coils",
+    "bandwidthPerLevel": 20,
+    "spawnChance": 3.0,
+    "salvageChance": 0.1,
+    "color": [ 105, 74, 227 ],
+    "tag": "hypecap",
+    "hints": ["flux"],
+    "showInStoreIfNotInstalled": false,
+    "chipOnlyInstall": true,
+    "stats": [
+      { "id": "fluxCapacity", "scalingEffect": 25 },
+      { "id": "ventSpeed", "scalingEffect": 25 },
+      { "id": "weaponFluxCost", "scalingEffect": -10 },
+      { "id": "hull", "scalingEffect": -10, "startingLevel": 5 }
+    ],
+    "conditions": [
+      { "id": "fluxCapacity", "operator": ">=", "expected": 5000, "weightOnly": true, "weight": 1.25 },
+      { "id": "shieldFluxDam", "operator": ">=", "expected": 0.75, "weightOnly": true, "weight": 1.25 }
+    ],
+    "resourceRatios": {
+      "supplies": 2.0,
+      "volatiles": 4.0,
+      "organics": 1.0,
+      "metals": 2.0,
+      "rare_metals": 4.0,
+      "heavy_machinery": 4.0
+    },
+    "valueMult": 3.0
+  },
+  "OverchargedShields": {
+    "name": "Overcharged Shields",
+    "color": [60, 200, 170],
+    "bandwidthPerLevel": 15,
+    "hints": ["durability"],
+    "stats": [
+      {"id": "shieldFluxDam", "scalingEffect": -25},
+      {"id": "shieldArc", "scalingEffect": 50},
+      {"id": "shieldUnfoldRate", "scalingEffect": 75},
+      {"id": "shieldUpkeep", "scalingEffect": 150, "startingLevel": 3},
+      {"id": "shieldTurnRate", "scalingEffect": -16, "startingLevel": 3}
+    ],
+    "conditions": [
+      { "id": "hasShield", "operator": "==", "expected": true, "cannotApplyReason": "The ship must have a shield." },
+      { "id": "hullmods", "operator": "in", "expected": "stabilizedshieldemitter", "weightOnly": true, "weight": 2.5 }
+    ],
+    "resourceRatios": {
+      "supplies": 2.0,
+      "volatiles": 1.0,
+      "metals": 1.0,
+      "rare_metals": 3.0,
+      "heavy_machinery": 2.0
+    },
+    "valueMult": 0.75
+  },
+  "TracerRecoilCalculator": {
+    "name": "Tracer Recoil Calculator",
+    "color": [215, 130, 60],
+    "bandwidthPerLevel": 5,
+    "tag": "trc",
+    "hints": ["weapons"],
+    "stats": [
+      {"id": "recoilPerShot", "scalingEffect": -30},
+      {"id": "maxRecoil", "scalingEffect": -20},
+      {"id": "weaponHealth", "scalingEffect": 16},
+      {"id": "weaponTurnRate", "scalingEffect": -20, "startingLevel": 3}
+    ],
+    "resourceRatios": {
+      "hand_weapons": 2.5,
+      "volatiles": 1.0,
+      "rare_metals": 1.0,
+      "heavy_machinery": 2.0
+    }
+  },
+  "DerelictWeaponAssistant": {
+    "name": "Derelict Weapon Assistant",
+    "color": [ 170, 200, 75 ],
+    "bandwidthPerLevel": 10,
+    "spawnChance": 3.0,
+    "salvageChance": 0.1,
+    "tag": "trc",
+    "hints": ["weapons"],
+    "showInStoreIfNotInstalled": false,
+    "chipOnlyInstall": true,
+    "stats": [
+      { "id": "recoilPerShot", "scalingEffect": -30 },
+      { "id": "maxRecoil", "scalingEffect": -30 },
+      { "id": "projectileSpeed", "scalingEffect": 20 },
+      { "id": "ballisticFireRate", "scalingEffect": 10 },
+      { "id": "shieldFluxDam", "scalingEffect": 15, "startingLevel": 3 }
+    ],
+    "resourceRatios": {
+      "hand_weapons": 3.0,
+      "supplies": 2.0,
+      "volatiles": 3.0,
+      "rare_metals": 3.0,
+      "heavy_machinery": 3.0
+    },
+    "valueMult": 3.0
+  },
+  "OversizedMagazines": {
+    "name": "Oversized Magazines",
+    "color": [ 255, 60, 60 ],
+    "bandwidthPerLevel": 5,
+    "tag": "mags",
+    "hints": [ "weapons" ],
+    "stats": [
+      { "id": "ballisticMagazines", "scalingEffect": 25 },
+      { "id": "energyMagazines", "scalingEffect": 25 },
+      { "id": "ballisticFireRate", "scalingEffect": -40 },
+      { "id": "energyFireRate", "scalingEffect": -40 }
+    ],
+    "resourceRatios": {
+      "hand_weapons": 1.5,
+      "rare_metals": 1.5,
+      "heavy_machinery": 2.5
+    }
+  },
+  "InterceptionMatrix": {
+    "name": "Interception Matrix",
+    "color": [ 240, 120, 210 ],
+    "bandwidthPerLevel": 5,
+    "hints": ["weapons"],
+    "stats": [
+      { "id": "damageToMissiles", "scalingEffect": 100 },
+      { "id": "damageToFighters", "scalingEffect": 100 },
+      { "id": "shieldArc", "scalingEffect": -20, "startingLevel": 3 },
+      { "id": "shieldTurnRate", "scalingEffect": -20, "startingLevel": 3 },
+      { "id": "shieldUnfoldRate", "scalingEffect": -20, "startingLevel": 3 }
+    ],
+    "spawnChance": 0.5,
+    "conditions": [
+      { "id": "hasShield", "operator": "==", "expected": true, "cannotApplyReason": "The ship must have a shield." }
+    ],
+    "resourceRatios": {
+      "hand_weapons": 0.5,
+      "metals": 2.0,
+      "rare_metals": 1.0
+    }
+  },
+  "GuidanceComputers": {
+    "name": "Guidance Computers",
+    "tag": "guidancecomputers",
+    "color": [ 120, 220, 110 ],
+    "bandwidthPerLevel": 7.5,
+    "hints": ["weapons"],
+    "stats": [
+      { "id": "missileSpeed", "scalingEffect": 25 },
+      { "id": "missileHealth", "scalingEffect": 20 },
+      { "id": "missileTurnRate", "scalingEffect": 33 },
+      { "id": "missileTurnAcceleration", "scalingEffect": 33, "hidden": true },
+      { "id": "missileDamage", "scalingEffect": -20, "startingLevel": 3 }
+    ],
+    "conditions": [
+      { "id": "missileSlots", "operator": ">=", "expected": 1, "cannotApplyReason": "The ship must have more than one missile slot.", "weight": 0.25, "maxWeight": 1.5 }
+    ],
+    "resourceRatios": {
+      "rare_metals": 0.5,
+      "volatiles": 2.0,
+      "heavy_machinery": 3.0,
+      "hand_weapons": 0.5
+    },
+    "valueMult": 1.25
+  },
+  "AntimatterBoosters": {
+    "name": "Antimatter Boosters",
+    "color": [ 220, 120, 180 ],
+    "bandwidthPerLevel": 5,
+    "spawnChance": 3.0,
+    "salvageChance": 0.1,
+    "tag": "guidancecomputers",
+    "hints": ["weapons"],
+    "showInStoreIfNotInstalled": false,
+    "chipFirstInstall": true,
+    "stats": [
+      { "id": "missileSpeed", "scalingEffect": 25 },
+      { "id": "missileHealth", "scalingEffect": 30 },
+      { "id": "missileRange", "scalingEffect": 20 },
+      { "id": "missileTurnRate", "scalingEffect": -33, "startingLevel": 3 },
+      { "id": "missileTurnAcceleration", "scalingEffect": -33, "hidden": true, "startingLevel": 3 },
+    ],
+    "conditions": [
+      { "id": "missileSlots", "operator": ">=", "expected": 1, "cannotApplyReason": "The ship must have more than one missile slot.", "weight": 0.5, "maxWeight": 1.5 }
+    ],
+    "resourceRatios": {
+      "rare_metals": 0.5,
+      "volatiles": 4.0,
+      "heavy_machinery": 3.0,
+      "hand_weapons": 0.5
+    },
+    "valueMult": 2.0
+  },
+  "ForcedOvertime": {
+    "name": "Forced Overtime",
+    "color": [ 124, 124, 124 ],
+    "bandwidthPerLevel": 5,
+    "spawnChance": 0.6,
+    "hints": ["readiness"],
+    "stats": [
+      { "id": "crRecoveryRate", "scalingEffect": 30 },
+      { "id": "peakPerformanceTime", "scalingEffect": 30 },
+      { "id": "crLossRate", "scalingEffect": -24 },
+      { "id": "crToDeploy", "scalingEffect": 15, "startingLevel": 3 },
+      { "id": "minCrew", "scalingEffect": 25, "startingLevel": 3 }
+    ],
+    "conditions": [
+      { "id": "minimumCrew", "operator": ">", "expected": 0, "cannotApplyReason": "The ship must have a crew." },
+      { "id": "hullmods", "operator": "in", "expected": "safetyoverrides", "weightOnly": true, "weight": 2.0 }
+    ],
+    "resourceRatios": {
+      "supplies": 3.0,
+      "organics": 2.0,
+      "heavy_machinery": 1.5
+    }
+  },
+  "AuxiliarySensors": {
+    "name": "Auxiliary Sensors",
+    "color": [178, 178, 178],
+    "bandwidthPerLevel": 2.5,
+    "spawnChance": 0.75,
+    "hints": ["logistics"],
+    "stats": [
+      {"id": "sensorStrength", "scalingEffect": 50},
+      {"id": "sensorProfile", "scalingEffect": 12, "startingLevel": 8},
+      {"id": "minCrew", "scalingEffect": 16, "startingLevel": 8}
+    ],
+    "resourceRatios": {
+      "rare_metals": 3.0,
+      "metals": 2.0,
+      "heavy_machinery": 3.0
+    }
+  },
+  "InterferenceShielding": {
+    "name": "Interference Shielding",
+    "color": [93, 59, 210],
+    "bandwidthPerLevel": 2.5,
+    "spawnChance": 0.75,
+    "hints": ["logistics"],
+    "stats": [
+      {"id": "sensorProfile", "scalingEffect": -50},
+      {"id": "suppliesPerMonth", "scalingEffect": 16, "startingLevel": 3}
+    ],
+    "resourceRatios": {
+      "rare_metals": 3.0,
+      "metals": 2.0,
+      "volatiles": 1.0,
+      "supplies": 2.5
+    }
+  },
+  "CommissionedCrews": {
+    "name": "Commissioned Crews",
+    "color": [ 230, 200, 25 ],
+    "bandwidthPerLevel": 5,
+    "spawnChance": 0,
+    "hints": ["logistics"],
+    "stats": [
+      { "id": "crewSalary", "scalingEffect": 15, "flat": true },
+      { "id": "suppliesPerMonth", "scalingEffect": -30 },
+      { "id": "repairRateAfterBattle", "scalingEffect": 20 },
+      { "id": "fuelUse", "scalingEffect": -20 },
+      { "id": "suppliesToRecover", "scalingEffect": 20, "startingLevel": 10 }
+    ],
+    "conditions": [
+      { "id": "minimumCrew", "operator": ">", "expected": 0, "cannotApplyReason": "The ship must have a crew." }
+    ],
+    "resourceRatios": {
+      "supplies": 3.0,
+      "volatiles": 1.0,
+      "metals": 2.0,
+      "rare_metals": 1.5,
+      "heavy_machinery": 1.0
+    }
+  },
+  "AssaultWings": {
+    "name": "Assault Wings",
+    "color": [230, 75, 75],
+    "bandwidthPerLevel": 7.5,
+    "hints": ["fighters"],
+    "stats": [
+      {"id": "hull", "scalingEffect": 25, "appliesToFighters": true},
+      {"id": "armor", "scalingEffect": 25, "appliesToFighters": true},
+      {"id": "fluxCapacity", "scalingEffect": 25, "appliesToFighters": true},
+      {"id": "maxSpeed", "scalingEffect": 25, "appliesToFighters": true},
+      {"id": "fighterWingRange", "scalingEffect": -33, "startingLevel": 3}
+    ],
+    "conditions": [
+      { "id": "launchBays", "operator": ">=", "expected": 1, "cannotApplyReason": "The ship needs at least one fighter bay.", "weight": 1.25 }
+    ],
+    "resourceRatios": {
+      "metals": 2.0,
+      "rare_metals": 2.0,
+      "heavy_machinery": 3.0,
+      "supplies": 0.5
+    }
+  },
+  "VelocityInjectors": {
+    "name": "Velocity Injectors",
+    "color": [ 75, 180, 230 ],
+    "bandwidthPerLevel": 7.5,
+    "hints": ["speed"],
+    "stats": [
+      { "id": "maxSpeed", "scalingEffect": 50, "appliesToFighters": true },
+      { "id": "acceleration", "scalingEffect": 50, "appliesToFighters": true },
+      { "id": "deceleration", "scalingEffect": 50, "appliesToFighters": true, "hidden": true },
+      { "id": "turnRate", "scalingEffect": 50, "appliesToFighters": true },
+      { "id": "fluxCapacity", "scalingEffect": -10, "appliesToFighters": true, "startingLevel": 3 },
+      { "id": "hull", "scalingEffect": -20, "appliesToFighters": true, "startingLevel": 3 }
+    ],
+    "conditions": [
+      { "id": "launchBays", "operator": ">=", "expected": 1, "cannotApplyReason": "The ship needs at least one fighter bay.", "weight": 1.25 }
+    ],
+    "resourceRatios": {
+      "volatiles": 3.0,
+      "heavy_machinery": 1.0,
+      "supplies": 0.5
+    }
+  },
+  "WaspDefenseDrones": {
+    "name": "Wasp Defense Drones",
+    "tag": "drones",
+    "color": [ 100, 100, 255 ],
+    "hints": ["drones"],
+    "bandwidthPerLevel": 20,
+    "upgradeClass": "exoticatechnologies.modifications.upgrades.impl.WaspDefenseDrones",
+    "resourceRatios": {
+      "volatiles": 75.0,
+      "heavy_machinery": 75.0,
+      "metals": 200.0,
+      "rare_metals": 75.0,
+      "supplies": 100.0
+    }
+  },
+  "OverclockedFabricators": {
+    "name": "Overclocked Fabricators",
+    "color": [ 200, 255, 210 ],
+    "bandwidthPerLevel": 5,
+    "hints": ["fighters"],
+    "stats": [
+      { "id": "replacementRateRegen", "scalingEffect": 40},
+      { "id": "replacementRateDegen", "scalingEffect": -20},
+      { "id": "fighterRefitTime", "scalingEffect": 20, "startingLevel": 3 }
+    ],
+    "conditions": [
+      { "id": "launchBays", "operator": ">=", "expected": 1, "cannotApplyReason": "The ship needs at least one fighter bay.", "weight": 1.25 }
+    ],
+    "resourceRatios": {
+      "heavy_machinery": 3.0,
+      "metals": 2.0,
+      "supplies": 2.0
+    }
+  },
+  "QuickJets": {
+    "name": "Quick Jets",
+    "color": [ 225, 100, 130 ],
+    "hints": ["speed"],
+    "bandwidthPerLevel": 30,
+    "upgradeClass": "exoticatechnologies.modifications.upgrades.impl.QuickJets",
+    "resourceRatios": {
+      "volatiles": 150.0,
+      "heavy_machinery": 25.0,
+      "metals": 100.0,
+      "rare_metals": 25.0,
+      "supplies": 75.0
+    }
+  },
+  "Kingslayer": {
+    "name": "Kingslayer",
+    "color": [ 120, 0, 0 ],
+    "bandwidthPerLevel": 0,
+    "upgradeClass": "exoticatechnologies.modifications.upgrades.impl.Kingslayer",
+    "showInStoreIfNotInstalled": false,
+    "resourceRatios": {
+      "heavy_machinery": 3.0,
+      "metals": 20.0,
+      "supplies": 6.0
+    }
+  }
+}

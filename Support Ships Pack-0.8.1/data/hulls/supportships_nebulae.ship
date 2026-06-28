@@ -1,0 +1,181 @@
+{
+  "hullName": "Nebulae",
+  "hullId": "supportships_nebulae",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Nebulae.png",
+  "style": "MIDLINE",
+  "height": 187,
+  "width": 104,
+  "center": [52, 99],
+  "collisionRadius": 121,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 118,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "supportships_vent_shields"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 110,
+      "locations": [-34, 38]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -110,
+      "locations": [-34, -38]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 60,
+      "locations": [68.5, 28.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -60,
+      "locations": [68.5, -28.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 70,
+      "locations": [49, 39]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -70,
+      "locations": [49, -39]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [29, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [13, 46]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [13, -46]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [6.5, 46]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [6.5, -46]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-99.5, -12],
+      "length": 92,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 92,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-99.5, 12],
+      "length": 92,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 92,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-94, 22.5],
+      "length": 32,
+      "width": 8,
+      "angle": 170,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-94, -22.5],
+      "length": 32,
+      "width": 8,
+      "angle": -170,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [10, -46.5],
+      "length": 40,
+      "width": 20,
+      "angle": -90,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [10, 46.5],
+      "length": 40,
+      "width": 20,
+      "angle": 90,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    83.5, -46,
+    5, -45.5,
+    -14.5, -30,
+    -28.5, -51.5,
+    -97.5, -20,
+    -97.5, 20,
+    -28.5, 51.5,
+    -14.5, 30,
+    5, 45.5,
+    83.5, 46
+  ]
+}

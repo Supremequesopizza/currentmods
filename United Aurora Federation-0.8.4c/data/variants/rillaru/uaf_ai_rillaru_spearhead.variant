@@ -1,0 +1,81 @@
+{
+    "displayName": "Spearhead",
+    "fluxCapacitors": 5,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "uaf_ai_rillaru",
+    "hullMods": [
+        "targetingunit",
+        "uaf_secondary_focus"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_rillaru_spearhead",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_catun_iii_erg",
+                "WS0002": "uaf_catun_iii_erg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "uaf_clarinet_mirv_small",
+                "WS0015": "uaf_clarinet_mirv_small",
+                "WS0016": "uaf_clarinet_mirv_medium",
+                "WS0017": "uaf_clarinet_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "uaf_rhythm_l_lrm",
+                "WS0021": "uaf_rhythm_l_lrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_catun_ii_erg",
+                "WS0006": "uaf_catun_ii_erg",
+                "WS0009": "uaf_catun_ii_erg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_merupaka_ii_epd",
+                "WS0012": "uaf_enyria_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_merupaka_epd",
+                "WS0005": "uaf_merupaka_epd",
+                "WS0007": "uaf_merupaka_epd",
+                "WS0008": "uaf_merupaka_epd",
+                "WS0010": "uaf_racun_pod",
+                "WS0013": "uaf_racun_pod",
+                "WS0018": "uaf_flair_pod",
+                "WS0019": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_rosea",
+        "uaf_wing_ai_revere"
+    ]
+}

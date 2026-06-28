@@ -1,0 +1,82 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+increased explosion,increased_explosion,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.IncreasedExplosion,Increased explosion radius and damage.,,graphics/hullmods/reduced_explosion.png
+Scrappin,ork_redfasta,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.ork_redfasta,"Due to their love for battle, orks will begin fighting even harder as their ship takes damage.",,graphics/hullmods/red_fasta.png
+Degraded Targeting Core,degradedcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DegradedTargetingCore,"Salvaged from the corpse of a paragon, this targeting core has lost it's peak abilities, but is nonetheless very powerful.
+
+Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.
+
+Precludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",Greatly extends non-missile weapon range.,graphics/hullmods/degraded_targeting_core.png
+Bultach Construction,ork_rugged,,,,,,,,TRUE,,0,0,0,0,data.hullmods.ork_rugged,"Made by the Bultach Coalition to last many battles, their ships are exceptionally easy to recover even after being destroyed in combat.",Ship almost always recoverable if lost.,graphics/hullmods/junk_construction.png
+Low Maintenance,Ork_low_Maintenance,,,Bultach Coalition,,,,,TRUE,,0,0,0,0,data.hullmods.Ork_low_Maintenance,Decreases the monthly maintenance supply cost by %s.,Decreases maintenance cost.,graphics/hullmods/low_maintenance.png
+Bultach shields Changer,BT_shieldsChanger,0,,Bultach Coalition,defensive,0,,,TRUE,TRUE,0,0,0,0,data.hullmods.BT_shieldsChanger,,Shield Changer,graphics/hullmods/low_maintenance.png
+,,,,,,,,,,,,,,,,,,
+Shockwave Negating Armor,BT_antiNuke,1,,Bultach Coalition,defensive,,5000,,,,4,9,15,22,data.hullmods.BT_antiNuke,"An expensive, thorough upgrade to the ship's armor in order to let it better resist explosions or impacts of particularly massive size. Singular impacts dealing above 4000 damage will be negated by 70 percent. Often used when facing targets using doomsday weapons, as it offers no other benefits whatsoever.",Decreases single-hit damage above 4000 by 70 percent.,graphics/hullmods/reduced_explosion.png
+,,,,,,,,,,,,,,,,,,
+Ramming Suite,bt_ramming_suite,,,Bultach Coalition,defensive,,,,TRUE,,0,0,0,0,data.hullmods.bt_ramming_suite,"A robust, protective design standard of the Bultach Coalition's ramming vessels. Reduces casualties in combat by %s. If disabled or destroyed in combat, the ship has a %s chance to avoid new d-mods, and is almost always recoverable after the battle.
+
+In addition, the supply cost to recover from deployment - and to effect repairs if the ship is disabled - is reduced by %s.","Prevents crew casualties, almost always able to be recovered.",graphics/hullmods/bt_ramming_suite.png
+,,,,,,,,,,,,,,,,,,
+Extensive Missile Racks,ExtensiveMissileRacks,,,,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.ExtensiveMissileRacks,"Due to this salvage sporeship's vast hull, a massive amount of missiles can be stored. Increases the ammo capacity of missile weapons by %s.",Massively increases missile weapon ammo.,graphics/hullmods/expanded_missile_racks.png
+Massive Vessel,BT_antiNukeHidden,1,,Bultach Coalition,defensive,,5000,,TRUE,TRUE,0,0,0,0,data.hullmods.BT_antiNuke,"An expensive, thorough upgrade to the ship's armor in order to let it better resist explosions or impacts of particularly massive size. Often used when facing targets using doomsday weapons, as it offers no other benefits whatsoever. Reduces damage above a threshold of 4500 by 70 percent.",Decreases single-hit damage above 4000 by 70 percent.,graphics/hullmods/reduced_explosion.png
+EMP Resistant Plating,BT_AntiEmpArmor,,,Bultach Coalition,defensive,"Special, Defenses",7000,,TRUE,,3,6,9,15,data.hullmods.BT_AntiEmpArmor,Decreases the amount of damage taken from EMP weapons (such as Ion Cannons) by %s.,Reduces EMP damage taken.,graphics/hullmods/resistant_flux_conduits.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Gestalt Hull,bt_gestalt_automation,,,Gestalt,,,,,TRUE,,0,0,0,0,data.hullmods.bt_gestalt_automation,"This hull is almost an utter mystery in it's design and capabilities, but still somewhat in-line with other automated ship design. ",,graphics/hullmods/bt_gestalt_automation.png
+Divine Core,bt_divine_core,,,Gestalt,,,,,TRUE,,0,0,0,0,data.hullmods.bt_divine_core,"Despite their best efforts, your engineers are utterly baffled by the enigmatic nature of this ship's core-- if not entirely refusing to come anywhere near it.",,graphics/hullmods/bt_divine_core.png
+,,,,,,,,,,,,,,,,,,
+Gestalt drone afterimages,bt_gestalt_drone_afterimages,0,,Gestalt,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_gestalt_drone_afterimages,,Spawns afterimages.,graphics/hullmods/low_maintenance.png
+Gestalt Vortex,bt_gestalt_vortex,0,,Gestalt,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_gestalt_vortex,,Spawns afterimages.,graphics/hullmods/low_maintenance.png
+Gestalt Portal,bt_drone_construction_fx,0,,Gestalt,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_drone_construction_fx,,Spawns afterimages.,graphics/hullmods/low_maintenance.png
+,,,,,,,,,,,,,,,,,,
+Bio-synth Vessel,bt_murtach_syntharmor,,,Unknown,,,,,TRUE,,0,0,0,0,data.hullmods.bt_murtach_syntharmor,"Though utterly enigmatic, the unique makeup of this vessel allows it a host of unusual, but undeniable benefits.",,graphics/icons/hullsys/temporal_shell.png
+Murtach Buff Stuff,bt_murtach_tempbuff,,,Unknown,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_MurtachTempBuffControllerHullmod,Stuff!,,graphics/icons/hullsys/temporal_shell.png
+,,,,,,,,,,,,,,,,,,
+Bultach shield zaps,bt_shieldArching,0,,Bultach Coalition,defensive,0,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_shieldArching,,Shield Changer,graphics/hullmods/low_maintenance.png
+Linked Hull,BT_linkedhull,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.BT_LinkedHull,Mirrors certain aspects between the parent and child hulls.,,graphics/hullmods/vast_bulk.png
+Linked Shield Modules,bt_sathar_linkedshields,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_sathar_linkedshields,Shield modules share behavior and flux pool.,,graphics/hullmods/vast_bulk.png
+,,,,,,,,,,,,,,,,,,
+HULLMOD CONFLICT,IncompatibleHullmodWarning,,,,,,,,TRUE,,0,0,0,0,data.hullmods.IncompatibleHullmodWarning,"%s, the hullmod you tried to install conflicts with this hull or another previously installed hullmod.","%s, the hullmod you tried to install conflicts with this hull or another previously installed hullmod.",graphics/icons/intel/investigation.png
+,,,,,,,,,,,,,,,,,,
+Cramped Flight Deck,BT_CrampedFlightDeck,,,Bultach Coalition,,,,,TRUE,,0,0,0,0,data.hullmods.BT_CrampedFlightDeck,"The flight decks on this ship are exceptionally cramped due to the size of the vessel. Causes interfere with normal operation. Time to launch replacement fighters is increased by %s.
+",,graphics/hullmods/converted_hangar.png
+Linked Hull TWO,BT_linkedhull_two,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.BT_LinkedHull_two,Mirrors certain aspects between the parent and child hulls.,,graphics/hullmods/vast_bulk.png
+Linked Hull THREE,BT_linkedhull_three,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.BT_LinkedHull_three,Mirrors certain aspects between the parent and child hulls.,,graphics/hullmods/vast_bulk.png
+Nadhmòr Ballistic Suite,bt_nadhmor_suite,,,Bultach Coalition,,,,,TRUE,,0,0,0,0,data.hullmods.bt_nadhmor_suite,"The streamlined ballistic suite of the Nadhmor effortlessly integrates most ballistics quite well. However, the advanced hardware possesses a mere hint of modularity, and the wing hardpoints will accept missile weapons, with some fuss from the flux grid.
+
+The following only applies to weapons in %s mounts.
+
+%s Weapons:
+The total spent ordinance points (%s) multiplied by 8 and added to flux dissipation.
+Total dissipation: %s
+",,graphics/icons/skills/ranged_specialization.png
+Blast Dampeners,bt_stolen_blastdampeners,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_stolen_blastdampeners,Decreases the amount of damage taken from adjacent exploding ships by %s.,Decreases damage taken from death explosions.,graphics/hullmods/reduced_explosion.png
+,,,,,,,,,,,,,,,,,,
+Bultach Targeting Core,bt_sathar_core,,,Bultach Coalition,,,,,TRUE,,0,0,0,0,data.hullmods.bt_sathar_core,"While begrudingly admitted to be slightly inferior to it's Tri-tachyon made counterpart due the demand of such a large ship, this targeting core is nonetheless very powerful.
+
+Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.
+
+Precludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",Greatly extends non-missile weapon range.,graphics/hullmods/bt_sathar_core.png
+,,,,,,,,,,,,,,,,,,
+High Stress Reactor,bt_offensive_core,,,Bultach Coalition,,,,,TRUE,,0,0,0,0,data.hullmods.bt_noSO,"Bultach's hyper-aggression line of ships strain their reactor immensely in combat. Due to their nature, Safety Overrides cannot be installed on these vessels.",Forbids the installation of Safety Overrides.,graphics/hullmods/bt_highstress_reactor.png
+,,,,,,,,,,,,,,,,,,
+Puncher,bt_puncher,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_puncher,,,
+,,,,,,,,,,,,,,,,,,
+Brawler Carapace,bt_brawler_armour,,,,,,,,TRUE,,0,0,0,0,data.hullmods.bt_brawler_carapace,"Distinctive and unique to the Despot, the Brawler Carapace vastly negates and absorbs the disrupting effects of %s upon it's armor.
+
+The armour overlaps it's weapons and engines, reducing EMP damage by %s. However, due to the unique nature of the armor-- and no guarantee from your engineering team that it's integrity would be retained with modification, %s.",Heavy armour that stops a disproportionate amount of EMP damage.,
+,,,,,,,,,,,,,,,,,,
+Bultach shields Changer TWO,BT_shieldsChanger_Gestalt,0,,Bultach Coalition,defensive,0,,,TRUE,TRUE,0,0,0,0,data.hullmods.BT_shieldsChanger_Gestalt,,Shield Changer,graphics/hullmods/low_maintenance.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Combat-Core,bt_triumph_combatmodes,,,,,,,,TRUE,,0,0,0,0,data.hullmods.bt_triumph_combatmodes,"This ship can switch between cruise mode to manuever quickly, or battle mode for increased combat capabilities. Switching takes %s before the mode's full effects are reached.",Can swap modes to improve speed or staying power.,graphics/icons/skills/ranged_specialization.png
+,,,,,,,,,,,,,,,,,,
+DornDeployBuff,bt_dread_discount,0,,Bultach Coalition,defensive,0,,,TRUE,TRUE,0,0,0,0,data.hullmods.bt_dread_discount,,DP discount for the Dorn. You shouldn't see this.,graphics/hullmods/low_maintenance.png
+,,,,,,,,,,,,,,,,,,
+#Sathar weps,,,,,,,,,,,,,,,,,,
+Sathar Weapon Swapper,bt_variable_sathar_mode,,,Bultach Coalition,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.BT_Sathar_Swapper,Allows you to change weapons on the Sathar.,Variable weapon selection. You shouldn't see this in-game.,graphics/hullmods/sgr_artillery.png
+Furaidh Siege Laser,bt_sathar_mode_siege_laser,,,Bultach Coalition,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.combat.BaseHullMod,Installs an incredibly powerful energy blaster as the main armament. Removing this hullmod swaps the weapon to the next.,Energy Burst Laser.,graphics/hullmods/sgr_laser.png
+Chaneilgin Artillery,bt_sathar_mode_gigashotgun,,,Bultach Coalition,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.combat.BaseHullMod,Installs a long range artillery cannon as the main armament. Removing this hullmod swaps the weapons to the next.,HE Artillery.,graphics/hullmods/sgr_artillery.png
+Tonnas Motha Torpedo,bt_sathar_mode_emp_nuke,,,Bultach Coalition,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.combat.BaseHullMod,Installs a massive strike torpedo as the main armament. Removing this hullmod swaps the weapon to the next.,Nuclear Deterrent.,graphics/hullmods/sgr_nuke.png
+Tuiltean Howitzer,bt_sathar_mode_doom_laser,,,Bultach Coalition,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.combat.BaseHullMod,"Installs a massive, destructive beam as the main armament. Removing this hullmod swaps the weapon to the next.",Destructive Howitzer.,graphics/hullmods/sgr_doom.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

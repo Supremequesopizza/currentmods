@@ -1,0 +1,72 @@
+{
+    "displayName": "Patrol",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_m_shinoria",
+    "hullMods": [
+        "targetingunit",
+        "recovery_shuttles"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_m_shinoria_patrol",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_tona_iii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_oboe_mirv_medium",
+                "WS0008": "uaf_oboe_mirv_medium",
+                "WS0012": "uaf_clarinet_mirv_medium",
+                "WS0017": "uaf_clarinet_mirv_small",
+                "WS0018": "uaf_clarinet_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_flair_pod",
+                "WS0006": "uaf_flair_pod",
+                "WS0010": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina",
+                "WS0003": "uaf_weiss_flk",
+                "WS0004": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_neoscar"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_exoria",
+    "hullMods": [
+        "uaf_reserve_wing_operation",
+        "recovery_shuttles"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_exoria_superiority",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_rhythm_base_triple",
+                "WS0004": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_flk",
+                "WS0002": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina",
+                "WS0006": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_forlorn",
+        "uaf_wing_m_forlorn",
+        "uaf_wing_m_superaria"
+    ]
+}

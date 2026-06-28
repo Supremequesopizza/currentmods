@@ -1,0 +1,57 @@
+{
+  "variantId": "anvil_wraith_support",
+  "hullId": "anvil_wraith",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "anvil_voodoo_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "anvil_hielo",
+        "WS0007": "atropos",
+        "WS0008": "atropos",
+        "WS0010": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "anvil_fuego",
+        "WS0006": "anvil_fuego"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_plasma",
+        "WS0004": "anvil_plasma"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "anvil_delusion"
+  ]
+}

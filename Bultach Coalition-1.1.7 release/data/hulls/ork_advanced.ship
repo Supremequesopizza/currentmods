@@ -1,0 +1,145 @@
+{
+  "hullName": "Guh",
+  "hullId": "ork_advanced",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/how.png",
+  "style": "LOW_TECH",
+  "height": 172,
+  "width": 104,
+  "center": [52, 86],
+  "collisionRadius": 122,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 112.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 115,
+      "locations": [-21, 41]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -115,
+      "locations": [-21, -41]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [32, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 90,
+      "locations": [14, 26.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": -90,
+      "locations": [14, -26.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [43.5, 25]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [43.5, -25]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 4,
+      "angle": 0,
+      "locations": [72.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58, 14],
+      "length": 79.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-58, -14],
+      "length": 79.5,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-60, 34.5],
+      "length": 58,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-60, -34.5],
+      "length": 58,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -56.5, -7,
+    -56, -30.5,
+    -68.5, -51,
+    -18, -49,
+    0, -32.5,
+    15, -36.5,
+    38.5, -31.5,
+    73.5, -11.5,
+    73.5, 11.5,
+    38.5, 31.5,
+    15, 36.5,
+    0, 32.5,
+    -18, 49,
+    -68.5, 51,
+    -56, 30.5,
+    -56.5, 7,
+    -83, -0.5
+  ]
+}

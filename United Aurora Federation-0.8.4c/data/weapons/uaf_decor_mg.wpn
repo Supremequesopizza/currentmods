@@ -1,0 +1,40 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundOne": "thumper_spinup",
+  "fireSoundTwo": "uaf_decor_mg",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    9.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/fighter_cannon.png",
+  "id": "uaf_decor_mg",  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 5,
+    "particleColor": [100,165,255,175],
+    "particleCount": 7,
+    "particleDuration": 0.15,
+    "particleSizeMin": 1,
+    "particleSizeRange": 2,
+    "spread": 6
+  },
+  "projectileSpecId": "uaf_pu_pd_sm",
+
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretSprite": "graphics/weapons/fighter_cannon.png",
+  "type": "BALLISTIC"
+}

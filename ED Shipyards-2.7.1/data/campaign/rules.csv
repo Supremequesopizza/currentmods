@@ -1,0 +1,34 @@
+id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME EDShipyards",,,,,,
+edshipyard_DestroyTheWurg_rule,edshipyard_DestroyTheWurg_completion_trigger,,"WurgandalRevengeFleetBountyCommand",,,
+edshipyard_Chupacabra_HVB_rule,edshipyard_Chupacabra_HVB_completion_trigger,,"ChupacabraAmbushFleetsBountyCommand",,,
+edshipyard_DestroyTradeFleet_rule,edshipyard_DestroyTradeFleet_trigger,,"DestroyTradeFleetBountyCommand",,,
+,,,,,,
+# Distress Call,,,,,,
+edshipyard_dstr_normalStart,BeginFleetEncounter,"!$isHostile
+$edshipyard_distress score:1000
+!$edshipyard_distressNoHail","AddText ""You're being hailed."" $faction.baseColor
+$hailing = true 0
+$edshipyard_distressNoHail = true",,,
+edshipyard_dstr_openComms,OpenCommLink,"!$isHostile
+!$entity.ignorePlayerCommRequests
+!$entity.edshipyard_distressThankYou
+$entity.edshipyard_distress score:1000","$entity.ignorePlayerCommRequests = true
+AddText ""\""Thank goodness, a friendly face.""
+AddText ""We were returning home and picked up a distress signal, probably the same one you saw.  After jumping into system it was clear the signal origin was this derelict.  We were running ahead of schedule so we thought we’d risk salvaging, calculating if anything came up on sensors we’d just run for it given how close we are to the jump point.  What we hadn’t counted on was the derelict being rigged with an interdiction trap. The trap shorted our jump computer, so while that’s cycling we’re stuck here.\""""
+AddText ""Muffled shouting is heard from behind the captain and his eyes flick to a different screen. The Captain then turns to an officer, says something and their bridge’s lighting flips to red.  Turning back to you the Captain says \""We're reading an inbound hostile fleet, our jump computer isn't online yet so we'll have to fight.  If we do this together we can probably survive.  We're transmitting IFF codes now, please help us.\""""
+eds_SpawnDistressAmbushFleetCommand
+EndConversation",,,
+edshipyard_dstr_aidOptions,edshipyard_DCallShowAidOptions,,,,"edshipyard_dstr_goodLuck:""You're on your own, good luck.""
+edshipyard_dstr_help:""We're ready to provide assistance!""",
+edshipyard_dstr_goodLuck,DialogOptionSelected,$option == edshipyard_dstr_goodLuck,"FireAll PopulateOptions
+EndConversation NO_CONTINUE",,,
+edshipyard_dstr_help,DialogOptionSelected,"$option == edshipyard_dstr_help","FireAll PopulateOptions
+EndConversation NO_CONTINUE",,,
+edshipyard_dstr_thankYou,OpenCommLink,"!$isHostile
+$entity.edshipyard_distressThankYou score:1000","$entity.edshipyard_distressThankYou = false
+$entity.ignorePlayerCommRequests = true
+AddText ""Thank you for coming to our aid. We wouldn't have survived without you.""
+EndConversation",,,
+"#END Distress Call",,,,,,
+

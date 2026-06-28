@@ -1,0 +1,33 @@
+{
+    "displayName": "Patrol",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_m_minoria",
+    "hullMods": [
+        "uaf_super_heavy_wing_operation",
+        "recovery_shuttles"
+    ],
+    "quality": 0.7,
+    "variantId": "uaf_m_minoria_patrol",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_ivory"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_deco_mg",
+                "WS0002": "uaf_deco_mg"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_neoscar"
+    ]
+}

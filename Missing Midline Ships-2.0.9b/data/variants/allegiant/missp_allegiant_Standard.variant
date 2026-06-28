@@ -1,0 +1,49 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 12,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "missp_allegiant",
+    "hullMods": [
+        "expanded_deck_crew",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_allegiant_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "pilum",
+                "WS0013": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pdburst",
+                "WS0002": "pdburst",
+                "WS0003": "lrpdlaser",
+                "WS0004": "lrpdlaser",
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "pdburst",
+                "WS0009": "pdburst",
+                "WS0010": "heavymg",
+                "WS0011": "heavymg",
+                "WS0014": "dualflak",
+                "WS0015": "dualflak"
+            }
+        }
+    ],
+    "wings": [
+        "missp_claymore_wing",
+        "longbow_wing",
+        "trident_wing",
+        "trident_wing"
+    ]
+}

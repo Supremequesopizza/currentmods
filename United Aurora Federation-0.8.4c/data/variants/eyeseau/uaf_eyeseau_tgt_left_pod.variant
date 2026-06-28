@@ -1,0 +1,14 @@
+{
+  "variantId": "uaf_eyeseau_left_tgt_pod",
+  "hullId": "uaf_eyeseau_left_tgt",
+  "displayName": "Targeting Pod",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

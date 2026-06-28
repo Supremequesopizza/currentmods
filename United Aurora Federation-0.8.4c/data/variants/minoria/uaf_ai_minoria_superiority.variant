@@ -1,0 +1,42 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 2,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_ai_minoria",
+    "hullMods": [
+        "uaf_light_wing_operation",
+        "uaf_special_emergency_automated_assistance",
+        "recovery_shuttles"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_ai_minoria_superiority",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_chorus_m_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_merupaka_epd",
+                "WS0002": "uaf_merupaka_epd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_weiss_flk",
+                "WS0005": "uaf_weiss_flk"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_naga"
+    ]
+}

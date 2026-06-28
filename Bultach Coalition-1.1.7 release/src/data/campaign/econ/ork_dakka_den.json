@@ -1,0 +1,87 @@
+{
+  "starSystem":"ork_Dakka_Den",
+  "markets":[
+    {
+      "entities":["dregruk"],
+      "faction":"orks",
+      "size":5,
+      "freePort":false,
+
+      "startingConditions":[
+        "population_5",
+        "ork_wardrive",
+        "no_atmosphere",
+        "hot",
+        "ore_rich",
+        "rare_ore_moderate"
+      ],
+
+      "industries":[
+        "population",
+        "ork_prevent_pather",
+        "spaceport",
+        "mining",
+        "heavybatteries",
+        "militarybase",
+        "heavyindustry",
+        "battlestation",
+        "waystation"
+      ]
+    },
+
+    {
+      "entities":["bt_siphon_station"],
+      "faction":"orks",
+      "size":4,
+      "freePort":false,
+
+      "startingConditions":[
+        "population_4",
+        "ork_wardrive",
+        "volatiles_abundant"
+      ],
+
+      "industries":[
+        "population",
+        "ork_prevent_pather",
+        "spaceport",
+        "mining",
+        "heavybatteries",
+        "patrolhq",
+        "orbitalstation",
+        "fuelprod",
+        "waystation"
+      ]
+    },
+
+    {
+      "entities":["gathrog"],
+      "faction":"orks",
+      "size":7,
+      "freePort":false,
+
+      "startingConditions":[
+        "population_7",
+        "ork_wardrive",
+        "hot",
+        "no_atmosphere",
+        "ore_moderate",
+        "regional_capital",
+        "rare_ore_rich"
+      ],
+
+      "industries":[
+        "population",
+        "ork_prevent_pather",
+        "megaport",
+        "mining",
+        "bt_algae_farms",
+        ["orbitalworks", "bt_repaired_c_nanoforge"],
+        "heavybatteries",
+        "highcommand",
+        "starfortress",
+        "waystation"
+      ]
+    }
+  ]
+}

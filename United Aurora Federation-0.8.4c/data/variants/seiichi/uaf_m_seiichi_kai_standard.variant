@@ -1,0 +1,55 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 13,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "uaf_m_seiichi_kai",
+    "hullMods": [
+        "targetingunit",
+        "auxiliarythrusters",
+        "ballistic_rangefinder",
+        "fluxbreakers"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_m_seiichi_kai_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_selemene_m_mrm",
+                "WS0006": "uaf_clemente_s_mrm_double"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_medlav_dual",
+                "WS0002": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_ivory",
+                "WS0004": "uaf_ivory"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_weiss_flk",
+                "WS0008": "uaf_pd_reina",
+                "WS0009": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

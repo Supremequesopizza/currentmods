@@ -1,0 +1,43 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 6,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "uaf_novayu",
+    "hullMods": [
+        "missleracks",
+        "eccm"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_novayu_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_exoscar_torpedo_base",
+                "WS0002": "uaf_exoscar_torpedo_base_shield"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_amazoch_s_asrm_single",
+                "WS0004": "uaf_amazoch_s_asrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

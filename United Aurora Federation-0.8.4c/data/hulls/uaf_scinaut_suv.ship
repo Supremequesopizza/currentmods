@@ -1,0 +1,220 @@
+{
+  "hullName": "Scinaut SUV",
+  "hullId": "uaf_scinaut_suv",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Scinaut_SUV.png",
+  "style": "UAF_CRUISER",
+  "height": 307,
+  "width": 214,
+  "center": [107, 148.5],
+  "collisionRadius": 195,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 175,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "civgrade",
+    "repair_gantry",
+    "surveying_equipment"
+  ],
+  "builtInWeapons": {
+    "RADAR_SMALL": "uaf_neuxoria_radar_small_1",
+    "RADAR_SMALL_2": "uaf_neuxoria_radar_small_2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-37, -44.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-37, 43.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-109, 23.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-109, -23.5]
+    },
+    {
+      "id": "RADAR_SMALL_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [100, -15.5]
+    },
+    {
+      "id": "RADAR_SMALL",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [41.5, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [13, 39.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [13, -39.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 139.5,
+      "locations": [-80, 36]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -139.5,
+      "locations": [-80, -36]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-118.5, 36],
+      "length": 59,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-118.5, -36],
+      "length": 59,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-125.5, 27],
+      "length": 65,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-125.5, -27],
+      "length": 65,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-89.5, 51.5],
+      "length": 38,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-89.5, -51.5],
+      "length": 38,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-89, 56.5],
+      "length": 38,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-89, -56.5],
+      "length": 38,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-89.5, 62.5],
+      "length": 38,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-89.5, -62.5],
+      "length": 38,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    96, 9.5,
+    41.5, 34,
+    41.5, 47.5,
+    6, 53.5,
+    -1, 64,
+    -42.5, 69,
+    -96, 69,
+    -100.5, 46,
+    -116, 43.5,
+    -146, 14,
+    -146, -14,
+    -116, -43.5,
+    -100.5, -46,
+    -96, -69,
+    -42.5, -69,
+    -1, -64,
+    6, -53.5,
+    41.5, -47.5,
+    41.5, -34,
+    96, -9.5
+  ]
+}

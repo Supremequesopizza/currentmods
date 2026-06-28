@@ -1,0 +1,14 @@
+{
+  "variantId": "ork_thrasher_btmr_armor_standard",
+  "hullId": "ork_thrasher_btmr_armor",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

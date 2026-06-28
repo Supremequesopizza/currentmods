@@ -1,0 +1,59 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 9,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "uaf_inazuma",
+    "hullMods": [
+        "uaf_special_edge_capacitor_retrofit",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_inazuma_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_rotan_452_cn",
+                "WS0009": "uaf_rotan_452_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_hikone_quad",
+                "WS0003": "uaf_shimata_155_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_pd_reina",
+                "WS0007": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_triyia_pdx",
+                "WS0005": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": { }
+        }
+    ]
+}

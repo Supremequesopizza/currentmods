@@ -1,0 +1,51 @@
+{
+    "displayName": "Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "missp_allegiant",
+    "hullMods": [
+        "expanded_deck_crew",
+        "missleracks",
+        "ecm",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_allegiant_Fighter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "harpoonpod",
+                "WS0011": "harpoonpod",
+                "WS0012": "harpoonpod",
+                "WS0013": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lrpdlaser",
+                "WS0002": "lrpdlaser",
+                "WS0003": "lrpdlaser",
+                "WS0004": "lrpdlaser",
+                "WS0005": "pdburst",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "pdburst",
+                "WS0009": "pdburst",
+                "WS0014": "dualflak",
+                "WS0015": "dualflak"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing",
+        "warthog_wing",
+        "warthog_wing"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "uaf_yrn_mooparia_module_superiority",
+  "hullId": "uaf_yrn_mooparia_module",
+  "displayName": "Superiority",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_reserve_wing_operation",
+    "ecm",
+    "recovery_shuttles",
+    "uaf_special_emergency_automated_assistance"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_triyia_pdx"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_ai_naga",
+    "uaf_wing_ai_naga",
+    "uaf_wing_m_forlorn",
+    "uaf_wing_m_forlorn"
+  ]
+}

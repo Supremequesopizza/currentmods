@@ -1,0 +1,49 @@
+{
+  "variantId": "ork_spacehulk_standard",
+  "hullId": "ork_spacehulk",
+  "displayName": "Horror",
+  "goalVariant": true,
+  "fluxCapacitors": 27,
+  "fluxVents": 48,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "hellbore",
+        "WS0004": "ork_garbage_catapult",
+        "WS0006": "gauss",
+        "WS0007": "devastator",
+        "WS0010": "vulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0005": "big_thruster_standard"
+    },
+    {
+      "WS0016": "stuff_left_standard"
+    },
+    {
+      "WS0017": "stuff_right_standard"
+    },
+    {
+      "WS0018": "front_right_standard"
+    },
+    {
+      "WS0019": "front_left_standard"
+    }
+  ],
+  "wings": [
+    "talon_wing"
+  ]
+}

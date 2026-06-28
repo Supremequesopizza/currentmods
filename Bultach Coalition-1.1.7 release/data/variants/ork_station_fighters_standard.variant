@@ -1,0 +1,36 @@
+{
+  "variantId": "ork_station_fighters_standard",
+  "hullId": "ork_station_fighters",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "ork_plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "ork_rotary_pd",
+        "WS 004": "ork_rotary_pd",
+        "WS 005": "ork_rotary_pd_small",
+        "WS 012": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ork_heavy_fighter",
+    "ork_light_fighter",
+    "ork_bomber"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "displayName": "Exalted",
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "goalVariant": true,
+  "hullId": "anvil_eerie",
+  "hullMods": [
+    "hardened_subsystems"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_eerie_exalted",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_fuego"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "anvil_aire",
+        "WS0004": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_varna",
+        "WS0005": "anvil_varna"
+      }
+    }
+  ],
+  "wings": []
+}

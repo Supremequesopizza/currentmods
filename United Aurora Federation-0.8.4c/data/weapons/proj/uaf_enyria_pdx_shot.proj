@@ -1,0 +1,14 @@
+{
+	"id":"uaf_enyria_pdx_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":40,
+	"hitGlowRadius":3,
+	"width":2.3,
+	"fadeTime":0.20,
+	"fringeColor":[85,60,225,125],
+	"coreColor":[235,175,235,125],
+	"onHitEffect":"data.scripts.weapons.uaf_enyria_pdx_onhit",
+}

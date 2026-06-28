@@ -1,0 +1,55 @@
+{
+  "id": "armaa_record_head",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/armaa/ships/recordbreaker/armaa_recordHead.png",
+  "turretGlowSprite": "graphics/armaa/ships/recordbreaker/armaa_recordheadglow.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    255,
+    155,
+    155
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    3.5,
+    1.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    4,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    0,
+    0,
+    255
+  ],
+  "coreColor": [
+    255,
+    0,
+    0,
+    255
+  ],
+  "darkCore": true,
+  "width": 2,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 135,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundTwo": "high_intensity_laser_loop"
+}

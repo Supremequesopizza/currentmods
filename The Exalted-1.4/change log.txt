@@ -1,0 +1,85 @@
+V:1.4: DO YOU FEEL BUFF? BECAUSE I DO!
+
+general changes:
+fixed several typos/mistakes in descriptions 
+removed heavy burst laser from known weapons (plasma morter taking its spot)
+added hielo heavy shredder
+added trueno bolt gun
+removed geist
+removed witch
+removed plague
+
+ship systems:
+
+possession:
+added shimmer visual effect
+increased active time from 4 to 8 seconds
+increased cooldown time from 5 to 15 deconds
+changed AI_TYPE tag from MANEUVERING_JETS to WEAPON_BOOST
+
+weapons:
+
+updated shot/glow colors of fuego, agua, tierra and aire weapons
+
+plasma mortar:
+now acts as a point defence weapon
+increased flux per shot from 370 to 400
+decreased range from 450 to 350
+
+aire burst laser:
+decreased sound volume
+decreased chargeup from 1 to 0.7
+decreased flux per shot from 25 to 20
+decreased weapon market tier allowing more common spawns in markets and easier access
+
+fuego blaster:
+decreased flux per shot from 65 to 60
+decreased weapon market tier allowing more common spawns in markets and easier access
+
+agua blaster:
+decreased chargedown from 0.5 to 0.4
+decreased flux per shot from 130 to 110
+increased max range from 450 to 500
+decreased weapon market tier allowing more common spawns in markets and easier access
+
+tierra burst cannon:
+increased flux per shot from 400 to 450
+
+varna PD laser:
+increased flux per shot from 4 to 5
+
+ship changes:
+
+apparition:
+edited sprite to be less bright at the front
+
+vampire:
+increased max flux from 5900 to 6500
+increased max dissipation from 350 to 450
+
+spirit:
+increased max flux from 3100 to 3300
+increased max dissipation from 170 to 200
+
+wraith:
+increased max flux from 11700 to 14000
+increased max dissipation from 700 to 850
+increased max speed from 60 to 75
+increased max burn from 7 to 8
+
+lich:
+increased max flux from 12700 to 13400
+
+odyssey (EX): making the super ship super
+increased shield efficiency from 0.7 to 0.6
+increased sheild arc from 90 to 120
+prototype emp reactor no longer prevents weapon fire
+increased range of prototype emp reactor arcs from 900 to 1000
+decreased sprite saturation
+
+nightmare:
+increased max flux from 11000 to 13000
+
+non (EX) variants of hoshiko and cielo:
+changed tech/manufacturer from exalted to hightech 
+fixed not spawning in independent fleets

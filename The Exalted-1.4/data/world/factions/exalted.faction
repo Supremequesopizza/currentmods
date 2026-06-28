@@ -1,0 +1,198 @@
+{
+	id:"exalted",
+	"color":[149, 118, 196,255],
+	"secondaryUIColor":[0, 255, 208,155],
+    "secondarySegments":5,
+	"baseUIColor":[149, 118, 196,255],
+	"displayName":"Exalted",
+	"displayNameWithArticle":"The Exalted",
+	"displayNameLong":"Exalted",
+	"displayNameLongWithArticle":"The Exalted",
+	"entityNamePrefix":"Exalted",
+	"personNamePrefix":"Exalted",
+	"personNamePrefixAOrAn":"an",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/anvil_exalted_flag.png",
+	"crest":"graphics/factions/anvil_exalted_crest.png",
+	"shipNamePrefix":"ESS",
+	"shipNameSources":{
+		"EGYPTIAN":4,
+		"CELTIC":2,
+		"JAPANESE":1,
+		"NORDIC":1,
+	},
+	"description":"",
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		#"tags":{},
+		"hulls":{"anvil_lich":4, "gremlin":0},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "keruvim_bp", "hightech_bp", "exalted_bp"],
+		#"hulls":[],
+	},
+	"knownShips":{
+		"tags":["base_bp", "exalted_bp"],
+		"hulls":["anvil_wendigo", "anvil_nightmare", "phantom", "revenant"],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["exalted_bp"],
+		#"hulls":[],
+	},
+	"knownFighters":{
+		"tags":["hightech_bp", "exalted_bp"],
+		#"fighters":[],
+	},
+	"priorityFighters":{
+		#"tags":[],
+		#"fighters":[],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "exalted_weapon_bp"],
+		"weapons":["atropos", "heatseeker", "breach", "breachpod", "harpoon", "harpoonpod", "pilum", "cyclone", "typhoon", "reaper", "hurricane", "locust", "ioncannon", "heavyblaster", "ionpulser", "autopulse", ],
+	},
+	"priorityWeapons":{
+		"tags":["exalted_bp"],
+		#"weapons":[],
+	},
+	"knownHullMods":{
+		"tags":["base_bp"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":1,
+		"shipQuality":2,
+		"numShips":4,
+		
+		"shipSize":3,
+		
+		"aggression":4,
+		
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"organs",
+		"hand_weapons",
+	],
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/anvil_portrait_exalted01.png",
+			"graphics/portraits/anvil_portrait_exalted02.png",
+			"graphics/portraits/anvil_portrait_exalted03.png",
+
+		],
+		"standard_female":[
+			"graphics/portraits/anvil_portrait_exalted01.png",
+			"graphics/portraits/anvil_portrait_exalted02.png",
+			"graphics/portraits/anvil_portrait_exalted03.png",
+
+		],
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Trader Convoy",
+		"tradeLiner":"Logistics Convoy",
+		"tradeSmuggler":"Smuggler",
+		"smallTrader":"Delivery Fleet",
+		
+		"patrolSmall":"Observers",
+		"patrolMedium":"Watchers",
+		"patrolLarge":"Keepers",
+		
+		"inspectionFleet":"Investigators",
+		"taskForce":"Hunters",
+		
+		"foodReliefFleet":"Feeders",
+
+	        "mercScout":"Mercenary Scout",
+		"mercBountyHunter":"Bounty Hunter",
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"Mercenary Patrol",
+		"mercArmada":"Mercenary Company",
+	},
+
+
+    "music":{
+        "theme":"exalted_theme",
+        "market_neutral":"exalted_theme",
+        "market_hostile":"exalted_theme",
+        "market_friendly":"exalted_theme",
+        "encounter_neutral":"exalted_theme",
+        "encounter_hostile":"exalted_theme",
+        "encounter_friendly":"exalted_theme",
+    },
+},	

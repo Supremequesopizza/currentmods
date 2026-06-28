@@ -1,0 +1,13 @@
+{
+	"masterVersionFile":"https://raw.githubusercontent.com/gomarz/ss-armaa/master/armaa.version",
+	"modName":"Arma Armatura",
+	"modThreadId":18751,
+	"modVersion":
+	{
+		"major":3,
+		"minor":2,
+		"patch":5,
+	},
+	"starsectorVersion":"0.98",
+	"directDownloadURL":"https://github.com/gomarz/SS-armaa/releases/download/v3.2.5/SS-armaa-3.2.5.zip",
+}

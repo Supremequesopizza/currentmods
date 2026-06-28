@@ -1,0 +1,49 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 7,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_ularaya_prototype",
+    "hullMods": [
+        "eccm"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_ularaya_prototype_defense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_weiss_iii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_chorus_m_amm",
+                "WS0002": "uaf_chorus_m_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_enyria_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_claris_cn",
+                "WS0006": "uaf_cantata_cn",
+                "WS0007": "uaf_merupaka_epd",
+                "WS0008": "uaf_merupaka_epd"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_veronica"
+    ]
+}

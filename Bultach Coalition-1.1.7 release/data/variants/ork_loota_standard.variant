@@ -1,0 +1,43 @@
+{
+  "variantId": "ork_loota_standard",
+  "hullId": "ork_loota",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_rotary_pd_small",
+        "WS0005": "ork_rotary_pd_small",
+        "WS0006": "ork_rotary_pd_small",
+        "WS0007": "ork_rotary_pd_small",
+        "WS0008": "ork_rotary_pd_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymortar",
+        "WS0002": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ork_thumpa"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

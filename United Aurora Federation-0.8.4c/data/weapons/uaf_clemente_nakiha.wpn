@@ -1,0 +1,62 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "uaf_missile_1",
+  "hardpointSprite": "graphics/weapons/null_hardpoint_base.png",
+  "id": "uaf_clemente_nakiha",
+  "projectileSpecId": "uaf_clemente_mssl",
+  "size": "SMALL",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    16,
+    -7.5,
+    16,
+    7.5,
+    16,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    16,
+    -7.5,
+    16,
+    7.5,
+    16,
+    0
+  ],
+  "turretSprite": "graphics/weapons/null_turret_base.png",
+  "type": "MISSILE"
+  #6,
+    #-7.5,
+    #6,
+    #7.5,
+    #6,
+    #0
+}

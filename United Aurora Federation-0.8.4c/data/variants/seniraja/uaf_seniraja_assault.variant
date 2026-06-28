@@ -1,0 +1,72 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 2,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "uaf_seniraja",
+    "hullMods": [
+        "targetingunit",
+        "armoredweapons",
+        "autorepair"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_seniraja_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "uaf_herexa"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "uaf_typhoon_l_sasm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_exoscar_torpedo_base",
+                "WS0006": "uaf_exoscar_torpedo_base",
+                "WS0009": "uaf_exoscar_torpedo_base",
+                "WS0010": "uaf_exoscar_torpedo_base"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_medlav_dual",
+                "WS0002": "uaf_medlav_dual",
+                "WS0003": "uaf_medlav_dual",
+                "WS0004": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_pd_reina_ii",
+                "WS0008": "uaf_pd_reina_ii",
+                "WS0011": "uaf_pd_reina",
+                "WS0012": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

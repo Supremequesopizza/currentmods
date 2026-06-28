@@ -1,0 +1,69 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 6,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "uaf_m_shinoria",
+    "hullMods": [
+        "targetingunit",
+        "uaf_reserve_wing_operation",
+        "recovery_shuttles"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_shinoria_superiority",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0018": "uaf_clemente_base",
+                "WS0017": "uaf_clemente_base"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_rhythm_l_lrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_medlav_quad",
+                "WS0007": "uaf_medlav_quad",
+                "WS0009": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_weiss_ii_flk",
+                "WS0006": "uaf_flair_pod",
+                "WS0005": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_weiss_flk",
+                "WS0003": "uaf_weiss_flk",
+                "WS0002": "uaf_pd_reina",
+                "WS0001": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "uaf_selemene_m_mrm"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_forlorn"
+    ]
+}

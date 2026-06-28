@@ -1,0 +1,87 @@
+{
+  "hullName": "wagon",
+  "hullId": "supportships_wagon_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ambulance.png",
+  "style": "MIDLINE",
+  "height": 34,
+  "width": 25,
+  "center": [12.5, 17],
+  "collisionRadius": 23,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "pdburst_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, -9],
+      "length": 15,
+      "width": 5,
+      "angle": -175,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-15, 9],
+      "length": 15,
+      "width": 5,
+      "angle": 175,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-15, 5.5],
+      "length": 5,
+      "width": 2,
+      "angle": -160,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-15, -5.5],
+      "length": 5,
+      "width": 2,
+      "angle": 160,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-3, 10],
+      "length": 5,
+      "width": 2,
+      "angle": 20,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-3, -10],
+      "length": 5,
+      "width": 2,
+      "angle": -20,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    16, -7,
+    -15, -12,
+    -15, 12,
+    16, 7
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "uaf_weiss_flk",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_flak_small",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.uaf_flakExplosion",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Weiss FLK PD/pd_weiss_flk_turret_base.png",
+  "turretGunSprite": "graphics/weapons/Weiss FLK PD/pd_weiss_flk_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/Weiss FLK PD/pd_weiss_flk_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/Weiss FLK PD/pd_weiss_flk_hardpoint_recoil.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 8,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    15,
+    1.5,
+    15,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    1.5,
+    20,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 15,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "yimies_flak_small"
+}

@@ -1,0 +1,202 @@
+{
+  "hullName": "Ragnarok Left Bow Module",
+  "hullId": "missp_ragnarok_booster_left",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/ragnarok/ragnarok booster left module.png",
+  "style": "LOW_TECH",
+  "height": 217,
+  "width": 192,
+  "center": [167, 78],
+  "collisionRadius": 197,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missp_linked_hull",
+	"always_detaches",
+    "civgrade",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": 105.5,
+      "locations": [-49, 83]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 102,
+      "angle": 113.5,
+      "locations": [-46.5, 122]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 97,
+      "locations": [-57, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 108.5,
+      "locations": [12, 146]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 111,
+      "angle": 68,
+      "locations": [48, 146]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 99,
+      "angle": 66.5,
+      "locations": [107, 122]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 114,
+      "angle": 107,
+      "locations": [109, 83]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 107,
+      "angle": 110.5,
+      "locations": [117, 18]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -9, 14,
+        -1, 14,
+        -6, 38.5,
+        10, 42
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        68.5, 14,
+        61, 14,
+        65.5, 37.5,
+        49, 41.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        10, 65,
+        -5.5, 63.5,
+        49.5, 65,
+        65.5, 64
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61, 145],
+      "length": 123.800003,
+      "width": 30.6,
+      "angle": 139.5,
+      "contrailSize": 30.6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -62, 146,
+    -66, 135,
+    -59, 127.5,
+    -65, 121,
+    -64, 88.5,
+    -78, 3.5,
+    -78, -5,
+    -70, -11.5,
+    -68, -20,
+    -63, -25,
+    -37, -25,
+    -35, -18,
+    -28, -15,
+    -19.5, -5,
+    -13, -7,
+    -9, 0,
+    0, 0,
+    9, 10,
+    20, 16,
+    40, 16,
+    55, 8,
+    60, -2,
+    64.5, -8,
+    74, -6,
+    83, 3,
+    99, 3,
+    101, 1,
+    105, -2,
+    105, -11,
+    111.5, -17,
+    117, -12,
+    118, 0,
+    133, 3,
+    139, -2,
+    129, 41,
+    125, 80.5,
+    129, 82,
+    130, 114,
+    120, 133,
+    108, 151,
+    91, 149,
+    84.5, 153,
+    59, 155,
+    53, 163.5,
+    45.5, 167,
+    44, 158,
+    16, 158,
+    14, 167,
+    8, 165,
+    6, 159,
+    -7, 152,
+    -8.5, 155,
+    -13, 155,
+    -13, 150,
+    -45.5, 144
+  ]
+}

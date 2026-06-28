@@ -1,0 +1,85 @@
+{
+  "hullName": "Sovereign Right Corner Module",
+  "hullId": "missp_sovereign_corner_right",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/sovereign/sovereign corner right module.png",
+  "style": "LOW_TECH",
+  "height": 162,
+  "width": 121,
+  "center": [16, 81],
+  "collisionRadius": 229,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hbi",
+    "missp_linked_hull",
+    "never_detaches",
+	"always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 124,
+      "angle": -36.5,
+      "locations": [14, -25]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 243,
+      "angle": -90,
+      "locations": [-17, -83]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, -18.5],
+      "length": 54.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76, -48.5],
+      "length": 54.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -53, -81,
+    -49.5, -86,
+    -45, -86,
+    -45, -91.5,
+    -37, -100,
+    -16, -102,
+    5, -100,
+    13, -92,
+    17, -75,
+    23, -75,
+    37, -60,
+    37, -49,
+    57, -37,
+    62, 15,
+    18, 15,
+    0, 2,
+    0, 0,
+    -57, 0,
+    -61, -5,
+    -79, -8,
+    -79, -30,
+    -62, -32.5,
+    -75, -39,
+    -75, -59,
+    -53, -65.5
+  ]
+}

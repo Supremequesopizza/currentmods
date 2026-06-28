@@ -1,0 +1,30 @@
+{
+	"id":"uaf_clarinet_mirv_sub",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"SMALL",
+	"turretSprite":"",
+	"hardpointSprite":"",
+	#"turretSprite":"graphics/weapons/Missiles/light_typhoon_launcher_turret_base.png",
+	#"hardpointSprite":"graphics/weapons/Missiles/light_typhoon_launcher_hardpoint_base.png",
+	"hardpointOffsets":[8, 0],
+	"turretOffsets":[4, 0],
+	"hardpointAngleOffsets":[0],
+	"turretAngleOffsets":[0],
+	"renderHints":[RENDER_LOADED_MISSILES],
+	"interruptibleBurst":false,
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"barrelMode": "ALTERNATING",
+	"animationType": "MUZZLE_FLASH",
+	"muzzleFlashSpec": {
+		"length": 60,
+		"spread": 7,
+		"particleSizeMin": 0.2,
+		"particleSizeRange": 10,
+		"particleDuration": 0.25,
+		"particleCount": 96,
+		"particleColor": [165,225,185,200]
+	},		 
+	"projectileSpecId":"uaf_clarinet_mirv_missile_sub",
+	"fireSoundTwo":"uaf_missile_5",
+}

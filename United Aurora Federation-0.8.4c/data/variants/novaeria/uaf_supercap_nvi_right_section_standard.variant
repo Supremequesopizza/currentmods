@@ -1,0 +1,76 @@
+{
+  "variantId": "uaf_supercap_nvi_right_section_standard",
+  "hullId": "uaf_supercap_nvi_right_section",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "recovery_shuttles",
+    "autorepair",
+    "uaf_reserve_wing_operation"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_vocal_m_srm",
+        "WS0008": "uaf_chorus_m_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_edge_type_i",
+        "WS0009": "uaf_merupaka_epd",
+        "WS0010": "uaf_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_edge_type_ii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_ai_veronica",
+    "uaf_wing_ai_veronica",
+    "uaf_wing_ai_veronica"
+  ]
+}

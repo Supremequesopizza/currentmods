@@ -1,0 +1,194 @@
+{
+  "hullName": "Machi APA(M)",
+  "hullId": "uaf_m_machi_apa",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/uaf_m_machi_apa.png",
+  "style": "UAF_CRUISER",
+  "height": 310,
+  "width": 152,
+  "center": [76, 148],
+  "collisionRadius": 202.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 175.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade",
+    "uaf_atmospheric_entry",
+    "uaf_ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0004": "uaf_racun_pod",
+    "WS0006": "uaf_racun_pod",
+    "WS0007": "uaf_racun_pod",
+    "WS0008": "uaf_racun_pod"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 166,
+      "angle": 0,
+      "locations": [
+        -91, 17.5,
+        -69, 18,
+        -81.5, 18,
+        -91, 12,
+        -91, 25.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [10, 32]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [10, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-122, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 66.5,
+      "locations": [94, 31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -66.5,
+      "locations": [94, -31]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-7.5, 58.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-7.5, -58.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79.5, 44],
+      "length": 30,
+      "width": 10,
+      "angle": 150.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-79.5, -44],
+      "length": 30,
+      "width": 10,
+      "angle": -150.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-77.5, 47],
+      "length": 30,
+      "width": 10,
+      "angle": 150.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-77.5, -47],
+      "length": 30,
+      "width": 10,
+      "angle": -150.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-69.5, 61.5],
+      "length": 30,
+      "width": 10,
+      "angle": 150.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-69.5, -61.5],
+      "length": 30,
+      "width": 10,
+      "angle": -150.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-67, 64.5],
+      "length": 30,
+      "width": 10,
+      "angle": 150.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-67, -64.5],
+      "length": 30,
+      "width": 10,
+      "angle": -150.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -145, 2,
+    -91, 28,
+    -81, 40.5,
+    -87, 44.5,
+    -70, 71,
+    -34.5, 54.5,
+    -19, 54.5,
+    -17, 59,
+    93.5, 29.5,
+    158.5, 1,
+    158.5, -1,
+    93.5, -29.5,
+    -17, -59,
+    -19, -54.5,
+    -34.5, -54.5,
+    -70, -71,
+    -87, -44.5,
+    -81, -40.5,
+    -91, -28,
+    -145, -2
+  ]
+}

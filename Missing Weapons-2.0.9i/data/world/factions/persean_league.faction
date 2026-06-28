@@ -1,0 +1,19 @@
+{
+  "knownWeapons":{
+	"tags":[""],
+	"weapons":[
+    "missp_varunastra",
+    "missp_mjolnirsb"
+  ],
+  },
+	"knownFighters":{
+		"fighters":[
+		"missp_zweihander_wing",
+		"missp_assegai_wing"
+		]
+  },
+	"weaponSellFrequency": {
+	"missp_varunastra": 1,
+	"missp_mjolnirsb": 5
+	}
+}

@@ -1,0 +1,61 @@
+{
+  "variantId": "uaf_supercap_nvi_ewac_section_standard",
+  "hullId": "uaf_supercap_nvi_ewac_section",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "uaf_super_heavy_wing_operation"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_cyrexa_ii_sxc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_rhythm_l_lrm",
+        "WS0002": "uaf_rhythm_l_lrm",
+        "WS0003": "uaf_rhythm_l_lrm",
+        "WS0004": "uaf_rhythm_l_lrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_edge_type_i",
+        "WS0008": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_chorus_s_amm",
+        "WS0006": "uaf_chorus_s_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_ivory_triple"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_ai_petunia",
+    "uaf_wing_ai_petunia"
+  ]
+}

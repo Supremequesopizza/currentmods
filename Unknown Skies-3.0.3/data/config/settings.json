@@ -1,0 +1,31 @@
+{
+	"graphics": {
+		"stars": {
+			"US_star_blue_giant": "graphics/planets/US_star_textureCustomBlue.jpg",
+			"US_star_blue_giant_2": "graphics/planets/US_star_textureCustomBlue_2.jpg",
+			"US_star_blue_giant_3": "graphics/planets/US_star_textureCustomBlue_3.jpg",
+			"US_star_yellow": "graphics/planets/US_star_textureCustomYellow.jpg",
+			"US_star_yellow_2": "graphics/planets/US_star_textureCustomYellow_2.jpg",
+			"US_star_yellow_3": "graphics/planets/US_star_textureCustomYellow_3.jpg",
+			"US_star_orange": "graphics/planets/US_star_textureCustomOrange.jpg",
+			"US_star_orange_2": "graphics/planets/US_star_textureCustomOrange_2.jpg",
+			"US_star_red_giant": "graphics/planets/US_star_textureCustomRed.jpg",
+			"US_star_red_giant_2": "graphics/planets/US_star_textureCustomRed_2.jpg",
+			"US_star_red_giant_3": "graphics/planets/US_star_textureCustomRed_3.jpg",
+			"US_star_white": "graphics/planets/US_star_textureCustomWhite.jpg",
+			"US_star_white_2": "graphics/planets/US_star_textureCustomWhite_2.jpg",
+			"US_star_browndwarf": "graphics/planets/US_star_textureCustomBrown.jpg"
+		},
+
+		"clouds": {
+			"US_clouds_textureStarBlue": "graphics/planets/US_clouds_textureStarBlue.png",
+			"US_clouds_textureStarWhite": "graphics/planets/US_clouds_textureStarWhite.png",
+			"US_clouds_textureStarYellow": "graphics/planets/US_clouds_textureStarYellow.png"
+		},
+
+		"coronas": {
+			"US_halo_intense": "graphics/fx/US_star_halo_intense.png",
+			"US_halo_unstable": "graphics/fx/US_star_halo_unstable.png"
+		}
+	}
+}

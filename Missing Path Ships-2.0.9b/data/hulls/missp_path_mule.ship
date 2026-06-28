@@ -1,0 +1,134 @@
+{
+  "hullName": "Mule (Path)",
+  "hullId": "missp_path_mule",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mule/missp_path_mule.png",
+  "style": "LOW_TECH",
+  "height": 192,
+  "width": 128,
+  "center": [64, 96],
+  "collisionRadius": 109,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101,
+  "viewOffset": 0,
+  "builtInMods": [
+	"civgrade",
+    "ill_advised",
+    "safetyoverrides"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [54, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-8, 40]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-8, -40]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 180,
+      "locations": [-62, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [17, 39]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [17, -39]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -15, -0,
+        -6.5, -0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-87, 21.5],
+      "length": 53.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, -21.5],
+      "length": 53.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, 29],
+      "length": 53.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, -29],
+      "length": 53.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    71, -33.5,
+    89, -0,
+    71, 33.5,
+    29, 34,
+    -10, 56.5,
+    -66, 46,
+    -87, 30.5,
+    -87, -30.5,
+    -66, -46,
+    -10, -56.5,
+    29, -34
+  ]
+}

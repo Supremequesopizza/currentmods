@@ -1,0 +1,65 @@
+{
+  "hullName": "Station Arms",
+  "hullId": "ork_station_arms",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/big_station/bt_station_arms.png",
+  "style": "BULTACH",
+  "height": 834,
+  "width": 826,
+  "center": [413, 417],
+  "collisionRadius": 488,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 461.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_antiNukeHidden",
+    "vastbulk",
+    "anchorrotation",
+    "never_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 393]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -393]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-390, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [390, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    65, -65,
+    -65, -65,
+    -65, 65,
+    65, 65
+  ]
+}

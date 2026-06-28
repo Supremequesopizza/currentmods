@@ -1,0 +1,32 @@
+# If LunaLib is enabled, LunaLib settings will override the settings here
+{
+  "combatMPGainMultiplier":1,
+  "civilianMPGainMultiplier":1,
+  "buildInCreditsCostMultiplier":1,
+  "displayLockedMasteries":false,
+
+  "doubleClickInterval": 0.75,
+  "showMpAndLevelInRefit": true,
+  "crPenaltyPerExcessOPPercent": 0.1,
+
+  "npcMasteryLevelModifier": -2,
+  "npcMasteryLevelModifierCap": 4,
+
+  "progressionEnabled": true,
+  "npcTotalProgressionMP": 25000,
+
+  # Will not undo skill changes due to modding API limitations. This must be done manually; see LunaLib settings
+  # for instructions.
+  "disableMainFeatures":false,
+  "enableRandomMode": false,
+  "enablePlayerShipGraveyards": true,
+  "enableRecentBattles": true,
+  "recentBattlesPreciseMode": false,
+  "addSModAutofitOption": true,
+
+  # Use this option to fix a seed for randomly generated masteries, ensuring you get the same generated masteries for
+  # the same ship type. Leaving blank or whitespace only will use the player id (sector seed) as the seed.
+  # Must be set prior to starting a new game.
+  "randomMasterySeed": "",
+  "enableCopySeedButton": false
+}

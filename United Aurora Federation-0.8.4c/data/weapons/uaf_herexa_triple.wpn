@@ -1,0 +1,63 @@
+{
+  "id": "uaf_herexa_triple",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_aarm_lg_herexa",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "org.niatahl.uaf.weapons.uaf_chemicalWeaponEffect",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Herexa 609mm Triple/herexa_609mm_triple_turret_base.png",
+  "turretGunSprite": "graphics/weapons/Herexa 609mm Triple/herexa_609mm_triple_recoil.png",
+  "hardpointSprite": "graphics/weapons/Herexa 609mm Triple/herexa_609mm_triple_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/Herexa 609mm Triple/herexa_609mm_triple_hardpoint_recoil.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 8,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    33,
+    7,
+    33,
+    0,
+    33,
+    -7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    41.5,
+    7,
+    41.5,
+    0,
+    41.5,
+    -7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 80,
+    "spread": 10,
+    "particleSizeMin": 20,
+    "particleSizeRange": 30,
+    "particleDuration": 0.1,
+    "particleCount": 40,
+    "particleColor": [
+      250,
+      130,
+      60,
+      120
+    ]
+  },
+  "fireSoundOne": "uaf_ru_herexa_608",
+  "fireSoundTwo": "uaf_herexa_608"
+}

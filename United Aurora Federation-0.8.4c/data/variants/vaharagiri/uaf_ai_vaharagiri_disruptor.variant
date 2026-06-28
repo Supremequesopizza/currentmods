@@ -1,0 +1,48 @@
+{
+    "displayName": "Disruptor",
+    "fluxCapacitors": 3,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "uaf_ai_vaharagiri",
+    "hullMods": [
+        "fluxbreakers",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_vaharagiri_disruptor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_catun_ii_erg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_edge_type_ii",
+                "WS0003": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_edge_type_i",
+                "WS0007": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina_ii",
+                "WS0005": "uaf_pd_reina_ii"
+            }
+        }
+    ]
+}

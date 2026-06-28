@@ -1,0 +1,65 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 13,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "uaf_akatsuzuma",
+    "hullMods": [
+        "targetingunit",
+        "insulatedengine",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_akatsuzuma_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_selemene_s_mrm",
+                "WS0012": "uaf_selemene_s_mrm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_tona_iii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_tona_ii",
+                "WS0009": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina",
+                "WS0004": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina_ii",
+                "WS0006": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

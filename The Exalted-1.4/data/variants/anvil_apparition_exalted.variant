@@ -1,0 +1,31 @@
+{
+  "variantId": "anvil_apparition_exalted",
+  "hullId": "anvil_apparition",
+  "displayName": "Exalted",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 6,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0002": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "anvil_delusion",
+    "anvil_delusion"
+  ]
+}

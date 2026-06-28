@@ -1,0 +1,23 @@
+{
+	"id":"uaf_novaeria_supercap_left_red_hangar_light_2",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"LARGE",
+	"showDamageWhenDecorative":false,
+	"renderBelowAllWeapons":false,
+	#"renderHints":["RENDER_ADDITIVE"],	
+	"turretSprite":"graphics/fx/novaeria/uaf_left_red_hangar_light_2_00.png",
+	"hardpointSprite":"graphics/fx/novaeria/uaf_left_red_hangar_light_2_00.png",
+	"numFrames":2,
+	"frameRate":0,
+	"alwaysAnimate":"true",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+	"everyFrameEffect":"data.scripts.weapons.blinkers.uaf_zepporia_lights",
+}

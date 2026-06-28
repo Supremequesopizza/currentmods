@@ -1,0 +1,42 @@
+{
+	"id":"uaf_cyrexa_single",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	#"turretSprite":"",
+	#"hardpointSprite":"",
+	"turretSprite":"graphics/weapons/Cyrexa Single/null_turret_base.png",
+    "turretGunSprite":"graphics/weapons/Cyrexa Single/cyrexa_508mm_single.png",
+	"hardpointSprite":"graphics/weapons/Cyrexa Single/null_turret_base.png",	
+    "hardpointGunSprite":"graphics/weapons/Cyrexa Single/cyrexa_508mm_single.png",	
+    "visualRecoil":5.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[15, -2],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"specialWeaponGlowWidth":15,
+	"specialWeaponGlowHeight":40,
+	"barrelMode":"LINKED", # or LINKED/ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	#"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   #"spread":36,
+					   #"particleSizeMin":12.0,
+					   #"particleSizeRange":32.0,
+					   #"particleDuration":0.13,
+					   #"particleCount":35,
+					  #"particleColor":[165,225,185,175]},
+	"muzzleFlashSpec":{"length":80,   # only used if animationType = MUZZLE_FLASH
+		"spread":5.0,
+		"particleSizeMin":40.0,
+		"particleSizeRange":40.0,
+		"particleDuration":0.2,
+		"particleCount":2,
+		"particleColor":[150,200,255,128]},
+	"autocharge":true,
+	"projectileSpecId":"uaf_pu_ash_lg",  # projectile that will be fired
+    #"fireSoundOne":"245mm_Blast",
+	"fireSoundOne":"uaf_ru_cyrexa_452",
+	"fireSoundTwo":"uaf_cyrexa_452",
+	#"everyFrameEffect":"data.scripts.weapons.uaf_cyrexa_muzzle",	
+}

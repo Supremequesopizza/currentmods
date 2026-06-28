@@ -1,0 +1,55 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 8,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "uaf_m_seiichi_kai",
+    "hullMods": [
+        "targetingunit",
+        "uaf_secondary_focus",
+        "auxiliarythrusters"
+    ],
+    "quality": 0.8,
+    "variantId": "uaf_m_seiichi_kai_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_tona_ii",
+                "WS0002": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_oboe_mirv_medium",
+                "WS0006": "uaf_clarinet_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_ivory",
+                "WS0004": "uaf_ivory"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_pd_reina",
+                "WS0009": "uaf_pd_reina"
+            }
+        }
+    ]
+}

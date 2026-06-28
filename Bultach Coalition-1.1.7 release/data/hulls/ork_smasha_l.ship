@@ -1,0 +1,31 @@
+{
+  "hullName": "Smsh Left Armr",
+  "hullId": "ork_smasha_l",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ork_smasha_l.png",
+  "style": "BULTACH",
+  "height": 70,
+  "width": 72,
+  "center": [36, 35],
+  "collisionRadius": 53.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 51,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ablative_armor",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    30, -34.5,
+    33.5, -23.5,
+    21.5, 15,
+    -5, 33,
+    -14, 25.5,
+    -30.5, 28.5,
+    14.5, -1,
+    1, -18.5
+  ]
+}

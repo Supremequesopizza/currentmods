@@ -1,0 +1,326 @@
+{
+  "hullName": "Exoria II(SP)",
+  "hullId": "uaf_ai_exoria",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Exoria/uaf_ai_exoria.png",
+  "style": "UAF_CRUISER",
+  "height": 369,
+  "width": 208,
+  "center": [104, 176],
+  "collisionRadius": 242.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 200.5,
+  "viewOffset": 100,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "uaf_atmospheric_entry"
+  ],
+  "builtInWeapons": {
+    "BRIDGELEFT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGELEFT_BLINKER_2": "uaf_blinker_sirene_2",
+    "BRIDGERIGHT_BLINKER_2": "uaf_blinker_sirene_2",
+    "FORELEFT_BLINKER_1": "uaf_rillaru_blinker_forward_left_0",
+    "FORELEFT_BLINKER_2": "uaf_rillaru_blinker_forward_left_1",
+    "FORELEFT_BLINKER_3": "uaf_rillaru_blinker_forward_left_2",
+    "FORELEFT_BLINKER_4": "uaf_rillaru_blinker_forward_left_3",
+    "FORERIGHT_BLINKER_1": "uaf_rillaru_blinker_forward_right_0",
+    "FORERIGHT_BLINKER_2": "uaf_rillaru_blinker_forward_right_1",
+    "FORERIGHT_BLINKER_3": "uaf_rillaru_blinker_forward_right_2",
+    "FORERIGHT_BLINKER_4": "uaf_rillaru_blinker_forward_right_3",
+    "RADAR_SMALL_2": "uaf_neuxoria_radar_small_2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-78, -58]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-78, 58]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 76,
+      "angle": -0.5,
+      "locations": [62, -24]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 76,
+      "angle": 0.5,
+      "locations": [62, 24]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 42.5,
+      "locations": [-40, 57]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -25.5, 58.5,
+        -8.5, 53.5,
+        -15, 57.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -24, -0,
+        -35, 7.5,
+        -45.5, -0,
+        -34.5, -8
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -70, -8,
+        -70, 8,
+        -58.5, -0
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        43.5, 6,
+        44, -6.5,
+        49.5, -0,
+        67, -0
+      ]
+    },
+    {
+      "id": "RADAR_SMALL_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-36.5, -85.5]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-29.5, -21.5]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-29.5, 21.5]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-36.5, -21.5]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-36.5, 21.5]
+    },
+    {
+      "id": "FORELEFT_BLINKER_4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [84.5, 15.5]
+    },
+    {
+      "id": "FORERIGHT_BLINKER_4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [84.5, -15.5]
+    },
+    {
+      "id": "FORELEFT_BLINKER_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [81.5, 15.5]
+    },
+    {
+      "id": "FORERIGHT_BLINKER_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [81.5, -15.5]
+    },
+    {
+      "id": "FORELEFT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [78.5, 15.5]
+    },
+    {
+      "id": "FORERIGHT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [78.5, -15.5]
+    },
+    {
+      "id": "FORELEFT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [74.5, 15.5]
+    },
+    {
+      "id": "FORERIGHT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [74.5, -15.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-138.5, -7.5],
+      "length": 91,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-138.5, 7.5],
+      "length": 91,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-133, 13],
+      "length": 96.5,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-133, -13],
+      "length": 96.5,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "MELODY_ENGINE"
+    }
+  ],
+  "bounds": [
+    -148.5, 15.5,
+    -142.5, 27.5,
+    -174.5, 28,
+    -174.5, 32,
+    -141, 49,
+    -140.5, 65,
+    -129.5, 74,
+    -90, 79,
+    -77, 87,
+    -68, 87,
+    -54.5, 66.5,
+    -50.5, 74,
+    -33, 70.5,
+    -1, 70.5,
+    -1, 57.5,
+    39, 57.5,
+    39, 51,
+    61.5, 43,
+    147, 19,
+    147, -9,
+    61.5, -33,
+    39, -41,
+    39, -47.5,
+    15, -47.5,
+    10, -49.5,
+    10, -54,
+    -5.5, -63,
+    -49.5, -67,
+    -49.5, -54.5,
+    -67, -76.5,
+    -77, -77,
+    -90, -69,
+    -129.5, -64,
+    -140.5, -55,
+    -141, -39,
+    -174.5, -22,
+    -174.5, -18,
+    -142.5, -17.5,
+    -148.5, -5.5
+  ]
+}

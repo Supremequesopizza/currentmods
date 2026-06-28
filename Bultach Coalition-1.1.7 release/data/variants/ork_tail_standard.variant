@@ -1,0 +1,54 @@
+{
+  "variantId": "ork_tail_standard",
+  "hullId": "ork_tail",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_thumpa",
+        "WS0002": "ork_thumpa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_noshield_medium",
+        "WS0005": "ork_noshield_medium",
+        "WS0014": "ork_noshield_medium",
+        "WS0015": "ork_noshield_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ork_rotary_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ork_rotary_pd_small",
+        "WS0007": "ork_rotary_pd_small",
+        "WS0009": "ork_rotary_pd_small",
+        "WS0010": "ork_rotary_pd_small",
+        "WS0011": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,95 @@
+{
+	"id":"uaf_minirest_second",
+	"specClass":"missile",	
+	#"missileType":"HEATSEEKER",
+	"missileType":"MISSILE",
+	"onFireEffect":"org.niatahl.uaf.weapons.uaf_vlsWeaponEffect",
+	"sprite":"graphics/weapons/Missiles/minirest_asm_l/minirest_asm_stage2.png",
+	"size":[29,37],	
+	"center":[14.5,18.5],
+	"collisionRadius":20,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[238,130,238,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":75,
+					 "coreRadius":35, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.0,
+					 "particleSizeRange":7.0,
+					 "particleDuration":2,
+					 "particleCount":75,
+					 "particleColor":[100,165,255,255]},
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":500,
+				  "maxSpeed":500,
+				  "acc":300,
+				  "dec":200},
+	"engineSlots":[
+					{"id":"ES2",
+					"loc":[10, 3],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[110,185,255,255],
+						"contrailDuration":0.0,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.1, # how far away from engine it starts
+						"contrailColor":[110,185,255,255],
+						"glowSizeMult":3,
+						"glowAlternateColor":[0,0,139,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":60.0,
+				    "angle":150.0},
+					{"id":"ES3",
+					"loc":[10, -3],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[110,185,255,255],
+						"contrailDuration":0.0,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.1, # how far away from engine it starts
+						"contrailColor":[110,185,255,255],
+						"glowSizeMult":3,
+						"glowAlternateColor":[0,0,139,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":60.0,
+				    "angle":210.0},
+					{"id":"ES3",
+					"loc":[-18, 0],
+					#"loc":[-1, -2.5],
+				    #"style":"TORPEDO",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[110,185,255,255],
+						"contrailDuration":6,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":7, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[110,185,255,50],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.5,
+				    "length":40.0,
+				    "angle":180.0}]
+}

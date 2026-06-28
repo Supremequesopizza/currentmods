@@ -1,0 +1,110 @@
+{
+  "hullName": "Wolf (Path)",
+  "hullId": "missp_path_wolf",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/wolf/missp_path_wolf.png",
+  "style": "LOW_TECH",
+  "height": 96,
+  "width": 52,
+  "center": [26, 42],
+  "collisionRadius": 80,
+  "shieldCenter": [7, 0],
+  "shieldRadius": 70,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ill_advised",
+    "safetyoverrides"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, 19]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [13, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-40, 8.5],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, -8.5],
+      "length": 64,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, -0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-1, 20],
+      "length": 10.41,
+      "width": 4.31,
+      "angle": 150.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-1, -20],
+      "length": 10.41,
+      "width": 4.31,
+      "angle": -150.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -37, -15,
+    -5.5, -15.5,
+    8.5, -23,
+    21.5, -14.5,
+    56, -11,
+    56, 11,
+    21.5, 14.5,
+    8.5, 23,
+    -5.5, 15.5,
+    -37, 15
+  ]
+}

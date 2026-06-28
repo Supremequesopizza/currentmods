@@ -1,0 +1,13 @@
+{
+	"masterVersionFile": "https://raw.githubusercontent.com/JamesTripleQ/Unknown-Skies/master/US.version",
+	"modName": "Unknown Skies",
+	"modThreadId": "29876",
+	"modVersion": {
+		"major": 3,
+		"minor": 0,
+		"patch": 3
+	},
+
+	"directDownloadURL": "https://github.com/JamesTripleQ/Unknown-Skies/releases/latest/download/Unknown.Skies.zip",
+	"changelogURL": "https://raw.githubusercontent.com/JamesTripleQ/Unknown-Skies/master/CHANGELOG.txt",
+}

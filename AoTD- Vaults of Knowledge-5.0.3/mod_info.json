@@ -1,0 +1,34 @@
+{
+	"id":"aotd_vok",
+	"name": "AoTD- Vaults of Knowledge",
+	"author":"Kaysaar",
+	"utility":"false",
+	"version":"5.0.3",
+	"description":"Ashes of the Domain - Vaults of Knowledge: Adds research mechanics to game, independent from other AoTD modules ",	
+    "gameVersion": "0.98a-RC8",
+	"jars":["jars/Vok.jar"],
+	"dependencies": [  {
+        "id": "ashlib",
+       "name": "Ashlib",
+        "version": "2.2.0"
+    },
+    
+	{
+        "id": "bmo",
+       "name": "Building Menu Overhaul",
+        "version": "2.1.0"
+    },
+    {
+        "id": "aotd_theory_of_toolbox",
+       "name": "AoTD - Theory of Toolbox",
+        "version": "1.0.0"
+    },
+	{
+        "id": "lw_lazylib",
+       "name": "LazyLib",
+        "version": "3.0"
+    } ],
+    
+	"modPlugin":"data.kaysaar.aotd.vok.plugins.AoTDVokModPlugin"
+
+}

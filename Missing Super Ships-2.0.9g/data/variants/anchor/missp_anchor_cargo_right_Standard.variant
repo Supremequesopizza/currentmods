@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "hullId": "missp_anchor_cargo_right",
+    "hullMods": [
+        "expanded_deck_crew",
+        "expanded_cargo_holds",
+        "militarized_subsystems",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_anchor_cargo_right_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "gauss"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vulcan",
+                "WS0002": "lightdualmg",
+                "WS0003": "lightdualmg",
+                "WS0005": "lightdualmg",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0008": "dualflak",
+                "WS0009": "lightdualmg",
+                "WS0011": "lightdualmg"
+            }
+        }
+    ],
+    "wings": ["hoplon_wing"]
+}

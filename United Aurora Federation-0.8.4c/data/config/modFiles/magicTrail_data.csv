@@ -1,0 +1,249 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+uaf_heavy_trail_1,uaf_shot_heavy,base_trail_zap,10,0.05,0,0.25,20,4,"[238,130,238]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_heavy_trail_2,uaf_shot_heavy,base_trail_zap,10,0,0.05,0.15,50,10,"[238,130,238]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_heavy_trail_3,uaf_shot_heavy,base_trail_mild,10,0.05,0.5,0.4,12,5,"[238,130,238]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_heavy_trail_4,uaf_shot_heavy,base_trail_mild,10,0.05,0.5,0.4,12,5,"[238,130,238]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_heavy_trail_1_piercing,uaf_shot_heavy_piercing,base_trail_zap,10,0.05,0,0.25,15,4,"[238,130,238]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_heavy_trail_2_piercing,uaf_shot_heavy_piercing,base_trail_zap,10,0,0.05,0.15,30,5,"[100,165,255]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_heavy_trail_3_piercing,uaf_shot_heavy_piercing,base_trail_mild,10,0.05,0.5,0.4,12,5,"[238,130,238]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_heavy_trail_4_piercing,uaf_shot_heavy_piercing,base_trail_mild,10,0.05,0.5,0.4,12,5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_heavy_trail_5_piercing,uaf_shot_heavy_piercing,base_trail_smooth,10,0,0,0.4,5,5,"[250,250,255]","[50,0,205]",1,200,100,0,10,1,TRUE,FALSE,TRUE,100,50,0,0,0,0,false,false
+uaf_heavy_trail_6_piercing,uaf_shot_heavy_piercing,base_trail_zap,10,0,0,0.6,5,60,"[40,160,255]","[50,110,185]",0.2,500,0,0,10,1,TRUE,FALSE,TRUE,150,20,0,0,0,0,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_shot_heavy_trail_1_piercing_overload,uaf_shot_heavy_piercing_overload,base_trail_zap,10,0.05,0,0.25,15,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_shot_heavy_trail_2_piercing_overload_trail_2,uaf_shot_heavy_piercing_overload,base_trail_zap,10,0,0.05,0.15,30,5,"[255,255,175]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_shot_heavy_trail_3_piercing_overload_trail_3,uaf_shot_heavy_piercing_overload,base_trail_mild,10,0.05,0.5,0.4,12,5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_shot_heavy_trail_4_piercing_overload_trail_4,uaf_shot_heavy_piercing_overload,base_trail_mild,10,0.05,0.5,0.4,12,5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_shot_heavy_trail_5_piercing_overload_trail_5,uaf_shot_heavy_piercing_overload,base_trail_smooth,10,0,0,0.4,5,5,"[100,165,255]","[50,0,205]",1,200,100,0,10,1,TRUE,FALSE,TRUE,100,50,0,0,0,0,false,false
+uaf_shot_heavy_trail_6_piercing_overload_trail_6,uaf_shot_heavy_piercing_overload,base_trail_zap,10,0,0,0.6,5,60,"[100,165,255]","[50,110,185]",0.2,500,0,0,10,1,TRUE,FALSE,TRUE,150,20,0,0,0,0,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_xl_piercing,uaf_pu_ash_xl_piercing,base_trail_zap,10,0.05,0,0.25,20,4,"[238,130,238]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_xl_piercing,uaf_pu_ash_xl_piercing,base_trail_zap,10,0,0.05,0.15,50,10,"[100,165,255]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_xl_piercing,uaf_pu_ash_xl_piercing,base_trail_mild,10,0.05,0.5,0.4,12,5,"[238,130,238]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_xl_piercing,uaf_pu_ash_xl_piercing,base_trail_mild,10,0.05,0.5,0.4,12,5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail3_lg,uaf_pu_ash_lg,base_trail_weave,10,0.05,0.5,0.4,12,2.5,"[255,255,175]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lg,uaf_pu_ash_lg,base_trail_weave,10,0.05,0.5,0.4,12,5,"[100,165,255]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lg,uaf_pu_ash_lg,base_trail_aura,10,0.05,0.5,0.8,12,5,"[100,165,255]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_rotan_trail3_lg,uaf_pu_ash_rotan,base_trail_weave,10,0.05,0.5,0.4,12,2.5,"[255,255,175]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_rotan_trail4_lg,uaf_pu_ash_rotan,base_trail_weave,10,0.05,0.5,0.4,12,5,"[100,165,255]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_rotan_trail5_lg,uaf_pu_ash_rotan,base_trail_aura,10,0.05,0.5,0.8,12,5,"[100,165,255]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_edge_type_iii_shot_trail1,uaf_edge_type_iii,base_trail_zapWithCore,10,0.05,0,0.25,6,2.5,"[175,255,255]","[230,130,240]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_edge_type_iii_shot_trail2,uaf_edge_type_iii,base_trail_zapWithCore,10,0,0.05,0.15,6,2.5,"[100,165,255]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_edge_type_iii_shot_trail3,uaf_edge_type_iii,base_trail_weave,10,0.05,0.5,0.4,6,2.5,"[175,255,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_edge_type_iii_shot_trail4,uaf_edge_type_iii,base_trail_weave,10,0.05,0.5,0.4,10,5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_edge_type_iii_shot_trail5,uaf_edge_type_iii,base_trail_aura,10,0.05,0.5,0.8,10,5,"[100,165,255]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_edge_type_iii_shot_overload_trail1,uaf_edge_type_iii_overload,base_trail_zap,10,0.05,0,0.25,15,4,"[250,100,200]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_edge_type_iii_shot_overload_trail2,uaf_edge_type_iii_overload,base_trail_zap,10,0,0.05,0.15,30,5,"[250,100,200]","[255,50,220]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_edge_type_iii_shot_overload_trail3,uaf_edge_type_iii_overload,base_trail_mild,10,0.05,0.5,0.4,12,5,"[250,100,200]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_edge_type_iii_shot_overload_trail4,uaf_edge_type_iii_overload,base_trail_mild,10,0.05,0.5,0.4,12,5,"[250,180,230]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_edge_type_iii_shot_overload_trail5,uaf_edge_type_iii_overload,base_trail_smooth,10,0,0,0.4,5,5,"[250,180,230]","[190,50,115]",1,200,100,0,10,1,TRUE,FALSE,TRUE,100,50,0,0,0,0,false,false
+uaf_edge_type_iii_shot_overload_trail6,uaf_edge_type_iii_overload,base_trail_zap,10,0,0,0.6,5,60,"[250,180,230]","[185,50,105]",0.2,500,0,0,10,1,TRUE,FALSE,TRUE,150,20,0,0,0,0,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_edge_type_iv_shot_trail1,uaf_edge_type_iv,base_trail_zapWithCore,10,0.05,0,0.25,6,2.5,"[175,255,255]","[230,130,240]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_edge_type_iv_shot_trail2,uaf_edge_type_iv,base_trail_zapWithCore,10,0,0.05,0.15,6,2.5,"[100,165,255]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_edge_type_iv_shot_trail3,uaf_edge_type_iv,base_trail_weave,10,0.05,0.5,0.4,6,2.5,"[175,255,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_edge_type_iv_shot_trail4,uaf_edge_type_iv,base_trail_weave,10,0.05,0.5,0.4,10,5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_edge_type_iv_shot_trail5,uaf_edge_type_iv,base_trail_aura,10,0.05,0.5,0.8,10,5,"[100,165,255]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_edge_type_iv_shot_overload_trail1,uaf_edge_type_iv_overload,base_trail_zap,10,0.05,0,0.25,15,4,"[250,100,200]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_edge_type_iv_shot_overload_trail2,uaf_edge_type_iv_overload,base_trail_zap,10,0,0.05,0.15,30,5,"[250,100,200]","[255,50,220]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_edge_type_iv_shot_overload_trail3,uaf_edge_type_iv_overload,base_trail_mild,10,0.05,0.5,0.4,12,5,"[250,100,200]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_edge_type_iv_shot_overload_trail4,uaf_edge_type_iv_overload,base_trail_mild,10,0.05,0.5,0.4,12,5,"[250,180,230]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_edge_type_iv_shot_overload_trail5,uaf_edge_type_iv_overload,base_trail_smooth,10,0,0,0.4,5,5,"[250,180,230]","[190,50,115]",1,200,100,0,10,1,TRUE,FALSE,TRUE,100,50,0,0,0,0,false,false
+uaf_edge_type_iv_shot_overload_trail6,uaf_edge_type_iv_overload,base_trail_zap,10,0,0,0.6,5,60,"[250,180,230]","[185,50,105]",0.2,500,0,0,10,1,TRUE,FALSE,TRUE,150,20,0,0,0,0,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_lg_cyrexaii,uaf_pu_beam_lg_cyrexa_ii,base_trail_zapWithCore,10,0.05,0,0.25,6,2.5,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_lg_cyrexaii,uaf_pu_beam_lg_cyrexa_ii,base_trail_zapWithCore,10,0,0.05,0.15,6,2.5,"[100,165,255]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_lg_cyrexaii,uaf_pu_beam_lg_cyrexa_ii,base_trail_weave,10,0.05,0.5,0.4,6,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lg_cyrexaii,uaf_pu_beam_lg_cyrexa_ii,base_trail_weave,10,0.05,0.5,0.4,10,5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lg_cyrexaii,uaf_pu_beam_lg_cyrexa_ii,base_trail_aura,10,0.05,0.5,0.8,10,5,"[100,165,255]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_md_catun,uaf_pu_beam_md_catun,base_trail_zapWithCore,10,0.05,0,0.25,12,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_md_catun,uaf_pu_beam_md_catun,base_trail_zapWithCore,10,0,0.05,0.15,25,10,"[51,85,130]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_md_catun,uaf_pu_beam_md_catun,base_trail_weave,10,0.05,0.5,0.4,10,5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_md_catun,uaf_pu_beam_md_catun,base_trail_weave,10,0.05,0.5,0.4,10,5,"[51,85,130]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_md_catun,uaf_pu_beam_md_catun,base_trail_aura,10,0.05,0.5,0.8,10,5,"[51,85,130]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_lg_catun,uaf_pu_beam_lg_catun,base_trail_zapWithCore,10,0.05,0,0.25,12,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_lg_catun,uaf_pu_beam_lg_catun,base_trail_zapWithCore,10,0,0.05,0.15,25,10,"[51,85,130]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_lg_catun,uaf_pu_beam_lg_catun,base_trail_weave,10,0.05,0.5,0.4,10,5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lg_catun,uaf_pu_beam_lg_catun,base_trail_weave,10,0.05,0.5,0.4,10,5,"[51,85,130]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lg_catun,uaf_pu_beam_lg_catun,base_trail_aura,10,0.05,0.5,0.8,10,5,"[51,85,130]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_lg_kanshee,uaf_pu_beam_lg_kanshee,base_trail_zapWithCore,10,0.05,0,0.25,6,2.5,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_lg_kanshee,uaf_pu_beam_lg_kanshee,base_trail_zapWithCore,10,0,0.05,0.15,6,2.5,"[255,255,175]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_lg_kanshee,uaf_pu_beam_lg_kanshee,base_trail_weave,10,0.05,0.5,0.4,6,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lg_kanshee,uaf_pu_beam_lg_kanshee,base_trail_weave,10,0.05,0.5,0.4,6,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lg_kanshee,uaf_pu_beam_lg_kanshee,base_trail_aura,10,0.05,0.5,0.8,6,2.5,"[100,165,255]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_lg_piercing,uaf_pu_ash_lg_piercing,base_trail_zapWithCore,10,0.05,0,0.25,12,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_lg_piercing,uaf_pu_ash_lg_piercing,base_trail_zapWithCore,10,0,0.05,0.15,25,10,"[51,85,130]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_lg_piercing,uaf_pu_ash_lg_piercing,base_trail_weave,10,0.05,0.5,0.4,10,5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lg_piercing,uaf_pu_ash_lg_piercing,base_trail_weave,10,0.05,0.5,0.4,10,5,"[51,85,130]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lg_piercing,uaf_pu_ash_lg_piercing,base_trail_aura,10,0.05,0.5,0.8,10,5,"[51,85,130]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_md,uaf_pu_ash_md,base_trail_zapWithCore,8,0.05,0,0.25,5,2,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_md,uaf_pu_ash_md,base_trail_zapWithCore,8,0,0.05,0.15,10,4,"[51,85,130]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_md,uaf_pu_ash_md,base_trail_weave,8,0.05,0.5,0.4,4,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_md,uaf_pu_ash_md,base_trail_weave,8,0.05,0.5,0.4,4,2.5,"[51,85,130]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_md,uaf_pu_ash_md,base_trail_aura,8,0.05,0.5,0.8,4,2.5,"[51,85,130]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_md_piercing,uaf_pu_ash_md_piercing,base_trail_zapWithCore,8,0.05,0,0.25,10,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_md_piercing,uaf_pu_ash_md_piercing,base_trail_zapWithCore,8,0,0.05,0.15,20,8,"[51,85,130]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_md_piercing,uaf_pu_ash_md_piercing,base_trail_weave,8,0.05,0.5,0.4,8,5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_md_piercing,uaf_pu_ash_md_piercing,base_trail_weave,8,0.05,0.5,0.4,8,5,"[51,85,130]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_md_piercing,uaf_pu_ash_md_piercing,base_trail_aura,8,0.05,0.5,0.8,8,5,"[51,85,130]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_sm,uaf_pu_ash_sm,base_trail_zapWithCore,5,0.05,0,0.25,6,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_sm,uaf_pu_ash_sm,base_trail_zapWithCore,5,0,0.05,0.15,12,5,"[51,85,130]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_sm,uaf_pu_ash_sm,base_trail_weave,5,0.05,0.5,0.4,5,2,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_sm,uaf_pu_ash_sm,base_trail_weave,5,0.05,0.5,0.4,5,2,"[51,85,130]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_sm,uaf_pu_ash_sm,base_trail_aura,5,0.05,0.5,0.8,5,2,"[51,85,130]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_xl,uaf_pu_ash_xl,base_trail_zapWithCore,15,0.05,0,0.25,15,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_xl,uaf_pu_ash_xl,base_trail_zapWithCore,15,0,0.05,0.15,30,10,"[51,85,130]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_xl,uaf_pu_ash_xl,base_trail_weave,15,0.05,0.5,0.4,12,5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_xl,uaf_pu_ash_xl,base_trail_weave,15,0.05,0.5,0.4,12,5,"[51,85,130]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_xl,uaf_pu_ash_xl,base_trail_aura,15,0.05,0.5,0.8,12,5,"[51,85,130]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_lynx,uaf_pu_ash_exp,base_trail_zapWithCore,5,0.05,0,0.25,6,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_lynx,uaf_pu_ash_exp,base_trail_zapWithCore,5,0,0.05,0.15,12,10,"[238,130,238]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_lynx,uaf_pu_ash_exp,base_trail_weave,5,0.05,0.5,0.4,5,5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lynx,uaf_pu_ash_exp,base_trail_weave,5,0.05,0.5,0.4,5,5,"[238,130,238]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lynx,uaf_pu_ash_exp,base_trail_aura,5,0.05,0.5,0.8,5,5,"[238,130,238]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail_sm_1,uaf_fw_76mm,base_trail_zapWithCore,3,0.5,0.1,0.5,3,4,"[255,255,175,240]","[255,255,175,240]",0.3,300,100,10,5,1,TRUE,FALSE,TRUE,5,10,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_bomb_trail_sm,uaf_bomb_proj_small,base_trail_aura,20,0.5,0.3,0.5,12,7,"[0,0,139,255]","[156,129,238,75]",0.4,300,100,40,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_bomb_trail_md,uaf_bomb_proj_med,base_trail_aura,20,0.5,0.3,0.5,12,7,"[0,0,139,255]","[156,129,238,75]",0.4,300,100,40,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_bomb_trail_lg,uaf_bomb_proj,base_trail_aura,20,0.5,0.3,0.5,12,7,"[0,0,139,255]","[156,129,238,75]",0.4,300,100,40,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_downstream_xlc_trail1,uaf_downstream_xlc_warhead,base_trail_zapWithCore,30,0.05,0,0.25,30,2.5,"[255,255,175]","[238,130,238]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_downstream_xlc_trail2,uaf_downstream_xlc_warhead,base_trail_zapWithCore,30,0,0.05,0.15,20,2.5,"[255,255,175]","[255,45,0]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_downstream_xlc_trail3,uaf_downstream_xlc_warhead,base_trail_weave,30,0.05,0.5,0.5,15,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_downstream_xlc_trail4,uaf_downstream_xlc_warhead,base_trail_weave,30,0.05,0.5,0.5,15,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_downstream_xlc_trail5,uaf_downstream_xlc_warhead,base_trail_aura,30,0.05,0.5,1.2,25,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_lg_herexa,uaf_pu_aarm_lg_herexa,base_trail_zapWithCore,10,0.05,0,0.25,20,2.5,"[255,255,175]","[238,130,238]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_lg_herexa,uaf_pu_aarm_lg_herexa,base_trail_zapWithCore,10,0,0.05,0.15,15,2.5,"[255,255,175]","[255,45,0]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_lg_herexa,uaf_pu_aarm_lg_herexa,base_trail_weave,10,0.05,0.5,0.3,10,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lg_herexa,uaf_pu_aarm_lg_herexa,base_trail_weave,10,0.05,0.5,0.3,10,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lg_herexa,uaf_pu_aarm_lg_herexa,base_trail_aura,10,0.05,0.5,0.6,20,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_lg_penulisa,uaf_pu_pd_lg_penulisa,base_trail_zapWithCore,10,0.05,0,0.25,10,1,"[255,255,175]","[238,130,238]",0.05,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_lg_penulisa,uaf_pu_pd_lg_penulisa,base_trail_zapWithCore,10,0,0.05,0.15,7,1,"[255,255,175]","[255,45,0]",0.05,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_lg_penulisa,uaf_pu_pd_lg_penulisa,base_trail_weave,10,0.05,0.5,0.3,5,1,"[255,255,175]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lg_penulisa,uaf_pu_pd_lg_penulisa,base_trail_weave,10,0.05,0.5,0.3,5,1,"[100,165,255]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lg_penulisa,uaf_pu_pd_lg_penulisa,base_trail_aura,10,0.05,0.5,0.6,10,1,"[100,165,255]","[50,50,50]",0.1,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_railgun_trail1_lg_weiss,uaf_flak_heavy,base_trail_zapWithCore,10,0.05,0,0.25,15,2.5,"[255,255,175]","[238,130,238]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail2_lg_weiss,uaf_flak_heavy,base_trail_zapWithCore,10,0,0.05,0.15,12,2.5,"[255,255,175]","[255,45,0]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_railgun_trail3_lg_weiss,uaf_flak_heavy,base_trail_weave,10,0.05,0.5,0.3,8,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail4_lg_weiss,uaf_flak_heavy,base_trail_weave,10,0.05,0.5,0.3,8,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_railgun_trail5_lg_weiss,uaf_flak_heavy,base_trail_aura,10,0.05,0.5,0.6,15,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_flak_trail_2_weiss_small,uaf_flak_small,base_trail_zapWithCore,10,0,0.05,0.15,5,2.5,"[255,255,175]","[255,45,0]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_flak_trail_3_weiss_small,uaf_flak_small,base_trail_weave,10,0.05,0.5,0.3,2.5,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_flak_split_trail2_weiss,uaf_flak_heavy_split,base_trail_zapWithCore,10,0,0.05,0.15,10,2.5,"[255,255,175]","[255,45,0]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_flak_split_trail3_weiss,uaf_flak_heavy_split,base_trail_weave,10,0.05,0.5,0.3,7,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_flak_trail_3_weiss_medium,uaf_flak_medium,base_trail_zapWithCore,10,0,0.05,0.15,12,2.5,"[255,255,175]","[255,45,0]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_flak_trail_3_weiss_medium,uaf_flak_medium,base_trail_weave,10,0.05,0.5,0.3,10,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_shotgun_trail1_racun,uaf_racun_pod_proj,base_trail_zapWithCore,0.5,0.05,0,0.3,2,0.8,"[255,255,175]","[238,130,238]",0.4,300,100,10,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_shotgun_trail2_racun,uaf_racun_pod_proj,base_trail_zapWithCore,0.5,0,0.05,0.1,2,0.8,"[255,255,175]","[255,45,0]",0.4,300,100,10,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_shotgun_trail3_racun,uaf_racun_pod_proj,base_trail_weave,0.5,0.2,0.2,0.9,2,0.8,"[255,255,175]","[50,50,50]",0.2,300,100,7,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_shotgun_trail4_racun,uaf_racun_pod_proj,base_trail_weave,0.5,0.2,0.2,0.9,2,0.8,"[100,165,255]","[50,50,50]",0.2,300,100,7,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_shotgun_trail5_racun,uaf_racun_pod_proj,base_trail_aura,0.5,0.2,0.2,1,2,0.8,"[100,165,255]","[50,50,50]",0.6,300,100,7,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_pu_aarm_lg_1,uaf_pu_aarm_lg,base_trail_zapWithCore,10,0.05,0,0.25,12,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_pu_aarm_lg_2,uaf_pu_aarm_lg,base_trail_zapWithCore,10,0,0.05,0.15,25,10,"[240,94,35]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_pu_aarm_lg_3,uaf_pu_aarm_lg,base_trail_weave,10,0.05,0.5,0.4,10,5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_pu_aarm_lg_4,uaf_pu_aarm_lg,base_trail_weave,10,0.05,0.5,0.4,10,5,"[240,94,35]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_pu_aarm_lg_5,uaf_pu_aarm_lg,base_trail_aura,10,0.05,0.5,0.8,10,5,"[240,94,35]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_pu_aarm_md_1,uaf_pu_aarm_md,base_trail_zapWithCore,8,0.05,0,0.25,5,2,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_pu_aarm_md_2,uaf_pu_aarm_md,base_trail_zapWithCore,8,0,0.05,0.15,10,4,"[255,255,175]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_pu_aarm_md_3,uaf_pu_aarm_md,base_trail_weave,8,0.05,0.5,0.4,4,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_pu_aarm_md_4,uaf_pu_aarm_md,base_trail_weave,8,0.05,0.5,0.4,4,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_pu_aarm_md_5,uaf_pu_aarm_md,base_trail_aura,8,0.05,0.5,0.8,4,2.5,"[100,165,255]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_pu_aarm_sm_1,uaf_pu_aarm_sm,base_trail_zapWithCore,5,0.05,0,0.25,6,4,"[255,255,175]","[238,130,238]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_pu_aarm_sm_2,uaf_pu_aarm_sm,base_trail_zapWithCore,5,0,0.05,0.15,12,5,"[240,94,35]","[255,45,0]",0.4,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_pu_aarm_sm_3,uaf_pu_aarm_sm,base_trail_weave,5,0.05,0.5,0.4,5,2,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_pu_aarm_sm_4,uaf_pu_aarm_sm,base_trail_weave,5,0.05,0.5,0.4,5,2,"[240,94,35]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_pu_aarm_sm_5,uaf_pu_aarm_sm,base_trail_aura,5,0.05,0.5,0.8,5,2,"[240,94,35]","[50,50,50]",0.6,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_garuda_trail1,uaf_garuda_shot,base_trail_weave,30,0,1.5,0.5,20,8,"[125,125,240]","[0,5,5]",1,600,400,50,0,1,FALSE,FALSE,TRUE,0,0,0,0,0,0,false,
+uaf_garuda_trail2,uaf_garuda_shot,base_trail_smooth,30,0,0,1,24,12,"[100,100,200]","[45,45,45]",0.8,600,400,50,0,1,FALSE,FALSE,TRUE,15,20,0.3,0,40,120,true,
+uaf_garuda_trail3,uaf_garuda_shot,base_trail_fuzzy,30,0,5,0.3,60,24,"[75,105,255]","[0,5,5]",0.6,600,400,50,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,true,
+uaf_garuda_trail4,uaf_garuda_shot,uaf_helix_trail,50,0,1.5,0.135,11,15,"[80,115,235]","[0,5,5]",0.9,600,-600,-100,0,1,FALSE,TRUE,TRUE,0,0,0,0,0,0,false,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_axia_shot_large_trail1,uaf_axia_shot_large,base_trail_weave,30,0,1.5,0.5,6,6,"[125,125,240]","[0,5,5]",1,600,400,20,0,1,FALSE,FALSE,TRUE,0,0,0,0,0,0,false,
+uaf_axia_shot_large_trail2,uaf_axia_shot_large,base_trail_smooth,30,0,0,1,6,6,"[100,100,200]","[45,45,45]",0.8,600,400,20,0,1,FALSE,FALSE,TRUE,15,20,0.3,0,40,120,true,
+uaf_axia_shot_large_trail3,uaf_axia_shot_large,base_trail_fuzzy,30,0,5,0.3,12,12,"[75,105,255]","[0,5,5]",0.6,600,400,20,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,true,
+uaf_axia_shot_large_trail4,uaf_axia_shot_large,uaf_helix_trail,50,0,1.5,0.135,8,7,"[80,115,235]","[0,5,5]",0.9,600,-600,5,0,1,FALSE,TRUE,TRUE,0,0,0,0,0,0,false,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_axia_shot_medium_trail1,uaf_axia_shot_medium,base_trail_weave,30,0,1.5,0.5,3,4,"[125,125,240]","[0,5,5]",1,600,400,50,0,1,FALSE,FALSE,TRUE,0,0,0,0,0,0,false,
+uaf_axia_shot_medium_trail2,uaf_axia_shot_medium,base_trail_smooth,30,0,0,1,3,6,"[100,100,200]","[45,45,45]",0.8,600,400,50,0,1,FALSE,FALSE,TRUE,15,20,0.3,0,40,120,true,
+uaf_axia_shot_medium_trail3,uaf_axia_shot_medium,base_trail_fuzzy,30,0,5,0.3,4,7,"[75,105,255]","[0,5,5]",0.6,600,400,50,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,true,
+uaf_axia_shot_medium_trail4,uaf_axia_shot_medium,uaf_helix_trail,50,0,1.5,0.135,4,5,"[80,115,235]","[0,5,5]",0.9,600,-600,-100,0,1,FALSE,TRUE,TRUE,0,0,0,0,0,0,false,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_axia_shot_small_trail1,uaf_axia_shot_small,base_trail_weave,30,0,1.5,0.5,8,4,"[125,125,240]","[0,5,5]",1,600,400,20,0,1,FALSE,FALSE,TRUE,0,0,0,0,0,0,false,
+uaf_axia_shot_small_trail2,uaf_axia_shot_small,base_trail_smooth,30,0,0,1,7,5,"[100,100,200]","[45,45,45]",0.8,600,400,20,0,1,FALSE,FALSE,TRUE,15,20,0.3,0,40,120,true,
+uaf_axia_shot_small_trail3,uaf_axia_shot_small,base_trail_fuzzy,30,0,5,0.3,5,5,"[75,105,255]","[0,5,5]",0.6,600,400,20,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,true,
+uaf_axia_shot_small_trail4,uaf_axia_shot_small,uaf_helix_trail,50,0,1.5,0.135,3,2,"[80,115,235]","[0,5,5]",0.9,600,-600,-80,0,1,FALSE,TRUE,TRUE,0,0,0,0,0,0,false,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uaf_shimata_trail1,uaf_155mm_shot,base_trail_zapWithCore,10,0.05,0,0.25,4,2.5,"[255,255,175]","[238,130,238]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_shimata_trail2,uaf_155mm_shot,base_trail_zapWithCore,10,0,0.05,0.15,4,2.5,"[255,255,175]","[255,45,0]",0.1,300,100,30,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
+uaf_shimata_trail3,uaf_155mm_shot,base_trail_weave,10,0.05,0.5,0.3,8,2.5,"[255,255,175]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_shimata_trail4,uaf_155mm_shot,base_trail_weave,10,0.05,0.5,0.3,4,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+uaf_shimata_trail5,uaf_155mm_shot,base_trail_aura,10,0.05,0.5,0.6,15,2.5,"[100,165,255]","[50,50,50]",0.2,300,100,20,5,1,TRUE,FALSE,TRUE,5,20,0.4,0,0,100,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#String trail: projectile ID plus a suffix if there are multiple trails for that proj,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#String projectile: projectile ID,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#String sprite: sprite ID in data\config\settings.json: in the graphics\fx category,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float minLength: minimal segment length. Saves performances especially when time warp in involved,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   !!!! Can be set to a negative value to triggers a more optimized SLOW MODE for projectiles with speeds below 500. !!!!,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float fadeIn: fade in time in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float duration: full opacity duration in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float fadeOut: fadeout time in seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float sizeIn: initial width,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float sizeOut: final width,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Color colorIn: initial color,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Color colorOut: final color,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float opacity: maximum opacity clamp,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float textLength: texture length in pixels,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float textScroll: texture scroll speed in pixels per seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float distance: distance behind the proj the trail spawns,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float dispersion: amount of randomization per second in su,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float drift: amount of sideway motion inherited from the ship is applied to the trail,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float frameOffsetMult: fixes some small offset between the proj and the trail that can occur with some combination of inherited lateral motion, distance and drift,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean fadeOnFadeOut: forced fadeout if the proj fades,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean angleAdjustment reorient the trail in the direction of the velocity rather than the proj facing. ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   !!!! Must be FALSE for BALLISTIC_AS_BEAM projs !!!!,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean additive: normal or additive blending,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float velocityIn: speed at which the trail segments are emited at in su,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float velocityOut: final speed of the trail segments,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float randomVelocity: randomize both velocityIn and out in that proportion.,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float angle: offset angle of the trail relative to the projectile orientation after corrections if any (default 0 for directly backward),,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float rotationIn: initial angular momentum of the trail segments relative to the projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float rotationOut: final angular momentum of the trail segments,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean randomRotation: randomize the angular momentums. ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#   Can be used to create non-linear dispersion effects when used with various velocities and angular momentums,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#boolean renderBelowExplosions: render the trail under explosions and other particle effects. Mostly used with non additive trails,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#float frameOffsetMult: scales the per-frame velocity offset (only necessary for overkill levels of control with default x1 multiplier).,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#EXAMPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#SKR_blackout_shot,SKR_blackout_shot,SKR_fuzzyTrail,10,0.1,0.1,0.5,24,12,"[25,200,150]","[50,100,200]",0.5,-128,-256,10,0,0,0,FALSE,FALSE,TRUE,50,0,0,0,0,180,true
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

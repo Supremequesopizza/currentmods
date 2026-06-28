@@ -1,0 +1,75 @@
+id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME Exotica",,,,,,
+,,,,,,
+# default starport interaction,,,,,,
+ETMainDialog,PopulateOptions,"$hasMarket
+$menuState == main
+$tradeMode == OPEN
+RepairAvailable","SetShortcut ETMainMenu ""U"" true",,"25:ETMainMenu:Visit the local Exotica Technologies branch.",
+ETMainMenu,DialogOptionSelected,"$option==ETMainMenu","$menuState = ETMainMenu
+SetShortcut ETDialogBack ""ESCAPE""","The Exotica engineering team welcomes you!","16:ETOpenPrototypeUI:Install modifications onto your ships.
+32:ETOpenMarketUI:View the market inventory of Exotica chips.
+90:ETDialogBack:Back",
+ETOpenPrototypeUI,DialogOptionSelected,"$option==ETOpenPrototypeUI","ETPrototypeUI",,,
+ETOpenMarketUI,DialogOptionSelected,"$option==ETOpenMarketUI","ETMarketUI",,,
+ETDialogBack,DialogOptionSelected,"$option==ETDialogBack","ShowDefaultVisual
+$menuState = main 0
+FireAll PopulateOptions
+unset $UpgradePageIndex",,,
+"#END default starport interaction",,,,,,
+,,,,,,
+# Scanning,,,,,,
+,,,,,,
+# Derelict,,,,,,
+ETDerelictShipGenerate,PopulateSalvageOptions1,"$customType == wreck
+!$entity.etGeneratedForDerelict","ETGenerateForDerelict",,,
+ETDerelictShipDialog,ET_CreateScanOptionForDerelict,"!$sotf_WSwispmother
+ETHasUpgrades","Highlight ""Exotica technologies""","Upon closer inspection, the derelict appears to have signs of Exotica technologies.","11:ETScanDerelict:Scan the derelict for Exotica technologies.",
+ETScanDerelict,DialogOptionSelected,"$option==ETScanDerelict","ETScanDerelict",,,
+"#END Derelict",,,,,,
+,,,,,,
+# Fleets,,,,,,
+ETFleetEncounterDialog,BeginFleetEncounter,"!$player.etBeganFleetEncounter
+!$etBeganFleetEncounter
+ETHasUpgrades score:9999998","$player.etBeganFleetEncounter = true 0
+$etBeganFleetEncounter = true 0
+FireBest BeginFleetEncounter
+FireAll GeneratedESForFleet",,,
+ETFleetEncounterDialogZiggurat,BeginFleetEncounter2,"ETHasUpgrades score:9999998
+$ziggurat
+!$etHasDrawnTextForZigg","$etHasDrawnTextForZigg = true 0
+FireBest BeginFleetEncounter2
+AddText ""Your sensor lead informs you that, whatever that thing is, it has the trace signature of some kind of Exotica technologies. They can be scanned through a small change to how a comms link is initialized.""
+Highlight ""Exotica technologies""",,,
+ETFleetEncounterGenerated,GeneratedESForFleet,"ETHasUpgrades score:9999998
+!$ziggurat
+$customType != coronal_tap
+!$etScanOptionDisplayed","$etScanOptionDisplayed = true 1
+Highlight ""Exotica technologies""","The other fleet appears to have modified some of their ships with Exotica technologies. They can be scanned through a small change to how a comms link is initialized.",,
+"#END Fleets",,,,,,
+,,,,,,
+# Defenses,,,,,,
+ETOmegaEncounterGenerated,TriggerAutomatedDefenses,"!$etHasDrawnTextForOmega
+ETHasUpgrades score:9999998
+$customType == coronal_tap","$etHasDrawnTextForOmega = true 0
+FireBest TriggerAutomatedDefenses
+ETGenerateForDefenseFleet
+AddText ""The sensors tell you that there are Exotica technologies present on whatever those things are, and that most of them appear to be subsumed alpha, beta and gamma-level AI cores. The sensor readings vaguely resemble distress signals from days long gone, almost as if the cores are crying.""
+Highlight ""Exotica technologies"" ""crying""
+ETScanOmegas",,,
+ETDerelictEncounterGenerated,TriggerAutomatedDefenses,"!$etHasDrawnTextForDefenses
+ETHasUpgrades score:9999998
+$customType != coronal_tap","$etHasDrawnTextForDefenses = true 0
+FireBest TriggerAutomatedDefenses
+ETGenerateForDefenseFleet
+AddText ""Generated mods for new fleet.""",,,
+"#END Defenses",,,,,,
+,,,,,,
+# DebrisField,,,,,,
+ETDebrisFieldGen,PopulateSalvageOptions1,"$customType == debris_field_shared
+!$entity.etGeneratedForDebrisField","ETGenerateForDebrisField
+$entity.etGeneratedForDebrisField = true 0",,,
+ETScanDebrisField,DialogOptionSelected,"$option==ETScanDebrisField","ETScanDebrisField",,,
+"#END DebrisField",,,,,,
+"#END Scanning",,,,,,
+

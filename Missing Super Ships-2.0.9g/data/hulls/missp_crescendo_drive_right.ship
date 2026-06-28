@@ -1,0 +1,99 @@
+{
+  "hullName": "Crescendo Right Drive Module",
+  "hullId": "missp_crescendo_drive_right",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/crescendo/crescendo drive right module.png",
+  "style": "MIDLINE",
+  "height": 125,
+  "width": 100,
+  "center": [22, 111.5],
+  "collisionRadius": 210,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0,
+  "viewOffset": 210,
+  "builtInMods": [
+    "hbi",
+    "missp_linked_hull",
+    "shared_flux_sink",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -85,
+      "locations": [-10.5, -10]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": -100,
+      "locations": [-68.5, -7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-109.5, -21],
+      "length": 72,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108.5, -35],
+      "length": 72,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107.5, -45.5],
+      "length": 72,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107.5, -54.5],
+      "length": 72,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-105.5, -62.5],
+      "length": 72,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -87.5, -1.5,
+    -100.5, -13.5,
+    -108.5, -10,
+    -109.5, -21,
+    -104.5, -68,
+    -79.5, -68,
+    -73.5, -76,
+    -45, -75,
+    -27, -65,
+    -17.5, -55,
+    -17.5, -43,
+    -1.5, -26,
+    3.5, -10.5,
+    3.5, -1,
+    -45, -5
+  ]
+}

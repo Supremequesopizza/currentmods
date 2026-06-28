@@ -1,0 +1,48 @@
+{
+	"id":"bt_seilch_charge",
+	"specClass":"missile",	
+	"missileType":"PHASE_MINE",
+	"sprite":"graphics/missiles/bt_seilch_charge.png",
+	"glowSprite":"graphics/missiles/bt_seilch_charge_glow.png",
+	"glowColor":[201,227,208,175],
+	"size":[14,22],	
+	"center":[7,11],	
+	"collisionRadius":20,
+	"armingTime":400,
+	"collisionClass":"MISSILE_FF",
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"explosionColor":[201,227,208,95],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual	
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":150,
+				  "acc":0,
+				  "dec":50},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+                    "onExplosionEffect":"data.scripts.weapons.bt_seilch_charge_onhit",
+					"range":100,
+					"slowToMaxSpeed":true,
+					"delay":2,
+					"pingSound":"bt_seilch_charge_ping",
+					"pingColor":[255,225,125,255],
+					"pingRadius":450,
+					"pingDuration":0.25,
+					"windupSound":"bt_seilch_charge_countdown",
+					"windupDelay":1,
+					"explosionSpec":{"duration":0.2f,
+									 "radius":250,
+									 "coreRadius":250, # full damage within core radius
+									 "collisionClass":MISSILE_FF,
+									 "collisionClassByFighter":MISSILE_FF,
+									 "particleSizeMin":2.0,
+									 "particleSizeRange":5.0,
+									 "particleDuration":1.2,
+									 "particleCount":250,
+									 "particleColor":[201,227,208,125],
+									 "explosionColor":[201,227,208,205],
+									 "useDetailedExplosion":false,
+									 "sound":"bt_seilch_charge_explosion"},
+					}	
+}
+

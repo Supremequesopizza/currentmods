@@ -1,0 +1,186 @@
+{
+  "hullName": "Hinnie",
+  "hullId": "ork_supermule",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ork_supermule.png",
+  "style": "MIDLINE",
+  "height": 182,
+  "width": 116,
+  "center": [58, 96],
+  "collisionRadius": 122,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 115.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [74.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [67.5, 19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [67.5, -19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [8.5, 39]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [8.5, -39]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 55,
+      "locations": [-15, 40]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -55,
+      "locations": [-15, -40]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 180,
+      "locations": [-69, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-72, 14],
+      "length": 43,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, -14],
+      "length": 43,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56, 32.5],
+      "length": 54,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, -32.5],
+      "length": 54,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-51, 43],
+      "length": 30,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-51, -43],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -93, -3.5,
+    -71, -9,
+    -71, -17.5,
+    -66, -24.5,
+    -54, -26,
+    -54, -37.5,
+    -49.5, -39.5,
+    -49, -48.5,
+    -54.5, -51.5,
+    -29.5, -55,
+    5, -45.5,
+    6, -33,
+    19, -26.5,
+    37, -37,
+    70, -28,
+    70.5, -15,
+    80, -9.5,
+    80, 9.5,
+    70.5, 15,
+    70, 28,
+    37, 37,
+    19, 26.5,
+    6, 33,
+    5, 45.5,
+    -29.5, 55,
+    -54.5, 51.5,
+    -49, 48.5,
+    -49.5, 39.5,
+    -54, 37.5,
+    -54, 26,
+    -66, 24.5,
+    -71, 17.5,
+    -71, 9,
+    -93, 3.5
+  ]
+}

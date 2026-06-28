@@ -1,0 +1,4 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
+# IND,,,,,,,,,,,,,
+admin_man_out_of_time,Man out of Time,1600,4,2,,"A resource-rich world, poised to become a vital foothold in the Persean Sector. Surveys highlight immense potential, making it a prime target for ambitious colonization efforts.",Cryosleeper Status Log: Eon Horizon Preservation Report 472-A,,,TRUE,"npc_only,deprecated",graphics/icons/skills/domain.png,
+officer_man_out_of_time,Man out of Time,1600,4,2,,"The ability to analyze and exploit a vessel’s weak points is essential to securing victory, where raw firepower alone falls short. Only a keen mind can turn structural flaws into decisive advantages.","""Engagement Tactics"": VI Battlegroup Tactical Oversight Division",TRUE,,,"npc_only,deprecated",graphics/icons/skills/domain.png,

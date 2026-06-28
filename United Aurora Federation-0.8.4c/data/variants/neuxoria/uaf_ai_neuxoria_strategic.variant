@@ -1,0 +1,85 @@
+{
+    "displayName": "Strategic",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_ai_neuxoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_reserve_wing_operation",
+        "ecm"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_neuxoria_strategic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_semibreve_base"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "uaf_penulisa_acx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_selemene_m_mrm",
+                "WS0006": "uaf_selemene_m_mrm",
+                "WS0007": "uaf_selemene_m_mrm",
+                "WS0008": "uaf_selemene_m_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "uaf_vocal_s_srm",
+                "WS0016": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_cantata_cn",
+                "WS0002": "uaf_cantata_cn",
+                "WS0003": "uaf_claris_cn",
+                "WS0004": "uaf_claris_cn",
+                "WS0017": "uaf_medlav_dual",
+                "WS0018": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_enyria_pdx",
+                "WS0012": "uaf_enyria_pdx",
+                "WS0013": "uaf_weiss_ii_flk",
+                "WS0014": "uaf_weiss_ii_flk",
+                "WS0019": "uaf_pd_reina",
+                "WS0020": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_veronica",
+        "uaf_wing_ai_veronica",
+        "uaf_wing_ai_veronica",
+        "uaf_wing_ai_revere",
+        "uaf_wing_ai_revere",
+        "uaf_wing_ai_revere"
+    ]
+}

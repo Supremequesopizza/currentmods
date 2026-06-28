@@ -1,0 +1,225 @@
+{
+  "hullName": "Vestige",
+  "hullId": "tahlan_vestige",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/tahlan/ships/special/tahlan_vestige.png",
+  "style": "TAHLAN_FILAMENT_TECH",
+  "height": 272,
+  "width": 196,
+  "center": [98, 136],
+  "collisionRadius": 177.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 172,
+  "viewOffset": 0,
+  "builtInMods": [
+    "tahlan_scalarspecs",
+    "tahlan_heavycycleboost"
+  ],
+  "builtInWeapons": {
+    "WS0010": "tahlan_spiral",
+    "WS0011": "tahlan_spiral"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [-1, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 21.5,
+      "locations": [-49, 42]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -21.5,
+      "locations": [-49, -42]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 176,
+      "angle": 60.5,
+      "locations": [47, 22]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 176,
+      "angle": -60.5,
+      "locations": [47, -22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 131,
+      "angle": 48.5,
+      "locations": [68, 18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 131,
+      "angle": -48.5,
+      "locations": [68, -18]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 132.5,
+      "locations": [-78, 44]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -132.5,
+      "locations": [-78, -44]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [103.5, 16]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [103.5, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60, -0],
+      "length": 91,
+      "width": 39,
+      "angle": 180,
+      "contrailSize": 39,
+      "style": "TAHLAN_VESTIGE_ENGINE"
+    },
+    {
+      "location": [-60.5, -0],
+      "length": 38,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "TAHLAN_RED_ENGINE"
+    },
+    {
+      "location": [-110.5, 33.5],
+      "length": 64,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "TAHLAN_VESTIGE_ENGINE"
+    },
+    {
+      "location": [-110.5, -33.5],
+      "length": 64,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "TAHLAN_VESTIGE_ENGINE"
+    },
+    {
+      "location": [-101.5, 69.5],
+      "length": 59,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "TAHLAN_VESTIGE_ENGINE"
+    },
+    {
+      "location": [-101.5, -69.5],
+      "length": 59,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "TAHLAN_VESTIGE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -63, -16,
+    -94.5, -18.5,
+    -110.5, -29,
+    -110.5, -40,
+    -128, -42,
+    -133, -49.5,
+    -110.5, -55.5,
+    -101.5, -75.5,
+    -111.5, -80,
+    -61.5, -84.5,
+    -65, -90.5,
+    -26, -89.5,
+    -32, -83,
+    -17.5, -79,
+    -5.5, -60,
+    17.5, -53,
+    71.5, -53,
+    74, -59,
+    100.5, -59,
+    98, -54,
+    109.5, -47,
+    114, -27,
+    111, -24,
+    111.5, -15.5,
+    106.5, -10,
+    106.5, 10,
+    111.5, 15.5,
+    111, 24,
+    114, 27,
+    109.5, 47,
+    98, 54,
+    100.5, 59,
+    74, 59,
+    71.5, 53,
+    17.5, 53,
+    -5.5, 60,
+    -17.5, 79,
+    -32, 83,
+    -26, 89.5,
+    -65, 90.5,
+    -61.5, 84.5,
+    -111.5, 80,
+    -101.5, 75.5,
+    -110.5, 55.5,
+    -133, 49.5,
+    -128, 42,
+    -110.5, 40,
+    -110.5, 29,
+    -94.5, 18.5,
+    -63, 16
+  ]
+}

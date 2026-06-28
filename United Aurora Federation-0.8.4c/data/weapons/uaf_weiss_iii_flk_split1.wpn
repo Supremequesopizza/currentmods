@@ -1,0 +1,40 @@
+{
+	"id":"uaf_weiss_iii_flk_split1",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/Weiss III FLK/med_weissiii_flk_turret_base.png",
+	"turretGunSprite":"graphics/weapons/Weiss III FLK/med_weissiii_flk_dual_recoil.png",
+	"hardpointSprite":"graphics/weapons/Weiss III FLK/med_weissiii_flk_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/Weiss III FLK/med_weissiii_flk_hardpoint_recoil.png",	
+	"visualRecoil":9.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"everyFrameEffect": "data.scripts.weapons.uaf_flakExplosion",
+	#"numFrames":4,	
+	#"frameRate":20,
+	"turretOffsets":[
+		-6, 8,
+		-6, -8
+	],
+	"turretAngleOffsets":[0,0],
+	"hardpointOffsets":[
+		-6, 8,
+		-6, -8
+	],
+	"hardpointAngleOffsets":[0,0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":35.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.15,
+					   "particleCount":11,
+					   "particleColor":[255,240,165,200]},	
+	"projectileSpecId":"uaf_flak_heavy_split",  # projectile that will be fired
+	#"noImpactSounds":true,
+	#"noShieldImpactSounds":true,
+	#"noNonShieldImpactSounds":true,
+	#"fireSoundOne":"chaingun_intro",	
+	"fireSoundTwo":"Flak_fire_large",	
+}

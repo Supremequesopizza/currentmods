@@ -1,0 +1,5 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Heated World,HSI_HeatingWorld,TRUE,TRUE,com.fs.starfarer.api.impl.campaign.econ.WorldIce,"With no star to provide light and heat to $market, Halo Dynamics built large planetary-scale heating networks to compensate. Fuel demand is increased.",graphics/icons/markets/ice_world_wide.png,10
+Siren Song,HSI_PR_Stage1,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LCAttractorLow,$market appears to be home to some unusual and powerful natives...,graphics/icons/markets/inimical_biosphere.png,10
+Melting Ice,HSI_PR_Stage2,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LCAttractorLow,$market is home to natives with minimal interaction with the outside world.,graphics/icons/markets/water_world_wide.png,20
+Ocean Tears,HSI_PR_Stage3,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LCAttractorLow,"The mermaids of $market are now part of the greater galaxy, striving to bring joy to this dim corner of the stars.",graphics/icons/markets/habitable.png,30

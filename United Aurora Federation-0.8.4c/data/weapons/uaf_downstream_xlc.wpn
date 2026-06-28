@@ -1,0 +1,58 @@
+{
+  "id": "uaf_downstream_xlc",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_downstream_xlc_warhead",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "org.niatahl.uaf.weapons.uaf_chemicalWeaponEffect",
+  #"everyFrameEffect": "data.scripts.weapons.uaf_downstream_xlc_onfire",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Downstream 808mm Dual/downstream_808mm_dual_turret_base.png",
+  "turretGunSprite": "graphics/weapons/Downstream 808mm Dual/downstream_808mm_dual_recoil.png",
+  "hardpointSprite": "graphics/weapons/Downstream 808mm Dual/downstream_808mm_dual_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/Downstream 808mm Dual/downstream_808mm_dual_hardpoint_recoil.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 10,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    41.5,
+    5,
+    41.5,
+    -5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    46,
+    5,
+    46,
+    -5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 80,
+    "spread": 10,
+    "particleSizeMin": 20,
+    "particleSizeRange": 30,
+    "particleDuration": 0.1,
+    "particleCount": 30,
+    "particleColor": [
+      100,
+      100,
+      250,
+      120
+    ]
+  },
+  "fireSoundOne": "uaf_ru_herexa_608",
+  "fireSoundTwo": "uaf_downstream_808"
+}

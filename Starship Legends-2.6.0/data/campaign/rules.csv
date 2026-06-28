@@ -1,0 +1,17 @@
+id,trigger,conditions,script,text,options,notes
+sun_sl_sal_printDefaultDefenders,TriggerAutomatedDefenses,$hasDefenders == true score:100,SL_SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, new energy signatures are detected near the $shortName.",,
+sun_sl_sal_printDebrisDefenders,TriggerAutomatedDefenses,$customType == debris_field_shared score:101,SL_SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, new energy signatures are detected near a larger pieces of debris.",,
+sun_sl_sal_triggerProbeDefenders,TriggerAutomatedDefenses,$customType == derelict_probe score:101,SL_SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, several energy signatures are detected coming online inside the probe's hold.",,
+sun_sl_sal_triggerSurveyShipDefenders,TriggerAutomatedDefenses,$customType == derelict_survey_ship score:101,SL_SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, multiple energy signatures are detected coming online from various points on and within the flayed hull of the survey ship.",,
+sun_sl_sal_triggerMothershipDefendersBoth,TriggerAutomatedDefenses,"$customType == derelict_mothership score:101
+$hasStation
+$hasNonStation",SL_SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, numerous strong energy signatures are detected coming online inside the darkened work-bays of the mothership's vast hulk. Your sensors also detect several weapon emplacements powering up on the mothership itself.",,
+sun_sl_sal_triggerMothershipDefendersOnlyDrones,TriggerAutomatedDefenses,"$customType == derelict_mothership score:101
+$hasNonStation",SL_SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, numerous strong energy signatures are detected coming online inside the darkened work-bays of the mothership's vast hulk.",,
+sun_sl_sal_triggerMothershipDefendersOnlyItself,TriggerAutomatedDefenses,"$customType == derelict_mothership score:101
+$hasStation",SL_SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, your sensors detect several weapon emplacements powering up in darkened crevasses on the mothership's vast hulk.",,
+sun_sl_psi_defenderDesc,TriggerAutomatedDefenses,$psi_planet score:1020,SL_SalvageDefenderInteraction,"As your $shipOrFleet moves in closer, sensors detect multiple contacts rising up from the murky red depths.",,
+sun_sl_marketHostileSel,DialogOptionSelected,$option == marketConsiderHostile score:1001,SL_ShowMarketDefenses showDefenses,,,
+sun_sl_sal_famousWreckDetails,DialogOptionSelected,"$option == salExplore
+$sun_sl_customType == famousWreck score:1001","SL_ShowFamousDerelict
+SetShortcut defaultLeave ESCAPE",,,

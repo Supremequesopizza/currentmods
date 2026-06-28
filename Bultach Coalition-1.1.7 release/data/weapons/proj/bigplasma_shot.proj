@@ -1,0 +1,17 @@
+{
+	"id":"bigplasma_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.bigplasma_onhit",
+	"length":55.0,
+	"width":30,
+	"fadeTime":0.5,
+	"fringeColor":[255,0,0,255],
+	"coreColor":[255,255,255,200],
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"passThroughMissiles":true,
+}

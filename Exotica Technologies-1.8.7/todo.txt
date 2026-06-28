@@ -1,0 +1,13 @@
+drop more exotics from IBB and HVB fleets
+melt chips into parts that can be used to upgrade bandwidth
+scrapping boss ships for unique one of a kind exotics
+* ziggurat - mote storm around ship
+
+consider: System cooldown for weapon range?
+consider: Magazine reload for fire rate
+
+todo: update interface to use new buttonPressed methods
+todo: add Advanced Gunnery Control tags to things that deserve them (like missile spam for hacked missile forge)
+
+todo:
+- cruise drive subsystem

@@ -1,0 +1,163 @@
+{
+
+	"designTypeColors":{
+		"Bultach Coalition": [98,141,107,255],
+		"Gestalt": [255,234,190,255]
+	},
+	"plugins":{
+		"bt_shipExplosion":"data.scripts.plugins.bt_shipExplosion",
+		"bt_shipExplosion_generic":"data.scripts.plugins.bt_shipExplosion_generic",
+		"bt_gestalt_battlestart":"data.scripts.plugins.bt_gestalt_battlestart",
+		"bt_forcedeploy_dorn":"data.scripts.plugins.bt_forcedeploy_dorn",
+		"bt_piercing_behavior":"data.scripts.plugins.bt_piercing_behavior",
+		"bt_gestalt_symbol_sequence":"data.scripts.plugins.bt_gestalt_symbol_sequence",
+		"bt_shipExplosion_Gestalt":"data.scripts.plugins.bt_shipExplosion_Gestalt",
+		"bt_feregether_shipExplosion":"data.scripts.plugins.bt_feregether_shipExplosion",
+		"bt_piloting_murtach_plugin":"data.scripts.plugins.bt_piloting_murtach_plugin",
+		"bt_FrenziedFlamePlugin":"data.scripts.plugins.bt_FrenziedFlamePlugin",
+
+	},
+
+	"drop_prob_officer_bt_gestalt_core":0.07,
+
+	"graphics":{
+
+		"blueprint_packages":{
+			"ork_project_package":"graphics/icons/cargo/ork_package_bp.png"
+		},
+
+		"fx":{
+			#"shields_bultach_256":"graphics/fx/shields/bultach_256.png",
+			#"shields_bultach_128":"graphics/fx/shields/bultach_128.png",
+			#"shields_bultach_64":"graphics/fx/shields/bultach_64.png",
+
+			#"shields_bultach_256":"graphics/fx/shields/bultach_gestalt_256.png",
+			#"shields_bultach_128":"graphics/fx/shields/bultach_gestalt_128.png",
+			#"shields_bultach_64":"graphics/fx/shields/bultach_gestalt_64.png",
+			
+			#"shields_bultach_256ring":"graphics/fx/shields/bultach_256ring.png",
+			#"shields_bultach_128ring":"graphics/fx/shields/bultach_128ring.png",
+			#"shields_bultach_64ring":"graphics/fx/shields/bultach_64ring.png",
+
+			"Trail_Clean":"graphics/fx/trails/clean_trail.png",
+			"Trail_Fuzzy":"graphics/fx/trails/fuzzy_trail.png",
+			"Trail_Zappy":"graphics/fx/trails/zappy_trail.png",
+			"Trail_Doublehelix":"graphics/fx/trails/doublehelix_trail.png",
+			"Trail_Ring":"graphics/fx/trails/ring_trail.png",
+			"Trail_Smooth":"graphics/fx/trails/smooth_trail.png",
+			"Trail_Contrail":"graphics/fx/trails/contrail_trail.png",
+			"Trail_Surge":"graphics/fx/trails/surge_trail.png",
+			"Trail_Core":"graphics/fx/trails/core_trail.png",
+			"bt_phase_interdiction":"graphics/fx/bt_phase_interdiction.png",
+			"Smoke_trail":"graphics/fx/trails/smoke_trail.png",
+			"chaotic_trail":"graphics/fx/trails/chaotic_trail.png",
+			"doublehelix_trail_beam":"graphics/fx/doublehelix_trail_beam.png",
+			"bt_beam_fluid":"graphics/fx/bt_beam_fluid.png",
+			"bt_beam_POWER":"graphics/fx/bt_beam_POWER.png",
+			"bt_beam_idk":"graphics/fx/bt_beam_idk.png",
+			
+
+			"bt_holy_aura":"graphics/fx/bultach_holy_aura.png",
+			"bt_holy_aura_2":"graphics/fx/bultach_holy_aura_2.png",
+			"bt_holy_shockwave":"graphics/fx/bultach_holy_shockwave.png",
+			"bt_holy_aura_dim":"graphics/fx/bultach_holy_aura_dim.png",
+			"bultach_siege_impact_shockwave":"graphics/fx/bultach_siege_impact_shockwave.png",
+			"bultach_nuke_shockwave":"graphics/fx/bultach_nuke_shockwave.png",
+			"bultach_siegelaser_shockwave":"graphics/fx/bultach_siegelaser_shockwave.png",
+			"bultach_artillery_shockwave":"graphics/fx/bultach_artillery_shockwave.png",
+			"bultach_siege_explosion":"graphics/fx/bultach_siege_explosion.png",
+			"bultach_siege_explosion_2":"graphics/fx/bultach_siege_explosion_2.png",
+			"bultach_siege_explosion_3":"graphics/fx/bultach_siege_explosion_3.png",
+			"bultach_nuke_risidual":"graphics/fx/bultach_nuke_risidual.png",
+			"bt_holy_explosion":"graphics/fx/bt_holy_explosion.png",
+			"bultach_holy_explosion_shockwave":"graphics/fx/bultach_holy_explosion_shockwave.png",
+			"bultach_maul_risidual":"graphics/fx/bultach_maul_risidual.png",
+			"bultach_maul_shockwave":"graphics/fx/bultach_maul_shockwave.png",
+			"bultach_maul_shockwave_2":"graphics/fx/bultach_maul_shockwave_2.png",
+
+
+			"bt_cleave_aura":"graphics/fx/bt_cleave_aura.png", 
+            "bt_cleave_swoosh":"graphics/fx/bt_cleave_swoosh.png",
+            "bt_cleave_shadow":"graphics/fx/bt_cleave_shadow.png",  
+            "bt_cleave_trail":"graphics/fx/bt_cleave_trail.png",
+            "bt_cleave_cloud":"graphics/fx/bt_cleave_cloud.png",
+            "bt_cleave_sweetness":"graphics/fx/bt_cleave_sweetness.png",
+
+			"bt_cleavetrail_0":"graphics/fx/cleave_trails/bt_cleavetrail_00.png", 
+            "bt_cleavetrail_1":"graphics/fx/cleave_trails/bt_cleavetrail_01.png",
+            "bt_cleavetrail_2":"graphics/fx/cleave_trails/bt_cleavetrail_02.png",
+            "bt_cleavetrail_3":"graphics/fx/cleave_trails/bt_cleavetrail_03.png",
+            "bt_cleavetrail_4":"graphics/fx/cleave_trails/bt_cleavetrail_04.png",
+            "bt_cleavetrail_5":"graphics/fx/cleave_trails/bt_cleavetrail_05.png", 
+
+			"bt_flare1":"graphics/fx/bt_flare.png", 
+
+			"bt_symbol_le":"graphics/fx/symbols/bt_symbol_le.png", 
+			"bt_symbol_uy":"graphics/fx/symbols/bt_symbol_uy.png", 
+			"bt_symbol_ee":"graphics/fx/symbols/bt_symbol_ee.png", 
+
+			"bt_recolored_noise":"graphics/fx/bt_recolored_noise.png",
+
+			"bt_murtach_neuralbond":"graphics/fx/murtach_neuralbond/bt_murtach_neuralbond.png",
+			"bt_murtach_uplink_overlay":"graphics/fx/bt_murtach_uplink_overlay.png",
+
+
+			"bultach_ferventcharge_shockwave":"graphics/fx/bultach_ferventcharge_shockwave.png",
+			"bt_vortex_swirl":"graphics/fx/bt_vortex_swirl.png",
+			"ork_convergence_swarm":"graphics/ships/gestalt/ork_convergence_swarm.png",
+			"bt_nothing_lol":"graphics/fx/bt_nothing.png",
+			"bt_convergence_trail":"graphics/fx/bt_convergence_trail.png",
+			"bt_summoning_aura":"graphics/fx/bt_summoning_aura.png",
+
+			"bt_lightray_01":"graphics/fx/light_rays/bt_lightray_01.png",
+			"bt_lightray_02":"graphics/fx/light_rays/bt_lightray_02.png",
+			"bt_lightray_03":"graphics/fx/light_rays/bt_lightray_03.png",
+
+		},
+
+		"campaignEntities":{	
+			"bt_beam_core":"graphics/fx/siphon_fx/bt_beam_core.png",
+			"bt_beam_core2":"graphics/fx/siphon_fx/bt_beam_core2.png",
+			"bt_beam_fringe":"graphics/fx/siphon_fx/bt_beam_fringe.png",
+			"bt_beam_glow":"graphics/fx/siphon_fx/bt_beam_glow.png",
+			"bt_flare_color":"graphics/fx/siphon_fx/bt_flare_color.png",
+			"bt_flare_color2":"graphics/fx/siphon_fx/bt_flare_color2.png",
+			"bt_gasgiant_glow1":"graphics/fx/siphon_fx/bt_gasgiant_glow1.png",
+			"bt_gasgiant_glow2":"graphics/fx/siphon_fx/bt_gasgiant_glow2.png",
+
+		},
+
+		"terrain":{
+			"nebula_hubris":"graphics/terrain/nebula_hubris.png",
+			"nebula_hubris_map":"graphics/terrain/nebula_hubris_map.png",	
+
+			"nebula_bt_home":"graphics/terrain/nebula_bt_home.png",
+			"nebula_bt_home_map":"graphics/terrain/nebula_bt_home_map.png",	
+
+		},
+		"hab_glows":{
+			"bt_miotail_glow":"graphics/planets/bt_miotail_glow.png",	
+		},
+
+
+		"BULTACH_TECH":{
+			"BT_shield_inner":"graphics/fx/shields/bultach_256.png",
+			"BT_shield_outer":"graphics/fx/shields/bultach_256ring.png",
+		},
+		"GESTALT_TECH":{
+			"BT_shield_inner_gestalt":"graphics/fx/shields/bultach_gestalt_256.png",
+			"BT_shield_outer_gestalt":"graphics/fx/shields/bultach_256ring_gestalt.png",
+		},
+
+		"characters": {
+			"BTuisdean":"graphics/portraits/bt_uisdean.png",
+			"BTliam":"graphics/portraits/bt_liam.png",
+			"BTailis":"graphics/portraits/bt_ailis.png",
+			"BTkresknov":"graphics/portraits/bt_kresknov.png",
+
+
+			"BTgestaltcore":"graphics/portraits/bt_ai_2.png",
+
+		}
+	}
+}

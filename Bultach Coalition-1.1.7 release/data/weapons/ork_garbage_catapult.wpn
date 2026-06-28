@@ -1,0 +1,65 @@
+{
+  "id": "ork_garbage_catapult",
+  "specClass": "projectile",
+  "projectileSpecId": "bt_nuclear_cannon_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 600,
+  "turretSprite": "graphics/weapons/ork_trash_catapult.png",
+  "turretGunSprite": "graphics/weapons/ork_trash_catapult_recoil.png",
+  "hardpointSprite": "graphics/weapons/ork_trash_catapult.png",
+  "hardpointGunSprite": "graphics/weapons/ork_trash_catapult_recoil.png",
+  "visualRecoil": 25.0,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    67,
+    50,
+    85,
+    20,
+    85,
+    -20,
+    67,
+    -50
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    110.5,
+    50,
+    128.5,
+    20,
+    128.5,
+    -20,
+    110.5,
+    -50
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 70,
+    "spread": 25,
+    "particleSizeMin": 15,
+    "particleSizeRange": 45,
+    "particleDuration": 1,
+    "particleCount": 60,
+    "particleColor": [
+      255,
+      70,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "hell_fire"
+}

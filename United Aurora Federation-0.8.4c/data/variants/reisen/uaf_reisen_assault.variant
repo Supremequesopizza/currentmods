@@ -1,0 +1,79 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 9,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "uaf_reisen",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_reisen_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_herexa",
+                "WS0012": "uaf_herexa",
+                "WS0013": "uaf_herexa",
+                "WS0014": "uaf_herexa"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0019": "uaf_swaras_m_mlrs",
+                "WS0020": "uaf_swaras_m_mlrs",
+                "WS0021": "uaf_swaras_m_mlrs",
+                "WS0022": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_medlav_dual",
+                "WS0001": "uaf_medlav_dual",
+                "WS0015": "uaf_medlav_dual",
+                "WS0016": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_cantata_cn",
+                "WS0004": "uaf_cantata_cn",
+                "WS0005": "uaf_claris_cn",
+                "WS0006": "uaf_claris_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_chorus_s_amm",
+                "WS0009": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "uaf_pd_reina",
+                "WS0018": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_flair_pod",
+                "WS0008": "uaf_flair_pod"
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+aotd_sleeper_header,Settings,Header,General Settings,,,,,Cryosleeper Options
+aotd_ark_awakening_period,Time needed to awake people from Ark,Int,400,,Increase/Decrease amount of time needed to awake people from Ark(Days).,30,1200,Cryosleeper Options
+aotd_cryosleeper_awakening_period,Time needed to awake people from Cryosleeper,Int,180,,Increase/Decrease amount of time needed to awake people from Cryosleeper(Days).,30,1200,Cryosleeper Options
+aotd_ark_awakening_reward,Size of market after awakening people from Ark,Int,8,,Increase/Decrease size that you get from awakening people from Ark (NOTE! DONT GO ABOVE 10 UNLESS YOU HAVE OTHER MOD THAT CAN SUPPORT LARGER MARKET SIZE),3,100,Cryosleeper Options
+aotd_cryosleepe_awakening_reward,Size of market after awakening people from Cryosleeper,Int,7,,Increase/Decrease size that you get from awakening people from Cryosleeper (NOTE! DONT GO ABOVE 10 UNLESS YOU HAVE OTHER MOD THAT CAN SUPPORT LARGER MARKET SIZE),3,100,Cryosleeper Options
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

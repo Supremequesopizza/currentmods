@@ -1,0 +1,63 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 4,
+    "fluxVents": 6,
+    "goalVariant": false,
+    "hullId": "uaf_ai_nakiha",
+    "hullMods": [
+        "eccm",
+        "targetingunit"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_nakiha_tactical",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_minibreve_tnt_s",
+                "WS0006": "uaf_minibreve_tnt_s"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_clemente_nakiha",
+                "WS0008": "uaf_clemente_nakiha"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_edge_type_i",
+                "WS0002": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_merupaka_epd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

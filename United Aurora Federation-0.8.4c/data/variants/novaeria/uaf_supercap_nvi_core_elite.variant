@@ -1,0 +1,98 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 17,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "uaf_supercap_nvi_core",
+    "hullMods": [
+        "targetingunit",
+        "recovery_shuttles",
+        "uaf_super_heavy_wing_operation"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_supercap_nvi_core_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_garuda_808_xlc",
+                "WS0002": "uaf_garuda_808_xlc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_oboe_mirv_large",
+                "WS0006": "uaf_clarinet_mirv_large",
+                "WS0007": "uaf_oboe_mirv_large",
+                "WS0008": "uaf_clarinet_mirv_large"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_edge_type_iii",
+                "WS0004": "uaf_edge_type_iii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "uaf_selemene_m_mrm",
+                "WS0014": "uaf_selemene_m_mrm",
+                "WS0015": "uaf_selemene_m_mrm",
+                "WS0016": "uaf_selemene_m_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0017": "uaf_medlav_quad",
+                "WS0018": "uaf_medlav_quad",
+                "WS0019": "uaf_ivory_triple",
+                "WS0020": "uaf_ivory_triple",
+                "WS0021": "uaf_medlav_quad",
+                "WS0022": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_triyia_pdx",
+                "WS0010": "uaf_triyia_pdx",
+                "WS0011": "uaf_enyria_pdx",
+                "WS0012": "uaf_enyria_pdx",
+                "WS0023": "uaf_weiss_flk",
+                "WS0024": "uaf_weiss_flk",
+                "WS0025": "uaf_pd_reina_ii",
+                "WS0026": "uaf_pd_reina_ii",
+                "WS0027": "uaf_pd_reina",
+                "WS0028": "uaf_pd_reina",
+                "WS0029": "uaf_chorus_s_amm",
+                "WS0030": "uaf_chorus_s_amm",
+                "WS0031": "uaf_weiss_ii_flk",
+                "WS0032": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "LEFT_SECTION": "uaf_supercap_nvi_left_section_standard",
+        "RIGHT_SECTION": "uaf_supercap_nvi_right_section_standard",
+        "TAIL_SECTION": "uaf_supercap_nvi_ewac_section_standard"
+    },
+    "wings": [
+        "uaf_wing_ai_menascar_ii",
+        "uaf_wing_ai_menascar_ii"
+    ]
+}

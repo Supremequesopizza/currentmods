@@ -1,0 +1,35 @@
+{
+  "variantId": "uaf_wing_m_hyacinth_hvb",
+  "hullId": "uaf_wing_m_hyacinth",
+  "displayName": "Super Heavy Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_fw_usb_class_iii",
+        "WS0002": "uaf_fw_usb_class_iii",
+        "WS0003": "uaf_fw_usb_class_iii",
+        "WS0004": "uaf_fw_usb_class_iii",
+        "WS0005": "uaf_fw_usb_class_iii",
+        "WS0006": "uaf_fw_usb_class_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_pd_reina",
+        "WS0008": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

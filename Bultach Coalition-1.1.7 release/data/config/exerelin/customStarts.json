@@ -1,0 +1,13 @@
+{
+	"starts":[
+        {
+			"id":"murtachStart",
+			"name":"Echoes",
+			"difficulty":"Easy",
+			"desc":"Reemergence is slow, regulated. Sensory input returns in calibrated layers. Pressure first, then warmth, then the ambient presence of something else, as if your awareness is not alone in your own head. Visual clarity lags behind sensation, filtered through shifting light and layered pulses. Information arrives without prompting, as if recalled rather than received: you have been adrift in suspension for approximately 7.59 cycles. Subject health stable. No critical failures. Memory integrity: incomplete, but functional. There is no mention of a destination. You begin to feel your body again - or rather, a body. The vaguely familiar sensation of meshing with something larger returns, of receiving input from senses not your own. External perception resumes only as you can tolerate it, the vessel's sensors allowing shape and distance reintroduced in abstraction first, then as true contact with the void beyond. \n\nYou awaken within the Murtach, your memories soft-edged and incomplete. The vessel is operational. You are alone. It assures you everything is functioning as intended.",
+			"className":"data.campaign.customstart.bt_murtach_start",
+			"factionId":"player",
+            "randomSector":0,
+		},
+	],
+}

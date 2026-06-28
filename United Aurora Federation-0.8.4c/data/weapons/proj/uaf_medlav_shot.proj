@@ -1,0 +1,19 @@
+{
+	#this is for anti shield medium-blue color (Kinetic)
+	"id":"uaf_medlav_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":100.0,
+	"hitGlowRadius":30,
+	"width":7,
+	"fadeTime":0.45,
+	"fringeColor":[120,165,255,180],
+	"coreColor":[255,255,255,200],
+	"glowColor":[133,186,255,15],
+	"glowRadius":40,	
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":0.0,
+	"pixelsPerTexel":1.0,
+}

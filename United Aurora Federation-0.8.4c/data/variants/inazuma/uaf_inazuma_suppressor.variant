@@ -1,0 +1,60 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 5,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "uaf_inazuma",
+    "hullMods": [
+        "targetingunit",
+        "insulatedengine",
+        "fluxbreakers",
+        "uaf_secondary_focus"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_inazuma_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_rotan_452_cn",
+                "WS0009": "uaf_rotan_452_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_tona_ii",
+                "WS0004": "uaf_tona_ii",
+                "WS0005": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_ii_flk",
+                "WS0002": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_pd_reina",
+                "WS0007": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": { }
+        }
+    ]
+}

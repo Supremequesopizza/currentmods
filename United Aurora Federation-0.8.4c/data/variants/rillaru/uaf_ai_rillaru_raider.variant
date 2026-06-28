@@ -1,0 +1,73 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 20,
+    "fluxVents": 8,
+    "goalVariant": false,
+    "hullId": "uaf_ai_rillaru",
+    "hullMods": [
+        "magazines",
+        "missleracks",
+        "stabilizedshieldemitter",
+        "advancedshieldemitter",
+        "unstable_injector"
+    ],
+    "quality": 0.8,
+    "variantId": "uaf_ai_rillaru_raider",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_penulisa_acx",
+                "WS0002": "uaf_penulisa_acx"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_amazoch_light_asrm_dual",
+                "WS0005": "uaf_amazoch_s_asrm_single",
+                "WS0004": "uaf_amazoch_s_asrm_single"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "uaf_clarinet_mirv_small",
+                "WS0014": "uaf_clarinet_mirv_small",
+                "WS0016": "uaf_clarinet_mirv_small",
+                "WS0017": "uaf_clarinet_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0021": "uaf_hikone_ii_quad",
+                "WS0020": "uaf_hikone_ii_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_edge_type_ii",
+                "WS0003": "uaf_edge_type_ii",
+                "WS0013": "uaf_pd_reina_ii",
+                "WS0010": "uaf_pd_reina_ii",
+                "WS0008": "uaf_pd_reina_ii",
+                "WS0007": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "uaf_flair_pod",
+                "WS0018": "uaf_flair_pod"
+            }
+        }
+    ]
+}

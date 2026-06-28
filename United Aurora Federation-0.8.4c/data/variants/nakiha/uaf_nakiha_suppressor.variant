@@ -1,0 +1,45 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 2,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "uaf_nakiha",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_nakiha_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_selemene_s_mrm",
+                "WS0006": "uaf_selemene_s_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_tona_i",
+                "WS0002": "uaf_tona_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina"
+            }
+        }
+    ]
+}

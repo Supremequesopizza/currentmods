@@ -1,0 +1,96 @@
+{
+  "hullName": "Noversky (M)",
+  "hullId": "uaf_wing_m_noversky",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_m_wing_noversky.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 59,
+  "width": 64,
+  "center": [32, 29.5],
+  "collisionRadius": 44,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 34.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 98,
+      "angle": 23.5,
+      "locations": [2.5, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 98,
+      "angle": -23.5,
+      "locations": [2.5, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 21,
+      "angle": 0,
+      "locations": [22.5, 11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 21,
+      "angle": -0,
+      "locations": [22.5, -11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, -9.5],
+      "length": 28.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-23.5, 9.5],
+      "length": 28.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-21.5, 12.5],
+      "length": 28.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-21.5, -12.5],
+      "length": 28.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -28.5, 11.5,
+    0.5, 31,
+    28.5, -0,
+    0.5, -31,
+    -28.5, -11.5
+  ]
+}

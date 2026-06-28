@@ -1,0 +1,44 @@
+{
+    "displayName": "Runner",
+    "fluxCapacitors": 1,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "uaf_m_nebula_bravo",
+    "hullMods": [
+        "expanded_cargo_holds",
+        "efficiency_overhaul"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_nebula_bravo_runner",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina_ii",
+                "WS0003": "uaf_weiss_flk",
+                "WS0004": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 7,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "missp_path_wolf",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_path_wolf_raider",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "hammer",
+                "WS0006": "hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "chaingun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "lightdualmg"}
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+  "hullName": "Lillaru",
+  "hullId": "uaf_lillaru",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Lillaru.png",
+  "style": "UAF_CRUISER",
+  "height": 283,
+  "width": 188,
+  "center": [94, 141],
+  "collisionRadius": 209,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 168.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-53, -17]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-53, 17]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 94,
+      "angle": -33.5,
+      "locations": [-18, -34],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 94,
+      "angle": 33.5,
+      "locations": [-18, 34],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 17,
+      "angle": 0,
+      "locations": [60.5, -30]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 17,
+      "angle": -0,
+      "locations": [60.5, 30]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -45,
+      "locations": [30, -32],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 45,
+      "locations": [30, 32],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [89, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [39, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [5.5, -0],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 29,
+      "angle": 0,
+      "locations": [-26.5, -65.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 29,
+      "angle": -0,
+      "locations": [-26.5, 65.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-91, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-129, -10],
+      "length": 46,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-129, 10],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-103, -29],
+      "length": 57.65704,
+      "width": 16.99008,
+      "angle": -179,
+      "contrailSize": 16.99008,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-103, 29],
+      "length": 57.65704,
+      "width": 16.99008,
+      "angle": 179,
+      "contrailSize": 16.99008,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-84, -62],
+      "length": 28.941824,
+      "width": 12.267172,
+      "angle": -161.5,
+      "contrailSize": 12.267172,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-84, 62],
+      "length": 28.941824,
+      "width": 12.267172,
+      "angle": 161.5,
+      "contrailSize": 12.267172,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-80, -74],
+      "length": 30,
+      "width": 10,
+      "angle": -161.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-80, 74],
+      "length": 30,
+      "width": 10,
+      "angle": 161.5,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-128.5, -0],
+      "length": 97,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    138.5, -9.5,
+    74.5, -26.5,
+    66.5, -33,
+    57.5, -34.5,
+    25, -46.5,
+    -1, -53,
+    -3.5, -58.5,
+    -15, -58.5,
+    -15, -73,
+    -11.5, -73,
+    -11.5, -78,
+    -29.5, -80.5,
+    -34.5, -84.5,
+    -67.5, -84.5,
+    -84, -80,
+    -94, -61,
+    -81, -54,
+    -115.5, -35,
+    -119.5, -22.5,
+    -130, -21.5,
+    -133.5, -15,
+    -133.5, 15,
+    -130, 21.5,
+    -119.5, 22.5,
+    -115.5, 35,
+    -81, 54,
+    -94, 61,
+    -84, 80,
+    -67.5, 84.5,
+    -34.5, 84.5,
+    -29.5, 80.5,
+    -11.5, 78,
+    -11.5, 73,
+    -15, 73,
+    -15, 58.5,
+    -3.5, 58.5,
+    -1, 53,
+    25, 46.5,
+    57.5, 34.5,
+    66.5, 33,
+    74.5, 26.5,
+    138.5, 9.5
+  ]
+}

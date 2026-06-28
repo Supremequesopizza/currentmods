@@ -1,0 +1,4 @@
+name,id,tags,rarity,base price,stack size,cargo space,icon,sound id,sound id drop,plugin,plugin params,desc,order
+Exalted Ship Package,exalted_package,package_bp,0.3,100000,1000,1,graphics/icons/cargo/blueprint_exalted.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,exalted_bp,A set of blueprints that enable heavy industry to produce ships designed by the Exalted.,270
+Exalted Weapons Package,exalted_weapon_package,package_bp,0.4,50000,1000,1,graphics/icons/cargo/blueprint_exalted_weapon.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,exalted_weapon_bp,A set of blueprints that enable heavy industry to produce weapons designed by the Exalted.,270
+,,,,,,,,,,,,,

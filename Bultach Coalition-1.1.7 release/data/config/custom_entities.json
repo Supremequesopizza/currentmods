@@ -1,0 +1,112 @@
+{
+
+	"loa_ars_capitol":{
+        "defaultName":"DòrnDhè", # used if name=null in addCustomEntity()
+        "defaultRadius":200, # used if radius<0 in addCustomEntity()
+        "customDescriptionId":"orbital_station_bultach",
+        "interactionImage":"graphics/illustrations/orbital.jpg",
+        "icon":"graphics/icons/station0.png",
+        "iconWidth":20,
+        "iconHeight":20,
+        "sprite":"graphics/stations/ork_dreadnought.png",
+        "spriteWidth":250,
+        "spriteHeight":125,
+        "renderShadow":false,
+        "useLightColor":true,
+        "showInCampaign":true,
+        "showIconOnMap":true,
+        "showNameOnMap":false,
+        "scaleNameWithZoom":false,
+        "scaleIconWithZoom":true,
+        "tags":["station"],
+        "layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+
+
+    },
+
+    "bt_siphon_beam":{
+        "defaultName":"Siphon Station Beam", # used if name=null in addCustomEntity()
+        "nameInText":"siphon station beam",
+        "shortName":"siphon beam",
+        "icon":"graphics/icons/relay_makeshift.png",
+        "iconWidth":12,
+        "iconHeight":12,
+        #"sprite":"graphics/fx/siphon_fx/bt_beam_core2.png",
+        "spriteWidth":50,
+        "spriteHeight":434,
+        "customDescriptionId":"int_array",
+        "interactionImage":"graphics/illustrations/comm_relay.jpg",
+        "defaultRadius":0, # used if radius<0 in addCustomEntity()
+        "showInCampaign":true, # show in campaign layer
+        "showIconOnMap":false,
+        "showNameOnMap":false,
+		"renderShadow":false, #true,
+		"useLightColor":false,
+        "nameFontScale":1,
+        "nameAngle":0,
+        "nameColor":[70,200,255,0],
+        "nameShadowColor":[0,0,0,0],
+        "scaleNameWithZoom":false,
+        "scaleIconWithZoom":true,
+        "renderCircleIndicator":false, # make clickable
+        "renderCircleIndicatorSelectionFlash":false,
+        "layers":[TERRAIN_4], # what layer(s) to render in. See CampaignEngineLayers.java for possible values,
+       	"pluginClass":"data.scripts.starmapentities.bt_siphonbeam_effect",
+
+
+    },
+
+	"bt_siphon_planetary_effect":{
+        "defaultName":"Archangel Planetary effect", # used if name=null in addCustomEntity()
+        "nameInText":"archangel planetary effect",
+        "shortName":"archangel planetary effect",
+        "icon":"graphics/icons/relay_makeshift.png",
+        "iconWidth":12,
+        "iconHeight":12,
+        #"sprite":"graphics/custom entities/bt_beam_core2.png",
+        "spriteWidth":260,
+        "spriteHeight":260,
+        "customDescriptionId":"int_array",
+        "interactionImage":"graphics/illustrations/comm_relay.jpg",
+        "defaultRadius":0, # used if radius<0 in addCustomEntity()
+        "showInCampaign":true, # show in campaign layer
+        "showIconOnMap":false,
+        "showNameOnMap":false,
+		"renderShadow":false, #true,
+		"useLightColor":false,
+        "nameFontScale":1,
+        "nameAngle":0,
+        "nameColor":[70,200,255,0],
+        "nameShadowColor":[0,0,0,0],
+        "scaleNameWithZoom":false,
+        "scaleIconWithZoom":true,
+        "renderCircleIndicator":false, # make clickable
+        "renderCircleIndicatorSelectionFlash":false,
+        "layers":[TERRAIN_3], # what layer(s) to render in. See CampaignEngineLayers.java for possible values,
+       	"pluginClass":"data.scripts.starmapentities.bt_siphon_planetary_effect",
+
+       
+    },
+
+    "bt_siphon_station":{
+        "defaultName":"Bultach Siphon Station",
+        "defaultRadius":120,
+        "customDescriptionId":"bt_siphon_station",
+        "interactionImage":"graphics/illustrations/orbital.jpg",
+        "icon":"graphics/icons/station2.png",
+        "iconWidth":28,
+        "iconHeight":28,
+        "sprite":"graphics/stations/ork_siphon_station.png",
+        "spriteWidth":156,
+        "spriteHeight":148,
+        "renderShadow":false,
+        "useLightColor":false,
+        "showInCampaign":true,
+        "showIconOnMap":true,
+        "showNameOnMap":false,
+        "scaleNameWithZoom":false,
+        "scaleIconWithZoom":true,
+        "tags":["station"],
+        "layers":[STATIONS],
+    },
+}

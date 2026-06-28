@@ -1,0 +1,33 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 7,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_m_minoria",
+    "hullMods": [
+        "uaf_super_heavy_wing_operation",
+        "recovery_shuttles"
+    ],
+    "quality": 0.8,
+    "variantId": "uaf_m_minoria_superiority",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_deco_mg",
+                "WS0002": "uaf_deco_mg"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_pengawas"
+    ]
+}

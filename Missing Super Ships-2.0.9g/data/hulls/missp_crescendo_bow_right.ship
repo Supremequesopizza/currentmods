@@ -1,0 +1,118 @@
+{
+  "hullName": "Crescendo Right Bow Module",
+  "hullId": "missp_crescendo_bow_right",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/crescendo/crescendo bow right module.png",
+  "style": "MIDLINE",
+  "height": 300,
+  "width": 150,
+  "center": [28, 27],
+  "collisionRadius": 317.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 229,
+  "builtInMods": [
+    "missp_linked_hull",
+    "shared_flux_sink",
+	"always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -61.5,
+      "locations": [189, -35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 158,
+      "angle": -73.5,
+      "locations": [154, -59]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -25.5,
+      "locations": [261, -32]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [206, -68]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        52, -50.5,
+        58, -41,
+        69, -41,
+        81, -41
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        92, -51,
+        99.5, -42.5,
+        112, -42,
+        128, -42
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    41, -37,
+    46, -52,
+    47, -77,
+    59, -82,
+    120, -82,
+    134, -74,
+    142, -81,
+    150, -80,
+    151, -76,
+    155, -77,
+    168, -87,
+    185, -94,
+    217, -90.5,
+    199.5, -87,
+    215, -82,
+    211, -68,
+    215, -54,
+    201.5, -51,
+    238, -41,
+    252, -46,
+    263, -46,
+    271, -38,
+    271, -26,
+    264, -21,
+    250, -21,
+    250, -14,
+    246, -9,
+    246, 0,
+    0, 0,
+    0, -39
+  ]
+}

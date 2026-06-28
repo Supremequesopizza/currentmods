@@ -1,0 +1,28 @@
+{
+    "hullFrequency":{
+	"tags":{},
+        "hulls":{
+            "missp_atlasmkiii":2,
+			"missp_starlinermkii":1,
+			"missp_nebulamkii":3,
+        },
+    },
+	"priorityShips":{
+		"hulls":[
+		],
+	},
+#    "shipsWhenImporting":{
+#        "hulls":[
+#           "missp_atlasmkiii",
+#			"missp_starlinermkii",
+#			"missp_nebulamkii",
+#        ],
+#    },
+    "knownShips":{
+        "hulls":[
+            "missp_atlasmkiii",
+			"missp_starlinermkii",
+			"missp_nebulamkii",
+        ],
+    },
+}

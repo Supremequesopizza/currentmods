@@ -1,0 +1,58 @@
+{
+    "displayName": "Strategic",
+    "fluxCapacitors": 4,
+    "fluxVents": 3,
+    "goalVariant": false,
+    "hullId": "uaf_sunami_prototype",
+    "hullMods": [
+        "uaf_reserve_wing_operation",
+        "recovery_shuttles",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_sunami_prototype_strategic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_chorus_m_amm",
+                "WS0002": "uaf_chorus_m_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina",
+                "WS0005": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_weiss_flk",
+                "WS0008": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_vocal_s_srm"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_hyacinth_ii",
+        "uaf_wing_m_sakurai"
+    ]
+}

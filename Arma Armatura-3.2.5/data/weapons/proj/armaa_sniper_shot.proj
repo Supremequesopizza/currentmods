@@ -1,0 +1,19 @@
+{
+	"id":"armaa_sniper_shot",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.IonCannonOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY_FIGHTER",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":80.0,
+	"width":6,
+	"fadeTime":0.3,
+	"fringeColor":[255,125,0,255],
+	"coreColor":[250,197,100,255],
+	"glowColor":[255,100,0,25],
+	"glowRadius":5,
+	"hitGlowRadius":40,	
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

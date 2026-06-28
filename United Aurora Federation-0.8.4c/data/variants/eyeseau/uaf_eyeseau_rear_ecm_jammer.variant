@@ -1,0 +1,14 @@
+{
+  "variantId": "uaf_eyeseau_rear_ecm_jammer",
+  "hullId": "uaf_eyeseau_rear_ecm",
+  "displayName": "Jammer Pod",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

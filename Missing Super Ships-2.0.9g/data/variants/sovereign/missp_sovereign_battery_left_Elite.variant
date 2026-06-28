@@ -1,0 +1,32 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 18,
+    "fluxVents": 50,
+    "hullId": "missp_sovereign_battery_left",
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_sovereign_battery_left_Elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "mark9"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "hellbore"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "lightdualmg"}
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

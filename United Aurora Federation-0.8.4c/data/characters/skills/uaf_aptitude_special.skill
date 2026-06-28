@@ -1,0 +1,12 @@
+{
+	"id":"uaf_aptitude_special",
+	"governingAptitude":"uaf_special",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":0,
+			"effects":[
+				{"type":"DESCRIPTION", "script":"data.scripts.skills.uaf_aptitude_desc$Level0"},
+			]
+		},
+	],
+}

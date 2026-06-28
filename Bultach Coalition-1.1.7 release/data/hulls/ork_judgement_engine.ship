@@ -1,0 +1,85 @@
+{
+  "hullName": "Engine Module",
+  "hullId": "ork_judgement_engine",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/judgement/ork_judgement_engine.png",
+  "style": "LOW_TECH",
+  "height": 184,
+  "width": 206,
+  "center": [103, 92],
+  "collisionRadius": 151,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 141.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_antiNukeHidden",
+    "always_detaches",
+    "BT_linkedhull_three",
+    "degradedcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 150,
+      "locations": [42, 56]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -150,
+      "locations": [42, -56]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-27, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 139.5,
+      "locations": [-2, 78]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -139.5,
+      "locations": [-2, -78]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-95, -0],
+      "length": 95,
+      "width": 98,
+      "angle": 180,
+      "contrailSize": 98,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -88.5, -49.5,
+    13, -100,
+    76.5, -77,
+    76.5, 77,
+    13, 100,
+    -88.5, 49.5
+  ]
+}

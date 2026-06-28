@@ -1,0 +1,54 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "mjolnir_fire",
+  "glowColor": [
+    193,
+    17,
+    237,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/mordare/anvil_mordare_hardpoint_glow.png",
+  "hardpointOffsets": [
+    42.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/mordare/anvil_mordare_hardpoint_base.png",
+  "id": "anvil_mordare",
+  "muzzleFlashSpec": {
+    "length": -34,
+    "particleColor": [
+      255,
+      100,
+      150,
+      255
+    ],
+    "particleCount": 30,
+    "particleDuration": 0.15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "spread": 15
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "anvil_mordare_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/mordare/anvil_mordare_turret_glow.png",
+  "turretOffsets": [
+    40,
+    0
+  ],
+  "turretSprite": "graphics/weapons/mordare/anvil_mordare_turret_base.png",
+  "type": "ENERGY"
+}

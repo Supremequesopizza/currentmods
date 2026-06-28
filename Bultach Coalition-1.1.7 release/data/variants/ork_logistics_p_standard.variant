@@ -1,0 +1,88 @@
+{
+  "variantId": "ork_logistics_p_standard",
+  "hullId": "ork_logistics_p",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 34,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hephag",
+        "WS0010": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "typhoon",
+        "WS0015": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "squall",
+        "WS0022": "heatseeker",
+        "WS0023": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymortar",
+        "WS0003": "lightmortar",
+        "WS0008": "lightmortar",
+        "WS0016": "shredder",
+        "WS0018": "lightmortar",
+        "WS0024": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0005": "vulcan",
+        "WS0006": "lightmg",
+        "WS0007": "lightmg",
+        "WS0009": "devastator",
+        "WS0012": "vulcan",
+        "WS0014": "lightdualmg",
+        "WS0017": "flak",
+        "WS0019": "vulcan",
+        "WS0025": "vulcan",
+        "WS0027": "lightmg",
+        "WS0028": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

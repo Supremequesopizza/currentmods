@@ -1,0 +1,204 @@
+{
+  "hullName": "Support Deck",
+  "hullId": "uaf_yrn_mooparia_module",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Mooparia/uaf_yrn_mooparia_support_module.png",
+  "style": "UAF_CRUISER_AUTOMATA",
+  "height": 314,
+  "width": 130,
+  "center": [65, 157],
+  "collisionRadius": 182.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_supercap_engineering",
+    "reduced_explosion",
+    "always_detaches",
+    "uaf_adaptive_elite_command"
+  ],
+  "builtInWeapons": {
+    "LEFT1": "uaf_blinker_forward_vertical_1",
+    "LEFT2": "uaf_blinker_forward_vertical_2",
+    "LIGHT": "uaf_mooparia_module_lights_3",
+    "RDR1": "uaf_roria_radar",
+    "RIGHT1": "uaf_blinker_forward_vertical_1",
+    "RIGHT2": "uaf_blinker_forward_vertical_2",
+    "RIGHT3": "uaf_blinker_forward_vertical_3",
+    "WS0001": "uaf_neuxoria_radar_small_2",
+    "WS0002": "uaf_triyia_pdx"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        13.5, 8.5,
+        53, 37.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -10.5, 8.5,
+        6, 38
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        21, -1.5,
+        53, 25
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        6, 24.5,
+        -26, 8.5
+      ]
+    },
+    {
+      "id": "LIGHT",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "RDR1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-69, -40.5],
+      "renderOrderMod": 60
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 63.5,
+      "locations": [4, -30],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 211,
+      "angle": 145,
+      "locations": [-39, -12]
+    },
+    {
+      "id": "LEFT1",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, 61.5]
+    },
+    {
+      "id": "LEFT2",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, 36.5]
+    },
+    {
+      "id": "RIGHT1",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [53, 61.5]
+    },
+    {
+      "id": "RIGHT2",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [53, 36.5]
+    },
+    {
+      "id": "RIGHT3",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [53, 13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [8, -12.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-6, -12.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    9, -44,
+    21.5, -56,
+    38, -56,
+    38, -34.5,
+    21, -16,
+    81, -16,
+    91, -9.5,
+    91, 6.5,
+    81, 6.5,
+    73.5, 14.5,
+    73.5, 25.5,
+    -23, 25.5,
+    -92, -32,
+    -92, -57.5,
+    -47, -57,
+    -47, -40.5,
+    -40, -34,
+    -6, -34,
+    -6, -44
+  ]
+}

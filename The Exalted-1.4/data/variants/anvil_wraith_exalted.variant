@@ -1,0 +1,58 @@
+{
+  "displayName": "Exalted",
+  "fluxCapacitors": 20,
+  "fluxVents": 16,
+  "goalVariant": true,
+  "hullId": "anvil_wraith",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_wraith_exalted",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "atropos",
+        "WS0008": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "anvil_mordare"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_tierra",
+        "WS0005": "anvil_agua",
+        "WS0006": "anvil_agua"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_fuego",
+        "WS0004": "anvil_fuego"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "anvil_varna"
+      }
+    }
+  ],
+  "wings": [
+    "anvil_delusion"
+  ]
+}

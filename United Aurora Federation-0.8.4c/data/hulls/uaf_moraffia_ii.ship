@@ -1,0 +1,176 @@
+{
+  "hullName": "Moraffia II (SE)",
+  "hullId": "uaf_moraffia_ii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/uaf_moraffia_ii.png",
+  "style": "UAF_DESTROYER",
+  "height": 228,
+  "width": 178,
+  "center": [89, 114],
+  "collisionRadius": 158,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 128.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_atmospheric_entry",
+    "surveying_equipment"
+  ],
+  "builtInWings": [
+    "uaf_drone_sokhuri"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -69.5,
+      "locations": [6, -33]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 69.5,
+      "locations": [6, 33]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [80, 15.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [80, -15.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": 90,
+      "locations": [-23, 26]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": -90,
+      "locations": [-23, -26]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -28, -35,
+        -19.5, -35,
+        -37.5, -35
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-86, -28.5],
+      "length": 42.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-86, 28.5],
+      "length": 42.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-90, -8.5],
+      "length": 42.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-90, 8.5],
+      "length": 42.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-90, 0],
+      "length": 68.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -98, 35,
+    -92, 38,
+    -69, 38,
+    -73.5, 46.5,
+    -62, 49.5,
+    -52, 67,
+    -39.5, 73,
+    -32, 86,
+    -16, 86,
+    -2.5, 67,
+    11, 67,
+    34.5, 54,
+    12, 53,
+    9, 46,
+    37.5, 38,
+    41.5, 41.5,
+    83, 30,
+    87, 25,
+    102.5, 21,
+    112, 12.5,
+    112, 8,
+    27, 8,
+    39, 2,
+    39, -2,
+    27, -8,
+    112, -8,
+    112, -12.5,
+    102.5, -21,
+    87, -25,
+    83, -30,
+    41.5, -41.5,
+    37.5, -38,
+    9, -46,
+    12, -53,
+    -0.5, -67,
+    -52, -67,
+    -62, -49.5,
+    -73.5, -46.5,
+    -69, -38,
+    -92, -38,
+    -98, -35
+  ]
+}

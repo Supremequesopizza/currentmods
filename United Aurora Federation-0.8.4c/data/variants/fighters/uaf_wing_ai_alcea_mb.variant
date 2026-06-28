@@ -1,0 +1,32 @@
+{
+  "variantId": "uaf_wing_ai_alcea_mb",
+  "hullId": "uaf_wing_ai_alcea",
+  "displayName": "Medium Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "uaf_fw_gsb_class_ii",
+        "WS0003": "uaf_fw_gsb_class_ii",
+        "WS0004": "uaf_fw_gsb_class_ii",
+        "WS0005": "uaf_fw_gsb_class_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

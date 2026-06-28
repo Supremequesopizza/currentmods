@@ -1,0 +1,5 @@
+commodity,group,freq
+item_et_exotic:{rng:true},et_exotic,8
+item_et_upgrade:{rng:true},et_upgrade,8
+nothing,et_exotic,75%
+nothing,et_upgrade,25%

@@ -1,0 +1,40 @@
+{
+  "variantId": "missp_zweihander",
+  "hullId": "missp_zweihander",
+  "displayName": "Support Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "swarmer_fighter",
+        "WS0002": "swarmer_fighter",
+        "WS0003": "swarmer_fighter",
+        "WS0004": "swarmer_fighter",
+        "WS0006": "swarmer_fighter",
+        "WS0007": "lightneedler",
+        "WS0009": "swarmer_fighter",
+        "WS0010": "swarmer_fighter",
+        "WS0011": "swarmer_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

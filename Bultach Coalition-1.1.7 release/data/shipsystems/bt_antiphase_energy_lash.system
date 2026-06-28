@@ -1,0 +1,38 @@
+{
+	"id":"bt_antiphase_energy_lash",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_phase_lash_systemAI",	
+	
+	"runScriptWhileIdle":false,
+	#"canUseWhileRightClickSystemOn":true,
+	"canNotCauseOverload":true,
+	
+	"statsScript":"data.scripts.shipsystems.bt_phase_lash_system",
+
+	"jitterUnderColor":[255,35,65,155],
+	"jitterUnderCopies":15,
+	"jitterUnderMinRange":2,
+	"jitterUnderRange":9,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,35,65,55],
+	"jitterCopies":3,
+	"jitterMinRange":0,
+	"jitterRange":4,
+	"jitterRangeRadiusFraction":0,
+	
+	"useSound":"energy_lash_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1700,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

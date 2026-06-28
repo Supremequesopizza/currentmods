@@ -1,0 +1,51 @@
+{
+    "displayName": "Command",
+    "fluxCapacitors": 4,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_osela_suv",
+    "hullMods": [
+        "surveying_equipment",
+        "reinforcedhull"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_osela_suv_command",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_hikone_quad",
+                "WS0006": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_shimata_155_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "knownHullMods": {
+        "hullMods": [
+            "mhmods_antiarmorgammunition",
+            "mhmods_bombardmentpackage",
+            "mhmods_emergencyventingsystem",
+            "mhmods_fluxbooster",
+            "mhmods_fluxoverdrive",
+            "mhmods_FuelAdditive",
+            "mhmods_hyperengineupgrade",
+            "mhmods_hullfoam",
+            "mhmods_particleaccelerator",
+            "mhmods_splitChamber",
+            "mhmods_torpedospec",
+            "mhmods_unstableshields",
+            "mhmods_weaponinhibitor",
+            "mhmods_stiffMounts"
+        ]
+    },
+    "hullmodSellFrequency": {
+        "mhmods_fluxoverdrive": 10,
+        "mhmods_FuelAdditive": 10,
+        "mhmods_particleaccelerator": 10,
+        "mhmods_unstableshields": 10
+    }
+}

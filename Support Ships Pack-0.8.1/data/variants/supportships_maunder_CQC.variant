@@ -1,0 +1,42 @@
+{
+    "displayName": "CQC",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "supportships_maunder",
+    "hullMods": [
+        "auxiliarythrusters",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "supportships_maunder_CQC",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightmortar",
+                "WS0006": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavymg",
+                "WS0009": "heavymg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightdualmg",
+                "WS0004": "lightdualmg",
+                "WS0007": "lightmg",
+                "WS0008": "lightmg"
+            }
+        }
+    ]
+}

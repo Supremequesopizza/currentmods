@@ -1,0 +1,34 @@
+{
+  "variantId": "missp_mule_heg_Standard",
+  "hullId": "missp_mule_heg",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar",
+    "heavyarmor",
+    "reinforcedhull",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "lightdualmg",
+        "WS0005": "reaper",
+        "WS0006": "reaper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing"
+  ]
+}

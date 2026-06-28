@@ -1,0 +1,52 @@
+{
+	"id":"ork_frag_torp",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.bt_mirean_onhit",
+	"sprite":"graphics/missiles/sledge_torpedo.png",
+	"size":[10,22],	
+	"center":[5,11],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,125,55,205],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":125,
+					 "coreRadius":125, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1.3,
+					 "particleCount":80,
+					 "particleColor":[255,165,135,235],
+					 "sound":"bt_fragtorp_hit"},
+	"flameoutTime":3, # total time from flameout to full fadeout
+	"armingTime":.5,
+	"noEngineGlowTime":0.3, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration					 
+	"engineSpec":{"turnAcc":200,
+				  "turnRate":65,
+				  "acc":250,
+				  "dec":215},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-10, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255, 125,55, 255],
+						"glowSizeMult":1.1,
+						"contrailDuration":2.2,
+						"contrailWidthMult":1.1,
+						"contrailWidthAddedFractionAtEnd":0.8,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[255, 125,55, 105],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":40.0,
+				    "angle":180.0}]
+}

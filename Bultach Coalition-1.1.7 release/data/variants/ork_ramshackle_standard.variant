@@ -1,0 +1,69 @@
+{
+  "variantId": "ork_ramshackle_standard",
+  "hullId": "ork_ramshackle",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0015": "lightag",
+        "WS0016": "lightmortar",
+        "WS0017": "vulcan",
+        "WS0018": "lightmg",
+        "WS0019": "pilum",
+        "WS0020": "heatseeker",
+        "WS0021": "heatseeker",
+        "WS0022": "swarmer_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightdualac",
+        "WS0009": "lightdualac",
+        "WS0010": "lightdualac",
+        "WS0011": "lightdualac",
+        "WS0012": "lightac",
+        "WS0013": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightag",
+        "WS0005": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "hammerrack"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

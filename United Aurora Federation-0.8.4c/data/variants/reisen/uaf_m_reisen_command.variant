@@ -1,0 +1,52 @@
+{
+    "displayName": "Command",
+    "fluxCapacitors": 20,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "uaf_m_reisen",
+    "hullMods": [
+        "nav_relay",
+        "targetingunit",
+        "pointdefenseai",
+        "armoredweapons",
+        "turretgyros"
+    ],
+    "quality": 0.8,
+    "variantId": "uaf_m_reisen_command",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_racun_pod",
+                "WS0008": "uaf_racun_pod",
+                "WS0005": "uaf_flair_pod",
+                "WS0006": "uaf_flair_pod",
+                "WS0003": "uaf_pd_reina",
+                "WS0004": "uaf_pd_reina",
+                "WS0018": "uaf_weiss_flk",
+                "WS0017": "uaf_weiss_flk",
+                "WS0010": "uaf_weiss_flk",
+                "WS0009": "uaf_weiss_flk",
+                "WS0016": "uaf_weiss_ii_flk",
+                "WS0015": "uaf_weiss_ii_flk",
+                "WS0002": "uaf_medlav_dual",
+                "WS0001": "uaf_medlav_dual",
+                "WS0014": "uaf_herexa",
+                "WS0013": "uaf_herexa",
+                "WS0012": "uaf_cyrexa_triple",
+                "WS0011": "uaf_cyrexa_triple",
+                "WS0025": "uaf_selemene_m_mrm",
+                "WS0026": "uaf_selemene_m_mrm",
+                "WS0019": "uaf_swaras_m_mlrs",
+                "WS0020": "uaf_swaras_m_mlrs"
+            }
+        }
+    ],
+    "modules": {
+        "WS0021": "uaf_m_reisen_armor_plating",
+        "WS0022": "uaf_m_reisen_armor_plating",
+        "WS0023": "uaf_m_reisen_armor_plating",
+        "WS0024": "uaf_m_reisen_armor_plating"
+    }
+}

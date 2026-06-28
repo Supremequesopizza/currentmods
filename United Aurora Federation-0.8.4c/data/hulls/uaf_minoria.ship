@@ -1,0 +1,136 @@
+{
+  "hullName": "Minoria",
+  "hullId": "uaf_minoria",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Minoria_Standard.png",
+  "style": "MIDLINE",
+  "height": 204,
+  "width": 131,
+  "center": [65, 100.5],
+  "collisionRadius": 130.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 108.5,
+  "viewOffset": 80,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_atmospheric_entry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-0.5, -29]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -20.5, -0,
+        -5, -0,
+        -33.5, -0
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        42, -0.5,
+        24, 4,
+        24, -3.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, -16],
+      "length": 40.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-76, 16],
+      "length": 40.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-86.5, -0],
+      "length": 59,
+      "width": 26,
+      "angle": -180,
+      "contrailSize": 26,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-59.5, 38],
+      "length": 26.5,
+      "width": 11,
+      "angle": 142,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-58.5, -37],
+      "length": 26.5,
+      "width": 11,
+      "angle": -142,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -88, 7.5,
+    -71, 21,
+    -88.5, 26.5,
+    -89, 30.5,
+    -60, 30.5,
+    -54, 38.5,
+    -62.5, 44.5,
+    -52.5, 49.5,
+    -27, 49.5,
+    -12, 37,
+    -6.5, 41,
+    91, 14.5,
+    100.5, 7,
+    83, 7,
+    83, -7,
+    100.5, -7,
+    91, -14.5,
+    -6.5, -41,
+    -12, -37,
+    -27, -49.5,
+    -52.5, -49.5,
+    -62.5, -44.5,
+    -54, -38.5,
+    -60, -30.5,
+    -89, -30.5,
+    -88.5, -26.5,
+    -71, -21,
+    -88, -7.5
+  ]
+}

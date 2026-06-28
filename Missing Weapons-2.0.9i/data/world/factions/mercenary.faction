@@ -1,0 +1,15 @@
+{
+  "knownWeapons":{
+	"tags":[""],
+	"weapons":[
+    "missp_atropostvc",
+    "missp_mjolnirsb",
+    "missp_atropospod"
+  ],
+  },
+  	"knownFighters":{
+		"fighters":[
+		"missp_zweihander_wing"
+		]
+  }
+}

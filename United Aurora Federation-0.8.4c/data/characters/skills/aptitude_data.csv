@@ -1,0 +1,2 @@
+id,name,color,description,order,effect_skill_id,sound1,sound2,sound3,sound4,sound5,sound_story,elite_overlay,elite_overlay_medium,elite_overlay_small
+uaf_special,UAF Unique,"150,230,190,220",Skills that are exclusive to UAF officers.,11,uaf_aptitude_special,technology1,technology2,technology3,technology4,technology5,ui_char_spent_story_point_technology,graphics/icons/skills/border/uaf_skill_elite_80.png,graphics/icons/skills/border/uaf_skill_elite_56.png,graphics/icons/skills/border/uaf_skill_elite_40.png

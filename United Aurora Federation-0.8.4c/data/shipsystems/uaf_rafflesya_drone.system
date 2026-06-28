@@ -1,0 +1,23 @@
+{
+	"id":"uaf_rafflesya_drone",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.shipsystems.scripts.uaf_rafflesyaControl",
+	"aiScript":"data.shipsystems.scripts.uaf_rafflesyaControlAI",
+	
+	"canNotCauseOverload":true,
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_termination_sequence",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":3000,
+		"threatAmount":1,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+

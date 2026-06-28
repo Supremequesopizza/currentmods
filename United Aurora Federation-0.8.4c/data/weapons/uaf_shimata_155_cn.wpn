@@ -1,0 +1,62 @@
+{
+  "id": "uaf_shimata_155_cn",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_155mm_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "everyFrameEffect": "org.niatahl.uaf.weapons.uaf_chemicalWeaponEffect",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Shimata 155mm Triple/med_shimata_155mm_dual_turret.png",
+  "turretGunSprite": "graphics/weapons/Shimata 155mm Triple/med_shimata_155mm_dual_recoil.png",
+  "hardpointSprite": "graphics/weapons/Shimata 155mm Triple/med_shimata_155mm_dual_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/Shimata 155mm Triple/med_shimata_155mm_dual_hardpoint_recoil.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 4,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    19,
+    6,
+    19,
+    0,
+    19,
+    -6
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    25,
+    6,
+    25,
+    0,
+    25,
+    -6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 15,
+    "particleSizeMin": 12,
+    "particleSizeRange": 20,
+    "particleDuration": 0.1,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      160,
+      60,
+      120
+    ]
+  },
+  "fireSoundTwo": "uaf_155mm_cannon"
+}

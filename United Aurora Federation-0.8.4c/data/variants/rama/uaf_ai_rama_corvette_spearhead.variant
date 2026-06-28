@@ -1,0 +1,46 @@
+{
+    "displayName": "Spearhead",
+    "fluxCapacitors": 4,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_ai_rama_corvette",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "hardened_subsystems",
+        "targetingunit",
+        "reinforcedhull",
+        "autorepair"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_rama_corvette_spearhead",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_catun_ii_erg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_exoscar_torpedo_base"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_merupaka_epd"
+            }
+        }
+    ]
+}

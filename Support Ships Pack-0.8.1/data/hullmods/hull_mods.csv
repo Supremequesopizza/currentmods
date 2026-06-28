@@ -1,0 +1,32 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+# standard built-in hullmods,,,,,,,,,,,,,,,,,,
+Miniscule Hangar,supportships_miniscule_hangar,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.supportships_MinisculeHangar,"This ship has an absolutely tiny hangar bay, limiting what fighters it can fit within.
+
+Increases the ordnance point cost of bombers by %s, and of all other fighters by %s.",A very small hangar.,graphics/hullmods/supportships_miniscule_hangar.png
+Cramped Missile Racks,supportships_cramped_missile_racks,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.supportships_CrampedMissileRacks,Fitting a large missile system onto this tiny ship has reduced the max ammunition by %s.,,graphics/hullmods/supportships_cramped_missile_racks.png
+Vent Shields,supportships_vent_shields,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.supportships_VentShields,"The ship's Combat Vents limit the shields to a small frontal arc. However, removing the shield is still possible, for the brave.",,graphics/hullmods/supportships_ventshields.png
+Armored Prow,supportships_ArmoredProw,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.supportships_ArmoredProw,"The front half of this ship is mostly comprised of an ablative armor module, which has %s hull and %s armor (%s armor on XIV hulls). 
+The armor module has an automatic damper field system for increased durability.
+
+%s.",,graphics/hullmods/supportships_armored_prow.png
+Armor Child Module,supportships_ArmorChildModule,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.supportships_ArmorChildModule,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Medical Ship Parent,supportships_MedicalShip_Parent,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.supportships_MedicalShip_Parent,You shouldn’t see this,,
+Legal Hospital Ship,supportships_MedicalShip,,,,"no_build_in, req_spaceport",Requires Dock,,,TRUE,,0,0,0,0,data.hullmods.supportships_MedicalShip,"This ship is designed around a specialist chip that forces it to be a legal hospital ship.
+The chip is %s.
+
+This means:
+Only %s can be installed.
+Only %s can be installed.
+DP and Supply Cost reduced by %s.
+
+%s",,graphics/hullmods/supportships_MedicalShip.png
+Not A Hospital Ship,supportships_MedicalShip_illegal,,,,"no_build_in, req_spaceport",Requires Dock,,,TRUE,,0,0,0,0,data.hullmods.supportships_MedicalShip_illegal,"This ship is designed around a specialist chip that forces it to be a legal hospital ship.
+The chip is %s.
+
+This means:
+%s can be installed.
+%s can be installed.
+
+%s",,graphics/hullmods/supportships_MedicalShip_Illegal.png

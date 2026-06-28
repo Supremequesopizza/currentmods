@@ -1,0 +1,26 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "missp_path_hermes",
+    "hullMods": ["armoredweapons"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_path_hermes_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "hammer",
+                "WS0003": "hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "lightmg"}
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 7,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_purcellyra",
+    "hullMods": [
+        "uaf_auroranEngineering",
+        "uaf_enhanced_pd",
+        "eccm",
+        "auxiliarythrusters"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_purcellyra_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0023": "uaf_exoscar_torpedo_large",
+                "WS0024": "uaf_exoscar_torpedo_large"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0019": "uaf_minirest_asm_l",
+                "WS0020": "uaf_minirest_asm_l",
+                "WS0021": "uaf_minirest_asm_l",
+                "WS0022": "uaf_minirest_asm_l"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_exoscar_torpedo_base",
+                "WS0010": "uaf_exoscar_torpedo_base",
+                "WS0013": "uaf_amazoch_light_asrm_dual",
+                "WS0014": "uaf_amazoch_light_asrm_dual",
+                "WS0017": "uaf_amazoch_light_asrm_dual",
+                "WS0018": "uaf_amazoch_light_asrm_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_claris_cn",
+                "WS0008": "uaf_claris_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_chorus_s_amm",
+                "WS0002": "uaf_chorus_s_amm",
+                "WS0003": "uaf_chorus_s_amm",
+                "WS0004": "uaf_chorus_s_amm",
+                "WS0005": "uaf_weiss_flk",
+                "WS0006": "uaf_weiss_flk",
+                "WS0011": "uaf_weiss_flk",
+                "WS0012": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

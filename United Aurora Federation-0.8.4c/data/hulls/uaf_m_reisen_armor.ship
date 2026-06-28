@@ -1,0 +1,29 @@
+{
+  "hullName": "Armor Plating",
+  "hullId": "uaf_m_reisen_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Reisen/reisen_military_armor.png",
+  "style": "MIDLINE",
+  "height": 20,
+  "width": 79,
+  "center": [39.5, 10.5],
+  "collisionRadius": 57.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 46.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_reflective_armor_ii"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -8, 15,
+    0, 37,
+    5, 37,
+    7, 27.5,
+    7, -27.5,
+    5, -37,
+    0, -37,
+    -8, -15
+  ]
+}

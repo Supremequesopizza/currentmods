@@ -1,0 +1,10 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "missp_crescendo_core":0.3
+		}
+	},
+    "knownShips":{
+        "hulls":[]
+	}
+}

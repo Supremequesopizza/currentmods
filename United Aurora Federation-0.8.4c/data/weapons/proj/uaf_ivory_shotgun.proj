@@ -1,0 +1,19 @@
+{
+	#this is for anti armor medium-orange color
+	"id":"uaf_ivory_shotgun",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"hitGlowRadius":50,
+	"width":8,
+	"fadeTime":0.45,
+	"fringeColor":[255,180,110,120],
+	"coreColor":[255,255,255,200],
+	"glowColor":[255,180,110,30],
+	"glowRadius":50,
+	"textureType": SMOOTH,
+	"textureScrollSpeed":0.0,
+	"pixelsPerTexel":1.0,
+}

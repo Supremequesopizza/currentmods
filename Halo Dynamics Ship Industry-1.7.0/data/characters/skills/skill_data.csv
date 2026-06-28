@@ -1,0 +1,3 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
+HSI_Knight,Hollow Pride,150,5,15,,The knight is reluctant to mention her past.,,TRUE,,,"npc_only, deprecated",graphics/icons/skills/HSI_Knight_Skill.png,
+HSI_Knight_SP,Hollow Pride,160,5,15,,"The knight is reluctant to mention her past, yet remains open to starting anew.",,TRUE,,,"npc_only, deprecated",graphics/icons/skills/HSI_Knight_Skill.png,

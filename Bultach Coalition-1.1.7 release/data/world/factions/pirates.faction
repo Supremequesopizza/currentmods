@@ -1,0 +1,58 @@
+{
+    "variantOverrides":{ },
+"hullFrequency":{
+        "tags":{ },
+		"hulls":{
+			"ork_mining_p":1.0, #not very good, have as many as you want
+			"ork_spacehulk":0.5, #pretty much a boss ship
+			"ork_logistics_p":0.8, #pretty good, a bit more rare
+			"ork_loota_p":0.7,
+			"ork_drednot":0.5, #Strong fucker, probably?
+			"ork_subjugator":0.6, #Strong cruiser
+	
+		},
+	},
+    "knownShips":{
+        "tags":["pirate_bp"],
+        "hulls":[
+			"ork_mining_p",
+			"ork_spacehulk",
+			"ork_logistics_p",
+			"ork_loota_p",
+			"ork_bees_p",
+			"ork_prong_p",
+			"ork_scrapheap",
+			"ork_drednot",
+			"ork_subjugator",
+			"ork_dregs",
+			"ork_vocifer",
+			"ork_supermule",
+        ],
+    },
+	    "shipRoles":{
+        "LTA_Epattcudvi_UpcycledDerelictTING":{ },
+    },
+		"knownWeapons":{
+		"tags":["pirate_bp", "lowtech_bp"],
+		"weapons":[
+			"ork_pather_laser",
+			"ork_plasma_shotgun",
+			"ork_plasma_shotgun_medium",
+			"ork_mininglaser",
+			"ork_maul",
+
+	],
+	},
+	"knownFighters":{
+		"tags":["pirates"],
+		"fighters":[],
+	},
+			},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+			"ork_maul",
+		],
+
+
+},

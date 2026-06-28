@@ -1,0 +1,12 @@
+{
+	"id":"bt_derelict_flarelauncher",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_rightclick_flaresAI",
+	
+	"weaponDataId":"ork_flarelauncher",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+}

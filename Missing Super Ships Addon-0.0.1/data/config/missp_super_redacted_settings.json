@@ -1,0 +1,9 @@
+{
+  "coronalTapDefenders_Superson": [
+    { "variant": "missp_idol_Standard", "count": 1 },
+    { "variant": "missp_continuum_Standard", "count": 2 }
+  ],
+  "coronalTapDefenders_Supersoff": [
+    { "variant": "missp_continuum_Standard", "count": 1 }
+  ]
+}

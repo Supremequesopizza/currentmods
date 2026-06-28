@@ -1,0 +1,65 @@
+{
+  "hullName": "Hibiscus (M)",
+  "hullId": "uaf_wing_m_hibiscus",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_m_wing_hibiscus.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 50,
+  "width": 44,
+  "center": [22, 25],
+  "collisionRadius": 38,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-11.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 19,
+      "angle": 0,
+      "locations": [6.5, 8]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 19,
+      "angle": -0,
+      "locations": [6.5, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-0.5, 6.5],
+      "length": 9.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-0.5, -6.5],
+      "length": 9.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": []
+}

@@ -1,0 +1,12 @@
+{
+	"id":"bt_combatmode_switch",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_CombatSystemSwapAI",
+	
+	"statsScript":"data.scripts.shipsystems.bt_CombatSystemSwap",
+	
+	"useSound":"bt_triumph_modeswitch",
+	
+	"outOfUsesSound":"gun_out_of_ammo",	
+}

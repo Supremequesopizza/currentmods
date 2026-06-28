@@ -1,0 +1,11 @@
+{
+	"id":"uaf_angelSystem",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"uaf_angel_system",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+}

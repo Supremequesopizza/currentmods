@@ -1,0 +1,168 @@
+{
+  "bounds": [
+    35,
+    13,
+    9.5,
+    18,
+    16,
+    27.5,
+    10.5,
+    36,
+    -4.5,
+    36.5,
+    -29.5,
+    32,
+    -38,
+    18.5,
+    -38,
+    -18.5,
+    -29.5,
+    -32,
+    -4.5,
+    -36.5,
+    14.5,
+    -33.5,
+    14.5,
+    -17,
+    35,
+    -13
+  ],
+  "builtInMods": [
+    "exalted_subsystems",
+    "hiressensors"
+  ],
+  "center": [
+    39,
+    41.5
+  ],
+  "collisionRadius": 68,
+  "engineSlots": [
+    {
+      "angle": -161.5,
+      "contrailSize": 9.104897,
+      "length": 28.940029,
+      "location": [
+        -31,
+        -31.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 9.104897
+    },
+    {
+      "angle": 161.5,
+      "contrailSize": 9.104897,
+      "length": 28.940029,
+      "location": [
+        -31,
+        31.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 9.104897
+    },
+    {
+      "angle": -143,
+      "contrailSize": 7.350479,
+      "length": 10.908374,
+      "location": [
+        -23.5,
+        -33
+      ],
+      "style": "EXALTED_TECH",
+      "width": 7.350479
+    },
+    {
+      "angle": 143,
+      "contrailSize": 7.350479,
+      "length": 10.908374,
+      "location": [
+        -23.5,
+        33
+      ],
+      "style": "EXALTED_TECH",
+      "width": 7.350479
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 32,
+      "location": [
+        -38.5,
+        -15
+      ],
+      "style": "EXALTED_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 32,
+      "location": [
+        -38.5,
+        15
+      ],
+      "style": "EXALTED_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 49.5,
+      "location": [
+        -37.5,
+        -4
+      ],
+      "style": "EXALTED_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 49.5,
+      "location": [
+        -37.5,
+        4
+      ],
+      "style": "EXALTED_TECH",
+      "width": 12
+    }
+  ],
+  "height": 85,
+  "hullId": "anvil_spirit",
+  "hullName": "Spirit",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 66,
+  "spriteName": "graphics/ships/anvil_spirit.png",
+  "style": "EXALTED_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        20.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        11.5,
+        -28
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 78
+}

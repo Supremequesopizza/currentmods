@@ -1,0 +1,73 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "uaf_ai_lillaru",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_ai_lillaru_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_cyrexa_ii_sxc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "uaf_amazoch_s_asrm_single",
+                "WS0007": "uaf_amazoch_s_asrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "PD_DECO1": "uaf_exoscar_torpedo_base",
+                "PD_DECO4": "uaf_exoscar_torpedo_base"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0018": "uaf_selemene_m_mrm",
+                "WS0019": "uaf_clemente_s_mrm_double"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_ivory_triple",
+                "WS0004": "uaf_ivory_triple",
+                "WS0005": "uaf_merupaka_ii_epd",
+                "WS0012": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_flk",
+                "WS0002": "uaf_weiss_flk",
+                "WS0011": "uaf_merupaka_epd",
+                "WS0016": "uaf_chorus_s_amm",
+                "WS0017": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

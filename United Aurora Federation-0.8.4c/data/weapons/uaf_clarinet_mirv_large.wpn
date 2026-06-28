@@ -1,0 +1,62 @@
+{
+  "id": "uaf_clarinet_mirv_large",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_clarinet_mirv_missile",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Missiles/clarinet/uaf_clarinet_mirv_turret.png",
+  "hardpointSprite": "graphics/weapons/Missiles/clarinet/uaf_clarinet_mirv_hardpoint.png",
+  "turretOffsets": [
+    12.5,
+    7,
+    12.5,
+    -7,
+    12.5,
+    -4,
+    12.5,
+    4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20.5,
+    7,
+    20.5,
+    -7,
+    20.5,
+    -4,
+    20.5,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "requiresFullCharge": false,
+  "smokeSpec": {
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "uaf_missile_2"
+}

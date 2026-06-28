@@ -1,0 +1,49 @@
+{
+	"id":"uaf_missile_chorus_nt",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/missile_chorus_nt.png",
+	"onHitEffect":"data.scripts.weapons.uaf_nukeChorusOnHit",
+	"glowColor":[255,255,255,75],
+	"size":[8,18],	
+	"center":[4,9],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,180,120,170],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75f, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":55f,
+					 "coreRadius":35, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":2.0,
+					 "particleSizeRange":7.0,
+					 "particleDuration":4,
+					 "particleCount":0,
+					 "particleColor":[100,165,255,200]},
+	"engineSpec":{"turnAcc":300,
+				  "turnRate":600,
+				  "acc":450,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-8.5, 0],
+					#"loc":[-1, -2.5],
+				    #"style":"TORPEDO",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[110,255,211,120],
+						"contrailDuration":5,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":8, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0.0f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[110,185,255,50],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":30.0,
+				    "angle":180.0}],
+}

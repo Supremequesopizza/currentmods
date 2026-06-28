@@ -1,0 +1,55 @@
+{
+  "id": "uaf_pd_reina_ii",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_pd_sm",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Reina II HMG PD/pd_reina_mkii_turret_base.png",
+  "turretGunSprite": "graphics/weapons/Reina II HMG PD/pd_reina_mkii_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/Reina II HMG PD/pd_reina_mkii_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/Reina II HMG PD/pd_reina_mkii_hardpoint_recoil.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 4,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    15,
+    1.5,
+    15,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    1.5,
+    20,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.1,
+    "particleCount": 12,
+    "particleColor": [
+      100,
+      165,
+      255,
+      175
+    ]
+  },
+  "fireSoundTwo": "uaf_reina_30"
+}

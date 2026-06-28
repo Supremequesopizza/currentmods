@@ -1,0 +1,77 @@
+{
+  "hullName": "Prow Module",
+  "hullId": "ork_superdread_prow_left",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/superdread/ork_superdread_prow_left.png",
+  "style": "LOW_TECH",
+  "height": 297,
+  "width": 164,
+  "center": [109, 139],
+  "collisionRadius": 173.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 167,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "always_detaches",
+    "BT_antiNuke"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 40,
+      "locations": [-28, -6]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [-105, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [-70, 21]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 40,
+      "locations": [20, -22],
+      "renderOrderMod": 1000
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    147.5, -46,
+    -34, -48,
+    -77, -22,
+    -136.5, -22,
+    -127.5, -6,
+    -134.5, 38,
+    -113, 54,
+    -102.5, 74,
+    -111, 106,
+    -74.5, 75,
+    -53, 69.5,
+    -18, 41.5,
+    77.5, -0,
+    84, 9.5,
+    138.5, -7.5,
+    156.5, -39
+  ]
+}

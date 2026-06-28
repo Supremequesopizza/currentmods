@@ -1,0 +1,311 @@
+{
+  "hullName": "Ularaya (MP)",
+  "hullId": "uaf_ularaya_prototype",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Special/uaf_ularaya_prototype.png",
+  "style": "UAF_CRUISER_AUTOMATA",
+  "height": 253,
+  "width": 190,
+  "center": [95, 126.5],
+  "collisionRadius": 180,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 142,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "builtInWeapons": {
+    "RADAR_SMALL_2": "uaf_neuxoria_radar_small_2",
+    "WS0009": "uaf_selemene_sys_ularaya",
+    "WS0010": "uaf_selemene_sys_ularaya",
+    "WS0011": "uaf_selemene_sys_ularaya",
+    "WS0012": "uaf_selemene_sys_ularaya",
+    "WS0013": "uaf_minibreve_sys_ularaya",
+    "WS0014": "uaf_minibreve_sys_ularaya",
+    "WS0015": "uaf_laser_lead"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 0,
+      "locations": [-13.5, -25],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": -0,
+      "locations": [-13.5, 25],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 40,
+      "angle": 0,
+      "locations": [-38.5, -0],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [11, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 15,
+      "locations": [-4.5, 48]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -15,
+      "locations": [-4.5, -48]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 244,
+      "angle": 90,
+      "locations": [-27.5, 78]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 244,
+      "angle": -90,
+      "locations": [-27.5, -78]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [34.5, 12.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [34.5, -12.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [41.5, 3]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [41.5, -3]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [39.5, 8]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [39.5, -8]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [32.5, -0]
+    },
+    {
+      "id": "BLINKERS_RADAR_L_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-50, 26.5]
+    },
+    {
+      "id": "BLINKERS_RADAR_R_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-50, -26.5]
+    },
+    {
+      "id": "BLINKERS_RADAR_L_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-57, 26.5]
+    },
+    {
+      "id": "BLINKERS_RADAR_R_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-57, -26.5]
+    },
+    {
+      "id": "RADAR_SMALL_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [51.5, -66]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-93, -36],
+      "length": 50.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-93, 36],
+      "length": 50.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-64, 70.5],
+      "length": 41.5,
+      "width": 31,
+      "angle": -180,
+      "contrailSize": 31,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-64, -70.5],
+      "length": 41.5,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-97.5, -0],
+      "length": 79,
+      "width": 36,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-96, 7],
+      "length": 32.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-96, -7],
+      "length": 32.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -112.5, 18,
+    -92.5, 18.5,
+    -91, 24,
+    -104, 25.5,
+    -97.5, 51,
+    -62, 51,
+    -53.5, 56.5,
+    -66, 56.5,
+    -64, 85.5,
+    -35.5, 92,
+    -13, 92,
+    -11, 80.5,
+    31, 65,
+    65, 65,
+    59, 52.5,
+    117, 37,
+    125.5, 18.5,
+    92.5, 18.5,
+    42, 6,
+    42, -6,
+    92.5, -18.5,
+    125.5, -18.5,
+    117, -37,
+    59, -52.5,
+    65, -65,
+    31, -65,
+    -11, -80.5,
+    -13, -92,
+    -35.5, -92,
+    -64, -85.5,
+    -66, -56.5,
+    -53.5, -56.5,
+    -62, -51,
+    -97.5, -51,
+    -104, -25.5,
+    -91, -24,
+    -92.5, -18.5,
+    -112.5, -18
+  ]
+}

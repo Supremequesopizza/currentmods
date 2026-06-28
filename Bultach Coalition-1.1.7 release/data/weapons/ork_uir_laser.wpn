@@ -1,0 +1,63 @@
+{
+  "id": "ork_uir_laser",
+  "specClass": "beam",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "beamEffect": "data.scripts.weapons.bt_uirBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/ork_uir_howitzer.png",
+  "turretGlowSprite": "graphics/weapons/ork_uir_howitzer_glow.png",
+  "hardpointSprite": "graphics/weapons/ork_uir_howitzer_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/ork_uir_howitzer_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    30,
+    0,
+    200
+  ],
+  "hitGlowRadius": 85,
+  "turretOffsets": [
+    8,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    215,
+    240,
+    224
+  ],
+  "coreColor": [
+    255,
+    255,
+    245,
+    225
+  ],
+  "width": 28,
+  "textureType": [
+    "graphics/fx/bt_beam_fluid.png",
+    "graphics/fx/zappy_fringe.png"
+  ],
+  "textureScrollSpeed": 450,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF,
+    ASTEROID
+  ],
+  "fireSoundTwo": "bt_uir_fire",
+  "mountTypeOverride": "BALLISTIC"
+}

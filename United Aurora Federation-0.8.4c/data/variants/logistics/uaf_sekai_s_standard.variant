@@ -1,0 +1,36 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 1,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "uaf_sekai_s",
+    "hullMods": [
+        "auxiliary_fuel_tanks",
+        "efficiency_overhaul"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_sekai_s_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_chorus_m_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_vocal_s_srm"
+            }
+        }
+    ]
+}

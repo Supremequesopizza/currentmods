@@ -1,0 +1,79 @@
+{
+  "variantId": "ork_battlecruiser_disabler",
+  "hullId": "ork_battlecruiser",
+  "displayName": "Disabler",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 47,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "ork_plasma_shotgun",
+        "WS0014": "ork_plasma_shotgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ork_plasma_shotgun_medium",
+        "WS0012": "ork_plasma_shotgun_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_noshield_small",
+        "WS0002": "ork_noshield_small",
+        "WS0003": "ork_noshield_small",
+        "WS0004": "ork_noshield_small",
+        "WS0006": "ork_noshield_small",
+        "WS0007": "ork_noshield_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "hellbore",
+        "WS0020": "ork_plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "ork_slug",
+        "WS0011": "ork_slug"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "ork_rotary_pd_small",
+        "WS0015": "ork_rotary_pd_small",
+        "WS0016": "ork_rotary_pd_small",
+        "WS0017": "ork_rotary_pd",
+        "WS0018": "ork_rotary_pd_small",
+        "WS0019": "ork_rotary_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

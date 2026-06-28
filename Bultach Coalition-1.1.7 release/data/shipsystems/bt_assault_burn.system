@@ -1,0 +1,41 @@
+{
+	"id":"bt_assault_burn",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE_TOGGLE",
+	
+	"statsScript":"data.scripts.shipsystems.bt_satharthrusters",
+	
+	"engineGlowColor":[255,175,125,255],
+	"engineGlowContrailColor":[46,57,49,59],
+	"engineGlowLengthMult":1.25,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":1.25,
+
+	#"jitterUnderColor":[225,255,225,245],
+	#"jitterUnderCopies":25,
+	#"jitterUnderMinRange":0,
+	#"jitterUnderRange":5,
+	#"jitterUnderRangeRadiusFraction":0,
+	
+	#"jitterColor":[255,140,60,65],
+	#"jitterCopies":2,
+	#"jitterMinRange":0,
+	#"jitterRange":2,
+	#"jitterRangeRadiusFraction":0,
+	
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+	"alwaysAccelerate":true,
+
+	"useSound":"bt_sathar_horn",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":250,
+		"burstMovementPotential":500,
+		"averageSpeedIncrease":250,
+	}
+}

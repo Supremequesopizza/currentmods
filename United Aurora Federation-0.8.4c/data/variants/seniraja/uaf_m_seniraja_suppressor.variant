@@ -1,0 +1,74 @@
+{
+  "variantId": "uaf_m_seniraja_suppressor",
+  "hullId": "uaf_m_seniraja",
+  "displayName": "Suppressor",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "quality": 0.6,
+  "permaMods": [],
+  "hullMods": [
+    "ecm",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "uaf_tona_iii"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_minibreve_tnt_m",
+        "WS0006": "uaf_minibreve_tnt_m",
+        "WS0010": "uaf_selemene_l_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_medlav_dual",
+        "WS0002": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_ivory",
+        "WS0004": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_claris_cn",
+        "WS0008": "uaf_cantata_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_pd_reina_ii",
+        "WS0012": "uaf_pd_reina_ii",
+        "WS0015": "uaf_chorus_s_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": {
+        "WS0014": "uaf_m_inazuma_left_armor_plating",
+        "WS0016": "uaf_m_inazuma_right_armor_plating"
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 6,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "uaf_m_shinoria",
+    "hullMods": [
+        "targetingunit",
+        "recovery_shuttles"
+    ],
+    "quality": 0.7,
+    "variantId": "uaf_m_shinoria_defense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "uaf_vocal_m_srm",
+                "WS0017": "uaf_vocal_s_srm",
+                "WS0018": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_swaras_m_mlrs",
+                "WS0008": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_weiss_iii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_flair_pod",
+                "WS0006": "uaf_flair_pod",
+                "WS0009": "uaf_hikone_quad",
+                "WS0010": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina",
+                "WS0003": "uaf_weiss_flk",
+                "WS0004": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_pengawas"
+    ]
+}

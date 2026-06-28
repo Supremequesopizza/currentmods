@@ -1,0 +1,51 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 3,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_osela_suv",
+    "hullMods": [
+        "surveying_equipment",
+        "hardened_subsystems"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_osela_suv_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_ivory"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina",
+                "WS0004": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

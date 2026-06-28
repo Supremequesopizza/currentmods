@@ -1,0 +1,45 @@
+{
+  "variantId": "ork_grot_standard",
+  "hullId": "ork_grot",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "chaingun",
+        "WS0007": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_rotary_pd_small",
+        "WS0004": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0011": "ork_grot_armor_standard"
+    }
+  ],
+  "wings": []
+}

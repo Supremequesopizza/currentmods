@@ -1,0 +1,49 @@
+{
+  "id": "armaa_aleste_flamer_right_copy",
+  "specClass": "projectile",
+  "projectileSpecId": "armaa_flamer_shot3",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.armaa_curvyLaserEffect",
+  "turretSprite": "graphics/armaa/weapons/armaa_machineGunTurret.png",
+  "turretGunSprite": "graphics/armaa/weapons/armaa_alesteflamerGunBarrel.png",
+  "hardpointSprite": "graphics/weapons/mg_light_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/mg_light_hardpoint_recoil.png",
+  "visualRecoil": 1,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    45,
+    -6.5
+  ],
+  "turretAngleOffsets": [
+    0.5
+  ],
+  "hardpointOffsets": [
+    17,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 30,
+    "particleSizeMin": 16,
+    "particleSizeRange": 22,
+    "particleDuration": 0.02,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      180,
+      100,
+      200
+    ]
+  },
+  "mountTypeOverride": "HYBRID",
+  "unaffectedByProjectileSpeedBonuses": true
+}

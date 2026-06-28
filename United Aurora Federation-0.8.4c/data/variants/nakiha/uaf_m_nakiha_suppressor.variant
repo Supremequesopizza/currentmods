@@ -1,0 +1,54 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 5,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_m_nakiha",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "targetingunit",
+        "turretgyros"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_nakiha_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_amazoch_s_asrm_single",
+                "WS0008": "uaf_amazoch_s_asrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_selemene_s_mrm",
+                "WS0006": "uaf_selemene_s_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_tona_i",
+                "WS0002": "uaf_tona_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

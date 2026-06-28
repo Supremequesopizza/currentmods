@@ -1,0 +1,30 @@
+{
+  "variantId": "ork_judgement_variant",
+  "hullId": "ork_judgement",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0008": "ork_judgement_engine_standard"
+    },
+    {
+      "WS0006": "ork_judgement_middle_left_standard"
+    },
+    {
+      "WS0007": "ork_judgement_middle_right_standard"
+    },
+    {
+      "WS0004": "ork_judgement_front_left_standard"
+    },
+    {
+      "WS0005": "ork_judgement_front_right_standard"
+    }
+  ],
+  "wings": []
+}

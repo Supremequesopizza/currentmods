@@ -1,0 +1,66 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 29,
+    "fluxVents": 30,
+    "hullId": "tesseract",
+    "hullMods": [
+        "frontemitter",
+        "targetingunit",
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "magazines"
+    ],
+    "permaMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "magazines"
+    ],
+    "sMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "magazines"
+    ],
+    "sModdedBuiltIns": ["fluxbreakers"],
+    "suppressedMods": ["shard_spawner"],
+    "variantId": "sms_tesseract_RemoteBeacon",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "vpdriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "cryoblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "disintegrator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "cryoflux",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "riftbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "minipulser",
+                "WS 005": "minipulser"
+            }
+        }
+    ],
+    "tags": ["ship_limited_tooltip"]
+}

@@ -1,0 +1,25 @@
+{
+  "variantId": "uaf_wing_m_keris_attacker",
+  "hullId": "uaf_wing_m_keris",
+  "displayName": "Rocket Attacker",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_fw_hvar_class_ir",
+        "WS0002": "uaf_fw_hvar_class_ir",
+        "WS0003": "uaf_fw_hvar_class_ir",
+        "WS0004": "uaf_fw_hvar_class_ir"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

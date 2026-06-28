@@ -1,0 +1,95 @@
+{
+  "bounds": [
+    -6.5,
+    16,
+    14.5,
+    10,
+    8,
+    0.5,
+    14.5,
+    -10,
+    -6.5,
+    -16,
+    -12.5,
+    -0
+  ],
+  "center": [
+    22,
+    18
+  ],
+  "collisionRadius": 25,
+  "engineSlots": [
+    {
+      "angle": -170.5,
+      "contrailSize": 7.363142,
+      "length": 26.470665,
+      "location": [
+        -10.5,
+        -7.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 7.363142
+    },
+    {
+      "angle": 170.5,
+      "contrailSize": 7.363142,
+      "length": 26.470665,
+      "location": [
+        -10.5,
+        7.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 7.363142
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -14,
+        -0
+      ],
+      "style": "EXALTED_TECH",
+      "width": 10
+    }
+  ],
+  "height": 36,
+  "hullId": "anvil_wisp",
+  "hullName": "Wisp",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 24.5,
+  "spriteName": "graphics/ships/anvil_wisp.png",
+  "style": "EXALTED_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 255,
+      "id": "WS0003",
+      "locations": [
+        -9,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        4,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 44
+}

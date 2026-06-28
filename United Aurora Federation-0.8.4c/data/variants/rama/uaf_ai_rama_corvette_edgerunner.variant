@@ -1,0 +1,49 @@
+{
+    "displayName": "Edgerunner",
+    "fluxCapacitors": 5,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "uaf_ai_rama_corvette",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "hardened_subsystems",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.9,
+    "variantId": "uaf_ai_rama_corvette_edgerunner",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_edge_type_i",
+                "WS0004": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_merupaka_epd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

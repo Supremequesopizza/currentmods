@@ -1,0 +1,168 @@
+Update: Missing Supers 2.0.9g
+Crescendo
+-shared flux sink removed
+Triumph
+-sprite updated
+Ragnarok
+-1 bay added
+-DP reduced to 145
+-monthly supply cost increased to 85
+Anchor
+-supply cost reduced to 55
+________________________________________
+Hotfix: Missing Supers 2.0.9f
+-Supersized vessels not showing up in codex after discovery fixed.
+________________________________________
+Missing Super Ships 2.0.9d
+Sovereign
+-variant adjusted
+________________________________________
+
+Missing Supers 2.0.9a
+Addon:
+-Small adjustment made to improve addons function
+________________________________________
+Missing Supers 2.0.9
+ragnarok:
+civilian tag removed and replace with combat
+anchor:
+combat tag removed
+Spawning system overhauled. (explanation in readme)
+________________________________________
+2.0.8b and 2.0.8c Super Ships Hotfix:
+-Fixed unified fighter control
+-Dragonfire tubes split range lowered to 1000
+-Softrelease: small phrasing change in readme
+________________________________________
+2.0.8 Missing supers:
+Continuum
+-dp changed to 70
+Idol
+-dp changed to 90
+Triumph:
+Siege Gauss Cannon
+-Weapon Groups Sprite adjusted
+-flux halved shot
+-delay shortend by 1 second
+-Sprite changes
+All supers
+-various adjustments to the feel and handling
+-loads and loads of smaller changes
+-linked weapon targeting (more details in the readme)
+________________________________________
+missing supers 2.0.7b
+flipped the small weapon mounts at the back of the hull
+Note: Update timescales wont be added to the update header anymore as individual submod updates have fragmented the version numbers to far.
+________________________________________
+Hotfix 2.0.7a Missing Supers:
+Sovereign
+-was broken is fixed
+Triumph
+-Sprite change
+Update 2.0.7 28.10.25-13.11.25:
+All packs:
+-crediting of scarface adjusted
+Sprite Changes
+-Triumph
+-Crescendo
+-supers core undersubmodule sprites added
+________________________________________
+Hotfix 2.0.6a
+Missing Supers
+-omega faction file deleted
+As always some smaller stuff that shall go unnoted.
+
+General Updates:
+-Executables are now removed as a trial. New description added.
+________________________________________
+2.0.5c Hotfix
+Bugfix Supers not spawning:
+Hull file updated
+Faction files updated
+Default ship roles updated
+Config changes:
+Changes added to the readme
+Changes added to the PDF
+The hulls file no also has to change to active the supers correctly, the option to make supers unboardable is therefore dropped with spawnable and not spawnable taking its place.
+Faction changes:
+Pirates now have access to the ragnarok when its active
+2.0.5c Minor Update  19.09.25-12.10.25:
+General Updates:
+-Executables are now removed as a trial. New description added.
+________________________________________
+2.0.5a Hotfix:
+-Could not find any commas in between fields that where missing the value of for tier was in rarity and the tubes didnt have primary role which have been added but make no functional difference.
+-HBI removed from the bow modules of the Triumph
+-Faction files fixed
+-Fixed the Dragenfly typo in said weapons description.
+-Fixed HBI behing applied to the wrong modules on the Crescendo and Triumph
+-Fixed the super readme.
+-Dragonfire tier value moved to rarity primary role added
+-smaller fixes
+-Faction files fixed
+________________________________________
+2.0.4 Hotfixes
+Minor hotfix:
+Bug fix:
+Super redacted changes in faction file.
+2.0.4-20.04.25-09.05.25:
+Mod files:
+Readme added
+________________________________________
+2.0.3 Hotfixes:
+Many many bug fixes.
+2.0.3-07.04.25-20.04.25:
+idol: increased mass to 16000, and changed manouverability
+Regular version:
+Management of spawning of the supers in factions the idol at all and weather or not the supers  are boardable can be achived via the new executables in the missing supers mod folder. Checking if the idol will load or not or if the supers are boardable will have to be done manually for now but markers after a # in the second line of the concerning json in the factions folder and csv in the hulls folder have been added. The faction files should be selfexplainatory. Executables for mac and linux can be found in the so named folders they have to be moved out into the missing supers folder to be executed.
+The baseline is: idol does not spawn, the supers are unboardable and wont spawn in factions they will always be discoverable as blueprints.
+Ergonomics:
+Added Version Checker intigration added
+Direct download link added to version checker file
+________________________________________
+2.0.2-09.03.25-30.03.25:
+Reaper: added back unchanged as an optional vessel. Will be activated with for now with the boardables ship.csv
+Triumph: Small aft mount sprites changed to 9 (3) o clock Kokadosh
+Crescendo: Shipsystem reverted back to targeting feed on everythign with hangars.
+Triumph: More work done on aft, dual gauss center pushed further to the back.
+Ragnarok: Some sprite rework done on the front and secondary bay modules.
+________________________________________
+2.0.1-02.01.25-09.03.25
+-Ragnarok: Path markings removed from ragnarok completely. Ragnarok the bonk is back and exactly like it was in 0.9.1.
+-Anchor: added delicate machinery to the 2 industrial and the core ship.
+-Triumph: missile now look like they can fit dragon warhead and missiles are now hidden "in the tubes", tubes now have "shadows on the tube "below" it. Dual gauss weird looking shape comming from the wird shine put on it mittigated by flipping the barrels glow adjusted. Triumph middle of the front reworked to high hull points of left/right bow module reduced to 10000 Module and core size exchanged. Triumph observation deck (bridge) look adjusted. Triumph aft visuals improved. 2nd Triumph variant (for now) based on Kokadoshs variant.
+-Sovereign: corner propulsion flux cap reduced to 10000 battery flux cap increased to 16000.
+-missp_idol now missp_continuum done might be nerfed if I ever make something bigger at the moment it is the replacement for the reaper as i try to use as little ai sprites as possible and knowingly havent yet.
+-Crescendo: temporary pelagornis rework created.
+Bug Fixes:
+-Super Ship modules now show up on the superships in the production and doctrin ship lists not only looking better but making them easier to find in the production screen.
+Other Changes:
+-All platforms now hidden in codex.
+-Ship spawn rarity (especially) in fleets now actually reduced. All faction files updated to current layout.
+-Modular ship strike craft control now implemented.
+-Slowdown upon module loss has been implemented.
+-Icon changed of, the linked hullmod.
+-Operations center removed from all supersized vessels.
+-Modules while now appear as frigates to the enemy ai (at least they should, its beyond me how to test that) if not the module size will go back down in the next one.
+General notes:
+-Linked Hull: Turns out there was no difference between the precompiled and uncompiled files. Still had to put some work in to get things to work. Weapon control is not in the works as it was not actually part of SWP Linked Hull.
+-Factions files have been added to the data/world folder to make super ships spawn again you have to move alll the faction files out of the world/factions/Ai usable folder in to the world/factions folder.
+If you then also replace the ship csv in the data/hulls folder with the ship.csv in the folder data/hulls/boardable super vessels will become salvagable.
+-This update will replace the current 0.97 version.
+-There are changes that slipped through the cracks or where to small to mention. For example loads of changes for the supersized ships are unmentioned
+Lore:
+-Triumph text rewritten. Other text have been added as well. Some text will be held back for now.
+Website:
+-Mod icon changed.
+-Link to version 0.9.1 fixed.
+________________________________________
+2.0.0-18.12.2024 IceFire takes over mod.
+-Lots of small things i did befor taking notes or just where not of note not mentioned here.
+-missp_idol removed for redesign.
+-Superships now multipart vessels. The ships speed gets reduced when propulsion modules get destroyed.
+-Nagato renamed to Triumph. Triumph designition changed to Artillery Platform.Siege Coil Gun renamed to Siege Gauss Cannon.
+-Release day fixes to the missile tubes.
+-Dominion renamed to Sovereign. Sovereign designation changed to Assault Platform.
+-Anchor designation changed to Expedition Vessel.
+-Pelagornis removed (might be added back).
+-Ragnarok designetion now Improvised Weapons Platform. Shipsystem now changed to dynamic_stabilier.

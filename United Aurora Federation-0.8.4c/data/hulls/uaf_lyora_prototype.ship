@@ -1,0 +1,219 @@
+{
+  "hullName": "Lyora (MP)",
+  "hullId": "uaf_lyora_prototype",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Irolyora_Prototype.png",
+  "style": "UAF_FRIGATE",
+  "height": 232,
+  "width": 178,
+  "center": [89, 116],
+  "collisionRadius": 178.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 137.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_militaryGrade",
+    "uaf_auroranEngineering"
+  ],
+  "builtInWeapons": {
+    "EXHAUST_PORT_LEFT": "uaf_blinker_sirene_1",
+    "EXHAUST_PORT_RIGHT": "uaf_blinker_sirene_2",
+    "WS0001": "uaf_lion_roar"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [14, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -45,
+      "locations": [-31, -26]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 45,
+      "locations": [-31, 26]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [30.5, 42.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": -0,
+      "locations": [30.5, -42.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 90,
+      "locations": [-21, 49]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -90,
+      "locations": [-21, -49]
+    },
+    {
+      "id": "EXHAUST_PORT_RIGHT",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-6.5, -16.5]
+    },
+    {
+      "id": "EXHAUST_PORT_LEFT",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6.5, 16.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81.5, 22],
+      "length": 61.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-81.5, -22],
+      "length": 61.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-81.5, -27],
+      "length": 61.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-81.5, 27],
+      "length": 61.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-47, 53],
+      "length": 19.246399,
+      "width": 12.93463,
+      "angle": 151.5,
+      "contrailSize": 12.93463,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-47, -53],
+      "length": 19.246399,
+      "width": 12.93463,
+      "angle": -151.5,
+      "contrailSize": 12.93463,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-43, 58],
+      "length": 19.246399,
+      "width": 12.93463,
+      "angle": 151.5,
+      "contrailSize": 12.93463,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-43, -58],
+      "length": 19.246399,
+      "width": 12.93463,
+      "angle": -151.5,
+      "contrailSize": 12.93463,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -114, 1,
+    -85, 12.5,
+    -79.5, 35.5,
+    -37, 60,
+    -41, 73.5,
+    -35, 75,
+    -28.5, 67,
+    -17, 65.5,
+    -11.5, 81.5,
+    0, 65.5,
+    8.5, 73,
+    24.5, 49.5,
+    39.5, 37,
+    94.5, 17.5,
+    78, 11,
+    78, 5,
+    64, 2,
+    45, 2,
+    45, -2,
+    64, -2,
+    78, -5,
+    78, -11,
+    94.5, -17.5,
+    39.5, -37,
+    24.5, -49.5,
+    8.5, -73,
+    0, -65.5,
+    -11.5, -81.5,
+    -17, -65.5,
+    -28.5, -67,
+    -35, -75,
+    -41, -73.5,
+    -37, -60,
+    -79.5, -35.5,
+    -85, -12.5,
+    -114, -1
+  ]
+}

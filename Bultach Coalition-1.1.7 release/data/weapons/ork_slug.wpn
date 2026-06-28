@@ -1,0 +1,47 @@
+{
+  "id": "ork_slug",
+  "specClass": "projectile",
+  "projectileSpecId": "bt_seilch_charge",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.bt_antishield_everyframe_small",
+  "turretSprite": "graphics/weapons/ork_slug_turret_base.png",
+  "turretGunSprite": "graphics/weapons/ork_slug_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/ork_slug_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/ork_slug_hardpoint_recoil.png",
+  "visualRecoil": 5,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    17,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    19.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 8,
+    "particleSizeMin": 2,
+    "particleSizeRange": 8,
+    "particleDuration": 0.4,
+    "particleCount": 10,
+    "particleColor": [
+     165,
+      225,
+      185,
+      175
+    ]
+  },
+  "fireSoundTwo": "bt_seilch_charge_launch_small"
+}

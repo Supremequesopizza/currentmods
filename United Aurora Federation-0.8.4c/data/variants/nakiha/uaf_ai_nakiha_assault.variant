@@ -1,0 +1,65 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_ai_nakiha",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "hardened_subsystems",
+        "autorepair"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_ai_nakiha_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_oboe_mirv_small",
+                "WS0006": "uaf_clarinet_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_clemente_nakiha",
+                "WS0008": "uaf_clemente_nakiha"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_cantata_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina_ii",
+                "WS0002": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

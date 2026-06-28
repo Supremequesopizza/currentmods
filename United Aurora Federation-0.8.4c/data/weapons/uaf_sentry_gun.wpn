@@ -1,0 +1,52 @@
+{
+  "id": "uaf_sentry_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_ash_xl_piercing",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.uaf_sentry_gun_fx",
+  "turretSprite": "",
+  "turretGlowSprite": "",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "glowColor": [
+    250,
+    20,
+    20,
+    255
+  ],
+  "visualRecoil": 0,
+  "turretOffsets": [
+    79,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    126.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 120,
+    "spread": 20,
+    "particleSizeMin": 30,
+    "particleSizeRange": 60,
+    "particleDuration": 0.4,
+    "particleCount": 60,
+    "particleColor": [
+      132,
+      183,
+      255,
+      255
+    ]
+  },
+  "fireSoundOne": "uaf_ru_tona_iii_608",
+  "fireSoundTwo": "uaf_tona_iv_608"
+}

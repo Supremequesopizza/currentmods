@@ -1,0 +1,268 @@
+{
+  "hullName": "Speeder",
+  "hullId": "ork_speeder",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ork_speeder.png",
+  "style": "BULTACH",
+  "height": 154,
+  "width": 154,
+  "center": [77, 78],
+  "collisionRadius": 102.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 97.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "BT_shieldsChanger",
+    "bt_shieldArching",
+    "bt_offensive_core"
+  ],
+  "builtInWeapons": {
+    "WS0008": "ork_speeder_deco",
+    "WS0009": "ork_blinker_red",
+    "WS0010": "ork_blinker_red",
+    "WS0011": "ork_blinker_green",
+    "WS0012": "ork_blinker_green",
+    "WS0013": "ork_blinker_red",
+    "WS0014": "ork_blinker_green",
+    "WS0015": "ork_vent_deco",
+    "WS0016": "ork_vent_deco"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [39.5, 0],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11.5, 31]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11.5, -31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 40,
+      "locations": [60, 23],
+      "renderOrderMod": 1500
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -40,
+      "locations": [60, -23],
+      "renderOrderMod": 1500
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [51.5, 0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-28, 0]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19.5, 0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [48.5, 27.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [48.5, -27.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, 59.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6.5, -59.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-66, 0]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, 0]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [28.5, 20.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [28.5, -20.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58, 16],
+      "length": 76.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-58, -16],
+      "length": 76.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-49, 42.5],
+      "length": 66.458801,
+      "width": 27.944735,
+      "angle": 154.5,
+      "contrailSize": 27.944735,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-49, -42.5],
+      "length": 66.458801,
+      "width": 27.944735,
+      "angle": -154.5,
+      "contrailSize": 27.944735,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-33, 54],
+      "length": 40.138363,
+      "width": 12.67468,
+      "angle": 154.5,
+      "contrailSize": 12.67468,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-33, -54],
+      "length": 40.138363,
+      "width": 12.67468,
+      "angle": -154.5,
+      "contrailSize": 12.67468,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -56, -5,
+    -56.5, -14,
+    -45, -20,
+    -55, -25.5,
+    -52, -31,
+    -39, -27.5,
+    -30, -49,
+    -5.5, -63.5,
+    5.5, -55,
+    5.5, -42,
+    19.5, -22,
+    41.5, -21.5,
+    49.5, -34,
+    63.5, -11.5,
+    63.5, 21.5,
+    49.5, 44,
+    41.5, 31.5,
+    19.5, 32,
+    5.5, 52,
+    5.5, 65,
+    -5.5, 73.5,
+    -30, 59,
+    -39, 37.5,
+    -52, 41,
+    -55, 35.5,
+    -45, 30,
+    -56.5, 24,
+    -56, 15,
+    -76.5, 5
+  ]
+}

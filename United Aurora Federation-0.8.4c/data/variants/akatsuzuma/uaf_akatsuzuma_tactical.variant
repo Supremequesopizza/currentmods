@@ -1,0 +1,60 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 6,
+    "fluxVents": 22,
+    "goalVariant": false,
+    "hullId": "uaf_akatsuzuma",
+    "hullMods": [
+        "eccm",
+        "uaf_secondary_focus",
+        "targetingunit"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_akatsuzuma_tactical",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_minibreve_tnt_s",
+                "WS0012": "uaf_minibreve_tnt_s"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_hikone_ii_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_shimata_155_cn",
+                "WS0009": "uaf_shimata_155_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_racun_pod",
+                "WS0006": "uaf_racun_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina_ii",
+                "WS0004": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

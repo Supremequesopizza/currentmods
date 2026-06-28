@@ -1,0 +1,86 @@
+{
+  "bounds": [
+    8.5,
+    7.5,
+    -6.5,
+    5.5,
+    -6.5,
+    -5.5,
+    8.5,
+    -7.5
+  ],
+  "builtInWeapons": {
+    "WS 001": "anvil_ecto_fighter",
+    "WS 002": "anvil_varna",
+    "WS0001": "anvil_purple"
+  },
+  "center": [
+    13,
+    12
+  ],
+  "collisionRadius": 15,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -9.5,
+        -0
+      ],
+      "style": "EXALTED_TECH",
+      "width": 10
+    }
+  ],
+  "height": 26,
+  "hullId": "anvil_delusion",
+  "hullName": "Delusion ",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 15,
+  "spriteName": "graphics/ships/anvil_delusion.png",
+  "style": "EXALTED_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS 001",
+      "locations": [
+        4.5,
+        -7
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS 002",
+      "locations": [
+        4.5,
+        7
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        -3,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 26
+}

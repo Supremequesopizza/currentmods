@@ -1,0 +1,151 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		
+	},
+	"combatSmall":{
+		"tahlan_hem_hunter":4,
+		"tahlan_hem_slayer":3,
+		"tahlan_hem_harasser":3,
+		"tahlan_margin_standard":5,	
+		"tahlan_margin_blaster":5,
+		"tahlan_curl_standard":4,
+		"tahlan_curl_escort":3,
+		"tahlan_curl_combat":3,
+		"tahlan_skirt_hunter":5,
+		"tahlan_skirt_skirmisher":5,
+	},
+	"combatMedium":{
+		"tahlan_brim_hunter":3,
+		"tahlan_brim_striker":3,
+		"tahlan_brim_combat":4,
+		"tahlan_frill_guardian":4,
+		"tahlan_frill_blaster":3,
+		"tahlan_frill_support":3,
+		"tahlan_belt_standard":4,
+		"tahlan_belt_support":3,
+		"tahlan_belt_strike":3,
+		"tahlan_angora_strike":4,
+		"tahlan_angora_brawler":3,
+		"tahlan_angora_blaster":3
+	},
+	"combatLarge":{
+		"tahlan_skye_hunter":4,
+		"tahlan_skye_killer":3,
+		"tahlan_skye_striker":3,
+		"tahlan_verge_standard":4,
+		"tahlan_verge_standoff":3,
+		"tahlan_verge_assault":3,
+		"tahlan_midi_standard":4,
+		"tahlan_midi_elite":3,
+		"tahlan_midi_support":3,
+		"tahlan_frock_standard":4,
+		"tahlan_frock_support":3,
+		"tahlan_frock_tearful":3
+	},
+	"combatCapital":{
+		"tahlan_gown_standard":4,
+		"tahlan_gown_illus":4,
+		"tahlan_gown_victorious":3,
+		"tahlan_corset_standard":4,
+		"tahlan_corset_support":3,
+		"tahlan_corset_frontline":3,
+		"tahlan_sateen_standard":4,
+		"tahlan_sateen_assault":3,
+		"tahlan_sateen_support":3,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+	},
+	
+	"civilianRandom":{
+	},
+
+	# carriers
+	"carrierSmall":{
+		"tahlan_tress_support":4,
+		"tahlan_tress_strike":3,
+		"tahlan_tress_suppression":3,
+	},
+	"carrierMedium":{
+		"tahlan_strand_standard":4,
+		"tahlan_strand_strike":4,
+		"tahlan_strand_classic":2,
+	},
+	"carrierLarge":{
+		"tahlan_filament_bridgehead":4,
+		"tahlan_filament_classic":3,
+		"tahlan_filament_combat":3,
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+		"tahlan_percale_combat":5,
+		"tahlan_percale_disabler":5,
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+	},
+	"freighterMedium":{
+		"tahlan_camisette_standard":10,
+	},
+	"freighterLarge":{
+		"tahlan_camise_standard":10,
+	},
+	
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+		"tahlan_culotte_standard":10,
+	},
+	"tankerLarge":{
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+	},
+	
+
+
+	# Old/unused below this line
+	"fastAttack":{
+	},
+
+	"escortSmall":{
+	},
+	"escortMedium":{
+	},
+	
+}

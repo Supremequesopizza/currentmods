@@ -1,0 +1,227 @@
+{
+  "hullName": "Starboard Ring",
+  "hullId": "tahlan_gown_ringright",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/tahlan/ships/tahlan_gown_ringright.png",
+  "style": "TAHLAN_FILAMENT_TECH",
+  "height": 376,
+  "width": 150,
+  "center": [75, 188],
+  "collisionRadius": 223.5,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 209.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "tahlan_filamentspecs",
+    "reduced_explosion",
+    "tahlan_gownmodule",
+    "tahlan_centraltargeting",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0005": "tahlan_filamentengine",
+    "WS0006": "tahlan_filamentengine",
+    "WS0007": "tahlan_filamentengine",
+    "WS0008": "tahlan_filamentbays",
+    "WS0009": "tahlan_gown_rightringglow"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -46,
+      "locations": [77, 5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -57.5,
+      "locations": [47, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -80,
+      "locations": [-27, -38]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -145,
+      "locations": [-144, 44]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        80, 49.5,
+        72, 36,
+        57.5, 22,
+        40, 10
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        21, 0,
+        -5, -7,
+        -53, -4.5
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -140,
+      "locations": [-148.5, -72]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -153,
+      "locations": [-173, -42]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -166,
+      "locations": [-190.5, -6]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-72, -21.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [0, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-150, -73],
+      "length": 35,
+      "width": 12,
+      "angle": -140,
+      "contrailSize": 30,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-174, -42.5],
+      "length": 35,
+      "width": 12,
+      "angle": -153,
+      "contrailSize": 30,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-192, -6.5],
+      "length": 35,
+      "width": 12,
+      "angle": -166,
+      "contrailSize": 30,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-148.5, -72],
+      "length": 65,
+      "width": 22,
+      "angle": -140,
+      "contrailSize": 19.673593,
+      "style": "TAHLAN_RED_ENGINE"
+    },
+    {
+      "location": [-173, -42],
+      "length": 65,
+      "width": 22,
+      "angle": -153,
+      "contrailSize": 19.673593,
+      "style": "TAHLAN_RED_ENGINE"
+    },
+    {
+      "location": [-190.5, -6],
+      "length": 65,
+      "width": 22,
+      "angle": -166,
+      "contrailSize": 19.673593,
+      "style": "TAHLAN_RED_ENGINE"
+    }
+  ],
+  "bounds": [
+    87, 56,
+    74.5, 60.5,
+    63.5, 58,
+    58, 36.5,
+    29.5, 15,
+    -11, 2.5,
+    -50, 7.5,
+    -52.5, 16,
+    -77, 21.5,
+    -109, 44.5,
+    -122.5, 56,
+    -129.5, 72.5,
+    -146.5, 71,
+    -150.5, 59,
+    -175.5, 50,
+    -166.5, 20.5,
+    -185, 2,
+    -180, -9,
+    -157, -11,
+    -169, -34.5,
+    -163.5, -43.5,
+    -140.5, -40,
+    -146.5, -64,
+    -135.5, -71,
+    -108, -57.5,
+    -102.5, -65,
+    -70, -57,
+    -43, -69.5,
+    -17.5, -71,
+    -7.5, -65,
+    32.5, -54,
+    66, -43,
+    100, -16,
+    133, 17.5,
+    141.5, 33.5,
+    105, 35.5,
+    86.5, 46.5
+  ]
+}

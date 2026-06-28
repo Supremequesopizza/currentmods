@@ -1,0 +1,99 @@
+{
+  "hullName": "Right Port",
+  "hullId": "uaf_cherry_port_right",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Cherry/uaf_cherry_xxl_starboard.png",
+  "style": "MIDLINE",
+  "height": 486,
+  "width": 227,
+  "center": [113.5, 243],
+  "collisionRadius": 350,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 325,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_enhanced_pd",
+    "uaf_shield_manipulator"
+  ],
+  "builtInWeapons": {
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 0,
+      "locations": [-64, 20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 0,
+      "locations": [37, 20.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 0,
+      "locations": [160, 20.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": -90,
+      "locations": [-52, -99]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": -90,
+      "locations": [-20, -99]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 0,
+      "locations": [230.5, 21.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 0,
+      "locations": [164.5, 66.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -183.5, 77.5,
+    -183, -53.5,
+    -240, -56,
+    -239, -108.5,
+    130, -108.5,
+    225.5, 10,
+    240, 11.5,
+    239.5, 30.5,
+    224, 46.5,
+    224.5, 77.5
+  ]
+}

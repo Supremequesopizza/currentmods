@@ -1,0 +1,79 @@
+{
+  "variantId": "uaf_m_isenoria_prototype",
+  "hullId": "uaf_m_isenoria",
+  "displayName": "Prototype",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "uaf_secondary_focus",
+    "recovery_shuttles",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_weiss_iii_flk",
+        "WS0002": "uaf_weiss_iii_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_medlav_quad",
+        "WS0004": "uaf_medlav_quad",
+        "WS0005": "uaf_ivory_triple",
+        "WS0006": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_triyia_pdx",
+        "WS0008": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "uaf_pd_reina",
+        "WS0012": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_claris_cn",
+        "WS0014": "uaf_claris_cn",
+        "WS0015": "uaf_cantata_cn",
+        "WS0016": "uaf_cantata_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_weiss_flk",
+        "WS0018": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "PORT": "uaf_m_isenoria_left_hangar_module"
+    },
+    {
+      "STARBOARD": "uaf_m_isenoria_right_hangar_module"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,133 @@
+{
+  "hullName": "Nebula Mk.II",
+  "hullId": "missp_nebulamkii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/nebula/nebula_mkii.png",
+  "style": "LOW_TECH",
+  "height": 200,
+  "width": 120,
+  "center": [60, 100],
+  "collisionRadius": 114.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 107.5,
+  "viewOffset": 0,
+  "builtInMods": [
+	"civgrade",
+    "ecm",
+    "nav_relay"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": 116.5,
+      "locations": [-61, 34]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": -116.5,
+      "locations": [-61, -34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": 45,
+      "locations": [73.5, 28.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": -45,
+      "locations": [73.5, -28.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": 90,
+      "locations": [-25, 40]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": -90,
+      "locations": [-25, -40]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [25, 43]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [25, -43]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        62, 13,
+        64, -10.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-94, 12],
+      "length": 52.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-94, -12],
+      "length": 52.5,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -30.5, -51.5,
+    91.5, -47.5,
+    91.5, 47.5,
+    -30.5, 51.5,
+    -68.5, 41,
+    -93, 19,
+    -93, -19,
+    -68.5, -41
+  ]
+}

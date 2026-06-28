@@ -1,0 +1,32 @@
+{
+  "hullName": "Reflecta Heavy Plating",
+  "hullId": "uaf_m_zepporia_right_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Zepporia/zeppy_military_armor_3.png",
+  "style": "MIDLINE",
+  "height": 136,
+  "width": 59,
+  "center": [29.5, 68],
+  "collisionRadius": 89,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 89,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_reflective_armor_ii"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -67.5, -12.5,
+    55, 24.5,
+    66, 12.5,
+    65.5, -8.5,
+    43, -14.5,
+    35.5, -7.5,
+    23.5, -26,
+    14.5, -27.5,
+    0.5, -7.5,
+    -50.5, -23.5,
+    -64, -23.5
+  ]
+}

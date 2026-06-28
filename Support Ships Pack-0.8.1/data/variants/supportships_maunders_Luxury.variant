@@ -1,0 +1,18 @@
+{
+  "variantId": "supportships_maunders_Luxury",
+  "hullId": "supportships_maunders",
+  "displayName": "Luxury",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "additional_berthing",
+    "auxiliarythrusters",
+    "auxiliary_fuel_tanks"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

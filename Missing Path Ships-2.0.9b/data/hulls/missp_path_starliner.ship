@@ -1,0 +1,192 @@
+{
+  "hullName": "Starliner (Path)",
+  "hullId": "missp_path_starliner",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/starliner/missp_path_starliner.png",
+  "style": "LOW_TECH",
+  "height": 325,
+  "width": 144,
+  "center": [72, 162.5],
+  "collisionRadius": 154.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 146,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "ill_advised",
+    "unstable_injector"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 259,
+      "angle": 0,
+      "locations": [15.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": 56.5,
+      "locations": [96.5, 47]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": -56.5,
+      "locations": [96.5, -47]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": 90,
+      "locations": [58.5, 52]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": -90,
+      "locations": [58.5, -52]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": 71.5,
+      "locations": [-81.5, 37]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": -71.5,
+      "locations": [-81.5, -37]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-22.5, 50]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-22.5, -50]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [1.5, 48]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [1.5, -48]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -29, 29.5,
+        -40, 21.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -40.5, -21.5,
+        -28, -29.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-136.5, 18.5],
+      "length": 44.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136.5, -18.5],
+      "length": 44.5,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-136.5, -0],
+      "length": 44.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -136, -30,
+    -115, -50.5,
+    -76, -52,
+    -37, -43.5,
+    -31, -56,
+    33, -52,
+    47.5, -63.5,
+    92.5, -63,
+    128, -47.5,
+    141, 0,
+    141, -0,
+    128, 47.5,
+    92.5, 63,
+    47.5, 63.5,
+    33, 52,
+    -31, 56,
+    -37, 43.5,
+    -76, 52,
+    -115, 50.5,
+    -136, 30
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "hullName": "Crescendo Bay Left Module",
+  "hullId": "missp_crescendo_bay_left",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/crescendo/crescendo bay left module.png",
+  "style": "MIDLINE",
+  "height": 200,
+  "width": 100,
+  "center": [86, 29],
+  "collisionRadius": 156,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0,
+  "viewOffset": 156,
+  "builtInMods": [
+    "missp_linked_hull",
+    "shared_flux_sink",
+	"always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [128, 52]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [117, 20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [106, 52]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        1, 19,
+        10.5, 8,
+        24.5, 8.5,
+        39, 19
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        63.5, 6.5,
+        51, 6.5,
+        76.5, 7,
+        84.5, 18.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -6, 40,
+    -6, 19,
+    0, 11,
+    0, 0,
+    12, -3,
+    12, -6,
+    98, -6,
+    98, 3,
+    137, 2,
+    144, 17,
+    145, 42,
+    138, 44,
+    131.5, 57,
+    124.5, 57,
+    117, 45,
+    110, 57,
+    102, 57,
+    97, 45,
+    91, 45,
+    86, 39,
+    72, 47,
+    10, 47,
+    -11, 54
+  ]
+}

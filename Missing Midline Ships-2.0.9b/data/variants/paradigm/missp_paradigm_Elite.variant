@@ -1,0 +1,69 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 1,
+    "fluxVents": 50,
+    "hullId": "missp_paradigm",
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "fluxdistributor",
+        "ecm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_paradigm_Elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0003": "hurricane"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "squall",
+                "WS0021": "pilum",
+                "WS0022": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "mjolnir"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "mjolnir"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam",
+                "WS0007": "gravitonbeam",
+                "WS0008": "gravitonbeam",
+                "WS0009": "hveldriver",
+                "WS0010": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "lrpdlaser",
+                "WS0012": "lrpdlaser",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser",
+                "WS0015": "pdlaser",
+                "WS0016": "pdlaser",
+                "WS0017": "taclaser",
+                "WS0018": "taclaser",
+                "WS0019": "lrpdlaser",
+                "WS0020": "lrpdlaser"
+            }
+        }
+    ]
+}

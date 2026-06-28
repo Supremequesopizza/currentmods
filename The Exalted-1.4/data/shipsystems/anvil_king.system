@@ -1,0 +1,18 @@
+{
+	"id":"anvil_king",
+	"type":"STAT_MOD",	
+        "aiType":"RESERVE_DEPLOYMENT",	
+	"statsScript":"data.shipsystems.scripts.anvil_king",
+	
+	"useSound":"system_targeting_feed",
+	#"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

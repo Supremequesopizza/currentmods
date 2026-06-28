@@ -1,0 +1,21 @@
+{
+	"combatSmall":{
+		"missp_lasher_heg_Standard":4
+	},
+	"combatmedium":{
+		"missp_mule_heg_Standard":1
+	},
+	"combatLarge":{
+		"missp_venture_heg_Standard":2
+	},
+	"freighterMedium":{
+		"missp_mule_heg_Standard":6
+	},
+	"freighterLarge":{
+		"missp_venture_heg_Standard":6
+	},
+	"carrierSmall":{
+		"missp_condor_heg_Standard":8,
+		"missp_mudskipper_heg_Standard":5
+	}
+}

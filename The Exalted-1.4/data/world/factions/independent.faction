@@ -1,0 +1,10 @@
+{
+	"hullFrequency":{
+		#"tags":{"keruvim_export_bp":4,},
+		#"hulls":{"keruvim_catapult":3, "keruvim_bastion":5},
+		},
+	"knownShips":{
+		#"tags":["keruvim_export_bp",],
+		"hulls":["anvil_cielo_civ", "anvil_hoshiko_civ"],
+},
+},

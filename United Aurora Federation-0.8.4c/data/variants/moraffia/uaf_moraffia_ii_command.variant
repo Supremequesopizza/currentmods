@@ -1,0 +1,41 @@
+{
+    "displayName": "Command",
+    "fluxCapacitors": 9,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "uaf_moraffia_ii",
+    "hullMods": [
+        "uaf_squadron_suite"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_moraffia_ii_command",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_swaras_m_mlrs",
+                "WS0002": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_chorus_s_amm",
+                "WS0004": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina_ii",
+                "WS0006": "uaf_pd_reina_ii"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_noversky"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 1,
+    "fluxVents": 2,
+    "goalVariant": false,
+    "hullId": "uaf_novayu",
+    "hullMods": [
+        "eccm",
+        "missleracks"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_novayu_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_clarinet_mirv_small",
+                "WS0004": "uaf_oboe_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_minibreve_tnt_s",
+                "WS0002": "uaf_minibreve_tnt_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

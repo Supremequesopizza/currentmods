@@ -1,0 +1,86 @@
+{
+  "hullName": "Cutlass",
+  "hullId": "missp_cutlass",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/cutlass/missp_cutlass.png",
+  "style": "MIDLINE",
+  "height": 43,
+  "width": 36,
+  "center": [18, 21.5],
+  "collisionRadius": 20.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm",
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0.5, 15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [0.5, -15]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -0,
+      "locations": [14.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-8.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, 6.5],
+      "length": 48,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-17.5, -6.5],
+      "length": 48,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -17.5, -6.5,
+    -7.5, -17,
+    0.5, -17,
+    2.5, -7,
+    19.5, -3,
+    19.5, 3,
+    2.5, 7,
+    0.5, 17,
+    -7.5, 17,
+    -17.5, 6.5
+  ]
+}

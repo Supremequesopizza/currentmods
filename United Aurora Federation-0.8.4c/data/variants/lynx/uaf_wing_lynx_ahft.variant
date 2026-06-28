@@ -1,0 +1,39 @@
+{
+  "variantId": "uaf_wing_lynx_ahft",
+  "hullId": "uaf_wing_lynx",
+  "displayName": "Experimental",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "SAKURA_POD_LEFT": "uaf_missile_barrage_builtin",
+        "SAKURA_POD_RIGHT": "uaf_missile_barrage_builtin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_minibreve_tnt_s",
+        "WS0005": "uaf_minibreve_tnt_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_deco_mg",
+        "WS0009": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,860 @@
+2.0.8
+----------
+- Added hidden aptitude to skill_data.csv, removed handler in code.
+
+2.0.7
+----------
+- (Nerf) Alpha Pseudocore integration with Shared Knowledge active now reduces its cap from 15% -> 10%.
+- (Nerf) Weaker-design-compromises mastery: scalable effect reduced from 25% -> 15%.
+- (Buff) Venting-repairs-damaged-weapons mastery now also improves vent rate by 8%, this is scalable.
+- (Mostly buff) Hammer-burn-damage mastery: reduced burn from 30% -> 25%, additional hammer ammo 100% -> 75%, but it now scales with mastery strength.
+- (Buff) Missile-reload-on-kill mastery: damage reduction 25% -> 20%.
+- (Nerf) Regroup-replacement mastery: scalable effect 30% -> 25%.
+- (Nerf) Flux-hullmod-package mastery: scalable effect 12% -> 10%.
+- (Nerf) Empty-mounts-reduce-flux-generation mastery: per-mount reduction no longer scales, cap reduced from 20% -> 10% and now scales.
+- Fixed mastery bar lighting up when enhance is maxed.
+- Fixed Shared Knowledge skill reducing beam weapon flux per second.
+
+2.0.6
+----------
+- Fixed issue where custom entities that weren't actually gates, but could be warped to (RAT settlements, etc.), were treated as gates.
+- Fixed possible rare crash (of unknown cause) when fighting fleets with Warped and/or Crystalline Pseudocores.
+
+2.0.5
+----------
+- Reduced AI core installation costs.
+- Buffed/modified some AI core interface effects:
+    - Beta Core: changed effect from flux capacity/dissipation for d-mods/S-mods to effective armor/ECM rating.
+    - Alpha Core: buff increased from 1.1x to 1.12x.
+    - Omega Core (unobtainable, exists only for completeness): S-mod capacity +1 -> +2.
+    - Gamma Pseudocore: base CR increase 12% -> 10%, CR decrease per hullmod 2% -> 1%.
+    - Alpha Pseudocore: CR decrease 10% -> 8%.
+    - Warped Pseudocore: Bonus 12% -> 10%, CR decrease 8% -> 5%.
+    - Crystalline Pseudocore: Bonus 12% -> 10%, CR decrease 8% -> 5%.
+    - ... and another minor change to another core effect.
+- Slightly modified some stats.
+- No longer crashes if a modded faction lists nonexistent fighters/weapons/ships in its known entity lists.
+- Fixed issue where the engine-hullmod-package mastery wasn't correctly applying the top-speed effect when the conditions for the base effect were met.
+    - Reduced effect slightly.
+- Fixed Curator faction knowing hidden/hidden everywhere hullmods.
+- Entropy amplifier chaining/mobility masteries: no longer crash if used with a mod that replaces entropy amplifier with its own implementation, but still won't work with them.
+
+No new version, just re-download latest:
+- (5:08 PM EST 8/17/2025): Fixed a small bug with a specific NPC fleet.
+
+2.0.4
+----------
+- Fixed Analysis Package being installable despite already having 2 logistics hullmods installed.
+- (New game only) Exploration content generator now skips non-hidden modded systems without stars, except nebulae, to prevent issues with BaseThemeGenerator.
+
+2.0.3
+----------
+- Player-faction NPC fleets (patrols, etc.) no longer get S-mods. This is to prevent issues with stuff like special task groups and fleet detachments erroneously getting S-mods, since those ships can be returned to the player.
+- Fixed a possible crash of unknown origin if the fleet panel injector can't find the fleet panel buttons.
+- Fixed an issue where a skill that depended on a target's shield efficiency wasn't taking into account its shield damage taken stat.
+
+No new version, just re-download latest:
+- (2:30 AM EST 7/30/2025): Codex now unlocks unique AI core skills if you have them in your cargo when you open the cargo screen.
+- (2:48 AM EST 7/30/2025): Fixed issue with version files not being updated.
+
+2.0.2
+----------
+- Hotfix for issue introduced in 2.0.1 that would cause some interaction dialogs to show the wrong visual.
+
+2.0.1
+----------
+- Removed extraneous mastery-adder listener invocation.
+- Fixed issue with obfuscated FleetMember.getHullSpec call causing crashes on non-Windows systems.
+- Fixed issue where some fleets (those without inflaters) would not show their S-mods added by this mod in the fleet preview.
+- Added error message if AI Core interface plugin doesn't implement the correct Java interface.
+
+2.0.0
+----------
+
+*** NOT SAVE COMPATIBLE WITH PREVIOUS VERSIONS ***
+
+- Added mastery "unlocks," universal features that can be accessed by reaching a certain mastery level.
+    - Added "Selective Restoration" that allows removal of specific d-mods, costing between 20%-100% of a standard restoration depending on number of d-mods removed.
+    - Removed "Clear S-mods", added "Hull Reversion" feature that allows removal of specific S-mods, however this feature costs money now.
+    - Added "AI Core Integration" feature that allows integrating a AI core (including Pseudocores) into a ship to gain a small bonus depending on the type of core used.
+    - Removed "Create Construct", added "Knowledge Forge" that reduces MP gained and passively generates "blank" constructs that can be used on any ship class.
+    - Ship-specific features can have their cost reduced by 90% by spending a story point.
+- Removed skill changes.
+- Reduced maximum mastery level to 7, removed the 3rd S-mod slot (along with the +30% mastery boost other option).
+- No longer sets Misc.MAX_PERMA_MODS (equiv. "maxPermanentHullmods" in settings) to 0.
+    - Mastery handler hullmod now reduces build-in limit by MAX_PERMA_MODS.
+    - The default S-mod capacity masteries now each grant half of MAX_PERMA_MODS capacity.
+- Removed the randomness from MP gain, changed MP gain and cost scaling.
+- Added Nexerelin backgrounds:w
+    - Hull Tinkerer: detaches S-mods from the mastery system, allowing you to build in S-mods without mastery
+    - Enlightened: Unlock by completing the achievement "Full House"
+    - Reject Humanity: Unlock by completing the achievement "The Pseudocore Connection, Part 1"
+- Added "Mastery Aliases" (mastery_aliases.json):
+    - Use this to make different hulls (such as skins) have the same mastery pool.
+    - This is empty, and it is up to the user (or modder, if they wish) to fill.
+- Renamed MP to mastery XP (in-game only), still referred to as MP internally.
+- Building in hullmods no longer costs MP.
+- Removed some settings.
+- Added a setting to display locked mastery effects.
+- Updated refit screen visual UI.
+    - No longer shows MP and level text, now shows a progress bar with mastery info.
+- Added progress bar with mastery info to ships in the fleet screen.
+- Added custom level up prompt allowing selection of a perk for a given level.
+    - Can be accessed from the fleet screen by clicking on the flashing progress bar.
+- MasteryEffect.getDescription, MasteryEffect.addPostDescriptionSection, MasteryEffect.addTooltipIfHasTooltipTag:
+    - Changed ShipAPI parameter to ShipVariantAPI parameter.
+    - This should make it substantially easier to actually call the methods, including outside the refit screen where a ShipAPI instance isn't readily available.
+    - Has some small side effects, such as adjusted effect ranges due to ship system range stat no longer showing.
+- Shared Knowledge:
+    - Elite effect moved to standard effect and modified slightly.
+    - New elite effect now gives a dynamic fire rate boost.
+- Engineering override:
+    - No longer reduces CR per S-mod installed.
+    - Cost reduction 75% -> 50%.
+    - Start with the hullmod spec in your cargo rather than unlocked, to better indicate that it exists as an option.
+- Overall mastery balancing:
+    - Increased the effectiveness of many mastery effects to compensate for the reduced default count, and losing 3rd S-mod slot + building in Phase Anchor/etc.
+- Fixed issue where random mastery selection could duplicate fixed mastery effects even if they were labeled as unique.
+- Pseudocore-piloted automated ships now follow captain personality rather than automated reckless ShipAIConfig override.
+- Made the default color for mastery stuff a little brighter.
+- Reactive-fortress-shield: Increased range.
+- HEF-shield-efficiency: Fixed crash issue with shieldless submodules/shield shunt.
+- Phase-cloak-cooldown: Tier 1 -> tier 2.
+- A bunch of logistics stats (cargo capacity, fuel capacity, etc.): Tier 1 -> tier 2.
+- Damage-taken-nearby-enemies effects: range is now fixed and dependent on the ship's hull size.
+- Orion-device-damage, nova-burst-damage: added precautions/modified implementation to accommodate modded ships with custom "pusher-plate" implementations.
+- Fixed issue where an item could eat AI cores under certain circumstances.
+- Many other changes not listed.
+
+1.1.15
+----------
+- Halved the HP bonus mastery effect of dwellers (5% per level to 2.5% per level).
+    - Effective armor bonus of 10 per level unchanged.
+- Halved the DP reduction mastery effect of threat (5% per level to 2.5% per level).
+- Modified/clarified a mastery description.
+- Lowered the drop rate of fractured gamma cores.
+- MP gain handler will now attempt to read the "xpGained" field of the FleetEncounterContextPlugin in order to determine the amount of XP that was gained for a battle.
+    - If this fails, it will then fall back to the custom computed XP gain.
+- Fixed an issue where gamma Pseudocores were missing a skill.
+
+1.1.14
+----------
+- Removed the <???> prefix from ships.
+- Slightly modified some text.
+- Fixed an issue where auto-pursuit was giving MP to civilian instead of combat ships.
+
+1.1.13
+----------
+- Player ship graveyards will now retain AI core captains under certain conditions:
+    - The AI core was integrated, and you didn't recover any ships.
+    - You recovered any ship (only if you don't recover any ship do non-integrated AI cores drop as cargo).
+    - The "recovered any ship" condition is a vanilla bug, and will be removed when the bug is fixed in a vanilla release.
+- Choosing to salvage instead of recover a ship in a player graveyard with an AI core will spawn the core as loot.
+    - This occurs even if the core was integrated, similar to if the ship was scuttled from your fleet.
+- (New game only, not essential) Removed remnant tags from a system so it doesn't get selected by the historian.
+- (New game only, not essential) A pair of binary stars no longer orbits each other quite so fast.
+- Diversified ??? ship composition further and added safeguards against modded ships with abnormally high FP (Moar XIV) monopolizing the composition.
+- Fixed issue where S-mod autofit option wasn't checking for required items.
+- Fixed issue where a skill and a mastery effect weren't properly applying to modules.
+- Fixed issue where flagship tracker's EndOfCombat listener wasn't properly triggering.
+- Semi-fixed an issue where concealed station defenders would start with below max CR.
+    - They are occasionally *still* below max CR, but now it's only ~1% and due to an unknown reason, previously was due to crew training threshold changing when officer skills reduced DP.
+
+1.1.12
+----------
+- Removed knowledge constructs from techmining_first_find (they were diluting the pool).
+- Orion-device-deals-damage: no longer flagship only.
+- Engine-repairs-on-plasma-burn: no longer flagship only.
+    - Reduced repair rate to 4x (previously: 10x).
+- Maneuvering-jets-extreme-mobility: no longer flagship only.
+    - Reduced effect to 2.5x base (previously: 10x).
+- Phase cloak cooldown and speed while phased stats: tier 1 -> tier 2
+
+No new version, just re-download latest:
+- (1:43 PM EST 6/10/2025): Updated NPC mastery selection to account for above changes.
+
+1.1.11
+----------
+- Analysis Package hullmod spec is now guaranteed on your second concealed probe salvaged (previously: was guaranteed on fifth).
+- MP handler now re-calculates XP gain from battles instead of reading from player stats.
+    - This should fix an *extremely rare* issue where gaining an exact multiple of 4000000 XP wouldn't award any MP.
+    - Issue still exists for non-combat MP gain, but gaining that much XP from something that isn't a battle is essentially impossible.
+- Combat MP gain now scales non-linearly up to 12 unique ship types deployed (previously: maxed out at 8).
+- Doubled required time deployed in combat to cap MP gain weight from 60 seconds to 120 seconds.
+    - Note: this doesn't affect total MP gained, it only decreases the chances for a ship that was deployed for less than 120 seconds to gain MP instead of a ship that was deployed for the full 120 seconds.
+- Reduced civilian MP gain ramp-up.
+- Changed a rare hullmod from affecting damage dealt/taken to affecting flux stats to make it less similar to another rare hullmod.
+- Increased variety of ships in a defender fleet.
+- Reduced maximum possible FP of a couple of defender fleets, removed Best of the Best from the commander of a defender fleet.
+- Added another effect (drawback) to a rare hullmod, won't apply retroactively.
+- Fixed an issue where a part of a rare hullmod's effect wasn't reflected in the refit screen.
+- Fixed an issue where a fleet wasn't being seeded properly.
+
+1.1.10
+----------
+- Mastery levels now modify fleet member strength for autoresolve, if using the vanilla battle autoresolver.
+    - Multiplies member strength by (1 + 0.035 * mastery level), up to a maximum of x1.35.
+- Phase-cloak-residue mastery:
+    - Now only partially negates experimental coils (previously: fully negated it).
+    - Removed increased activation cost, instead multiplies upkeep by 1.25.
+- Increased Pseudocore base auto-points multiplier back to original values (2.5x, 3.5x, 4.5x).
+    - They still scale with deployment points.
+- Nerfed the effect of a rare d-mod (it now also scales with hull size).
+- Salvaging concealed stations now makes ??? hostile (they should always be hostile, but Nexerelin will make them non-hostile).
+- Reduced combat XP-per-MP ramp up from 10 to 8.
+- Fixed an issue where the elite part of a skill description would be highlighted even if not active.
+- (Hopefully) Fixed an issue where OP-affecting masteries sometimes wouldn't apply until the variant was refreshed in the refit screen.
+
+1.1.9
+----------
+- Phase-cloak-residue mastery: greatly reduced damage reduction while the effect is active.
+- Hull-threshold-DR mastery: reduced base duration to 2.5 seconds.
+- Nerfed most damage reduction masteries.
+- Nerfed many stat effects.
+
+1.1.8
+----------
+- Exceeding a ship's OP no longer forcibly removes caps/vents, it now assesses a CR penalty (player ships only).
+    - Can be adjusted or disabled in the settings to support mods that enable exceeding max OP as a feature.
+- Fixes/changes to account for stealth patches in 0.98 regarding removing wings to cargo when a ship's fighter bay count decreases.
+
+No new version, just re-download latest:
+- (3:02 PM EST 6/1/2025): Fixed issue where fleet handler could build in NO_BUILD_IN hullmods.
+- (5:50 PM EST 6/1/2025): Placed a soft cap on civilian MP gain per action, shouldn't affect much other thain raiding.
+- (5:50 PM EST 6/1/2025): Constructs per SP now starts at 10, caps at 40, increases by 1 each time you gain an SP from creating constructs.
+
+1.1.7
+----------
+- Reduced alpha Pseudocore drop rate by ~25%.
+- Slightly modified a battle.
+- Fixed issue with slowdown in a particular fight with if the opposing fleet contained a certain RAT Exotech ship.
+- Fixed issue where a certain skill clashed with Phase Anchor (it now takes precedence).
+- Fixed issue with a defender fleet that was introduced in a previous patch.
+- Fixed issue with a hullmod and a skill not affecting modules properly.
+
+No new version, just re-download latest:
+- (12:05 AM EST 6/1/2025): Increased constructs per SP from 15 to 20.
+- (12:20 AM EST 6/1/2025): Reduced overall bonus XP from enhancing.
+
+1.1.6
+----------
+- [REDACTED] now scales off unspent mastery points rather than enhance level. Removed the cap.
+- Fixed an issue related to unremovable officers on crewed ships.
+
+No new version, just re-download latest:
+- (2:13 PM EST 5/30/2025): Increased scaling MP cost of building in hullmods.
+- (2:13 PM EST 5/30/2025): Slightly increased MP cost of enhancing.
+
+1.1.5
+----------
+- Pseudocore automated points multiplier is now based on the ship's unmodified DP cost and will scale accordingly (in both directions).
+    - Reduced base multipliers to 2 for gamma, 3 for beta, and 4 for alpha.
+- Reduced pseudocore unique skill base effect by half if not on an AI core.
+- Modified another skill.
+- HF motes mastery no longer gets chosen for NPC fleets (it's just a nerf if they already have the HF motes).
+- Slightly increased an effect duration.
+- Added back the MP catch-up mechanic, with the caveat that reduced selection weight for MP gain due to having lots of MP is lower-bounded to 0.5, and greatly reduced its effect.
+- Achievements now only unlock when the game is unpaused.
+- Increased the price of an AI core.
+- Fixed an issue where destroying ??? fleets and recovering their ships wouldn't remove the NPC version of their hullmod.
+- Fixed issue with portrait not loading.
+
+1.1.4
+----------
+- Removed the MP "catch-up" mechanic for hulls with comparatively low MP (you already gain MP fast enough now + there are ways to increase MP gain).
+- Changed Pseudocore AI multipliers: (fractured 1.5x -> 1.33x, gamma 2.5x -> 2.2x, beta 3.5x -> 3.3x, alpha 4.5x -> 4.4x).
+    - DP reduction was disproportionately favoring alphas previously.
+- Nerfed Pseudocore DP reduction in NPC fleets from 20% -> 15%.
+- Nerfed damage reduction under a certain condition from 50% to 25%.
+- Further nerfed a late-game fight (lowered officer levels, lowered number of ships).
+
+No new version, just re-download latest:
+- (12:00 PM EST 5/29/2025): Preemptive crash-prevention check added in case a ship's getSpriteAPI is null (should never happen).
+- (12:00 PM EST 5/29/2025): Slightly modified a battle and a fleet.
+
+1.1.3
+----------
+- Replaced ReflectionUtils "setOpacity" with setOpacity calls (added in 0.98).
+- Fixed an issue with an achievement completing when it shouldn't.
+
+1.1.2
+----------
+- Fixed a possible crash if a ship has a mastery effect for a system that it doesn't have (if a mod changes/removes a ship's system on-the-fly, etc.)
+- Adjusted a mastery effect to have nicer numbers.
+
+1.1.1
+----------
+- Added a setting to modify or remove the scaling reroll MP cost.
+
+No new version, just re-download latest:
+- (4:20 PM EST 5/26/2025): Civilian MP gain now scales with number of civilian ship types in your fleet, up to a maximum of 5.
+- (8:28 PM EST 5/26/2025): Slightly reduced MP gain from large battles, adjusted achievement from 300 MP to 250 MP.
+- (8:48 PM EST 5/26/2025): Constructs per SP 10 -> 15.
+- (10:27 PM EST 5/26/2025): Analysis package bonus has been capped to 100% (sorry), increased MP needed for achievement to 333.
+
+1.1.0
+----------
+Save-compatible, now requires MagicLib.
+
+- Added achievements.
+- (New game only, not essential) Added concealed probe to Tia.
+- (New game only, not essential) Added concealed probe to Penelope's Star.
+- Increased MP level-up cost scaling.
+- Increased regenerate and enhance MP cost.
+- Regenerate MP cost now increases each time you use it (per hull spec).
+- Significantly increased early-game MP gain.
+- Generally increased MP gain.
+- Significantly increased civilian MP gain.
+- Reduced price of knowledge constructs from 20000-60000 to 10000-30000.
+- Increased knowledge construct drops from concealed stations.
+- Decreased the no-bonus-XP threshold when using story points to build in hullmods from 250000 to 200000 credits.
+    - Enhancing still always gives 100% bonus XP when using a story point.
+- MP gain now scales less linearly with number of unique ship types deployed, up to 1.5x at 8 or more.
+- MP gain weight multiplier from deploying multiple of the same ship: lowered cap from 2x to 1.5x.
+- Ships that don't lose peak time from battle for whatever reason can now gain MP.
+- Removed the bonus MP that civilian ships get when deployed in battle.
+- Default progression settings 2000 MP -> 3000 MP.
+- Building in S-mods now costs more MP.
+- Adjusted a sprite.
+- Fixed issue with text alignment with hull specs with long names.
+- Fixed issue where pursuit gave 2x the MP as intended, penalty reduced to 40%.
+- Fixed a typo in an intel description.
+
+1.0.7
+----------
+- For concealed station fights, you may now deploy 240 DP worth of ships (+20% temporary deployment bonus as percentage of battle size) regardless of officer distribution.
+    - Previously was basically impossible to deploy more than 160 DP in later concealed station fights.
+- Updated screenshots and README.
+- Slightly darkened/cleaned up a sprite.
+
+No new version, just re-download latest:
+- (8:55 PM EST 5/22/2025): Non-autoresolve combat MP is now x1.2 if 5 unique ship types deployed, x1.4 if 6 or more unique ship types deployed.
+- (9:30 AM EST 5/23/2025): Salvage rig now gets generic max-level masteries.
+- (12:55 PM EST 5/23/2025): Auto pursuit MP penalty 60% -> 75%.
+- (4:55 PM EST 5/23/2025): Fixed a typo in a hullmod description.
+
+1.0.6
+----------
+- Custom AI cores no longer show up when selecting AI cores for industries.
+- Adjusted a few sprites.
+- Peak CR stat base effect 0.3 -> 0.2.
+- Fixed issue with and modified a defender fleet.
+- Fixed issue with certain skill applying to modules.
+- Fixed issue with certain skill using fleet member's CR rather than ship's CR.
+
+No new version, just re-download latest:
+- (7:45 PM EST 5/20/2025): Fixed issue with analysis package causing crash in main menu missions.
+- (1:45 AM EST 5/21/2025): Reduced initial XP required for combat MP gain by ~33%.
+- (1:45 AM EST 5/21/2025): Auto-pursuit XP penalty 50% -> 60%.
+
+1.0.5
+----------
+Note: mastery effect weighting has been changed. After updating, your ships' mastery selections may be slightly modified.
+
+- Reduced base effectiveness of kill-streak mastery:
+    - 5% increase for equal-DP-ship-kill -> 2.5%
+    - 10% maximum damage increase -> 7.5%
+- Adjusted reduced-DP-if-only-ship-in-fleet mastery:
+    - Now is only affected by mastery strength modifiers at 50% rate.
+    - E.g. if base reduction is 10%, and your mastery strength boost is at +100%, modified reduction is 15% (previously: 20%).
+- Added back d-mod effect reduction mastery.
+- Increased chance of rolling stat-modifier mastery effects.
+- Nav relay, ECM package, Operations Center masteries:
+    - Decreased tier from 4 to 3.
+    - Reduced selection weight.
+- CR-doesn't-degrade-past-threshold mastery:
+    - Safety overrides now negates the entire effect.
+- Post-inflation S-mod adder now strongly prefers building in existing hullmods, to lower the chance of triggering magic incompatibilities, etc.
+    - Not feasible to check for incompatibilities beforehand as that is done on the ship level, not the variant level.
+- Custom d-mods now respect DMOD_EFFECT_MULT.
+- Adjusted a defender fleet.
+- Adjusted a couple of skills.
+- Reduced MP multiplier for civilian ships deployed in non-autoresolve combat from 3x to 2x.
+- Concealed stations no longer stop in-game music when interacted with.
+- Fixed issue with d-mod acquisition seed.
+- Fixed issue with certain d-mod not taking beam damage into account properly.
+
+1.0.4
+----------
+- Adjusted a few hullmods
+- Fixed an issue with a hullmod where every kill was being counted as 100 kills
+
+1.0.3
+----------
+- Fixed a bug/oversight that caused unvaried fleets to gain more MP than intended.
+    - Removed the XP requirement per MP penalty/buff depending on number of unique ship types deployed.
+    - Deploying fewer than 4 ship types in a battle now incurs an MP gain penalty of 75% if you deploy a monofleet, 50% if you deploy only 2 ship types, and 25% if you only deploy 3 ship types.
+- The first 4 MP gained from each (non-autoresolve) battle now have XP required multipliers of 0.2, 0.4, 0.6, and 0.8.
+    - Makes gaining MP in the early game easier while not affecting late-game MP economy too much.
+- The first 2 MP gained for civilian ships from miscellaneous actions (trade, discovery, etc.) now have XP required multipliers of 1/3 and 2/3.
+- Civilian ships deployed in non-autoresolve combat situations now gain 3x the MP.
+- Decreased the additional weight duplicate ships gain when considering which ships to give MP to.
+- Adjusted a sprite.
+- Fixed incorrect mod_info.json version number.
+
+1.0.2
+----------
+- Fixed even more issues with FleetMember.getHullSpec (not Mac/Linux exclusive, could also be due to different versions/RC versions of the base game)
+
+1.0.1
+----------
+- Fixed crash on Linux/Mac related to FleetMember.getHullSpec.
+- Slightly modified a couple of defender fleets.
+
+1.0.0
+----------
+
+*** NOT SAVE COMPATIBLE WITH PREVIOUS VERSIONS ***
+*** ADDITIONALLY, SOME IDS HAVE BEEN RENAMED, IN PARTICULAR, HULLMOD IDS CHANGED FROM CAMEL CASE TO SNAKE CASE ***
+*** e.g. sms_masteryHandler is now sms_mastery_handler ***
+
+- Framework now supports more than 2 options per mastery level.
+- The presets for levels 1, 2, 4, 5, 7, and 9 now have 3 options each.
+    - Fixed max-level assignments still only have 2 options each.
+- Added the option to use SP when building in hullmods. In exchange, the MP cost is reduced to 0 and credits cost is reduced by 90%.
+    - Bonus XP is awarded based on the amount of credits saved, with no bonus XP if you saved 250,000 or more credits.
+    - When using SP in this manner, you may always build in at least 1 S-mod (3 with engineering override) regardless of the ship's current capacity.
+- Creating (not consuming) knowledge constructs now grants 1 SP per 10 constructs.
+    - You need a ship of the specified type in your fleet to create constructs for it, so this makes not as strong as it seems for concealed station loot (which gives lots of random constructs).
+    - This value is saved and shared across all constructs, so e.g. making 1 construct of a type and then making 9 of a different type later will grant an SP.
+- Added a faction difficulty setting to increase mastery strength on NPC fleets, to compensate for the player's ability to enhance mastery bonuses.
+- Added 7 mastery effects.
+- Added MasteryEffect.getNPCWeight(FleetMemberAPI):float.
+    - Weights are used to pick masteries for NPC fleets when multiple options exist, so they no longer stupidly just pick a random one.
+- Added a substantial amount of exploration content related to concealed stations and knowledge constructs.
+    - Modified existing exploration content, too many changes to list.
+- Added ability for a single hull spec to have multiple presets:
+    - If a "preset" string or array is given in the assignment, then only the presets provided are used.
+        - They are processed in the order they are declared, so if multiple presets have conflicting entries, the earliest one wins.
+    - If no "preset" string or array is given, then all presets with a "presetCheckScript" field are checked for eligibility.
+        - All eligible presets (those with computeScore(spec) > 0) are used, in order of descending score.
+        - If no preset is eligible, then "_DEFAULT_" is used.
+- UI modifications:
+    - Made the mastery dialog box bigger (again).
+    - Increased padding between levels in mastery display and added level headers.
+    - Added a row of buttons to quickly navigate between levels in the mastery display.
+        - Large buttons: up to 12 levels.
+        - Small buttons: up to 50 levels.
+    - Added shortcuts to scroll between levels:
+        - up key, or scroll up outside the description box: scroll to previous level.
+        - down key, or scroll down outside the description box: scroll to next level.
+        - 1-9: scroll to levels 1-9 (if they exist).
+        - 0: scroll to level 10 (if it exists).
+        - Note: 1, 2, were previously hotkeys to access the S-mod and mastery tabs, respectively; you can now cycle through them with Q.
+    - Additional shortcuts:
+        - space, G: confirm mastery changes
+        - escape: cancel mastery changes
+    - Advancing mastery level no longer has a confirmation.
+- Mastery effect changes:
+    - Civilian ships can now roll armor, hull, and top speed stat masteries.
+    - Decreased the probability that the same random stat mastery will be chosen within the same level.
+    - Lowered the tier of some stat masteries, allowing them to appear at lower levels.
+    - Removed back-armor-boost mastery (except random mode).
+    - Removed range-if-not-moving mastery (except random mode).
+    - Additional-S-mods-for-DP mastery has been full deprecated (no longer shows up even in random mode)
+    - Slightly nerfed most logistics mastery bonuses.
+    - Armor-repair-over-time:
+        - Increased base effectiveness.
+        - Clarified that repair per second scales with missing armor, e.g. if an armor cell has 1400/1500 armor then the repair amount is a fraction of 100 armor.
+        - Can no longer be randomly selected on phase ships.
+    - Phased-armor-repair-over-time:
+        - Slightly increased base effectiveness.
+        - No longer increases phase upkeep, instead reduces phased timeflow by 25%.
+    - Engine-hullmod-package:
+        - Now also increases top speed by an additional 10/8/6/5.
+        - This effect applies regardless of whether the hullmod requirements are met.
+    - Ammo-hullmod-package:
+        - Now also increases ammo regeneration by 60% of the max ammo bonus.
+        - Now increases ammo by a flat 25% if the hullmod requirements aren't met.
+    - Armor-hullmod-package:
+        - Now increases armor by a flat 8% if the hullmod requirements aren't met.
+    - Fighter-hullmod-package:
+        - Now also reduces replacement rate degradation by the same amount.
+        - If hullmod requirements aren't met, reduces replacement rate degradation by 10%.
+    - Flux-hullmod-package:
+        - If hullmod requirements aren't met, increase capacity and dissipation by 4%.
+    - Hull-hullmod-package:
+        - If hullmod requirements aren't met, reduces hull/armor damage taken by 4%.
+    - Shield-hullmod-package:
+        - Increased base reduction to 10%.
+        - If hullmod requirements aren't met, reduces shield damage taken by 5%.
+    - Built-in-neural-integrator:
+        - Removed hidden CR bonus.
+    - No-CR-degradation-below-threshold:
+        - Phase ships are no longer eligible.
+        - Ships with built-in SO are no longer eligible.
+    - Apply-officer-effect:
+        - Added additional checks for Support Doctrine.
+- Best of the Best: nerfed mastery bonus from 30% to 25%.
+- Cybernetic Augmentation: can no longer be adjusted directly from lunalib settings, but may still be adjusted from shipmastery_settings.json.
+- Enhancing:
+    - You no longer get an extra logistics S-mod slot on the third enhance (sorry).
+    - Reduced enhance MP cost.
+    - Each enhance now grants a 5% mastery effect boost.
+    - Enhancing now grants some bonus XP.
+- Knowledge constructs no longer randomly generate for ship hull specs with the RESTRICTED tag.
+- Knowledge constructs no longer randomly generate for ship hull specs that are locked in the codex.
+- Screenshots in the README now link to online images; screenshots no longer packaged in releases.
+- Fixed a rare possible issue with the Orion-Device-deals-damage mastery.
+- Fixed plasma-burn-giving-energy-RoF mastery only applying to the flagship despite not having that tag.
+- Fixed fighter-count-DR mastery incorrectly looking for ship system icon, which could cause a crash.
+- Added a failsafe for null FleetDataAPI.
+
+0.14.2
+---------
+- MP is no longer gained from mothballed ships.
+- Fleet processor no longer repairs NPC fleets after assigning and activating their masteries.
+    - If they select a mastery effect that increases their max CR, the difference is added to the ship's current CR.
+    - This has a potential side effect of showing the CR bar even though it's full (e.g. 85%/85%), I have no idea why this happens.
+- Replaced many usages of engine.getCheckIterator and engine.getProjectiles with an implementation that should be more robust.
+    - Previously, projectiles in a certain radius of the firing ship were checked every frame, but this could miss certain projectiles if, e.g., combat time was sped up using the SpeedUp mod.
+    - Note: this has a side effect with the DEM-boost mastery that the regen won't start happening for a weapon until a DEM is actually fired from it.
+        - For hydra, this means that a hydra MIRV needs to split before the regen will kick in.
+        - (This behavior is due to a hard-coded check specifically for hydra being removed.)
+- Torpedo-tracking mastery:
+    - Changed to apply to all unguided missiles with at least 500 base damage, as long as they have the default rocket AI (RocketAI in base game).
+        - Won't work for modded, unguided missiles that don't use RocketAI (if, for example, they have additional behavior that requires a custom AI).
+    - Removed the 100% additional ammo.
+    - Base missile HP increase 25% -> 40%.
+- Removed the automated-CR-doesn't-depend-on-DP mastery.
+    - Replaced with mastery effect that sets maximum CR to 40% if it was originally below that.
+    - Should no longer be incompatible with, e.g., Second in Command.
+    - Still only appears on automated ships (since it would be pretty useless on crewed ships).
+- Remnant ships no longer get "allow building-in Neural Integrator" as (part of) a mastery option, as this was added in vanilla.
+- Range-if-no-nearby-enemies: base bonus 15% -> 10%, increased range at which mastery triggers, increased decay rate.
+- Quantum-disruptor-duration mastery: reduced base cooldown reduction from 15% -> 10%.
+- Clarified officer skill mastery description.
+- Fixed issue with decoy-flare-boost mastery that allowed it to affect decoy flares of other ships.
+
+0.14.1
+---------
+- Fixed a crash related to FireAll DialogOptionSelected (never happens in vanilla or basically any mod, but SiC uses this for some reason).
+- Removed the reduced D-mod effect mastery as it didn't work on most d-mods due to hullmod ordering issues.
+- Adjusted a mastery description.
+
+0.14.0
+---------
+Note: Mastery weights have been changed across the board. Updating is likely to rearrange mastery effects for your existing ships.
+
+- [REDACTED]-mk1: Added max-level masteries.
+- Added custom NPC-focused "mastery" effects for new [REDACTED]:
+    - Gray [REDACTED]: max level 10, each level reduces deployment points cost by 5%.
+        - This only applies to ships in the starting fleet, and not to any ships that were generated during the fight, so it's less imposing than it seems.
+    - Red [REDACTED]: max level 10, each level increases HP by 5% and effective armor (for hit strength calculation only) by a flat 10.
+        - Note: red [REDACTED] start with an effective armor bonus of 50 in vanilla.
+    - Note that enabling random mode will override these custom masteries, in which case the aforementioned ships will just use the same randomly-generated mastery preset as every other ship hull type.
+- Greatly streamlined the difficulty system. Most of the settings that existed previously have now been made faction-specific, modifiable in faction_difficulty.csv.
+    - Mastery levels are now assigned with a normal distribution around a given average and standard deviation, which varies based on faction.
+    - Factions not in faction_difficulty.csv, including modded factions, use the <default> settings.
+    - The difficulty slider now only modifies the average mastery level found in every fleet.
+    - The previous progression setting increased *every* difficulty setting linearly over a period of time t, but since each slider was its own dimension of difficulty, the actual difficulty progression was more like t^5 (since there were 5 sliders).
+    - New difficulty progression should scale linearly with time.
+    - The formula for average mastery level in an NPC fleet is: 1/3*commanderLevel + factionDifficultyBonus + progressionBonus.
+- Increased the types of NPC fleets that can have mastery effects.
+    - Now can affect stations, fleets without an inflater, and fleets generated on the fly during an interaction.
+    - Note that if the fleet doesn't have an inflater (gray and red [REDACTED]), has an inflater not compatible with DefaultFleetInflater, is explicitly tagged NO_AUTOFIT (omega ships), or has no base OP (station bases), then the fleet handler will not attempt to add S-mods or make up for excess OP as the result of mastery effects.
+    - Modules of ships and stations can now have S-mods added to them if applicable.
+- Added missile OP cost reduction mastery.
+- Adjusted default difficulty and progression settings (2500 MP -> 2000 MP to max difficulty).
+- Modified the selection weights of almost every mastery. In general: mastery effects that were deprioritized before are now even more deprioritized.
+    - Should result in fewer "useless" masteries showing up (though they still do have positive weight, and so can still show up occasionally).
+- The "apply an officer skill" mastery will now grant the elite version of the skill if the skill's captain already has the non-elite version.
+    - Doesn't work with Support Doctrine; ships must be officered for the elite effect to be granted.
+- Increased-range-if-no-other-bonuses mastery: made the numbers nicer (now 5%, 8%, 15%, 25% depending on ship size).
+- Empty-mounts-reduce-weapon-flux mastery: hard cap text is now the standard text color as it doesn't scale with mastery strength.
+- Some references to "ships" renamed to "this ship".
+- Fixed a bug where an officer skill could get applied twice if once was from a mastery and the second was from Support Doctrine.
+- Fixed a bug where officer skill masteries only applied "before ship creation" effects.
+- Replaced usages of the (deprecated in Java 17) Class.newInstance method.
+
+0.13.1
+---------
+- Hotfix for a savefile-affecting issue related to the player ship graveyard.
+
+0.13.0
+----------
+- Recompiled for Java 17.
+- Updated to game version 0.98a.
+- Hid mastery-related hullmods from codex (except for Extradimensional Rearrangement, which is unlocked when receiving it).
+- Changed the hard-coded level-9 masteries in mastery_assignments.json to max-level, whatever that max level happens to be.
+- Added tentative max-level masteries for Anubis (subject to change).
+
+0.12.4
+----------
+- Fixed issue with particles if a ship's sprite's alphaMult was set to be greater than 1.
+- Added no_auto_activate tag to "ignore no build-in" mastery (this only appears and therefore is only relevant in random mode).
+
+0.12.3
+----------
+- Fixed issue with mastery effects getting un-applied after replaying a battle.
+- Fixed solo replay not creating a battle instance, which could cause crashes with modded battle creation contexts.
+- Temporary encounter dialog created for recent battles now copies the existing "core UI", increasing robustness and compatibility with mods that don't use null checks.
+- Fixed latent crash issue with flagship tracker that was only being triggered by FSF (no version update, re-download latest version if you're still encountering this).
+- Added missing comma in settings json (no version update, re-download latest version if you're still encountering this).
+
+0.12.2
+----------
+- Fixed potential loading crash issue where persistent data hadn't been loaded yet.
+
+0.12.1
+----------
+- Masteries that require a ship to earn the "kill credit" for a target are now more lenient
+    - As long as a ship damaged a target within 1 second of its destruction, it counts as a kill for the ship.
+    - Doesn't apply to the terminator drone mastery, as that requires the drone to deal the killing blow.
+- Added NPC indicator hullmods up to mastery level 15.
+    - NPC fleets with mastery levels greater than or equal to 15 will show "Level 15+", as was the case before with levels greater than or equal to 9.
+- No longer generates masteries for *all* hull specs on game load, now uses a lazy approach where masteries are only generated as necessary.
+    - Should substantially improve performance for games with a lot of hull specs and/or games where the maximum level has been configured higher than default.
+- No longer generates non-random masteries first in order to preserve input order in configurations with multiple masteries in a level
+    - Unwanted duplicates should be handled in RandomMastery by checking generators.
+- Mastery effect that grants damage reduction for nearby owned fighters no longer affects modules.
+- Mastery effects that boost performance based on flux level are no longer in effect if the ship is overloaded or venting.
+- Improved performance by caching Utils.getRestoredHullSpec results.
+- Adjusted reroll confirmation dialog to better accommodate for custom configs with lots of mastery levels.
+- Fixed possible memory leak related to recent-battles tracker.
+- Fixed rare crash with missile boost masteries where weapon.getSprite() could be null.
+- Fixed issue with non-combat and auto-pursuit XP not taking number of ships of the same type into account.
+
+0.12.0
+----------
+If added to an existing save, prepare for your mastery effects to be completely rearranged and changed:
+    Mastery level structure has been changed.
+    Mastery weights have been modified and new mastery effects have been added.
+    Reroll mechanic has been modified slightly.
+
+- Added the "Engineering Override" hullmod, which increases S-mod capacity by 2 but prevents the ship from benefiting from mastery effects.
+    - Also reduces MP cost of building in and enhancing to 0 and reduces credits cost by 75%.
+    - Reduces max CR by 5% per S-mod and becomes permanent if you build something in with it enabled.
+- Added new mastery effects:
+    - Increased energy damage by up to 10% depending on flux level.
+    - Increased missile rate of fire and ammo regen by up to 10% depending on flux level.
+    - Increased speed, flux dissipation, and weapon rate of fire by 5% when at full hitpoints.
+    - Improved ship system recharge and regeneration rate by 10% (stat effect).
+- Moved S-mod capacity masteries from levels 2 and 5 to levels 3 and 6, as Engineering Override provides an alternative to getting S-mods immediately and cheaply.
+- Level 1 mastery now gives a choice between two options.
+- Now shows some warning text if you leave one or more available levels for a hull type unassigned.
+- Merged multiplicative stat boosts and flat stat boosts into a single mastery effect class when randomly generating.
+    - Previously they were separate, and since there were far fewer flat boosts (e.g. max burn, max CR), they would end up getting selected disproportionately.
+- When regenerating "varying" (those with additional parameters) effects into the same effect, will now avoid picking the same additional parameters.
+    - E.g. it's significantly less likely to reroll into the same stat boost as before.
+- When generating mastery effects, all non-random effects are now generated first, followed by all random effects.
+- Randomly generated effects now also avoid repeating the same effect, even if it's not marked as "unique".
+    - Removed unique tag from some mastery effects that should theoretically be stackable.
+- Downgraded some masteries from tier 3 (levels 6-7) to tier 2 (levels 3-4).
+- Mastery effect that increases PPT per additional ship of the same type now no longer generates for capitals ships or those with >=40 DP.
+- D-mod acquisition probability and effect reduction masteries are no longer limited to combat ships (but are still less common on civilian ships).
+- Nerfed hard-flux dissipation for plasma jets mastery by 50%.
+- Nerfed ballistic-fire-rate-based-on-hull-level mastery from 15% to 12.5%.
+- Shield hullmod mastery effect now reduces shield upkeep by 50% rather than negating it entirely. Also nerfed damage reduction by 25%.
+- Increased decay rate of increased range if not moving/no nearby enemies masteries by 25%.
+- Miscellaneous stat mastery changes.
+- Split MP_GAIN_MULTIPLIER setting into combat and civilian sub-settings.
+- Bonus logistics S-mod check now properly uses HullMods.TAG_UI_LOGISTICS.
+- Build-in list now shows ship-specific hullmod tooltips.
+- Fixed potential issue with station modules not receiving the +3 enhance bonus.
+- Fixed issue where logistics hullmods that couldn't be built in would still be highlighted green when earning the additional logistics S-mod from enhancing.
+- Fixed issue with autofit S-mod plugin not saving the variant when it needed to and, conversely, saving the variant unnecessarily.
+    - Now, variant will be saved (preventing undo) if and only if S-mods were added, both with this mod's main features enabled and disabled.
+- Fixed issue where code in static blocks could be called too early, when e.g. Global.getSettings().getAllShipHullSpecs() could return an empty list.
+
+0.11.5
+----------
+Reroll mechanic has been modified -- you may find your mastery effects changed if you rerolled them.
+
+- Cybernetic augmentation:
+    - Max bonus reduced from 12% to 10%.
+    - Ship types required to master for max bonus reduced from 30 to 20.
+    - Civilian ships no longer count.
+    - Added some settings to tune this to your liking.
+- Reduced "Extradimensional Rearrangement" variance:
+    - Extra time flow is now always 10% (multiplicative).
+    - Stat penalties are always between -10% and -5%, with lower penalties being more common.
+    - Exact stat penalties are now shown in the hullmod tooltip.
+- MP assignment algorithm for combat encounters now takes deployed time (with enough enemies in range to degrade CR) into account.
+    - Chance to gain mastery scales linearly with total time deployed, up to 60 seconds.
+    - Meant to discourage deploying and instantly retreating a ship without it ever having seen combat.
+- Decreased civilian MP gain by a flat 20%, increased combat MP gain by a flat 20%.
+- Reduced auto-pursuit MP penalty from 65% to 50%.
+- Regenerate option now strongly prefers mastery effects different from the effects prior to regenerating.
+- Added id to S-Mod autofit plugin
+- Mastery effect that reduces weapon flux for each empty mount no longer counts decorative and non-weapon slots.
+- Modified the extra-frag-damage-for-large-ballistic-weapons mastery to scale based on the projectile's original damage, so it doesn't disproportionately favor e.g. storm needlers.
+- Nerfed missile-regen-on-kill mastery.
+- Nerfed random beam damage mastery, extra damage is now flat 50% regardless of mastery strength increases.
+- Buffed residual armor mastery.
+- Buffed energy mine mastery effect base damage by 20% and fixed issue that caused piercing arcs not to scale with mastery bonuses.
+- Fixed issue where excess OP being removed in the refit screen didn't also apply to the fleet-facing ship, causing the same message to pop up again when re-selecting the offending ship.
+- Fixed issue where regenerating masteries could be confirmed with spacebar input even if there was nothing to regenerate.
+
+0.11.4
+----------
+- Removed FileNotFoundException from some debug code.
+- Fixed issue with unused MP cost mastery.
+
+0.11.3
+----------
+Mastery weights have been changed, generated masteries will be different.
+
+- Adjusted the weights of many randomly selected mastery effects; in general, effects that were too common have been made less common.
+- Crew loss mastery no longer generates for ships specs without crew.
+- Fixed "excess fuel" warning showing up on game load with masteries that increase fuel capacity.
+- Fixed S-mod capacity levels being unseeded when random mode is enabled.
+- Handled possible (but which should never happen) cyclic base ship chain.
+
+0.11.2
+----------
+- Fixed another issue with flagship tracker not working in some cases.
+
+0.11.1
+----------
+- Fixed an infinite MP exploit -- knowledge constructs no longer grant MP to skins.
+
+0.11.0
+----------
+- Added the ability to create knowledge constructs by spending 10 MP. These can then be sold for credits.
+- Added progression options to evolve NPC fleet difficulty over time.
+    - Progression is based on total player MP gain for all combat ships, excluding those gained passively for skins.
+    - Updating an existing save game will start its progression counter at 0.
+- (New game only) Moderately decreased the number of concealed stations generated per sector, and added a lower limit of 4.
+- Improved MP gain from large battles (single actions that grant lots of XP)
+- Changed knowledge construct price upper bound from 100000 to 60000, lower bound from 0 to 20000.
+- Reduced passive MP gain for skins from 75% to 50%.
+- Reduced the default strength of a bunch of mastery effects that slipped past the first pass.
+- Mastery effect that prevents CR from dropping below a certain threshold now no longer prevents malfunctions if Safety Overrides is installed.
+- Fixed range display issue in the description text of phase skimmer EMP arc mastery.
+- Extra logistics S-mod is now reflected in MAX_PERMANENT_HULLMODS mod (no behavioral change, but should work better with other mods that check S-mod count)
+- Fixed exploit between S-mod-enabled autofit and extreme modifications
+- Fixed issue with clearing S-mods with refunds enabled granting extraneous MP to skins
+- Fixed issue where flagship tracking was using the combined fleet's commander rather than the individual fleet's commander when applying mastery effects.
+- Mastery interface is now slightly bigger.
+- Changed the "Clear S-mods" sound to be the same as adding S-mods.
+
+0.10.2
+----------
+Mastery weights have been changed -- should be save-compatible, but your mastery effects will likely be different after the update.
+Additionally, the reroll system has seen significant under-the-hood changes. Reroll counts have been reset.
+
+- Whenever you gain mastery points for a ship type, you will now gain 75% of those points for all similar hulls. Two ship hulls are similar if one is a skin of the other, or if they are two different skins of the same base hull (e.g. Pegasus and Executor).
+    - Cybernetic augmentation has been modified to reflect this -- now two "ship types" are only distinct for the purposes of the OP bonus if they don't share the same base hull.
+- The "regenerate" option now only rerolls effects for levels where you don't have a mastery already selected. This should alleviate the rare occurrence that you reroll into something that can't be changed/removed, and also allows selective rerolling of specific levels.
+- The seed for random mastery generation can now be directly set in the settings. This is saved on game generation, and changing it requires a new game. Leave empty or whitespace only to use the sector seed, as before.
+- Adjusted some masteries.
+- S-Mod autofit option now properly detects and can apply the free logistics S-Mod slot from enhancing.
+- Fleet post-inflater no longer modifies ships generated for the player via custom production.
+- Fixed padding issue causing enhancement text to overlap repair bar in refit menu.
+- Fixed fighter/bomber OP cost masteries being generated for ships without modular bays.
+- Fixed fighter LPCs getting deleted when deactivating masteries that increase number of fighter bays; now they are added back to the inventory.
+- Removed extraneous debug console output.
+- Removed "phasefield" check for phase preset, instead checks spec.isPhase()
+
+0.10.1
+----------
+- Enhancements now give +10% boost for +1, +2, +4, and +5, totaling 40% as before. The +3 boost now grants a conditional S-mod slot that is usable for logistic hullmods only.
+- Greatly reduced variance in MP gain when gaining large amounts of XP in a single action. This also slightly reduces MP gain from smaller battles and slightly increases MP gain from larger battles; the break even point is about 85000XP (without bonus XP).
+- Reduced prioritization of ship types with fewer MP when assigning MP gain.
+- Enhancing civilian ships no longer costs SP.
+
+0.10.0
+-----------
+
+Weakly save compatible with previous version, but mastery level progression and mastery effect generation have been changed,
+ so if you update, your mastery tables will be rearranged and effects may not be the same as before.
+
+The standard mastery progression has been reworked a bit. In summary: reduced possible S-mods at max mastery from 4 to 3,
+removed the DP penalty from the 3rd (previously 4th) S-mod slot. Details:
+- S-mod capacity masteries removed from levels 4 and 6 and replaced with randomized masteries.
+- S-mod capacity mastery added to level 5.
+- DP-penalizing S-mod capacity mastery removed from level 8, replaced with standard S-mod capacity mastery.
+- Level 1 mastery effect strength multiplier 0.6 -> 1, level 2-6 masteries effect strength multiplier 0.8 -> 1.
+
+Added the ability to reroll mastery effects upon reaching max mastery level.
+- Costs 20 MP and 1 SP.
+- Affects all randomized effects (by default, this is now the effects at levels 1, 3, 4, 6, and 7).
+- Seeded for each ship hull, so it can't be save-scummed, e.g. rerolling a ship hull's masteries for the kth time will
+  always yield the same result.
+
+Added the ability to enhance mastery bonuses upon reaching max mastery level.
+- Costs 20 MP (+5 MP for each previous enhance) and 1 SP.
+- Increases mastery strength by 8%, can be done a maximum of 5 times.
+
+Other changes:
+- Mastery strength bonuses have been changed: Best of the Best 20% -> 30%, mastery scaling buff 40% -> 30%.
+- Maximum mastery strength bonus 60% -> 100% with addition of enhancing. Numerous effects have had their base strength
+  reduced slightly to compensate.
+- Default presets are now assigned according to the ship spec's hints, tags, and/or built-in mods.
+  This should help compatibility with modded civilian ships, remnant ships, etc.
+   - logistic_cargo checks for FREIGHTER hint, logistic_crew checks for LINER hint, logistic_fuel checks for TANKER hint.
+   - automated ships check for automated built-in hullmod, derelict drones check for derelict tag.
+   - phase ships check for phasefield built-in hullmod.
+   - if a single ship hull satisfies multiple conditions, the priority order is hints -> tags -> built-in mods.
+- Automated and phase ships now get an extra S-mod slot in level 8A in addition to their previous bonuses.
+- Single actions that grant less than 600 XP no longer give MP to civilian ships.
+- Increased combat ship MP gain by ~15%.
+- Reduced auto-pursuit MP gain by ~30%, and fixed a bug that caused more auto-pursuit MP gain than intended.
+- Reduced base credits cost for building in S-mods by 25%.
+- Increased mastery leveling costs across the board by 1, except levels beyond 8 which now cost a flat 15 MP.
+- Knowledge constructs now give 10 MP, up from 5.
+- Knowledge constructs now have two drop tables, one table is random as before and the other strongly prefers ships
+  already in the player's fleet. Most drop sources use the non-random table.
+- Knowledge constructs no longer generate for ships with the STATION hint.
+- Fixed an issue with mastery generation that could cause different masteries to be generated with the same seed
+  if a previous set of effects had already been stored into memory.
+- Resolved possible NPE during custom collision check.
+- Fixed an issue where non-modules could sometimes be treated as modules, causing some mastery effects to not work properly.
+
+0.9.3
+-----------
+- Fixed Cybernetic Augmentation not working with 0 mastered ship types
+
+0.9.2
+-----------
+- Fixed crash with FleetMember.getHullSpec when using Linux/Mac
+- (D)(D) hulls now correctly share their mastery pool with non D-hulls.
+- When generating mastery effects for a ship type, built-in weapon slots are no longer considered
+
+0.9.1
+-----------
+- Added setting to always enable clearing of S-Mods regardless of if it's been unlocked by a mastery effect.
+- Added setting to enable clearing S-Mods to refund a fraction of credits and MP spent; default is still no refund.
+- Added setting that multiplies all MP gain from actions that also grant XP.
+- Added setting that multiplies the credits cost of building in hullmods.
+- If dev mode is enabled, upgrading mastery level and building in hullmods no longer checks if you have the required resources.
+- Fixed S-Mod autofit option not showing up for modules
+
+0.9.0
+-----------
+- Added "Replay Battle" feature
+- Added option to disable mod's main features
+- Removed VariantLookup stuff from save file
+- Improved consistency of post-inflation sequence, everything is now seeded based on the commander's id
+- Refactored LunaLib settings, this will reset them if you modified them
+- Reduced the effectiveness of the "less DP if only ship of that type in fleet" mastery effect for frigates, destroyers, and cruisers
+- Greatly increased the chance that a mastered ship with lots of MP will still gain MP when competing with other ship types for MP
+- Mastery effect that grants range if no other bonuses are affecting range now works with ballistic mastery and gunnery implants
+- Mastery effect that grants additional ammo if EMR and expanded magazines are both installed is now multiplicative
+- Fixed minimum CR mastery effect causing auto-retreat when deployed
+- Fixed converted hangar effects being randomly selected for phase ships
+- Fixed adding S-mods to modules not subtracting MP
+- Fixed issue where recovered ships would maintain enemy commander's mastery levels and selections until game load
+- Minor optimizations
+
+0.8.2
+-----------
+- Building in hullmods now costs more MP for ships with greater base DP; the cost is 1 plus an additional 1 for every 25 DP
+  Enhancing pre-built-in hullmods still always costs 1 MP
+- Renamed LunaSettings field IDs to include a mod prefix. This will reset settings to default if you've changed them
+- Fixed rare crash bug relating to a specific stat
+- Fixed safety overrides mastery effects showing up for ships with built-in flux shunt
+- Fixed some typos, added some clarifications
+
+0.8.1
+-----------
+- Reduced modified Cybernetic Augmentation base OP bonus from 5% to 2%, max from 15% to 12%
+- Cleaned up unused stuff
+- Fixed bad direct download and changelog links
+- Fixed typo in README
+- Fixed a hash function always being a multiple of 31
+
+0.8.0
+-----------
+Initial release

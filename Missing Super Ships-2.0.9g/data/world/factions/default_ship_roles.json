@@ -1,0 +1,18 @@
+{
+	"combatCapital":{
+		"missp_triumph_core_Standard":10,
+		"missp_triumph_core_Elite":10,
+		"missp_ragnarok_core_Standard":10,
+		"missp_continuum_Standard":10,
+		"missp_idol_Standard":10,
+	},
+	"combatFreighterLarge":{
+		"missp_anchor_core_Standard":10,
+	},
+	"carrierLarge":{
+		"missp_sovereign_core_Standard":10,
+		"missp_sovereign_core_Elite":10,
+		"missp_crescendo_core_Standard":10,
+	},
+	
+}

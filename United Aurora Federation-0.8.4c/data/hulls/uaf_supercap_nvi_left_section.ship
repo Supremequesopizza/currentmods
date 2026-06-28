@@ -1,0 +1,236 @@
+{
+  "hullName": "Port Hangar Section",
+  "hullId": "uaf_supercap_nvi_left_section",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Novii/uaf_nov_left_section.png",
+  "style": "UAF_FLAGSHIP_NOV",
+  "height": 570,
+  "width": 273,
+  "center": [237, 3.5],
+  "collisionRadius": 587.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 586.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_automataSpec",
+    "uaf_supercap_engineering",
+    "uaf_supercap_module_novaeria",
+    "uaf_supercap_core_novaeria_configurator"
+  ],
+  "builtInWeapons": {
+    "HANGAR_LIGHT_2": "uaf_novaeria_supercap_left_blue_hangar_light_2",
+    "HANGAR_LIGHT_3": "uaf_novaeria_supercap_left_red_hangar_light_2",
+    "ROOF_COVER": "uaf_novaeria_supercap_roof_cover_left",
+    "WS0010": "uaf_chorus_m_amm"
+  },
+  "weaponSlots": [
+    {
+      "id": "ROOF_COVER",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [187.5, 95],
+      "renderOrderMod": 40
+    },
+    {
+      "id": "HANGAR_LIGHT_2",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [203.5, 128]
+    },
+    {
+      "id": "HANGAR_LIGHT_3",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [103, 174.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 92,
+      "angle": 90,
+      "locations": [225.5, 87]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 92,
+      "angle": 90,
+      "locations": [199.5, 96]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 92,
+      "angle": 90,
+      "locations": [173.5, 105]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 92,
+      "angle": 90,
+      "locations": [147.5, 114]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 90,
+      "locations": [115.5, 112],
+      "renderOrderMod": 25
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 147,
+      "angle": 90,
+      "locations": [85.5, 136]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        105, 190,
+        91.5, 190
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        102.5, 168,
+        118.5, 168
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        186, 133,
+        202, 128,
+        219, 122
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [11.5, 209]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [388.5, 65]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [439.5, 46]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [356.5, 101.5]
+    },
+    {
+      "id": "NOVAERIA_DECO_COUNTER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [324, 97.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    10.5, 229.5,
+    49.5, 224,
+    53.5, 228,
+    115, 211.5,
+    146.5, 146.5,
+    256.5, 109,
+    294, 108.5,
+    298.5, 110.5,
+    330.5, 111,
+    346.5, 98,
+    351.5, 98,
+    452, 70,
+    456.5, 71.5,
+    490.5, 63,
+    497.5, 59,
+    547, 46.5,
+    565, -9,
+    560, -15,
+    462.5, -15,
+    462.5, -17.5,
+    431.5, -31,
+    419.5, -31,
+    419.5, -35,
+    378.5, -35,
+    378.5, -26,
+    385.5, -26,
+    385.5, 7,
+    329.5, 7,
+    329.5, 38.5,
+    244.5, 66,
+    239.5, 63,
+    225.5, 63,
+    96.5, 104,
+    96.5, 115,
+    59.5, 126,
+    59.5, 160.5,
+    39.5, 168,
+    39.5, 135,
+    -2.5, 135,
+    -2.5, 218.5
+  ]
+}

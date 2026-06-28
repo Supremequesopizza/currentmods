@@ -1,0 +1,14 @@
+{
+    "plugins":{
+
+    },
+	"designTypeColors":{
+		"Exalted":[149, 118, 196,255],
+},
+ "graphics":{
+
+		"illustrations":{
+			"anvil_tomb":"graphics/illustrations/anvil_tomb.png",
+		},
+       }
+}

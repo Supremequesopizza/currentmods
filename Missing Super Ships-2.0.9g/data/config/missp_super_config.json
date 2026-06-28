@@ -1,0 +1,88 @@
+{
+  "enabled": false,
+	
+	"factions": {
+    "hegemony": {
+      "missp_sovereign_core": {
+        "known": true,
+        "import": true,
+        "priority": true
+      }
+    },
+
+    "persean": {
+      "missp_crescendo_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      },
+      "missp_triumph_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      }
+    },
+
+    "tritachyon": {
+      "missp_crescendo_core": {
+        "known": true,
+        "import": true,
+        "priority": true
+      }
+    },
+	
+    "sindrian_diktat": {
+      "missp_triumph_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      }
+    },
+
+    "independent": {
+      "missp_anchor_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      },
+      "missp_ragnarok_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      }
+    },
+
+    "mercenary": {
+      "missp_ragnarok_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      }
+    },
+
+    "luddic_path": {
+      "missp_ragnarok_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      }
+    },
+	
+    "luddic_church": {
+      "missp_sovereign_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      }
+    },
+
+    "pirates": {
+      "missp_ragnarok_core": {
+        "known": true,
+        "import": true,
+        "priority": false
+      }
+    }
+  }
+}
+

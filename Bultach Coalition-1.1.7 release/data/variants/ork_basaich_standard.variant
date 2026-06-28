@@ -1,0 +1,35 @@
+{
+  "variantId": "ork_basaich_standard",
+  "hullId": "ork_basaich",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ork_tolladh"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_lub_pd",
+        "WS0002": "ork_lub_pd",
+        "WS0003": "ork_lub_pd",
+        "WS0004": "ork_lub_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

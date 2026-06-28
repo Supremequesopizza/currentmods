@@ -1,0 +1,98 @@
+{
+    "displayName": "Bomber",
+    "fluxCapacitors": 2,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_m_zepporia",
+    "hullMods": [
+        "targetingunit",
+        "recovery_shuttles",
+        "uaf_reserve_wing_operation",
+        "uaf_special_emergency_automated_assistance",
+        "reinforcedhull"
+    ],
+    "quality": 0.7,
+    "variantId": "uaf_m_zepporia_bomber",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "uaf_weiss_iii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0024": "uaf_rhythm_l_lrm",
+                "WS0025": "uaf_rhythm_l_lrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_medlav_dual",
+                "WS0004": "uaf_medlav_dual",
+                "WS0013": "uaf_medlav_dual",
+                "WS0014": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina",
+                "WS0006": "uaf_pd_reina",
+                "WS0007": "uaf_pd_reina_ii",
+                "WS0008": "uaf_pd_reina_ii",
+                "WS0009": "uaf_pd_reina_ii",
+                "WS0010": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_weiss_flk",
+                "WS0012": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_ii_flk",
+                "WS0002": "uaf_weiss_ii_flk",
+                "WS0021": "uaf_triyia_pdx",
+                "WS0022": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "uaf_flair_pod",
+                "WS0016": "uaf_flair_pod",
+                "WS0017": "uaf_hikone_quad",
+                "WS0018": "uaf_hikone_quad"
+            }
+        }
+    ],
+    "modules": {
+        "WS0020": "uaf_m_zepporia_armor_1_plating",
+        "WS0026": "uaf_m_zepporia_armor_1_plating",
+        "WS0023": "uaf_m_zepporia_armor_1_plating",
+        "WS0031": "uaf_m_zepporia_armor_1_plating",
+        "WS0032": "uaf_m_zepporia_left_armor_plating",
+        "WS0033": "uaf_m_zepporia_right_armor_plating"
+    },
+    "wings": [
+        "uaf_wing_m_hyacinth_ii",
+        "uaf_wing_m_hyacinth",
+        "uaf_wing_m_hibiscus",
+        "uaf_wing_m_hibiscus",
+        "uaf_wing_m_aria"
+    ]
+}

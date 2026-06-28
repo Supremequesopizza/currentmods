@@ -1,0 +1,60 @@
+{
+    "displayName": "Zealot",
+    "fluxCapacitors": 12,
+    "fluxVents": 19,
+    "goalVariant": false,
+    "hullId": "uaf_seniraja",
+    "hullMods": [
+        "turretgyros",
+        "targetingunit"
+    ],
+    "quality": 1.0,
+    "variantId": "uaf_seniraja_zealot",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_tona_iii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "uaf_semibreve_base"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_oboe_mirv_small",
+                "WS0006": "uaf_oboe_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_tona_ii",
+                "WS0002": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_pd_reina",
+                "WS0012": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

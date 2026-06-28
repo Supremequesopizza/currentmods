@@ -1,0 +1,124 @@
+{
+  "exoticatechnologies": {
+    #Obviously changing this has crazy and wild balance implications. If you're in this file, I'd hope that you already
+    #know that.
+    "maxExotics": 3,
+
+    "exotic_HackedMissileForge_weaponBlacklist": [
+      #"atropos_single"
+    ],
+
+    #stacks additively, for purchasing bandwidth
+    "industryBandwidthPurchaseBonuses": {
+      "heavyindustry": 0.5,
+      "orbitalworks": 1.0,
+      "IndEvo_Scrapyard": 0.25,
+      "IndEvo_EngHub": 0.25,
+      "ms_modularFac": 0.25,
+      "ms_massIndustry": 0.25,
+      "ms_militaryProduction": 0.5,
+      "ms_orbitalShipyard": 1.0
+    },
+
+    #uses highest for when ships are produced at a market
+    "industryBandwidthGenerationMultipliers": {
+      "heavyindustry": 1.0,
+      "orbitalworks": 1.0,
+      "IndEvo_Scrapyard": 0.75,
+      "IndEvo_EngHub": 1.25,
+      "ms_modularFac": 1.0,
+      "ms_massIndustry": 1.0,
+      "ms_militaryProduction": 1.0,
+      "ms_orbitalShipyard": 1.0
+    },
+
+    "factionsWithConfigs": [
+      "omega",
+      "remnant",
+      "derelict",
+      "hegemony",
+      "luddic_church",
+      "luddic_path",
+      "persean_league",
+      "pirates",
+      "sindrian_diktat",
+      "tritachyon",
+      "independent",
+      "ironshell",
+      "tahlan_legioinfernalis",
+      "plague",
+      "famous_bounty"
+    ],
+
+    "upgradeOrder": [
+        "WeldedArmor",
+        "PinataConfig",
+        "IronShell",
+        "InfernalEngines",
+        "FluxInductionDrive",
+        "HelDrives",
+        "HyperactiveCapacitors",
+        "AdvancedFluxCoils",
+        "OverchargedShields",
+        "TracerRecoilCalculator",
+        "DerelictWeaponAssistant",
+        "OversizedMagazines",
+        "InterceptionMatrix",
+        "GuidanceComputers",
+        "AntimatterBoosters",
+        "ForcedOvertime",
+        "AuxiliarySensors",
+        "InterferenceShielding",
+        "CommissionedCrews",
+        "WaspDefenseDrones",
+        "AssaultWings",
+        "VelocityInjectors",
+        "OverclockedFabricators"
+    ],
+
+    "marketExoticScale": 1.0,
+    "marketUpgradeScale": 1.0,
+
+    # takes the manufacturer of the ship
+    # note that these stack with the faction bandwidth mults
+    "manufacturerBandwidthMult": {
+      "Sindrian Fuel Company": 0.75
+    },
+
+    # below are global whitelists for exotics/upgrades that can generate on any fleet.
+    # if a faction whitelist exists, it will be used instead.
+    "rngExoticWhitelist": [
+      "PlasmaFluxCatalyst",
+      "EqualizerCore",
+      "DriveFluxVent",
+      "PhasedFighterTether",
+      "HackedMissileForge",
+      "PhasefieldEngine",
+      "SpooledFeeders",
+      "FullMetalSalvo",
+      "HyperspecLPC"
+    ],
+    "rngUpgradeWhitelist": [
+      "WeldedArmor",
+      "AssaultWings",
+      "AuxiliarySensors",
+      "ForcedOvertime",
+      "HyperactiveCapacitors",
+      "InfernalEngines",
+      "OverchargedShields",
+      "TracerRecoilCalculator",
+      "InterferenceShielding",
+      "GuidanceComputers",
+      "FluxInductionDrive",
+      "InterceptionMatrix",
+      "VelocityInjectors",
+      "OverclockedFabricators",
+      "OversizedMagazines"
+    ],
+    "rngExoticTypeWhitelist": {
+      "CORRUPTED": 1,
+      "PURE": 1,
+      "GUERILLA": 1
+    }
+  }
+}

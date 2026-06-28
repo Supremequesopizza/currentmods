@@ -1,0 +1,10 @@
+{
+	"id":"exalted", # internal id
+	"name":"The Exalted", # displayed to the player
+	"author":"Connortron7",
+	"version":"1.4",
+	"description":"Adds The Exalted.",
+	"jars":["jars/exalted.jar"],
+	"modPlugin":"data.scripts.ExaltedModPlugin",
+	"gameVersion":"0.98a-RC8",
+}

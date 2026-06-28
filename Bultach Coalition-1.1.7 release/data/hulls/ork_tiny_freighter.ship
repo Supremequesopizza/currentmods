@@ -1,0 +1,103 @@
+{
+  "hullName": "Freighter",
+  "hullId": "ork_tiny_freighter",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ork_sproinkly.png",
+  "style": "BULTACH",
+  "height": 172,
+  "width": 130,
+  "center": [65, 82],
+  "collisionRadius": 117,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 115.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger",
+    "Ork_low_Maintenance",
+    "bt_shieldArching",
+    "ork_redfasta",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-13, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82, 44.5],
+      "length": 81.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-82, -44.5],
+      "length": 81.5,
+      "width": 26,
+      "angle": -180,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-66, 6.5],
+      "length": 59,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-66, -6.5],
+      "length": 59,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -65.5, -17,
+    -49.5, -29,
+    -79.5, -36,
+    -80, -48.5,
+    -75, -58,
+    -56.5, -64,
+    -44.5, -56,
+    -34.5, -63,
+    -7, -63,
+    17.5, -50,
+    74, -49.5,
+    87.5, -37.5,
+    87, -30,
+    75.5, -17,
+    34, -17,
+    50, -0,
+    34, 17,
+    75.5, 17,
+    87, 30,
+    87.5, 37.5,
+    74, 49.5,
+    17.5, 50,
+    -7, 63,
+    -34.5, 63,
+    -44.5, 56,
+    -56.5, 64,
+    -75, 58,
+    -80, 48.5,
+    -79.5, 36,
+    -49.5, 29,
+    -65.5, 17
+  ]
+}

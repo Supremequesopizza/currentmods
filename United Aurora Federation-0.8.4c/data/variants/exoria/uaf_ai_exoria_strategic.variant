@@ -1,0 +1,51 @@
+{
+    "displayName": "Strategic",
+    "fluxCapacitors": 3,
+    "fluxVents": 3,
+    "goalVariant": false,
+    "hullId": "uaf_ai_exoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_special_emergency_automated_assistance",
+        "uaf_super_heavy_wing_operation"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_ai_exoria_strategic",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_merupaka_ii_epd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_deco_mg",
+                "WS0006": "uaf_deco_mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_clarinet_mirv_small"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_parang",
+        "uaf_wing_ai_parang",
+        "uaf_wing_ai_menascar_ii",
+        "uaf_wing_ai_menascar_ii"
+    ]
+}

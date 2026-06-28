@@ -1,0 +1,20 @@
+{
+	"id":"armaa_leynos_railgun_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":80.0,
+	"width":6.5,
+	"fadeTime":0.3,
+	"darkCore": true,
+	"fringeColor":[0,255,255,200],
+	"coreColor":[0,50,25,255],
+	"glowColor":[00,100,0,255],
+	"glowRadius":15,
+	"hitGlowRadius":45,	
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+
+}

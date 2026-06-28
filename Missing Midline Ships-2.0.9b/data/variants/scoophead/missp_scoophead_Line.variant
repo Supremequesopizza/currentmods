@@ -1,0 +1,45 @@
+{
+    "displayName": "Line",
+    "fluxCapacitors": 15,
+    "fluxVents": 6,
+    "hullId": "missp_scoophead",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_scoophead_Line",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gorgonpod",
+                "WS0002": "gorgonpod",
+                "WS0011": "gorgon",
+                "WS0012": "gorgon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "heavymauler",
+                "WS0010": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "vulcan",
+                "WS0004": "vulcan",
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "lightdualmg",
+                "WS0008": "lightdualmg"
+            }
+        }
+    ]
+}

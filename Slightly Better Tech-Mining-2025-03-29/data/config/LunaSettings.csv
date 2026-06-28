@@ -1,0 +1,6 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+TechMiningHeader,Techmining Header,Header,Tech-Mining,,,,,
+TechMineValue,Techmining Loot Value,Int,10000,,"Note: Tech-Mining is made up of random and valued loot, this only affects the latter.",0,1000000,
+,,,,,,,,
+TechMineThreshold,Techmining Threshold,Double,0.25,,The threshold at which Tech-Mines reset/stall when improved with a story point.,0.1,0.99,
+CycleOrStall,Cycle or Stall,Radio,Cycle,"Cycle, Stall","Whether Tech-Mining resets to almost-new when it hits the threshold, or holds at the threshold.",,,

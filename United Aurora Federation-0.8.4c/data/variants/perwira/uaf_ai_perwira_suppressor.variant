@@ -1,0 +1,37 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 1,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "uaf_ai_perwira",
+    "hullMods": [
+        "hardened_subsystems",
+        "insulatedengine",
+        "fluxbreakers",
+        "pointdefenseai"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_ai_perwira_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_selemene_s_mrm",
+                "WS0003": "uaf_selemene_s_mrm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

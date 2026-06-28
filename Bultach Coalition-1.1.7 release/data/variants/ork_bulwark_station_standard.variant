@@ -1,0 +1,50 @@
+{
+  "variantId": "ork_bulwark_station_standard",
+  "hullId": "ork_bulwark_station",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "giga_rail"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0002": "ork_guns_station_module_2_standard"
+    },
+    {
+      "WS0003": "ork_guns_station_module_2_standard"
+    },
+    {
+      "WS0004": "ork_station_fighters_standard"
+    },
+    {
+      "WS0005": "ork_station_fighters_standard"
+    },
+    {
+      "WS0006": "ork_station_arms_standard"
+    },
+    {
+      "WS0007": "ork_station_missiles_standard"
+    },
+    {
+      "WS0008": "ork_station_missiles_standard"
+    },
+    {
+      "WS0009": "ork_guns_station_module_standard"
+    },
+    {
+      "WS0010": "ork_guns_station_module_standard"
+    }
+  ],
+  "wings": []
+}

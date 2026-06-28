@@ -1,0 +1,58 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 300,
+  "fireSoundTwo": "harpoon_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    25.5,
+    -7.5,
+    25.5,
+    7.5
+  ],
+  "hardpointSprite": "graphics/weapons/voodoo/voodoo_launcher_hardpoint_base.png",
+  "id": "anvil_voodoo_launcher",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "anvil_voodoo",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "LARGE",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    -0
+  ],
+  "turretOffsets": [
+    14,
+    -7.5,
+    14,
+    7.5
+  ],
+  "turretSprite": "graphics/weapons/voodoo/voodoo_launcher_turret_base.png",
+  "type": "MISSILE"
+}

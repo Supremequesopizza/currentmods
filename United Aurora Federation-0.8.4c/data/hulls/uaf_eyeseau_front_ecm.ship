@@ -1,0 +1,42 @@
+{
+  "hullName": "Bow Jamming Pod",
+  "hullId": "uaf_eyeseau_front_ecm",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Eyeseau/uaf_eyeseau_front_ecm.png",
+  "style": "UAF_DESTROYER",
+  "height": 53,
+  "width": 46,
+  "center": [23, 26.5],
+  "collisionRadius": 43,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 34.5,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+    "builtInMods": [
+    "never_detaches",
+    "uaf_noExplosion"
+  ],
+  "bounds": [
+    -25.5, 6,
+    -19, 22,
+    -12.5, 22,
+    -12.5, 3,
+    -5.5, 3,
+    -4, 5,
+    0.5, 5,
+    4, 10,
+    19.5, 10,
+    26, 3.5,
+    26, -3.5,
+    19.5, -10,
+    4, -10,
+    0.5, -5,
+    -4, -5,
+    -5.5, -3,
+    -12.5, -3,
+    -12.5, -22,
+    -19, -22,
+    -25.5, -6
+  ]
+}

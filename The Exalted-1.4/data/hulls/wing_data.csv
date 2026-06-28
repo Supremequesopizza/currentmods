@@ -1,0 +1,5 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+anvil_cielo_drone,anvil_cielo_drone_support,"no_drop, no_sell, high",0,,3,7,BOX,0,250,500,2,FIGHTER,Fighter,8,9000,,,,,,,,,,,,,7
+anvil_wisp,anvil_wisp_exalted,"fighter4, fighter, high, exalted_bp",2,,6,10,V,4000,500,300,3,FIGHTER,Heavy Fighter,10,10000,,,,,,,,,,,,,3
+anvil_delusion,anvil_delusion_exalted,"interceptor3, interceptor, high, exalted_bp",1,,4,9,CLAW,4000,400,700,5,INTERCEPTOR,Interceptor Drone,6,6500,,,,,,,,,,,,,7
+anvil_fairy,anvil_fairy_bomber,"bomber4, bomber, high, exalted_bp",1,,5,12,V,4000,1000,600,3,BOMBER,Bomber,18,8000,,,,,,,,,,,,,11

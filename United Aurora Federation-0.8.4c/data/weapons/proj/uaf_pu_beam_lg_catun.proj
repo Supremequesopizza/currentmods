@@ -1,0 +1,23 @@
+{
+	#this is for beam
+	"id":"uaf_pu_beam_lg_catun",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":85.0,
+	"hitGlowRadius":45,
+	"width":8.5,
+	"fadeTime":0.30,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[100,165,255,180],
+	"coreColor":[255,255,175,120],
+	"glowColor":[80,150,255,30],
+	"glowRadius":70,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	#"bulletSprite":"graphics/missiles/shell_small.png",
+	"onHitEffect":"data.scripts.weapons.uaf_catun_onhit",
+}

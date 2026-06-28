@@ -1,0 +1,31 @@
+{
+  "variantId": "armaa_record_Standard",
+  "hullId": "armaa_record",
+  "displayName": "Anti-Ship Cataphract",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "no_weapon_flux"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "TRUE_GUN": "armaa_ilorin_torso"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "E_HEAD": "armaa_record_head"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

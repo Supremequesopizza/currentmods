@@ -1,0 +1,15 @@
+{
+    "displayName": "UWS",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "armaa_bit",
+    "goalVariant": true,
+    "permaMods": [],
+    "variantId": "armaa_bit_alta",
+    "weaponGroups": [{
+      #  "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "armaa_pila_rynex"}
+
+    }]
+}

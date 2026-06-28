@@ -1,0 +1,139 @@
+Missing Pathers 2.0.9b
+Snake
+-13 OP
+-Fleet points adjusted
+________________________________________
+Missing Pathers 2.0.9a
+Mercury (LP)
+-safetyoverrights added
+Hermes (LP)
+-safetyoverrights added
+All converted ships
+-civ hullmod added where not present
+Starliner (LP)
+-op increased to 115
+Wolf (LP)
+-DP increased to 6
+________________________________________
+Missing Pathers 2.0.9
+Dominator (LP)
+-DP actually increased to 28
+________________________________________
+Missing Pathers 2.0.8c
+Atlas Mk4
+-sprite splotch removed
+Mule (LP)
+-sprite update
+Dominator (LP)
+-sprite update
+-shipsystem changed to canister flak
+-DP increased to 28
+-Hammer Barrage Nerfed to Jackhammer
+-Armor increased to 
+-hull increased to
+-lore adjusted
+Mudskipper Mk.III
+-sprite updated
+Wolf (LP)
+-sprite updated
+Snake
+-reclassified as light corvette
+-sprite updated
+________________________________________
+Missing Pather 2.0.8b
+Ships:
+Atlas Mk4
+-turning and weapon arcs adjusted
+Condor (LP)
+-reharmonized with vanilla stats
+-only shipsystem and built in hullmods different
+-sprite changed
+-Weapon arcs changed to arcs of Condor H
+Mudskipper Mk.III
+-(LP) removed from name
+Starliner Mk.III
+-(LP) removed from name
+Missing Pathers 2.0.8b
+Snake
+-Goal Variant set to false
+________________________________________
+Missing Path Ships 2.0.8a
+variants adjusted
+________________________________________
+Missing path 2.0.8:
+Starliner MkIII
+-Reclassified as carrier
+-hull increased to 6000
+Dominator (LP)
+-Hull increased to 9500
+-DP increased to 25
+-Shield upkeep increased to 200
+-reclassified as strike cruiser
+-Op increased to 140
+Atlas Mk4
+-widend hardpoint arcs
+Fleet points adjusted across the board
+________________________________________
+2.0.7b Missing Path:
+Atlas Mk4
+-DP reduced to 23
+-one variant adjusted
+________________________________________
+Missing Path Pack 2.0.7a
+Various Variant adjustments
+Note: Update timescales wont be added to the update header anymore as individual submod updates have fragmented the version numbers to far.
+________________________________________
+Update 2.0.7 28.10.25-13.11.25:
+Modpack changes
+msm path
+-path mule removed from default ship roles
+All packs
+-crediting of scarface adjusted
+________________________________________
+Hotfix 2.0.6b Missing Path
+-Added missp_starliner_path to path faction file
+Update 2.0.6 12.10.25-28.10.25
+The pather update makes that pack be save incompatible
+-Wolf path 2 small ballistic weapon mounts removed
+general sprite improvements
+new ship:
+Atlas Mk.IV Class
+As always some smaller stuff that shall go unnoted.
+________________________________________
+2.0.5a Hotfix:
+-smaller fixes
+________________________________________
+2.0.4-20.04.25-09.05.25:
+Wolf LP: more spritework done.
+Snake: sprite cleaned up.
+Mudskipper LP: done something to the sprite.
+________________________________________
+2.0.3 Hotfixes:
+Many many bug fixes.
+2.0.3-07.04.25-20.04.25:
+Ergonomics:
+Added Version Checker intigration added
+Direct download link added to version checker file
+________________________________________
+2.0.2-09.03.25-30.03.25:
+Website:
+Old thread changed reverted to 0.96 look due to the emergence of legacy mod index.
+________________________________________
+2.0.1-02.01.25-09.03.25 A Hotfix to add somestuff and to fix mistakes you guys or I find is pretty likely. Just keep the last version around in a backup folder for a while.
+2.0.1-02.01.25-09.03.25
+General Changes:
+-Wolf (Path): safety overrights bulid. Engine Shield Center on the wolf path adjusted to wolf vanilla look aditional thrusters added. Wolf LP redrawn.
+-Dominator: path ship system changed to fast missile racks, flux capacity reduced to 5000 vents to 200.
+-Snake: rr reduced to 17
+Other Changes:
+Website:
+-Mod icon changed.
+-Link to version 0.9.1 fixed.
+________________________________________
+2.0.0-18.12.2024 IceFire takes over mod.
+-Lots of small things i did befor taking notes or just where not of note not mentioned here.
+-(hopefully) fixed the msm ships blocking other ships from spawning.
+-Nebula Mk.II removed civ hullmod. Removed Civ hullmod. Removed eccm.
+-added safety overrights to path mudskipper.
+-Starliner MkIII  added a wing.
+-(hopefully) fixed the msm ships blocking other ships from spawning.

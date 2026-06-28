@@ -1,0 +1,22 @@
+{
+	"id":"uaf_shot_heavy_piercing_overload",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.uaf_piercing_attributes",
+	"length":200.0,
+	"hitGlowRadius":250,
+	"width":25.5,
+	"fadeTime":0.30,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[255, 144, 66,240],
+	"coreColor":[255,255,175,240],	
+	"glowColor":[255, 144, 66,30],	
+	"textureScrollSpeed":64.0,
+	"glowRadius": 120,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png",
+	"onFireEffect":"data.scripts.weapons.uaf_nukeRoundOnFire"
+}

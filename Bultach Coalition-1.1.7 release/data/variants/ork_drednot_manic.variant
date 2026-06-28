@@ -1,0 +1,74 @@
+{
+  "variantId": "ork_drednot_manic",
+  "hullId": "ork_drednot",
+  "displayName": "Manic",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "heavyarmor",
+    "shield_shunt",
+    "autorepair",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0004": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ork_scrapshot",
+        "WS0003": "ork_scrapshot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavymg",
+        "WS0006": "heavymg",
+        "WS0014": "vulcan",
+        "WS0015": "lightmg",
+        "WS0016": "lightmg",
+        "WS0017": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "salamanderpod",
+        "WS0012": "salamanderpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "talon_wing"
+  ]
+}

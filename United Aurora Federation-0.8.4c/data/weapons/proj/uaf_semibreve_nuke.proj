@@ -1,0 +1,57 @@
+{
+	"id":"uaf_semibreve_nuke",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/weapons/Missiles/semibreve_astnm_l/missile_semibreve_tacticalnuke.png",
+	"onHitEffect":"data.scripts.weapons.uaf_nukeHit",
+	"size":[14,40],	
+	"center":[7,20],
+	"collisionRadius":50,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":2500, # purely visual
+	"explosionSpec":{"duration":5f, # not visual
+					 "radius":300,
+					 "coreRadius":200, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":10.0,
+					 "particleSizeRange":5.0,
+					 "particleDuration":6.5,
+					 "particleCount":5,
+					 "particleColor":[255,155,155,255]},
+	"flameoutTime":3, # total time from flameout to full fadeout
+	"armingTime":0.5,
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+#	"engineSpec":{"turnAcc":140,
+#				  "turnRate":35,
+#				  "acc":200,
+#				  "dec":100},
+	"engineSpec":{"turnAcc":300,
+				  "turnRate":5,
+				  "acc":250,
+				  "dec":5},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-16, 0],
+				    #"style":"MELODY_ENGINE",
+					"style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,88,122,255],
+						"glowSizeMult":2.7,
+						"contrailDuration":7.0,
+						"contrailWidthMult":1.25,
+						"contrailWidthAddedFractionAtEnd":3.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.75f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailColor":[204,114,255,75],
+						"glowAlternateColor":[255,85,163,235],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":15.0,
+				    "length":85.0,
+				    "angle":180.0},
+				    ]
+}

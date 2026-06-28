@@ -1,0 +1,132 @@
+{
+  "hullName": "bees",
+  "hullId": "ork_bees",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ork_bees.png",
+  "style": "BULTACH",
+  "height": 158,
+  "width": 112,
+  "center": [56, 81],
+  "collisionRadius": 108.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 103.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "Ork_low_Maintenance",
+    "BT_shieldsChanger",
+    "bt_shieldArching",
+    "BT_CrampedFlightDeck"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 180,
+      "locations": [-20.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -5, -14.5,
+        -7.5, -18.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [57, -0]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -4, 33,
+        -7, 36.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26.5, 36]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [26.5, -36]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-74, -0],
+      "length": 82,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-69, 13.5],
+      "length": 50.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-69, -13.5],
+      "length": 50.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -68, -17.5,
+    -78, -20,
+    -71.5, -28,
+    1, -55.5,
+    29, -44.5,
+    32, -27,
+    57.5, -26.5,
+    76, -12,
+    68, -4.5,
+    68, 4.5,
+    76, 12,
+    57.5, 26.5,
+    32, 27,
+    29, 44.5,
+    1, 55.5,
+    -71.5, 28,
+    -78, 20,
+    -68, 17.5
+  ]
+}

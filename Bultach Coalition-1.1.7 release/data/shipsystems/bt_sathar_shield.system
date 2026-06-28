@@ -1,0 +1,21 @@
+{
+	"id":"bt_sathar_shield",
+	"type":"PHASE_CLOAK",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_sathar_twinshield_AI",
+	
+	"statsScript":"data.scripts.shipsystems.bt_SatharShieldCommandSystem",
+	"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	"blockActionsWhileChargingDown":false,
+	
+	"canNotCauseOverload":true,
+	
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"bt_sathar_shield_raise",
+	"deactivateSound":"bt_sathar_shield_lower",
+	
+	"shipAlpha":1,
+}

@@ -1,0 +1,3 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+missp_claymore_wing,missp_claymore,"fighter4, fighter, mid, rare_bp, ind, merc",3,0.75,7,14,V,8000,1500,0,1,FIGHTER,Light Corvette,25,17500,,,,,,,,,,,,,
+missp_cutlass_wing,missp_cutlass,"fighter2, fighter, mid, rare_bp, merc, ind",2,0.9,7,15,V,4000,1700,80,3,ASSAULT,Strike Fighter,15,10000,,,,,,,,,,,,,

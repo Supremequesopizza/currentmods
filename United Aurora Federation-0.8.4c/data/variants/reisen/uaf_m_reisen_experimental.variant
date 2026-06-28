@@ -1,0 +1,85 @@
+{
+    "displayName": "Experimental",
+    "fluxCapacitors": 7,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "uaf_m_reisen",
+    "hullMods": [
+        "targetingunit",
+        "uaf_secondary_focus",
+        "hardenedshieldemitter"
+    ],
+    "quality": 0.7,
+    "variantId": "uaf_m_reisen_experimental",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "uaf_cyrexa_ii_d_sxc",
+                "WS0014": "uaf_cyrexa_ii_d_sxc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_catun_iii_erg",
+                "WS0012": "uaf_catun_iii_erg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0025": "uaf_minibreve_tnt_m",
+                "WS0026": "uaf_minibreve_tnt_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_catun_ii_erg",
+                "WS0002": "uaf_catun_ii_erg",
+                "WS0015": "uaf_catun_ii_erg",
+                "WS0016": "uaf_catun_ii_erg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_weiss_flk",
+                "WS0008": "uaf_weiss_flk",
+                "WS0009": "uaf_flair_pod",
+                "WS0010": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_edge_type_i",
+                "WS0004": "uaf_edge_type_i",
+                "WS0005": "uaf_edge_type_i",
+                "WS0006": "uaf_edge_type_i",
+                "WS0017": "uaf_pd_reina",
+                "WS0018": "uaf_pd_reina",
+                "WS0019": "uaf_chorus_m_amm",
+                "WS0020": "uaf_chorus_m_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0021": "uaf_m_reisen_armor_plating",
+        "WS0022": "uaf_m_reisen_armor_plating",
+        "WS0023": "uaf_m_reisen_armor_plating",
+        "WS0024": "uaf_m_reisen_armor_plating"
+    }
+}

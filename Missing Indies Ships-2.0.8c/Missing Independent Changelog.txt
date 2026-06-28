@@ -1,0 +1,125 @@
+Missing Independent Ships 2.0.8c
+Hawk
+-designation changed to carrier
+Buffalo mk3
+Speed increased to 60
+-designation changed to light carrier
+Majestic
+-DP increased by 3
+________________________________________
+Missing Independent Ships 2.0.8b
+Hawk
+-sprite redesigned
+Buffalo MkIII
+-redesigned
+Majestic
+-sprite adjusted
+-cargo reduced to 725
+________________________________________
+Missing Independent Ships 2.0.8a
+Hawk
+-Burn Factor increased to 8
+Gamble
+-Burn Factor increased to 8
+Majestic
++20 OP
+-variant adjusted
+________________________________________
+Missing Indies 2.0.8:
+Gamble:
+speed reduced 42
+-flux capacity reduced to 6000
+-Discription adjusted
+-cargo increased to 300
+-price adjusted to 95000
+Majestic
+-cargo increased to 900
+-armor reduced to 850
+-burn factor reduced to 7
+-Shield upkeep reduced to 360
+-Fuel per jump reduced to 9
+-reclassified as combat freighter
+-maximum crew increased to 800
+-daily cr recovery increased to 3%
+Hawk
+-5500 hull reduced to
+-armor reduced to 350
+-cargo reduced to 120
+-max crew reduced to 600
+-updated description added (though i had already done that quite some time ago)
+Buffalo Mk.III
+-dp reduced to 9 and rec. and maint. harmonised
+-cargo increased to 175
+Nyx
+-montly supplies reduced to 7
+-cargo increased to 120
+cr to deploy adjusted across the board
+________________________________________
+Note: Update timescales wont be added to the update header anymore as individual submod updates have fragmented the version numbers to far.
+________________________________________
+Update 2.0.7 28.10.25-13.11.25:
+All packs
+-crediting of scarface adjusted
+Ship changes
+Hawk:
+-dp lowered to 16
+-made a combat ship
+Nyx
+-civilian tag removed
+Buffalo Mk.III
+-civillian tag removed
+Majestic
+break probability raised to 0,9
+________________________________________
+Hotfix 2.0.6b
+Missing indies
+-reverted mod id back to civies for now
+Hotfix 2.0.6a
+Civilian in gdrive renamed to Independence and updated
+Update 2.0.6 12.10.25-28.10.25
+Modpack changes:
+-Missing Civies renamed to Missing Indies (Reenable the Missing Civies again as the mod will be deactivated)
+New Ships:
+Indies
+Majestic Class
+-Nyx dp reduced to 7
+-Buffalo dp reduced to 9
+CR per deployment lowered to 10%
+CR recovery raised to 5%
+Peak performance lowered to 380 seconds
+________________________________________
+2.0.5a Hotfix:
+-smaller fixes
+________________________________________
+2.0.4-20.04.25-09.05.25:
+Buffalo Mk3: Hangar sprite coverage increased even further.
+________________________________________
+2.0.3 Hotfixes:
+Many many bug fixes.
+2.0.3-07.04.25-20.04.25:
+Ergonomics:
+Added Version Checker intigration added
+Direct download link added to version checker file
+________________________________________
+2.0.2-09.03.25-30.03.25:
+Hawk: Left small missile hardpoint changed into an actual hardpoint. Bounds, shields and collision radius adjusted.
+Website:
+Old thread changed reverted to 0.96 look due to the emergence of legacy mod index.
+New version:
+Special version added with many of the 0.97 changes reverted back and non modular supercapitals, Due to the work starting a few hours befor the 0.98 release it will release in that version.
+________________________________________
+2.0.1-02.01.25-09.03.25 A Hotfix to add somestuff and to fix mistakes you guys or I find is pretty likely. Just keep the last version around in a backup folder for a while.
+________________________________________
+2.0.1-02.01.25-09.03.25
+General Changes:
+-Gamble: Gamble renamed to that. Price adjusted.
+-Warliner: now Hawk class Carrier. Redesigned
+-Buffalo Mk3: sprite improved. 2 small missile launchers added
+Website:
+-Mod icon changed.
+-Link to version 0.9.1 fixed.
+________________________________________
+2.0.0-18.12.2024 IceFire takes over mod.
+-Lots of small things i did befor taking notes or just where not of note not mentioned here.
+-(hopefully) fixed the msm ships blocking other ships from spawning.#
+-Civie Buffalo Tech Level changed to midline, engine style also changed to midline.

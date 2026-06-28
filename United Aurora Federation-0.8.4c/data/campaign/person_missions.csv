@@ -1,0 +1,26 @@
+mission id,person id,tagsAll,tagsAny,tagsNotAny,tags,freq,min timeout,max timeout,min rep,max rep,importance,reqMissionAny,reqMissionAll,reqMissionNone,icon,plugin
+#UAF Custom Contact Missions,,,,,,,,,,,,,,,,
+UAFMimicCustomBounty,,uaf,UAFMimicBountyIssuer,,priority,10,60,120,INHOSPITABLE,,,,,,graphics/icons/missions/military_bounty.png,com.fs.starfarer.api.impl.campaign.missions.cb.UAFMimicCustomBounty
+,,,,,,,,,,,,,,,,
+#Revamped Tilted Dagger Mission,,,,,,,,,,,,,,,,
+UAFTiltedDaggerMission,,,,,,,,,,,,,,,graphics/icons/missions/uaf_tilted_dagger_1.png,com.fs.starfarer.api.impl.campaign.missions.UAFTiltedDaggerMission
+UAFTiltedDaggerMissionPartTwo,,,,,,,,,,,,,,,graphics/icons/missions/uaf_tilted_dagger_2.png,com.fs.starfarer.api.impl.campaign.missions.UAFTiltedDaggerMissionPartTwo
+UAFTiltedDaggerMissionPartThree,,,,,,,,,,,,,,,graphics/icons/missions/uaf_tilted_dagger_3.png,com.fs.starfarer.api.impl.campaign.missions.UAFTiltedDaggerMissionPartThree
+,,,,,,,,,,,,,,,,
+#Project LYNX mission,,,,,,,,,,,,,,,,
+UAFProjectLynxMission,,,,,,,,,,,,,,,graphics/icons/missions/uaf_lynx_quest.png,com.fs.starfarer.api.impl.campaign.missions.UAFProjectLynxMission
+UAFProjectLynxMissionUpgradeOne,,,,,,,,,,,,,,,graphics/icons/missions/uaf_lynx_quest_prestige_1.png,com.fs.starfarer.api.impl.campaign.missions.UAFProjectLynxMissionUpgradeOne
+UAFProjectLynxMissionUpgradeTwo,,,,,,,,,,,,,,,graphics/icons/missions/uaf_lynx_quest_prestige_2.png,com.fs.starfarer.api.impl.campaign.missions.UAFProjectLynxMissionUpgradeTwo
+UAFProjectLynxMissionUpgradeThree,,,,,,,,,,,,,,,graphics/icons/missions/uaf_lynx_quest_prestige_3.png,com.fs.starfarer.api.impl.campaign.missions.UAFProjectLynxMissionUpgradeThree
+,,,,,,,,,,,,,,,,
+#Lingering Echoes,,,,,,,,,,,,,,,,
+UAFLingeringEchoesMission,,,,,,,,,,,,,,,graphics/icons/missions/uaf_lingering_echoes.png,com.fs.starfarer.api.impl.campaign.missions.UAFLingeringEchoesMission
+,,,,,,,,,,,,,,,,
+#Alexandra,,,,,,,,,,,,,,,,
+UAFAlexandraTutorialDeliveryMission,,,,,,,,,,,,,,,graphics/icons/cargo/ore.png,com.fs.starfarer.api.impl.campaign.missions.UAFAlexandraTutorialDeliveryMission
+#Her repeatable missions,,,,,,,,,,,,,,,,
+UAFAlexandraDeadDropMission,,,uaf_alexandra_missions,,priority,10,40,90,NEUTRAL,,,,,,graphics/icons/missions/dead_drop.png,com.fs.starfarer.api.impl.campaign.missions.UAFAlexandraDeadDropMission
+#UAFAlexandraProcurementMission,,,uaf_alexandra_missions,,priority,30,30,70,NEUTRAL,,,,,,graphics/icons/missions/procurement.png,com.fs.starfarer.api.impl.campaign.missions.UAFAlexandraProcurementMission
+UAFAlexandraExtractionMission,,,uaf_alexandra_missions,,priority,20,30,60,NEUTRAL,,,,,,graphics/icons/missions/extraction.png,com.fs.starfarer.api.impl.campaign.missions.UAFAlexandraExtractionMission
+UAFAlexandraSpysatDeploymentMission,,,uaf_alexandra_missions,,priority,15,30,60,NEUTRAL,,,,,,graphics/icons/missions/spysat.png,com.fs.starfarer.api.impl.campaign.missions.UAFAlexandraSpysatDeploymentMission
+,,,,,,,,,,,,,,,,

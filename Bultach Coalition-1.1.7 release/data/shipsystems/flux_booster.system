@@ -1,0 +1,45 @@
+{
+	"id":"flux_booster",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.scripts.shipsystems.FluxBoosterStats",
+	
+	"engineGlowColor":[225,255,225,245],
+	"engineGlowContrailColor":[46,57,49,59],
+	"engineGlowLengthMult":1.25,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":1.25,
+
+	"jitterUnderColor":[225,255,225,245],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":5,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,140,60,65],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":2,
+	"jitterRangeRadiusFraction":0,
+	
+	#"weaponGlowColor":[255,200,0,155],
+	#"weaponTypes":[BALLISTIC],
+	
+	"flameoutOnImpactChance":0.15,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+	"alwaysAccelerate":false,
+
+	"useSound":"fluxbooster_active",
+	#"loopSound":"fluxbooster_active",
+	#"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":250,
+		"burstMovementPotential":500,
+		"averageSpeedIncrease":250,
+	}
+}

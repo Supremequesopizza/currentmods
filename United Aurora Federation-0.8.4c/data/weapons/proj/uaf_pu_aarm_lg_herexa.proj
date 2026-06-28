@@ -1,0 +1,22 @@
+{
+	#this is for anti armor large-orange color
+	"id":"uaf_pu_aarm_lg_herexa",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":120.0,
+	"hitGlowRadius":75,
+	"width":12.5,
+	"fadeTime":0.30,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[255, 144, 66,240],
+	"coreColor":[255,255,175,240],	
+	"glowColor":[255, 144, 66,30],	
+	"textureScrollSpeed":64.0,
+	"glowRadius": 80,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large.png",
+	#"onFireEffect":"data.scripts.weapons.uaf_herexaOnFire"
+}

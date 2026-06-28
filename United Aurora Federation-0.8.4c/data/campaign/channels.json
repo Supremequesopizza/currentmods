@@ -1,0 +1,48 @@
+{
+        "defaultChannels":[
+                "uaf_d_public",
+				"uaf_b_public",
+        ],
+        
+	"uaf_d_public":{
+		"name":"UAF Wave Network",
+		"logo":"graphics/uaf/icons/intel/aurora_public.png",
+		"icon":"graphics/uaf/icons/intel/aurora_public.png",
+		"image":"graphics/uaf/faction/flags/aurora.png",
+		"sound":"ui_channel_news",
+		"faction":"uaf_d",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"uaf_d_internal":{
+		"name":"UAF CommSec",
+		"logo":"graphics/uaf/icons/intel/aurora_intelligence.png",
+		"icon":"graphics/uaf/icons/intel/aurora_intelligence.png",
+		"image":"graphics/uaf/faction/flags/aurora.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"uaf_d",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+	
+	"uaf_b_public":{
+		"name":"UAF Wave Network",
+		"logo":"graphics/uaf/icons/intel/aurora_public.png",
+		"icon":"graphics/uaf/icons/intel/aurora_public.png",
+		"image":"graphics/uaf/faction/flags/aurora.png",
+		"sound":"ui_channel_news",
+		"faction":"uaf_b",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"uaf_b_internal":{
+		"name":"UAF CommSec",
+		"logo":"graphics/uaf/icons/intel/aurora_logistic_public.png",
+		"icon":"graphics/uaf/icons/intel/aurora_logistic_intelligence.png",
+		"image":"graphics/uaf/faction/flags/aurora_logistic.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"uaf_b",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}

@@ -1,0 +1,26 @@
+{
+	"combatSmall":{
+		"missp_path_wolf_raider":5,
+		"missp_path_mudskipper_Standard":5,
+		"missp_path_wolf_standard":5,
+	},
+	"combatLarge":{
+		"missp_path_dominator_Standard":1,
+		"missp_atlas_mk4_artillery":3,
+		"missp_atlas_mk4_bombardment":1,
+		"missp_atlas_mk4_elite":2,
+		"missp_atlas_mk4_standard":4,
+	},
+	"smallTrader":{
+		"missp_path_hermes_Standard":4,
+		"missp_path_mercury_Standard":4,
+	},
+	"combatFreighterMedium":{
+		"missp_path_mule_Standard":6,
+	},
+	"carrierMedium":{
+		"missp_path_condor_Standard":6,
+		"missp_path_starliner_Standard":5,
+	},
+	
+}

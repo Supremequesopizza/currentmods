@@ -1,0 +1,81 @@
+{
+  "hullName": "Mudskipper (Path)",
+  "hullId": "missp_path_mudskipper",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mudskipper/missp_path_mudskipper3.png",
+  "style": "LOW_TECH",
+  "height": 84,
+  "width": 64,
+  "center": [32, 42],
+  "collisionRadius": 62.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 55.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "ill_advised",
+    "safetyoverrides"
+  ],
+  "builtInWeapons": {
+    "WS0001": "hammerrack"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, -0],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, 25],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -25],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [17, 27],
+      "length": 16,
+      "width": 8,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [17, -27],
+      "length": 16,
+      "width": -8,
+      "angle": -150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -38.5, -30.5,
+    37, -28.5,
+    37, 28.5,
+    -38.5, 30.5
+  ]
+}

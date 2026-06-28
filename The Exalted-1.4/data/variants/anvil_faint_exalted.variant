@@ -1,0 +1,39 @@
+{
+  "variantId": "anvil_faint_exalted",
+  "hullId": "anvil_faint",
+  "displayName": "Exalted",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_ecto"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_aire",
+        "WS0004": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "anvil_varna"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

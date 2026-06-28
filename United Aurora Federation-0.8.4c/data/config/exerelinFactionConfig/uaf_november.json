@@ -1,0 +1,15 @@
+{
+    "playableFaction":false,
+    "startingFaction":false,
+    "corvusCompatible":true,
+    "spawnAsFactionId":"uaf",
+    "rebelFleetSuffix":"Turncoats",
+    "startRelationships":{ "uaf":1 },
+
+    "invasionFleetName":"Auroran Invasion Royal Fleet",
+    "responseFleetName":"Auroran Defense Royal Fleet",
+    "invasionSupportFleetName":"Auroran Support Royal Squadron",
+    "defenceFleetName":"Defense Royal Fleet",
+
+    "morality":"good"
+}

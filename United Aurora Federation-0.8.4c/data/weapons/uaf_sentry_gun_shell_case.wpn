@@ -1,0 +1,16 @@
+{
+	"id":"uaf_sentry_gun_shell_case",
+	"specClass":"projectile",
+	"type":"SYSTEM",
+	"size":"SMALL",
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"hardpointOffsets":[0, 0],
+	"turretOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"turretAngleOffsets":[0],
+	"barrelMode":"ALTERNATING",
+	"interruptibleBurst":false,
+	"animationType":"NONE",
+	"projectileSpecId":"uaf_sentry_gun_shell_case_shot",
+}

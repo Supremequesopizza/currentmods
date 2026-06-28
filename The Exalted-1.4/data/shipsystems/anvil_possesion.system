@@ -1,0 +1,42 @@
+{
+	"id":"anvil_possession",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.anvil_possession",
+
+	"jitterUnderColor":[140,140,140,155],
+	"jitterUnderCopies":35,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[140,140,140,55],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+	
+	"engineGlowColor":[166, 166, 166,105],
+	"engineGlowContrailColor":[106, 106, 106, 155],
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":2,
+        "weaponGlowColor":[66, 66, 66,50],
+	"weaponTypes":[ENERGY],
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":30,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":25,
+	}
+}

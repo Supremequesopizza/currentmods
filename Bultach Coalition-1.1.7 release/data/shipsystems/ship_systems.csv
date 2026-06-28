@@ -1,0 +1,63 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sanctified Leap,bt_pather_tele,,,,,,,,,0.1,3,,0.40,25,,TRUE,,TRUE,TRUE,,,,TRUE,TRUE,TRUE,,
+Burner Drive,burnerdrive,1,,,,,,,,,2,5,1,12,TRUE,,,,FALSE,FALSE,TRUE,TRUE,TRUE,,,,
+Phase Interdictor,phase_interdict,,,,,,0.20,,1,0.1,0.5,,1,,,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+EMP Burst,zapstrike,,,,,,0.1,,,,1,,0.5,10,,,,,,,,,,,,,
+Temporal Stutter,temporalvault,500,,,,,,,,,0,1,3,18,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,,,
+Advanced Temporal Stutter,advtemporalvault,500,,,,,,,2,0.05,0,2,3,5,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,,,
+Flux Booster,flux_booster,,,,,,,,3,0.1,0.5,1,0.85,0.85,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,,,graphics/icons/hullsys/burn_drive.png
+Lasair Drive,rammingdrive,,,,,.2,,,,,3.4,3,1,18.6,,,,,,,TRUE,,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Assault Burn,bt_assault_burn,,,,,,,,,,2,10,5,15,TRUE,,,,,,TRUE,FALSE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Interdiction Lash,bt_antiphase_energy_lash,,,,,,0.15,,3,0.05,0.65,,0.35,,,,,,,,,,,,,"offensive, defensive",graphics/icons/hullsys/energy_lash.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Dump,antimatter_dump,100,,,,,,,,,0.25,3,0.5,15,,,,TRUE,TRUE,,TRUE,TRUE,TRUE,TRUE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Atomic Tackle,bt_atomictackle,,,,2500,,,,,,2.6,2,1,5,,,,,,,TRUE,,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Jet Burst,bt_engine_burn,,,,,,,,3,0.15,0.15,.15,0.7,1,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Jet Burst,bt_engine_burn_small,,,,,,,,3,0.15,0.15,.15,0.7,1,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Aegis Drone Launcher,bt_healerdem_system,,,,2000,,,,3,0.033,,,,8,,,,,,,,,,,,defensive,graphics/icons/hullsys/flare_launcher.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Repulsor,bt_repulsor,50,0.5,,,,,,1,10,1,10,1,10,,,,,,,,,,,,,
+Holy Charge,bt_holy_charge,500,,,,,0.1,,,0.2,0.25,7.5,5,25,,,,,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,,,graphics/icons/hullsys/burn_drive.png
+Phase Incursion,bt_forcedphase,200,,,2500,,,,,,.1,5.5,0.1,8.3,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,,,TRUE,TRUE,TRUE,,graphics/icons/hullsys/temporal_shell.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Offensive Overdrive,bt_offensive_overdrive,,,,,,,,,,0.5,,1,7,TRUE,,,,,FALSE,FALSE,FALSE,FALSE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Twin Shields,bt_sathar_shield,,,,,,,,,,0.1,,0.1,3,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,,defensive,graphics/icons/hullsys/fortress_shield.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Cloak (BT),bt_fac_phasecloak,,,,,,,,,,0.5,,0.1,4.4,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,defensive,graphics/icons/hullsys/phase_cloak.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Magnetic Pulse,bt_yoinker,,,,,,0.1,,,,3,3,0.5,8,,,,,,,,,,,,,
+Aegis Defense Field,bt_aegis,,,,2000,,,,,0.05,3,15,5,15,,,,,,,,,,,,,
+Aegis Defense Field,bt_aegis_unique,,,,2000,,,,,0.05,3,15,5,15,,,,,,,,,,,,,
+Damper Field,bt_mech_damper,1,,,,,,,2,0.08,0.25,2,0.25,0,,,,,FALSE,,,,TRUE,TRUE,,,
+Orion Charge,offensive_orion_device,,,,,,,,,,0,8,0,8,,,,,,TRUE,TRUE,TRUE,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Temporal Jaunt,bultach_dash,,0.2,,,,,,2,.03,2,5,0.1,3,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,,,graphics/icons/hullsys/displacer.png
+Temporal Assault,bultach_dash_angry,,0.2,,,,,,,,2.4,7.5,0.1,20,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,,,graphics/icons/hullsys/displacer.png
+Reckoning,bt_reckoning,,,,,,,,,,3,0,.5,32,,,,FALSE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/displacer.png
+Entropy Redirector,bt_divine_energy_redirector,,,,,0.3,,,,,,1.5,3.5,13,,,,TRUE,FALSE,,,,TRUE,FALSE,,,graphics/icons/hullsys/displacer.png
+Righteous Fury,bt_fervent_charge,1,,,,,,,,,2,6,1,11,TRUE,,,TRUE,,,TRUE,,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Convergence,bt_convergence_swarm,,,,8000,,,,3,.02,0.1,1.5,1.5,11.9,,,,,,,,,,,,,graphics/hullmods/bt_convergence.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rampage Burn,bt_rampage,1,,,,,0.1,,,,0.40,6,5,15,,,,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Phase Interdictor,phase_interdict_field,,,,,,0.20,,1,0.1,0.5,,1,,,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+Ammo Dump,bt_over_ammofeed,,,,,,,,,,1,6,1,15,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Flare Launcher,bt_derelict_flarelauncher,,,,,,,,3,0.1,,,,3,,,,,,,,,,,,defensive,graphics/icons/hullsys/flare_launcher.png
+Fury of the Faithful,bt_safetyoverrides_toggle,,,,,,,0.03,,,0.5,,1,9,TRUE,,,,,FALSE,FALSE,FALSE,FALSE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Combat Mode Switch,bt_combatmode_switch,,,,,,,,2,,0.5,,,0.5,,,,,,,,,,,,"defensive, offensive",graphics/icons/hullsys/temporal_shell.png
+Overcharged EMP Emitter,bt_vocifer_emp,200,,,,,0.2,,,,0.25,5,0.25,14.5,TRUE,,,,FALSE,,,,,,,"defensive, offensive",graphics/icons/hullsys/emp_emitter.png
+Burst Temporal Shell ,bt_pirate_tempshell,1,,,,,0.15,,2,0.04,1.5,5,1.5,0.5,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Emergency Self-Repair,bt_meshuga_repair,,,,,,0.25,,3,,0.5,12,0.5,25,,,,,FALSE,,,,TRUE,FALSE,,defensive,graphics/icons/hullsys/damper_field.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EXPLOSIVE PUNCH!,bt_explosive_punch,,,,,,,,0,,0,0.1,,0.5,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reality Skimmer,bt_protogestalt_dive,1,,,,0.3,0.1,,3,,0.1,3,0.1,8,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,,,TRUE,TRUE,,,graphics/icons/hullsys/displacer.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,227 @@
+{
+  "hullName": "Nakiha(SP)",
+  "hullId": "uaf_ai_nakiha",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Nakiha_AI.png",
+  "style": "MIDLINE",
+  "height": 152,
+  "width": 112,
+  "center": [56, 71.5],
+  "collisionRadius": 112,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 87.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "uaf_atmospheric_entry"
+  ],
+  "builtInWeapons": {
+    "BRIDGELEFT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGELEFT_BLINKER_2": "uaf_blinker_sirene_2",
+    "BRIDGERIGHT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGERIGHT_BLINKER_2": "uaf_blinker_sirene_2",
+    "WS0007": "uaf_clemente_nakiha",
+    "WS0008": "uaf_clemente_nakiha"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-7.5, 18],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-7.5, -18],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [10.5, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [35.5, -0],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": -0,
+      "locations": [12.5, -27.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [12.5, 27.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-11, 39]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-11, -39]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-18, 13.5]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-18, -13.5]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-25, -13.5]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-25, 13.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60.5, -0],
+      "length": 69.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-32.5, 29],
+      "length": 27,
+      "width": 14,
+      "angle": 153.5,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-32.5, -28.5],
+      "length": 27,
+      "width": 14,
+      "angle": -153.5,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-53, 15.5],
+      "length": 26,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-53, -15.5],
+      "length": 26,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-60.5, 5],
+      "length": 26,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-60.5, -5],
+      "length": 26,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -60.5, 8,
+    -52, 19,
+    -40.5, 22.5,
+    -28.5, 33,
+    -28.5, 41.5,
+    -17, 41.5,
+    -11.5, 32.5,
+    21.5, 32.5,
+    23.5, 30,
+    23.5, 21,
+    33.5, 22.5,
+    52.5, 13,
+    77.5, 5,
+    77.5, -5,
+    52.5, -13,
+    33.5, -22.5,
+    23.5, -21,
+    23.5, -30,
+    21.5, -32.5,
+    -11.5, -32.5,
+    -17, -41.5,
+    -28.5, -41.5,
+    -28.5, -33,
+    -40.5, -22.5,
+    -52, -19,
+    -60.5, -8
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "uaf_fw_awp_class_i_revamped",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_bomb_awp_1",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    -1.5,
+    16.5,
+    -1.5,
+    -16.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    10,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "NONE",
+  "fireSoundTwo": "uaf_awp_drop"
+}

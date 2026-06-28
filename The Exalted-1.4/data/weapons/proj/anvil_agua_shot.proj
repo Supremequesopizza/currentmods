@@ -1,0 +1,17 @@
+{
+	"id":"anvil_agua_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":45.0,
+	"width":30.0,
+	"fadeTime":0.25,
+	"fringeColor":[3, 65, 255,255],
+	"coreColor":[3, 33, 127,255],
+	#"coreColor":[175,175,175,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0	
+}

@@ -1,0 +1,37 @@
+{
+	"id":"bt_convergence_swarm",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.convergence.ConvergenceSwarmSystemAI",	
+	
+	"runScriptWhileIdle":true,
+	#"canUseWhileRightClickSystemOn":true,
+	
+	"statsScript":"data.scripts.shipsystems.convergence.bt_divine_convergence_SystemScript",
+
+	"jitterUnderColor":[255,255,255,235],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":9,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,255,255,35],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+	
+	"useSound":"bt_convergence_start",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1500,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

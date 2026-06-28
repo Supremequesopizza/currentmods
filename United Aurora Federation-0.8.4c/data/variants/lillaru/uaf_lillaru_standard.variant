@@ -1,0 +1,65 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "uaf_lillaru",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "targetingunit"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_lillaru_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_cyrexa_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "uaf_clemente_s_mrm_double",
+                "WS0008": "uaf_exoscar_torpedo_base",
+                "WS0007": "uaf_exoscar_torpedo_base"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "uaf_selemene_m_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "uaf_medlav_dual",
+                "WS0003": "uaf_medlav_dual",
+                "WS0012": "uaf_ivory"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0016": "uaf_medlav_dual",
+                "WS0002": "uaf_weiss_flk",
+                "WS0001": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_pd_reina",
+                "WS0010": "uaf_cantata_cn",
+                "WS0009": "uaf_cantata_cn"
+            }
+        }
+    ]
+}

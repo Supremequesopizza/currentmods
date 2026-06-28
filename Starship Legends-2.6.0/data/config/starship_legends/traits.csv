@@ -1,0 +1,62 @@
+id,bonus_desc,bonus_name,malus_desc,malus_name,base_bonus,desc,chance,applicable_to_fleets,tags,required_hullmods,incompatible_hullmods,bonus_desc_ai,bonus_name_ai,malus_desc_ai,malus_name_ai,bonus_desc_bio,bonus_name_bio,malus_desc_bio,malus_name_bio
+loyalty,Having a,Trusting Crew,Having a,Cynical Crew,5,loyalty improvement rate,1,FALSE,"CREW, LOYALTY",,,Having a,Cooperative AI Persona,Having a,Willful AI Persona,Being,Cooperative,Being,Willful
+cr_cap,Having a,Fastidious Crew,Having a,Sloppy Crew,1,CR limit,1,FALSE,CREW,,,Having,Optimized Automated Systems,Having,Deficient Automated Sysems,Being,Disciplined,Being,Undisciplined
+cr_recovery,Having an,Industrious Crew,Having a,Lazy Crew,4,CR recovery speed,1,FALSE,CREW,,,Having a,Focused AI Persona,Having a,Passive AI Persona,Being,Vigorous,Being,Lethargic
+loyalty_loss_rugged,Having an,Unshakable Crew,,,-8,chance to lose loyalty,3,FALSE,"CREW, LOYALTY",rugged,,Having an,Unshakable AI Core,,,Being,Unshakable,,
+loyalty_loss,Having a,Resilient Crew,Having an,Unforgiving Crew,-5,chance to lose loyalty,1,FALSE,"CREW, LOYALTY",,rugged,Having a,Stable AI Core,Having an,Unstable AI Core,Being,Resilient,Having,Unstable Behaviour
+peak_cr_time,Having a,Dauntless Crew,Having a,Spineless Crew,2,peak performance time,1,TRUE,"COMBAT, CREW",,,Having,Resilient Automated Systems,Having,Fragile Automated Systems,Being,Dauntless,Being,Fearful
+repair,Having,Skilled Mechanics,Having,Inept Mechanics,3,repair rate,1,TRUE,"COMBAT, CREW",,,Having an,Optimized Repair System,Having a,Deficient Repair System,Being a,Fast Healer,Being a,Slow Healer
+malfunction,Being,Reliable,Being,Unreliable,-4,chance of malfunctions,1,TRUE,COMBAT,,,,,,,,,,
+crew_casualties,Being,Safe,Being a,Death Trap,-3,crew casualties,1,FALSE,"DEFENSE, NO_AI",,,,,,,Having,Safe Personnel Cavities,Having,Hazardous Personnel Cavities
+mount_durability,Having,Durable Mounts,Having,Fragile Mounts,4,weapon durability,1,TRUE,"COMBAT, ATTACK",,,,,,,Having,Durable Symbiote Sockets,Having,Fragile Symbiote Sockets
+engine_durability,Having,Durable Engines,Having,Fragile Engines,4,engine durability,1,TRUE,COMBAT,,,,,,,Having,Reliable Locomotion,Having,Unreliable Locomotion
+hull_integrity,Being,Durable,Being,Fragile,2,hull integrity,1,TRUE,"COMBAT, DEFENSE",,,,,,,,,,
+armor_strength,Having,Strong Armor,Having,Weak Armor,1,armor,1,TRUE,"COMBAT, DEFENSE",,,,,,,Having a,Strong Carapace,Having a,Weak Carapace
+emp_resistance,Being,Robust,Being,Glitchy,3,EMP resistance,1,TRUE,COMBAT,,,,,,,Being,Robust,Being,Clumsy
+recovery_chance,Being,Unbreakable,Being,Doomed,5,recovery chance,2,FALSE,SUPERSTITION,,,,,,,,,,
+dmod_effect,Being,Battle Scarred,Being a,Scrap Heap,-4,effects from lasting damage,2,TRUE,"DMOD, SUPERSTITION",,,,,,,,,Being,Sickly
+dmod_integrity,Being,Rugged,Being,Fractured,1,hull integrity per lasting damage,2,TRUE,DMOD,,,,,,,Being,Tough,Being,Frail
+cursed,,,Being,Cursed,-0.5,spontaneous malfunction chance,0.25,TRUE,"NO_AI, COMBAT, SUPERSTITION",,,,,,,,,,
+phase_mad,,,causing,Phase Madness,-2,malfunction chance while phased,0.5,TRUE,"CLOAK, CREW, NO_AI, COMBAT",phasefield,,,,,,,,,
+engine_power,Having,Powerful Engines,Having,Weak Engines,1,top speed,1,TRUE,COMBAT,,,,,,,Being,Fast,Being,Slow
+maneuverability,Being,Agile,Being,Clunky,3,maneuverability,1,TRUE,COMBAT,,,,,,,,,,
+sensor_strength,Having a,Vigilant Crew,Having an,Oblivious Crew,2,sensor strength,1,FALSE,"LOGISTICAL, CREW",,,Having a,Perceptive AI Persona,Having a,Complacent AI Persona,Being,Vigilant,Being,Oblivious
+sensor_profile,Being,Well Insulated,Being,Poorly Insulated,-2,sensor profile,1,FALSE,LOGISTICAL,,"phasefield, drive_field_stabilizer",,,,,Being,Hard to Detect,Being,Easy to Detect
+cargo_capacity,Having,Ample Cargo Holds,,,3,cargo capacity,1,FALSE,"LOGISTICAL, FLAT_EFFECT",,,,,,,Having,Ample Cargo Pouches,,
+fuel_efficiency,Being,Fuel Efficient,Being a,Fuel Guzzler,-2,fuel use,1,FALSE,LOGISTICAL,,,,,,,,,,
+fuel_capacity,Having,Ample Fuel Tanks,,,3,fuel capacity,1,FALSE,"LOGISTICAL, FLAT_EFFECT",,,,,,,Having,Ample Fuel Sacs,,
+supply_upkeep,Having a,Resourceful Crew,Having a,Wasteful Crew,-2,supplies per month,1,FALSE,"LOGISTICAL, CREW",,,Having,Optimized Logistical Systems,Having,Deficient Logistical Systems,Being,Resourceful,Being,Wasteful
+salvage,Having a,Skilled Salvage Team,,,1,post-battle salvage,2,FALSE,"LOGISTICAL, CREW, NO_AI",repair_gantry,,,,,,Having,Skilled Salvage Symbiotes,,
+pd_range,Having,Vigilant PD Spotters,Having,Oblivious PD Spotters,2,point defense weapon range,1,TRUE,"DEFENSE, COMBAT, CREW, TURRET",,,Having,Optimized PD Tracking,Having,Deficient PD Tracking,Having,Receptive PD Feelers,Having,Unreceptive PD Feelers
+pd_damage,Having,Skilled PD Gunners,Having,Inept PD Gunners,3,damage to missiles & fighters,1,TRUE,"DEFENSE, COMBAT, CREW, TURRET",,,Having,Optimized PD Analysis,Having,Deficient PD Analysis,Having,Precise PD Symbiotes,Having,Imprecise PD Symbiotes
+damage,Being,Deadly,Being,Harmless,1,damage,1,TRUE,"ATTACK, COMBAT",,,,,,,,,,
+weapon_stability,Having,Stable Hardpoints,Having,Rickety Hardpoints,-3,weapon recoil,1,TRUE,"ATTACK, COMBAT",,,,,,,Having,Stable Joints,Having,Rickety Joints
+turret_rotation,Having,Fast Turret Gyros,Having,Slow Turret Gyros,4,weapon turn rate,1,TRUE,"ATTACK, COMBAT, TURRET",,,,,,,Having,Fast Twitch Muscles,Having,Slow Twitch Muscles
+range,Having an,Overclocked Targeting Unit,Having a,Worn-out Targeting Unit,1,weapon range,1,TRUE,"ATTACK, COMBAT",,,,,,,Having,Keen Targeting Senses,Having,Dull Targeting Senses
+missile_guidance,Having a,Reliable Missile Forge,Having an,Unreliable Missile Forge,3,missile maneuvering,1,TRUE,"ATTACK, COMBAT, MISSILE",,,,,,,Having,Reliable Missile Regrowth,Having,Unreliable Missile Regrowth
+missile_reload,Having,Fast Missile Loaders,Having,Slow Missile Loaders,4,missile rate of fire,1,TRUE,"ATTACK, COMBAT, MISSILE",,,,,,,Having,Fast Missile Venules,Having,Slow Missile Venules
+ammo_regen,Having a,Rapid Ammo Forge,Having a,Sluggish Ammo Forge,2,ammo regen rate,1,TRUE,"ATTACK, COMBAT, SYNERGY",,,,,,,Having,Rapid Ammo Regrowth,Having,Sluggish Ammo Regrowth
+ammo_capacity,Having,Large Ammo Hoppers,Having,Small Ammo Hoppers,4,ammo capacity,1,TRUE,"ATTACK, COMBAT, SYNERGY",,,,,,,Having,Large Ammo Pouches,Having,Small Ammo Pouches
+ballistics_rof,Having,Rapid Ammo Feeders,Having,Slow Ammo Feeders,2,ballistic weapon rate of fire,1,TRUE,"ATTACK, COMBAT, BALLISTIC",,,,,,,Having,Rapid Ammo Feeders,Having,Slow Ammo Feeders
+energy_cost,Having,Efficient Flux Adapters,Having,Inefficient Flux Adapters,-2,energy weapon flux usage,1,TRUE,"ATTACK, COMBAT, ENERGY",,,,,,,Having an,Efficient Flux Bladder,Having an,Inefficient Flux Bladder
+fighter_damage,Having,Deadly Pilots,Having,Harmless Pilots,1,fighter damage,1,TRUE,"CARRIER, CREW, ATTACK, COMBAT",,,Having,Optimized Drone Targetting,Having,Deficient Drone Targetting,Having a,Deadly Symbiote Colony,Having,Harmless Symbiote Colony
+fighter_speed,Having,Daring Pilots,Having,Timid Pilots,2,fighter speed,1,TRUE,"CARRIER, CREW, COMBAT",,,Having,Optimized Flight Coordination,Having,Deficient Flight Coordination,Having a,Daring Symbiote Colony,Having a,Timid Symbiote Colony
+fighter_durability,Having,Quality Fighter Maintenance,Having,Shoddy Fighter Maintenance,2,fighter durability,1,TRUE,"CARRIER, CREW, COMBAT",,,Having,Optimized Drone Maintenance,Having,Deficient Drone Maintenance,Having,Developed Symbiote Nursing,Having,Regressed Symbiote Nursing
+refit_time,Having,Efficient Flight Decks,Having,Inefficient Flight Decks,-2,fighter refit time,1,TRUE,"CARRIER, COMBAT",,,,,,,Having an,Efficient Symbiote Colony,Having an,Inefficient Symbiote Colony
+overload_time,Having a,Stable Flux Core,Having a,Volatile Flux Core,-4,overload duration,1,TRUE,COMBAT,,phasefield,,,,,Having a,Stable Flux Bladder,Having a,Volatile Flux Bladder
+flux_capacity,Having,Powerful Capacitors,Having,Weak Capacitors,1,flux capacity,1,TRUE,"COMBAT, FLUX",,,,,,,Having,Strong Capacitor Capillaries,Having,Weak Capacitor Capillaries
+flux_dissipation,Having,Efficient Flux Vents,Having,Inefficient Flux Vents,1,flux dissipation,1,TRUE,"COMBAT, FLUX",,,,,,,Having,Efficient Flux Glands,Having,Inefficient Flux Glands
+vent_rate,Having,Rapid Vent Valves,Having,Sluggish Vent Valves,2,vent rate,1,TRUE,"COMBAT, FLUX",,safetyoverrides,,,,,Having,Rapid Vent Glands,Having,Sluggish Vent Glands
+shield_raise_rate,Having a,Rapid Shield Emitter,Having a,Sluggish Shield Emitter,3,shield raise rate,1,TRUE,"SHIELD, DEFENSE, COMBAT",,shield_shunt,,,,,,,,
+shield_stability,Having,Stable Shields,Having,Unstable Shields,-4,shield upkeep,1,TRUE,"SHIELD, DEFENSE, COMBAT, FLUX",,shield_shunt,,,,,,,,
+shield_strength,Having,Powerful Shields,Having,Weak Shields,-1,damage taken by shields,1,TRUE,"SHIELD, DEFENSE, COMBAT",,shield_shunt,,,,,,,,
+phase_cost,Having,Efficient Phase Coils,Having,Inefficient Phase Coils,-1,phase cloak flux cost,1,TRUE,"CLOAK, DEFENSE, COMBAT, FLUX",,,,,,,Having,Efficient Phase Organs,Having,Inefficient Phase Organs
+phase_cooldown,Having a,Quick Phase Cloak,Having a,Slow Phase Cloak,-2,phase cloak cooldown,1,TRUE,"CLOAK, DEFENSE, COMBAT",,,,,,,,,,
+survey,Having a,Skilled Survey Team,Having an,Inept Survey Team,-1,supplies required for surveys,2,FALSE,"LOGISTICAL, FLAT_EFFECT, CREW, NO_AI",surveying_equipment,,,,,,Having,Reliable Scout Symbiotes,Having,Unreliable Scout Symbiotes
+blockade_runner,Being a,Blockade Runner,,,3,speed boost at zero flux,3,TRUE,,shielded_holds,,,,,,Having,High Endurance,,
+drive_stabilizer,Having a,Cool-running Drive Stabilizer,Having a,Hot-running Drive Stabilizer,-5,sensor profile,3,FALSE,"LOGISTICAL, FLAT_EFFECT",drive_field_stabilizer,,,,,,Being,Well Camouflaged,Being,Poorly Camouflaged
+command_support,Providing,Comm Support,,,1,CP recovery while deployed,2,FALSE,"FLAT_PERCENT, LOGISTICAL",civgrade,,,,,,,,,
+nav_support,Providing,Nav Support,,,0.2,navigation bonus while deployed,2,FALSE,"FLAT_EFFECT, LOGISTICAL",civgrade,,,,,,,,,
+ecm_support,Providing,ECM Support,,,0.2,ECM bonus while deployed,2,FALSE,"FLAT_EFFECT, LOGISTICAL",civgrade,,,,,,,,,
+system_cooldown,Having a,Fast Ship System,Having a,Delayed Ship System,-2,system cooldown,1,FALSE,SYSTEM,,,,,,,Having a,Fast Creature Ability,Having a,Delayed Creature Ability
+system_regen_rate,Having a,Rapid Ship System,Having a,Sluggish Ship System,2,system regen rate,1,FALSE,SYSTEM,,,,,,,Having a,Rapid Creature Ability,Having a,Sluggish Creature Ability

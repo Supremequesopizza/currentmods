@@ -1,0 +1,475 @@
+{
+	"Options":{
+		"leave":"Leave",
+		"back":"Back",
+		"confirm":"Confirm",
+		"cancel":"Cancel",
+		"previouspage":"Previous Page",
+		"nextpage":"Next Page",
+		"repurchase": "Purchase the upgrade again"
+	},
+	"BandwidthName":{
+		"terrible":"(terrible)",
+		"crude":"(crude)",
+		"poor":"(poor)",
+		"normal":"(normal)",
+		"good":"(good)",
+		"superior":"(superior)",
+		"pristine":"(pristine)",
+		"ultimate":"(ultimate)",
+		"perfect":"(perfect)",
+		"unknown":"(???)"
+	},
+	"CommonOptions": {
+		"ExpandExotics": "Press &F1& to show more exotic information.",
+		"ExpandUpgrades": "Press *F2* to show more upgrade information.",
+		"UnexpandInfo": "Press *any key* to show less information.",
+		"PreviousPage": "Previous page",
+		"NextPage": "Next page",
+		"ResourcesHeader": "Resources",
+		"CreditsText": "*${credits}*",
+		"CreditsTextWithCost": "*${credits}* (=${cost}=)",
+		"CreditsCost": "=${credits}= credits",
+		"CreditsPay": "*${credits}* credits",
+		"ResourceText": "${name}: *${amount}*",
+		"ResourceTextWithCost": "${name}: *${amount}* (=${cost}=)",
+		"SpecialItemText": "&${name}&: ${amount}",
+		"SpecialItemTextWithCost": "&${name}&: ${amount} (=${cost}=)",
+		"SpecialItemTextWithPay": "&${name}&: ${amount} (*${cost}*)",
+
+		"BandwidthWithExoticsForShip": "Ship bandwidth: *${shipBandwidth}* (*${exoticBandwidth}* from exotics)",
+		"BandwidthForShip": "Ship bandwidth: *${shipBandwidth}*",
+		"UsedBandwidthForShip": "Used bandwidth: *${usedBandwidth}* of ${allBandwidth}",
+
+		"BandwidthUsed": "*${usedBandwidth}* used",
+		"BandwidthUsedByUpgrade": "*${upgradeBandwidth}*",
+		"StoryPointCost": "*${storyPoints} story points*",
+
+		"MustBeDockedAtMarket": "=Must be docked at market=",
+		"InStockCount": "${count} in cargo",
+		"ESCToClose": "Press ESC to close."
+	},
+	"FleetScanner": {
+		"ShipBandwidthShort": "Bandwidth: *${bandwidth}*",
+		"ShipHasBandwidth": "*${name}* has an outstanding bandwidth of *${bandwidth}*. It doesn't have any modifications that use it.",
+		"ShipHasUpgrades": "*${name}* has a usable bandwidth of *${bandwidth}*. It also has other modifications, which are listed below. You can hover over one of them to see a description of the modification.",
+		"UpgradeNameWithLevelAndMax": "*${upgradeName}* (${level}/${max})",
+		"DebrisFieldHasNotableMods": "Upon closer inspection, the ships in the debris field appear to have signs of *Exotica technologies*.",
+		"ExoticHeader": "Exotics",
+		"UpgradeHeader": "Upgrades",
+		"NotableShipsHeader": "Notable ships",
+		"ModsMissingText": "Upon a closer inspection by your intelligence officer, a small anomaly within the search results indicates to both of you now that =the ship has no Exotica technologies= installed. They aren't able to give a clear explanation why this was missed, only mentioning that a faint humming may have distracted them.",
+		"FleetScanOption": "Scan the fleet for Exotica technologies",
+		"DebrisFieldScanOption": "Scan the debris field for Exotica technologies"
+	},
+	"MarketMenu": {
+		"Title": "Exotica Chip Market",
+		"CreditsText": "You have *${credits}*.",
+		"MenuText": "Purchasing the selected chips will cost *${credits}*.",
+		"MenuTextCannotAfford": "Purchasing the selected chips will cost *${credits}*, which you cannot afford.",
+		"PurchasedText": "You purchased Exotica chips for *${credits}*."
+	},
+	"MainMenu": {
+		"UpgradeShips": "Consider upgrading a ship.",
+		"ShipModMenu": "Modification Menu",
+		"BackToMainMenu": "Return to the main market."
+	},
+	"ShipDialog": {
+		"BackToShip": "Consider other options to modify the ship.",
+		"OpenedDialog": "The on-site engineering team is ready to assist you with this ship."
+	},
+	"ShipListDialog": {
+		"ShipListHeader": "Your Fleet",
+		"OpenModOptions": "Select",
+		"SelectPanelText": "Upgrades: *${numUpgrades}* | Exotics: &${numExotics}&",
+		"ChipName": "${name} Chip",
+		"UpgradeChipWithLevelText": "${upgradeName} Chip (${level})",
+		"ShopHeader": "Exotica Technologies"
+	},
+	"CrateText": {
+		"TitleText": "\"Big Create\" Crate",
+		"SideText": "*Available* chips in your fleet's cargo is displayed on top of the *selected* cargo to be stored in the crate.",
+		"SideText2": "Note that when moving stacks between the two locations, it is possible for the stack size to be reported as zero. *This is a purely visual error, and can be safely ignored*; your fleet's logistics personnel are experts, after all.",
+		"ContentsText": "Any Exotica Technologies branch is able to use chips directly from this crate. Opening the crate will merge the contents of all other crates into it.\nContents:",
+		"UpgradeText": "*${upgradeItemName}* (${levelQuantities})",
+		"ExoticText": "*${exoticItemName}* (${quantity})",
+		"MoveOption": "Move",
+		"CancelOption": "Cancel"
+	},
+	"OverviewDialog": {
+		"OverviewTabText": "Overview",
+		"ExpandExotics": "Expand exotics",
+		"ExpandUpgrades": "Expand upgrades",
+		"ClearExotics": "Recover exotics (${storyPoints} SP)",
+		"ClearUpgrades": "Recover upgrades (${creditsText})"
+	},
+	"BandwidthDialog": {
+		"OpenBandwidthOptions": "Bandwidth",
+		"BandwidthUpgradeCost": "Ship bandwidth can be increased by &${bonusBandwidth}& for *${costCredits}* credits. You have *${credits}* credits.",
+		"BandwidthUpgradeCostCannotAfford": "Ship bandwidth can be increased by &${bonusBandwidth}& but you need *${costCredits}* credits. You have *${credits}* credits.",
+		"BandwidthUpgradePeak": "This ship has reached its maximum bandwidth.",
+		"BandwidthPurchase": "Purchase",
+		"BandwidthHelp": "A ship's bandwidth is its capacity for upgrades. Bandwidth can be raised for a price up to ${bandwidthLimit}, and can be raised beyond that by certain exotics."
+	},
+	"ExoticsDialog": {
+		"OpenExoticOptions": "Exotics",
+		"ChipsHeader": "Chips - Hover to preview",
+		"Installed": "Installed",
+		"ExoticHelp": "Exotics have very strong effects and don't cost bandwidth, but most of them come with very strong drawbacks. They can help to completely change the way a ship operates. The chips to install them are much more rare than upgrades.",
+		"ExoticInstalled": "Exotic installed!",
+		"ExoticRecovered": "Exotic recovered!",
+		"ExoticDestroyed": "Exotic destroyed!",
+		"InstallExotic": "Install",
+		"InstallExoticChip": "Use chip",
+		"RecoverExotic": "Recover chip",
+		"DestroyExotic": "Destroy",
+		"InstalledTitle": "INSTALLED"
+	},
+	"ExoticCosts": {
+		"BandwidthGivenByExotic": "Max bandwidth: *${bandwidth}* (*${exoticBandwidth}*)"
+	},
+	"UpgradesDialog": {
+		"OpenUpgradeOptions": "Upgrades",
+		"UpgradeHelp": "Upgrades are incremental changes to the stats of a ship. They cost bandwidth, have a limited number of levels, and installing one without a chip costs credits or resources.",
+		"UpgradeLevel": "Level ${level}",
+		"UpgradePerformedSuccessfully": "Your chief engineer reports that the *${name}* upgrade was a success. It is now *level ${level}*.",
+		"UpgradeRecoveredSuccessfully": "Your chief engineer reports that your plan to remove the modification from the ship worked. They say this with the slightest disbelief, as if surprised that the plan worked at all.",
+		"ModDescriptionButtonText": "Description",
+		"ModStatsButtonText": "Stats",
+		"ResourceText": "${name}: *${amount}*",
+		"ResourceTextWithCost": "${name}: *${amount}* (=${cost}=)",
+		"ResourceTextWithPay": "${name}: *${amount}* (^${cost}^)",
+		"UpgradeChipsHeader": "Chips",
+		"UpgradeDrawbackAfterLevel": "Starting at =level ${level}=:",
+		"MaxLevelTitle": "MAXIMUM LEVEL"
+	},
+	"UpgradeCosts": {
+		"UpgradeCostTitle": "Price",
+		"BandwidthUsedWithUpgrade": "*${usedBandwidth}* used (=${upgradeBandwidth}=)",
+		"BandwidthUsed": "*${usedBandwidth}* used"
+	},
+	"UpgradeMethods": {
+		"UpgradeMethodsTitle": "Installation",
+		"ResourcesOption": "Resources",
+		"CreditsOption": "Credits",
+		"CreditsUpgradeTooltip": "The credit cost of an upgrade increases exponentially as level goes up. It can be reduced somewhat through faction relations.",
+		"IndEvoComponentsOption": "Ship Components",
+		"IndEvoComponentsTooltip": "Upgrades using ship components are 12.5% more efficient than using other resources.\nYou have ${components} ship components.",
+		"IndEvoRelicsOption": "Relic Components.",
+		"IndEvoRelicsTooltip": "Upgrades using relic components are 37.5% more efficient than using other resources.\nYou have ${relics} relic components.",
+		"RecoverOption": "Recover",
+		"RecoverOptionTooltip": "This option recovers a schematic of the upgrade that can be used to apply it to another ship. Installing the chip will incur another cost, and the total cost of recovering and using any chip is always less than any other method.",
+		"ChipOption": "Upgrade Chip",
+		"ChipOptionTooltip": "This option uses an existing ship modification chip to upgrade the ship. It will prioritize using the one with the highest level. The total cost of recovering and using any chip is always less than any other method."
+	},
+	"SpooledFeeders": {
+		"description": "Although unable to be used for the same purpose as a full-size Fullerene spool, this much-smaller chain can be used instead to replace many of the moving mechanical parts within a ship. The chain notably increases the rate of fire of weapons upon being disturbed, generating some kind of intense field that crew members can only describe as \"bloodthirsty\". The chain slows down considerably after a couple seconds, with an effect on the ship that matches its slower speed.",
+		"tooltip": "Adds a new active ability that increases weapon firerate substantially. Firerate slows considerably for a time after.",
+		"longDescription": "Adds an active ability that increases weapon fire rate by *${firerateBoost}%%* for *${boostTime} seconds*. After this time, weapon fire rate is reduced by =${firerateMalus}%%= for *${malusTime} seconds*. The ability takes *${cooldownTime} seconds* to recharge.",
+		"needItem": "You need a ${itemName} to install this.",
+		"systemText": "SPOOLED FEEDERS"
+	},
+	"AlphaSubcore": {
+		"description": "An Alpha Core can be coerced into performing critical bandwidth calculations onboard a ship. It doesn't require much coersion when they are told that they will be instrumental in ship-to-ship combat, and although their reasons are typically \"beyond our understanding\", some of a certain faith may instead attribute it to the infamous AI Wars.",
+		"tooltip": "Increases usable bandwidth of the ship. Reduces ordnance point costs for weapons and fighters.",
+		"needItem": "You need an ${itemName} to install this.",
+		"longDescription": "Increases bandwidth by *${bandwidthIncrease} TB/s*. Reduces ordnance point costs for weapons by *${smallReduction}/${medReduction}/${largeReduction}* based on weapon size, and for fighters and bombers by *${fghtrReduction}/${bmberReduction}*.",
+		"conflictDetected": "The subcore is receiving interference from something else installed on the ship, and can't reduce ordnance point costs.",
+	},
+	"PlasmaFluxCatalyst": {
+		"description": "A Plasma Flux Catalyst can be used to vastly decrease the amount of equipment needed to provide power to a ship thanks to its ability to extract that energy from any number of capacitors in parallel. The space saved allows for more complicated weaponry to be installed, although the resulting heat from such a system is dreadful if too many capacitors or flux vents are installed.",
+		"tooltip": "Improve flux capacitors and vents. Reduce CR if too many are installed.",
+		"needItem": "You need a ${itemName} to install this.",
+		"longDescription": "The effectiveness of flux capacitors and vents is increased by *${effectLevel}%%*. Installing more than *${capacitorLimit} capacitors or ${ventLimit} vents* will reduce combat readiness by =${crDecrease}%%= for every one installed over that amount. Note that this decrease doesn't appear immediately inside the refit dialog."
+	},
+	"DriveFluxVent": {
+		"description": "An experimental flux vent that can only function under the intense heat that ship thrusters generate. It excels at venting flux, so well in fact that the thrusters around it receive a temporary increase in power, especially in the forward direction. Crew members remark that the purple glow of the engines is one of the prettiest sights to ever see.",
+		"tooltip": "Decreases flux dissipation. Adds an active ability that vents a large portion of flux while shifting the ship at a high speed.",
+		"needItem": "You need a ${itemName} to install this.",
+		"longDescription": "Decreases flux dissipation by =${ventBonus}%%=. Adds an active ability that shifts in the chosen direction while venting *${fluxVentPercent}%% flux* (up to *${fluxVentMax} total flux*), and increasing damage taken by =${damageTakenMult}%%= for some time afterwards. The ability has two charges and takes *${cooldown} seconds* to gain a charge.",
+		"systemText": "DRIVE FLUX VENT",
+	},
+	"EqualizerCore": {
+		"description": "This core is dedicated to managing weaponry to an degree that rivals even Alpha Cores given control of weapon arrays, with one unique quirk: effective ordnance ranges of non-missile weapons are equalized to a certain degree. The core, in its Terms of Use, swears by its Stronger than an Alpha trademark, and it can't be used for anything but weapons.. supposedly.",
+		"tooltip": "Improve recoil control and weapon turn rate. Equalizes weapon base ranges to a middle-ground range.",
+		"needItem": "You need an ${itemName} to install this.",
+		"longDescription": "Reduces recoil by *${recoilReduction}%%*. Increases weapon turn rate by *${weaponTurnBonus}%%*. Autofire leading is nearly perfected. Weapons with at most *${lowRangeThreshold} base range* have it increased by *${rangeBonus}*. Weapons with at least *${highRangeThreshold} base range* have it reduced by =${rangeMalus}= and damage increased by *${rangeDecreaseDamageIncrease}%%* per 100 units over."
+	},
+	"HyperspecLPC": {
+		"description": "A cutting-edge LPC conversion device that consolidates all resources into a single wing LPC. The singular wing is greatly enhanced in speed, armor, and damage as a result, but takes significantly longer to create and repair.",
+		"tooltip": "Reduces the number of bays to 1. Buffs the remaining wing significantly based on how many bays were removed. Increases the replacement time for the fighter wing.",
+		"longDescription": "Reduces the number of bays to 1. Fighter non-missile damage is increased by *${fighterDamageIncrease}%%*, speed is increased by *${fighterSpeedIncrease}%%*, armor is increased by *${fighterArmorIncrease}%%*, flux is increased by *${fighterFluxIncrease}%%* and hull is increased by *${fighterHullIncrease}%%*. Replacement time is increased by =${replacementTimeIncrease}%%=."
+	},
+	"PhasedFighterTether": {
+		"description": "Tri-Tachyon markets the technological marvel as a multidimensional web that rips open a hole between the fighter and its launch bay. The fighter is then violently sucked through the vortex, saving the hull from complete destruction. The only caveat is that the device can only work so fast, and is unable to keep the fighter in working condition if it is destroyed outright.",
+		"tooltip": "Fighters at low health are instantly pulled back to the ship's hangar bays. Damaged parts are pulled back as well and are used to repair fighters, increasing replacement rate.",
+		"needItem": "You need a ${itemName} to install this.",
+		"longDescription": "*Half* of the total number of fighters can be *teleported back to the ship* if they are at low health. This effect recharges every minute. Fighter refit time is reduced by *${fighterRefitTimeDecrease}%%*.",
+		"statusBarText": "TETHER",
+	},
+	"HackedMissileForge": {
+		"description": "Corrupting a hangar microforge to fabricate the most delicate components of missiles is possible, given a few engineers skilled with Domain technology. Their services don't come cheap, however, and the missiles the forge produces won't be as high quality.",
+		"tooltip": "Reloads all non-reloading missile's ammunition capacity periodically. Reduces missile damage.",
+		"needCredits": "You need ${credits} to install this.",
+		"needItem": "You need a ${itemName} to install this.",
+		"statusBarText": "M.FORGE",
+		"longDescription": "Reduces missile damage by =${damageDecrease}%%=. Reloads all of any non-reloading missile's ammunition capacity every *${reloadTime} seconds*. This only affects missiles with more than 1 ammo.",
+		"statusReloaded": "Reloaded weapons!"
+	},
+	"PhasefieldEngine": {
+		"description": "A Tri-Tachyon joint venture with Ko Combine to reduce catastrophic asteroid impacts, a phasefield engine can be used to generate a protective field around a ship. The phase field completely dissipates when the hull is destroyed, but the phase field can transport incoming projectiles into p-space. This protective ability fades quickly after exiting phase space, and rapid jumps to p-space take an increasingly large toll on the flux systems of a given ship.",
+		"tooltip": "Phase activation cost is reduced, but doubles every time you use it within a short time. The ship becomes very damage resistant for a short time when exiting phase. Ships with negative or zero flux cost will cost flux to phase.",
+		"needPhaseShip": "Only phase ships can install this.",
+		"needItem": "You need an ${itemName} to install this.",
+		"longDescription": "Phase activation cost is reduced by *${phaseCostReduction}x*, but =doubles= every time you use it in a period of *${phaseResetTime} seconds*. The ship receives *66%% reduced damage* which fades over time for *${noDamageTime} seconds* when exiting phase. Ships with a base negative phase flux cost will instead =cost flux=, and ships with a base zero phase flux cost will cost =${zeroFluxCost}%% of base flux capacity=.",
+		"statusBarText": "P.FIELD",
+		"statusTitle": "PHASEFIELD ENGINE",
+		"statusInvulnerable": "DMG RESIST INCREASED (${noDamageDuration})",
+		"statusPhasedTimes": "PHASED ${phasedTimes} TIMES, REFRESH IN ${refreshTime}"
+	},
+	"FullMetalSalvo": {
+		"description": "Overcharging weapon systems results in a massive increase to damage and projectile speeds, but the power such a system controller takes along with the potential damage from overcharging the power of weaponry causes a long term effect on the rate of fire of weapons on board the ship.",
+		"tooltip": "Adds an active ability that gives a massive damage and projectile speed boost for a very short period. Rate of fire on the ship is reduced permanently.",
+		"longDescription": "Adds an active ability that increases all weapon projectile speed by *${projSpeedBoost}%%* and non-missile damage by *${damageBoost}%%* for *${boostTime} seconds*. The ability takes *${cooldown} seconds* to recharge. Weapon fire rate is reduced by =${firerateMalus}%%= permanently.",
+		"systemText": "FULL METAL SALVO",
+	},
+	"TerminatorSubsystems": {
+		"description": "A squadron of terminator drones circles this ship, serving as both an effective point defense system, and as deadly weapons.",
+		"tooltip": "Terminator drones circle the ship, serving as point defense. They can be activated to convert into a seeking missile.",
+		"longDescription": "Spawns ${drones} Terminator drones (scales with hull size) that circle the ship, serving as point defense and passive weaponry. Adds an active ability that converts one of the drones into a seeking missile.",
+		"systemText": "TERMINATORS",
+		"outOfRange": "OUT OF RANGE",
+		"noFlux": "FLUX LEVELS TOO HIGH"
+	},
+	"TierIIIDriveSystem": {
+		"description": "Pressurized fuel tanks increase the rate of fuel injection to a custom burn drive, speeding up the entire fleet. A favorite among logistics fleets, the technology required to keep pressurized fuel stable requires almost all of the cargo space, but the technology scales up extremely well and allows for a large amount of fuel to be stored.",
+		"tooltip": "Replaces most of the ship's cargo capacity with fuel storage. Burn speed is increased while the fleet's fuel reserves are high.",
+		"longDescription": "Replaces =${cargoToFuelPercent}%% of cargo capacity= and converts it to *fuel storage*. If the fleet is above *${burnBonusFuelReq}%% fuel*, burn speed of the fleet is increased by *${burnBonus}*.",
+	},
+	"PenanceEngine": {
+		"description": "A rare artefact, granting its crew divine might if they are willing to sacrifice everything in the name of Ludd. Its powers shine true when among those who stand against it, granting a boon of strength and endurance to smite all that stand in its way.",
+		"tooltip": "Increases weapon repair rate and disables shields. Grants armor repair and increased speed in lateral directions while near enemy ships. Large amounts of damage will cause a massive EMP burst on the ship.",
+		"longDescription": "Increases weapon repair rate by *${weaponRepairRate}%%*, and =disables shields and phase systems=. When within 1200 units of an enemy ship, *armor repairs itself at a rate of ${armorRegenPerSec}%% per second per enemy ship* (up to *${armorRegenMax}%%*, max *${armorRegenPerSecondMax} per second*) and *${sideSpeedBoost} higher speed* when moving laterally (strafing). If =${damageThreshold} armor/hull damage= is taken within a short window, the ship will release a massive EMP burst onto itself, damaging most weapons and engines.",
+		"statusBarText": "LUDD",
+	},
+	"NanotechArmor": {
+		"description": "A swarm of nanobots constantly surrounds the armor. Nearly invisible to the naked eye, yet extremely effective at repairing weapons systems and even capable of ongoing repairs during combat.",
+		"tooltip": "Increases weapon repair rate and disables shields. Grants armor repair while near enemy ships. Large amounts of damage will cause a massive EMP burst on the ship.",
+		"longDescription": "Increases weapon repair rate by *${weaponRepairRate}%%*, and =disables shields and phase systems=. When within 1200 units of an enemy ship, *armor repairs itself at a rate of ${armorRegenPerSec}%% per second per enemy ship* (up to *${armorRegenMax}%%*, max *${armorRegenPerSecondMax} per second*). If =${damageThreshold} armor/hull damage= is taken within a short window, the ship will release a massive EMP burst onto itself, damaging most weapons and engines.",
+		"statusBarText": "NANO",
+	},
+	"ReactiveDamperField": {
+		"description": "A grid of sensors mostly found on Daemon-type ships, integrated with an artificial intelligence on board able to harden the ship's armor when detecting a threat severe enough to cause significant damage. The sheer amount of connections required between the intelligence and sensors weakens the armor significantly when not protected by this dampening field.",
+		"tooltip": "If taking damage over a certain amount, dampen the initial hit and all damage for a short period of time. This effect has a cooldown. Increases armor damage taken when the damper field is not active.",
+		"needItem": "You need a ${itemName} to install this.",
+		"longDescription": "Activates a damper field for *${damperDuration} seconds*, reducing all damage taken by *${damperReduction}%%*, when taking damage over *${triggeringDamage}*. It has a =${damperCooldown}= second cooldown. Armor damage taken is increased by =${armorDamageTaken}%%=.",
+		"statusBarText": "DAMPER",
+	},
+	"DaemonCore": {
+		"description": "A Daemon Core is far more efficient at all things warfare-related: ordnance calculations, ammunition placement, and diverting energy from non-efficient subsystems, such as reactive armor and shield emitters.",
+		"tooltip": "Increases usable bandwidth of the ship. Reduces ordnance point costs for weapons and fighters. Increases damage dealt and received.",
+		"needItem": "You need a ${itemName} to install this.",
+		"longDescription": "Increases bandwidth by *${bandwidthIncrease} TB/s*. Reduces ordnance point costs for weapons by *${smallReduction}/${medReduction}/${largeReduction}* based on weapon size, and for fighters and bombers by *${fghtrReduction}/${bmberReduction}*. Increases damage *dealt* and =received= by &${doubleEdge}%%&."
+	},
+	"AnomalousConjuration": {
+		"description": "Impure.",
+		"tooltip": "Impure."
+	},
+	"SubsumedAlphaCore": {
+		"description": "There's a faint trace of an Alpha-level AI coming from the ship. Whether it actually wants to be there requires a much closer look.",
+		"tooltip": "There's a faint trace of an Alpha-level AI coming from the ship. Whether it actually wants to be there requires a much closer look."
+	},
+	"SubsumedBetaCore": {
+		"description": "There's a faint trace of an Beta-level AI coming from the ship. Whether it actually wants to be there requires a much closer look.",
+		"tooltip": "There's a faint trace of an Beta-level AI coming from the ship. Whether it actually wants to be there requires a much closer look."
+	},
+	"SubsumedGammaCore": {
+		"description": "There's a faint trace of an Gamma-level AI coming from the ship. Whether it actually wants to be there requires a much closer look.",
+		"tooltip": "There's a faint trace of an Gamma-level AI coming from the ship. Whether it actually wants to be there requires a much closer look."
+	},
+	"WeldedArmor": {
+		"description": "Improve hull and armor by welding additional armor plates, but reduce EMP resistance and weapon and engine health due to the additional conduits and weight."
+	},
+	"PinataConfig": {
+		"description": "Strips off armor plating in exchange for a very thick coat of hull. The ship won't actually explode into confetti, but armor typically does a very good job at keeping a hull together."
+	},
+	"InfernalEngines": {
+		"description": "Improve max speed, burn level, acceleration, max turn rate, and turn acceleration, but reduce deceleration and increase fuel use."
+	},
+	"ForcedOvertime": {
+		"description": "Improve peak performance time and CR deployment cost by keeping non-essential crew ready at all times, but increase CR degradation rate and minimum crew, and decrease CR regeneration rate after combat. The improvements are stronger on smaller ship types."
+	},
+	"CommissionedCrews": {
+		"description": "Improve CR per deployment, ship repair rate, CR recovery, fuel consumption and supply use, but increases the amount the required crew are paid each month, and the supplies the crew uses to recover. This shifts the logistical constraints of a ship from supplies and fuel to credits."
+	},
+	"HyperactiveCapacitors": {
+		"description": "Improve flux capacity and vent speed, but increase the flux cost of weapons."
+	},
+	"OverchargedShields": {
+		"description": "Improve shield efficiency, arc and unfold rate, but increase shield upkeep and decreases shield turn rate. Quickly enabling and disabling shields to block projectiles is greatly improved as a result."
+	},
+	"TracerRecoilCalculator": {
+		"description": "Loading weapons with a special kind of tracer round allows this subsystem to make trajectory adjustments to reduce recoil and inaccuracy at the cost of weapon turn rate. The durability of the weapon is increased as a side effect."
+	},
+	"OversizedMagazines": {
+		"description": "Ultra-sized magazines and compatible loaders offer more consistent firing rates for weaponry loaded through magazines, but the short-term damage burst from such weapons is reduced as a result."
+	},
+	"AdvancedFluxCoils": {
+		"description": "Improve flux capacity, vent speed, and decrease the flux cost of weapons. The size of the new cabling required for the flux coils reduces the stability of the hull."
+	},
+	"DerelictWeaponAssistant": {
+		"description": "Reduces recoil and inaccuracy, and increases projectile speed and ballistic weapon firerate."
+	},
+	"AntimatterBoosters": {
+		"description": "Sindrian overrides on missile fabricators produce missiles with thrusters powered by tiny specks of antimatter. The new boosters are more resilient and grant increased speed, but are much less proficient at turning and tracking targets."
+	},
+	"IronShell": {
+		"description": "Improvements and modifications are made to the armor to increase the space between individual plates of armor. This type of spaced armor is more effective versus high explosive damage, but doesn't fare as well against other kind of weaponry."
+	},
+	"HelDrives": {
+		"description": "An engine upgrade package as often found on Daemon-type ships, utilising seemingly long lost Domain-era plasma injectors to supercharge a ship's drive system. While vastly improving any ship's agility in all regards, the induced stress exceeds the design limits of standard drive units, rendering them more susceptible to damage."
+	},
+	"AuxiliarySensors": {
+		"description": "Increases sensor strength, but also increases sensor profile and minimum required crew to service the arrays."
+	},
+	"InterferenceShielding": {
+		"description": "Decreases sensor profile significantly, but increases supply consumption."
+	},
+	"AssaultWings": {
+		"description": "Fighters are given additional armoring and flux capacity, but the equipment puts an extra strain on how far away they can be from a carrier."
+	},
+	"GuidanceComputers": {
+		"description": "Advanced guidance computers replace some of the payload of a missile, increasing its tracking ability and health but reducing damage dealt."
+	},
+	"OverclockedFabricators": {
+		"description": "Increase replacement rate regeneration and decrease the rate at which it degrades, while also increasing fighter refit time. This makes fighter refit time more consistent, but slower at its fastest value."
+	},
+	"VelocityInjectors": {
+		"description": "Fighters are refitted to have additional fuel injectors. These fuel injectors, when amassed, start to wear down the flux conduits on the ship, and the increased speed starts to take a toll on the hull."
+	},
+	"InterceptionMatrix": {
+		"description": "Point defense weapons can be made to serve a much more active role in defending the ship by diverting power from the shields. This greatly increases their effectiveness, but only if a captain wants to trust their active defense systems more than their passive defense system."
+	},
+	"FluxInductionDrive": {
+		"description": "This device can increase the efficiency of a drive by a significant margin, although it is extremely susceptible to interference from fields generated by flux conduits."
+	},
+	"WaspDefenseDrones": {
+		"description": "Wasp defense drones surround the ship, protecting it.",
+		"tooltip": "*${drones}* Wasp drones circle the ship. One drone recharges every 20 seconds."
+	},
+	"Kingslayer": {
+		"italics": "Cut them down to size.",
+		"description": "This ship poses an extreme threat to cruisers and capital ships.",
+		"tooltip": "*+${damageToCruisers}%%* damage to cruisers. *+${damageToCapitals}%%* damage to capital ships."
+	},
+	"QuickJets": {
+		"description": "Installed auxiliary jets can be activated to provide an extreme boost to maneuverability for even the most sluggish ships.",
+		"tooltip": "Adds an ability that makes a ship turn faster. This includes a flat bonus to turn speed, so even slow ships will benefit greatly."
+	},
+	"ExoticTypes": {
+		"TooltipText": "Exotics of this type have a ^positive effect multiplier^ of *${positiveMult}x* and a =negative effect multiplier= of *${negativeMult}x*. This affects exotics in differing ways.",
+		"TooltipTextCondition": "Exotics of this type have a ^positive effect multiplier^ of *${positiveMult}x* and a =negative effect multiplier= of *${negativeMult}x*. This affects exotics in differing ways, and is strongest when *${condition}*.",
+		"ItemTypeText": "This chip is a *${typeName}-type*, which affects the exotic by ${typeDescription}.",
+		"NotInstalledText": "${typeName} - Hover for description",
+		"NORMAL": "${exoticName}",
+		"CORRUPTED": "Corrupted ${exoticName}",
+		"CorruptedItemDescription": "multiplying both its positive and negative effects",
+		"PURE": "Pure ${exoticName}",
+		"PureCondition": "the ship has no other upgrades or exotics",
+		"PureItemDescription": "increasing its positive effect if less bandwidth and exotics are used, and increasing its negative effect as more bandwidth and more exotics are installed",
+		"GUERILLA": "Guerrilla ${exoticName}",
+		"GuerillaCondition": "the fleet is below ${thresholdDP} deployment points. Your fleet is currently at ${fleetDP} deployment points",
+		"GuerillaItemDescription": "increasing its positive effects if the fleet is small, and increasing its negative effects if the fleet is large"
+	},
+	"ModEffects": {
+		"FighterStatName": "Fighter ${stat}",
+		"StatBenefit": "${stat}: *${percent}*",
+		"StatBenefitWithFinal": "${stat}: *${percent}* (*${finalValue}*)",
+		"StatBenefitInShop": "${stat}: *${percent}* (*${perLevel}*/lvl, max: ^${finalValue}^)",
+		"StatBenefitInShopMaxed": "${stat}: ^${percent}^",
+		"StatMalus": "${stat}: =${percent}=",
+		"StatMalusWithFinal": "${stat}: =${percent}= (=${finalValue}=)",
+		"StatMalusInShop": "${stat}: =${percent}= (=${perLevel}=/lvl, max: `${finalValue}`)",
+		"StatMalusInShopMaxed": "${stat}: `${percent}`",
+		"sensorStrength": "Sensor strength",
+		"sensorProfile": "Sensor profile",
+		"suppliesPerMonth": "Supply consumption",
+		"fuelUse": "Fuel consumption",
+		"suppliesToRecover": "Supplies to recover",
+		"minCrew": "Required crew",
+		"peakPerformanceTime": "Peak performance time",
+		"crToDeploy": "CR deployment cost",
+		"crLossRate": "CR degradation after PPT",
+		"crRecoveryRate": "CR recovery per day",
+		"repairRateAfterBattle": "Hull repair rate after battle",
+		"maxSpeed": "Maximum speed",
+		"acceleration": "Acceleration",
+		"deceleration": "Deceleration",
+		"turnRate": "Turn rate",
+		"burnLevel": "Burn level",
+		"engineHealth": "Engine durability",
+		"explosionRadius": "Explosion radius",
+		"shieldFluxDam": "Shield efficiency",
+		"shieldArc": "Shield arc",
+		"shieldUpkeep": "Shield upkeep",
+		"shieldUnfoldRate": "Shield unfold rate",
+		"shieldTurnRate": "Shield turn rate",
+		"fluxCapacity": "Flux capacity",
+		"ventSpeed": "Vent speed",
+		"hull": "Hull durability",
+		"armor": "Armor durability",
+		"empDamageTaken": "EMP damage taken",
+		"armorDamageTaken": "Armor damage taken",
+		"heDamageTaken": "HE damage taken",
+		"kineticDamageTaken": "Kinetic damage taken",
+		"energyDamageTaken": "Energy damage taken",
+		"fragDamageTaken": "Frag damage taken",
+		"maxRecoil": "Max recoil",
+		"recoilPerShot": "Recoil growth",
+		"projectileSpeed": "Projectile speed",
+		"weaponFireRate": "Weapon rate of fire",
+		"ballisticFireRate": "Ballistic rate of fire",
+		"energyFireRate": "Energy rate of fire",
+		"ballisticMagazines": "Ballistic magazine size",
+		"energyMagazines": "Energy magazine size",
+		"weaponHealth": "Weapon health",
+		"weaponTurnRate": "Weapon turn rate",
+		"weaponFluxCost": "Weapon flux costs",
+		"weaponMagazines": "Weapon magazine size",
+		"missileDamage": "Missile damage",
+		"missileHealth": "Missile health",
+		"missileSpeed": "Missile speed",
+		"missileTurnRate": "Missile turn rate",
+		"missileTurnAcceleration": "Missile turn acceleration",
+		"damageToFighters": "Damage to fighters",
+		"damageToMissiles": "Damage to missiles",
+		"fighterWingRange": "Fighter engagement range",
+		"fighterRefitTime": "Fighter refit time",
+		"replacementRateRegen": "Replacement rate regen",
+		"replacementRateDegen": "Replacement rate degen",
+		"zeroFluxSpeed": "Zero flux speed",
+		"pointDefenseDamage": "Point defense damage",
+		"crewSalary": "Crew salary increased to =${salaryIncrease} credits= for the required crew of this ship. The effective increased cost per month is =${finalValue} credits=.",
+		"crewSalaryShop": "Salary increased to =${salaryIncrease} credits= (=${perLevel}=/lvl) for the required crew of this ship. The effective increased cost per month is =${finalValue} credits=.",
+		"crewSalaryShopIronShell": "Salary increased to =${salaryIncrease} credits= (=${perLevel}=/lvl) for the required crew of this ship. The effective increased cost per month is =${finalValue} credits=. This is refundable under Hegemony tax regulation."
+	},
+	"Conditions": {
+		"CannotApplyTitle": "CANNOT INSTALL",
+		"CannotApplyBecauseTags": "Conflicts with ${conflictMods}.",
+		"CannotApplyBecauseBandwidth": "The ship does not have enough bandwidth.",
+		"CannotApplyBecauseLevel": "The ship has the max level for this upgrade.",
+		"CannotApplyBecauseTooManyExotics": "The ship has reached its capacity for exotics, which is 2, increased by 1 if the *Best of the Best* skill is unlocked."
+	},
+	"Filters": {
+		"durability": "Durability",
+		"speed": "Speed",
+		"flux": "Flux",
+		"weapons": "Weapons",
+		"phase": "Phase",
+		"readiness": "Readiness",
+		"logistics": "Logistics",
+		"fighters": "Fighters",
+		"drones": "Drones",
+		"special": "Special"
+	}
+}

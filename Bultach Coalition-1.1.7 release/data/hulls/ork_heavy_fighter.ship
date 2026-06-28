@@ -1,0 +1,116 @@
+{
+  "hullName": "Seillean",
+  "hullId": "ork_heavy_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ork_heavy_fighter.png",
+  "style": "LOW_TECH",
+  "height": 45,
+  "width": 38,
+  "center": [19, 22],
+  "collisionRadius": 32,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13.5, -0]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-14.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 80,
+      "angle": 26,
+      "locations": [-5.5, 11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 80,
+      "angle": -26,
+      "locations": [-5.5, -11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21, 8],
+      "length": 27.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-21, -8],
+      "length": 27.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-19, 14.5],
+      "length": 18,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-19, -14.5],
+      "length": 18,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-22, 8],
+      "length": 16.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "BT_TRAIL"
+    },
+    {
+      "location": [-22, -8],
+      "length": 16.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "BT_TRAIL"
+    }
+  ],
+  "bounds": [
+    -20.5, -14.5,
+    -3.5, -18.5,
+    19.5, -11,
+    19.5, 11,
+    -3.5, 18.5,
+    -20.5, 14.5
+  ]
+}

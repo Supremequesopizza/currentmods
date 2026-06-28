@@ -1,0 +1,43 @@
+{
+  "hullName": "Starboard Targeting Pod",
+  "hullId": "uaf_eyeseau_right_tgt",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Eyeseau/uaf_eyeseau_right_tgt.png",
+  "style": "UAF_DESTROYER",
+  "height": 92,
+  "width": 22,
+  "center": [9.5, 25.5],
+  "collisionRadius": 40.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 28.5,
+  "viewOffset": 0,
+  "builtInMods": [
+  "never_detaches",
+  "uaf_noExplosion"
+  ],
+  "builtInWeapons": {
+    "LASER_GUIDANCE": "uaf_laser_lead"
+  },
+  "weaponSlots": [
+    {
+      "id": "LASER_GUIDANCE",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-13.5, 2]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -14, -11,
+    -25.5, 6.5,
+    19.5, 6.5,
+    20.5, 8.5,
+    24.5, 8,
+    20, 0.5,
+    9.5, 0.5,
+    -2.5, -11
+  ]
+}

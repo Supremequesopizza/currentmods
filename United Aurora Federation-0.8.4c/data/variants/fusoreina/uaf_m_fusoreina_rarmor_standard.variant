@@ -1,0 +1,29 @@
+{
+  "variantId": "uaf_m_fusoreina_rarmor_standard",
+  "hullId": "uaf_m_fusoreina_rarmor",
+  "displayName": "Experimental",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_racun_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_racun_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

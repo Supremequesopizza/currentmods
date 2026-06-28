@@ -1,0 +1,24 @@
+{
+    "knownHullMods": {
+        "hullMods": [
+            "mhmods_antiarmorgammunition",
+            "mhmods_bombardmentpackage",
+            "mhmods_emergencyventingsystem",
+            "mhmods_fluxbooster",
+            "mhmods_fluxoverdrive",
+            "mhmods_FuelAdditive",
+            "MHMods_prefabricator",
+            "mhmods_splitChamber",
+            "mhmods_torpedospec",
+            "mhmods_voltageregulationsystem",
+            "mhmods_fluxgenerator",
+            mhmods_hardlightFocus
+        ]
+    },
+    "hullmodSellFrequency": {
+        "mhmods_antiarmorgammunition": 10,
+        "mhmods_fluxbooster": 10,
+        "mhmods_fluxoverdrive": 10,
+        "mhmods_hardlightFocus": 10,
+    }
+}

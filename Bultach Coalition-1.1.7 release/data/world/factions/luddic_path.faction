@@ -1,0 +1,49 @@
+{
+	"hullFrequency":{
+		"tags":{},
+		"hulls":{
+			   "ork_bigscrap_path":0.8, #Good, so rare-er
+	  	           "ork_judgement":0.9, #Bigass boss ship. Rare
+			   "ork_mule_mk3":2.0,
+			   "ork_ramshackle":1.0, #potentially annoying
+			   "ork_vencha_pather":0.7, #Strong
+    			   "ork_hammah_pather":0.6, #MISSILE SPAM
+			   "ork_skrunkly_lp":1.0, #little guy
+			   "ork_dangerous":0.5, #phase is annoying
+			   "ork_sacrilege":0.5, #rare lore wise lol
+		},
+	},
+    "knownShips":{
+        "tags":["LP_bp"],
+        "hulls":[
+			"ork_bigscrap_path",
+	  	    	"ork_judgement",
+			"ork_mule_mk3",
+			"ork_ramshackle",
+			"ork_vencha_pather",
+    			"ork_hammah_pather",
+			"ork_skrunkly_lp",
+			"ork_dangerous",
+			"ork_sacrilege",
+			"ork_zealot",
+        ],
+	"knownWeapons":{
+		"tags":["LP_bp", "lowtech_bp"],
+		"weapons":[
+			"ork_pather_laser",
+			"ork_plasma_shotgun",
+			"ork_plasma_shotgun_medium",
+			"ork_mininglaser",
+			"ork_maul",
+	
+		],
+		},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+			"ork_maul",
+		],
+
+	},
+    },		
+},

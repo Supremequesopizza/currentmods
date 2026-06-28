@@ -1,0 +1,208 @@
+{
+  "hullName": "Dregs",
+  "hullId": "ork_dregs",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ork_dregs.png",
+  "style": "LOW_TECH",
+  "height": 174,
+  "width": 144,
+  "center": [77, 81],
+  "collisionRadius": 121,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 116.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 13.5,
+      "locations": [39, 25]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [57, 1]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -26,
+      "locations": [60, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [83, -2]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -135,
+      "locations": [-36, -54]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [21, 43]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [-1, 58]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 65.5,
+      "locations": [-26, 56]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -15,
+      "locations": [0.5, -38]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [66, -14]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-25.5, -54]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [36.5, 44]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61, 5.5],
+      "length": 63.5,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-78, 39],
+      "length": 43,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, 56.5],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, -19.5],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, -32.5],
+      "length": 38.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-70, -48],
+      "length": 44.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    90, -11,
+    73.5, -16.5,
+    73.5, -28.5,
+    56, -40,
+    49, -35,
+    22.5, -51,
+    25, -58,
+    3, -64,
+    -18, -53,
+    -35.5, -63,
+    -48, -57,
+    -59.5, -57.5,
+    -78, -32.5,
+    -69.5, -16.5,
+    -45, -7.5,
+    -58.5, 4.5,
+    -55.5, 12,
+    -36.5, 20.5,
+    -74.5, 32.5,
+    -69.5, 60.5,
+    -53, 64.5,
+    -37, 65.5,
+    -32.5, 75,
+    -14.5, 75.5,
+    11, 61,
+    14, 49.5,
+    32.5, 49.5,
+    46, 43,
+    63, 24.5,
+    64, 16,
+    77.5, 15,
+    90, 6
+  ]
+}

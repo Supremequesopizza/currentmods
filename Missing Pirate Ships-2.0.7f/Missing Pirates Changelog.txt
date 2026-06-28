@@ -1,0 +1,82 @@
+Missing Pirate Ships 2.0.7f
+File system
+-default ship roles adjusted
+Atlas Mk3
+-spawn rates improved
+-civhull added
+-bays actually reduced to 4
+-launch bay positions fixed
+________________________________________
+Missing Pirate Ships 2.0.7e
+Nebula (P)
+-reduced to 9 DP
+Starliner (P)
+-reduced DP to 14
+________________________________________
+Missing Pirate Ships 2.0.7d
+Atlas MK III
+-civilian hullmod added
+-op increased to 140
+Nebula MkII
+-sprite changes
+-eccm removed
+-nav relay added
+-op increased to 85
+-civilian
+Starliner MkII
+-removed nav relay
+-op increased to 115
+-civilian hullmod added
+________________________________________
+Missing Pirate Ships 2.0.7c
+Atlas Mk3
+-sprite changes
+________________________________________
+Missing Pirate Ships 2.0.7b
+-Updated the world files
+________________________________________
+Missing Pirate Pack 2.0.7a
+Various Variant adjustments
+Note: Update timescales wont be added to the update header anymore as individual submod updates have fragmented the version numbers to far.
+________________________________________
+Update 2.0.7 28.10.25-13.11.25:
+Modpack changes
+msm pirates
+-ships not behing in shops fixed
+-ships low spawnrate fixed
+All packs
+-crediting of scarface adjusted
+________________________________________
+Update 2.0.6 12.10.25-28.10.25
+As always some smaller stuff that shall go unnoted.
+________________________________________
+2.0.5a Hotfix:
+-smaller fixes
+2.0.5 09.05.25-19.09.25:
+-Campaign and Config folders of the pirate pack moved into the data folder.
+________________________________________
+2.0.3 Hotfixes:
+Many many bug fixes.
+2.0.3-07.04.25-20.04.25:
+Ergonomics:
+Added Version Checker intigration added
+Direct download link added to version checker file
+________________________________________
+2.0.2-09.03.25-30.03.25:
+Ships:
+Nebula Mk.II (P): visuals adjusted
+Website:
+Old thread changed reverted to 0.96 look due to the emergence of legacy mod index.
+________________________________________
+2.0.1-02.01.25-09.03.25 A Hotfix to add somestuff and to fix mistakes you guys or I find is pretty likely. Just keep the last version around in a backup folder for a while.
+2.0.1-02.01.25-09.03.25
+-Atlas Mk3: weapon arcs adjusted.
+-venture pirate: will be removed as it is not "missing". Allegiant DP points increased to 55.
+Website:
+-Mod icon changed.
+-Link to version 0.9.1 fixed.
+________________________________________
+2.0.0-18.12.2024 IceFire takes over mod.
+-Lots of small things i did befor taking notes or just where not of note not mentioned here.
+-Starliner MkII decreased wings to 1. Removed Civ hullmod. Removed ecccm and high resolution sensors.
+-(hopefully) fixed the msm ships blocking other ships from spawning.

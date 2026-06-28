@@ -1,0 +1,173 @@
+{
+  "hullName": "Anchor Right Propulsion Module",
+  "hullId": "missp_anchor_propulsion_right",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/anchor/anchor propulsion right module.png",
+  "style": "LOW_TECH",
+  "height": 269,
+  "width": 118,
+  "center": [1, 91],
+  "collisionRadius": 196,
+  "shieldCenter": [-1, 1],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missp_linked_hull",
+    "civgrade",
+    "solar_shielding",
+	"always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -130,
+      "locations": [47, -69]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -110.5,
+      "locations": [13, -81]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [69, -94]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 107,
+      "angle": -58,
+      "locations": [91, -69]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 144,
+      "angle": -75,
+      "locations": [125, -81]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 204,
+      "angle": -144,
+      "locations": [-34, -58]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -108.5,
+      "locations": [22, -38]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 114,
+      "angle": -73.5,
+      "locations": [161, -56]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, -74.5],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88, -58.5],
+      "length": 64,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88, -44.5],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-80, -31.5],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -81, -25,
+    -81, -38,
+    -89, -38,
+    -89, -66,
+    -81, -66,
+    -78.5, -79.5,
+    -57, -79,
+    -55, -84,
+    -18, -84.5,
+    -6, -77,
+    8, -90.5,
+    21, -85,
+    34, -95.5,
+    57, -96.5,
+    67, -103.5,
+    79, -97.5,
+    102.5, -96,
+    116, -84.5,
+    126, -91,
+    137, -84,
+    142.5, -65,
+    163.5, -64,
+    171, -56,
+    175, -27.5,
+    164.5, -22,
+    158.5, -31.5,
+    145, -30,
+    130.5, -45,
+    97.5, -45,
+    93, -39,
+    81.5, -39,
+    73, -29,
+    63.5, -29,
+    53, -43,
+    35, -43,
+    28.5, -4,
+    16, -4,
+    3, -8.5,
+    -1, 1,
+    -48, 1,
+    -47, -17,
+    -56, -27,
+    -66.5, -24
+  ]
+}

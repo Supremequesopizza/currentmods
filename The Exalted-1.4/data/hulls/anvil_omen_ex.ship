@@ -1,0 +1,178 @@
+{
+  "bounds": [
+    -13,
+    32,
+    -27,
+    27,
+    -34.5,
+    16,
+    -32,
+    1,
+    -33.5,
+    -13.5,
+    -29.5,
+    -21,
+    -17,
+    -27,
+    21.5,
+    -27.5,
+    19.5,
+    -13,
+    1,
+    -8.5,
+    14,
+    -4,
+    28.5,
+    -8,
+    33,
+    0,
+    26,
+    3.5,
+    18,
+    0,
+    -1,
+    7,
+    4.5,
+    12,
+    17,
+    9,
+    37.5,
+    12.5,
+    25,
+    19,
+    15,
+    27,
+    -4,
+    24.5
+  ],
+  "builtInMods": [
+    "hiressensors",
+    "surveying_equipment",
+    "exalted_subsystems"
+  ],
+  "center": [
+    34,
+    41.5
+  ],
+  "collisionRadius": 63,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 44,
+      "location": [
+        -33,
+        1
+      ],
+      "style": "EXALTED_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 26,
+      "location": [
+        -34.5,
+        -13.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 26,
+      "location": [
+        -34.5,
+        15.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 26,
+      "location": [
+        -32.5,
+        9.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 26,
+      "location": [
+        -33.5,
+        -8.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 6
+    }
+  ],
+  "height": 88,
+  "hullId": "anvil_omen_ex",
+  "hullName": "Omen (EX)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 53,
+  "spriteName": "graphics/ships/anvil_omen_ex.png",
+  "style": "EXALTED_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 135,
+      "arc": 225,
+      "id": "WS 002",
+      "locations": [
+        -13.5,
+        21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 85,
+      "id": "WS 003",
+      "locations": [
+        -18.5,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 44,
+      "id": "WS 004",
+      "locations": [
+        26.5,
+        -2
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 45,
+      "arc": 225,
+      "id": "WS0001",
+      "locations": [
+        14.5,
+        17
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 66
+}

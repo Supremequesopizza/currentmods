@@ -1,0 +1,21 @@
+{
+	"specClass":"projectile",
+	"id":"ork_divine_cleaver_sub",
+	"type":"ENERGY",
+	"size":"SMALL",
+	#"everyFrameEffect":"data.scripts.weapons.bt_gestalt_punishment",
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",
+	"glowColor":[2,0,0,0],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"NONE",
+	"interruptibleBurst":true,
+	"autocharge":false,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"bt_cleaver_subshot",  # projectile that will be fired
+}

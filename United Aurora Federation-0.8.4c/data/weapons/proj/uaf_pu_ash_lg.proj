@@ -1,0 +1,19 @@
+{
+	#this is for anti shield large-blue color (Kinetic)
+	"id":"uaf_pu_ash_lg",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":100.0,
+	"hitGlowRadius":135,
+	"width":10.5,
+	"fadeTime":0.50,
+	"fringeColor":[100,165,255,240],
+	"glowColor":[100,165,255,20],
+	"coreColor":[255,255,175,240],	
+	"glowRadius":80,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large.png"
+}

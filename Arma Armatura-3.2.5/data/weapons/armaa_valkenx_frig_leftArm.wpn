@@ -1,0 +1,57 @@
+{
+  "id": "armaa_valkenx_frig_leftArm",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.armaa_leftArmDummyWeapon",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "numFrames": 3,
+  "frameRate": 0,
+  "turretSprite": "graphics/armaa/ships/valkenx/playable/armaa_valkenx_frig_armL_00.png",
+  "hardpointSprite": "graphics/armaa/ships/valkenx/playable/armaa_valkenx_frig_armL_00.png",
+  "showDamageWhenDecorative": true,
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    13,
+    15,
+    13,
+    15,
+    13,
+    15
+  ],
+  "turretAngleOffsets": [
+    -1,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 1,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 1,
+  "pixelsPerTexel": 5
+}

@@ -1,0 +1,80 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 20,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "uaf_reisen",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder",
+        "uaf_secondary_focus",
+        "turretgyros"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_reisen_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_cyrexa_triple",
+                "WS0012": "uaf_cyrexa_triple",
+                "WS0013": "uaf_cyrexa_triple",
+                "WS0014": "uaf_cyrexa_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "uaf_clemente_s_mrm_double",
+                "WS0022": "uaf_clemente_s_mrm_double"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0021": "uaf_selemene_m_mrm",
+                "WS0019": "uaf_selemene_m_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "uaf_ivory",
+                "WS0016": "uaf_ivory"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "uaf_pd_reina",
+                "WS0017": "uaf_pd_reina",
+                "WS0010": "uaf_weiss_flk",
+                "WS0009": "uaf_weiss_flk",
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_flair_pod",
+                "WS0008": "uaf_flair_pod",
+                "WS0003": "uaf_deco_mg",
+                "WS0004": "uaf_deco_mg",
+                "WS0005": "uaf_deco_mg",
+                "WS0006": "uaf_deco_mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": { }
+        }
+    ]
+}

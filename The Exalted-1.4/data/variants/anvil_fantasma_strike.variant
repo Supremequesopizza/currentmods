@@ -1,0 +1,59 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 20,
+  "fluxVents": 1,
+  "goalVariant": true,
+  "hullId": "anvil_fantasma",
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_fantasma_strike",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "pilum",
+        "WS0009": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_ecto",
+        "WS0002": "anvil_ecto",
+        "WS0005": "anvil_ecto",
+        "WS0006": "anvil_ecto"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "anvil_fuego"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_varna",
+        "WS0004": "anvil_varna"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": [
+    "anvil_fairy",
+    "anvil_fairy",
+    "anvil_fairy"
+  ]
+}

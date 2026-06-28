@@ -1,0 +1,112 @@
+{
+  "hullName": "Nekonyan (SP)",
+  "hullId": "uaf_wing_ai_nekonyan",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ai_wing_nekonyan.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 48,
+  "width": 41,
+  "center": [20.5, 22],
+  "collisionRadius": 35,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": -0,
+      "locations": [-2, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": -0,
+      "locations": [2.5, 4]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": 0,
+      "locations": [2.5, -4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": 90,
+      "locations": [-8.5, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": -90,
+      "locations": [-8.5, -1]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": -0,
+      "locations": [6, 10]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 22,
+      "angle": 0,
+      "locations": [6, -10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, -3],
+      "length": 25.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-12, 3],
+      "length": 25.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    6.5, 5.5,
+    -4, 19,
+    -22, 11,
+    -15, 5.5,
+    -19.5, -0,
+    -15, -5.5,
+    -22, -11,
+    -4, -19,
+    6.5, -5.5,
+    25, -0
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "supportships_ipc",
+  "specClass": "projectile",
+  "projectileSpecId": "supportships_ipc_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/IonPulseCannon.png",
+  "turretGlowSprite": "graphics/weapons/IonPulseCannon_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/weapons/IonPulseCannon_glow.png",
+  "glowColor": [
+    100,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    14,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    27,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      25,
+      100,
+      155,
+      255
+    ]
+  },
+  "fireSoundTwo": "supportships_ion_pulse_cannon_fire"
+}

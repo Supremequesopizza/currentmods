@@ -1,0 +1,59 @@
+{
+  "hullName": "Ribut",
+  "hullId": "uaf_drone_ribut",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_drone_ribut.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 25,
+  "width": 26,
+  "center": [13, 12],
+  "collisionRadius": 19,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_fw_56mm_class_ii",
+    "WS0002": "uaf_fw_56mm_class_ii"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -0],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_F"
+    }
+  ],
+  "bounds": [
+    -10.5, 6,
+    -2.5, 12,
+    12, 3,
+    12, -3,
+    -2.5, -12,
+    -10.5, -6
+  ]
+}

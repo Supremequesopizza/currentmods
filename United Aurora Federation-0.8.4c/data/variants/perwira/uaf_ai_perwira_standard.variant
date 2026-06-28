@@ -1,0 +1,36 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "uaf_ai_perwira",
+    "hullMods": [
+        "hardened_subsystems",
+        "insulatedengine"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_ai_perwira_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_chorus_s_amm"
+            }
+        }
+    ]
+}

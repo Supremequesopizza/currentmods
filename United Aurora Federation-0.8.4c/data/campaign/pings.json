@@ -1,0 +1,18 @@
+{
+	"uaf_omniscan_burst":{
+		"useFactionColor":true,
+		"width":50,
+		"alphaMult":0.25f,
+		"range":850,
+		"duration":4,
+		"invert":false,
+		
+		"num":1,
+		"delay":1,
+	},
+}
+
+
+
+
+

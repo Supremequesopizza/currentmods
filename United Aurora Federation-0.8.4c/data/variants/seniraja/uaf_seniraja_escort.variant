@@ -1,0 +1,70 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 6,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "uaf_seniraja",
+    "hullMods": [
+        "targetingunit",
+        "solar_shielding"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_seniraja_escort",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "uaf_penulisa_acx"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_vocal_s_srm",
+                "WS0006": "uaf_vocal_s_srm",
+                "WS0009": "uaf_vocal_s_srm",
+                "WS0010": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_shimata_155_cn",
+                "WS0002": "uaf_shimata_155_cn",
+                "WS0003": "uaf_hikone_quad",
+                "WS0004": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_pd_reina",
+                "WS0008": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_pd_reina_ii",
+                "WS0012": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "uaf_racun_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+  "hullName": "Starboard Hangar",
+  "hullId": "uaf_m_isenoria_right_hangar",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Special/isenoria/uaf_m_isenoria_right_hangar.png",
+  "style": "UAF_CRUISER",
+  "height": 108,
+  "width": 74,
+  "center": [37, 54],
+  "collisionRadius": 75.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 62.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        32, -15,
+        34, -12,
+        29, -17
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [17, -23]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [40, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -45,
+      "locations": [5, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -45,
+      "locations": [25, -8]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    48, -9,
+    28, -29,
+    14, -35.5,
+    -31, 11,
+    -53, 11,
+    -53, 27,
+    -48, 35,
+    21, 35,
+    53, 4
+  ]
+}

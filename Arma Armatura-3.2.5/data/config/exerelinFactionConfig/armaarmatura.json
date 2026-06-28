@@ -1,0 +1,48 @@
+{
+    "playableFaction":false,
+    "startingFaction":true,
+    "corvusCompatible":true,
+    "freeStart":true,
+    "spawnAsFactionId":"player",
+    "noRandomizeRelations":true,
+	# transfer to this faction at start (after new game time pass)
+    "ngcTooltip":"Start with some ArmaA hardware and loose ties to the corp",
+	
+	"startRelationships":{
+		"independent": 0.5,
+		"hegemony": 0.05,
+		"luddic_church": -0.1,
+		"tritachyon": -0.33,
+		"sindrian_diktat":-0.3,
+		"persean":0,
+		"pirates": -0.51,
+		"ORA": -0.3,
+		"tiandong": 0.15,
+		"interstellarimperium": 0.15,
+	},
+
+	"startShipsCarrierSmall":
+	[
+		["armaa_musha_frig_sniper", "armaa_valkyrie_standard"],
+		["armaa_valkenx_frig_assault","gemini_Standard"],
+		["armaa_aleste_as_f","hermes_d_Standard"],
+	],
+
+	"startShipsCombatSmall":
+	[
+		["armaa_monitor_standard"],
+		["armaa_zanac_assault_gry"],
+	],
+	
+    "startShipsTradeSmall":[["gemini_standard", "armaa_record_frig_standard"]],
+    "startShipsExplorerLarge":[["venture_Balanced", "armaa_kouto_frig_standard"]],
+	"startShipsSuper":
+	[
+		["armaa_guardual_skirmisher","wayfarer_Standard"],
+		["armaa_einhander_Strike", "gemini_Standard"],
+	],
+	"startSpecialItems":[
+		[["armaa_cataphract_package",""]],
+		[["armaa_advcataphract_package",""]],
+	],
+}

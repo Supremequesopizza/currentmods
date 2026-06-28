@@ -1,0 +1,79 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 8,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "uaf_ai_neuxoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_reserve_wing_operation"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_neuxoria_superiority",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_kanshee_ii_sxc",
+                "WS0009": "uaf_cyrexa_ii_d_sxc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_rhythm_base_triple",
+                "WS0007": "uaf_rhythm_base_triple",
+                "WS0006": "uaf_rhythm_base_triple",
+                "WS0005": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "uaf_enyria_pdx",
+                "WS0011": "uaf_enyria_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "uaf_merupaka_ii_epd",
+                "WS0017": "uaf_merupaka_ii_epd",
+                "WS0002": "uaf_claris_cn",
+                "WS0001": "uaf_cantata_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "uaf_merupaka_ii_epd",
+                "WS0013": "uaf_merupaka_ii_epd",
+                "WS0016": "uaf_pd_reina",
+                "WS0015": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_weiss_flk",
+                "WS0003": "uaf_weiss_flk",
+                "WS0020": "uaf_pd_reina_ii",
+                "WS0019": "uaf_pd_reina_ii"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_naga",
+        "uaf_wing_ai_naga",
+        "uaf_wing_ai_naga",
+        "uaf_wing_ai_nekonyan",
+        "uaf_wing_ai_nekonyan",
+        "uaf_wing_ai_revere"
+    ]
+}

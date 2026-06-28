@@ -1,0 +1,45 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "uaf_ai_rama_corvette",
+    "hullMods": [
+        "armoredweapons",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "hardened_subsystems",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_rama_corvette_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_vocal_s_srm",
+                "WS0004": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_merupaka_epd"
+            }
+        }
+    ]
+}

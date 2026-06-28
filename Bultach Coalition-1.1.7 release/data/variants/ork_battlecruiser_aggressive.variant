@@ -1,0 +1,78 @@
+{
+  "variantId": "ork_battlecruiser_aggressive",
+  "hullId": "ork_battlecruiser",
+  "displayName": "Offensive",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "ork_bigplasma",
+        "WS0014": "ork_bigplasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ork_thumpa",
+        "WS0012": "ork_thumpa",
+        "WS0017": "ork_thumpa",
+        "WS0019": "ork_thumpa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_mirean_small",
+        "WS0002": "ork_mirean_small",
+        "WS0003": "ork_mirean_small",
+        "WS0004": "ork_mirean_small",
+        "WS0006": "ork_mirean_small",
+        "WS0007": "ork_mirean_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "ork_rotary_pd_small",
+        "WS0010": "ork_rotary_pd_small",
+        "WS0011": "ork_rotary_pd_small",
+        "WS0015": "ork_rotary_pd_small",
+        "WS0016": "ork_rotary_pd_small",
+        "WS0018": "ork_rotary_pd_small",
+        "WS0020": "ork_rotary_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

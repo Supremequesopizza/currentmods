@@ -1,0 +1,52 @@
+{
+    "displayName": "Bomber",
+    "fluxCapacitors": 4,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "uaf_ai_exoria",
+    "hullMods": [
+        "uaf_light_wing_operation",
+        "recovery_shuttles",
+        "uaf_special_emergency_automated_assistance",
+        "ecm"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_exoria_bomber",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_merupaka_ii_epd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_edge_type_i",
+                "WS0006": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_chorus_s_amm"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_alcea",
+        "uaf_wing_ai_alcea",
+        "uaf_wing_ai_rosea",
+        "uaf_wing_ai_revere"
+    ]
+}

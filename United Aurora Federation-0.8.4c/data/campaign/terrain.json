@@ -1,0 +1,21 @@
+{
+	
+	
+	"uaf_radio_chatter":{
+		"plugin":"kaysaar.uaf.terrain.UAFRadioChatterTerrainPlugin",
+		"musicSuppression":1,
+		"custom":{
+			# below stuff not imporant!!!
+			# loops played at a volume based on sine wave; regularly spaced
+			# threshold: range of [-1 to 1), lower values mean more playback time, should be higher if more chatter loops
+			# phaseMult: multiplier for how rapidly the volume-driving sine wave oscillates
+			"chatter":[
+				{"sound":"terrain_radio_chatter_1", "phaseMult":1, "threshold":-1},
+				{"sound":"terrain_radio_chatter_2", "phaseMult":1, "threshold":-1},
+				{"sound":"terrain_radio_chatter_3", "phaseMult":1, "threshold":-1},
+			],
+		},
+	},
+	
+}
+

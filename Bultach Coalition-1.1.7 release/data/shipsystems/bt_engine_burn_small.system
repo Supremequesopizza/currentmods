@@ -1,0 +1,43 @@
+{
+	"id":"bt_engine_burn_small",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bultach_hopAI",
+	
+	"statsScript":"data.scripts.shipsystems.EngineBurnStats",
+	
+	"engineGlowColor":[205,095,100,155],
+	"engineGlowContrailColor":[155,57,49,59],
+	"engineGlowLengthMult":4,
+	"engineGlowWidthMult":4,
+	"engineGlowGlowMult":1.3,
+
+	"jitterUnderColor":[205,095,100,155],
+	"jitterUnderCopies":8,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":5,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	#"jitterColor":[255,140,60,65],
+	#"jitterCopies":2,
+	#"jitterMinRange":0,
+	#"jitterRange":2,
+	#"jitterRangeRadiusFraction":0,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+
+	
+	"useSound":"bt_jet_start_small",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":500,
+		"burstMovementPotential":100,
+		"averageSpeedIncrease":200,
+	}
+}

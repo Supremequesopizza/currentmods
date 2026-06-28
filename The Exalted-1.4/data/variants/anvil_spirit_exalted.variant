@@ -1,0 +1,32 @@
+{
+  "displayName": "Exalted",
+  "fluxCapacitors": 10,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "anvil_spirit",
+  "hullMods": [
+    "hardened_subsystems",
+    "insulatedengine"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_spirit_exalted",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_tierra"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,528 @@
+{
+	# The following hull style ids are reserved and can not be used:
+	# "sounds", "DEFAULT", "FIGHTER", "FRIGATE", "DESTROYER", "CRUISER", "CAPITAL_SHIP"
+	"UAF_FLAGSHIP":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_flagship_engine", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_slv_engine_boost",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"uaf_solv_vii_explosion",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},	
+	"UAF_FLAGSHIP_STRUCTURE":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_flagship_engine", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_slv_engine_boost",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"uaf_solv_vii_structure_explosion",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},	
+	"UAF_FLAGSHIP_NOV":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_flagship_engine", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_slv_engine_boost_2",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},	
+	"UAF_FLAGSHIP_CHERRY":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_flagship_engine", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_slv_engine_boost_3",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+	#Ships
+	"UAF_CRUISER":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_engine_cruiser", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_engine_starter",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+	"UAF_CRUISER_AUTOMATA":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_engine_cruiser_hybrid", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_engine_starter",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+
+	"UAF_DESTROYER":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_engine_destroyer", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_engine_starter",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+	"UAF_DESTROYER_AUTOMATA":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_engine_destroyer_hybrid", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_engine_starter",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+
+	"UAF_FRIGATE":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_engine_frigate", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_engine_starter",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+	"UAF_FRIGATE_AUTOMATA":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_engine_frigate_hybrid", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_engine_starter",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+
+	"UAF_CAPITAL":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_engine_capital", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_engine_starter",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+	"UAF_CAPITAL_AUTOMATA":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"uaf_engine_capital_hybrid", 					# id of entry in sounds.json
+		"engineAccelerateSet":"uaf_engine_starter",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+
+	#Fighters
+	"UAF_FIGHTER_M":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"uaf_fighter_explosion_m",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+	"UAF_FIGHTER_S":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"uaf_fighter_explosion_s",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":true,
+		"coversColorShiftAmount":0.9,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/null.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/null.png",
+		"slotCoverMediumTurret":"graphics/weapons/null.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/null.png",
+		"slotCoverLargeTurret":"graphics/weapons/null.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/null.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+	},
+}

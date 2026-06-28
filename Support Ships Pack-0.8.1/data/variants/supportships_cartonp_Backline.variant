@@ -1,0 +1,26 @@
+{
+    "displayName": "Backline",
+    "fluxCapacitors": 3,
+    "fluxVents": 0,
+    "hullId": "supportships_cartonp",
+    "hullMods": [
+        "auxiliarythrusters",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "supportships_cartonp_Backline",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "vulcan"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "pilum_large"}
+        }
+    ]
+}

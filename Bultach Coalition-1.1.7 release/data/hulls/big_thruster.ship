@@ -1,0 +1,115 @@
+{
+  "hullName": "Big Thruster",
+  "hullId": "big_thruster",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/spacehulk/big_thruster.png",
+  "style": "LOW_TECH",
+  "height": 244,
+  "width": 184,
+  "center": [94, 121.5],
+  "collisionRadius": 193.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 190,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_linkedhull_two",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-20.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 158,
+      "locations": [-33.5, 55]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -158,
+      "locations": [-33.5, -55]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 135,
+      "locations": [39.5, 55]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 158,
+      "locations": [-102.5, 51]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -158,
+      "locations": [-102.5, -51]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-85, -0],
+      "length": 178.5,
+      "width": 83,
+      "angle": 180,
+      "contrailSize": 83,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -83.5, -38,
+    -112, -45,
+    -109.5, -58,
+    -87, -67.5,
+    -69, -67.5,
+    -33, -73.5,
+    -9.5, -67,
+    8.5, -73,
+    29, -89,
+    51, -85.5,
+    67.5, -79.5,
+    86, -74.5,
+    111, -72,
+    101, -48.5,
+    78.5, -0,
+    101, 48.5,
+    111, 72,
+    89, 80,
+    72.5, 83.5,
+    55, 91,
+    29, 89,
+    8.5, 73,
+    -9.5, 67,
+    -33, 73.5,
+    -69, 67.5,
+    -87, 67.5,
+    -109.5, 58,
+    -112, 45,
+    -83.5, 38
+  ]
+}

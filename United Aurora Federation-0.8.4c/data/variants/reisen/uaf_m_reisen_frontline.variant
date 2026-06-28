@@ -1,0 +1,87 @@
+{
+    "displayName": "Frontline",
+    "fluxCapacitors": 1,
+    "fluxVents": 28,
+    "goalVariant": false,
+    "hullId": "uaf_m_reisen",
+    "hullMods": [
+        "autorepair",
+        "uaf_secondary_focus",
+        "uaf_special_emergency_automated_assistance",
+        "targetingunit",
+        "ballistic_rangefinder"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_reisen_frontline",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_shimata_300_cn",
+                "WS0012": "uaf_shimata_300_cn",
+                "WS0013": "uaf_shimata_300_cn",
+                "WS0014": "uaf_shimata_300_cn"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0019": "uaf_minibreve_tnt_m",
+                "WS0020": "uaf_minibreve_tnt_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_hikone_quad",
+                "WS0002": "uaf_hikone_quad",
+                "WS0015": "uaf_hikone_quad",
+                "WS0016": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina_ii",
+                "WS0004": "uaf_pd_reina_ii",
+                "WS0005": "uaf_pd_reina_ii",
+                "WS0006": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_weiss_flk",
+                "WS0008": "uaf_weiss_flk",
+                "WS0009": "uaf_pd_reina",
+                "WS0010": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "uaf_racun_pod",
+                "WS0018": "uaf_racun_pod",
+                "WS0025": "uaf_weiss_ii_flk",
+                "WS0026": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0021": "uaf_m_reisen_armor_plating",
+        "WS0022": "uaf_m_reisen_armor_plating",
+        "WS0023": "uaf_m_reisen_armor_plating",
+        "WS0024": "uaf_m_reisen_armor_plating"
+    }
+}

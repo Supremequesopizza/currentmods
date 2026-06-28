@@ -1,0 +1,214 @@
+## Version 2.7.1
+- Save compatible
+- ED Distress encounter has many fixes
+- Fixed an issue preventing some ED fleets from spawning
+
+## Version 2.7.0
+
+- Should be save compatible
+
+### Changes
+- Very slight buff to Dalmation
+- Changes to Newfoundland (train) to improve AI
+- New secret ship based on the Newfoundland
+- Scatter Cannons (all tiers) — accuracy buff (they were more or less useless)
+
+### Bug Fixes
+- Removed plink gun from buildable list
+- More null checks
+- Fleet Repair Optimizations now works all the time (thank you Drawngazer!)
+- Fleets will now properly despawn
+- Distress encounter no longer combines Remnant and Omega factions
+
+---
+
+## Version 2.6.8
+- Update to SS v.98a
+
+---
+
+## Version 2.6.7
+- Ambush Swap system no longer is used by the AI while retreating
+- Newfoundland - various minor tweaks
+- Wurgandal
+  - Minor balance tweaks
+  - AI Maw usage is a tad safer
+  - Maw AoE damage is reduced based on distance from the source
+  - Modules now slowly drain their flux to the central core
+- Armor drone repair rate reduced by 1/3
+- Dobermann Grand Salvo now is affected by modifications to RoF
+- Utility ships more likely to show up in ED Markets
+- Integration with Exiled Space (rare faction)
+
+---
+
+## Version 2.6.6
+- Doog bounty now works
+- Removed doog portrait, it was thematically incorrect
+- Cleaned up Magic Bounty ranks
+- Saluki-X now gets added to game world on new game
+- Removed versioning kill code, instead there is a warning in the version file
+- Reduced MAW arc chance with missiles
+- Gunnery Control Mod MAW blacklist
+
+---
+
+## Version 2.6.5
+- Upgrade to SS .97a
+- New Super Ship start for Nexerlin
+- Minor bug fixes
+
+---
+
+## Version 2.6.4
+- Much less likely two newfoundlands will collide
+- Wurg has better AI targeting of ships with modules that report as phase ships
+- Shield breaker (shotgun) sounds redone to better fit with Star Sector, weapon volume lowered
+- Added a new distress encounter
+
+---
+
+## Version 2.6.3
+- Wurgandal buffs
+  - ~10% more hull
+  - ~8% more flux dissipation from weapon segments
+  - No zero flux speed penalty
+  - Lowered supply usage by 25%
+- Newfoundland is a bit smarter at activating its anti-missile system
+- More attempts at Newfoundland collision prevention
+
+---
+
+## Version 2.6.2
+- New bounty given out by pirates
+- Prism Freeport again has an ED Submarket
+- Newfoundland (the train) now gently pushes away friendly ships it would collide with — this helps a LOT with collisions
+- Reduced pirate ship spawn frequency weighting
+
+---
+
+## Version 2.6.1
+- Repair drones now report to Detailed Combat Results how repair data
+
+---
+
+## Version 2.6.0
+- Starsector .96a Upgrade
+- Supports LunaLib
+  - Can enable/disable defense fleets
+  - Can enable/disable transport fleets
+- Repair drones display damage healed during combat
+- Minor tweaks and cleanup
+
+---
+
+## Version 2.5.7
+- Fix for java.lang.UnsupportedOperationException on Nurse ship
+- Better Ambusher Swap description
+- Slight tweaks to Wurg burst damage for friendly fire and associated AI
+
+---
+
+## Version 2.5.6
+- Fix for Magic Bounty issue
+- Prevent Wurg from venting while Maw is firing
+
+---
+
+## Version 2.5.5
+- Wurg MAW reload time increased by 50%
+- Fix for Wurg shield toggle oscillation
+- Wurg is a bit more careful about friendly fire with the Maw
+- Fix for MagicBounty CME (problem is in MagicLib itself)
+- Fix for ED Markets not working
+
+---
+
+## Version 2.5.4
+- Wurg is slightly buffed, main beam is mega buffed (if you didn't like it before, try it now)
+- Repair drones and especially the repair ship are now worth using
+- More/New campaign stuff (HVB & Build an ED Submarket)
+- Various bug fixes and balance tweaks
+
+---
+
+## Version 2.5.3
+- Balance changes to the Leonberger based on feedback (better assault variant and a slight buff to its phase stats and movement)
+- Dust missiles move a bit slower and have fewer HP to make them more vulnerable to AoE PD
+- Slightly improved AI Wurg usage of MAW weapon and Tyrant Eye system
+- Rebalanced phase ships vs Vanilla, ~10% less phase cost (improved variants also)
+- ED Shipyard locations now spawn defensive fleets when threatened as well as have delivery fleets
+- Ship and variant changes for the Newfoundland so the AI can use it semi-effectively
+- No longer create submarkets at locations that already have non-standard submarkets
+- More SO variants for smaller ships
+- Shield breaker weapons are much more powerful, but they still seem like a bad idea except in specific situations
+- Fixed memory leak with Newfoundland
+- Riptide doesn't take damage from ship explosions so it doesn't blow itself up constantly
+
+---
+
+## Version 2.5.2
+
+Bugfix release — special thanks to those that reported issues. Save compatible with anything after 2.4.X.
+
+- Changed hidden modular mounts to normal turrets to prevent rare but painful autofit-based crashes (works around a Starsector engine limitation) — thanks ruddygreat
+- Fixed missing Riptide built-in laser (thanks Mr_8000)
+- Built-in Riptide laser no longer appears as a member of the basic blueprint family
+- Fixed mounts appearing offset on the Leonberger, Wurg left and right shield emitter modules
+- "Mine Custer" → "Mine Caster"; also it will no longer drop
+- Retriever field shields now really sets its collision type to "fighter" to try and prevent friendly fire scenarios
+- Increased repair drone rate by a factor of 2–3 depending on repair hull size
+
+---
+
+## Version 2.5.1
+
+Save compatible with anything after 2.4.X.
+
+### Features
+- Added two secret ships and their associated High Value Bounties
+
+### Fixes
+- Fixed crash bug with Wurg maw and AI casting
+- Suicide/Detonator drones now work (but only attack when a ship is "under pressure")
+
+### Balance
+
+**Wurgandal**
+- Large beams in modules can now just barely face forward
+- Maw weapon firing time has been reduced so it's less dangerous to use
+- Maw burst damage reduced
+- Tyrant Eye no longer generates flux so you can still have a zero flux engine boost
+
+**Bernard**
+- Slightly more efficient to bring it in line with other support ships (still super expensive, but it does a lot for the player)
+
+**Retriever Mk. II**
+- More OP: 250 → 270
+- Mount changed to Large Ballistic to make some mods more useful (rangefinder)
+
+**Newfoundland**
+- Modules now get targeting and fighter order data from parent
+
+---
+
+## Version 2.5.0
+
+Save compatible with 2.4.X.
+
+- Grand Salvo should now work at more opportune times
+- Nurse ship giant shield now has a larger impact radius to make it more useful (was too small)
+- Wurgandal MAW now instantly-ish destroys hulks
+- Maw charge up and slight balancing pass
+- Changes to the Wurg to make it more engaging to use as a player: modules now vent, launch fighters, share targeting and use shields together
+- Newfoundland is working and more balanced; modules have a PD-centric system
+- Many other balance changes
+- New or improved variants
+- Magic Bounty Integration (4 missions)
+
+---
+
+## Version 2.4.1
+- Updated remote version file URL
+- This mod can now be added mid-game and everything will work (before there would be no buy locations)
+- Get the Wurgandal at Nova Maxios or Prism Freeport with 25M & max rep with Independents from a bar event

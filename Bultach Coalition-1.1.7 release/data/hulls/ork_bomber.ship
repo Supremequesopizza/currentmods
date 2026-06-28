@@ -1,0 +1,61 @@
+{
+  "hullName": "Chaneil",
+  "hullId": "ork_bomber",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ork_bomber.png",
+  "style": "LOW_TECH",
+  "height": 42,
+  "width": 38,
+  "center": [19, 18],
+  "collisionRadius": 25,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-12, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 2,
+      "angle": 0,
+      "locations": [1, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 0],
+      "length": 29,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-18, 0],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "BT_TRAIL"
+    }
+  ],
+  "bounds": [
+    -11.5, -17,
+    22, 0,
+    22, -0,
+    -11.5, 17,
+    -17, -0
+  ]
+}

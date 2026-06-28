@@ -1,0 +1,67 @@
+{
+  "id": "uaf_garuda_808_xlc",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_garuda_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.uaf_garuda_808_xlc_onfire",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/weapons/Garuda 808 XLC/uaf_garuda_808_turret.png",
+  "turretGlowSprite": "graphics/weapons/Garuda 808 XLC/uaf_garuda_808_glow.png",
+  "turretGunSprite": "graphics/weapons/Garuda 808 XLC/uaf_garuda_808_barrel.png",
+  "hardpointSprite": "graphics/weapons/Garuda 808 XLC/uaf_garuda_808_turret.png",
+  "hardpointGlowSprite": "graphics/weapons/Garuda 808 XLC/uaf_garuda_808_glow.png",
+  "hardpointGunSprite": "graphics/weapons/Garuda 808 XLC/uaf_garuda_808_barrel.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    66.5,
+    12,
+    66.5,
+    -12
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    101,
+    12,
+    101,
+    -12
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 250,
+    "spread": 80,
+    "particleSizeMin": 5,
+    "particleSizeRange": 15,
+    "particleDuration": 0.12,
+    "particleCount": 100,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  
+  "fireSoundOne":"uaf_garuda_808_xlc_charge",
+  "fireSoundTwo": "uaf_garuda_808_xlc_fire"
+}

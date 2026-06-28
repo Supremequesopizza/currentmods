@@ -1,0 +1,111 @@
+{
+  "hullName": "Scrim",
+  "hullId": "ork_scrimb",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ork_scrimb.png",
+  "style": "BULTACH",
+  "height": 70,
+  "width": 106,
+  "center": [53, 37],
+  "collisionRadius": 79,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "Ork_low_Maintenance",
+    "BT_shieldsChanger",
+    "bt_shieldArching"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9.5, 25]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [9.5, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [25.5, 25]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [25.5, -25]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-37, 14.5],
+      "length": 32.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-37, -14.5],
+      "length": 32.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-31, -30.5],
+      "length": 48.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-31, 30.5],
+      "length": 48.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -34.5, -12,
+    -28.5, -35,
+    -3, -50,
+    27.5, -36.5,
+    31.5, -15,
+    9, -5,
+    9, 5,
+    28.5, 13.5,
+    28.5, 36,
+    -6.5, 49.5,
+    -28.5, 35,
+    -34.5, 12,
+    -23, -0
+  ]
+}

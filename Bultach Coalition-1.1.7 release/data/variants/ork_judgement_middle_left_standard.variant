@@ -1,0 +1,26 @@
+{
+  "variantId": "ork_judgement_middle_left_standard",
+  "hullId": "ork_judgement_middle_left",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "flak",
+        "WS0003": "hephag",
+        "WS0004": "pilum",
+        "WS0005": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

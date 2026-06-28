@@ -1,0 +1,45 @@
+{
+  "variantId": "ork_vencha_standard",
+  "hullId": "ork_vencha",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "ork_bigplasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ork_noshield_small",
+        "WS0007": "ork_noshield_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ork_rotary_pd",
+        "WS0004": "ork_rotary_pd_small",
+        "WS0005": "ork_rotary_pd_small",
+        "WS0008": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ork_light_fighter",
+    "ork_light_fighter"
+  ]
+}

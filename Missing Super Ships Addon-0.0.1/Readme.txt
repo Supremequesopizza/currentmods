@@ -1,0 +1,1 @@
+This addon has two difficultys, which you recive is dependent on if you have the spawning of supers.

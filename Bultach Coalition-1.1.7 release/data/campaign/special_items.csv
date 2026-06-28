@@ -1,0 +1,7 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+Bultach Coalition Database,ork_project_package,package_bp,Bultach Coalition,,300000,1000,1,,graphics/icons/cargo/blueprint_basic.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,ork_project_bp,Full database of Bultach Coalition ships and weapons.,240
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Restored Nanoforge,bt_repaired_c_nanoforge,"nanoforge, pather4, colony_item, codex_unlockable",Bultach Coalition,,175000,1000,1,EXTREME,graphics/icons/cargo/bt_nanoforge_brute.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,"heavyindustry, orbitalworks","A powerful and versatile manufacturing ""black box"", capable of building itself out to an industrial scale, given the necessary raw materials and human assistance.
+
+This one was formerly corruped, but has been thoroughly, but not fully, restored by the Bultach Coalition. To bolster their military might, and in pursuit of aquiring defect-free starship components, this nanoforge forgoes any increased production as well as increasing the resources demanded, but indeed allows for lessened defects.",139.1

@@ -1,0 +1,73 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "uaf_m_seniraja",
+    "hullMods": [
+        "heavyarmor",
+        "armoredweapons"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_seniraja_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_herexa_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "uaf_vocal_l_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_amazoch_light_asrm_dual",
+                "WS0006": "uaf_amazoch_light_asrm_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_medlav_quad",
+                "WS0002": "uaf_medlav_quad",
+                "WS0003": "uaf_ivory_triple",
+                "WS0004": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_pd_reina",
+                "WS0008": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_weiss_flk",
+                "WS0012": "uaf_weiss_flk",
+                "WS0015": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0014": "uaf_m_inazuma_left_armor_plating",
+        "WS0016": "uaf_m_inazuma_right_armor_plating"
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "variantId": "supportships_lpdram_LuddsOwn",
+  "hullId": "supportships_lpdram",
+  "displayName": "Ludd's Own",
+  "goalVariant": true,
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "hullMods": [
+        "shield_shunt",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "lightag"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "jackhammer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "vulcan"}
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+  "hullName": "Inazuma(M)",
+  "hullId": "uaf_m_inazuma",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Inazuma/Inazuma_Military.png",
+  "style": "UAF_CRUISER",
+  "height": 247,
+  "width": 158,
+  "center": [79, 126],
+  "collisionRadius": 158.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 126,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade",
+    "uaf_weaponCalibration"
+  ],
+  "builtInWeapons": {
+    "WS0008": "uaf_rotan_452_cn",
+    "WS0009": "uaf_rotan_452_cn",
+    "WS0012": "uaf_m_inazuma_front_cover",
+    "WS0013": "uaf_m_inazuma_back_cover"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-81, -0],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [31, -0],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [62, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -45,
+      "locations": [5, -40],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 45,
+      "locations": [5, 40],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-86, -35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-86, 35]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [45.5, 31.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [45.5, -31.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, 65]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6, -65]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [50.5, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-21, -0],
+      "renderOrderMod": 20
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, 51],
+      "length": 22.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-27.5, -51],
+      "length": 22.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-32, 40],
+      "length": 22.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-32, -40],
+      "length": 22.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-112, 17.5],
+      "length": 45.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-112, -17.5],
+      "length": 45.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-111.5, 26.5],
+      "length": 45.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-111.5, -26.5],
+      "length": 45.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    -123.5, 3.5,
+    -110, 10,
+    -105, 39,
+    -97.5, 38.5,
+    -78, 67,
+    -73, 68,
+    -63, 62,
+    -62.5, 58.5,
+    -65, 53,
+    -65, 36,
+    -44, 36,
+    -33.5, 26,
+    -33.5, 36,
+    -22.5, 55,
+    -27.5, 60.5,
+    -23, 69.5,
+    3, 69,
+    3, 61,
+    10, 58,
+    16, 60,
+    58.5, 38.5,
+    66, 25,
+    119.5, 5,
+    119.5, -5,
+    66, -25,
+    58.5, -38.5,
+    16, -60,
+    10, -58,
+    3, -61,
+    3, -69,
+    -23, -69.5,
+    -27.5, -60.5,
+    -22.5, -55,
+    -33.5, -36,
+    -33.5, -26,
+    -44, -36,
+    -65, -36,
+    -65, -53,
+    -62.5, -58.5,
+    -63, -62,
+    -73, -68,
+    -78, -67,
+    -97.5, -38.5,
+    -105, -39,
+    -110, -10,
+    -123.5, -3.5
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"id":"ork_vortex_weapon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+  "everyFrameEffect":"data.scripts.weapons.bt_vortex_onfire",
+  "onFireEffect":"data.scripts.weapons.bt_vortex_onfire",
+	"type":"ENERGY",
+	"size":"SMALL",
+  "turretSprite": "",
+  "turretGlowSprite": "graphics/weapons/gestalt/bt_vortex_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/weapons/gestalt/bt_vortex_glow.png",
+	"glowColor":[255,255,255,155], # 255,0,80
+	#"glowColor":[120,110,185,255],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH", #GLOW
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"bt_vortex_lightning_shot",  # projectile that will be fired
+	"fireSoundTwo":"bt_vortex_fire",
+}

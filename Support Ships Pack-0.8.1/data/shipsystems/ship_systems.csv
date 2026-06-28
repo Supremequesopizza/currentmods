@@ -1,0 +1,4 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Combat Vent,supportships_combatvent,,,-0.1,,,,,,,0.1,5,0.1,15,,,,TRUE,,,,,,TRUE,,,graphics/icons/hullsys/supportships_combatvent.png
+Jammer Pod,supportships_jammerpod,,1.25,,,,,,,,1.2,,0.8,1,TRUE,,,TRUE,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
+Lifesaver,supportships_lifesaver,,,,,,,,,,0.1,,0.1,1,TRUE,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png

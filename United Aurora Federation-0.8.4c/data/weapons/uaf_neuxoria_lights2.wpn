@@ -1,0 +1,27 @@
+{
+	"id":"uaf_neuxoria_lights2",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"LARGE",
+	"showDamageWhenDecorative":false,
+	"renderBelowAllWeapons":false,
+	#"renderHints":["RENDER_ADDITIVE"],	
+	"turretSprite":"graphics/ships/Zepporia/uaf_ai_neuxoria_light_2_00.png",
+	"hardpointSprite":"graphics/ships/Zepporia/uaf_ai_neuxoria_light_2_00.png",
+	"numFrames":2,
+	"frameRate":0,
+	"alwaysAnimate":"true",
+	"turretOffsets":[-100, -100],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	#"fringeColor":[255,255,255,255],
+	#"coreColor":[255,255,255,255],
+	#"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+	"everyFrameEffect":"data.scripts.weapons.blinkers.uaf_zepporia_lights",
+
+}

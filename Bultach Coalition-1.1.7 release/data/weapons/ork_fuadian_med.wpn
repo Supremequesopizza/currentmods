@@ -1,0 +1,28 @@
+{
+  "id": "ork_fuadian_med",
+  "specClass": "projectile",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/gestalt/ork_fuadian_medium.png",
+  "turretGlowSprite": "graphics/weapons/gestalt/ork_fuadian_medium_glow.png",
+  "hardpointSprite": "graphics/weapons/gestalt/ork_fuadian_medium_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/gestalt/ork_fuadian_medium_hardpoint_glow.png",
+  "glowColor":[200,220,255,255],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{
+                "length":50.0,
+                "spread":20.0,
+                "particleSizeMin":3.0,
+                "particleSizeRange":5.0,
+                "particleDuration":0.25,
+                "particleCount":20,
+                "particleColor":[50,255,155,255]
+        },
+	"projectileSpecId":"bt_fuadian_med_shot",
+	"fireSoundTwo":"bt_fuadian_med_fire",
+}

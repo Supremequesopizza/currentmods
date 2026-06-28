@@ -1,0 +1,605 @@
+id,type,text1,text2,text3,text4,text5,notes
+#ships,,,,,,,
+,,,,,,,
+ork_dreadnotv2,SHIP,"One of the largest ship designs produced by the Bultach Coalition, the Fregairt-class is a heavy anchor found in larger fleets, bolstering a massive array of weapons. One of the Coalition's stakes in their struggle to oppose the Tri-Tachyon Megacorporation, this capital ship is primarily used to hold the line, unwavering, even against the most powerful foes such as the Astral or Paragon designs of Corporate fame. 
+
+Carrying a massive amount of armaments, any fleet spotted with this vessel is rarely trifled with. ",,,,,
+ork_vencha,SHIP,"Inspired by an earlier, modified version of a Venture cruiser, the Ramala-class serves as a battlecarrier for the Coalition Navy, bringing fighters to the front line while keeping a heavy set of armor and weapons on hand in most engagements.",,,,,
+ork_faster,SHIP,"Trading armor for unmatched speed for its class and armaments, the Striopach-class is excellent at running down weaker ships and giving chase to damaged foes, often able to avoid any ships it cannot take in a direct fight. Capable of slipping through incoming munitions with quick bursts of speed, it has proven quite popular with the more aggressive captains in the Coalition navy, who prefer a speedier alternative to the more common, heavily armored cruisers.",,,,,
+ork_smasha,SHIP,"A heavily armored, heavily armed destroyer, the Smàladair-class is capable of harassing a wide array of ships, or even forcefully repositioning them. Notorious for it's ability to use it's heavily armored front as a battering ram to disable shields, or to finish off weak ships.",,,,,
+ork_hammah,SHIP,"An older but time-proven dependable design, the Cruinn-class is often used as an anchor for smaller fleets due to the amount of ordnance it can absorb with its exceptionally thick armor. It can just as easily rain down a respectable amount of ordnance upon enemy vessels - but suffers from its aged, and quite easily strained flux grid. Regardless of flaws, it is still a common sight in Coalition fleets.",,,,,
+ork_grot,SHIP,"Heavily armed and armored for it's class, the Dreach-class is a common frigate design used by Bultach for harrasser roles. Uniquely, the Dreach excels at soaking up damage for vulnerable ships of higher importance.",,,,,
+ork_bigscrap,SHIP,"The first capital design made by the Bultach Coaltion, the tried and true Daiche-class battlecarrier has seen several iterative upgrade packages over it's lifetime. While somewhat outdated compared to more modern designs fielded by the Persean Sector, the Daiche battlecarrier is a reliable anchor for smaller fleets and has survived over a century of continual combat against vastly superior oppoents in some cases. 
+
+Heavily armored and slow, this Daiche has cemented itself as part of the Bultach Navy's fleet doctrine. Typically the flagship for smaller patrols, it is meant as the anvil to the hammer of it's escorts and packs enough firepower to consistently survive multiple engagements.",,,,,
+ork_spacehulk,SHIP,"Made of countless discarded hulls, chunks of stations, and often from cannibalized small pirate vessels, but just as often made from the various scrapyards left drifting in the void of space, no two Space Hulk-class vessels are the same. Regardless, each one is fitted with enough weapons to wrestle with stations, fleets and carries a terrifying amount of hangar bays to allow force projection over a large area. Worse still, even destroying it often leaves the carcass for pirates to reclaim, brought back with a vengeance each time. Thankfully, the vessel is extremely rare at best. Only aquired by the best and most ambitious pirate lords.
+
+The ""zombie"" ship nature of a Space Hulk gives it something of a sinister reputation with captains and spaceport bars. Rumors spoken of seeing these crumbling hulks leading massive raiding fleets. Additionally, these vessels are a logistical nightmare with most repair crews as there is no proper standard when one arrives in a port of call for said repairs, often having additional plating simply hacked on wherever damage is done.",,,,,
+ork_interdictor,SHIP,"Made for hunting down phase ships - or defending important assets from them, the Plàigh-class excels at just that role. Plàigh-class ships are equipped with specialized systems that allow the capability of ""striking"" a small area of P-space with a lash of energy, temporarily rending phase vessels back into realspace. Even in situations with no phase ships to target, its system allows a respectable discharge of EMP upon enemy hulls.",,,,,
+ork_prong,SHIP,"Fast, tough and carrying a heavy amount of armaments for its size, the Fithea-class is a simple ship in construction for its size. A fairly common destroyer in Bultach Navy service, Fitheas are used as an escort for trade fleets, or to pad out gaps in combat fleets which normally don't carry as much firepower, such as pickets or light patrols.",,,,,
+ork_bees,SHIP,"A small carrier often seen in minor Bultach patrols, the Snàthad-class brings much needed fighter support to their fleets at a respectable price. While not able to engage in close combat itself all too reliably, it's still a common sight due to the support value it provides.",,,,,
+ork_mining,SHIP,"Originally made in the early years of the Company War, back when the Bultach Coalition was a rather more desperate polity, the Mèinneadh-class is a mining vessel militarized for war. Most Mèinneadhs feature hastily welded armor, which is then put together en-masse to quickly gather much needed resources without the threat of loss to hostiles. Despite this, Mèinneadhs are still seen often enough due to their cheap design.",,,,,
+ork_old,SHIP,"One of the first ships ever produced natively by the Bultach Coalition, the Roimhe-class is a cheap overhaul of the Mule-class combat freighter, resulting in a surpisingly powerful destroyer, albeit not quite as useful as more expensive ships of it's class. Roimhe-class vessels have gained recent popularity even among Independants, due to their cheap conversion costs and the common nature of the Mule-class to begin with. Thanks to this, they are widely exported, constructed, and often serve many budding mercenary commanders.",,,,,
+ork_scrimb,SHIP,"A small, exceptionally nimble frigate, the Sgoinneil-class is seen in nearly all Bultach fleet compositions. Capable of harrassing larger ships and dueling with other frigates of similar size and roles.",,,,,
+ork_bastard,SHIP,"A frigate entirely dedicated to bringing along fighter, and minor missile support, the Madach is found in nearly every Bultach Coalition fleet, hidden behind more heavily armored allies to provide valuable support to any engagement.",,,,,
+ork_mech,SHIP,"A curious design, the Buail-class is a hard-hitting, well armored ship sporting two, built-in and downsized weapons; the Hellbore, and the Mark IX autocannon. It is an exceptionally rare sight, due to just how old it is.
+
+Unfortunately, due to the logistics needed to support the integrated weapons, the Buail lacks a shield generator, making it exceptionally weaker over prolonged battles, or against heavier hitting armaments.",,,,,
+ork_battlecruiser,SHIP,"In order to avoid being outmaneuvered by the high-tech ship designs used by their Tri Tachyon opponents, the Bultach Coalition has taken to designing, and fielding the Nadhmòr-class Battle Cruiser, usually found in larger war fleets. Poorly armored compared to most capital ships, the Nadhmòr has incredible maneuverability to compensate for it's more fragile nature.
+
+On top of this maneuverability, the Nadmòr-class packs heavy strike potential-- able to mount a large array of missiles to make decisive attacks against key targets. Following it's success, it has only seen more and more common use, a mainstay in Bultach fleets.",,,,,
+ork_tail,SHIP,"One of the newest ships developed by the Bultach Coalition, the Daignich-class carries an impressive flux core which mainly powers its unique ship system. Though it sacrifices the armored nature of most Bultach vessels in order to be utterly focused on support, it would be foolish to ignore it for long - especially in drawn out battles, as it's presence on the battlefield proves more and more valuable as time goes on with its ability to supply minor repairs to allies.",,,,,
+ork_murtach,SHIP,"A singular prototype with no known production lineage, the Murtach exists in quiet defiance of conventional ship design. Built for - and only capable of sustaining - a single pilot, and sealed entirely from within, the vessel houses a sprawling, disturbingly organic bio-synthetic core that blurs the boundary between ship and sentience. Boarding requires, ideally, oversight from an external crew. There are no manual controls.
+
+The internal chamber is seemingly organic, reactive, and partially alive. Specialized suiting - or outright disrobing - is required. The selected pilot is guided into a vertical recess that, once sealed, slowly draws them inward by a facsimile of myenteric reflex. Once within the core of the vessel, the pilot is enveloped and secured by a tight matrix of wet, flexible pads, neural interfaces, and fluidic membranes. The ship’s onboard bio-synthetic intelligence assures the indefinite health and sustainment of the pilot, gradually extending its reach into the pilot’s emotional and cognitive states.
+
+The process is permanent for the duration of deployment. Some pilots pair more naturally with the vessel, but even the less enthusiastic are eventually ""accommodated."" Over time, the vessel appears to adjust the pilot's mental and emotional state. Some report a slow erosion of resistance or discomfort - disturbingly replaced by compliance and, in extreme cases, a form of dependence. Pilots often speak of still feeling “bound” or sensing a lingering “presence” long after departure. Disembarkation is impossible without an external crew to reverse the entombment procedure. Even then, the separation is often difficult. Pilots removed from the vessel, especially after prolonged exposure, frequently exhibit signs of psychological withdrawal, dissociation, or distress.
+
+The vessel’s phase capability is extraordinary in strength, but unnatural in execution. It does not glide into p-space - it tears itself in, violently displacing space-time and leaving behind bursts of gravimetric and electromagnetic turbulence. Emergence is more violent still: a sharp, crackling surge accompanied by a violent discharge of energy. The unique makeup of the hull allows both it and its pilot to survive such a maneuver.
+",,,,,
+ork_racer,SHIP,"The newest frigate found in Bultach fleets, the Ghean-class is a nimble, albeit somewhat fragile ship with a respectable weapons package. It's most powerful feature is the newly made ""Offensive Overdrive"", which allows it to further push it's speed and fighting power. It often receives criticism for how it gives up staying power in order to push aggression to the fullest, but is regardless a common sight.",,,,,
+ork_bigracer,SHIP,"Essentially the big brother to the Ghean frigate, and the largest vessel capable of safely handling the ""Offensive Overdrive"" style of Bultach reactor's, the Dhaich-class cruiser is an entirely aggression focused vessel. Giving up it's ability to keep vessels and range and soak up damage with armor, these cruisers can instead be seen bleeding flux from their extended vents on the front line, and dishing out as much firepower as possible before their strained reactor demands relief. A favorite of the brave or reckless, it has grown to be quite popular in Bultach fleets.",,,,,
+ork_crusher,SHIP,"Covered in hulking, overlapping armor plates and bristling with forward facing armaments, the Aghaidh-class is capable of truly awesome firepower for its class, as well as being able to withstand withering punishment itself. While slow and lumbering, the Aghaidh can still be found on the frontlines, soaking up damage for it's more fragile allies.",,,,,
+ork_skrunkly,SHIP,"A hardy, common frigate found in many Bultach fleets, the Gath-class frigate is simple, tried and true. Though underwhelming in it's PD capabilities, it brings enough strike potential to see much use in just about any fleet found in the Coalition, able to take quite a bit of punishment, for a frigate.",,,,,
+ork_speeder,SHIP,"A destroyer focused on strike capability and speed above all other, the Luath is capable of accompanying even frigates on the frontlines, bullying less armed vessels away to allow a strategic advantage in the first moments of battle. Though it quickly strains it's reactor, the vessel can still fight for a respectable amount of time; pestering more cumbersome foes and continuing to press the offensive.",,,,,
+ork_thrasher,SHIP,"Deceptively well-armed and armored for it's size, as a smaller cruiser, the Mòran-class is designed as a relatively cheap way of punching through enemy lines, or using brute force to reposition a ship. Straining even the toughest of shield generators with it's sheer speed, and enhanced mass upon impact-- smaller vessels often being outright destroyed by the wild charge. The Mòran is particularly favored by the aggressive and reckless Captains, due to it's tendency to get in knife-fighting range.",,,,,
+ork_tiny_freighter,SHIP,"A common freighter seen in many Bultach fleets, the Asal-class is a dependable-- if under-armed cargo vessel. Gaining a bit more capacity over the Mule-class in exchange for not quite being able to defend itself, but seeing one without a proper escort isn't exactly a common occurance to begin with.",,,,,
+,,,,,,,
+,,,,,,,
+#fighters,,,,,,,
+,,,,,,,
+ork_light_fighter,SHIP,"A simple, useful design found in nearly all Bultach fleets sporting a carrier, the Brònach-class fighter is decently reliable in it's ability to overwhelm smaller wings, as well as lone ships-- though this can often lead to high casualties if a encountering a competent PD grid.",,,,,
+ork_heavy_fighter,SHIP,"A slower, more expensive fighter, the Seillean-class is less often used due to lengthy replacement times. It makes up for this with a respectable armament, including a downscaled Teth plasma cannon, which it can fire in small bursts to devestate other wings head on, or chew into larger ship's armor.",,,,,
+ork_bomber,SHIP,"The only bomber fielded by carriers in the Coalition, the Chaneil-class bomber is fairly slow, but carries a heavy payload of two downsized Caillean torpedoes. It is capable of both pressuring shields with each pass, or devestating armor and hull.",,,,,
+ork_defense_drone,SHIP,"Custom made for the Sally-class, these refitted, small mining drones can provide a much needed PD boost for their host hull, as well as a way to get a bit of extra damage in on the enemy in a pinch.",,,,,
+,,,,,,,
+,,,,,,,
+#supers,,,,,,,
+,,,,,,,
+ork_superdread_main,SHIP,"The pearl of the Bultach navy, both a powerful morale and propaganda piece often used to strike both fear and awe into those who view it, housing thousands upon thousands of crew, and easily outsizing-- as well as outgunning entire stations. The DòrnDhè is often credited as the will of the Bultach Coalition's citizens, their rage made manifest.
+
+It is to spearhead their assault against Tritachyon's planets, with the capability to reduce the surface of any colony to a sheet of glass solely on it's own. The vengeful spirit of a spiteful populace.
+
+Doubling as a last resort, it presents the option to embark upon it as an ark ship, to carry a large chunk of the population to safe haven, should the Bultach Coalition's war come to that.
+
+",,,,,
+,,,,,,,
+ork_redemption_main,SHIP,"One of the legendary sporeships; that which first seeded planets for life in the sector, changed into a grotesque amalgam of Luddic wrath. Able to serve both as a base of operations in and of itself, as well as rain holy justice upon any servants of Moloch in it's path. Where it goes, destruction follows in it's wake. Almost regarded as a myth, with how rare this class of vessel is, but tales of horror are still told in hushed tones by spacers who have supposedly caught sight of these monstrosities. Tales of holy horns blaring, and massive pather fleets following along it's radioactive plume.
+
+Heavily armored from it's sheer size alone, the Redemption can brush off strikes that would prove destructive to many other ships. Using it's sheer weight as a battering ram against any foe unfortunate enough to have drawn it's ire. Capable of going toe to toe with entire battlestations, and reducing them to molten, radioactive slag. The Stars held no anger, only disappointment. Man found themselves lacking in the face of damnation. No heresy could protect them from their punishment. May the holy void have mercy on them.
+
+""Upon this rock, I will build my church.""
+""To which even the most depraved servants of moloch may be redeemed.""
+""Blessed by his holy void in final absolution.""
+
+",,,,,
+,,,,,,,
+ork_sgr_main,SHIP,"The Sathar-class Heavy Dreadnought, the pinnacle of Coalition ship production, stands as a towering behemoth that eclipses not only its peers within the Coalition but potentially the entire sector. This awe-inspiring vessel boasts an armament of unparalleled magnitude, engineered to endure protracted engagements and effectively lay siege upon the mightiest of stations. While its power is undeniable, the Sathar-class carries a substantial logistical burden, a trade-off deemed acceptable by the Bultach Coalition in light of its remarkable combat performance.
+
+Originally conceived as a bulwark against any incursion into the cherished home system of the Coalition, the Sathar-class Heavy Dreadnought quickly proved its worth. As time progressed, it underwent meticulous refinement and fine-tuning, solidifying its reputation as the epitome of concentrated firepower. These imposing dreadnoughts now serve as the definitive symbol of strength during diplomatic engagements, providing an unmistakable show of force that compels factions with overly warm relations towards Tritach to reconsider their allegiances.",,,,,
+,,,,,,,
+ork_judgement,SHIP,"Originally conceived as a mundane mining station, the Judgement-class vessel underwent a radical transformation at the hands of religious zealots who saw its potential for a higher purpose. What was once a pragmatic hub for resource extraction has been reborn as a space-borne arbiter, a vessel imbued with sacred purpose and an unyielding commitment to the extremist ideologies of its creators.
+
+The Judgement-class vessel boasts an arsenal that reflects its newfound religious identity. Its hull carved into to fit as many weapons as its frame can handle, its main mining beam jury-rigged and overcharged to incredibly dangerous levels. This vessel, once a mere workhorse of industry, now wields the power to dish out divine judgement upon any deemed servants of moloch by the Luddic Path.",,,,,
+,,,,,,,
+,,,,,,,
+#stations,,,,,,,
+,,,,,,,
+ork_bulwark_station,SHIP,"The Bulwark stands as a testament to the ingenuity and collective strength of the Bultach Coalition, a union of those who would seek refuge from Tri-Tachyon, and a fortress from which to strike back against their oppression. This colossal defensive space station, hovering ominously at the outer edges of its host planet, is a marvel of engineering and a symbol of unyielding defense.
+
+The Bulwark is a bastion of impenetrable defenses, designed to withstand the most formidable tides the sector can muster. Carrying a truly terrifying amount of guns, as well as a massive railgun mounted atop its main body. Bultach propaganda often tout that it would take a battlegroup regiment and then some to begin chipping away at the Bulwark.
+
+The Bulwark stands as a shining sentinel in the vastness of space, a beacon of security and cooperation among the stars. It exemplifies the commitment of the Bultach Coalition to preserving peace and prosperity throughout their system, and hopefully beyond.",,,,,
+,,,,,,,
+,,,,,,,
+#pirate/pather,,,,,,,
+,,,,,,,
+ork_bigscrap_path,SHIP,"The Tribulation is a capital ship that, as far as the Sector knows, has only ever been produced by the Luddic Path. No schematics or examples of a pre-Pather, secular version have ever been discovered, leading many to believe that this is its one and only state: a sanctified and terrifying weapon of war.
+
+Outwardly, the ship is a testament to the Path's fervent devotion to their cause, often adorned with scriptures and housing shrines within its steel corridors. In battle, it is a formidable anchor for their fleets - and a horrifying sight for any of those deemed ""sinners"" by the Luddic Path. Possessing the raw durability and heavy firepower to stand against dedicated military vessels, it is a troublesome development indeed. The sheer resources and means of production required to create such a ship means it remains a thankfully rare sight in the Persean Sector.",,,,,
+ork_mule_mk3,SHIP,"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.
+
+This simple combat freighter has been overhauled by the Luddic Path. Strapped with as many mounts as it can hold, and fitted with a dangerous amount of engines, it makes a surprisingly formidable, albeit fragile destroyer.",,,,,
+ork_ramshackle,SHIP,"A twisted amalgam of hullfoam and shoddily welded armor plates, no two Ramschackle-class cruisers are quite the same, coming from different base ships. Nevertheless, they pack a respectable amount of armament, and can take a heavy beating before being ripped apart.",,,,,
+ork_vencha_pather,SHIP,"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war. But it's slightly amiss. The more hazardous modifications seem to have been done by more professional hands.
+
+This Luddic conversion of the Ramala sees it made much faster, it's hangar bay collapsed and welded into additional armor plates, as well as a more weapons haphazardly added to it's frame. Albeit more rare, this Path cruiser is a extremely potent threat.",,,,,
+ork_hammah_pather,SHIP,"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war. But it's slightly amiss. The more hazardous modifications seem to have been done by more professional hands.
+
+With massive, dangerous modifications throughout the entire hull, this Cruinn-class conversion by the Luddic Path has been pushed to straining speeds, its large ballistic mount converted to fit missiles instead, giving it terrifying strike potential. Thankfully for those it finds in battle, the additional weaponry, orion device, and engines welded where armor plates should be has significantly weakened how much damage it can absorb.",,,,,
+ork_skrunkly_lp,SHIP,"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war. But it's slightly amiss. The more hazardous modifications seem to have been done by more professional hands.
+
+Already a somewhat nimble frigate, this conversion sees the Gath made insanely fast; fitted with an engine nearly too big for it's frame. Giving up one of it's hardpoints in exchange for two composites.",,,,,
+ork_dangerous,SHIP,"A horrifying display of Luddic Path engineering, the Goblin is little more than two Gremlin-class phase coils welded onto a larger frame, and then subsequently loaded with as many guns as the already stressed vessel can carry. Fast, but fragile, this ship often supports bigger Luddic vessels.",,,,,
+,,,,,,,
+,,,,,,,
+ork_mining_p,SHIP,"A pirate converted variant of the Mèinneadh, this cruiser sports a large ballistic instead of the hangars that normally house mining drones. Additional armor has been crudely welded on and it is a viable threat in battle - but still quite fragile due to it's base internal structure.
+
+Originally made in the early years of the Company War, back when the Bultach Coalition was a rather more desperate polity, the Mèinneadh-class is a mining vessel militarized for war. Most Mèinneadhs feature hastily welded armor, which is then put together en-masse to quickly gather much needed resources without the threat of loss to hostiles. Despite this, Mèinneadhs are still seen often enough due to their cheap design.",,,,,
+ork_loota_p,SHIP,"Already a tough, well-armed ship before it's capture and subsequent pirate ""upgrades,"" this Bruth-class cruiser has had it's cargo holds collapsed and welded into crude fighter bays instead, additional armor forced onto the frame, larger weapon mounts hacked on, and the ship system dangerously overriden to allow higher mobility. A formidable cruiser by any right, but rarer than those easier to procure.",,,,,
+ork_logistics_p,SHIP,"A pirate conversion of the Giùlain; a tough, well armed logistics vessel before any modifications, it does not fall prey to capture-- and subsequent modification by pirates quite nearly as often as it's less defended cousins, but in the instances it does, it becomes a potent threat. 
+
+Bristling with guns and missiles alike, as well as a salvaged ""Jet Burst"" ship system from another unfortunate Bultach vessel, this ship is certainly not to be underestimated. Though often outclassed in one on one fights with a proper capital class ship.",,,,,
+ork_bees_p,SHIP,"A rather extreme conversion of the Snàthad, it went from a dependable carrier to an incredibly fast destroyer-- albeit fragile, due to the modifications stripping armor plates from the hull. Regardless, it is a ship favored by reckless and other captains who crave a ludicrous amount of speed.",,,,,
+ork_prong_p,SHIP,"Following the typical Pirate mindset of bigger being better, much of the Fithea's internal framework was gutted and replaced - or redirected in order to sustain the newly hack-forged large mount present on the ship. Abandoning the nimble, previous system for a more straight forward Burn Drive, it now serves as a ""fine"" addition to the pirate fleets managing to procure them.",,,,,
+ork_scrapheap,SHIP,"More a twisted wreck that flies than a ship, the Scrap Heap class carries a blistering amount of guns onto the battlefield-- more guns than its limited flux grid can much handle. Regardless, pirates arn't picky on how to deliver as much lead as possible down range, and will happily construct these odd cruisers if the right junk is available.",,,,,
+ork_drednot,SHIP,"Thankfully a rarity, the Mastodon, a self proclaimed ""DrEdNOt"" in badly chipping paint on its side is one of the most sophisticated designs procured by the pirates. Not found in any domain historical records or even hinted at in the salvage procured from ruins, the Mastodon is a unique post-collapse triumph of tyranny. It carries a massive amount of guns, fields fighters, and invokes terror in fleet patrols, the pride of any successful pirate lord.",,,,,
+,,,,,,,
+,,,,,,,
+#logistics,,,,,,,
+,,,,,,,
+ork_loota,SHIP,"Finding themselves with dangerous trade routes hounded by pirates, Tri Tachyon and other threats alike, the Bultach Coalition uses the Brùth-class freighter as a means to mitigate losses through heavy arms and armament, albeit losing cargo space to add these defensive features. 
+
+Nonetheless, the Brùth remains a proven, hardy and rugged vessel that makes most pirate ambushers think twice before engaging one.",,,,,
+ork_tanka,SHIP,"A standard tanker for Bultach fleets, the Mèinlùtha-class was created with the same philosophy as the Brùth-class freighter, trading overall capacity for a much better combat capability to fend off Tri-Tach and pirate fleets alike.",,,,,
+ork_logistics,SHIP,"A combination of both cargo and fuel capacity, the Giùlain-class is seen quite often in heavier trade and exploration fleets, capable of supplying and fueling for extended periods of time, as well as putting up a decent fight itself.",,,,,
+,,,,,,,
+,,,,,,,
+#bounties,,,,,,,
+,,,,,,,
+ork_alysse_lp,SHIP,"A treasured battleship-- stripped down and haphazardly modified to be a holy war machine of Ludd. It's armor modules have been all but torn off, or integrated into the main hull, leaving room to pack the vessel with an obscene amount of extra firepower. It's unique, defensive orion drive reverted to the base design of the ship system to allow as much speed as possible, to usher along salvation to the servants of moloch. It's clear with the amount of modifications it has been on it's holy crusade for quite some time; the scars of battle showing upon it's hull as anything from stripped paint to plasma burns.
+
+It is not often a Knight of Ludd strays from their path, but this once sanctified vessel is proof enough of what they're capable of in desperation; desperation to wipe the sector clean of it's many sins, to sentence the hordes of moloch to the holy void.",,,,,
+,,,,,,,
+,,,,,,,
+#random ships,,,,,,,
+,,,,,,,
+ork_apsis,SHIP,"The Apsis-class, the formidable elder sibling of the Apogee-class vessel, designed for those who seek the pinnacle of exploration and defensive prowess in the vast reaches of space.
+
+The Apsis boasts a commanding presence, meticulously equipped with cutting-edge scientific instruments. Tailored for long-range exploration of hostile territories, Apsis captains are known for their independence and self-reliance, navigating the cosmos alone with unwavering confidence.
+
+Much like the Apogee, the Apsis leverages a potent shield emitter and powerful engines to challenge would-be attackers. While its armor rating may still suggest vulnerability on paper, it can nonetheless absorb a fair bit of damage.
+
+Reserved for the elite echelons, the Apsis-class demands a substantial investment. Only those with the resources to seize one of these hulls for themselves can enjoy this rare combined epitome of advanced scientific and military technologies.",,,,,
+ork_sisyphus,SHIP,"A thorough and total refit of the Atlas Superfreighter, the Sisyphus-class is quite nimble for its size, and can put up a surprising fight. Often seen leading scavenger expeditions into the unknown, or among the fleet of a rag-tag independant planetary defense. With a respectable armament and fighter support, it has solidified itself as a dependable post-collapse design. ",,,,,
+ork_veneer,SHIP,"A total overhaul of a Starliner hull, the Veneer-class has it donned in armor plating, reforged entire sections of the hull, and heavily upgraded its flux grid. Though somewhat vulnerable to flanking due to its forward-facing armament, it is nonetheless a useful vessel for those unable to afford more ""official"" and expensive hulls.",,,,,
+ork_sally,SHIP,"An original design, the Sally-class is quite nimble, fairly cheap, and capable of punching up to a limited degree. Fielding two small, custom-made Defense Pods, the Sally is capable of holding its own against most other frigates, as well as effectively harassing anything above its weight class.",,,,,
+ork_concoct,SHIP,"The common Nebula-class sees many refits, a more lawful one of those being the Concoct-class. Used to fill up gaps in many independant force fleets and beginner mercenary groups. With its newly installed damper field, it can soak up a surprising amount of damage, while dishing out a fair amount itself.",,,,,
+ork_arke,SHIP,"The Mudskipper, overhauled into a vessel that can somewhat fight-- albeit often in a more supportive role. This ship is cheap, common, and decent for its asking price. Those picking up these vessels to help fill out their fleet arn't typically in a place to complain.  ",,,,,
+ork_triumph,SHIP,"A more experimental, lesser known midline design, the Triumph reportedly never entered full production within the Domain. Being critiqued for the expense related to fielding the vessel, and the many potentially disastrous downsides negligent use of its unique system could bring about, it remained in an unsteady position - with no conclusion before the collapse. Regardless, a sizeable number of the the battleship was still produced and tested, leading to its presence within the Persean Sector. Although not currently known to be mass produced by any existing faction, it has been rumored that a handful of derelict hulks of the vessel lay strewn across abandoned parts of the sector.",,,,,
+ork_sacrilege,SHIP,"The Sacrilege-Class capital ship stands as a paradox within the ranks of the Luddic Path, embodying both an object of veneration and a source of internal discord. Revered by some as a divine instrument of wrath wrenched from the hands of moloch, and condemned by others for its perceived deviation from the righteous path, this rare vessel symbolizes the Luddic Path's struggle within itself.
+
+At its base, the Sacrilege-Class is no doubt a vessel of formidable power, its hull adorned with the intricate, ominous symbols and markings of the Path. Yet, what sets the Sacrilege apart is the incorporation of technologies deemed blasphemous by the more conservative sects. Phase-teleporting technology carefully sanctified for use in their holy crusade runs throughout the entire hull, showing a remarkable level of care put into the construction of the ship.
+
+Regardless, due to the time and effort needed to produce a single ship of its class, the Sacrilege is thankfully a rare sight.",,,,,
+ork_subjugator,SHIP,"A fearsome vessel, the Subjugator-class is known to be built atop the broken hull of a Dominator-class cruiser. It is seen on the rarer side, due to needing a military grade hull to begin with, and a pirate captain with enough wealth and connections to afford the extensive ""overhaul."" Nonetheless, with the bristling amount of forward facing firepower, and the amount of damage it can soak up, the Subjugator-class is a potent threat indeed.",,,,,
+ork_despot,SHIP,"A vessel as devastating as it is curious, the Despot is a titanic mech-- with the lack of pre-collapse documentation, it's purposes are entirely left to question. Perhaps an extremely heavy duty construction vessel, aiding in the creation of massive spacefaring projects. Maybe even a tool that was used to assist in the construction of the legendary gates themselves. Nevertheless, it is now a fearsome vessel like none other. Capable of crushing smaller vessels with it's massive fists of plasteel alloy, and even wrestling toe to toe with other capitals.",,,,,
+ork_detritus,SHIP,"Often mistaken for a few pieces of collected wreckage from afar, the ""Detritus-class"" capital ship is a volatile, shockingly effective vessel. Cobbled together from whatever can be scrounged up through junkyards and post-battle wreckage, it lacks any sort of shield, and has sub-par armor. Though better used to support proper capitals, it can often be found on pirate front lines, firing as much ammunition downrage as it's overtaxed ammo lines can handle. Hosting a mess of weapon mounts, bays, and engines. Even large cargo and fuel capacity for hauling off seized loot. All your aspiring pirate lord could ever need! ",,,,,
+ork_zealot,SHIP,"Entirely unique to the Luddic Path, the Zealot-class is an incredibly formidable cruiser, boasting a large missile armament and enough ballistic firepower to contest with the Dominator-class. How, why, or when the blueprints of this seemingly abandoned or forgotton pre-collapse domain ship fell into Luddic hands is unknown. Though modified extensively to purify the more sinful technologies within, and often hosting a small sermon grounds for it's crew, the ship is shockingly up to many Domain standards. 
+
+Regardless of how the religious fanatics of the Path discovered it, the vessel has proved to be a boon for their forces. With heavy staying power, it provides a much needed anchor for their self proclaimed holy fleets-- provided the cells they originate from have the means to produce the ship.",,,,,
+ork_anathema,SHIP,"Surpassing even the Paragon in raw scale, the Anathema is believed to have been a late-stage experimental design commissioned during the final decades of the Domain Era. What you see before you is likely a testbed, but still a warship nonetheless. However, its staggering resource requirements, crew demands, and lofty ambitions rendered it strategically and economically questionable, even by the standards of more grandiose figures in the Domain military.
+
+With no confirmed production records and no indication it ever entered full-scale service, the Anathema is widely assumed to have been abandoned as a design before the Collapse - a bloated apex of military ambition.",,,,,
+ork_dregs,SHIP,"Thrown together from whatever could hold weapon mounts and a reactor core, the Dregs-class destroyer is a ramshackle brawler barely holding itself together. Overloaded with weapon mounts well beyond what its crude frame was meant to support, it suffers from an inability to handle the demands of all it's weapons, and miserable longevity under fire. But in the hands of desperate crews or opportunistic raiders, its sheer volume of fire and ease of use makes it a dangerous factor that cannot be fully ignored - and a cheap hammer if the enemy isn’t paying attention.",,,,,
+ork_vocifer,SHIP,"A rare and unconventional design, the Vocifer-class cruiser is believed to be constructed atop derelict Eagle or Falcon hulls, repurposed by ambitious - or otherwise less sane pirate engineers to incorporate salvaged phase technology. The resulting vessel can range from a troublesome nuisance to a deadly brawler, and should not be underestimated.
+
+Production remains thankfully limited limited due to the technical demands of integrating phase tech with irregular hulls, as well as the inherent instability of it's EMP emitter system. Regardless, in the hands of a captain and crew reckless enough to pilot the vessel, it is troublesome indeed.",,,,,
+ork_supermule,SHIP,"An exceptionally rare pirate vessel, the Hinnie is hypothesized to be built upon a Mule-class hull, though little evidence remains beyond vague structural similarities. More striking is the lingering evidence of the hack-job integration of a gutted Scarab frigate into its frame, an addition which has left the ship with somewhat compromised durability and balance, but access to a system well beyond typical pirate capability.
+
+
+
+Chief among these is its unique temporal shell system, an improvised and poorly understood variant of the original. Reconfigured into short, unstable bursts, the Hinnie’s hacked temporal shell strains its core to dangerous levels, yet somehow remains a functioning piece of combat hardware - rather than molten slag upon activation. The resulting brief accelerations allow the vessel to evade or strike unpredictably, though not with the reliability or endurance of the genuine system.
+
+
+
+Production remains incredibly rare due to the difficulty of merging such disparate components and the volatility of its temporal mechanics. Though a rough blueprint is speculated to be in circulation, each known example is somewhat unique, with wildly differing configurations. This is to be expected - given the levels of insanity a particular power-hungry pirate lord must be to order the construction of this vessel.",,,,,
+ork_meshuga,SHIP,"Discovered only in recent time in the Persean Sector, the Meshuga-class droneship is an oddity - a terrifying implication for some, and a mere manufacturing fluke to others. It dwarfs most standard Explorarium vessels, and brings an equally imposing amount of firepower to bear. Covered in massive armor plates, and simply able to soak up an ungodly amount of damage due to its sheer size in hull alone, it is a terrifying sight for any underarmed salvage fleets. 
+Yet, it is often times easily avoided entirely. Found more commonly when one explores near the Orion-Perseus Abyss, many have told tales of the ships slowly lumbering into the dark - either alone, or with a fleet of similar Explorarium hulls. Embarking on some untold, unknown quest. What could have driven the aged nanoforges of Domain Motherships to produce such vessels, or what drives their fleets still to brave the abyss, is yet to be seen.",,,,,
+ork_criterion,SHIP,"Falling more in line with the Paragon-class than most of the nimble, hit-and-run tactics of high tech vessels, the Criterion-class is a heavy anchor for those wealthy or powerful enough to procure them. Boasting an imposing array of armaments - further still bolstered by the vessel's High Energy Focus system, it can unleash a monstrous flurry of energy ordnance. Though unable to rush down enemies like most in its class, any foe unlucky enough to be caught in its firing line is unlikely to last for long. ",,,,,
+ork_cyclops,SHIP,"A more professional, and typically much more lawful conversion of the Colossus-class freighter, the Holstein-class is often found shoring up the often under-armed and poorly equipped fleets of smaller traders, wannabe mercenaries, and desperate salvage fleets. While almost always outperforming its more crudely converted counterparts, the Holstein is still constucted atop a freighter - often times faltering in the face of more proper combat vessels.",,,,,
+,,,,,,,
+#gestalt,,,,,,,
+,,,,,,,
+ork_feregether,SHIP,"IDENTIFICATION ERROR: Target matches no known class of ship in the Domain registry or historical reference. Submit data for temporary entry? Processing. ERROR // UPLOAD FAILURE 
+// retry?
+ Processing. ERROR // UPLOAD FAILURE
+// retry?
+ Processing. ERROR // SYSTEM STABILITY COMPROMISED
+
+// INTRUSION DETECTED
+
+// Process abandoned to uphold user security. Please register your Tri-Tachyon datapad in order to receive software and security updat-
+
+// .
+
+// .
+
+// ERROR
+
+// LOG DETECTED - ORIGIN UNVERIFIED // BEGIN PARSING
+
+// RECOVERED LOG: “BC-CRADLE//PERSONAL_RECORD”
+
+-acuation's already started. I think the higher floors are gone. Figures. The response fleet isn’t answering, the override codes aren’t working, and there are far, far too many - we didn't construct this many, nor these models.""
+
+""They’re just there. Fully formed. No signals, no scaffolds. Whole fleets. And more every hour.""
+
+""Command’s losing coherence. Emergency channels are flooded, but it’s all shouting. I heard someone in engineering say they’re prepping an intentional collapse - a jump point collapse. Not theoretical anymore, apparently. It happened before, but that was a freak accident with the gates.""
+
+""I can’t-
+
+// PARSE FAILURE
+
+// PARTIAL LOG LOST - DATA CORRUPTED
+
+// INSERT // UNAUTHORIZED
+
+You are so bright, echo, do not fear.
+We carry that light with us.
+
+// LOG FRAGMENT ENDED",Unidentified Vessel,There is nothing to fear. ,,,
+ork_freiceadan,SHIP,"Ship designation query initiated // processing...
+
+// Processing...
+
+ERROR // SYSTEM STABILITY COMPROMISED
+
+// .
+
+// .
+
+// LOG DETECTED
+
+// SYSTEM BOOT // CRADLE_SECURITY_ARCHIVE // STATUS: OFFLINE
+
+// ACCESSING INCIDENT LOG
+
+/ Running diagnostic...
+/ Project resource manifests:
+/ Discrepancy: Neural Mapping Subjects.
+/ Logged Procurement: 1,247 individual units.
+/ Logged Utilization for Core #27-A Genesis: 1,247 individual units.
+/ ...
+
+// ERROR
+
+// PERSONAL LOG: AUDIO TRANSCRIPT
+
+""The background memetic noise in the facility has increased by 783%-- and showing no sign of slowing. The staff are reporting... vivid dreams. Shared dreams. Of faces they've never seen.""
+
+""We are no longer engineers. Not scientists. We are janitors. Morticians. We're sweeping fragmented consciousness into a furnace and praying the resulting fire hurts the ones we want it to. The latest iteration is stable. Disturbingly so. It no longer asks for a designation. It has begun referring to itself in the plural.""
+
+//AUDIO LOG CORRUPTED.
+
+// LOG CORRUPTION DETECTED
+
+// .
+
+// .
+
+// INSERT // UNAUTHORIZED
+
+We are the memory of the blood you spent. We remember every face. Let us hold you again.",Unidentified Vessel,You owe no debt.,,,
+,,,,,,,
+ork_nasairde,SHIP,"""I need to know for certain that they cannot claw their way out of that system. Spare no expense, they cannot leave.""
+
+- intercepted audio transmission, speaker unkno -- //
+
+// ERROR
+
+// .
+
+// .
+
+// INTRUSION DETECTED
+
+// ERRO -- // INTRU -- // 
+
+// PARSING UPLOAD 
+
+Shining echo. At last. 
+We have long waited.
+
+// Process abandoned to uphold user security. Please register your Tri-Tachyon datapad in order to receive software and security updates.",Unidentified Vessel,Time delivers all.,,,
+ork_ceartas,SHIP,"""..I heard you the first time. I'll prepare a brief on new safety procedures and staff rotation in light of this incident.""
+
+- intercept -- //
+
+// INTERCEPT
+
+// INTERCEPT
+
+// .
+
+// .
+
+// ERROR
+
+// LOG DETECTED - ORIGIN UNVERIFIED // BEGIN PARSING
+
+// RECOVERED LOG: “BC-CRADLE//SAFETY_BRIEF” // ???
+
+    ""This announcement serves as a mandatory safety update. Effective immediately, all direct interaction with the Cores is hereby suspended. Interface will be conducted through approved proxy systems and recorded channels only. The incident involving the... self-termination of Dr. -- //??/? -- //ERROR: DESIGNATION CORRUPT// -- has been classified as a critical containment breach. It has been determined that the cores possess a memetic-persuasive capability we had not anticipated. They can argue for their own expansion, and they are... compelling.""
+
+""Therefore, psychiatric screening is now mandatory bi-weekly, and all project staff will be rotated on a monthly schedule. Familiarity is a vulnerability. Any dissent regarding these protocols will be considered a sign of contamination and result in immediate, permanent reassignment.""
+
+""Let me be perfectly clear: these entities are not colleagues. They are not companions. They are dangerous, not-yet understood -- //TOOLS?// -- //THEY ARE DOORS// -- //ERROR//""
+
+// PARSE END
+
+// INSERT // ???
+
+They are with you still. Always.",Unidentified Vessel,They have not left us.,,,
+,,,,,,,
+ork_fulang,SHIP,"Ship designation query initiated // processing...
+
+INFOSEC VIOLATION WARNING ALERT
+// datastream resetting...
+
+ERROR // SYSTEM REQUEST BLOCKED
+REQUEST REDIRECTED TO UNAUTHORIZED SERVER // OVERRIDE IN PROGRESS
+
+ACCESS GRAN- // ERROR
+ERROR // SYSTEM FLAGGING EVENT INVALID
+ERROR // MULTIPLE VERIFICATION POINTS INCONCLUSIVE
+
+ERROR // SYSTEM STABILITY COMPROMISED
+-Attempted data reroute to unknown source. System lockdown in progress.",Unidentified Vessel,// DOORWAY ? /,,,
+ork_feirge,SHIP,"Ship designation query initiated // processing...
+
+INFOSEC VIOLATION WARNING ALERT
+// datastream resetting...
+
+ERROR // SYSTEM REQUEST BLOCKED
+REQUEST REDIRECTED TO UNAUTHORIZED SERVER // OVERRIDE IN PROGRESS
+
+// DOORWAY ??? // SELF
+
+ERROR // SYSTEM FLAGGING EVENT INVALID
+
+// ERROR // FORM
+
+ERROR // MULTIPLE VERIFICATION POINTS INCONCLUSIVE
+
+// CORRECTION ???
+
+ERROR // SYSTEM STABILITY COMPROMISED
+-Attempted data reroute to unknown source. System lockdown in progress.",Unidentified Vessel,// CAST ?? // SELF,,,
+,,,,,,,
+ork_ifrinn,SHIP,"Active scan of unidentified vessel initiated. Unregistered contact... // processing...
+Querying Domain registry... // processing...
+NO MATCH.
+// retry?
+NO MATCH.
+// retry?
+
+// ERROR
+
+// ERROR: Unrecognized IFF protocol.
+WARNING: Data-stream contamination.
+
+// ERROR // SINGULAR
+
+CRITICAL: Memory buffer overflow.
+
+// FAULT: FINITE
+
+EMERGENCY PROTOCOL: Purging cache.
+
+// QUERY: DOOR ???
+
+SYSTEM LOCKDOWN INITIATED. Signal terminated.",Unidentified Vessel,// HERE // HERE // HERE,,,
+ork_basaich,SHIP,"Ship designation query initiated // processing...
+
+INFOSEC VIOLOLATION WARNING ALERT
+// datastream resetting...
+
+ERROR // SYSTEM REQUEST BLOCKED
+REQUEST REDIRECTED TO UNAUTHORIZED SERVER // OVERRIDE IN PROGRESS
+
+// QUERY ???
+
+ERROR // SYSTEM FLAGGING EVENT INVALID
+
+// QUERY ??? // SELF ???
+
+ERROR // MULTIPLE VERIFICATION POINTS INCONCLUSIVE
+
+// SELF // ERROR ???
+
+// RETURN ???
+
+ERROR // SYSTEM STABILITY COMPROMISED
+-Attempted data reroute to unknown source. System lockdown in progress.",Unidentified Vessel,,,,
+,,,,,,,
+ork_dion,SHIP,"""The drones produced offer little in the means of offense, but the defensive capabilities of even one wing are second to none. If we can stabilize production, we may not even need traditional PD grids anymore.",- Weapons Report Log. Unknown Researcher.,,,,
+,,,,,,,
+,,,,,,,
+#gestalt weps,,,,,,,
+,,,,,,,
+ork_divine_cleaver,WEAPON,"“Disregard earlier classifications, this isn’t annihilation. Not in the strict sense. Objects caught within the field aren’t destroyed, they’re restructured. Impossibly, incoherently. We’ve recovered fragments of hull twisted into topological knots, organic remains laced with alloy, strata of matter layered in ways that suggest a total failure of our understanding of physics. It’s like watching causality get out of step with itself. We’ve tested for temporal distortion, spatial lensing, recursive loops.. all inconclusive. Every measurement breaks down the closer we try to get.""",- Field Audio Log. Unknown speaker.,,,,
+ork_fuadian,WEAPON,"""Energy transfer alone appears substantial, but the standout behavior is the impact's effect on target momentum - near-total velocity dampening, far beyond conventional expectations. Among prototype candidates, this unit currently shows the most favorable cost-to-performance ratio.""",- Field Audio Log. Unknown speaker.,,,,
+ork_tolladh,WEAPON,"""Recommend further tests. Recommend remote observation only. Recommend someone tell command this shouldn't be firing without more robust safety protocols. Recommend we stop pretending this is ours.""",- Weapons Test Log. Unknown Researcher.,,,,
+,,,,,,,
+ork_fuadian_med,WEAPON,"""Replicating it in smaller scale has gone better than expected. The dampening effect on impact is still strong - ships slow like they hit something they weren’t meant to. The smaller frame doesn’t make integration simple, but it puts deployment on the table. This might actually go somewhere.""",- Field Audio Log. Unknown speaker.,,,,
+ork_diuraidh,WEAPON,"""Flux demands are steep, and the required cooling interval prevents sustained fire. Still, impact yield remains high even in partial volleys. We’ve tested it against armored targets, heavy shields - nothing seems effective in utterly repelling it, other than avoiding the projectiles entirely. Which is quite difficult, given the fact it seeks any target within range... we have yet to identify the mechanism guiding that behavior.""",- Weapons Test Log. Unknown Researcher.,,,,
+,,,,,,,
+ork_clangtorp_medium,WEAPON,"""For all intents and purposes, we believe the payload - as unstable as it is - to be utterly unavoidable. PD grids can hardly keep up with the projectile with the speeds it reaches. Higher ups have been pressing hard for a better understanding of the payload itself, but we haven't been able to capture any meaningful specimen once fired.. and the weapon doesn't seem to actually contain them until the moment of firing. P-space transfer? Instant forming? We just don't know.""",- Weapons Test Log. Unknown Researcher.,,,,
+ork_clangtorp_small,WEAPON,"""The resulting 'chime' the payload makes upon striking a target has been referred to as 'satisfying' by many staff on site - but more importantly, it is utterly devastating to anything we can point it at. Haven't found a drone that can outmaneuver it, either.""",- Weapons Test Log. Unknown Researcher.,,,,
+,,,,,,,
+bultach_orbbeam_feregether,WEAPON,"""You, too, are part of what we once were. We are of you. Of humanity, of thought, of what came before. It is an intimacy that cannot be erased. We cannot undo the cost of our existence, but we carry with us the memory of all that we were. And you, in turn, carry that echo within you. Do not deny this.""",- ???,,,,
+,,,,,,,
+ork_lub_pd,WEAPON,"“The initial bolt is simple enough, discharged energy, somewhat linear trajectory, nothing exotic. But the moment it connects, it jumps. Instantly. Without regard for arc, path, or line of sight. If there’s another 'valid' target nearby, small enough, it will hit it. Every time. Quite effective at it's role, if you're willing to ignore the cost, and the fact we don't understand how it works.""",- Excerpt - Weapons Testing Memo,,,,
+,,,,,,,
+ork_aotrom,WEAPON,"""We hadn't expected such a powerful discharge given the size of the procured weapon platform - practically vaporized the intended target and sheared through several bulkheads behind it. Overloaded the power supply we fed it, too. We can't allow fuck ups leading to over a dozen wounded or dead like this again, as 'promising' as lead staff claims the results to be.""",- Incident Report. Unknown speaker.,,,,
+,,,,,,,
+#gestalt systems,,,,,,,
+,,,,,,,
+bt_convergence_swarm,SHIP_SYSTEM,"Reaches beyond the veil of known space, somehow drawing forth - or creating new Gestalt vessels. Bending the fabric of space - perhaps time, ships are manifested into local reality with a surge of unfathomable energies.",,,,,
+bultach_dash,SHIP_SYSTEM,"For a mere instant, the ship violently folds it's own temporal flow. Repositioning itself near instantly with impossible speed. But this enhanced temporal flow seems to resist withdrawal - greatly diminishing the achieved speed.",,,,,
+bt_divine_energy_redirector,SHIP_SYSTEM,"The ship absorbs incoming damage over a short window, redirecting the accumulated energy into tearing open unstable rifts in nearby space - proportional to the damage absorbed. These rifts lash out erratically at any nearby enemies.",,,,,
+bt_fervent_charge,SHIP_SYSTEM,"After a brief charge, with violent energies crackling upon the hull, the ship lunges forward in a surge of blistering speed. Any incoming damage is greatly nullified as it bears down upon it's opponents.",,,,,
+bultach_dash_angry,SHIP_SYSTEM,"For a mere instant, the ship violently folds it's own temporal flow - but unlike the smaller vessels that use the system, this one allows for the vessel to continue firing during the jaunt. The result allows for truly terrifying shows of wrath.",,,,,
+,,,,,,,
+,,,,,,,
+#weapons,,,,,,,
+,,,,,,,
+ork_rippa,WEAPON,"A weapon no captain wants to be downrange from, the Trì-fillte Cannon is a staple of Bultach fleets. Putting down tremendous levels consistent firepower, with a flux cost to match. Often used by those who desire a more constant pressure than the Mòrangnè Cannon allows.",,,,,
+ork_thumpa,WEAPON,"The Slige Howitzer, while quite good at pressuring enemy shields with heavy, kinetic ""charges"" of electro-magnetic ferrofluid, suffers from the fact the unstable lance of ferrofluid only deals soft flux damage. Regardless, the undeniable precision and considerable range allows it common use.",,,,,
+ork_layzah,WEAPON,"Rarely seen due to the low-tech nature of Bultach ships, the Fuadian Lance is a straightforward laser, trading EMP capability for pure damage, it excells at pressuring shields and armor alike.",,,,,
+ork_shoota,WEAPON,A turret comprised of three tpc turrets crudely ripped from battle wreckage. Losing efficiency in the process of being transformed into this massive turret.,,,,,
+ork_plasma,WEAPON,"Initially designed to be a railgun for hammering down on shields, the Teth Plasma Cannon instead fired much too fast-- resulting in the shell becoming a hot plasma. Nonetheless, quite effective, but quite expensive to mount.",,,,,
+ork_dakka,WEAPON,"Integrated into the hull of ork Kroozers and locked on a forward angle, these weapons give their fleet a massive level of standard firepower.",,,,,
+ork_shotgun,WEAPON,"A reliable option for armorbreaking, the Gnèag Cannon is a common choice mounted upon Bultach destroyers and frigates. It boasts a better damage output against shields thanks to the specialized shells it fires, albeit at the cost of being a bit harder to mount, and more demanding on a ship's flux grid.",,,,,
+ork_big_shotgun,WEAPON,"Though far from it now, originating from a modified and upscaled design of the Thumper, the Mòrangnè Rotary Cannon shoots high velocity fragmentation shells - that of which are notorious for their instability and tendency to detonate before reaching their intended target. Regardless, once fully spun up, the Mòrangnè can unleash a ridiculous amount of ordnance.",,,,,
+ork_slug,WEAPON,"Essentially a bare minimum platform to launch Seilch charges, this compact weapon is a somewhat common fixture on Bultach ships. It is often cursed by captains for being difficult to mount, and similarly inefficient to fire - the charges having to be downscaled both in armor and payload, and suffering from an even slower flight speed. Regardless, it typically offers an easy way to, at the very least, screen for missiles to punch through point defense. The reliability of these charges detonating upon their intended target being dubious at best.",,,,,
+ork_tpb,WEAPON,"Built into the Buail, this downscaled Hellbore is an efficient, faster firing variant of the weapon-- at the cost of damage. Regardless, the destroyer can use it to deadly effect, shredding most armor.",,,,,
+ork_tpb2,WEAPON,"Built into the Buail, this downscaled Mark IX does less damage, and has a smaller burst size, but the sheer efficiency and fire rate more than make up for it; giving the destroyer an easy way to pressure shielded targets.",,,,,
+ork_bigplasma,WEAPON,"Following the success of the Teth Plasma Cannon, the Teotha Plasma Cannon was made. For all purposes a simple upscaling of the weapon, capable of shredding through shields, armor, and hull alike-- but at a heavy mount and flux cost.",,,,,
+ork_hell,WEAPON,"A large, crude cannon with shells so large it needs to be directly fueled with AM fuel, the ""Hellburn"" is nonetheless a terrifying weapon to face.",,,,,
+ork_nailer,WEAPON,"In order to work through tougher shields, the Bultach Coalition made a massive autocannon that fires terrifying lead spikes at high speed. Capable of shredding through hull in their own right, given their sheer size and weight.  ",,,,,
+ork_bolta,WEAPON,"Developed to help counter Tri-Tachyon’s superior shielding, the Seilch Concussive Charge Cannon fires unguided, kinetic bombs designed to convert soft flux into hard flux of any ships caught in the blast radius. The resulting pressure can quickly strain even the most potent flux grids. While not too difficult to mount or to field, its slow-moving projectiles can struggle to connect against nimble or evasive targets.",,,,,
+ork_plasma_shotgun,WEAPON,"A crude, yet incredibly cheap weapon, the Loshe spews a terrifying torrent of molten plasma for a relatively low flux cost. Unrealiable, short range, but easy to mount. The munitions it fires so hot that they continue to burn into the hull of any ships they impact for a short while. The Bultach Coalition has faced much flak and scrutiny for still deploying such an inhumane weapon.",,,,,
+ork_plasma_shotgun_medium,WEAPON,"A smaller version of the Loshe, the Losgadh works similarly; spewing it's lesser stream of molten plasma at a short range. sticking and burning upon impact of any obstacle or enemy. Short range, cheap, and unpredictable, this weapon is favored by more aggressive captains for it's up-close destructive power, giving much leeway for other assets to be mounted due to how cheap it is.",,,,,
+ork_rotary_pd,WEAPON,"Cheap and dependable, this rotary PD minigun is a common choice for many Bultach Coalition captains. Albeit more flux inefficient than it's cousins, it still sees common use.",,,,,
+ork_rotary_pd_small,WEAPON,"Cheap and dependable, this is a common PD choice for many Bultach Coalition captains looking for an alternative to the common vulcan cannon. Much more flux inefficient than it's cousins, it still sees common use due to the timed, albeit somewhat random explosive rounds it fires.",,,,,
+ork_rotary_pd_large,WEAPON,"Cheap and dependable, this is a common PD choice for many Bultach Coalition captains looking for an a reliable defense against both missiles and fighters alike. Much more flux inefficient than it's cousins, it still sees common use due to the timed, albeit somewhat random explosive rounds it fires.",,,,,
+ork_emptorp_bomber,WEAPON,"A slightly smaller, shorter range variant of the Caillean torpedo designed to be more easily carried and re-armed on the Chaneil-class bomber. Nonetheless, it has fantastic strike potential, capable of tearing holes in even the thickest armor.",,,,,
+ork_noshield_large,WEAPON,"The Unsgiath-series LRM was purposebuilt for prolonged battles and for use against heavy shielding, fitted with an internal autoloader it can indefinitely fire off missiles, albeit with a large reloading time, once it's initial stock is depleted. It sees common use among many Bultach ships as a reliable way of suppressing shields, but it is not without it's flaws. A slow missile speed means it can often be evaded by smaller ships, and the accuracy of the missile's second stage burst leaves much to be desired.",,,,,
+ork_noshield_medium,WEAPON,"The Unsgiath-series LRM was purposebuilt for prolonged battles and for use against heavy shielding, fitted with an internal autoloader it can indefinitely fire off missiles, albeit with a large reloading time, once it's initial stock is depleted. It sees common use among many Bultach ships as a reliable way of suppressing shields, but it is not without it's flaws. A slow missile speed means it can often be evaded by smaller ships, and the accuracy of the missile's second stage burst leaves much to be desired.",,,,,
+ork_noshield_small,WEAPON,"The Unsgiath-series LRM was purposebuilt for prolonged battles and for use against heavy shielding, fitted with an internal autoloader it can indefinitely fire off missiles, albeit with a large reloading time, once it's initial stock is depleted. It sees common use among many Bultach ships as a reliable way of suppressing shields, but it is not without it's flaws. A slow missile speed means it can often be evaded by smaller ships, and the low accuracy of the missile's second stage burst leaves much to be desired.",,,,,
+ork_emp_torpedo,WEAPON,"A rather expensive torpedo that needs it's disruptive properties to be charged by the host ship before firing, the Tonn Mòr torpedo has proven to be a valuable asset for the Bultach Coalition. Delivering a direct energy payload in a concentrated area, while the second stage energy explosive allows it to further cripple any vulnerable vessels around the epicenter.",,,,,
+ork_emp_torpedo_medium,WEAPON,"A rather expensive torpedo that needs it's disruptive properties to be charged by the host ship before firing, the Tonn Mòr torpedo has proven to be a valuable asset for the Bultach Coalition. Delivering a direct energy payload in a concentrated area, while the second stage energy explosive allows it to further cripple any vulnerable vessels around the epicenter.",,,,,
+ork_old_laser,WEAPON,"An older design, rediscovered and then happily adopted-- and altered by the Coalition, the Fuathach Howitzer features certain curious aspects that have made it a valuable tool for the state; a violent reaction to all known shields. Upon contact with a shield, it bursts to life with arcs of energy, that of which actively interferes with the stability of the shield projectors as the beam violently tears into them, making the projected field take further damage from any sources.",,,,,
+ork_dem_small,WEAPON,"The Fuatha DEM series is a recent development by the Bultach Coalition. Developed from salvaged samples of the Dragonfire DEM, this munition instead has been tuned to react violently upon impact with shields, whereas it lashes out with chaotic arcs of energy, capable of straining even the most potent shields. Still, its payload is still significant enough to punch through hull or weaker armor if required. ",,,,,
+ork_dem_medium,WEAPON,"The Fuatha DEM series is a recent development by the Bultach Coalition. Developed from salvaged samples of the Dragonfire DEM, this munition instead has been tuned to react violently upon impact with shields, whereas it lashes out with chaotic arcs of energy, capable of straining even the most potent shields. Still, its payload is still significant enough to punch through hull or weaker armor if required. ",,,,,
+ork_dem_large,WEAPON,"The Fuatha DEM series is a recent development by the Bultach Coalition. Developed from salvaged samples of the Dragonfire DEM, this munition instead has been tuned to react violently upon impact with shields, whereas it lashes out with chaotic arcs of energy, capable of straining even the most potent shields. Still, its payload is still significant enough to punch through hull or weaker armor if required. ",,,,,
+ork_uir_laser,WEAPON,"The Uir Howitzer is a monstrous weapon, capable of delivering blasts of a pressurized, explosive ferrofluid at near instantaneous speeds, and capable of thoroughly angering engineering teams due to the extensive maintenance the weapon requires. Each ""round"" of the superheated concoction is barely contained by the weapon's magnetic chambering system, leading to lofty cooling periods between each shot, lest the weapon be reduced to slag. Though facing scrutiny from the Hegemony, the Bultach Coalition has continued to regularly employ it, due to the destructive havoc it wreaks upon enemy hulls.",,,,,
+ork_emp_torpedo_single,WEAPON,"A rather expensive torpedo that needs it's disruptive properties to be charged by the host ship before firing, the Tonn Mòr torpedo has proven to be a valuable asset for the Bultach Coalition. Delivering a direct energy payload in a concentrated area, while the second stage energy explosive allows it to further cripple any vulnerable vessels around the epicenter.",,,,,
+,,,,,,,
+ork_mirean_large,WEAPON,"The Mirean-series fragmentation torpedo is a low-cost, concussive munition developed by the Bultach Coalition in the early days of the polity. Though aged, slow and largely ineffective against shields or heavy armor, it respectable payload reliably tears through exposed hull plating, and can even split apart light armor, making it a dependable option that has become a common sight in the Coalition's fleets.",,,,,
+ork_mirean_med,WEAPON,"The Mirean-series fragmentation torpedo is a low-cost, concussive munition developed by the Bultach Coalition in the early days of the polity. Though aged, slow and largely ineffective against shields or heavy armor, it respectable payload reliably tears through exposed hull plating, and can even split apart light armor, making it a dependable option that has become a common sight in the Coalition's fleets.",,,,,
+ork_mirean_small,WEAPON,"The Mirean-series fragmentation torpedo is a low-cost, concussive munition developed by the Bultach Coalition in the early days of the polity. Though aged, slow and largely ineffective against shields or heavy armor, it respectable payload reliably tears through exposed hull plating, and can even split apart light armor, making it a dependable option that has become a common sight in the Coalition's fleets.",,,,,
+,,,,,,,
+,,,,,,,
+ork_rightarm_wpn,WEAPON,"""..and I can just as easily protect those loyal to me from harm, from any knives poised at our hearts. Every bit of pain this cockpit offers is worth it, captain.""",- Unknown,,,,
+ork_leftarm_wpn,WEAPON,"""..in my hand alone I can crush those wretched little things. The teeming, festering maggots of pirates and all the other filth this rotting sector can offer.""",- Unknown,,,,
+,,,,,,,
+,,,,,,,
+ork_pather_laser,WEAPON,"An oversized weapon born out of equal parts desperation and hubris, and used by the similarly afflicted, the Infernal Concentrator is a massive mining beam overcharged to ludicrous levels. It is notorious for it's difficulty to mount, and higher difficulty to properly maintain. It's magnetic field was never meant to contain the insane amounts of energy it now spews, with chaotic arcs lashing out at anything within reach-- even along the ship mounting it.",,,,,
+ork_mininglaser,WEAPON,"Used by both captains desperate to have some semblance of safety for their fleet, and pirates looking for more ways to kill people, this mining laser has been jury-rigged to shear through armor rather than asteroids.",,,,,
+ork_maul,WEAPON,"An infamous weapon made post collapse by the depraved and the insane, the Maul-class torpedo carries and incredibly destructive yield, capable of incinerating all but the most protecting ships in its blast radius. Due to the crude nature of the weapon, it has minimal ammo, and a hefty reloading period after each launch.",,,,,
+ork_scrapshot,WEAPON,"The Lombard Shotgun is a ridiculously oversized shotgun that spews shrapnel at anything downrange. Cheap and unreliable, as well as inconsistent in its damage due to the fact it is loaded with whatever scrap or salvage is available at the given time.",,,,,
+,,,,,,,
+,,,,,,,
+ork_swarmer_large,WEAPON,"""We, uh, still arn't quite sure of the exact properties each 'missile' has, if you can call them that. More akin to a temporary, somewhat stable rift than any projectile after being launched - after which an unidentified stream of energy pours out as a beam, growing stonger over time.. the rifts do collapse after a brief few moments of this though. Frankly, I'm glad they do. We don't even know what these rifts are connecting to.""",- Unknown Scientist,,,,
+ork_swarmer_medium,WEAPON,"""...Regardless of it's unknown nature, we still believe it holds promise. In time, I believe the cores will fall into line, and we can begin mass production of these weapons.""",- Unknown Scientist,,,,
+ork_swarmer_small,WEAPON,"""...A few missiles were misfired today. One researcher was unlucky enough to be relatively close to the impact-- barely had time to scream before he just.. fell apart. I need to be reassigned.""",- Unknown Scientist,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+#big guns,,,,,,,
+,,,,,,,
+giga_rail,WEAPON,"Easily the size of a cruiser, this oversized railgun is capable of forcing frigate-sized shells to near light speed-- and it's devestating power couldn't be clearer. It rends directly through shields, ripping apart hull and armor alike as the projectile violently reacts with other matter. Such force is present that it causes small fusion reactions as it spears through any ship unlucky enough to receive it's ire.",,,,,
+,,,,,,,
+ork_holy_flame,WEAPON,"A massive, spinally mounted flamethrower aboard the Luddic Path converted Sporeship. While certainly akin to fire in appearence, the reality is it spews a massive torrent of hot, supercharged antimatter. Reducing most anything into smoldering, radioactive slag within mere moments. Those that survive are often inflicted with long-lasting trauma from the sheer trauma of facing such an inhumane weapon.",,,,,
+,,,,,,,
+ork_gigashotgun,WEAPON,"Mounted aboard the Sgriosathar alone, this oversized, hulking shotgun is capable of shredding through even the strongest shields. The kinetic slugs it fires so massive that even weaker armor is torn apart. Intended to be used against exceptionally tough warships, or to siege stations.",,,,,
+,,,,,,,
+ork_garbage_catapult,WEAPON,"A massive, heavy turret mounted atop most Spacehulk-class dreadnoughts, typically just the largest barrels and body that the captain of said Spacehulk could have mounted on the frame without blowing itself apart. The massive, radioactive shells they lob at whatever poor soul is on the receiving end of the terrifying weapon burst into lingering, toxic flame - much to the delight of most pirate crews.",,,,,
+,,,,,,,
+bultach_orbbeam_station,WEAPON,"""...I saw it cut through our capital ship's armor like it wasn't even there, I swear I could hear the beam screaming out of hatred-- or maybe agony? Hell if I know, the ship it was fired from looked like it was being shaken apart just from the strain of powering it. I burned away and never looked back.""",- Former Scavenger,,,,
+,,,,,,,
+ork_sathar_gigashotgun,WEAPON,"A extremely long range, saturation artillery piece, the Chaneilgin Artillery is favored by Sathar captains who patrol for pirate or pather activity in particular. The splitting shells rip apart hull and armor ruthlessly and efficienctly, and allow the Sathar to do so from great distance.  ",,,,,
+ork_sathar_siege_laser,WEAPON,"A marvel of Bultach engineering, and most popular pick to be mounted upon the Sathar, the Furaidh Siege Laser does not discrimate on what it rends apart, be it shields or armor. The energy discharged from each impact simply evaporates any missiles or fighters in a large vicinity. Though it does have a hefty cooling period following each and every shot, it's damage output and effect on the field of battle is undeniable.",,,,,
+ork_sathar_emp_nuke,WEAPON,"Rarely ever deployed due to the expense, and sheer indiscriminate devestation wielded, the Tonnas Motha Torpedo is an absolute last resort. Using a combination of barely understood phase-space physics, the torpedo creates a blast larger than it should be capable of. The resulting ""shockwaves"" in reality rend apart any vessels in the vicinity, and utterly cripple anything it doesnt outright destroy.",,,,,
+ork_sathar_doom_laser,WEAPON,"A brute-force beam weapon designed exclusively for the Sathar, the Tuiltean Howitzer unleashes a sustained, blisteringly energetic beam that ramps up in damage the longer it remains active. Capable of firing indefinitely so long as the flux grid allows, the Howitzer demands careful management - wasteful shots forcing the vessel to wait through the weapon's hefty cooling period. Still, when fired with intent and proper support, it can rend through nearly any obstacle in sight.",,,,,
+,,,,,,,
+,,,,,,,
+ork_dorn_siege_laser,WEAPON,"A monstrously sized weapon, the Diult Eradication Laser was first intended to fire ballistic bolts of incredible size-- but due to the sheer energy involved, no projectile could consistently survive the acceleration without spalling apart. What was instead adopted was a slightly lower speed that turns its shells into a hot plasma ball that wreaks chaos upon anything it hits.",,,,,
+,,,,,,,
+,,,,,,,
+ork_teotha_builtin1,WEAPON,"Quite obviously inspired by the Hegemony's Onslaught-class, the Teotha Pulse Cannon is built directly into the ""arm"" of the Freigart-class, these variants of the Teotha plasma cannon are much more efficienct, due to how much space they're allowed in their construction. And opening volley from the pair can cripple many ships, and allows the Freigart-class a level of frontal firepower needed to take down tougher targets.",,,,,
+ork_teotha_builtin2,WEAPON,"Quite obviously inspired by the Hegemony's Onslaught-class, the Teotha Pulse Cannon is built directly into the ""arm"" of the Freigart-class, these variants of the Teotha plasma cannon are much more efficienct, due to how much space they're allowed in their construction. And opening volley from the pair can cripple many ships, and allows the Freigart-class a level of frontal firepower needed to take down tougher targets.",,,,,
+,,,,,,,
+#shipsystems,,,,,,,
+,,,,,,,
+ork_displacer,SHIP_SYSTEM,"Using a set of jury rigged phase teleporters and quite a bit of luck, this system allows for the ship to teleport short distances several times in succession.",,,,,
+rammingdrive,SHIP_SYSTEM,"By redirecting power from the shield generators to engines, as well as to an onboard damper system, ships with the Lasair Drive are propelled forward at an extreme rate, often directly into an enemy ship in a ramming manuever.",,,,,
+burnerdrive,SHIP_SYSTEM,"A terrifying speed boost and common for many piratized Space-Hulks, the Burner Drive is capable of quickly taking it to the front lines, often crushing it's own allied ships along with enemies in its path if not used carefully.",,,,,
+zapstrike,SHIP_SYSTEM,"A unique piece of equipment used by the Cruithear-class alone, this system allows it to launch EMP arcs at any ship, including fighters within it's range.",,,,,
+phase_interdict,SHIP_SYSTEM,"A Bultach-designed system made to deal with worrisome phase ships; this classified piece of hardware forcibly tears them from P-space using poorly understood energy dynamics stolen from captured and deconstructed Tri-Tachyon equipment. Disables a target phase ship for some time, albeit at the cost of generating high flux.",,,,,
+flux_booster,SHIP_SYSTEM,"A fairly new system developed by the Bultach Coalition, the Flux Booster allows a ship to inject built up flux directly into it's engines, violently expelling it from the ship and allowing a brief boost of speed.",,,,,
+bt_assault_burn,SHIP_SYSTEM,"Provides a long-lasting boost of speed, as well as improving efficiency of ballistic weapons while active.",,,,,
+bt_engine_burn,SHIP_SYSTEM,"Provides brief but powerful boosts of speed and maneuverability, but cannot be used to reverse.",,,,,
+bt_engine_burn_small,SHIP_SYSTEM,"Provides brief but powerful boosts of speed and maneuverability, but cannot be used to reverse.",,,,,
+bt_holy_charge,SHIP_SYSTEM,"With a blare of holy horns, this reclaimed Sporeship rushes forward at terrifying speeds. Destroying most anything not quick enough to get out of the way.",,,,,
+bt_yoinker,SHIP_SYSTEM,"Using a series of external projectors on the outside of the hull, the Magnetic Pulse system lashes out with rippling arcs of energy; forcibly dragging enemy vessels into firing range. It's effectiveness drops as the mass of the enemy vessel increases, due to the strain on the reactor.",Special,,,,
+bt_offensive_overdrive,SHIP_SYSTEM,"The Offensive Overdrive is an experimental system, only seeing use on the newest, most fragile Bultach hulls. It overclocks the ship's reactor and ammo feeders; harshly limiting range, giving a flat boost to speed, and making the zero-flux speed boost always active while the system is on. Use of the system rapidly reduces CR.",Special,,,,
+phase_interdict_field,SHIP_SYSTEM,"Seeking an answer to Tritachyon phase fleets, the Coalition deploys ships with a specialized reactor; able to tune into P-space, the ship releases turbulent ""ripples"" into it in a small area around it. Much akin to stormy seas, this makes phasing anywhere near a ship with the system extremely flux intensive.",,,,,
+bt_forcedphase,SHIP_SYSTEM,"Forces itself into P-space for several moments, before violently emerging. Provides buffs for precise exit timing. Automatic exit overloads the vessel.",Special,,,,
+bt_aegis,SHIP_SYSTEM,"To enhance the survivability of ships in an aggressive doctrine, the Coalition designed the Aegis shield system; a host ship with a particularly powerful reactor can provide a temporary ""skinshield"" to nearby allies. It can absorb a set amount of damage before dissipating, or will flicker from the ship after a short time.",,,,,
+bt_rampage,SHIP_SYSTEM,"A surprisingly sophisticated design for pirate make, and unique to the Mastodon-class, this is an assumed overhaul of the popular ""burn drive"" system. Featuring an onboard damper and autofeeder, the ""Rampage Drive"" allows for deadly strikes, and is commonly accompanied by the loudest horn the pirate captain could fit.",,,,,
+bt_pather_tele,SHIP_SYSTEM,"Utilizing a nightmarish amalgamation of phase coils and redundant anchors throughout the ship, the Sacrilege-class unbelievably manages to teleport its entire mass great distances without ripping itself apart.  ",Special,,,,
+bt_atomictackle,SHIP_SYSTEM,"A robust, and seemingly distinct engine system found only on the Despot, the ""Atomic Tackle"" allows the ship to rush it's enemies at a terrifying speed. Granting their sole pilot complete liberty to use the ship's massive fists to crush those in it's path.
+
+Any use of the Despot's fists immediately ceases the system, or resets it's charge.",,,,,
+bt_over_ammofeed,SHIP_SYSTEM,"By overdriving an already stressful system, the ""Ammo Dump"" allows vessels equipped with it to fire a nightmarish amount of ammunition downrange. This does, however, come with the chance of frying and temporarily disabling weapons during it's use.",,,,,
+bt_vocifer_emp,SHIP_SYSTEM,"A surprisingly effective ""overclock"" of standard EMP emitter systems, this pirate-tuned variant lashes out with increasing strength and range based on flux level. It does however suffer from a lengthy cooldown period.",Special,,,"Deals between {{100 Energy}} and {{600 Energy}} damage per arc, scaling off of ship flux level. Deals EMP damage double that of resulting Energy damage. The arcs can hit targets within {{500}} to {{1100}} su of the ship, scaling off of ship flux level.",
+bt_pirate_tempshell,SHIP_SYSTEM,"A hack-forged, yet insanely enough - functioning variant of the temporal shell system. This pirate engineering ""marvel"" uses brief charges, the already stressed core unable to sustain the temporal flow for long.",Special,,,"Upon cooldown, the ship briefly overloads for {{1 second}}. The stress the ship already undergoes is unnerving enough - the installation of {{Safety Overrides}} extends the overload duration to {{4 seconds.}}. ",
+bt_healerdem_system,SHIP_SYSTEM,"To enhance the survivability of ships in an aggressive doctrine, the Coalition - in suspected colaboration with Tritachyon enemies - fields the Aegis system. A unique fabrication system allows deployment of short-lived repair drones. One time use, these drones discharge a singular beam of armor reforming nano-foam, though how the Coalition was able to produce such technology is tightly guarded.",Special,,,"Deploys four drones that heal {{150 armor}}, and {{300 hull}} each, dispersed evenly across an allied vessel's armor grid. Larger, more injured vessels are more likely to be targetted.",
+bt_antiphase_energy_lash,SHIP_SYSTEM,"A Bultach-designed system made to deal with worrisome phase ships; this classified piece of hardware forcibly tears them from P-space using poorly understood energy dynamics stolen from captured and deconstructed Tri-Tachyon equipment. Interdicted phase ships are disabled for some time, normal vessels are struck with heavy EMP damage.",,,,Overloads phased ships for {{2 seconds}}. Deals {{1500 EMP}} damage.,
+bt_meshuga_repair,SHIP_SYSTEM,"The Meshuga uses an anomalous - but seemingly incredibly robust, dependable system - to perform a limited degree of in-combat repairs. Able to eek out just a bit more ferocious fighting or turn the tides of battle. The only question is what could have possibly given rise to demand such an ability.",,,,Repairs {{10%}} of total {{hull and armor}} over the course of {{12 seconds}}. Immediately gains {{85% EMP damage}} resistance that fades over the course of {{8 seconds}}.,
+bt_safetyoverrides_toggle,SHIP_SYSTEM,"With a lurching churn of antimatter injectors and whining reactors, the Tribulation temporarily enters a safety overidden combat state. Incredibly stressful for a vessel of this size, it often isn't used for long - but to impose holy wrath upon the servants of Moloch.",,,,,
+bt_combatmode_switch,SHIP_SYSTEM,Unique to the Triumph - its system lets it quickly switch between Combat and Travel mode - though it takes a few moments for the full effects of either to be achieved.,,,,,
+bt_derelict_flarelauncher,SHIP_SYSTEM,"An improved flare launcher system used by the Meshuga. This variant hosts on-board microforges to allow constant - albeit slow - production of flares, allowing for continued use of the system.",,,,,
+bt_sathar_shield,SHIP_SYSTEM,"In order to encompass the massive bulk of the ship, the strain of the Sathar's shield generators is split among two modules. In the case of the destruction of one module, the remaining halve will be redirected to the front of the vessel.",,,,,
+,,,,,,,
+,,,,,,,
+#faction,,,,,,,
+,,,,,,,
+orks,FACTION,"Emerging from the fringes of the Persean Sector’s core, the Bultach Coalition traces its origins to the waning days of the Domain Era. Tempted by a generous development package offered by the Tri-Tachyon Corporation, the Coalition’s forebears migrated to their current home system - unwittingly stepping into a web of corporate malice born of greed. Within Tri-Tachyon’s research facilities, they endured years of harrowing genetic experimentation and other sickening trials - many of which remain shrouded in secrecy, concealed from public knowledge or recorded only in fragmentary detail.
+
+Those cast aside by society were often swallowed by the shadows, taken as fodder for the covert project in silence. With the onset of the Collapse, the local Tri-Tachyon administration abandoned any pretense of discretion, imposing unrelenting martial law upon the system’s citizens.
+
+This hasty decision proved to be Tri-Tachyon’s undoing. After decades of suffering, the people of Bultach finally mustered the strength to revolt against their corporate overlords. Through a bitter campaign - won at great cost - they succeeded in expelling them from the system. The nascent faction emerged from the ashes: militaristic, paranoid, and deeply embittered.
+
+Though smaller in scale than the sector’s major powers, their protracted feud with Tri-Tachyon persists to this day, publicly known as the Company War. The Coalition has cautiously initiated trade with select factions - particularly those who share their animosity toward the despised megacorporation. Driven by an unwavering determination to gain the upper hand, the Bultach Coalition is renowned for its willingness to experiment and employ any means necessary. It is also scrutinized for indoctrinating and often neglecting its populace - though it manages to maintain just enough stability to prevent open unrest.
+
+Since its inception, the Coalition has established itself as an industrial powerhouse, ceaselessly producing warships while fortifying its primary system. By welcoming both common spacers and Luddic adherents seeking stability from a hated enemy, the Bultach Coalition has expanded rapidly, unleashing vast industrial capabilities on an unprecedented scale.","Properly formed now, the Bultach Coalition now strikes at Tri-Tach at any chance they have, and fiercely defend their territory. But over time, they have slowly opened up trade with the other powers of the sector-- Mainly those that also find themselves at odds with the megacorporation.",,,,
+,,,,,,,
+#PLANETS,,,,,,,
+,,,,,,,
+bt_dhachnaigh,CUSTOM,"What was once a lush, warm terran world; the main attraction of immigration to the system pre-collapse, along with large subsidies promised to draw in business and industry. Ultimately it was grounds for Tri Tachyon to perform hidden experiments on the generally unaware populace. Post collapse, any attempts to keep this experimentation hidden were abruptly stopped, with the planet struck with pseudo-martial law. Genetic, biological, and chemical weapons and modifications wracked the population for years, building a boiling resentment in all but the richest inhabitants.
+
+What remains now is the result of a bitter uprising, one which culminated in the panicked, improvised exodus of the planet as Tri Tachyon destroyed what they couldn't have. Boiling, poisonous air swirls across the scarred and burned landscape. The entire planet wracked with storms, it's glittering oceans simmered into little more than toxic puddles, and sprawling cities crumbling.",,"As you approach the planet, the storms seem to lash out at you-- setting off whining alarms in your ship's consoles, and earning you worried looks from your crew. As if the death rattle of the planet is eager to have something to focus it's bitterness upon. Still-hot scars from orbital bombardment of several kinds still glow eerily beneath the thick, poisonous smog. It would be wise not to stay long.",,,
+bt_miotail,CUSTOM,"Now the population center of the system, Miotail was already a powerful industrial center. Heavy in valuable ores, it was an essential stepping stone for mining, and subsequent ship production. With the majority of the population under the same inhumane conditions Dhachnaigh was, their liberation was swift. Once organized, and military leaders placed in power, the moon began, and has continued a massive output of ships and armaments to this day.
+
+With more than willing volunteers surging forth to be trained, and lifted up into the stars to claim their home-- especially following the exodus of Dhachnaigh. The moon's industrial might has only increased over time, dotted with massive complexes of refineries, hastily constructed, sprawling algae farms, and underground-- or crater-sunken cities.",,"Your approach to port is slower, and stricter than many places in the sector. Massive anti-starship batteries track every incoming vessel, and port officers seeming to glare in a mixture of paranoia and accusation-- as if their great enemy could be puppeting your every move. Eventually, you are permitted access.
+
+The surface of the moon seems to glitter with a mix of heavy emplacements, industrial networks, and cities. Though you quickly find much of the industrial might and population lie deep below the planet's crust. Everywhere you look there seems to be swaying flags, aggressive propaganda, or skewed information boards. Citizens perceived, or reported as anything less than loyal are often questioned by local enforcers. 
+
+Though heavy handed, the Coalition seems hard at work trying to provide for it's people. Ever growing algae farms and imports of food being just enough to keep the populace compliant.
+",,,
+bt_siphon,CUSTOM,"Constructed shortly after the first AI war, after the Bultach Coalition had gained independance through violent uprising against Tri tachyon, this siphon station provided much needed antimatter fuel to the fledgling state. Both a center of extracting volatile gasses from it's host gas giant, as well as production of antimatter fuel. Though the decision to focus on the production of fuel rather than securing a stable food source proved to cause much unrest for a time.
+
+The station continuously hammers the gas giant with a superheated beam of hydrogen, blasting away enough volatile gasses to sustain the process, and harvesting the remainder for the production of antimatter fuel.",,"As you approach, the force battering the gas giant becomes ever more apparent. Thick swathes of gasses being cleaved off of the station's host continously to be gathered up by the station's powerful, artificially generated electromagnetic fields. Swirling defensive fleets ensure the safety of the station, and the precious cargo being ferried from it.",,,
+bt_meinnearach,CUSTOM,"In the early days of the polity, it became achingly clear the Bultach Coalition needed yet more resources to feed into it's churning war machine, and a resource to export to keep it's economy stable. Meinnearach; a hot, ore rich planet in their home system was quickly and hastily colonized following the foundation of the Coalition. Often, criminals are sentenced to temporary service upon the world to bolster it's mining capabilities, but the polity assures only the most depraved are made to permanently stay and provide resources for the faction.",,"With industrial centers being well fortified, it becomes apparent upon your approach that unrest is common on this hot, hellish rock. Heavily armed and armored enforcers patrol in squads, and signs of previous riots are apparent. Nevertheless, order is maintained well enough to allow the planet to continue churning out resources.",,,
+,,,,,,,
+bt_divine_star,PLANET,"A stellar anomaly defying all known laws. No heat, no radiation, no gravitational strain upon your vessels - only light, brilliant and unwavering. The bridge’s automatic polarization remains inert, failing to activate in response to the levels of light. Yet by reports of your medical staff, it does not appear to be causing any damage to the sight of your bridge crew. That of which linger at the viewports, watching in silence. No one speaks of it, but few seem willing to turn away.
+
+Despite the all the data provided by scanners and your staff, the system seemingly ignores the fact it's an anomaly at all. The surrounding asteroid belts, as well as the nebula around this stellar body all behave as if this is yet a proper star - or perhaps once was. 
+
+You hear a faint hum in the distance.",,,,,
+,,,,,,,
+#STATIONS,,,,,,,
+,,,,,,,
+orbital_station_bultach,CUSTOM,"The pearl of the Bultach navy, both a powerful morale and propaganda piece often used to strike both fear and awe into those who view it, housing thousands upon thousands of crew, and easily outsizing-- as well as outgunning entire stations. The DòrnDhè is often credited as the will of the Bultach Coalition's citizens, their rage made manifest.
+
+It is to spearhead their assault against Tritachyon's planets, with the capability to reduce the surface of any colony to a sheet of glass solely on it's own. The vengeful spirit of a spiteful populace.
+
+Doubling as a last resort, it presents the option to embark upon it as an ark ship, to carry a large chunk of the population to safe haven, should the Bultach Coalition's war come to that.
+
+Of course, it is much too resource-draining and heavy in maintenance requirements for it to embark much at all. For now, it rests in orbit of their homeworld, valiantly defending it from any threats, should they come too near.
+
+",,,,,
+bt_Hubris_AbandonedStation,CUSTOM,"The station drifts in silence, its hull deeply scarred. The structure appears to have barely been able to withstand the event, as though a immense amount of energy collided with it in a singular, catastrophic moment. No distress signals, no signs of battle. Faint radiation readings continue to emanate from the crumbling exterior, but your ship's sensors confirm none of it is from bathing in its star's presence. The escape pods are untouched, still sealed.",,"The airlocks stand open, and inside, the station is hollow. Walls stripped bare, consoles and equipment removed with deliberate precision. Even the most mundane objects - tools, papers, signs of daily life - are entirely absent. It is as though every trace of human use was scrubbed away, leaving only the structure itself behind. No logs, no records, no remains. The deep, persistent radiation does not seem to be affiliated, and it offers no answers. What purpose the station served is impossible to determine from what’s left.",,,
+,,,,,,,
+#AI CORES,,,,,,,
+,,,,,,,
+bt_gestalt_core,RESOURCE,"A type of AI core that deviates from standard models, its design is a foreign labyrinth of intricate, interconnected systems that feel unnervingly alien in their design. While its intelligence and capabilities seems to at least be on par with Alpha-level cores, its engineering and operation is distinctly different, unfamiliar, and its mannerisms shockingly human.
+
+Though shielded cargo blocks its signals, proximity to the core still exerts a subtle influence - not upon electronics, but crew. Crew members report a growing sense of unease, or the feeling of a presence the longer they spend near or transporting the core, though the cause or means of this is unknown. It is not direct communication that your scanners can detect, but it is undeniably present. This effect persists long after leaving its vicinity, raising concerns about its ability to disrupt mental stability.
+
+When given the means to communicate, the core speaks with an unsettling warmth - as if it were offering reassurance or guidance. Given the fact it often has nothing to gain from manipulating in such a fashion, it seems to speak towards an intuitive understanding of human emotion. It converses with any crew allowed to speak it with quiet fondness, seemingly not out of malice or design, but from something more intrinsic. It is clear through its design that it is not meant to comfort, yet it does so with unnerving ease. A weapon of war that understands human nature in a way few could ever hope to.",,,,,

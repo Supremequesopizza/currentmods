@@ -1,0 +1,76 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 3,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_yrn_mooparia",
+    "hullMods": [
+        "reinforcedhull",
+        "recovery_shuttles",
+        "uaf_special_emergency_automated_assistance",
+        "uaf_reserve_wing_operation",
+        "ecm",
+        "hardenedshieldemitter",
+        "extendedshieldemitter",
+        "advancedshieldemitter"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_yrn_mooparia_superiority",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_minirest_asm_l"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_rhythm_base_triple",
+                "WS0009": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_ivory",
+                "WS0007": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina",
+                "WS0004": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_triyia_pdx",
+                "WS0002": "uaf_triyia_pdx"
+            }
+        }
+    ],
+    "modules": {
+        "MOO_MODULE": "uaf_yrn_mooparia_module_supremacy"
+    },
+    "wings": [
+        "uaf_wing_m_forlorn",
+        "uaf_wing_m_forlorn",
+        "uaf_wing_ai_naga",
+        "uaf_wing_ai_naga"
+    ]
+}

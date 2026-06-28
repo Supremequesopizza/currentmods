@@ -1,0 +1,219 @@
+{
+  "hullName": "Osela",
+  "hullId": "uaf_osela_suv",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/uaf_osela.png",
+  "style": "UAF_FRIGATE",
+  "height": 183,
+  "width": 136,
+  "center": [68, 92],
+  "collisionRadius": 113,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 93.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "surveying_equipment",
+    "uaf_auroranEngineering",
+    "shielded_holds"
+  ],
+  "builtInWeapons": {
+    "RADAR_SMALL": "uaf_neuxoria_radar_small_1",
+    "WS0002": "uaf_pulse_generator"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 354,
+      "angle": 0,
+      "locations": [-45.5, -0]
+    },
+    {
+      "id": "RADAR_SMALL",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-20.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 65,
+      "locations": [-3, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -65,
+      "locations": [-3, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 0,
+      "locations": [24, 30]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": -0,
+      "locations": [24, -30]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-68, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 138.5,
+      "locations": [-45.5, 12.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -138.5,
+      "locations": [-45.5, -12.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 138.5,
+      "locations": [-6, 32.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -138.5,
+      "locations": [-6, -32.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 22,
+      "locations": [10.5, 23]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -22,
+      "locations": [10.5, -23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, 34],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-29, -34],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-29, 23.5],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-29, -23.5],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -89.5, 6,
+    -82.5, 14,
+    -74.5, 15.5,
+    -70, 22.5,
+    -49, 22,
+    -33, 19,
+    -33, 36,
+    -41, 36,
+    -46, 45,
+    -10.5, 50.5,
+    18.5, 39,
+    36.5, 24.5,
+    36.5, 15,
+    49.5, 14,
+    86, 1,
+    86, -1,
+    50, -14,
+    50, -18.5,
+    42, -24.5,
+    32.5, -25,
+    28, -35,
+    -10.5, -50.5,
+    -46, -45,
+    -41, -36,
+    -33, -36,
+    -33, -19,
+    -49, -22,
+    -70, -22.5,
+    -74.5, -15.5,
+    -82.5, -14,
+    -89.5, -6
+  ]
+}

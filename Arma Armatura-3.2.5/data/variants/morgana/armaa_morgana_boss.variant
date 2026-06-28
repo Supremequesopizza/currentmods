@@ -1,0 +1,40 @@
+{
+  "variantId": "armaa_morgana_boss",
+  "hullId": "armaa_morgana",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "missleracks",
+    "ecm",
+    "eccm",
+    "do_not_back_off"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TRUE_GUN": "armaa_valken_missile",
+        "TRUE_GUN2": "armaa_valken_missile",
+        "WS0003": "riftlance",
+        "WS0004": "riftlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "MORGANASUP": "armaa_morganab_dummy_boss"
+    }
+  ],
+  "wings": []
+}

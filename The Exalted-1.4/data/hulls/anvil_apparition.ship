@@ -1,0 +1,332 @@
+{
+  "bounds": [
+    -63,
+    11.5,
+    -43,
+    15,
+    -47.5,
+    38,
+    -58.5,
+    46,
+    -55.5,
+    64,
+    -22.5,
+    80,
+    6,
+    72,
+    7,
+    63.5,
+    22,
+    65,
+    49.5,
+    39,
+    46,
+    21,
+    71.5,
+    10.5,
+    71.5,
+    -10.5,
+    46,
+    -21,
+    49.5,
+    -39,
+    22,
+    -65,
+    7,
+    -63.5,
+    6,
+    -72,
+    -22.5,
+    -80,
+    -55.5,
+    -64,
+    -58.5,
+    -46,
+    -47.5,
+    -38,
+    -43,
+    -15,
+    -63,
+    -11.5
+  ],
+  "builtInMods": [
+    "exalted_subsystems"
+  ],
+  "builtInWeapons": {
+    "WS0003": "anvil_purple",
+    "WS0004": "anvil_purple",
+    "WS0005": "anvil_purple",
+    "WS0006": "anvil_purple"
+  },
+  "center": [
+    94,
+    76
+  ],
+  "collisionRadius": 102,
+  "coversColor": "255,255,255,255",
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 48.5,
+      "location": [
+        -59,
+        48
+      ],
+      "style": "EXALTED_TECH",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 48.5,
+      "location": [
+        -59,
+        -48
+      ],
+      "style": "EXALTED_TECH",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 48.5,
+      "location": [
+        -59,
+        55
+      ],
+      "style": "EXALTED_TECH",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 48.5,
+      "location": [
+        -59,
+        -55
+      ],
+      "style": "EXALTED_TECH",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 40,
+      "location": [
+        -56,
+        62
+      ],
+      "style": "EXALTED_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 40,
+      "location": [
+        -56,
+        -62
+      ],
+      "style": "EXALTED_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 23,
+      "location": [
+        -64,
+        -9
+      ],
+      "style": "EXALTED_TECH",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 23,
+      "location": [
+        -64,
+        9
+      ],
+      "style": "EXALTED_TECH",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 23,
+      "location": [
+        -63.5,
+        -4
+      ],
+      "style": "EXALTED_TECH",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 23,
+      "location": [
+        -63.5,
+        4
+      ],
+      "style": "EXALTED_TECH",
+      "width": 5
+    },
+    {
+      "angle": -168,
+      "contrailSize": 5,
+      "length": 23,
+      "location": [
+        -30,
+        -76.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 5
+    },
+    {
+      "angle": 168,
+      "contrailSize": 5,
+      "length": 23,
+      "location": [
+        -30,
+        76.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 5
+    },
+    {
+      "angle": -168,
+      "contrailSize": 5,
+      "length": 23,
+      "location": [
+        -46.5,
+        -67.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 5
+    },
+    {
+      "angle": 168,
+      "contrailSize": 5,
+      "length": 23,
+      "location": [
+        -46.5,
+        67.5
+      ],
+      "style": "EXALTED_TECH",
+      "width": 5
+    }
+  ],
+  "height": 188,
+  "hullId": "anvil_apparition",
+  "hullName": "Apparition",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 98,
+  "spriteName": "graphics/ships/anvil_apparition.png",
+  "style": "EXALTED_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        -28,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        63,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 50,
+      "id": "WS0003",
+      "locations": [
+        28.5,
+        34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 50,
+      "id": "WS0004",
+      "locations": [
+        18.5,
+        44.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 50,
+      "id": "WS0005",
+      "locations": [
+        28.5,
+        -34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 50,
+      "id": "WS0006",
+      "locations": [
+        18.5,
+        -44.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        20.5,
+        -36.5,
+        20.5,
+        36.5,
+        27.5,
+        -28.5,
+        12.5,
+        -43.5,
+        28.5,
+        29.5,
+        13.5,
+        44.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 188
+}

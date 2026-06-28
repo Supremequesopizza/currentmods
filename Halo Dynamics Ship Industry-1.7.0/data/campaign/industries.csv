@@ -1,0 +1,14 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+HSI_Support,Military Aid,90,60,,14,,,"unraidable,tactical_bombardment, structure",,graphics/icons/industry/commerce_high.png,data.econ.HSIMilitarySupport,"To help ease the predicament faced by the Hegemony, the Halo Dynamics Council reached several military aid agreements with them. Although a significant portion of the support comes in the form of sealed decommissioned warships, they still provide valuable reinforcement to the current Hegemony.
+
+Improves ship quality and the number of patrols launched.",4000,EXTREME
+HSI_Home_Relay,Headquarters Support,90,60,,14,,,"unraidable,structure",,graphics/icons/industry/commerce_high.png,data.econ.HSIHomeRelay,"Through the space bridge, Halo Dynamics sends a steady stream of support from their home system to the Persean Sector.
+
+Greatly improves ship production quality and the fleet size.",3900,EXTREME
+HSI_GF3_HQ,Guard Command,90,60,,14,,,"unraidable,military, structure",,graphics/icons/industry/high_command.png,data.econ.HSIGF.HSI_GF3_HQ,The 3rd Guards Fleet stand ready for battle on the other side of the Intrusion. This place is not as vulnerable as it seems.,4100,EXTREME
+HPSID,Security and Intelligence Dept.,90,60,,14,,,"unraidable,structure",,graphics/icons/industry/HPSID.png,data.econ.HSIHPSID,"Since their arrival in the sector, the intelligence leaks within Halo Dynamics have been unusually stable, ongoing, and curiously harmless.
+
+While the Security and Intelligence Department seemed to allow agents of major powers to transmit information freely, only the department truly knew how many individuals had vanished without a trace in the small star system.
+
+Increases stability and seriously interferes with agent operations.",4200,EXTREME
+,,,,,,,,,,,,,,

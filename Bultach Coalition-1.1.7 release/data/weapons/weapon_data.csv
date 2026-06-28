@@ -1,0 +1,242 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gnèag Cannon,ork_shotgun,0,0.75,2000,800,,225,,20,16,11,,,,HIGH_EXPLOSIVE,285,,0,3,2,.4,2,10,1,5,,725,,,400,,,,"he12, ork_project_bp",,Bultach Coalition,,Anti Armor,,,,,"Secondary resonance warhead deals scaling energy damage on shield hit, based on shield flux/dmg. Scales from a minumum of %s to a maxiumum of %s.",40 | 225,,,,15.66
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mòrangnè Rotary Cannon,ork_big_shotgun,1,,3200,900,,460,,,12,18,45,2.5,15,FRAGMENTATION,115,,0,1.75,1,1.25,0,16,0.25,2.5,,1000,,,,,,"FIRE_WHEN_INEFFICIENT, USE_VS_FRIGATES","he12, energy15, ork_project_bp",,Bultach Coalition,,General,,,,,"Fire rate increases with sustained fire, up to a maximum of %s.
+
+The unstable fragmentation rounds are prone to spalling and premature detonation. %s of the shots fired will reach maximum range.",150% | 80%,"At full ROF, deals %s EMP damage on hit.",25,,40.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Seilch Concussive Charge Cannon,ork_bolta,2,,5000,900,,250,,75,10,22,,,,KINETIC,550,,0,6.8,4,0.4,2,20,4,6,,300,300,2,800,,,,"kinetic20, ork_project_bp",,Bultach Coalition,,Anti Shield,,,,,"Each projectile converts up to %s soft flux to hard flux on hit.
+
+Additionally, when impacting shields, deals %s extra kinetic damage.",300 | 150,,,,
+Seilch Concussive Charge Layer,ork_slug,2,,900,600,,150,,50,25,5,,,,KINETIC,400,,0,6.5,1,,4,20,4,10,,150,150,2,600,,,,"kinetic9, ork_project_bp",,Bultach Coalition,,Anti Shield,,,,,"Each projectile converts up to %s soft flux to hard flux on hit.
+
+Additionally, when impacting shields, deals %s extra kinetic damage.",300 | 150,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fuathach Howitzer,ork_old_laser,2,0.7,5200,1100,1500,,,125,7,24,6,0.5,3,FRAGMENTATION,,950,0,0,1,0,,,,,10000,,,,,,,"FIRE_WHEN_INEFFICIENT, USE_VS_FRIGATES","energy16, beam13, ork_project_bp",,Bultach Coalition,,Anti Shield,,,,,"On shield hit, spawns %s arcs per second dealing %s kinetic damage each.
+
+Beam %s with all known shields, increasing shield damage taken by %s per second. Debuff lasts for %s stacking to a maximum of %s.",5 | 85 | interferes | 5% | 6s |50%,"When used in an energy mount, range is decreased by %s.",200,,21.5
+Uir Howitzer,ork_uir_laser,2,,7000,1100,2101,,,200,4,26,,,,HIGH_EXPLOSIVE,,3900,0,0.75,0.75,8,,,,,10000,,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR","he22, beam18, rare_bp, ork_project_bp",,Bultach Coalition,,Anti Armor,,,,,,,,,,
+Slige Howitzer,ork_thumpa,2,,2000,900,,350,200,35,20,11,,,,KINETIC,450,,.25,3.25,1,,1,1,1,5,,2000,,,180,,,,"kinetic15, beam13, ork_project_bp",,Bultach Coalition,,Anti Shield,,,,,"Deals an additional %s kinetic damage on shield hit, but all shield hits deal %s.",250 | soft flux,,,,4.125
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Overcharged Mining Laser,ork_mininglaser,2,0.7,1000,800,450,,,35,10,12,,,,HIGH_EXPLOSIVE,,650,.35,1,1,4,,,,,10000,,,,,,,"STRIKE, USE_VS_FRIGATES","energy14, rare_bp, strike14",,Common,,General,,,,,"Hits on hull or armor frequently arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,
+Infernal Concentrator,ork_pather_laser,2,0.7,2250,850,2850,,,125,7,26,80,2,20,FRAGMENTATION,,1650,0,0,0.1,0,,,,,1000000,,,,,,,"STRIKE, USE_VS_FRIGATES","he16, energy14, rare_bp, strike16, LP_bp, pirate_bp",,Common,,General,,,,,"Upon contact with anything, spawns %s arcs per second dealing %s of a %s damage type each.
+
+While firing, %s arcs per second are also discharged along the host hull, dealing %s emp damage each. ",4 | 100 | random | 4 | 100,,,,21.5
+Maul,ork_maul,2,0.7,3500,1850,,7000,,75,20,25,2,,,HIGH_EXPLOSIVE,,,0,20,1,,0,0,0,0,,350,100,5.5,650,,,STRIKE,"strike22, rocket22, rare_bp, LP_bp, pirate_bp",,Common,,Torpedo,Fast,None,,,Torpedo has a massive blast radius.,,,,TRUE,15
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lombard Shotgun,ork_scrapshot,2,,3200,800,,85,,150,12,16,36,4.5,12,KINETIC,85,,0,1.2,,,5,25,0.5,5,,900,,,250,,,USE_VS_FRIGATES,"kinetic20, rare_bp, LP_bp, pirate_bp",,Common,,Anti Shield,,,,Spread,Every projectile has a %s chance to be replaced with a fragmentation round dealing %s damage.,50% | 150,,,,
+Lombard Shotgun Sub Frag,ork_scrapshot_frag,,,,800,,150,,150,5,0,,,,FRAGMENTATION,85,,0,5,,,15,25,0,5,,900,,,250,,,SYSTEM,"no_drop, no_salvage",,Common,,Anti Shield,,,,,,,,,,
+Lombard Shotgun Sub Big,ork_scrapshot_big,,,,800,,200,,300,5,0,,,,KINETIC,85,,0,5,,,15,25,0,5,,900,,,250,,,SYSTEM,"no_drop, no_salvage",,Common,,Anti Shield,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fuatha DEM Torpedo,ork_dem_small,2,,2000,1200,,500,,15,20,4,2,,,KINETIC,0,,0,5,1,,0,0,0,0,,185,50,12,500,,,"GUIDED_POOR, DO_NOT_AIM","missile10, strike5, damage_special, damage_soft_flux, ork_project_bp",,Bultach Coalition,,Anti Shield,Slow,Good,,,"The missile fires an anti-shield laser when it gets near the target, dealing approximately %s kinetic damage in a short burst. Upon shield hit, spawns up to %s arcs dealing %s extra kinetic damage each.",1800 | 10 | 220,,,TRUE,12.11
+Fuatha DEM Torpedo Rack,ork_dem_medium,2,,3000,1200,,500,,15,20,10,5,,,KINETIC,0,,0,10,1,,0,0,0,0,,185,50,12,500,,,"GUIDED_POOR, DO_NOT_AIM","missile16, strike8, damage_special, damage_soft_flux, ork_project_bp",,Bultach Coalition,,Anti Shield,Slow,Good,,,"The missile fires an anti-shield laser when it gets near the target, dealing approximately %s kinetic damage in a short burst. Upon shield hit, spawns up to %s arcs dealing %s extra kinetic damage each.",1800 | 10 | 220,,,TRUE,12.11
+Fuatha DEM Torpedo Pod,ork_dem_large,2,,4500,1800,,500,,15,20,25,12,,,KINETIC,0,,0,14,1,,0,0,0,0,,185,50,12,500,,,"GUIDED_POOR, DO_NOT_AIM","missile22, strike11, damage_special, damage_soft_flux, ork_project_bp",,Bultach Coalition,,Anti Shield,Slow,Good,,,"The missile fires an anti-shield laser when it gets near the target, dealing approximately %s kinetic damage in a short burst. Upon shield hit, spawns up to %s arcs dealing %s extra kinetic damage each.",1800 | 10 | 220,,,TRUE,12.11
+Fuatha - Payload,ork_dem_payload,2,,0,1000,1000,,,,20,0,,,,KINETIC,0,,0,0.75,1,0.5,,,,,1000000,,,,,,,"SYSTEM, DANGEROUS",fires_one_burst,,,,,,,,,,,,,,12.12
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Aegis Launcher,ork_aegis_launcher,,,0,3000,,150,,,,,,0,,ENERGY,0,0,0,0.45,4,0.5,10,10,0,0,,195,125,15,250,,,SYSTEM,,,Bultach Coalition,,,,,,,,,,,,35.5
+Leighis DEM ARM,ork_healerdem_proj,2,,0,3000,,150,,15,30,0,,,,ENERGY,0,,0,0.1,1,0.5,0,0,0,0,,195,125,15,250,,,SYSTEM,,,Bultach Coalition,,,,,,,,,,,,11.94
+    Leighis - Payload,ork_healerdem_proj_payload,2,,0,750,,,,20,30,0,,,,ENERGY,0,,0.1,0.1,6,0.5,,,,,2400,,,,,,,SYSTEM,,,Bultach Coalition,,,,,,,,,,,,11.95
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Teth Plasma Cannon,ork_plasma,2,0.2,1900,850,,650,,200,13,14,4,.4,1,ENERGY,950,,0.45,0.30,,,0,5,2,5,,1100,,,750,,,,"energy14, he15 rare_bp, ork_project_bp",,Bultach Coalition,,General,,,,,,,,,,40
+Teotha Plasma Cannon,ork_bigplasma,3,0.2,8000,950,,1000,,200,9,26,3,.35,3,ENERGY,1700,,0.75,0.25,,,0,12,4,2.5,,1100,,,1500,,,,"energy22, he22, rare_bp, ork_project_bp",,Bultach Coalition,,General,,,,,Deals an additional %s energy damage on impact.,500,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Losgadh Flamer,ork_plasma_shotgun_medium,2,,1000,500,,100,,200,10,8,80,3,30,FRAGMENTATION,40,,0,0.1,,,0,0,.2,5,,450,,,200,,,FIRE_WHEN_INEFFICIENT,"he9, rare_bp, ork_project_bp",,Bultach Coalition,,General,,,,,"Each impact on armor or hull deal an additional %s HE damage over %s seconds.
+
+The extreme heat of the spewed plasma interfere with shield projectors, making impacts on shields %s their arc.
+
+",50 | 3 | decrease,,,,40
+Loshe Flamer,ork_plasma_shotgun,2,,4500,700,,100,,200,10,16,250,6,50,FRAGMENTATION,35,,0,0.1,,,0,0,.2,5,,450,,,200,,,FIRE_WHEN_INEFFICIENT,"he15, rare_bp, ork_project_bp",,Bultach Coalition,,General,,,,,"Each impact on armor or hull deal an additional %s HE damage over %s seconds.
+
+The extreme heat of the spewed plasma interfere with shield projectors, making impacts on shields %s their arc.
+
+",50 | 3 | decrease,,,,40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Beag Point Defense,ork_rotary_pd_small,2,,500,375,,95,,5,50,4,,,,HIGH_EXPLOSIVE,65,,0,.65,,,2,15,2,6,,950,,,30,,,"PD_ONLY, ANTI_FTR","pd11, SR, rare_bp, ork_project_bp",,Bultach Coalition,,Point Defense,,,,,,,,,,3.8
+Noshe Point Defense,ork_rotary_pd,2,,900,575,,165,,5,40,9,,,,HIGH_EXPLOSIVE,90,,0,1.2,4,0.1,4,22,3,8,,950,,,30,,,"PD_ONLY, ANTI_FTR","pd14, SR, rare_bp, ork_project_bp",,Bultach Coalition,,Point Defense,,,,,,,,,,3.8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mirean Barrage,ork_mirean_large,1,,3500,1850,,2350,,75,20,20,40,,,FRAGMENTATION,,,0,17.2,4,.2,0,0,0,0,,250,50,10,300,,,"GUIDED_POOR, DO_NOT_AIM, FIRE_WHEN_INEFFICIENT, CONSERVE_2","strike12, missile18, ork_project_bp",,Bultach Coalition,,Torpedo,Average,Average,,,Torpedo has a small amount of knockback.,,,,TRUE,15
+Mirean Pod,ork_mirean_med,1,,1150,1850,,2350,,75,20,8,16,,,FRAGMENTATION,,,0,8.7,2,.15,0,0,0,0,,250,50,10,300,,,"GUIDED_POOR, DO_NOT_AIM, FIRE_WHEN_INEFFICIENT, CONSERVE_2","strike6, missile12, ork_project_bp",,Bultach Coalition,,Torpedo,Average,Average,,,Torpedo has a small amount of knockback.,,,,TRUE,15
+Mirean Rack,ork_mirean_small,1,,350,1850,,2350,,75,20,2,4,,,FRAGMENTATION,,,0,5,1,,0,0,0,0,,250,50,10,300,,,"GUIDED_POOR, DO_NOT_AIM, FIRE_WHEN_INEFFICIENT, CONSERVE_2","strike2, missile8, ork_project_bp",,Bultach Coalition,,Torpedo,Average,Average,,,Torpedo has a small amount of knockback.,,,,TRUE,15
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Fighter weps ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tof Plasma Cannon,ork_smallplasma,0,,0,500,,100,15,20,10,0,,,,ENERGY,0,,.2,5,2,.15,0,5,2,5,,650,,,950,,,SYSTEM,"no_drop, no_drop_salvage, no_sell, no_dealer",,Bultach Coalition,,General,,,,,,,,,,40
+Tonn Mòr (Bomber),ork_emptorp_bomber,2,,0,850,,1450,750,75,10,0,1,,,ENERGY,0,,0,1,1,,0,0,0,0,,450,300,4.5,450,,,"STRIKE, SYSTEM","no_drop, no_drop_salvage, no_sell, no_dealer",,Bultach Coalition,,Torpedo,Fast,None,,,Torpedo has a large blast radius.,,,,TRUE,9.8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Fighter weps ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unsgiath LRM Barrage,ork_noshield_large,2,,2500,2250,,100,,15,30,24,30,0.25,6,KINETIC,0,,0,10,6,.1,0,0,0,0,,250,250,12,250,,,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE","missile18, kinetic12, ork_project_bp",,Bultach Coalition,,Anti Shield,Slow,Average,,,,,,,TRUE,11.75
+Unsgiath LRM Cycler,ork_noshield_medium,2,,1000,2250,,100,,15,30,12,16,0.1,4,KINETIC,0,,0,12,4,.5,0,0,0,0,,250,200,12,250,,,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE","missile12, kinetic6, ork_project_bp",,Bultach Coalition,,Anti Shield,Slow,Average,,,,,,,TRUE,11.75
+Unsgiath LRM Single,ork_noshield_small,2,,600,2250,,100,,15,30,5,1,0.05,1,KINETIC,0,,0,8,1,.5,0,0,0,0,,250,150,12,250,,,"DO_NOT_AIM, GUIDED_POOR, DO_NOT_CONSERVE","missile8, kinetic3, ork_project_bp",,Bultach Coalition,,Anti Shield,Slow,Average,,,,,,,TRUE,11.75
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tonn Mòr Cycler,ork_emp_torpedo,2,,5000,1650,,3000,1500,75,20,26,9,,,ENERGY,500,,0,8,1,,0,0,0,0,,550,550,4.5,650,,,STRIKE,"strike20, rocket16, ork_project_bp",,Bultach Coalition,,Torpedo,Fast,None,,,Torpedo has a massive blast radius.,,,,TRUE,15
+Tonn Mòr Rack,ork_emp_torpedo_medium,2,,2350,1350,,3000,1500,75,20,12,4,,,ENERGY,500,,0,10,1,,0,0,0,0,,550,400,4.5,650,,,STRIKE,"strike15, rocket16, ork_project_bp",,Bultach Coalition,,Torpedo,Fast,None,,,Torpedo has a massive blast radius.,,,,TRUE,15
+Tonn Mòr Torpedo,ork_emp_torpedo_single,2,,1150,1350,,3000,1500,75,20,3,1,,,ENERGY,500,,0,12,1,,0,0,0,0,,550,350,4.5,650,,,STRIKE,"strike9, rocket16, ork_project_bp",,Bultach Coalition,,Torpedo,Fast,None,,,Torpedo has a massive blast radius.,,,,TRUE,15
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Builtins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hellbore Arm,ork_tpb,0,,69,750,,300,,100,10,0,,,,HIGH_EXPLOSIVE,300,,0,1,1,,0,10,5,10,,500,,,225,,,"SYSTEM,SHOW_IN_CODEX","he18, no_drop, no_drop_salvage, no_bp_drop, no_sell, no_dealer",,,,Anti Armor,,,,,,,,,,8
+Mark IX Arm,ork_tpb2,0,,69,750,,100,,10,10,0,,,,KINETIC,100,,0,1.5,3,0.1,0,10,2,10,,800,,,60,,,"SYSTEM,SHOW_IN_CODEX","kinetic18, no_drop, no_drop_salvage, no_bp_drop, no_sell, no_dealer",,,,Anti Shield,,,,,,,,,,7.25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tharneamh,giga_rail,3,,69,4500,,1000,200,500,20,0,,,,ENERGY,5000,,3,75,,,0,0,0,0,,4500,,,,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","no_drop, no_drop_salvage, strike20, no_bp_drop, no_sell, no_dealer, giga_rail, giga_rail",,Bultach Coalition,,General,,,,,,,,,TRUE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Holy Flamer,ork_holy_flame,3,,69,1200,,175,25,3,5,0,160,5,40,ENERGY,100,,4.1,10,80,0.05,0,0,0,0,,650,,,,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","energy15, SR, no_drop, no_drop_salvage, strike20, no_bp_drop, no_sell, no_dealer",,Luddic Path,,General,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Sathar Builtins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chaneilgin Artillery,ork_sathar_gigashotgun,0,,69,1700,,1250,25,200,6,0,,,,HIGH_EXPLOSIVE,2250,,0,10,,,3,3,0,1,,500,,,1000,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","kinetic25, he15, no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage",,Bultach Coalition,,Anti Armor,,,,,Splits into %s submunitions that deal %s high explosive damage each.,12 | 250,,,,40
+Chaneilgin Artillery Sub,ork_gigashotgun_sub,0,,,750,,375,,20,0,,,,,HIGH_EXPLOSIVE,,,0,1,1,,0,0,0,0,,700,,,150,,,SYSTEM,,,,,,,,,,,,,,,4.75
+Furaidh Siege Laser,ork_sathar_siege_laser,0,,69,1600,,5000,500,1000,6,0,,,,FRAGMENTATION,2950,,1.6,13.4,,,0,0,0,0,,3500,,,,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","energy25, he15, no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage",,Bultach Coalition,,General,,,,,,,,6.9,,
+Tonnas Motha Torpedo,ork_sathar_emp_nuke,0,,69,4000,,6000,5000,5000,6,0,1,,,ENERGY,5000,,0,1000,,,0,0,0,0,,450,100,10,1500,,,"STRIKE,SYSTEM,SHOW_IN_CODEX","strike30, rocket36, no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage",,Bultach Coalition,,Destruction,Average,None,,,Torpedo has an absurd blast radius.,,,,TRUE,15
+Tuiltean Howitzer,ork_sathar_doom_laser,0,,69,1300,2000,,,100,6,0,,,,FRAGMENTATION,,2000,0.1,0.35,,,0,15,1,2.5,10000,,,,300,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","energy25, he15, no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage",,Bultach Coalition,,General,,,,,"Beam is continuous, but has a %s second cooldown when firing is ceased. Rapidly increases it's DPS %s then %s in three stages.",20 | 200% | 400%,Maximum DPS is %s.,8000,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Diult Eradication Laser,ork_dorn_siege_laser,3,,69,2000,,20000,500,1000,6,0,,,,FRAGMENTATION,5500,,0.6,29.4,1,.75,0,0,0,0,,3500,,,,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","energy25, he15, no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage",,Bultach Coalition,,General,,,,,,,,6.9,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hell-Burn Array,ork_garbage_catapult,3,,69,1300,,700,,700,3,0,12,0.4,1,HIGH_EXPLOSIVE,1000,,0.25,0.75,,,3,12,1,1,,600,,,,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","no_drop, no_drop_salvage, strike20, no_bp_drop, no_sell, no_dealer, giga_rail, giga_rail",,Pirate,,General,,,,,"On impact, the shells burst into burning slag, burning %s points of the hit vessel at random, dealing %s energy damage over 3 seconds per instance.",2-4 | 200 ,,,TRUE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Infernal Gaze,bultach_orbbeam_station,1,,0,1400,2000,,,0,5,0,,,,ENERGY,,2000,3,2,8.5,11.5,,,,,2400,,,,,,,"FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX,DO_NOT_CONSERVE,STRIKE","no_drop, no_drop_salvage, strike20, no_bp_drop, no_sell, no_dealer, giga_rail, giga_rail",,Luddic Path,,General,,,,,,,,,,24
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fist,ork_rightarm_wpn,0,,75,130,,2000,,0,30,,,,,HIGH_EXPLOSIVE,0,,0,4,1,,0,0,0,10,,500,,,500,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","kinetic25, he15, no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,
+Fist,ork_leftarm_wpn,0,,75,130,,2000,,0,30,,,,,HIGH_EXPLOSIVE,0,,0,4,1,,0,0,0,10,,500,,,500,,,"DO_NOT_CONSERVE,STRIKE,FIRE_WHEN_INEFFICIENT,SYSTEM,SHOW_IN_CODEX","kinetic25, he15, no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,
+,ork_boompunch,0,,100000,100,,2000,,0,20,,,,,HIGH_EXPLOSIVE,,,,2,,,0,0,0,0,,2000,2000,.2,9999,,,SYSTEM,"kinetic25, he15, no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage",,,,,,,,,Boom baby!,,,,TRUE,15
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Gestalt Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Temporal Cleaver,ork_divine_cleaver,3,,0,700,,1750,1750,0,4,40,,,,ENERGY,4500,,2,28,,,0,0,0,0,,245,,,9999,,,"DO_NOT_CONSERVE, STRIKE","no_bp_drop, no_sell, no_dealer, restricted, gestalt, strike20",,Gestalt,,Rending,,,,,%s.,Unstoppable,,,,
+,ork_divine_cleaver_sub,,,,150,,200,600,,,,,,,ENERGY,,,,1,,,,,,,,215,,,,,,SYSTEM,"no_bp_drop, no_sell, no_dealer, restricted",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tolladh Driver,ork_tolladh,3,,0,600,,750,,200,12,34,6,.4,1,ENERGY,1000,,0.75,0.25,,,0,12,3,2.5,,600,,,1500,,,"DO_NOT_CONSERVE, FIRE_WHEN_INEFFICIENT, STRIKE, USE_VS_FRIGATES","no_bp_drop, no_sell, no_dealer, restricted, gestalt, energy20",,Gestalt,,General,,,,,%s.,Adaptive ,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fuadian Lance,ork_fuadian,3,,0,800,,2150,650,150,7,32,,,,FRAGMENTATION,750,,1.4,1.6,,,0,0,0,0,,1650,,,,,,FIRE_WHEN_INEFFICIENT,"no_bp_drop, no_sell, no_dealer, restricted, gestalt, energy18",,Gestalt,,General,,,,,"%s.
+
+%s.",Restrain | Weaken,,,,
+Fuadian Spear,ork_fuadian_med,3,,0,700,,900,150,50,14,14,,,,FRAGMENTATION,275,,,1.2,,,0,0,0,0,,1500,,,,,,FIRE_WHEN_INEFFICIENT,"no_bp_drop, no_sell, no_dealer, restricted, gestalt, energy12",,Gestalt,,General,,,,,"%s.
+
+%s.",Restrain | Weaken,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Diùraidh ,ork_diuraidh,3,,0,600,,170,,25,20,16,,,,ENERGY,170,,0,3.5,6,0.1,6,6,,,,575,,,,,,FIRE_WHEN_INEFFICIENT,"he18, gestalt, restricted, no_bp_drop, no_sell, no_dealer",,Gestalt,,General,,,,,"%s.
+
+%s.",Seek | Curse,,,,22.25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lùb Arc Repeater,ork_lub_pd,3,,0,500,,65,,20,50,8,,,,ENERGY,225,,.25,2.25,,,0,0,0,0,,850,,,150,,,"ANTI_FTR, DO_NOT_CONSERVE, PD_ONLY, PD","no_bp_drop, no_sell, no_dealer, restricted, gestalt, pd10",,Gestalt,,Point Defense,,,,,,,,,,40
+Aotrom Lance,ork_aotrom,3,,0,500,3947,,,0,30,11,10,,,ENERGY,,2000,0.35,0.35,.4,12,0,0,0,0,100000,,,,,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING","no_drop, no_drop_salvage, no_bp_drop, no_sell, no_dealer, restricted",SR_strike_only,Gestalt,,Strike,,,,,,,,,,19.75
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Melody,bultach_orbbeam,3,,0,900,250,,,0,25,20,,,,KINETIC,,,0.5,2.5,8,10,,,,,2400,,,,,,,"SYSTEM, DANGEROUS","no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage, restricted, gestalt, fires_one_burst",,Gestalt,,Enlightenment,,,,,%s.,Speak,,,,24
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chorus,bultach_orbbeam_feregether,3,,0,1300,2000,,,0,3,0,,,,ENERGY,,2500,3,2,6,20,,,,,6000,,,,,,,"FIRE_WHEN_INEFFICIENT, SYSTEM, STRIKE","no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage, restricted, gestalt",,Gestalt,,Unification,,,,,%s.,Sing,,,,24
+,ork_chorus_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage, no_bp_drop, no_sell, no_dealer",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Geata Rift Platform,ork_swarmer_large,3,,0,1650,,1500,,5,30,30,,,,ENERGY,450,,0,35,3,1.35,0,0,0,0,,185,115,8,400,,,"GUIDED_POOR, DO_NOT_AIM, FIRE_WHEN_INEFFICIENT, DO_NOT_CONSERVE","no_bp_drop, no_sell, no_dealer, restricted, gestalt, missile22, energy16, damage_special, damage_soft_flux",,Gestalt,,General,Slow,Good,,,%s.,Gaze,,,TRUE,16.3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Snàmh Fissile Barrage,ork_swarmer_medium,3,,0,1400,,200,,5,30,16,,,,ENERGY,50,,0,12.5,10,0.3,0,0,0,0,,525,200,3,60,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","no_bp_drop, no_sell, no_dealer, restricted, gestalt, energy14, missile12",,Gestalt,,General,Fast,Excellent,,,"%s.
+
+%s.",Pierce | Burn,,,,16.3
+Snàmh Fissile Cycler,ork_swarmer_small,3,,0,1400,,200,,5,30,8,,,,ENERGY,50,,0,4.5,3,0.2,0,0,0,0,,525,200,3,60,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","no_bp_drop, no_sell, no_dealer, restricted, gestalt, energy7, missile9",,Gestalt,,General,Fast,Excellent,,,"%s.
+
+%s.",Pierce | Burn,,,,16.3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thairis Cycler,ork_holy_torp,3,,0,1650,,,2500,750,20,30,,,,ENERGY,1000,,0,35,,,0,0,0,0,,165,90,8,1500,,,"STRIKE, DANGEROUS","no_bp_drop, no_sell, no_dealer, restricted, gestalt, strike20",,Gestalt,,Enlightenment,,,,,"%s.
+
+%s.",Bless | Curse,,,TRUE,15
+Thairis Rack,ork_holy_torp_medium,3,,0,1650,,4500,2000,750,20,15,,,,ENERGY,1000,,0,32,,,0,0,0,0,,725,300,6,1200,,,,"no_drop, no_drop_salvage, no_bp_drop, no_sell, no_dealer, restricted",,Gestalt,,Finisher,Very Fast,Excellent,,,"%s.
+
+%s.",Rend | Curse,,,TRUE,15
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ceol Torpedo Pod,ork_clangtorp_medium,3,,0,1700,,1500,,50,10,18,6,0.02,,ENERGY,800,,0,15,,,0,0,0,0,,800,600,2.5,300,,,DO_NOT_AIM,"no_bp_drop, no_sell, no_dealer, restricted, gestalt, strike18, missile14",,Gestalt,,Finisher,Very Fast,Excellent,,,%s.,Adaptive ,,,TRUE,
+Ceol Torpedo,ork_clangtorp_small,3,,0,1500,,1500,,50,10,7,2,,,ENERGY,800,,0,2.5,,,0,0,0,0,,800,500,2.5,300,,,DO_NOT_AIM,"no_bp_drop, no_sell, no_dealer, restricted, gestalt, strike10, missile11",,Gestalt,,Finisher,Very Fast,Excellent,,,%s.,Adaptive ,,,TRUE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vortex Emanation,ork_vortex_weapon,3,,0,1500,,250,350,0,300,,,,,ENERGY,175,,0,2,,,,,,,,8000,,,,,,"FIRE_WHEN_INEFFICIENT, SYSTEM, DO_NOT_CONSERVE","no_bp_drop, no_sell, no_dealer, no_drop, no_drop_salvage, restricted, gestalt",,Gestalt,,General,,,,,,,,,,22.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#decos and shit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Flare Launcher ,ork_flarelauncher,,,,500,,10,100,,,,,0,,ENERGY,0,0,0,0.1,5,0.15,60,60,0,0,,100,200,4,1,,,SYSTEM,,,,,,,,,,,,,,,36
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reactor Radiation Glow,reactor_lights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,43
+Double Reactor Glow,reactor_lights2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,43
+Pusher Plate (Bultach),bt_pusherplate_lt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.5
+Pusher Plate (Low Tech But Slightly Smaller Haha Lol XDd),ork_pusherplate_lt_but_slightly_smaller_selkie_is_deranged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.5
+Inverse OD Bomb,bt_iod_bomblauncher,0,,200000,500,,2000,,25,30,12,0,,,HIGH_EXPLOSIVE,0,,0,3,1,,0,0,0,0,,200,500,0.25,10000,,,SYSTEM,,,,,,,,,,,,,,,43
+"Pusher Plate (Low Tech, Smallerer)",ork_pusherplate_lt_smaller,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.75
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,ork_crusher_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_dreadnot_top,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_dreadnot_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_dreadnot_left,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_racer_top,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_skrunkly_top,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_murtach_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_grot_top,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_grot_sides,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_battlecruiser_mediums,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_skrunkly_top_lp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_faster_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_bomber_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_mech_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+Phase dive,ork_phasedive_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,Bultach Coalition,,,,,,,,,,,,
+,ork_alysse_mediums,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_spacehulk_bridge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_pathertele_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,Bultach Coalition,,,,,,,,,,,,
+,ork_br_lefttop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_br_leftbottom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_br_righttop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_br_rightbottom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_br_bottom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_speeder_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_thrasher_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,ork_ceartas_left,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_ceartas_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,ork_feirge_center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Blinkers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Red Blinker,ork_blinker_red,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+Green Blinker,ork_blinker_green,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Blood Flow,ork_bloodflow_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BT vector Controller,ork_vectorEngineController,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+BT triumph engine cont,ork_triumph_modeengine_controller,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BT VENT,ork_vent_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+BT SO SMOKE,ork_pather_so_smoke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

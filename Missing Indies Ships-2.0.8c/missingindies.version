@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://drive.google.com/uc?id=1Q87SpQpyj6tqU71CaXF449xskp86jt6x&export=download",
+  "modName": "Missing Indie Ships",
+  "modVersion":
+    {
+      "major": 2,
+      "minor": 0,
+      "patch": 8c # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+    },
+  "modThreadId": 31181,
+  "directDownloadURL": "https://drive.google.com/uc?id=1V1VRu1KboJsrkX6f9tdq3yMrmQuWw1Z5&export=download",
+}

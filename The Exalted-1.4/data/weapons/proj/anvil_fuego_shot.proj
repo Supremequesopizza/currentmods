@@ -1,0 +1,17 @@
+{
+	"id":"anvil_fuego_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":30.0,
+	"width":20.0,
+	"fadeTime":0.25,
+	"fringeColor":[255, 50, 0,255],
+	"coreColor":[132, 0, 0,255],
+	#"coreColor":[175,175,175,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.5
+}

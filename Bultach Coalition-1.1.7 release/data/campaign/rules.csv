@@ -1,0 +1,462 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME BULTACH,,,,,,
+,,,,,,
+# relationship level descriptons,,,,,,
+relLevelCooperativeOrks,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == orks",FireAll RelLevelMoreDescription,"You are well trusted and an invaluable asset for $theFaction, green-lit by patrols and port authorities alike, you will find no trouble in $theFaction space, as well as large efforts being made to accomodate you when you are present. You have considerable access to high-level officials, and are a regular subject of discussion amongst them. You are given much leeway, and there is no doubt that you're written favorably in their history books and propaganda as a shining example of the ideal spacer.
+
+Humanity has a long road ahead to better itself, and we trust you will be there with us every step of the way.",,
+relLevelFriendlyOrks,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == orks",FireAll RelLevelMoreDescription,"You're relatively well-known within $theFaction, your reputation allows you many comforts and concessions not allowed to the average spacer, and a genuine warmth from many patrols and port commanders. There are consistent efforts to coerce you further away from Tri-tachyon, and seat you firmly as an ally of $theFaction.",,
+relLevelWelcomingOrks,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == orks",FireAll RelLevelMoreDescription,"Your name has been spoken favorably among some of the high-level officials in $theFaction who view you as a potentially valuable asset in the ongoing battle against their enemies. Minor patrol commanders will generally steer out of your way, and will often catch respecting nods as you visit their ports.",,
+relLevelFavorableOrks,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == orks",FireAll RelLevelMoreDescription,"The $faction officials tend to view you favorably, and at the very least someone they don't believe to be an assset of Tri-tachyon. Though your reputation is somewhat dulled due to the general paranoia in $faction's populace, you'll be stopped by regular patrols less often, and greeted a bit less coldly in communications.",,
+relLevelNeutralOrks,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == orks",FireAll RelLevelMoreDescription,"You're not generally well known by $faction officials, but as with many more powerful or influential spacers, your general actions are kept noted and tracked-- mainly those of how you interact with $theFaction's enemies.",,
+relLevelSuspiciousOrks,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == orks",FireAll RelLevelMoreDescription,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. Whether it be due to weapon or drug smuggling, or suspected partnership with Tri-tachyon, you find access to the port authority is granted only grudgingly, and you find yourself the subject of investigations and harassment frequently, with patrol officers muttering under their breath whenever they have the displeasure of greeting you.",,
+relLevelInhospitableOrks,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == orks",FireAll RelLevelMoreDescription,"Suspicions have risen to an actionable level. Your actions and partnerships are actively tracked by an internal department, and your every move within $faction space seems to be closely followed by heavier patrol fleets that flicker targeting solutions along your ships. $faction ports will refuse to trade with you entirely, greeting you with hateful glares, and you find yourself often the subject of ""random"" investigations. ",,
+relLevelHostileOrks,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == orks",FireAll RelLevelMoreDescription,"$Faction commanders have authorization to engage your fleet on sight, and more powerful faction officials are almost certain you are a direct asset of Tri-tachyon. These ties come with an active effort to dehumanize your image. All markets are prohibited from trading with you, and any patrols are nigh-eager to take their chances in personally taking you down. You might still recover good standing with $theFaction through serious and constant efforts.",,
+relLevelVengefulOrks,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == orks",FireAll RelLevelMoreDescription,"A holo of your face and an IDENT-hash of your last known fleet are both regular parts of inter-system security bulletins. You're known as a monster that's leashed by the hated Tri-Tachyon Corporation, they blood that soaks their hands may as well be on your own. There is no doubt that a high ranking official has been assigned a mission to hunt you down. You are an enemy of the Coalition and an enemy to the betterment of humanity as a whole.",,
+relLevelOrksCores,RelLevelMoreDescription,"$faction.id == orks
+$faction.turnedIn_allCores > 3",,"Intercepted relay communication reveals an special department is most certainly tracking your actions, due to the large amount of AI cores you've turned into the Coalition. Although there are no outwards changes in how you are publicly received.",,
+#END relationship level descriptons,,,,,,
+,,,,,,
+# turning AI cores in,,,,,,
+aiCores_turnInOptionSelOrks,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == orks",FireAll PopulateCoresTurnInOptions,"""Ah, AI cores? You did well to bring these to us, rather than submit them to Tritachyon for some fast credits. I will see to it that these are properly disposed of- After extracting any useful intel from them, of course. We do also offer a generous reward, and improved standing with the Coalition for your actions, as thanks.""
+OR
+""Any AI cores kept out of Tritachyon's hands is a small victory for the Coalition, and the sector at large. We'll dispose of these in compliance of current AI laws. Your commitment to the safety of the sector shall not go unrewarded, as we offer a significant bounty for any cores turned in.""",,
+aiCores_turnInResponseOrks,AICoresTurnedIn,$faction.id == orks,FireAll PopulateOptions,"$PersonRank $personLastName gives you a quick salute as they finalize the transaction, before promptly returning to other matters.
+OR
+""On behalf of the Bultach Coalition, I thank you."" the $PersonRank gives a pleased smile as they confirm the transaction. ""Please do not hesitate to bring further found cores to us, or the Hegemony."" ",,
+#END turning AI cores in,,,,,,
+,,,,,,
+# fleet greetings,,,,,,
+greetingOrksFriendly,OpenCommLink,"$faction.id == orks
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Scanned and identified, good to see you $playerName.?""
+OR
+""Greetings friend, you are always welcome in Bultach territory.""",,
+greetingOrksHostileWeaker,OpenCommLink,"$faction.id == orks
+$entity.isHostile
+$entity.relativeStrength < 0","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Local patrols have already been dispatched to this signal, you'd best disengage, scum.""
+OR
+""The Bultach people won't fall under oppression ever again, not to the likes of you or anyone else!""",,
+greetingOrksHostileWeakerDefiant,OpenCommLink,"$faction.id == orks
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""We'll fight to our last just as those before us did.""
+OR
+""We know how you dictator types treat prisoners, you won't be taking any.""",cutCommLink:Cut the comm link,
+greetingOrksHostileStronger,OpenCommLink,"$faction.id == orks
+$entity.isHostile
+$entity.relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""Hostile fleet, we advise you power down weapons and cease transgressions against the Bultach Coalition.""
+OR
+""You're outnumbered, surrender now and Bultach leadership promises fair treatment of any prisoners.""
+OR
+""AIS code acknowledged. It is unwise to show your face in Bultach territory.""",cutCommLink:Cut the comm link,
+greetingOrksNeutral,OpenCommLink,"$faction.id == orks
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Scanned and identified. Safe travels.""
+OR
+""Acknowledging receipt of AIS code. We could use someone like you to stand against Tri-Tach, $playerName.""",,
+#END fleet greetings,,,,,,
+,,,,,,
+# bultach npcs,,,,,,
+,,,,,,
+# uisdean,,,,,,
+,,,,,,
+# uisdean  greetings,,,,,,
+uisdean  greeting,PickGreeting,$id == bt_uisdean  score:10,"ShowPersonVisual
+FireAll PopulateOptions","Your comms flicker as you attempt to connect, but you ultimately receive no response.
+OR
+Your comms flicker as you attempt to connect, but you ultimately receive no response.
+OR
+Your comms flicker as you attempt to connect, but you ultimately receive no response.",,"# $id == is to help ensure that this specific greeting is only fired by your npc.
+# score:10 provides a score priority, making it show up if you have other similar rules with similar conditions
+# ShowPersonVisual is to actually show the npc
+# FireAll PopulateOptions is the basic options which almost all npc interactions start off, being the start of the tree
+# FireAll means that anything under PopulateOptions that matches its conditions will appear on the list
+# Text is for actual text that shows on on the screen. OR allows for different text to appear for the greeting."
+#END uisdean  greetings,,,,,,
+,,,,,,
+# uisdean  populateoptions,,,,,,
+#uisdean chat,PopulateOptions,$id == bt_uisdean  score:10,,,bt_uisdeanChat:Chat,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#uisdean compliment,PopulateOptions,"$id == bt_uisdean  score:10
+$hasRepChatted == false",,,bt_uisdeanCompliment:Compliment,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#$hasRepChatted is extra condition, and vital for preventing an option to be spammed
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#uisdean insult,PopulateOptions,"$id == bt_uisdean  score:10
+$hasRepChatted == false",,,bt_uisdeanInsult:Insult,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#$hasRepChatted is extra condition, and vital for preventing an option to be spammed
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#uisdean chat response,DialogOptionSelected,$option == bt_uisdeanChat,,"You ask him about the second AI war.
+
+In response to questions about the Second AI War, Uisdean's voice and face reflects the toll of conflict ""Faced the Persean League and those corporate dogs at Tri-Tachyon. Battles etch scars, both seen and unseen. We prevailed, but those corporate bastards still get to plague this sector. I hope to one day see them gone.""
+OR
+You ask him what he does.
+
+Uisdean responds with a measured, deliberate tone ""I hold a position of authority as a top military general in the Coalition. We're constantly working to try and figure out our enemies next moves, and how to protect ourselves and our allies against them.""
+OR
+You ask him how he lost his eye.
+
+Uisdean acknowledges his past with a seasoned demeanor, a small smirk forming at the corners of his mouth for a few moments ""Once, I was a marine in the thick of the fight. Lost my eye during cycle 189.."" 
+
+He gave his cybernetic implant a few light taps, to emphasize
+
+""Command found me along the way. From the field to the command center, can't say I expected it to happen, but I won't shrug off my duty now.""",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)"
+#uisdean compliment response,DialogOptionSelected,$option == bt_uisdeanCompliment,"$hasRepChatted = true 7
+AdjustRepActivePerson WELCOMING 1
+FireAll PopulateOptions","Nodding solemnly at the compliment, Uisdean reflects, ""Acknowledged. We fought hard, and every victory came at a cost. Success wasn't handed to us; it was earned through sacrifice and strategy. Don't let praise distract you from the reality of battles with Tri-Tachyon.""
+OR
+Uisdean waves off the compliment with a gruff chuckle, ""Enough of that. We had a job to do, and we did it. No need for fancy words. What matters is the long fight ahead, not the victories behind. There's still work to be done before I can rest.""
+OR
+Uisdean's grizzled features shift, and he seems to stare into the distance for a few moments, before focusing back on you. ""..I appreciate the recognition, but that's better given to those who lost everything just to get us to this place.""",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)
+# Script $hasRepChatted = true sets boolean to true. The ""7"" sets to how many days the boolean will be true until it unsets. Will cause Compliment option to disappear for 7 days.
+# AdjustRepActivePerson WELCOMING 1: AdjustRepActivePerson will set active person for rep change. ""WELCOMING"" sets the rep limit, so if set to welcoming, rep gain will be limited within WECLOMING And will not go higher. ""1"" sets how much rep is gain or lost. Cannot go over the set reputation limit
+# FireAll PopulateOptions will refresh dialog tree and make conditions that require $hasRepChatted == false to not appear. MUST BE PLACED AT THE BOTTOM. CODE FIRES SEQUENTIALLY."
+#uisdean insult response,DialogOptionSelected,$option == bt_uisdeanInsult,"$hasRepChatted = true 7
+AdjustRepActivePerson SUSPICIOUS -1","With a wry grin, Uisdean loudly chuckles before brushing off the insult ""Ah, the sweet sound of criticism. It's a shame it doesn't carry the weight of a hellbore cannon. Keep swinging, captain. Maybe you'll end up hitting something you're supposed to.
+OR
+Uisdean's eyes narrow, and he lets out a heavy sigh before delivering a biting retort, ""You talk a lot for someone who thawed out after the AI wars. One of the types who thinks his crew is just a number, eh?"" 
+OR
+Uisdean responds to the insult with a touch of sarcasm, raising a brow ""Ah, the biting words of an independant, rogue captain. I know your type. You're better off wasting breath some other way.""",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)
+# Script $hasRepChatted = true sets boolean to true. The ""7"" sets to how many days the boolean will be true until it unsets. Will cause Compliment option to disappear for 7 days.
+# AdjustRepActivePerson SUSPICIOUS -1: AdjustRepActivePerson will set active person for rep change. ""SUSPICIOUS"" sets the rep limit, so if set to welcoming, rep gain will be limited within SUSPICIOUS And will not go lower. ""-1"" sets how much rep is gain or lost. Cannot go over/ below the set reputation limit
+# FireAll PopulateOptions will refresh dialog tree and make conditions that require $hasRepChatted == false to not appear. MUST BE PLACED AT THE BOTTOM. CODE FIRES SEQUENTIALLY."
+#END uisdean populateoptions,,,,,,
+#END uisdean,,,,,,
+,,,,,,
+# liam,,,,,,
+,,,,,,
+# liam greetings,,,,,,
+liam greeting,PickGreeting,$id == bt_liam score:10,"ShowPersonVisual
+FireAll PopulateOptions","Your comms flicker as you attempt to connect, but you ultimately receive no response.
+OR
+Your comms flicker as you attempt to connect, but you ultimately receive no response.
+OR
+Your comms flicker as you attempt to connect, but you ultimately receive no response.",,"# $id == is to help ensure that this specific greeting is only fired by your npc.
+# score:10 provides a score priority, making it show up if you have other similar rules with similar conditions
+# ShowPersonVisual is to actually show the npc
+# FireAll PopulateOptions is the basic options which almost all npc interactions start off, being the start of the tree
+# FireAll means that anything under PopulateOptions that matches its conditions will appear on the list
+# Text is for actual text that shows on on the screen. OR allows for different text to appear for the greeting."
+#END liam greetings,,,,,,
+,,,,,,
+# liam populateoptions,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+#END liam populateoptions,,,,,,
+#END liam,,,,,,
+,,,,,,
+# ailis,,,,,,
+,,,,,,
+# ailis greetings,,,,,,
+ailis greeting,PickGreeting,$id == bt_ailis score:10,"ShowPersonVisual
+FireAll PopulateOptions","Your comms flicker as you attempt to connect, but you ultimately receive no response.
+OR
+Your comms flicker as you attempt to connect, but you ultimately receive no response.
+OR
+Your comms flicker as you attempt to connect, but you ultimately receive no response.",,"# $id == is to help ensure that this specific greeting is only fired by your npc.
+# score:10 provides a score priority, making it show up if you have other similar rules with similar conditions
+# ShowPersonVisual is to actually show the npc
+# FireAll PopulateOptions is the basic options which almost all npc interactions start off, being the start of the tree
+# FireAll means that anything under PopulateOptions that matches its conditions will appear on the list
+# Text is for actual text that shows on on the screen. OR allows for different text to appear for the greeting."
+#END ailis greetings,,,,,,
+,,,,,,
+# ailis populateoptions,,,,,,
+#ailis chat,PopulateOptions,$id == bt_ailis score:10,,,bt_ailisChat:Chat,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#ailis compliment,PopulateOptions,"$id == bt_ailis score:10
+$hasRepChatted == false",,,bt_ailisCompliment:Compliment,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#$hasRepChatted is extra condition, and vital for preventing an option to be spammed
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#ailis insult,PopulateOptions,"$id == bt_ailis score:10
+$hasRepChatted == false",,,bt_ailisInsult:Insult,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#$hasRepChatted is extra condition, and vital for preventing an option to be spammed
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#ailis chat response,DialogOptionSelected,$option == bt_ailisChat,,"You try to engage in small talk, asking Ailis about her research. 
+
+Ailis, with a measured tone, responds, ""Research is ongoing. It has to be, if we are to succeed against Tri-Tachyon.""
+
+You swear you could see her grit her teeth a bit.
+OR
+You inquire her about her work.
+
+Ailis responds cryptically, ""My work spans classified domains, I cannot share much, for the sake of the Coalition. Specifics are limited, but outcomes will become apparent in due course.""
+OR
+You ask her how her day was.
+
+Ailis responds while rubbing her uncovered temple ""Today's progress is satisfactory, but there's always more work to be done.""",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)"
+#ailis compliment response,DialogOptionSelected,$option == bt_ailisCompliment,"$hasRepChatted = true 7
+AdjustRepActivePerson WELCOMING 1
+FireAll PopulateOptions","Ailis nods with a faint hint of acknowledgment. ""Your words are noted. My dedication to our objectives remains the priority, however.""
+OR
+Ailis inclines her head slightly, a faint glint in her cybernetic eye. ""Your words are appreciated. Efficiency in both compliments and work is a virtue, wouldn't you agree?""
+OR
+Ailis maintains her composed demeanor, nodding subtly. ""Thank you. Our efforts in advancing to face our foes endure, much like the enhancements that have prolonged my existence. Your recognition does not go unnoticed.""",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)
+# Script $hasRepChatted = true sets boolean to true. The ""7"" sets to how many days the boolean will be true until it unsets. Will cause Compliment option to disappear for 7 days.
+# AdjustRepActivePerson WELCOMING 1: AdjustRepActivePerson will set active person for rep change. ""WELCOMING"" sets the rep limit, so if set to welcoming, rep gain will be limited within WECLOMING And will not go higher. ""1"" sets how much rep is gain or lost. Cannot go over the set reputation limit
+# FireAll PopulateOptions will refresh dialog tree and make conditions that require $hasRepChatted == false to not appear. MUST BE PLACED AT THE BOTTOM. CODE FIRES SEQUENTIALLY."
+#ailis insult response,DialogOptionSelected,$option == bt_ailisInsult,"$hasRepChatted = true 7
+AdjustRepActivePerson SUSPICIOUS -1","Ailis's cybernetic eye seems to shine slightly. ""Your attempts at provocation are noted. Such distractions only hinder my goal, nothing more.""
+OR
+Ailis raises an eyebrow, her expression nonchalant. ""Interesting choice of words. This outburst will be catalogued. Back to actual matters of importance.""
+OR
+Ailis offers a poised response, keeping her tone professional. ""I appreciate your input, though I encourage us to maintain a constructive atmosphere. Now, do you have anything of importance to say?",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)
+# Script $hasRepChatted = true sets boolean to true. The ""7"" sets to how many days the boolean will be true until it unsets. Will cause Compliment option to disappear for 7 days.
+# AdjustRepActivePerson SUSPICIOUS -1: AdjustRepActivePerson will set active person for rep change. ""SUSPICIOUS"" sets the rep limit, so if set to welcoming, rep gain will be limited within SUSPICIOUS And will not go lower. ""-1"" sets how much rep is gain or lost. Cannot go over/ below the set reputation limit
+# FireAll PopulateOptions will refresh dialog tree and make conditions that require $hasRepChatted == false to not appear. MUST BE PLACED AT THE BOTTOM. CODE FIRES SEQUENTIALLY."
+#END ailis populateoptions,,,,,,
+#END ailis,,,,,,
+,,,,,,
+# kresknov,,,,,,
+,,,,,,
+# kresknov greetings,,,,,,
+kresknov greeting,PickGreeting,$id == bt_kresknov score:10,"ShowPersonVisual
+FireAll PopulateOptions","With a subtle inclination of the head, Dr. Kresknov acknowledges your presence over the comms. Apparently the only one willing to speak with you directly, with your current standing. ""Greetings, captain. What brings you to my channel? Try to keep it brief, there is much to do.""
+OR
+After a faint buzz of comms being established, you see the doctor. A measured nod accompanies Dr. Kresknov's greeting, their tone reflecting professional reserve. ""Welcome, captain. Do you have something to discuss, or otherwise..?""
+OR
+A crisp transmission from Dr. Kresknov pierces through the comms channel.  ""Acknowledged. Greetings. I trust your transmission bears news of significance. These are not social channels, after all.""",,"# $id == is to help ensure that this specific greeting is only fired by your npc.
+# score:10 provides a score priority, making it show up if you have other similar rules with similar conditions
+# ShowPersonVisual is to actually show the npc
+# FireAll PopulateOptions is the basic options which almost all npc interactions start off, being the start of the tree
+# FireAll means that anything under PopulateOptions that matches its conditions will appear on the list
+# Text is for actual text that shows on on the screen. OR allows for different text to appear for the greeting."
+#END kresknov greetings,,,,,,
+,,,,,,
+# kresknov populateoptions,,,,,,
+,,,,,,
+# kresknov basic chat,,,,,,
+#kresknov chat,PopulateOptions,$id == bt_kresknov score:10,,,bt_kresknovChat:Chat,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#kresknov compliment,PopulateOptions,"$id == bt_kresknov score:10
+$hasRepChatted == false",,,bt_kresknovCompliment:Compliment,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#$hasRepChatted is extra condition, and vital for preventing an option to be spammed
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#kresknov insult,PopulateOptions,"$id == bt_kresknov score:10
+$hasRepChatted == false",,,bt_kresknovInsult:Insult,"#Trigger PopulateOptions follows from FireAll PopulateOptions. If Conditions match, it will show up as a selectable option
+#$hasRepChatted is extra condition, and vital for preventing an option to be spammed
+#DialogOptions is to add options. You can add as many options as you want, but keeping options on their own rules helps to add flexibility for conditions. Anything left of the colon is the option id, anything right of the colon is how the option appears when listed"
+#kresknov chat response,DialogOptionSelected,$option == bt_kresknovChat,,"You decide to try and chat with the doctor.
+
+The comms screen flickers to life with Dr. Kresknov's response, laden with analytical scrutiny. ""I appreciate the formalities, captain, but lets keep small talk to a minimum, shall we?""
+OR
+You ask the doctor what he does.
+
+With calculated vagueness, Dr. Kresknov replies, ""What do I do..? I delve into any and all domains that could give the Coalition an edge. Of course, more intricate details are confined within classified parameters.""
+OR
+You continue to pry on what the doctor does.
+
+Dr. Kresknov's tone carries a firm resolve, and he shares a small nod ""I appreciate your curiosity. Really, I do. But the specifics of my work fall under classified domains. Rest assured, my contributions are dedicated to advancing our collective goals. There are areas where even curiosity must yield.""",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)"
+#kresknov compliment response,DialogOptionSelected,$option == bt_kresknovCompliment,"$hasRepChatted = true 7
+AdjustRepActivePerson WELCOMING 1
+FireAll PopulateOptions","Dr. Kresknov leans in, a subtle malevolence in their tone. ""Ah, a discerning eye. It's always gratifying when someone recognizes true.. craftsmanship. Continue to observe, and perhaps you'll witness what we can really achieve in the future.""
+OR
+Dr. Kresknov acknowledges the compliment with a sly smile, though this is hidden by his mask. ""Your recognition is not misplaced. It takes a keen eye to appreciate the intricacies of what we truly work towards. There's much more brilliance to unveil, I hope you get to see it one day.""
+OR
+Dr. Kresknov's calculating eyes narrow slightly as a faint smirk tugs at the corner of their lips underneath that mask. ""Your praise doesn't go unnoticed. Efficient.. ""collaboration"".. often leads to remarkable results, wouldn't you agree?""",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)
+# Script $hasRepChatted = true sets boolean to true. The ""7"" sets to how many days the boolean will be true until it unsets. Will cause Compliment option to disappear for 7 days.
+# AdjustRepActivePerson WELCOMING 1: AdjustRepActivePerson will set active person for rep change. ""WELCOMING"" sets the rep limit, so if set to welcoming, rep gain will be limited within WECLOMING And will not go higher. ""1"" sets how much rep is gain or lost. Cannot go over the set reputation limit
+# FireAll PopulateOptions will refresh dialog tree and make conditions that require $hasRepChatted == false to not appear. MUST BE PLACED AT THE BOTTOM. CODE FIRES SEQUENTIALLY."
+#kresknov insult response,DialogOptionSelected,$option == bt_kresknovInsult,"$hasRepChatted = true 7
+AdjustRepActivePerson SUSPICIOUS -1","A cold smirk surfaces beneath his mask as Dr. Kresknov responds, ""Interesting choice of words. I'd be delighted to discover what about you causes such outbursts. But I don't think you're really worth the expense.""
+OR
+Dr. Kresknov's gaze sharpens, and a hint of malevolence surfaces in their tone. ""Ah, a misguided attempt at critique. I trust you have a point buried somewhere beneath that shell of yours. It would be a shame if such misguided thoughts were left unexamined.""
+OR
+Dr. Kresknov maintains a stoic expression, dismissing the insult with chilling nonchalance. ""Your words are as inconsequential. If you've nothing of substance to offer, I suggest you depart. After all, it would be unfortunate if someone were to examine the intricacies of your behavior in a more direct manner.""",,"#Trigger DialogOptionSelected is for picking an option from the interaction list
+#$option condition checks for what option selected. The optionID must match the DialogOptionID selected. (IE templateChat from TEMPLATEOPTIONCHAT must be $option == templateChat)
+# Script $hasRepChatted = true sets boolean to true. The ""7"" sets to how many days the boolean will be true until it unsets. Will cause Compliment option to disappear for 7 days.
+# AdjustRepActivePerson SUSPICIOUS -1: AdjustRepActivePerson will set active person for rep change. ""SUSPICIOUS"" sets the rep limit, so if set to welcoming, rep gain will be limited within SUSPICIOUS And will not go lower. ""-1"" sets how much rep is gain or lost. Cannot go over/ below the set reputation limit
+# FireAll PopulateOptions will refresh dialog tree and make conditions that require $hasRepChatted == false to not appear. MUST BE PLACED AT THE BOTTOM. CODE FIRES SEQUENTIALLY."
+#END kresknov basic chat,,,,,,
+,,,,,,
+# kresknov ai cores,,,,,,
+kresknov ai cores option,PopulateOptions,$id == bt_kresknov score:10,,,aiCores_startTurnIn:Turn in AI cores to kresknov,
+aiCores_turnInOptionSelKresknov,DialogOptionSelected,"$id == bt_kresknov score:10
+$option == aiCores_startTurnIn
+$faction.id == orks",FireAll PopulateCoresTurnInOptions,"Briefly, the doctor eyes you with a small squint. As if scrutinizing your intent.
+
+""Mn, AI cores..? How peculiar for you to bring these directly to me, but nonetheless appreciated. Each and every one has a wealth of knowledge to be extracted. And of course, we do also offer a sum of credits as reward, and I'm sure your standing will improve, due to your choice to bring them to us..""
+OR
+Though measured - the doctor is clearly more attentive after AI cores come into offer.
+
+""Ah, AI cores. Excellent. I'll happily take any that you have off your hands, the things we can learn from dissecting them have already proved invaluable in our conflict against Tri-Tachyon. And, of course, a lump sum of credits. That is what you independant types care about most, is it not?""",,
+aiCores_turnInResponseKresknov,AICoresTurnedIn,"$id == bt_kresknov score:10
+$faction.id == orks",FireAll PopulateOptions,"$PersonRank $personLastName Seems to offer a small-- albeit cold smile, though it's hard to tell from under his mask. Clearly more professional courtesy than anything.
+
+""Thank you, captain. As promised, a generous sum of credits. Do bring any further specimens to the Coalition - and to me, if possible.""
+OR
+""Cores received, and credits deposited. The secrets these specimen collected in their time will no doubt prove invaluable to the Coalition."" ",,
+#END kresknov ai cores,,,,,,
+#END kresknov populateoptions,,,,,,
+#END kresknov,,,,,,
+#END bultach npcs,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+#Gestalt,,,,,,
+,,,,,,
+#greetingGestaltHostile,OpenCommLink,"$faction.id == gestalt score:1000
+$entity.isHostile",$ignorePlayerCommRequests = true 1,"The attempt to open communication is not reciprocated. Static, and nothing more.
+
+A faint feeling of discomfort grows in the pit of your stomach, dull and persistent.
+
+The air feels heavier. 
+OR
+A steady buzz of static greets you. They do not answer your hails. 
+
+There's a warm, prickling sensation just behind your eyes. 
+
+The metallic taste of copper sours your tongue.
+OR
+The usual crackle of static fills the air, but to no success.
+ 
+A hum so faint it could almost be imagined flickers at the edges of your mind. 
+
+You want to push it away, but it lingers, insistently pressing against you.
+OR
+Only static comes in, unfaltering.
+
+A soft tingling blooms, barely, along the base of your skull.
+
+Familiar, but not yours.
+OR
+There is no response. Only the drone of static.
+
+A low thrum begins in your ears, steady and without source.
+
+It fades. The air feels a bit colder.
+",cutCommLink:Cut the comm link?,
+,,,,,,
+GestaltCommLink,OpenCommLink,"$faction.id == gestalt score:100
+!$ignorePlayerCommRequests","$ignorePlayerCommRequests = true 1
+","The attempt to open communication is not reciprocated. Static, and nothing more.
+
+A faint feeling of discomfort grows in the pit of your stomach, dull and persistent.
+
+The air feels heavier. 
+OR
+A steady buzz of static greets you. They do not answer your hails. 
+
+There's a warm, prickling sensation just behind your eyes. 
+
+The metallic taste of copper sours your tongue.
+OR
+The usual crackle of static fills the air, but to no success.
+ 
+A hum so faint it could almost be imagined flickers at the edges of your mind. 
+
+You want to push it away, but it lingers, insistently pressing against you.
+OR
+Only static comes in, unfaltering.
+
+A soft tingling blooms, barely, along the base of your skull.
+
+Familiar, but not yours.
+OR
+There is no response. Only the drone of static.
+
+A low thrum begins in your ears, steady and without source.
+
+It fades. The air feels a bit colder.
+",cutCommLink:Cut the comm link?,
+GestaltCommLinkFallback,OpenCommLink,$faction.id == gestalt score:100,,"The attempt to open communication is not reciprocated. Static, and nothing more.
+
+A faint feeling of discomfort grows in the pit of your stomach, dull and persistent.
+
+The air feels heavier. 
+OR
+A steady buzz of static greets you. They do not answer your hails. 
+
+There's a warm, prickling sensation just behind your eyes. 
+
+The metallic taste of copper sours your tongue.
+OR
+The usual crackle of static fills the air, but to no success.
+ 
+A hum so faint it could almost be imagined flickers at the edges of your mind. 
+
+You want to push it away, but it lingers, insistently pressing against you.
+OR
+Only static comes in, unfaltering.
+
+A soft tingling blooms, barely, along the base of your skull.
+
+Familiar, but not yours.
+OR
+There is no response. Only the drone of static.
+
+A low thrum begins in your ears, steady and without source.
+
+It fades. The air feels a bit colder.
+",cutCommLink:Cut the comm link?,
+GestaltCommLinkFirst,OpenCommLink,"$faction.id == gestalt score:100
+!$ignorePlayerCommRequests
+!$player.talkedToGestalt","$ignorePlayerCommRequests = true 1
+$player.talkedToGestalt = true","The attempt to open communication is not reciprocated. Static, and nothing more.
+
+A faint feeling of discomfort grows in the pit of your stomach, dull and persistent.
+
+The air feels heavier. 
+OR
+A steady buzz of static greets you. They do not answer your hails. 
+
+There's a warm, prickling sensation just behind your eyes. 
+
+The metallic taste of copper sours your tongue.
+OR
+The usual crackle of static fills the air, but to no success.
+ 
+A hum so faint it could almost be imagined flickers at the edges of your mind. 
+
+You want to push it away, but it lingers, insistently pressing against you.
+OR
+Only static comes in, unfaltering.
+
+A soft tingling blooms, barely, along the base of your skull.
+
+Familiar, but not yours.
+OR
+There is no response. Only the drone of static.
+
+A low thrum begins in your ears, steady and without source.
+
+It fades. The air feels a bit colder.
+","GestaltCommLink_mistake:Reach out.
+cutCommLink:Cut the comm link?",
+GestaltCommLink2,DialogOptionSelected,$option == GestaltCommLink_mistake,"AddTextSmall "" "" bad
+AddTextSmall "" "" bad
+AddTextSmall "" "" bad
+AddTextSmall ""there you are"" highlight
+AddTextSmall "" "" bad
+AddTextSmall "" "" bad
+AddTextSmall "" "" bad
+","You try to focus on that faint presence, despite the worried glances from your crew.",cutCommLink:Push it away.,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

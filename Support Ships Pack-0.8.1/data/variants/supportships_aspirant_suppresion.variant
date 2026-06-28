@@ -1,0 +1,36 @@
+{
+    "displayName": "Suppresion",
+    "fluxCapacitors": 18,
+    "fluxVents": 30,
+    "hullId": "supportships_aspirant",
+    "hullMods": [],
+    "permaMods": [],
+	"goalVariant": true,
+    "sMods": [],
+    "variantId": "supportships_aspirant_suppresion",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "railgun",
+                "WS0006": "railgun",
+                "WS0007": "railgun",
+                "WS0008": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymortar",
+                "WS0004": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "devastator"}
+        }
+    ]
+}

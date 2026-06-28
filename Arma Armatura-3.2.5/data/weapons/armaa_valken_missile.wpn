@@ -1,0 +1,63 @@
+{
+  "id": "armaa_valken_missile",
+  "specClass": "projectile",
+  "projectileSpecId": "armaa_missile",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "visualRecoil": 1,
+  "turretOffsets": [
+    -6,
+    -10,
+    -6,
+    10,
+    4.5,
+    10.5,
+    4.5,
+    -10.5,
+    0,
+    -11,
+    0,
+    11
+  ],
+  "turretAngleOffsets": [
+    -90,
+    90,
+    0,
+    -0,
+    -53,
+    53
+  ],
+  "hardpointOffsets": [
+    -5,
+    -5,
+    -5,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    -45,
+    45
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "autocharge": true,
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 1,
+    "cloudDuration": 0.8,
+    "cloudRadius": 3,
+    "blowbackParticleCount": 1,
+    "blowbackDuration": 1.2,
+    "blowbackLength": 12,
+    "blowbackSpread": 6,
+    "particleColor": [
+      175,
+      175,
+      175,
+      255
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire"
+}

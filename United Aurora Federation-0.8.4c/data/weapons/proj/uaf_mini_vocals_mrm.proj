@@ -1,0 +1,40 @@
+{
+	"id":"uaf_mini_vocals_mrm",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/Missiles/missile_vocal.png",
+	"size":[4,8],	
+	"center":[2,4],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+#	"engineSpec":{"turnAcc":1500,
+#				  "turnRate":200,
+#				  "acc":120,
+#				  "dec":15},
+	"engineSpec":{"turnAcc":1000,
+				  "turnRate":150,
+				  "acc":130,
+				  "dec":20},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-5, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[114,68,255,255],
+						"contrailDuration":3,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[100,165,255,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":2.5,
+				    "length":15.0,
+				    "angle":180.0},
+				    ]
+}

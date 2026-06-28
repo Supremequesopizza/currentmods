@@ -1,0 +1,111 @@
+{
+  "hullName": "Gardener",
+  "hullId": "supportships_gardener",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Gardener.png",
+  "style": "MIDLINE",
+  "height": 127,
+  "width": 98,
+  "center": [49, 63.5],
+  "collisionRadius": 74,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 70,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "builtInWeapons": {
+    "WS0001": "supportships_gardener_massdriver"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [12.5, -41]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [12.5, 41]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [26.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 145,
+      "locations": [-28, 31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -145,
+      "locations": [-28, -31]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, 23.5],
+      "length": 35,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, -23.5],
+      "length": 35,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    24, -10,
+    54.5, -10.5,
+    54.5, -31.5,
+    40, -42,
+    23.5, -39.5,
+    22, -48,
+    4.5, -48.5,
+    0.5, -41,
+    -28, -41,
+    -35, -14,
+    -51, -13.5,
+    -62.5, -4.5,
+    -62.5, 4.5,
+    -51, 13.5,
+    -35, 14,
+    -28, 41,
+    0.5, 41,
+    4.5, 48.5,
+    22, 48,
+    23.5, 39.5,
+    40, 42,
+    54.5, 31.5,
+    54.5, 10.5,
+    24, 10
+  ]
+}

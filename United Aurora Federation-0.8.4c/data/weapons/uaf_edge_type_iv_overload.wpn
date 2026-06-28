@@ -1,0 +1,75 @@
+{
+  "id": "uaf_edge_type_iv_overload",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_edge_type_iv_overload",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Edge Type 4 XPC/edge_type_4_turret_01.png",
+  "turretGunSprite": "graphics/weapons/Edge Type 4 XPC/edge_type_4_recoil.png",
+  "hardpointSprite": "graphics/weapons/Edge Type 4 XPC/edge_type_4_hardpoint_01.png",
+  "hardpointGunSprite": "graphics/weapons/Edge Type 4 XPC/edge_type_4_hardpoint_recoil.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "separateRecoilForLinkedBarrels":"TRUE",
+  "visualRecoil": 7.5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    36,
+    11.5,
+    36,
+    5.5,
+    36,
+    -5.5,
+    36,
+    -11.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    40,
+    11.5,
+    40,
+    5.5,
+    40,
+    -5.5,
+    40,
+    -11.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 105,
+    "spread": 10,
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "uaf_edge_type_iii"
+}

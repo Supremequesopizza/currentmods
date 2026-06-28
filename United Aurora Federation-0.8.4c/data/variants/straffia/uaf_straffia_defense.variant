@@ -1,0 +1,44 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 12,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "uaf_straffia",
+    "hullMods": [
+        "hardened_subsystems",
+        "eccm",
+        "missleracks"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_straffia_defense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_clarinet_mirv",
+                "WS0006": "uaf_clarinet_mirv",
+                "WS0007": "uaf_clarinet_mirv",
+                "WS0008": "uaf_clarinet_mirv",
+                "WS0009": "uaf_clarinet_mirv",
+                "WS0010": "uaf_clarinet_mirv"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina",
+                "WS0004": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_chorus_s_amm",
+                "WS0002": "uaf_chorus_s_amm"
+            }
+        }
+    ]
+}

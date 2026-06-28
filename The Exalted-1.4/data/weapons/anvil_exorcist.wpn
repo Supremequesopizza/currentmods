@@ -1,0 +1,62 @@
+{
+  "beamFireOnlyOnFullCharge": true,
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    252,
+    222,
+    255,
+    255
+  ],
+  "fireSoundTwo": "high_intensity_laser_loop",
+  "fringeColor": [
+    40,
+    4,
+    64,
+    255
+  ],
+  "glowColor": [
+    123,
+    0,
+    255,
+    235
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/exorcist/anvil_exorcist_hardpoint_glow.png",
+  "hardpointOffsets": [
+    14.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/exorcist/anvil_exorcist_hardpoint_base.png",
+  "hitGlowRadius": 0,
+  "id": "anvil_exorcist",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "pixelsPerTexel": 5,
+  "renderAboveAllWeapons": 0,
+  "size": "MEDIUM",
+  "specClass": "beam",
+  "textureScrollSpeed": 292,
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/exorcist/anvil_exorcist_hardpoint_glow.png",
+  "turretOffsets": [
+    4,
+    0
+  ],
+  "turretSprite": "graphics/weapons/exorcist/anvil_exorcist_hardpoint_base.png",
+  "type": "ENERGY",
+  "width": 30
+}

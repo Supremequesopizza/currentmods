@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://drive.google.com/uc?id=1VU0hA6AH007hnpm1H67o2SEiRBZ6kGkC&export=download",
+  "modName": "Missing Pirate Ships",
+  "modVersion":
+    {
+      "major": 2,
+      "minor": 0,
+      "patch": 7f # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+    },
+  "modThreadId": 31181,
+  "directDownloadURL": "https://drive.google.com/uc?id=1_IhVtvoU2K1tHadMNGZIRQzKYLkpZhMr&export=download",
+}

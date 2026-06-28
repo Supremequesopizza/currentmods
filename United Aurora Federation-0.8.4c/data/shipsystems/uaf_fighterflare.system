@@ -1,0 +1,11 @@
+{
+	"id":"uaf_fighterflare",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"uaf_fighterflare",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+}

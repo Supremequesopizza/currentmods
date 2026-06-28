@@ -1,0 +1,60 @@
+{
+  "id": "bultach_orbbeam",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamFireOnlyOnFullCharge":true,
+  "autocharge":true,
+  "everyFrameEffect": "data.scripts.weapons.bultach_orbbeam",
+  "beamEffect": "data.scripts.weapons.bultach_orbbeam",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "turretGlowSprite": "graphics/weapons/gestalt/bt_vortex_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/weapons/gestalt/bt_vortex_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,241,223,255
+  ],
+  "hitGlowRadius": 30,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,241,223,65
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    135
+  ],
+  "width": 5,
+  "textureType": [
+    "graphics/fx/beam_laser_fringe.png",
+    "graphics/fx/bt_beam_fluid.png"
+  ],
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "bt_riftbeam_loop"
+}

@@ -1,0 +1,108 @@
+id,trigger,conditions,script,text,options,notes
+#Cryosleeper Interactions,,,,,,
+,,,,,,
+#rework of cryosleeper,,,,,,
+cryosleeper_new_dialog,BeginSalvage,"$customType == derelict_cryosleeper score:2000
+!$explored",SetShortcut defaultLeave ESCAPE,"The long-haul cryosystems were built to last for centuries of interstellar travel so it's no surprise that most of the pod-support machinery reads as functional. While safe sleeper revival is beyond the capability of your fleet, towing the cryosleeper to a colony could make it benefit from a huge influx in population if it built facilities to awaken long-haul sleepers.
+
+Your executive officer cautions that it's unknown whether having sleepers make up a large percentage of a colony's population would cause any physical or psychological issues down the line.","0:cryosleeper_consider_moving:Investigate Hull
+100:defaultLeave:Leave",
+cryosleeper_consider_moving,DialogOptionSelected,$option == cryosleeper_consider_moving,"$explored=true
+ArkCMD addIntel","The silent hulking vessel lacks any breathable air forcing your boarding team to remain in their suits. Your entry through dark corridors and passageways bear no fruit and you begin to think the crew either perished or abandoned the vessel for reasons unknown. No obvious signs of life are present and you begin to wonder at the cargo such a massive vessel. Just then, word comes from one of your search parties, asking you to meet them at their location.
+
+You arrive as the search team keeps watch at what you assume to be a freshly bypassed blast-door, the technician still on his TriPad, no doubt trying to find out more about the ship and its purpose. Their team’s leader beckons you to come closer.
+
+“We didn’t know what you wanted to do with them all.”
+
+You understand immediately once you reach the threshold of the next chamber. A massive hallway filled with millions upon milions of cryosleep pods, all neatly arranged like grim collections. The technician joins you, revealing that the vessel has countless chambers like this throughout the ship totaling a ten million people altogether. He continues relaying that the vessel is dormant with its engines remarkably intact and ready for operation. Everyone looks toward you on how to proceed.
+",0:cryosleeper_consider_reactivating:What it will take to restore cryosleeper's internal systems?,
+cryosleeper_consider_reactivating,DialogOptionSelected,$option == cryosleeper_consider_reactivating,"ArkCMD handleCost
+ShowDefaultVisual",,,
+cryosleeper_consider_reactivating_default,OpenInteractionDialog,"$customType == derelict_cryosleeper score:20000
+$explored
+!$activated","ArkCMD handleCost
+ShowDefaultVisual",,,
+cryosleeper_pay_for_cost,DialogOptionSelected,$option == cryosleeper_repaired,"$activated = true
+$activating = true 1
+ArkCMD activate ",,"100:cmdTest:Select Destination
+120:showPopulation:Check internal data of this vessel
+150:defaultLeave:Leave",
+cryosleeper_choose_target_default,OpenInteractionDialog,"$customType == derelict_cryosleeper score:2000
+$explored
+$activated
+!$inTransit","ShowDefaultVisual
+ArkCMD dissableTransitIfNeeded ","This is one of the massive vessels of legend which transported millions of human emigrants from the core systems of the Domain out into the great frontiers stretching from the Sagittarius Arm across the Orion Spur. Judging by the weak but stable EM read on the sensors, many of the sleeper caskets remain viable even after so many hundreds of cycles here on the wild shores of Perseus.","100:cmdTest:Select Destination
+120:showPopulation:Check internal data of this vessel
+150:defaultLeave:Leave",
+cryosleeper_interaction_transition,OpenInteractionDialog,"$customType == derelict_cryosleeper score:20000
+$explored
+$activated
+$inTransit",ShowDefaultVisual,"This is one of the massive vessels of legend which transported millions of human emigrants from the core systems of the Domain out into the great frontiers stretching from the Sagittarius Arm across the Orion Spur. Judging by the weak but stable EM read on the sensors, many of the sleeper caskets remain viable even after so many hundreds of cycles here on the wild shores of Perseus.",defaultLeave:Leave,
+,,,,,,
+check_population_info,DialogOptionSelected,$option == showPopulation,ArkCMD showInterlalData,,,
+,,,,,,
+aotd_cryosleeperDescAddIntel,ShowSalvageEntityDetails,$customType == derelict_cryosleeper score:10000,"ShowDefaultVisual
+PrintDescription 1
+AoTDMiscCmd addCryosleeperIntel",,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+ark_interaction_transition,OpenInteractionDialog,"$customType == ark score:20000
+$explored
+$activated
+$inTransit",ShowDefaultVisual,test2,defaultLeave:Leave,
+ark_interaction_continiue,BeatDefendersContinue,$customType == ark score:1000,,"The long-haul cryosystems were built to last for centuries of interstellar travel so it's no surprise that most of the pod-support machinery reads as functional. While safe sleeper revival is beyond the capability of your fleet, towing the cryosleeper to a colony could make it benefit from a huge influx in population if it built facilities to awaken long-haul sleepers.
+
+Your executive officer cautions that it's unknown whether having sleepers make up a large percentage of a colony's population would cause any physical or psychological issues down the line.",0:salBeatDefendersContinue:Continue,
+ark_defeated_defences,BeginSalvage,$customType == ark score:100000,ArkCMD addIntel,,0:ark_investigation:Investigate vessel,
+ark_analyze_structure,DialogOptionSelected,$option == ark_investigation,"ShowDefaultVisual
+$explored=true","The silent hulking vessel lacks any breathable air forcing your boarding team to remain in their suits. Your entry through dark corridors and passageways bear no fruit and you begin to think the crew either perished or abandoned the vessel for reasons unknown. No obvious signs of life are present and you begin to wonder at the cargo such a massive vessel. Just then, word comes from one of your search parties, asking you to meet them at their location.
+
+You arrive as the search team keeps watch at what you assume to be a freshly bypassed blast-door, the technician still on his TriPad, no doubt trying to find out more about the ship and its purpose. Their team’s leader beckons you to come closer.
+
+“We didn’t know what you wanted to do with them all.”
+
+You understand immediately once you reach the threshold of the next chamber. A massive hallway filled with millions upon milions of cryosleep pods, all neatly arranged like grim collections. The technician joins you, revealing that the vessel has countless chambers like this throughout the ship totaling a hundred million people altogether. He continues relaying that the vessel is dormant with its engines remarkably intact and ready for operation. Everyone looks toward you on how to proceed.
+",0:ark_repair:Tell me what we need to activate back engines of Ark?,
+ark_ask_for_cost_fist_time,DialogOptionSelected,$option == ark_repair,ArkCMD handleCost,,,
+ark_ask_for_cost,OpenInteractionDialog,"$customType == ark score:20000
+$explored
+!$activated","ShowDefaultVisual
+ArkCMD handleCost","The long-haul cryosystems were built to last for centuries of interstellar travel so it's no surprise that most of the pod-support machinery reads as functional. While safe sleeper revival is beyond the capability of your fleet, towing the cryosleeper to a colony could make it benefit from a huge influx in population if it built facilities to awaken long-haul sleepers.
+
+Your executive officer cautions that it's unknown whether having sleepers make up a large percentage of a colony's population would cause any physical or psychological issues down the line.",,
+ark_pay_for_cost,DialogOptionSelected,$option == ark_repaired,"$activated = true
+$activating = true 1
+ArkCMD activate ","After possibly hundreds of years, Ark engines have been re-activated. Now all we need, is to relocate Ark to our desired location.","100:cmdTest:Select Destination
+120:showPopulation:Check internal data of this vessel
+150:defaultLeave:Leave",
+ark/cryosleeper_choose_system,DialogOptionSelected,$option == cmdTest,ArkCMD selectDestination,,,
+ark_choose_target_default,OpenInteractionDialog,"$customType == ark score:2000
+$explored
+$activated
+!$inTransit","ShowDefaultVisual
+ArkCMD dissableTransitIfNeeded ","The long-haul cryosystems were built to last for centuries of interstellar travel so it's no surprise that most of the pod-support machinery reads as functional. While safe sleeper revival is beyond the capability of your fleet, towing the cryosleeper to a colony could make it benefit from a huge influx in population if it built facilities to awaken long-haul sleepers.
+
+Your executive officer cautions that it's unknown whether having sleepers make up a large percentage of a colony's population would cause any physical or psychological issues down the line.","100:cmdTest:Select Destination
+120:showPopulation:Check internal data of this vessel
+150:defaultLeave:Leave",

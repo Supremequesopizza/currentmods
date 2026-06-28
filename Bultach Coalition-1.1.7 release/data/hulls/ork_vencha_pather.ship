@@ -1,0 +1,185 @@
+{
+  "hullName": "Judge",
+  "hullId": "ork_vencha_pather",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ork_vencha_pather.png",
+  "style": "BULTACH",
+  "height": 166,
+  "width": 194,
+  "center": [98, 82],
+  "collisionRadius": 147,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 142,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger",
+    "Ork_low_Maintenance",
+    "ork_redfasta",
+    "safetyoverrides",
+    "bt_shieldArching"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-43.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-68, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [15.5, 47]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [52, 1]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -21,
+      "locations": [25, -56]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [68.5, -37]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [52.5, 46.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [58.5, -64]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [51.5, 69]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82, 22],
+      "length": 134,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82, -22],
+      "length": 134,
+      "width": 34,
+      "angle": -180,
+      "contrailSize": 34,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43, 53],
+      "length": 76,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-43, -53],
+      "length": 76,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-46, 70.5],
+      "length": 108,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-46, -70.5],
+      "length": 108,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    80, -14,
+    79.5, -47.5,
+    27.5, -94.5,
+    -30, -95,
+    -41.5, -90.5,
+    -44.5, -41,
+    -81, -30,
+    -81, 32,
+    -44, 42,
+    -41.5, 89,
+    -30.5, 94.5,
+    27.5, 95,
+    59.5, 78,
+    66.5, 47.5,
+    70, 16,
+    70.5, -13.5
+  ]
+}

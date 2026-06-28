@@ -1,0 +1,65 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+#Mobility,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Auroran Burn Drive,uaf_burndrive_2,1,,,,,,,,,2,5,1,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Auroran Maneuvering Jets,uaf_maneuveringjets_2,,,,,,,,,,1,5,1,5,,,,,,,,,,,,,graphics/icons/hullsys/combat_burn.png
+Auroran Plasma Jets,uaf_plasmajets_2,,,,,,,,,,1,3,2,5,,,,,,,,,,,,,graphics/icons/hullsys/plasma_burn.png
+Rapid Burn Drive,uaf_fusoDrive,1,,,,,,,,,1,5,1,10,TRUE,,,,,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Royal Maneuvering Jets,uaf_royalJets,,,,,,,,,,1,3,2,5,,,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Royal Super Heavy Jets,uaf_supercap_royaljets,,,,,,,,,,1,5,1,10,,,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Royal Vector Drive,uaf_royalBurn,,,,,,,,2,0.1,0.5,0.5,0.5,,,,,,,,TRUE,TRUE,,,,,graphics/icons/hullsys/burn_drive.png
+Rim Breaker Jets,uaf_rim_breaker_jets,,,,,,,,,,1,4,2,5,,,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Evasive Maneuvering Jets,uaf_evasive_manujet,,,,,,,,3,0.1,0.1,0.5,0.1,0.5,,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,,graphics/icons/hullsys/infernium_injector.png
+Melody Burn Drive,uaf_burnDrive,1,,,,,,,,,2,30,1,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/infernium_injector.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Fighters - Flares,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Offensive Flare Command,uaf_targetingfeed,,,,,,0.5,,,,0.5,20,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Evasive Flare Command I,uaf_defensive_flare,,,,,,0.5,,,,0.5,20,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Evasive Flare Command II,uaf_enh_defensive_flare,,,,,,0.1,,,,0.5,20,0.5,15,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Midway Protocol,uaf_midway_protocol,,,,,,0.5,,4,,0.5,20,0.5,40,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Flares,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ship Flare System,uaf_flarelauncher,,,,,,,,5,,,,,8,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Compact Flare Launcher,uaf_fighterflare,,,,,,,,5,,,,,4,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Offense,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Syncore Ballistic Focus,uaf_rangeFinder,,,,,,,,,,0.5,20,0.5,30,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Syncore Energy Focus,uaf_syncoreFocus,,,,,,,,1,25,0,15,5,20,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Osela Disruptive Pulse,uaf_emp_small,1,,,,,,,,,1,90,1,160,,,,,,,,,,TRUE,,,graphics/icons/hullsys/infernium_injector.png
+Missile Rack Accelerator,uaf_acceleratedMissileRack,,,,,,0.235,,1,0.1,,0.1,,15,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+Targeting Laser System,uaf_entropyamplifier,,,,,,0.2,,,,0.5,10,1,10,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
+Concord System,uaf_concord_sys,1,,,,,,,2,0.05,0.25,10,0.15,,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Defense,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Armor Condenser System,uaf_damper,1,,,,,,,2,0.05,0.25,3,0.25,0,,,,,,,,,TRUE,TRUE,,uses_damper_ai,graphics/icons/hullsys/damper_field.png
+Point Defense Drones,uaf_mini_drone_pd,,,,,,,,15,,,,0,,TRUE,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Super Nakiha,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dimensional Drift,uaf_dimensional_drift,,,,,,,,3,0.1,0.1,1.5,0.1,4,,,,,TRUE,,,,TRUE,TRUE,,,graphics/icons/hullsys/infernium_injector.png
+Ace Evasion,uaf_ace_evasion,,,,,,,,3,0.1,0.1,0.5,0.1,0.5,,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,,graphics/icons/hullsys/infernium_injector.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Eyeseau,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High Alert Readiness,uaf_high_alert,,,,,,,,,,1,24,1,38,,,,,,,,,,,,,graphics/icons/campaign/sensor_strength.png
+Eyeseau Targeting System,uaf_eyeseau_laser_tgt,,,,,,0.2,,,,0.5,5,1,7,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
+Eyeseau Disruptive Pulse,uaf_emp,1,,,,,,,,,1,20,1,15,,,,,,,,,,TRUE,,,graphics/icons/hullsys/emp_emitter.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Roria,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fortress Protocol,uaf_fortress_protocol,,,,,,,,,,1,30,1,30,,,,,,,,,,,,,graphics/icons/campaign/sensor_strength.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Isenoria,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rafflesya Control,uaf_rafflesya_drone,,,,,,,,,,,,,20,TRUE,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Assume Wing Control,uaf_Override,,,,,,,,,,0.1,30,0.1,15,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Fighter Control Override,uaf_wing_control,,,,,,,,,,0.1,30,0.1,20,,,,,,,,,,,,restricted,graphics/icons/hullsys/targeting_feed.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Ularaya,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mirage Swarm,uaf_mirage_swarm,,,,,,0.25,,,,1.9,2.3,1,24,,,,,,,,,,TRUE,,restricted,graphics/icons/hullsys/uaf_mirage_swarm.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Black Sorceress,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Incantation Sequence,uaf_sorceress_incantation_sequence,,,,,,0.20,,,,1,10,2,20,,,,,,,,,,,,restricted,graphics/icons/hullsys/temporal_shell.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Lynx,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Melody Frequency Overcharge,uaf_melodyOvercharge,,,,,,,,,,0.1,10,0.1,10,,,,,,,,,,,,restricted,graphics/icons/hullsys/interdictor_array.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Type-4 'Minibreve' Munition,uaf_nukeMunitions,,,,,,,,,,,,,7,TRUE,,,,,,,,,TRUE,,,graphics/icons/hullsys/ammo_feeder.png
+ANGEL Dispersion System,uaf_angelSystem,,,,,,,,1,0.1,,,,3,,,,,,,,,,,,,
+#Salvo Breaker,uaf_salvoBreaker,,,,,,,,,,,,,,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+#Detach Ship,uaf_detachShip,,,,,,,,,,0.1,50,0.1,2,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png

@@ -1,0 +1,53 @@
+{
+	"starSystem":"osiris",
+	"markets":[
+		{
+			"entities":["anvil_kyrika"],
+			"faction":"tritachyon",
+			"size":6,
+			"startingConditions":[
+				"habitable",
+				"population_6",
+				"hot",
+				"farmland_poor",
+				"ore_abundant",
+				"organics_trace",
+				"rare_ore_moderate",
+			],
+			"industries":[
+				"population",
+				"megaport",
+				["heavyindustry", "corrupted_nanoforge"],
+				"heavybatteries",
+				"militarybase",
+				"starfortress_high",
+				"mining",
+			],
+		},
+		{
+			"entities":["anvil_catacomb"],
+			"faction":"exalted",
+			"size":4,
+			"startingConditions":[
+				"population_4",
+				"cold",
+				"poor_light",
+				"ore_moderate",
+				"rare_ore_moderate",
+				"volatiles_trace",
+			],
+			"industries":[
+				["population", "gamma_core"],
+				"spaceport",
+				["patrolhq", "gamma_core"],
+				"mining",
+				"grounddefenses",
+				"refining",
+				"orbitalstation_high",
+			],
+		},	
+	],
+}
+
+
+

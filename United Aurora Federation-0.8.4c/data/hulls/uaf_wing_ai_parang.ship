@@ -1,0 +1,89 @@
+{
+  "hullName": "Parang (SP)",
+  "hullId": "uaf_wing_ai_parang",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ai_wing_parang.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 35,
+  "width": 38,
+  "center": [19, 17.5],
+  "collisionRadius": 31,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": 0,
+      "locations": [14.5, -4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": -0,
+      "locations": [14.5, 4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 26,
+      "angle": -0,
+      "locations": [8.5, 8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 26,
+      "angle": 0,
+      "locations": [8.5, -8]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 280,
+      "angle": -0,
+      "locations": [-0.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, 6.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-12.5, -6.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    -6, 18.5,
+    -16.5, 11,
+    -16.5, -10.5,
+    -6, -18.5,
+    15.5, -0
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "displayName": "Explorer",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "uaf_moraffia_ii",
+    "hullMods": [
+        "auxiliary_fuel_tanks",
+        "expanded_cargo_holds"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_moraffia_ii_explorer",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_tona_ii",
+                "WS0002": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_vocal_s_srm",
+                "WS0004": "uaf_vocal_m_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_flk",
+                "WS0006": "uaf_weiss_flk"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_noversky"
+    ]
+}

@@ -1,0 +1,116 @@
+{
+  "hullName": "Carton(TT)",
+  "hullId": "supportships_carton(TT)",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Carton(TT).png",
+  "style": "HIGH_TECH",
+  "height": 84,
+  "width": 64,
+  "center": [32, 42],
+  "collisionRadius": 80,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 73.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "nav_relay",
+    "ecm"
+  ],
+  "builtInWeapons": {
+    "WS0005": "blinker_red",
+    "WS0006": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [15, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -8, -0,
+        -7, 6,
+        -7, -5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 50,
+      "angle": 0,
+      "locations": [75, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 50,
+      "angle": 0,
+      "locations": [-13, -0],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35.5, 23.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [35.5, -23.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-40.5, 23],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-40.5, -23],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    40, -5.5,
+    37, -24,
+    25.5, -28.5,
+    -39.5, -29.5,
+    -39.5, -17,
+    -35, -16.5,
+    -35, 16.5,
+    -39.5, 17,
+    -39.5, 29.5,
+    25.5, 28.5,
+    37, 24,
+    40, 5.5
+  ]
+}

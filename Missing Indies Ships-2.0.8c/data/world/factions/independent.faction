@@ -1,0 +1,16 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "missp_majestic_Standard":0.7
+		},
+	},
+		"priorityShips":{
+		"hulls":[
+		],
+	},
+    "knownShips":{
+        "hulls":[
+            "missp_majestic"
+        ],
+	},
+}

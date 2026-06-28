@@ -1,0 +1,11 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Exalted Surveyors,CHM_exalted,,,Exalted,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CHM_exalted,"Due to their time surverying planet's for lost tech and resources The Exalted's engineer's have learned how to get the most out of their ship's sensor's. Reduces the heavy machinery and supplies required to perform surveys by %s/%s/%s/%s depending on hull size, down to a minimum of %s for each.",Survey Equipment LMAO,graphics/hullmods/chm_exalted.png
+Constricted Hangers,anvil_constricted,,,,,,,,TRUE,,0,0,0,0,data.hullmods.anvil_constricted,The flight decks on this ship highly constricted due to the size of this ship and interfere with normal operation. Time to launch replacement fighters is increased by %s.,,graphics/hullmods/anvil_constricted.png
+Exalted Subsystems,exalted_subsystems,,,,,,,,TRUE,,0,0,0,0,data.hullmods.exalted_subsystems,"Ships utilised by the Exalted are made with stealth missions in mind and don't stand up to rigours of prolonged engagements all that well.
+
+Ship's sensor profile is reduced by %s, rate of in-combat CR decay after peak performance time runs out is %s faster.
+
+
+
+
+Due to modifications performed on shield emitters, shields unfold %s faster and their turn rate is increased by %s. These modifications prevent installation of Hardened Shields",,graphics/hullmods/exalted_subsystems.png

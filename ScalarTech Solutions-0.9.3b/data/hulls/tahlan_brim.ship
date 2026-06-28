@@ -1,0 +1,182 @@
+{
+  "hullName": "brim",
+  "hullId": "tahlan_brim",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/tahlan/ships/tahlan_brim.png",
+  "style": "TAHLAN_FILAMENT_TECH",
+  "height": 176,
+  "width": 134,
+  "center": [67, 83],
+  "collisionRadius": 139.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 127.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "tahlan_scalarspecs"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [59, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [72, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [72, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 39,
+      "locations": [55, 26]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -39,
+      "locations": [55, -26]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": 82,
+      "locations": [-31, 37]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": -82,
+      "locations": [-31, -37]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82.5, 21.5],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-82.5, -21.5],
+      "length": 44,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-82.5, 28],
+      "length": 35.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-82.5, -28],
+      "length": 35.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-70.5, 47],
+      "length": 34,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-70.5, -47],
+      "length": 34,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-23.5, -0],
+      "length": 61.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "TAHLAN_SCALAR_ENGINE"
+    },
+    {
+      "location": [-24.5, -0],
+      "length": 31,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "TAHLAN_RED_ENGINE"
+    }
+  ],
+  "bounds": [
+    -23, -6.5,
+    -66, -10,
+    -82, -18.5,
+    -80, -40.5,
+    -71.5, -41,
+    -63, -58,
+    -40.5, -58.5,
+    -34.5, -63.5,
+    -8, -64,
+    -13, -58.5,
+    -2.5, -56,
+    6.5, -42,
+    31, -42,
+    49, -47.5,
+    56, -40.5,
+    73.5, -39.5,
+    73.5, 39.5,
+    56, 40.5,
+    49, 47.5,
+    31, 42,
+    6.5, 42,
+    -2.5, 56,
+    -13, 58.5,
+    -8, 64,
+    -34.5, 63.5,
+    -40.5, 58.5,
+    -63, 58,
+    -71.5, 41,
+    -80, 40.5,
+    -82, 18.5,
+    -66, 10,
+    -23, 6.5
+  ]
+}

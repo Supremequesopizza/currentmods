@@ -1,0 +1,16 @@
+{
+	"id":"zzarmaa_anime",
+	"name":"ArmaA - Anime",
+	"author":"shoi",
+	"version":"1.1",
+	"description":"Enables the anime-y portraits from ArmaA.",
+	"gameVersion":"0.98a-RC6",
+	"jars":[],
+    "dependencies": [
+        {
+            "id": "armaa",
+            "name": "Arma Armatura",
+            #"version": "3.0" # If a specific version or higher is required, include this line
+        }
+    ]
+}

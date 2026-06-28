@@ -1,0 +1,11 @@
+{
+	
+	"graphics":{
+		"intel": {
+			"reawakening":"graphics/icons/intel/reawakening.png",
+			"reawakening_event":"graphics/icons/intel/reawakening_event.png",
+		}
+
+	}
+}
+

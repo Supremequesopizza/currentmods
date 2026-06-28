@@ -1,0 +1,283 @@
+{
+  "hullName": "Seniraja",
+  "hullId": "uaf_seniraja",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Seniraja/uaf_seniraja.png",
+  "style": "UAF_CRUISER",
+  "height": 310,
+  "width": 210,
+  "center": [105, 149],
+  "collisionRadius": 182.5,
+  "shieldCenter": [-0.5, -0],
+  "shieldRadius": 166,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_casemate_mounts_ii"
+  ],
+  "builtInWeapons": {
+    "WS0016": "uaf_seniraja_front_cover",
+    "WS0017": "uaf_seniraja_top_cover",
+    "WS0018": "uaf_seniraja_sec_top_cover",
+    "WS0019": "uaf_seniraja_sec_bottom_cover"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -25.5,
+      "locations": [34, -57],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 25.5,
+      "locations": [35, 57],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": 25.5,
+      "locations": [3, 61],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -25.5,
+      "locations": [3, -61],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [-24.5, -34.5],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [-24.5, 34.5],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": -0,
+      "locations": [58, 33],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": 0,
+      "locations": [58, -33],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [-31, -68]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [-31, 69]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-131, -0],
+      "renderOrderMod": 12
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [-37.5, 46.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [-37.5, -46.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 40,
+      "angle": 0,
+      "locations": [19, -0],
+      "renderOrderMod": 7
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 40,
+      "angle": 0,
+      "locations": [54, -0]
+    },
+    {
+      "id": "WS0016",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [46, -0],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0018",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-13, -0],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0017",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-92, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0019",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [11.5, -0],
+      "renderOrderMod": 5
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73, -38],
+      "length": 21,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-73, 38],
+      "length": 21,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-73, -46],
+      "length": 21,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-73, 46],
+      "length": 21,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-73, -54],
+      "length": 21,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-73, 54],
+      "length": 21,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -146, 5.5,
+    -120, 30,
+    -92, 36,
+    -92, 59,
+    -107.5, 81,
+    -21.5, 84,
+    137, 29,
+    149.5, 15.5,
+    66.5, 3.5,
+    66.5, -3.5,
+    149.5, -15.5,
+    137, -29,
+    -21.5, -84,
+    -107.5, -81,
+    -92, -59,
+    -92, -36,
+    -120, -30,
+    -146, -5.5
+  ]
+}

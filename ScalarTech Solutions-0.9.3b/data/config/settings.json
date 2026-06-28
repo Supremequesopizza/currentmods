@@ -1,0 +1,39 @@
+{
+	"designTypeColors":{
+            "ScalarTech Solutions":[0,255,255,255],
+    },
+	"graphics":{
+		"fx":{
+			"tahlan_trail_clean":"graphics/tahlan/fx/trails_clean.png",
+			"tahlan_trail_fuzzy":"graphics/tahlan/fx/trails_fuzzy.png",
+			"tahlan_trail_smooth":"graphics/tahlan/fx/trails_smooth.png",
+			"tahlan_trail_zappy":"graphics/tahlan/fx/trails_zappy.png",
+			"tahlan_trail_contrail":"graphics/tahlan/fx/trails_contrail.png",
+			"tahlan_trail_helix":"graphics/tahlan/fx/trails_helix.png",
+			"tahlan_trail_dhelix":"graphics/tahlan/fx/trails_dhelix.png",
+			"tahlan_trail_rings":"graphics/tahlan/fx/trails_rings.png",
+			"tahlan_trail_flame":"graphics/tahlan/fx/trails_flame.png",
+			"tahlan_trail_foggy":"graphics/tahlan/fx/trails_foggy.png",
+			"tahlan_trail_twin":"graphics/tahlan/fx/trails_twin.png",
+			"tahlan_scalarshieldIN":"graphics/tahlan/fx/tahlan_scalarshield.png",   
+            "tahlan_scalarshieldOUT":"graphics/tahlan/fx/tahlan_scalarshield_ring.png", 
+			"tahlan_ruffle_blast":"graphics/tahlan/fx/tahlan_ruffle_blast.png",
+			"tahlan_tineola_blast1":"graphics/tahlan/fx/tahlan_pinshield.png",
+			"tahlan_tineola_blast2":"graphics/tahlan/fx/tahlan_cashmere_blastwave.png"
+		},
+		"blueprint_packages":{
+			"tahlan_scalartech_hull_package":"graphics/tahlan/icons/cargo/tahlan_scalartech_package.png",
+			"tahlan_scalartech_weapon_package":"graphics/tahlan/icons/cargo/tahlan_scalartech_package.png"
+		},
+		"portraits":{
+			"tahlan_yurika":"graphics/tahlan/portraits/yurika.png",
+			"tahlan_silvys":"graphics/tahlan/portraits/silvys.png",
+			"tahlan_aurica":"graphics/tahlan/portraits/aurica.png"
+		},
+		"illustrations":{
+			"tahlan_charkha_illus":"graphics/tahlan/illustrations/tahlan_charkha_illus.jpg",
+			"tahlan_jacquard_illus":"graphics/tahlan/illustrations/tahlan_jacquard_illus.jpg",
+			"tahlan_ardor_illus":"graphics/tahlan/illustrations/tahlan_ardor_illus.jpg"
+		},
+	}
+}

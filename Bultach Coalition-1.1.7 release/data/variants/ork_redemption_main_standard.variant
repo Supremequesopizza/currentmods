@@ -1,0 +1,61 @@
+{
+  "variantId": "ork_redemption_main_standard",
+  "hullId": "ork_redemption_main",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0004": "ork_holy_flame",
+        "WS0012": "mark9",
+        "WS0013": "mark9",
+        "WS0014": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hammerrack",
+        "WS0006": "hammerrack",
+        "WS0007": "hammerrack"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0008": "ork_redemption_thruster_left_standard"
+    },
+    {
+      "WS0009": "ork_redemption_thruster_right_standard"
+    },
+    {
+      "WS0002": "ork_redemption_ring_left_standard"
+    },
+    {
+      "WS0003": "ork_redemption_ring_right_standard"
+    },
+    {
+      "WS0010": "ork_redemption_prow_right_standard"
+    },
+    {
+      "WS0011": "ork_redemption_prow_left_standard"
+    }
+  ],
+  "wings": []
+}

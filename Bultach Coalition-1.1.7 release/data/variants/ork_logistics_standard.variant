@@ -1,0 +1,50 @@
+{
+  "variantId": "ork_logistics_standard",
+  "hullId": "ork_logistics",
+  "displayName": "TankerFreighter",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ork_plasma_shotgun_medium",
+        "WS0008": "ork_plasma_shotgun_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ork_rotary_pd_small",
+        "WS0003": "ork_rotary_pd_small",
+        "WS0004": "ork_rotary_pd_small",
+        "WS0005": "ork_rotary_pd_small",
+        "WS0006": "ork_rotary_pd_small",
+        "WS0011": "ork_rotary_pd_small",
+        "WS0012": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

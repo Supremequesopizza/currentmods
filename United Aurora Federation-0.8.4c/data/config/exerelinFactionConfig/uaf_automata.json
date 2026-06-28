@@ -1,0 +1,15 @@
+{
+    "playableFaction":false,
+    "startingFaction":false,
+    "corvusCompatible":true,
+    "spawnAsFactionId":"uaf",
+    "rebelFleetSuffix":"Corruptives",
+    "startRelationships":{ "uaf":1 },
+
+    "invasionFleetName":"Invasion Auto-Fleet",
+    "responseFleetName":"Auroran Defense Auto-Fleet",
+    "invasionSupportFleetName":"Support Auto-Squadron",
+    "defenceFleetName":"Defense Auto-Fleet",
+    
+    "morality":"amoral"
+}

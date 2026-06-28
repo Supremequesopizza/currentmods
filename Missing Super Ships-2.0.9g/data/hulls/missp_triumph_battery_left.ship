@@ -1,0 +1,74 @@
+{
+  "hullName": "Triumph Left Battery Module",
+  "hullId": "missp_triumph_battery_left",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/triumph/triumph battery left module.png",
+  "style": "MIDLINE",
+  "height": 250,
+  "width": 117,
+  "center": [81, 110.5],
+  "collisionRadius": 156,
+  "shieldCenter": [0, 45],
+  "shieldRadius": 0,
+  "viewOffset": 156,
+  "builtInMods": [
+    "hbi",
+    "missp_linked_hull",
+	"always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 75,
+      "locations": [-44.5, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 147,
+      "angle": 73.5,
+      "locations": [83.5, 10]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 79,
+      "locations": [1.5, 27]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 79,
+      "locations": [36.5, 19]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -59, 62.5,
+    -71.5, 43.5,
+    -82.5, 17.5,
+    -71.5, 10,
+    -74.5, -3,
+    -17, -7,
+    -6, -1.5,
+    6, -0.5,
+    16, -8,
+    43.5, -8,
+    108, -25,
+    118.5, 23.5,
+    109, 39,
+    -36, 66
+  ]
+}

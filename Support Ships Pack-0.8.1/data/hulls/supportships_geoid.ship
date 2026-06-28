@@ -1,0 +1,161 @@
+{
+  "hullName": "Geoid",
+  "hullId": "supportships_geoid",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Geoid.png",
+  "style": "MIDLINE",
+  "height": 384,
+  "width": 181,
+  "center": [88, 108],
+  "collisionRadius": 330,
+  "shieldCenter": [84, 0],
+  "shieldRadius": 230,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "repair_gantry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 100,
+      "locations": [-31, 78]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 260,
+      "locations": [-31, -78]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [237, -0]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [263, -0]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 140,
+      "locations": [-87, 56]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 220,
+      "locations": [-87, -56]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102.5, 43.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-105.5, 33],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107.5, 17],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108.5, -0],
+      "length": 96,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107.5, -17],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-105.5, -33],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-102.5, -43.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    18, -71.5,
+    13, -67,
+    -19, -76.5,
+    -20.5, -88,
+    -44, -83,
+    -48, -55.5,
+    -89.5, -55.5,
+    -105.5, -23,
+    -105.5, 23,
+    -89.5, 55.5,
+    -48, 55.5,
+    -44, 83,
+    -20.5, 88,
+    -19, 76.5,
+    13, 67,
+    18, 71.5,
+    214.5, 71.5,
+    233, 62.5,
+    258.5, 42.5,
+    269.5, 6.5,
+    262, -0,
+    269.5, -6.5,
+    258.5, -42.5,
+    232, -63.5,
+    197.5, -65,
+    195.5, -80.5,
+    123.5, -73.5
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "hullName": "Bulwark",
+  "hullId": "ork_bulwark_station",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/big_station/bt_station_main.png",
+  "style": "BULTACH",
+  "height": 512,
+  "width": 528,
+  "center": [264, 256],
+  "collisionRadius": 266,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 263,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_antiNukeHidden",
+    "BT_antiNuke",
+    "BT_shieldsChanger",
+    "bt_shieldArching",
+    "axialrotation",
+    "supercomputer",
+    "stealth_minefield_lt",
+    "vastbulk"
+  ],
+  "builtInWeapons": {
+    "WS0001": "giga_rail"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [200, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-200, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -217]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-1, 217]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 0]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-0, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -220.5, -28.5,
+    -202, -97.5,
+    -173.5, -137.5,
+    -163.5, -175,
+    -129, -177.5,
+    -100, -196.5,
+    -56.5, -223.5,
+    23.5, -225.5,
+    71, -212.5,
+    134.5, -175,
+    163.5, -174.5,
+    184, -117.5,
+    215.5, -32,
+    215.5, 32,
+    184, 117.5,
+    163.5, 174.5,
+    134.5, 175,
+    71, 212.5,
+    23.5, 225.5,
+    -56.5, 223.5,
+    -100, 196.5,
+    -129, 177.5,
+    -163.5, 175,
+    -173.5, 137.5,
+    -202, 97.5,
+    -220.5, 28.5
+  ]
+}

@@ -1,0 +1,39 @@
+{
+	"id":"uaf_tracer_shot",
+	"specClass":"projectile",
+	#"onHitEffect":"data.scripts.weapons.istl_MatadorHeavyOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":15,
+	#"spawnType":"BALLISTIC",
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":15.0,
+	"width":7.5,
+	"fadeTime":0.1,
+	"fringeColor":[155,135,0,90],
+	"coreColor":[255,235,145,255],
+	#"glowColor":[155,135,0,90],
+	#"glowRadius":15,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-48.0,
+	"pixelsPerTexel":1.0,
+	#"bulletSprite":"graphics/ISTL/missiles/istl_matador_bolt.png",
+# 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+# 					"range":0, #set to 0 for 0.9.1
+# 				    "vsMissileRange":5, #missile-only prox fuze
+# 					"explosionSpec":{"duration":0.1f,
+# 									 "radius":15,
+# 									 "coreRadius":5, # full damage within core radius - also equal to proximity fuse range
+# 									 "collisionClass":PROJECTILE_FF,
+# 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+# 									 "particleSizeMin":9.0,
+# 									 "particleSizeRange":3.0,
+# 									 "particleDuration":0.5,
+# 									 "particleCount":6,
+# 									 "particleColor":[255,235,145,255],
+# 									 "explosionColor":[185,165,75,135],
+# 									 "sound":"istl_explosion_flak_small"},
+# 					}
+}

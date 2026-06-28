@@ -1,0 +1,55 @@
+{
+  "variantId": "ork_station_missiles_standard",
+  "hullId": "ork_station_missiles",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_noshield_large",
+        "WS0002": "ork_noshield_large"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "ork_plasma",
+        "WS 009": "ork_plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "ork_swarmer_small",
+        "WS 003": "ork_swarmer_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "ork_rotary_pd",
+        "WS 002": "ork_rotary_pd",
+        "WS 004": "ork_rotary_pd",
+        "WS 005": "ork_rotary_pd_small",
+        "WS 012": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

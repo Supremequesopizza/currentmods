@@ -1,0 +1,135 @@
+{
+  "hullName": "Neoscar (M)",
+  "hullId": "uaf_wing_m_neoscar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_m_wing_neoscar.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 133,
+  "width": 90,
+  "center": [45, 66.5],
+  "collisionRadius": 83.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 70,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_weaponCalibration",
+    "uaf_gunship_mod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-34, 25.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-34, -25.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [11, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [11, -21]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-8.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [11.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [11, 21]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [11, -21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 5],
+      "length": 62.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-23, -5],
+      "length": 62.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-25.5, -9],
+      "length": 62.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-25.5, 9],
+      "length": 62.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -40.5, 6.5,
+    -58, 17,
+    -39.5, 44,
+    65.5, -0,
+    -39.5, -44,
+    -58, -17,
+    -40.5, -6.5
+  ]
+}

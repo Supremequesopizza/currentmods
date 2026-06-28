@@ -1,0 +1,54 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 6,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "uaf_m_lovela",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers",
+        "hardened_subsystems"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_m_lovela_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina",
+                "WS0004": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0006": "uaf_m_lovela_left_armor_plating",
+        "WS0007": "uaf_m_lovela_right_armor_plating"
+    }
+}

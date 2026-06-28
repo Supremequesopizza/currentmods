@@ -1,0 +1,22 @@
+{
+  "variantId": "uaf_m_inazuma_right_armor_plating",
+  "hullId": "uaf_m_inazuma_right_armor",
+  "displayName": "Reflecta Medium Plating",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

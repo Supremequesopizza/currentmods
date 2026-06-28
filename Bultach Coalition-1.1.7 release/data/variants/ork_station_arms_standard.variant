@@ -1,0 +1,27 @@
+{
+  "variantId": "ork_station_arms_standard",
+  "hullId": "ork_station_arms",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "ork_guns_station_module_standard"
+    },
+    {
+      "WS0002": "module_citadel1_lowtech_Standard"
+    },
+    {
+      "WS0003": "module_citadel1_lowtech_Standard"
+    },
+    {
+      "WS0004": "ork_guns_station_module_standard"
+    }
+  ],
+  "wings": []
+}

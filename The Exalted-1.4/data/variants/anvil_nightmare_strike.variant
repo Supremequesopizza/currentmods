@@ -1,0 +1,64 @@
+{
+  "variantId": "anvil_nightmare_strike",
+  "hullId": "anvil_nightmare",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "anvil_voodoo_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "anvil_voodoo",
+        "WS0010": "anvil_voodoo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_fuego",
+        "WS0002": "anvil_fuego",
+        "WS0003": "anvil_fuego",
+        "WS0004": "anvil_fuego"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "anvil_varna",
+        "WS0006": "anvil_varna",
+        "WS0007": "anvil_varna",
+        "WS0008": "anvil_varna"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "anvil_fairy",
+    "anvil_fairy",
+    "anvil_fairy",
+    "anvil_fairy",
+    "anvil_wisp",
+    "anvil_wisp"
+  ]
+}

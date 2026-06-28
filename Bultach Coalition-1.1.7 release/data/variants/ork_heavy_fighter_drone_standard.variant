@@ -1,0 +1,24 @@
+{
+  "variantId": "ork_heavy_fighter_drone_standard",
+  "hullId": "ork_heavy_fighter_drone",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "vulcan",
+        "WS0001": "ork_smallplasma",
+        "WS0002": "ork_smallplasma"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

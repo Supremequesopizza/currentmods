@@ -1,0 +1,46 @@
+{
+	"id":"bt_yoinker",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.RamDriveAI",
+	
+	"statsScript":"data.scripts.shipsystems.bt_magnet",
+
+	"jitterUnderColor":[255,80,30,135],
+	"jitterUnderCopies":2,
+	"jitterUnderMinRange":5,
+	"jitterUnderRange":10,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	#"jitterColor":[255,80,30,135],
+	#"jitterCopies":5,
+	#"jitterMinRange":0,
+	#"jitterRange":10,
+	#"jitterRangeRadiusFraction":0,
+	
+	#"engineGlowColor":[255,80,30,135],
+	#"engineGlowContrailColor":[255,80,30,135],
+	#"engineGlowLengthMult":0.5,
+	#"engineGlowWidthMult":0.7,
+	#"engineGlowGlowMult":0.5,
+
+	"canUseWhileRightClickSystemOn":true,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	 "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":0,
+        "threatRange":2150,
+        "threatAmount":1,
+        "threatAngle":0,
+        "threatArc":360,
+    }
+}
+
+
+
+

@@ -1,0 +1,22 @@
+{
+  "variantId": "ork_dion_standard",
+  "hullId": "ork_dion",
+  "displayName": "Defense Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ork_lub_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

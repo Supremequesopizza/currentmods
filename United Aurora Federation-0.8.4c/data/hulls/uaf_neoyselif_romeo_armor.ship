@@ -1,0 +1,136 @@
+{
+  "hullName": "Armored Section",
+  "hullId": "uaf_neoyselif_romeo_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Special/uaf_neoyselif_romeo_armor.png",
+  "style": "UAF_CAPITAL",
+  "height": 147,
+  "width": 254,
+  "center": [127, 73.5],
+  "collisionRadius": 188,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 152.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_supercap_engineering",
+    "uaf_reflective_armor_ii",
+    "uaf_noExplosion",
+    "uaf_disposable_armor",
+    "uaf_neoyselif_gunnery_control"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 0,
+      "locations": [-17, -84],
+      "renderOrderMod": 40
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -0,
+      "locations": [-17, 84],
+      "renderOrderMod": 40
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-27.5, -0],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 0,
+      "locations": [-8, 24],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -0,
+      "locations": [-8, -24],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 0,
+      "locations": [57.5, 43]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -0,
+      "locations": [57.5, -43]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 0,
+      "locations": [57.5, 91.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -0,
+      "locations": [57.5, -91.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -70.5, 19,
+    -30, 19,
+    -6, 42.5,
+    -6, 45.5,
+    -33, 74.5,
+    -33, 102.5,
+    -2, 103,
+    26.5, 73,
+    46.5, 73,
+    46.5, 97,
+    62, 126,
+    70.5, 126,
+    70.5, -126,
+    62, -126,
+    46.5, -97,
+    46.5, -73,
+    26.5, -73,
+    -2, -103,
+    -33, -102.5,
+    -33, -74.5,
+    -6, -45.5,
+    -6, -42.5,
+    -30, -19,
+    -70.5, -19
+  ]
+}

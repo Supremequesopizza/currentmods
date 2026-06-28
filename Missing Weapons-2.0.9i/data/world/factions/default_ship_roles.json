@@ -1,0 +1,35 @@
+{
+
+	"carrierMedium":{
+	},
+	"carrierLarge":{
+	},
+	"combatSmallForSmallFleet":{
+	},
+	"combatSmall":{
+		"aurora_Elite":1
+	},
+	"combatMedium":{
+	},
+	"combatLarge":{
+		"odyssey_Assault":1,
+		"paragon_balanced":1,
+		"retribution_Attack":1,
+		"nova_Fire_Support":1
+	},
+	"combatCapital":{
+	},
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+	},
+	"freighterMedium":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+
+}

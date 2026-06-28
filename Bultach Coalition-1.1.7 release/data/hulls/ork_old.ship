@@ -1,0 +1,186 @@
+{
+  "hullName": "Belsung",
+  "hullId": "ork_old",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ork_old.png",
+  "style": "LOW_TECH",
+  "height": 234,
+  "width": 136,
+  "center": [68, 120],
+  "collisionRadius": 142.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 138.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [60.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-55.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [103.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [-2, 40]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [-2, -40]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [79.5, 22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [79.5, -22]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21.5, 39]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21.5, -39]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [87.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69, 41.5],
+      "length": 72.5,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69, -41.5],
+      "length": 72.5,
+      "width": 33,
+      "angle": -180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82, 20],
+      "length": 52.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82, -20],
+      "length": 52.5,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [45.5, 38.5],
+      "length": 33.565456,
+      "width": 11.551655,
+      "angle": 140,
+      "contrailSize": 11.551655,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [45.5, -38.5],
+      "length": 33.565456,
+      "width": 11.551655,
+      "angle": -140,
+      "contrailSize": 11.551655,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -80.5, -11,
+    -80, -25,
+    -67, -32,
+    -68, -63,
+    -50.5, -67.5,
+    -30, -57,
+    19.5, -48,
+    26, -33,
+    72.5, -32.5,
+    85, -27.5,
+    86, -14.5,
+    108.5, -13,
+    108.5, 13,
+    86, 14.5,
+    85, 27.5,
+    72.5, 32.5,
+    26, 33,
+    19.5, 48,
+    -30, 57,
+    -50.5, 67.5,
+    -68, 63,
+    -67, 32,
+    -80, 25,
+    -80.5, 11,
+    -118.5, -0
+  ]
+}

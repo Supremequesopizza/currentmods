@@ -1,0 +1,188 @@
+{
+  "hullName": "mining",
+  "hullId": "ork_mining",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ork_mining.png",
+  "style": "LOW_TECH",
+  "height": 246,
+  "width": 150,
+  "center": [67, 124],
+  "collisionRadius": 199.5,
+  "shieldCenter": [3.5, 4],
+  "shieldRadius": 181.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "BT_shieldsChanger",
+    "bt_shieldArching"
+  ],
+  "builtInWings": [
+    "mining_drone_wing",
+    "mining_drone_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [79.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 60,
+      "locations": [-23, 50]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": 90,
+      "locations": [55, 53]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 90,
+      "locations": [74, 36]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [103, 19]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [103, -19]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -90,
+      "locations": [74, -36]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": -90,
+      "locations": [55, -53]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 120,
+      "locations": [-58, 51]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        7.5, -40,
+        0.5, -40
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -41.5, -48,
+        -41.5, -51
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-31, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-124, -0],
+      "length": 88,
+      "width": 35,
+      "angle": 180,
+      "contrailSize": 35,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-124, 25],
+      "length": 77.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-124, -25],
+      "length": 77.5,
+      "width": 26,
+      "angle": -180,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -121.5, -31,
+    -59.5, -61,
+    -22, -61,
+    25, -53,
+    27, -63.5,
+    74.5, -64,
+    80, -44,
+    103, -40.5,
+    118, -26.5,
+    118, 26.5,
+    103, 40.5,
+    80, 44,
+    74.5, 64,
+    27, 63.5,
+    25, 53,
+    -22, 61,
+    -59.5, 61,
+    -121.5, 31
+  ]
+}

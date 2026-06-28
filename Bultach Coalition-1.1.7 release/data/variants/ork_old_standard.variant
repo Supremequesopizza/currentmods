@@ -1,0 +1,33 @@
+{
+  "variantId": "ork_old_standard",
+  "hullId": "ork_old",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_shotgun",
+        "WS0002": "lightag",
+        "WS0003": "ork_thumpa",
+        "WS0004": "ork_rotary_pd_small",
+        "WS0005": "ork_rotary_pd_small",
+        "WS0006": "lightag",
+        "WS0007": "ork_rotary_pd_small",
+        "WS0008": "ork_noshield_small",
+        "WS0009": "ork_noshield_small",
+        "WS0010": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

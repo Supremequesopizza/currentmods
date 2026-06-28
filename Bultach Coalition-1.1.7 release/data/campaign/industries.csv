@@ -1,0 +1,8 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+ork_prevent_pather,Ork stop pather,0,0,,0,,,"unraidable, structure",,,data.campaign.econ.industries.Ork_prevent_pather,,3001,
+ork_superdread_station,Bulwark,,120,,5,,,"station, starfortress, unraidable, structure","{
+radius:80,
+variant:ork_bulwark_station_standard,
+fleetName:Bulwark
+}",graphics/icons/industry/battlestation.png,data.campaign.econ.industries.ork_dreadnought_industry,"A hulking, massive station that has been upgraded over many decades. The Bulwark is thought unparalleled in defensive might, and is a bastion against any threats the Coalition may face.",2030,
+bt_algae_farms,Algae Farms,50,60,,3,,,"farming, industry, rural",,graphics/icons/industry/bt_algae_farms.png,data.campaign.econ.industries.bt_algae_farms,"Vast, underground algae farms found upon Miotail. The sustenance provided is not appealing, and the process inefficient-- but vital for the moon's populace. The less-edible productions are processed for a meagre supply of organics.",210,MEDIUM

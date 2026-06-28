@@ -1,0 +1,18 @@
+{
+	"id":"anvil_hielo_shot",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":35.0,
+	"width":15.0,
+	"hitGlowRadius":40,
+	"fadeTime":0.3,
+	"fringeColor":[0, 255, 255,255],
+	"coreColor":[0, 132, 132,255],
+	#"coreColor":[255,255,255,50],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":5.0
+}

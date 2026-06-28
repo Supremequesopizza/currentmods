@@ -1,0 +1,17 @@
+{
+	"id":"uaf_mirage_swarm",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.uaf_mirage_swarm_AI",
+	"statsScript":"data.shipsystems.scripts.uaf_mirage_swarm_stats",
+	"useSound":"system_targeting_feed",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"weaponAssignmentSuitability":{
+			"LIGHT_ESCORT":{"mult":1, "flat":3},
+			"DESTROYER_ESCORT":{"mult":1, "flat":3},
+			"FULL_ESCORT":{"mult":1, "flat":3},
+		}
+	}	
+}

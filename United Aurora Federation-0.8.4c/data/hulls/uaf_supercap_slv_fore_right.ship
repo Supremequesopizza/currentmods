@@ -1,0 +1,113 @@
+{
+  "hullName": "Starboard Section",
+  "hullId": "uaf_supercap_slv_fore_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Solvii/uaf_solvii_fore_right.png",
+  "style": "UAF_FLAGSHIP",
+  "height": 402,
+  "width": 165,
+  "center": [82.5, 201],
+  "collisionRadius": 255,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 222.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_supercap_module_slv",
+    "uaf_supercap_engineering",
+    "uaf_weaponCalibration"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [39, 15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-85, -2.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-85, 33.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-111, 15.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-57, 15.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-152, 55.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-176, 55.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    176.5, 14.5,
+    187.5, 14.5,
+    182, 1,
+    -26, -51.5,
+    -43.5, -63.5,
+    -54.5, -81.5,
+    -60.5, -82,
+    -64.5, -74.5,
+    -69, -78,
+    -69, -50,
+    -95, -22,
+    -118, -28.5,
+    -181.5, -28.5,
+    -181.5, -0,
+    -200.5, 13.5,
+    -200.5, 51,
+    -180.5, 77.5,
+    -162, 77.5,
+    -132.5, 63.5,
+    -130, 73,
+    -42.5, 73,
+    -42.5, 66,
+    -7.5, 64.5,
+    199.5, 60,
+    195.5, 47.5,
+    188, 47.5
+  ]
+}

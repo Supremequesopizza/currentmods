@@ -1,0 +1,54 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 7,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "uaf_ai_akatsuzuma",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_akatsuzuma_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001 ": "uaf_catun_iii_erg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_swaras_m_mlrs",
+                "WS0001": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_catun_ii_erg",
+                "WS0002": "uaf_catun_ii_erg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_deco_mg",
+                "WS0008": "uaf_deco_mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_flair_pod",
+                "WS0004": "uaf_flair_pod"
+            }
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+  "variantId": "ork_dreadnotv2_siege",
+  "hullId": "ork_dreadnotv2",
+  "displayName": "Siege",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 44,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "ork_uir_laser",
+        "WS0019": "ork_uir_laser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_big_shotgun",
+        "WS0005": "ork_big_shotgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ork_dem_large",
+        "WS0030": "ork_dem_large"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "ork_dem_medium",
+        "WS0010": "ork_dem_medium",
+        "WS0014": "ork_dem_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "ork_shotgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ork_rotary_pd_small",
+        "WS0003": "ork_rotary_pd_small",
+        "WS0004": "ork_rotary_pd_small",
+        "WS0012": "ork_rotary_pd_small",
+        "WS0013": "ork_rotary_pd_small",
+        "WS0020": "ork_rotary_pd_small",
+        "WS0021": "ork_rotary_pd_small",
+        "WS0022": "ork_rotary_pd_small",
+        "WS0023": "ork_rotary_pd_small",
+        "WS0024": "ork_rotary_pd_small",
+        "WS0025": "ork_rotary_pd_small",
+        "WS0026": "ork_rotary_pd_small",
+        "WS0027": "ork_rotary_pd_small",
+        "WS0028": "ork_rotary_pd_small",
+        "WS0029": "devastator",
+        "WS0031": "ork_rotary_pd_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "ork_thumpa",
+        "WS0017": "ork_thumpa"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "talon_wing"
+  ]
+}

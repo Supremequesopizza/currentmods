@@ -1,0 +1,165 @@
+{
+  "hullName": "Hyacinth (M)",
+  "hullId": "uaf_wing_m_hyacinth",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_m_wing_hyacinth.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 104,
+  "width": 98,
+  "center": [49, 52],
+  "collisionRadius": 76.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 56,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_gunship_mod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, 9.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, -9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21.5, 19.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21.5, -19.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25.5, 14.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [25.5, -14.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [27, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 57,
+      "angle": -24,
+      "locations": [-3.5, -7]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 57,
+      "angle": 24,
+      "locations": [-3.5, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [11, 8.5],
+      "length": 20.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [11, -8.5],
+      "length": 20.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [11, 10.5],
+      "length": 20.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [11, -10.5],
+      "length": 20.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [11, -12.5],
+      "length": 20.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [11, 12.5],
+      "length": 20.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    5, 46.5,
+    -50, -0,
+    5, -46.5,
+    48, -0
+  ]
+}

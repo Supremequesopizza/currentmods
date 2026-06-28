@@ -1,0 +1,25 @@
+{
+  "hullName": "Shield Generator",
+  "hullId": "uaf_shield_generator",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/uaf_generators.png",
+  "style": "MIDLINE",
+  "height": 10,
+  "width": 10,
+  "center": [5, 5],
+  "collisionRadius": 50,
+  "shieldCenter": [3, -6],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "builtInMods":[
+    "shield_always_on",
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -5, -3.5,
+    -9.5, -3.5,
+    -9.5, 3.5,
+    -5, 3.5
+  ]
+}

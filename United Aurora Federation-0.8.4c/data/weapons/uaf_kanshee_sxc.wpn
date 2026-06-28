@@ -1,0 +1,64 @@
+{
+  "id": "uaf_kanshee_sxc",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_beam_lg_kanshee",
+  "type": "ENERGY",
+  "mountTypeOverride": "HYBRID",
+  "size": "LARGE",
+  "everyFrameEffect": "org.niatahl.uaf.weapons.uaf_energyWeaponEffect",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Kanshee SXC/uaf_kanshee_turret_base.png",
+  "turretGunSprite": "graphics/weapons/Kanshee SXC/uaf_kanshee_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/Kanshee SXC/uaf_kanshee_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/Kanshee SXC/uaf_kanshee_hardpoint_recoil.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 7,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    33,
+    4.5,
+    33,
+    -4.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    42,
+    4.5,
+    42,
+    -4.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 80,
+    "spread": 0,
+    "particleSizeMin": 20,
+    "particleSizeRange": 30,
+    "particleDuration": 0.1,
+    "particleCount": 20,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundOne": "uaf_ru_herexa_608",
+  "fireSoundTwo": "uaf_kanshee_sxc"
+}

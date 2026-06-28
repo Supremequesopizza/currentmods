@@ -1,0 +1,11 @@
+{
+	"displayName": "Standard",
+	"fluxCapacitors": 0,
+	"fluxVents": 0,
+	"goalVariant": true,
+	"hullId": "ork_despot_fist_left",
+	"hullMods": [],
+	"quality": 0.5,
+	"variantId": "bt_despot_leftfist_standard",
+	"weaponGroups": [],
+}

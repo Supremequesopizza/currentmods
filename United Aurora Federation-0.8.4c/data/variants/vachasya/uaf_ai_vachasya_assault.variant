@@ -1,0 +1,65 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 8,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "uaf_ai_vachasya",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "advancedshieldemitter",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_vachasya_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_ivory_triple",
+                "WS0009": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_vocal_s_srm",
+                "WS0004": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_flk",
+                "WS0006": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_edge_type_i",
+                "WS0002": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

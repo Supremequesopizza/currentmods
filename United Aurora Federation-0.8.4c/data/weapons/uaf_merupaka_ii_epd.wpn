@@ -1,0 +1,75 @@
+{
+  "id": "uaf_merupaka_ii_epd",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_beam_sm_merupaka",
+  "type": "ENERGY",
+  "mountTypeOverride": "HYBRID",
+  "size": "MEDIUM",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Merupaka II EPD/med_merupaka_ii_turret_base.png",
+  "turretGunSprite": "graphics/weapons/Merupaka II EPD/med_merupaka_ii_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/Merupaka II EPD/med_merupaka_ii_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/Merupaka II EPD/med_merupaka_ii_hardpoint_recoil.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    22,
+    4.5,
+    22,
+    -4.5,
+    22,
+    -2.5,
+    22,
+    2.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    28.5,
+    4.5,
+    28.5,
+    -4.5,
+    28.5,
+    -2.5,
+    28.5,
+    2.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 0,
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "uaf_merupaka_epd"
+}

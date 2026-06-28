@@ -1,0 +1,50 @@
+{
+  "hullName": "Ring Module",
+  "hullId": "ork_redemption_ring_right",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/redemption/redemption_ring_right.png",
+  "style": "LOW_TECH",
+  "height": 163,
+  "width": 190,
+  "center": [95, 81.5],
+  "collisionRadius": 156,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 150.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "degradedcore",
+    "BT_antiNukeHidden"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -140,
+      "locations": [-8.5, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -50,
+      "locations": [30.5, 10]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -56, 92.5,
+    54, 87,
+    76.5, 69.5,
+    78, 6.5,
+    45.5, -93,
+    -19.5, -83.5,
+    -81.5, 28,
+    -79.5, 62.5
+  ]
+}

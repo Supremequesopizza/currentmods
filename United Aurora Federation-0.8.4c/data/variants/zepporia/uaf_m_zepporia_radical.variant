@@ -1,0 +1,80 @@
+{
+    "displayName": "Radical",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": false,
+    "hullId": "uaf_m_zepporia",
+    "hullMods": [
+        "eccm",
+        "uaf_super_heavy_wing_operation"
+    ],
+    "quality": 0.0,
+    "variantId": "uaf_m_zepporia_radical",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0025": "uaf_semibreve_base",
+                "WS0024": "uaf_semibreve_base"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_minibreve_tnt_m",
+                "WS0002": "uaf_minibreve_tnt_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "uaf_weiss_iii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_weiss_ii_flk",
+                "WS0014": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_flk",
+                "WS0006": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "uaf_triyia_pdx",
+                "WS0018": "uaf_triyia_pdx",
+                "WS0003": "uaf_triyia_pdx",
+                "WS0004": "uaf_triyia_pdx",
+                "WS0022": "uaf_triyia_pdx",
+                "WS0021": "uaf_triyia_pdx"
+            }
+        }
+    ],
+    "modules": {
+        "WS0020": "uaf_m_zepporia_armor_1_plating",
+        "WS0026": "uaf_m_zepporia_armor_1_plating",
+        "WS0023": "uaf_m_zepporia_armor_1_plating",
+        "WS0031": "uaf_m_zepporia_armor_1_plating",
+        "WS0032": "uaf_m_zepporia_left_armor_plating",
+        "WS0033": "uaf_m_zepporia_right_armor_plating"
+    },
+    "wings": [
+        "uaf_wing_m_hyacinth_ii",
+        "uaf_wing_m_hyacinth_ii",
+        "uaf_wing_m_hyacinth_ii",
+        "uaf_wing_m_hyacinth_ii"
+    ]
+}

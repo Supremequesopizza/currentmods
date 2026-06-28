@@ -1,0 +1,61 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 15,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "uaf_akatsuzuma",
+    "hullMods": [
+        "targetingunit",
+        "reinforcedhull",
+        "insulatedengine"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_akatsuzuma_variant",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "uaf_clemente_base"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_cyrexa_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_ivory",
+                "WS0008": "uaf_ivory"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_racun_pod",
+                "WS0005": "uaf_racun_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina",
+                "WS0003": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_selemene_s_mrm"
+            }
+        }
+    ]
+}

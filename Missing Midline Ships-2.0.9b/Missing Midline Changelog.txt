@@ -1,0 +1,246 @@
+Update: Missing Midline 2.0.9b
+Paradigm:
+-DEM variant weapongroup fix
+Gazer Single:
+-show in codex
+Claymore:
+-14 Op
+Fleetpoints adjusted
+-seems like i messed up documenting this
+________________________________________
+Update: Missing Midline 2.0.9a
+Fleetpoints
+-Paradigm 29
+-Allegiant 28
+-Chrysaor 27
+-Scoophead 13
+Variants
+-Paradigm adjusted
+Bad timing
+-standard variant changed
+Ships:
+Chrysaor
+Shield arc reduced to 150
+Cutlass
+-Ion Cannon removed
+-Flux/shield increased to 395
+-shield efficency improved to vanilla default 1
+-ai behaviour adjusted
+Claymore
+-redesignated as light corvette
+Weapons:
+Gazer
+-single (fighter) renamed to Gazer (fighter)
+-total damage reduced to 650
+Fighters Overall
+Fleetpoints
+-various adjustments
+________________________________________
+Update: Missing Midline 2.0.9
+Paradigm:
+Hull changes
+-Turret B now composite
+-Turret A moved
+-turret arcs adjusted
+-large aft arc adjusted to 286 degrees
+Stat changes
+-OP points 340
+-Armor reduced by 100
+-Hull reduced by 1000
+-Shield efficency 1.2
+-shield upkeep 380
+-Build in hullmod Advanced weapon mounts swapped with resistand flux conduits
+Visual changes
+-description updated
+-sprite changes
+Game changes
+-set to zero in independet world file (removal pending, kept for save integrity)
+Chrysaor:
+Visual changes
+-description updated
+Stat changes
+-shield upkeep 410
+Allegiant:
+Stat changes
+-shield efficency 1.3
+-shield upkeep 440
+Game changes
+-set to zero in independet world file (removal pending, kept for save integrity)
+________________________________________
+Missing Midline Ships 2.0.8c
+Variants adjusted
+________________________________________
+Missing Midline 2.0.8b:
+Scoophead:
+-price reduced to 75000
+Paradigm
+-Shield upkeep reduced to 470
+-skeleton crew reduced to 550
+-maximum crew reduced to 850
+-CR recovery per day increased to 4%
+-fuel per jump decreased to 10
+-fuel capacity reduced to 310
+Allegiant
+-price reduced to 420000
+-Shield upkeep increased to 300
+-maximum crew reduced to 900
+-OP increased to 260
+-fuel increased to 300
+-fuel per jump decreased to 10
+-price reduced to 420000
+-description adjusted
+Chrysaor
+-Shield upkeep increased 460
+-sceleton crew reduced to 500
+-maximum crew reduced to 820
+-fuel per jump decreased to 10
+-Op increased to 250
+-description adjusted
+2.0.8b Midline Ships Hotfix:
+Paradigm
+-changed aft large mount back to ballistic
+________________________________________
+2.0.8a Midline Ships:
+Claymore:
+-Behaviour adjusted
+-Replacement time reduced by 5s
+-Price adjusted
+Cutlass:
+-Behaviour adjusted
+-Shield reduced to 375
+-hull reduced to 425
+-Gazer single renamed to Gazer (Figher)
+-Price adjusted
+________________________________________
+2.0.8 Missing midline:
+Paradigm
+-Ship description adjustment
+-Two pd mounts downgraded to vanilla arcs
+-5 op points added
+-Adjusted a variant
+________________________________________
+Modpack changes midline 2.0.7a
+All midline shiptext spell checked and some rewritten
+price of Allegiant increased to 450000
+price of Paradigm increased to 450000
+cutlass wingsize increased to 3 fighters
+cutlass range reduced to 4000
+cutlass rarity increased to 0.9
+claymore rarity increased to 0.75
+Bad Timing changed a word
+Various Variant adjustments
+Note: Update timescales wont be added to the update header anymore as individual submod updates have fragmented the version numbers to far.
+________________________________________
+Update 2.0.7 28.10.25-13.11.25:
+Mission changes:
+Bad Timing
+-Combat zone adjusted to mission text
+-many missing words added
+All packs:
+-crediting of scarface adjusted
+Sprite Changes:
+-Chrysaor
+-Allegiant
+-Scoophead
+-Zweihander
+-supers core undersubmodule sprites added
+________________________________________
+Update 2.0.6 12.10.25-28.10.25
+Faction changes missing midline:
+Independent and Merc faction files readded.
+Spawnrates adjusted
+If the 2 captial ship bounty bug shows up again let me know.
+Hotfix 2.0.6a
+Missing Midline
+Alternative sprites for the following ships removed
+Chrysaor
+Paradigm
+________________________________________
+Update 2.0.6 12.10.25-28.10.25
+Ship Changes:
+-price of the Allegiant raised by 10000
+-Adjusted 2 midships pd mounts on Chrysaor
+fleet points swapped with those of the paradigm
+-Chrysaor peak combat readiness time reduced to 600 seconds
+-mg and ion weapon arcs on Cutlass lowered to 15 degrees and moved back 3 pixels
+-general sprite improvements
+-Cutlass:
+Sprite cleaned up
+Description Changes:
+Description written for the:
+As always some smaller stuff that shall go unnoted.
+________________________________________
+
+2.0.5c Minor Update  19.09.25-12.10.25:
+Hull changes:
+-Chrysaor medium ballistic bow mount changed to composite.
+Sprite Updates:
+-Chrysaor
+-Paradigm
+-Scoophead
+Minor Variant Updates:
+-Chrysaor
+-Allegiant
+________________________________________
+2.0.5a Hotfix:
+-smaller fixes
+-Faction files fixed
+-The id and the variant name is the same for the cutlass and claymore.
+2.0.5 09.05.25-19.09.25:
+-Cleaned up the scoophead sprite.
+________________________________________
+2.0.4 Hotfixe
+Minor hotfix:
+Midline Modpack: ship.csv fixed
+2.0.4-20.04.25-09.05.25:
+Ships:
+Allegiant: Front bays sprite harmonised with the rest and a general bow sprite improvement. Shipcore sprites harmonised with conquest parts.
+Paradigm: Entire shipcore sprites harmonised with conquest parts.
+Scoophead: Scoophead Fast-Cruiser/Cruiser added
+________________________________________
+2.0.3 Hotfixes:
+Ships:
+Paradigm: Independent Spawn rates adjusted (hopefully no paradigm only merc fleets)
+Many many bug fixes.
+2.0.3-07.04.25-20.04.25:
+Ships:
+Paradigm: Price raised to 400000, added to independent markets should be very extremly rare.
+Allegiant:Price raised to 400000, Ship text adjusted, added to independent markets should be extremly rare.
+Ergonomics:
+Added Version Checker intigration added
+Direct download link added to version checker file
+Missions:
+Bad Timing: Changed a ship name
+________________________________________
+2.0.2-09.03.25-30.03.25:
+Website:
+Old thread changed reverted to 0.96 look due to the emergence of legacy mod index.
+Missions:
+Stopped showing bad timing mission over last hurra as i think that the method i used to achive that might mess with the listing of missions from other mods. It will now be displayed at the bottom like all other mod missions.
+________________________________________
+2.0.1 Hotfixes:
+Chrysaor: changes now actuall  included
+Zweihander: Removed from midline ship.csv
+2.0.1-02.01.25-09.03.25 A Hotfix to add somestuff and to fix mistakes you guys or I find is pretty likely. Just keep the last version around in a backup folder for a while.
+2.0.1-02.01.25-09.03.25
+General Changes:
+-Cutlass: Cutlass dual machine gun changed to machine gun. Cutlass is now a DEM Strike Fighter, hull and armor reduced by 200 and 10. cutlass rr reduced to 15 range reduced to 4750 overall manouverability reduced. Added no weapon flux hullmod to cutlass.
+-Chrysaor: Crysaor max flux reduced to 13750 op points increased to 240 armor increase to 1100 hullpoints increased to 10500 Flux vents reduced to 700 Chrysaor redesign. Deployment points increased to 45 turn acc reduced to 4 accel reduced to 25 max turn reduced to 7.
+-Paradigm: Adjusted mount idnumbers on Paradigm. Paradigm all variants adjusted so that they use broadsides when appropriate. Paradigm armor around medium missile launchers adjusted. Paradigm observation bridge adjusted, advanced turret gyros build in.  Paradigm armor reduced to 1500 flux reduced to flux cap 22000 hitpoints reduced to 15000.
+-Allegiant redesign reclassification rebalance displayed class name fix. Allegiant flux cap reduced to 10000 dissipation reduced to 500 Allegiant and Chrysaor Skeleton Crew reduced by 200 and 275.
+-Zweihander DEM 2 Gorgon Launchers created.
+Website:
+-Mod icon changed.
+-Link to version 0.9.1 fixed.
+Lore:
+-Claymore, Paradigm, Chrysaor and Allegiant have had their text rewritten. Other text have been added as well. Some text will be held back for now. Bad Timing Mission text adjusted.
+________________________________________
+2.0.0-18.12.2024 IceFire takes over mod.
+-(hopefully) fixed the msm ships blocking other ships from spawning.
+-Lots of small things i did befor taking notes or just where not of note not mentioned here.
+-Pelican renamed to Allegiant, Allegiant flux dissipation reduced to 1100 speed increased to 45 mass reduced to 2800.
+-Staple renamed to Paradigm, Paradigm shield efficency improved to 1.3, max fuel reduced to 350, 4 small energy and 2 medium missile mounts removed, reduced op points to 315,reduced armor to 1550 and hull to 17500, reduced burnfactor by 1, some weapon arcs changed , number 1 (old number 2) large ballistic turret moved forward a pixel, added large missile hardpoint.
+-Removed unnecessary ships that weakend the fleets that used them or did not fit the mods stated purpose.
+-Crysaor price reduced to 310000, cargo reduced to 345.
+-Cutlass Space Superiority Fighter added.
+-claymore shields and armor reduced reduced to 900.

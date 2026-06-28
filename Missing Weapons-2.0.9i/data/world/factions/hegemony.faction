@@ -1,0 +1,11 @@
+{
+  "knownWeapons":{
+	"tags":[""],
+	"weapons":[
+    "missp_octuple_machinegun"
+  ],
+  },
+  "weaponSellFrequency": {
+  "missp_octuple_machinegun": 2
+  }
+}

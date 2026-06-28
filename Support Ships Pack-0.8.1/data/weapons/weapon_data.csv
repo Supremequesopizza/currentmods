@@ -1,0 +1,10 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Heavy Ion Beam,supportships_heavyionbeam,0,,100,1000,150,,1000,0,0,,,,,ENERGY,,175,0.1,0.1,,,,,,,2000,,,,,,,"FIRE_WHEN_INEFFICIENT, SYSTEM,SHOW_IN_CODEX",,,,,Suppression,,,,,"Hits on hull or armor periodically arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,1
+Gardener Mass Driver,supportships_gardener_massdriver,0,,100,1100,,400,,40,10,,,,,KINETIC,300,,0,3,1,,,,,,,2000,,,200,,,"SYSTEM,SHOW_IN_CODEX",,,,,Anti Shield,,,,,,,,,,1
+Ion Pulse Cannon,supportships_ipc,0,,100,800,,300,500,0,0,,15,0.75,,ENERGY,260,,0,0.45,1,,0,10,2,5,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX",,TPC_only,,,General,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ossifrage Mask,supportships_ossifrage_mask,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, hide_in_codex",,,,,,,,,,,,,,1
+Aspirant Mask,supportships_aspirant_mask,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, hide_in_codex",,,,,,,,,,,,,,1
+supportships_hospice_legal,supportships_hospice_legal,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,"no_sell, hide_in_codex",,,,,,,,,,,This weapon is built-in only.,,TRUE,0
+supportships_hospice_illegal,supportships_hospice_illegal,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,"no_sell, hide_in_codex",,,,,,,,,,,This weapon is built-in only.,,TRUE,1

@@ -1,0 +1,43 @@
+{
+  "hullName": "Reflecta Medium Plating(INA)",
+  "hullId": "uaf_m_inazuma_left_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Inazuma/uaf_m_inazuma_left_armor.png",
+  "style": "MIDLINE",
+  "height": 81,
+  "width": 37,
+  "center": [17, 39],
+  "collisionRadius": 59.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 50.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_reflective_armor_ii"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_racun_pod"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [36, -2.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -39, 15.5,
+    9, 15.5,
+    9, 11,
+    2, 6,
+    41.5, 2,
+    41.5, -7,
+    28.5, -19,
+    7, -11,
+    -27.5, -11
+  ]
+}

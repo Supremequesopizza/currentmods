@@ -1,0 +1,50 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 5,
+    "fluxVents": 2,
+    "goalVariant": false,
+    "hullId": "uaf_seniraja",
+    "hullMods": [
+        "safetyoverrides"
+    ],
+    "quality": 0.0,
+    "variantId": "uaf_seniraja_raider",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_hikone_ii_quad",
+                "WS0014": "uaf_hikone_ii_quad"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "uaf_minibreve_tnt_s",
+                "WS0009": "uaf_minibreve_tnt_s",
+                "WS0005": "uaf_minibreve_tnt_s",
+                "WS0006": "uaf_minibreve_tnt_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_shimata_155_cn",
+                "WS0003": "uaf_shimata_155_cn",
+                "WS0001": "uaf_shimata_155_cn",
+                "WS0002": "uaf_shimata_155_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_pd_reina_ii",
+                "WS0007": "uaf_pd_reina_ii"
+            }
+        }
+    ]
+}

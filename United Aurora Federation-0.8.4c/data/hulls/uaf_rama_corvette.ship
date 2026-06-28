@@ -1,0 +1,111 @@
+{
+  "hullName": "Rama",
+  "hullId": "uaf_rama_corvette",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Rama/uaf_rama.png",
+  "style": "UAF_FRIGATE",
+  "height": 131,
+  "width": 74,
+  "center": [37, 60],
+  "collisionRadius": 84.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 74.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_atmospheric_entry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": 0,
+      "locations": [19, 11]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, -26.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-49, -4],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-49, 4],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-49, -0],
+      "length": 71.5,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-28, 24],
+      "length": 37.275829,
+      "width": 13.380953,
+      "angle": 142.5,
+      "contrailSize": 13.380953,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-28, -24],
+      "length": 37.275829,
+      "width": 13.380953,
+      "angle": -142.5,
+      "contrailSize": 13.380953,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -6.5, 34,
+    -31.5, 31.5,
+    -40.5, 17,
+    -58, 7,
+    -58, -7,
+    -40.5, -17,
+    -31.5, -31.5,
+    -6.5, -34,
+    17.5, -31,
+    19, -20,
+    36.5, -12,
+    36.5, -9.5,
+    20.5, -9.5,
+    27, -1,
+    59.5, 3,
+    58, 6,
+    19, 21,
+    20.5, 25,
+    5, 36,
+    0, 32
+  ]
+}

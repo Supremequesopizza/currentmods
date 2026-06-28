@@ -1,0 +1,68 @@
+{
+    "displayName": "Aegis",
+    "fluxCapacitors": 8,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "uaf_ai_maisya",
+    "hullMods": [
+        "fluxbreakers",
+        "targetingunit",
+        "hardenedshieldemitter",
+        "armoredweapons",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_ai_maisya_aegis",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "uaf_catun_ii_erg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_oboe_mirv_small",
+                "WS0004": "uaf_clarinet_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "uaf_edge_type_i",
+                "WS0015": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_precisia_dual",
+                "WS0007": "uaf_precisia_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "uaf_merupaka_epd",
+                "WS0011": "uaf_merupaka_epd",
+                "WS0010": "uaf_merupaka_epd",
+                "WS0009": "uaf_merupaka_epd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_weiss_flk",
+                "WS0006": "uaf_weiss_flk",
+                "WS0005": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

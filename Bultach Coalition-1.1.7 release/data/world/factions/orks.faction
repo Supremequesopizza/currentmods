@@ -1,0 +1,313 @@
+{
+	"id":"orks",
+	"color":[98,141,107,255],
+	"secondaryUIColor":[98,141,107,255],
+	        "secondarySegments":2,
+	"displayName":"Bultach Coalition",
+	"displayNameWithArticle":"Bultach Coalition",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/orks.png",
+	"crest":"graphics/factions/crest_orks.png",
+	"shipNamePrefix":"BCN", 
+	"shipNameSources":{
+		"AZTEC":1,
+		"BEASTS":1,
+		"NORSE":1,
+		"CELTIC":1,
+		"SPACE":1,
+		"GENERAL":1,
+	},
+	"names":{
+		"fringe":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+		"old english":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"ork_project_bp":2,
+		},
+		"hulls":{
+			"ork_loota":0.1, # keeps being massed in fleets and I dont know why
+			"ork_fuela":0.1, # this one too????
+			"ork_logistics":0.1, # THIS ONE TOO!! WHY??
+			"ork_sgr_main":0.7, # fuckoff huge and strong
+			"ork_dreadnotv2":0.4, #same massing problem as before
+			"ork_battlecruiser":0.5,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["ork_project_bp"],
+		"hulls":[
+				"dram",
+				"phaeton",
+				"mule",
+		],
+	},
+	"knownShips":{
+		"tags":["ork_project_bp"],
+		"hulls":[
+			   	"ork_sgr_main",
+				"dram",
+				"phaeton",
+				"mule",
+				"ork_loota",
+				"ork_battlecruiser",
+				"ork_bigscrap",
+				"ork_dreadnotv2",
+				"ork_speeder",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["ork_project_bp"],
+		"hulls":[
+			"ork_speeder",
+		],
+	},
+	"knownFighters":{
+		"tags":["ork_project_bp"],
+		"fighters":[
+			"ork_light_fighter",
+			"ork_heavy_fighter",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"ork_light_fighter",
+			"ork_heavy_fighter",
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "ork_project_bp", "hegemony", "lowtech_bp", "midline_bp", "missile_bp", "pirates", "luddic_church"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[ork_project_bp,],
+		"weapons":[
+			"ork_big_shotgun",
+			"ork_shotgun",
+			"ork_plasma",
+			"ork_bigplasma",
+			"ork_uir_laser",
+			"ork_shoota",
+			"ork_thumpa",
+			"ork_layzah",
+			"ork_bolta",
+			"mark9",
+			"chaingun",
+			"heavymg",
+			"ork_plasma_shotgun_medium",
+			"ork_plasma_shotgun",
+			"devastator",
+			"ork_rotary_pd",
+			"ork_rotary_pd_small",
+			"ork_noshield_large",
+			"ork_noshield_medium",
+			"ork_noshield_small",
+			"ork_emp_torpedo",
+			"ork_emp_torpedo_medium",
+			"ork_emp_torpedo_single",
+			"ork_dem_medium",
+			"ork_dem_large",
+			"ork_dem_small",
+			"ork_mirean_large",
+			"ork_mirean_small",
+			"ork_mirean_med",
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "pirates"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"converted_hangar",
+			"magazines",
+			"missleracks",
+			"frontshield",  # makeshift
+			"heavyarmor",
+			"insulatedengine",
+			"fluxbreakers",
+			"shield_shunt",
+			],
+	},
+	"weaponSellFrequency":{
+		"ork_rotary_pd_small":10,
+		"ork_rotary_pd":10,
+		"devastator":5,
+		"ork_shotgun":10,
+
+		"mark9":10,
+		"ork_bolta":5,
+		"ork_uir_laser":10,
+		"ork_plasma":5,
+		"ork_bigplasma":5,
+		"ork_plasma_shotgun_medium":10,
+		"ork_plasma_shotgun":10,
+		"ork_thumpa":10,
+		"ork_old_laser":5,
+		
+		"ork_big_shotgun":10,
+		
+		"ork_noshield_small":10,
+		"ork_noshield_medium":10,
+		"ork_noshield_large":10,
+		"ork_emp_torpedo":5,
+		"ork_emp_torpedo_medium":5,
+		"ork_mirean_large":10,
+		"ork_mirean_small":10,
+		"ork_mirean_med":10,
+	},
+	"hullmodSellFrequency":{
+		"heavyarmor":10,
+		"BT_antiNuke":10,
+		"targetingunit":5,
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":1,
+		"numShips":4,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.05,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.05,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.05,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.05,
+
+		"commanderSkillsShuffleProbability":1f,
+		"commanderSkills":[
+			"ballistic_mastery",
+			"ordnance_expert",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+		"hand_weapons",
+		"ai_cores",	
+	],
+	"music":{
+		"theme":"music_bultach_market_neutral",
+		"market_neutral":"music_bultach_market_neutral",
+		"market_hostile":"music_bultach_market_hostile",
+		"market_friendly":"music_bultach_market_friendly",
+		"encounter_neutral":"music_bultach_encounter_neutral",
+		"encounter_hostile":"music_bultach_encounter_hostile",
+		"encounter_friendly":"music_bultach_encounter_friendly",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait_mercenary04.png",
+			"graphics/portraits/portrait_mercenary06.png",	
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait36.png",
+			"graphics/portraits/portrait40.png",	
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary05.png",
+			"graphics/portraits/portrait_mercenary07.png",
+			"graphics/portraits/portrait_mercenary08.png",
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait24.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait39.png",
+			"graphics/portraits/portrait42.png",
+
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Commander"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Captain"},
+			"fleetCommander":{"name":"Captain"},
+			"baseCommander":{"name":"Base Chief"},
+			"stationCommander":{"name":"Station Chief"},
+			"portmaster":{"name":"Port Admin"},
+			"administrator":{"name":"Admin"},
+		},
+	
+	},	
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"exemptFromFoodShortages":false,
+		"willTradeWhenHostile":false,
+		"ignoreTradeWithEnemiesForReputation":false,
+		"postsNoBounties":false,
+		"buysAICores":true,
+		"AICoreValueMult":1.5,
+		"AICoreRepMult":1.5,
+		"caresAboutAtrocities":true,
+		"offerMissionsWhenHostile":false,
+		"allowsTransponderOffTrade":false,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"pirateBaseStationTypes":{
+			"orbitalstation":10,
+			"orbitalstation_mid":6,
+			"orbitalstation_high":4,
+		},
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":true,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Convoy",
+		"trade":"Convoy",
+		"tradeLiner":"Trade Fleet",
+		"patrolSmall":"Fast Picket",
+		"patrolMedium":"Medium Patrol Fleet",
+		"patrolLarge":"Heavy Defense Fleet",
+		"mercScout":"Mercs",
+		"mercBountyHunter":"Mercs",
+		"mercPrivateer":"Mercs",
+		"mercPatrol":"Mercs",
+		"mercArmada":"Mercs",
+		"taskForce":"Revenge Fleet",
+	},
+}
+
+
+
+

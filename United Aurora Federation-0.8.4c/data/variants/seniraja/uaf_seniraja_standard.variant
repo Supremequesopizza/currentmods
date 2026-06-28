@@ -1,0 +1,68 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 3,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "uaf_seniraja",
+    "hullMods": [
+        "targetingunit",
+        "reinforcedhull",
+        "armoredweapons"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_seniraja_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_ivory",
+                "WS0002": "uaf_ivory",
+                "WS0003": "uaf_ivory",
+                "WS0004": "uaf_ivory"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "uaf_cyrexa_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "uaf_amazoch_l_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_flair_pod",
+                "WS0012": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_pd_reina",
+                "WS0008": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

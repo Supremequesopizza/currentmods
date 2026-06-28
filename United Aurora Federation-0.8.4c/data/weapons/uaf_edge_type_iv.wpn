@@ -1,0 +1,78 @@
+{
+  "id": "uaf_edge_type_iv",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_edge_type_iv",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "org.niatahl.uaf.weapons.uaf_energyWeaponEffect",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Edge Type 4 XPC/edge_type_4_turret_00.png",
+  "turretGunSprite": "graphics/weapons/Edge Type 4 XPC/edge_type_4_recoil.png",
+  "hardpointSprite": "graphics/weapons/Edge Type 4 XPC/edge_type_4_hardpoint_00.png",
+  "hardpointGunSprite": "graphics/weapons/Edge Type 4 XPC/edge_type_4_hardpoint_recoil.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "separateRecoilForLinkedBarrels":"TRUE",
+  "visualRecoil": 7.5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    37,
+    11.5,
+    37,
+    5.5,
+    37,
+    -5.5,
+    37,
+    -11.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    41,
+    11.5,
+    41,
+    5.5,
+    41,
+    -5.5,
+    41,
+    -11.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "GLOW_AND_FLASH",
+  "numFrames": 2,
+  "frameRate": 0,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 85,
+    "spread": 10,
+    "particleSizeMin": 20,
+    "particleSizeRange": 30,
+    "particleDuration": 0.12,
+    "particleCount": 20,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "uaf_edge_type_iv"
+}

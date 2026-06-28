@@ -1,0 +1,63 @@
+{
+    "displayName": "Explorer",
+    "fluxCapacitors": 13,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "uaf_eyeseau",
+    "hullMods": [
+        "uaf_eyeseau_science",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_eyeseau_explorer",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_swaras_m_mlrs",
+                "WS0006": "uaf_swaras_m_mlrs",
+                "WS0007": "uaf_swaras_m_mlrs",
+                "WS0008": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_hikone_quad",
+                "WS0002": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_triyia_pdx",
+                "WS0004": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_pd_reina_ii",
+                "WS0010": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_pd_reina",
+                "WS0012": "uaf_pd_reina"
+            }
+        }
+    ],
+    "modules": {
+        "LEFT_TGT": "uaf_eyeseau_left_tgt_pod",
+        "RIGHT_TGT": "uaf_eyeseau_right_tgt_pod",
+        "FRONT_ECM": "uaf_eyeseau_front_ecm_jammer",
+        "REAR_ECM": "uaf_eyeseau_rear_ecm_jammer"
+    }
+}

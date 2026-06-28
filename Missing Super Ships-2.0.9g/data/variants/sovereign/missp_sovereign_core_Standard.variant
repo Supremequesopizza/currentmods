@@ -1,0 +1,49 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "missp_sovereign_core",
+    "hullMods": [
+        "armoredweapons",
+        "expanded_deck_crew",
+        "hardenedshieldemitter",
+        "targetingunit",
+        "heavyarmor"
+    ],
+    "modules": [
+        {"WS0008": "missp_sovereign_propulsion_left_Standard"},
+        {"WS0009": "missp_sovereign_propulsion_right_Standard"},
+        {"WS0002": "missp_sovereign_battery_left_Standard"},
+        {"WS0003": "missp_sovereign_battery_right_Standard"},
+        {"WS0010": "missp_sovereign_corner_left_Standard"},
+        {"WS0011": "missp_sovereign_corner_right_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_sovereign_core_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mjolnir",
+                "WS0004": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "vulcan",
+                "WS0016": "vulcan",
+                "WS0019": "vulcan",
+                "WS0020": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

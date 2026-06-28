@@ -1,0 +1,119 @@
+id,type,text1,text2,text3,text4,notes
+supportships_faraday,SHIP,"The Heavy Ion Beam project was an attempt by Tri-Tachyon to make a counter to the heavily armored but poorly shielded ships standard in Hegemony fleets by scaling up the very effective Ion Beam. 
+
+The project was a complete disaster, with the gun being both an enormous and complex machine that was impossible to mount on any kind of turret, while also being not nearly powerful enough to be worth building it into the design of a capital ship. 
+
+The only thing of any worth that came out of the project was the Faraday Class Frigate, which is essentially a Heavy Ion Beam with a ship built around it. It has been used successfully in Tri-Tachyon fleets as a pressure ship, forcing its enemies to keep their shields up or have their ship's controls lock up in a cascade of electrical failures. The ship however only has limited applicability by itself, as outside of the Heavy Ion Beam it is poorly armed.",,,,
+supportships_lammergeier,SHIP,"The Lammergeier-Class Destroyer is a specialist design that has an integrated flux-fuel mixer, allowing it to dissipate flux rapidly in short bursts. It was designed to take advantage of the newest energy weapons that would normally bring a ship's flux systems to their knees.
+
+
+The ship favors almost reckless aggression, especially as when the system is activated it forces the engines to maximum thrust to prevent overheating and jams within the engines. Many a captain has overestimated the power the system gives in the heat of combat, to dire consequences. However, those who can master the advantages they gain when using it are a terror on the battlefield.",,,,
+supportships_lammergeierlg,SHIP,"Modified for operations in the Askonia system under orders from Supreme Executor Philip Andrada, this hull includes integrated solar shielding as well as a peculiar internal cladding provided by an industrial conglomerate out of Sindria itself. That the chief designer, appointed by the Supreme Executor for his many cycles of loyal service, sits on the board of that conglomerate is simply an example of the unity and efficiency of the Sindrian Polity.
+
+
+The Lammergeier-Class Destroyer is a specialist design that has an integrated flux-fuel mixer, allowing it to dissipate flux rapidly in short bursts. It was designed to take advantage of the newest energy weapons that would normally bring a ship's flux systems to their knees.
+
+
+The ship favors almost reckless aggression, especially as when the system is activated it forces the engines to maximum thrust to prevent overheating and jams within the engines. Many a captain has overestimated the power the system gives in the heat of combat, to dire consequences. However, those who can master the advantages they gain when using it are a terror on the battlefield.",,,,
+supportships_carton,SHIP,"The creation of the Carton-Class Wing Carrier is often cited as a cautionary tale for ship designers. It was supposedly the result of a wild party. Domain bigwigs, in a ""fit of inspiration"" likely influenced by alcohol and other, much less legal substances, came up with the idea for a carrier that carries a singular fighter wing, allowing for ""maximal tactical and strategic flexibility"", and ""a cheap alternative to large carriers"". The design requirements were sent out to major ship manufacturers, and promptly forgotten as the party went on. 
+
+One manufacturer, whose name is lost to time, was so confident with their design that they made an early mass production line even before the trial models were due. When the Carton was brought to the tests, the bigwigs realized that it was a terrible idea to jam a fighter wing into the size of a shipping container and rejected it. The manufacturer had to sell off its massive stockpile of Cartons to pay for its debts and ended up falling to bankruptcy.
+
+The ship has seen use in modern times in many fleets to provide cheap fighter cover for those that lack funds or access to better options. ",,,,
+supportships_cartonp,SHIP,"Pirate modifications of ships are on a varying scale of insanity. Some are just simple paintjobs, while others are unsafe total overhauls, often with dire consequences for their crews .
+
+This modification of the Carton-Class Wing Carrier is one of the latter. From the outside, seemingly the only change is the replacement of the hangar with a large missile mount. But the sacrifices required to make that fit are immense. The fuel and cargo capacities are miniscule, everything is cramped, and the coffee maker was even taken out. This modification achieves its goals, but at a terrible cost.",,,,
+supportships_dramlp,SHIP,"This light fuel tanker has been completely overhauled by the Pathers. Mounting points for guns are haphazardly cut into what used to be the main fuel tank, additional thrusters have been added, and large chunks of metal have been attatched to provide armor. This craft is fast and deadly, both to its enemies and crew, perfectly summing up Pather tactics.",,,,
+supportships_nebulae,SHIP,"Nebulae-Class ships are more than just a slight modification with an archaic spelling, they are a total overhaul of a mostly useless transport. 
+
+Although they look fairly similar to the original model from a glance, the paneling hides the fact that almost the entire front half of this ship has been gutted and replaced with a specialized system that allows this ship to vent its main gun's flux output while still protecting itself. This system allows it to have extremely oversized guns for its size. 
+
+These ships are often found in the center of civilian convoys, providing unexpected resistance to piracy in otherwise defenceless fleets.",,,,
+supportships_maunder,SHIP,"Maunder-Class Frigates are a common sight among many sorts of fleets, as it is an easily accessible option for those who want to pack a good amount of firepower. The convenient ammunition stowage and well-designed loading systems allows these small craft to fire at a blistering rate. 
+
+The blueprint for this ship is supposedly based upon those of a transport craft, but the only surviving trace of that is the fairly large shuttle pad for a frigate. However, it is much too small to fit any forge capable of launching fighters.",,,,
+supportships_maunderp,SHIP,"Maunder-Class Frigates are a common sight among many sorts of fleets, as it is an easily accessible option for those who want to pack a good amount of firepower. The convenient ammunition stowage and well-designed loading systems allows these small craft to fire at a blistering rate. 
+
+In pirate fleets these ships are often converted into missile platforms. The robust loading systems of the original design are surprisingly easy to refit for missiles, allowing them to still be capable of outputting immense amounts of firepower for a ship of their size.
+
+The blueprint for this ship is supposedly based upon those of a transport craft, but the only surviving trace of that is the fairly large shuttle pad for a frigate. However, it is much too small to fit any forge capable of launching fighters.",,,,
+supportships_maunders,SHIP,"A rarity in this dark age, the original Maunder-Class Transport is a true luxury craft, with a miniature pool and hot tub, full sized kitchen, and large viewing domes. 
+
+However, in modern times, this ship is very useless. Almost all blueprints for this ship have been modified for a combative purpose.",,,,
+supportships_parabola,SHIP,"Parabola-Class Carriers are a fairly new sight among Tri-Tachyon fleets, mostly following their feared wolfpacks. It is a reasonably quick ship, at least compared to the lumbering Astral-Class, allowing faster fleets to have fighter cover.
+
+Speculation about whether this design is a brand new Post-Collapse design or merely a forgotten Pre-Collapse one is famously quite heated, with the only people who know the truth being suspiciously quiet, even for Tri-Tachyon.",,,,
+supportships_ossifrage,SHIP,"The ""Cruiser School"" has a large selection of high quality, widespread ship designs to its name. Their designs have stood the test of time, being a good option to bring in any fleet. This ship is not one of them. It is a ship designed for every purpose, all at the same time.
+
+The design of this ship juggles many different things. It is both a light carrier, a fire support ship, and a general-purpose cruiser. Most of the challenge of getting anything useful out of this ship is equipping it right, a challenge that has bested many a would-be captain.
+
+This ship was seen as a failure upon the completion of the design, however, those in the sector after the collapse often have few other choices.",,,,
+supportships_geminilc,SHIP,"A common freighter, found in convoys or alone, used to haul all manner of goods across the Sector. Has a small flight deck.
+
+The design of the Gemini-class freighter is highly modular, enabling the ship to serve in a variety of roles in and out of combat. The entire cargo container is designed around a quick release mechanism which enables the main hull of the ship to quickly hyperspace in, detach its full cargo section, and swap it for another Gemini-type container in the span of minutes. In addition, multiple medium weapon mounts make the Gemini a viable long-range fire support platform. The flight deck is tiny, and was probably envisioned for mining drone repair on hazardous mining operations. Modern use in the Sector extends flight deck facilities to all fighter types.
+
+While impressive in a blueprint, the lack of empty, compatible Gemini-type containers in the Sector makes the actual usefulness of the quick-release mechanism negligible. The modularity, a great boon in types past is also prone to wear and tear, and is thus more expensive to maintain. Nonetheless, a decent overall profile, the flight deck, a flexible power core and good shields make the Gemini a good choice for cargo hauling, if the cost can be weathered.
+
+Luddic captains of Gemini-Class Freighters prefer a different cargo module than the usual. They prefer the one with an integrated cargo hangar, which allows them to carry additional fighter forges. However, the cargo capacity is worse than normal, and the central missile mount is omitted.",,,,
+supportships_apsis,SHIP,"The Apis-class vessels are an effective mix of advanced scientific and military technologies, perfect for long- range exploration of hostile space.
+
+Although it is officially a civilian vessel, this design has a strong shield, effective weapon mounts, and a hangar with a forge. A common semi-legal modification to this ship is to reconfigure the “Superheavy Sensor Burst ™” functionality into a makeshift system to increase the power of energy weapons. Functionality of the original system is usually unaffected, but the warranty is certainly voided.",,,,
+supportships_tercio,SHIP,"Predating modern shield technology, the Tercio-Class Destroyer is surprisingly still relevant in modern times. It is a simple design, heavily armored and cheap to run, most often found in second or third-line forces or in anti-piracy fleets. The front of the ship has a heavy duty damper system, providing short term bursts of heavy protection.",,,,
+supportships_tercio_xiv,SHIP,"A survivor of the original 14th Domain Battlegroup which founded the Hegemony, this ship is a prime specimen of the Domain Navy's 'decisive battle' doctrine, particularly exhibited by a series of radical structural modifications performed using pre-Collapse industrial technology.
+
+Predating modern shield technology, the Tercio-Class Destroyer is surprisingly still relevant in modern times. It is a simple design, heavily armored and cheap to run, most often found in second or third-line forces or in anti-piracy fleets. The front of the ship has a heavy duty damper system, providing short term bursts of heavy protection.",,,,
+supportships_aspirant,SHIP,"Long-range fire support on a budget is the main purpose of Aspirant-Class ships. Their price and abilities make them often seen in the backlines of large fleets, or as a cheap flagship for local forces.
+
+The ship has a comprehensive, if outdated, integrated targeting package, allowing it to reach out far with no compromise to its other systems.",,,,
+supportships_sidebar,SHIP,"An unusual design for Tri-Tachyon, the Sidebar is entirely designed for escorting large ships. It has a specialized Slider-class interceptor wing integrated into its design, and a heavy-duty fortress shield. 
+
+In the rare case that Tri-Tachyon uses a capital ship, this destroyer is often found protecting it from frigates and fighters.",,,,
+supportships_sideboard,SHIP,"A heavy duty interceptor integrated into the design of the Sidebar Destroyer, the Slider is an ideal fighter for anti-fighter and anti-frigate duties with the power of its twin pulse lasers. ",,,,
+supportships_geoid,SHIP,"Geoid-class ships are a long-haul oriented refit of the venerable Atlas-class, swapping out half of the cargo space for additional fuel tanks and a large salvage array. It is however, still an easy target for pirates.
+
+Large salvage and exploration corporations often have one of these at the head of their fleet, carrying vital supplies and allowing for the efficient deconstruction of all but the largest hulks floating in space. ",,,,
+supportships_gardener,SHIP,"The Gardener-class courier was designed as a quick way to zip light cargo across large sections of space with minimal support. It has a smaller cargo space than other freighters of comparable size but has additional fuel reserves for long distance solo trips.
+
+The ship has a centrally mounted mass driver for expedited deliveries of durable payloads. In 99% of ships after the Collapse, this system is converted into a makeshift railgun.",,,,
+supportships_revoker,SHIP,"A relatively fresh design, the Revoker-class fast battleship was to be a modern and nimble capital ship that was still capable of outputting the same punishment that older designs could. Boasting a large and robust flux grid, this ship is designed to use the latest innovations in weapons and shielding technology. It bears a pair of twin IPCs™, which allow it to bring even the most durable ship to its knees.
+
+The massive engine compartment of this ship is entirely dedicated to the purpose of keeping this ship fast, aggressive, and in control of a fight. Its drive bubble in particular is very well optimized for a ship of its size. 
+
+Supposedly, this ship’s high performance is because it was partially designed by higher level AI. Tri-Tachyon vehemently denies these allegations, and Hegemony investigations after the Second AI War have not found conclusive evidence.
+",,,,
+supportships_carton(TT),SHIP,"The creation of the Carton-Class Wing Carrier is often cited as a cautionary tale for ship designers. It was supposedly the result of a wild party. Domain bigwigs, in a ""fit of inspiration"" likely influenced by alcohol and other, much less legal substances, came up with the idea for a carrier that carries a singular fighter wing, allowing for ""maximal tactical and strategic flexibility"", and ""a cheap alternative to large carriers"". The design requirements were sent out to major ship manufacturers, and promptly forgotten as the party went on. 
+
+One manufacturer, whose name is lost to time, was so confident with their design that they made an early mass production line even before the trial models were due. When the Carton was brought to the tests, the bigwigs realized that it was a terrible idea to jam a fighter wing into the size of a shipping container and rejected it. The manufacturer had to sell off its massive stockpile of Cartons to pay for its debts and ended up falling to bankruptcy.
+
+This ship has been thoroughly overhauled by the Tri-Tachyon corporation. A tremendously large electronic warfare suite for a ship of this size has been installed where the hangar once was, allowing this ship to significantly weaken fighters and drones from a safe distance. 
+
+The shields and engines are seemingly upgraded, but they have merely been replaced with similar quality pieces that “fit in more with the esteemed Tri-Tachyon brand”. The only real upgrade outside of the electronic warfare suite is the removal of the hangar bay and all related systems, which significantly reduces the maintenance and logistical costs of this ship.",,,,
+supportships_hospice,SHIP,"A shining beacon of more civilized times, the Hospice-class cruisers are purpose-built medical craft, designed to deal with the medical needs of a large fleet. As a legally designated hospital ship, it carries a special IFF chip that broadcasts its protected status. This ship was once found in Domain military fleets, and in the large fleets of colonists, miners, and researchers.
+
+The IFF chip has a lock-out system to prevent the mounting of anything other than simple point defense weapons. It can be removed; however, it is very integral to the functioning of many minor subsystems throughout the ship. Those subsystems can be replaced with ad-hoc alternatives, albeit at a higher failure and replacement rate compared to parts designed to work with the IFF chip.
+
+With the removal of the chip, many captains expand the hangar bay to contain more than just a few search and rescue ambulances, adding more forges for regular fighters. Fortunately, the advanced ambulance teleporter system is unreliant on the IFF chip, and can be modified easily to work with regular fighters.",,,,
+supportships_wagon_fighter,SHIP,"A small search and rescue ambulance, the Wagon is not a combat craft, carrying only a PD laser for self-defence and surgically clearing wreckage. ",,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+supportships_ipc,WEAPON,"A bulky energy weapon designed shortly before the collapse, the IPC™ is a heavy duty Ion cannon built into the hull of the Revoker-Class.
+
+Limited only by the size of its capacitor bank, the IPC™ accelerates huge amounts of ionized baryonic matter at its target. The effects of this hitting a ship are devastating, with the target’s electronic grid failing in a cascade of sparks and electrical fires. In addition, unlike other, weaker ion weapons, the IPC™ is capable of doing serious direct damage to hulls and shields.",,,,
+supportships_heavyionbeam,WEAPON,"This near failure of a weapon was designed in an attempt to counter heavily armored but poorly shielded ships common among Hegemony fleets. It is a large, complicated, and underwhelming piece of equipment. 
+
+The only thing that keeps this weapon outside of the deep databanks of Tri-Tachyon is the Faraday Class Frigate, which is essentially a ship built around this weapon. 
+
+The lessons learned in the development of this weapon contributed to the creation of the EMP Emitter mounted on the Omen Class Frigate.",,,,
+supportships_gardener_massdriver,WEAPON,"What once was a simple cargo delivery mass driver has been converted into a makeshift railgun. Its power is medicore, but the range is good, and it is better than nothing.",,,,
+,,,,,,
+supportships_combatvent,SHIP_SYSTEM,"Flux-filled materiel is mixed into the fuel just before it is used and dumped through the engines and out of the ship, along with through special high-capacity vents. Forces engines to maximum thrust.
+
+
+It provides an effective if limited way to quickly deal with excessive flux build-up. ",Offensive,,,
+supportships_jammerpod,SHIP_SYSTEM,"Jams all enemy fighters in front of the ship within 1500su, decreasing their speed by 50% and increasing the damage they take by 50%. Drones have a 75% penalty instead.",Defensive,,,
+supportships_lifesaver,SHIP_SYSTEM,"Provides search and rescue to nearby ships, reducing crew casualties and CR drain.",Defensive,,,

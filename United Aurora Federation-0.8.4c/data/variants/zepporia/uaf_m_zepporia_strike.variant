@@ -1,0 +1,95 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 10,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "uaf_m_zepporia",
+    "hullMods": [
+        "targetingunit",
+        "uaf_reserve_wing_operation",
+        "uaf_special_emergency_automated_assistance",
+        "eccm"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_zepporia_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "uaf_hikone_ii_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0024": "uaf_typhoon_l_sasm",
+                "WS0025": "uaf_typhoon_l_sasm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_hikone_quad",
+                "WS0002": "uaf_hikone_quad",
+                "WS0003": "uaf_shimata_155_cn",
+                "WS0004": "uaf_shimata_155_cn",
+                "WS0013": "uaf_shimata_155_cn",
+                "WS0014": "uaf_shimata_155_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina_ii",
+                "WS0006": "uaf_pd_reina_ii",
+                "WS0007": "uaf_pd_reina",
+                "WS0008": "uaf_pd_reina",
+                "WS0009": "uaf_pd_reina",
+                "WS0010": "uaf_pd_reina",
+                "WS0011": "uaf_weiss_flk",
+                "WS0012": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "uaf_flair_pod",
+                "WS0016": "uaf_flair_pod",
+                "WS0017": "uaf_hikone_quad",
+                "WS0018": "uaf_hikone_quad",
+                "WS0021": "uaf_triyia_pdx",
+                "WS0022": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0020": "uaf_m_zepporia_armor_1_plating",
+        "WS0026": "uaf_m_zepporia_armor_1_plating",
+        "WS0023": "uaf_m_zepporia_armor_1_plating",
+        "WS0031": "uaf_m_zepporia_armor_1_plating",
+        "WS0032": "uaf_m_zepporia_left_armor_plating",
+        "WS0033": "uaf_m_zepporia_right_armor_plating"
+    },
+    "wings": [
+        "uaf_wing_m_menascar",
+        "uaf_wing_m_menascar",
+        "uaf_wing_m_exoscar",
+        "uaf_wing_m_exoscar",
+        "uaf_wing_m_superaria"
+    ]
+}

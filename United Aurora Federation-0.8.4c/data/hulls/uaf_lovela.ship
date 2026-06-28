@@ -1,0 +1,130 @@
+{
+  "hullName": "Lovela",
+  "hullId": "uaf_lovela",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Lovela/uaf_lovela_standard.png",
+  "style": "UAF_DESTROYER",
+  "height": 149,
+  "width": 104,
+  "center": [52, 77],
+  "collisionRadius": 106.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 88,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 180,
+      "locations": [-35, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 18,
+      "angle": 0,
+      "locations": [13.5, -36.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 18,
+      "angle": -0,
+      "locations": [13.5, 38.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [23, -21]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [23, 21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20.5, 34],
+      "length": 29.328731,
+      "width": 8.080969,
+      "angle": 180,
+      "contrailSize": 8.080969,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-20.5, -34],
+      "length": 29.328731,
+      "width": 8.080969,
+      "angle": -180,
+      "contrailSize": 8.080969,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-24, 24],
+      "length": 29.328731,
+      "width": 8.080969,
+      "angle": 180,
+      "contrailSize": 8.080969,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-24, -24],
+      "length": 29.328731,
+      "width": 8.080969,
+      "angle": -180,
+      "contrailSize": 8.080969,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -75, 4.5,
+    -63.5, 13,
+    -49, 13,
+    -44, 17.5,
+    -44, 31.5,
+    -24.5, 31.5,
+    -22.5, 36,
+    -32.5, 36,
+    -37, 41,
+    -37, 44,
+    -3.5, 47.5,
+    -3.5, 41.5,
+    4.5, 41.5,
+    30.5, 16.5,
+    71, 1,
+    71, -1,
+    30.5, -16.5,
+    4.5, -41.5,
+    -3.5, -41.5,
+    -3.5, -47.5,
+    -37, -44,
+    -37, -41,
+    -32.5, -36,
+    -22.5, -36,
+    -24.5, -31.5,
+    -44, -31.5,
+    -44, -17.5,
+    -49, -13,
+    -63.5, -13,
+    -75, -4.5
+  ]
+}

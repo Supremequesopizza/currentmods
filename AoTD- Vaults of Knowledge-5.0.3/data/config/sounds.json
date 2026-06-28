@@ -1,0 +1,66 @@
+{
+
+"music":{
+		"aotd_shipyard":[
+			{
+				"source":"sounds/sfx_interface/shipyard",
+				"volume":0.4,
+				"files":[
+					"shipyard.ogg",
+				],
+				"randomStart":true,
+			}
+		],"aotd_research":[
+			{
+				"source":"sounds/sfx_interface/research",
+				"volume":0.4,
+				"files":[
+					"research.ogg",
+				],
+				"randomStart":true,
+			}
+		],"aotd_mega":[
+			{
+				"source":"sounds/sfx_interface/megastructures",
+				"volume":0.4,
+				"files":[
+					"mega.ogg",
+				],
+				"randomStart":true,
+			}
+		]
+		,"aotd_special":[
+			{
+				"source":"sounds/sfx_interface/special_proj",
+				"volume":0.4,
+				"files":[
+					"blacksite.ogg",
+				],
+				"randomStart":true,
+			}
+		]
+	
+	},
+	"aotd_research_complete":[
+			{"file":"sounds/sfx_interface/Research_Complete.ogg","volume":0.6}
+		],
+		"aotd_research_started":[
+			{"file":"sounds/sfx_interface/Research_Started.ogg","volume":0.6}
+		],
+	"shadowlance_charge":[
+		{"file":"sounds/weapons/shadowlance/shadowlance_charge.ogg","pitch":1,"volume":1},     
+	],
+	"shadowlance_fire":[
+		{"file":"sounds/weapons/shadowlance/shadowlance_fire.ogg","pitch":1,"volume":1},     
+	],
+	"shadowlance_on_fire":[
+		{"file":"sounds/weapons/shadowlance/shadowlance_on_fire.ogg","pitch":1,"volume":1},     
+	],
+	"RelicCharge":[
+		{"file":"sounds/weapons/gungnir/RelicCharge.ogg","pitch":1,"volume":1},     
+	],
+	"RelicFire":[
+		{"file":"sounds/weapons/gungnir/RelicFire.ogg","pitch":1,"volume":1},     
+	],
+	
+}

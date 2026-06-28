@@ -1,0 +1,60 @@
+{
+  "id": "missp_siege_gauss_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "heavy_mjolnir_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/missp_siege_gauss_cannon.png",
+  "turretGlowSprite": "graphics/weapons/missp_siege_gauss_cannon_glow.png",
+  "hardpointSprite": "graphics/weapons/missp_siege_gauss_cannon.png",
+  "hardpointGunSprite": "graphics/weapons/missp_siege_gauss_cannon_glow.png",
+  "hardpointUnderSprite": "graphics/weapons/missp_heavy_mjolnir_hardpoint_under.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    40,
+    -11,
+    40,
+    11
+  ],
+  "turretAngleOffsets": [
+    -0,
+    0
+  ],
+  "hardpointOffsets": [
+    37,
+    -4.5,
+    37,
+    4.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 100,
+    "spread": 5,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "particleDuration": 0.25,
+    "particleCount": 25,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "gauss_cannon_fire"
+}

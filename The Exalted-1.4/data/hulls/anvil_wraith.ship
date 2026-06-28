@@ -1,0 +1,312 @@
+{
+  "hullName": "Wraith",
+  "hullId": "anvil_wraith",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/anvil_wraith.png",
+  "style": "EXALTED_TECH",
+  "height": 245,
+  "width": 240,
+  "center": [120, 104.5],
+  "collisionRadius": 185.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 169,
+  "viewOffset": 0,
+  "builtInMods": [
+    "exalted_subsystems",
+    "surveying_equipment",
+    "hiressensors"
+  ],
+  "builtInWings": [
+    "anvil_delusion"
+  ],
+  "builtInWeapons": {
+    "WS0009": "anvil_purple",
+    "WS0011": "anvil_purple",
+    "WS0012": "anvil_purple",
+    "WS0013": "anvil_purple"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [110.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 265,
+      "angle": 0,
+      "locations": [65, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": -101.5,
+      "locations": [-24.5, -62]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 101.5,
+      "locations": [-24.5, 62]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [14.5, -53]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [14.5, 53]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [0.5, 82]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0.5, -82]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 180,
+      "locations": [-31.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        5, 9.5,
+        -2.5, -0.5,
+        13, -8.5,
+        22, 0.5,
+        13.5, 9,
+        6, -8,
+        9, 0.5
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [94, 35.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [94, -35.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 90,
+      "locations": [81, 37.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -90,
+      "locations": [81, -37.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-65, -0],
+      "length": 111,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-88.5, 82.5],
+      "length": 40,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-88.5, -82.5],
+      "length": 40,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-85, 59],
+      "length": 77,
+      "width": 32,
+      "angle": -180,
+      "contrailSize": 32,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-85, -59],
+      "length": 77,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-76, 41],
+      "length": 25,
+      "width": 4,
+      "angle": -172,
+      "contrailSize": 4,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-76, -41],
+      "length": 25,
+      "width": 4,
+      "angle": 172,
+      "contrailSize": 4,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-75, 38],
+      "length": 25,
+      "width": 4,
+      "angle": -172,
+      "contrailSize": 4,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-75, -38],
+      "length": 25,
+      "width": 4,
+      "angle": 172,
+      "contrailSize": 4,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-77, 44],
+      "length": 25,
+      "width": 4,
+      "angle": -172,
+      "contrailSize": 4,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-77, -44],
+      "length": 25,
+      "width": 4,
+      "angle": 172,
+      "contrailSize": 4,
+      "style": "EXALTED_TECH"
+    }
+  ],
+  "bounds": [
+    122, 13.5,
+    117, 14,
+    84.5, 30,
+    59.5, 35,
+    39.5, 33,
+    17.5, 44.5,
+    17.5, 60,
+    24, 63,
+    16.5, 68,
+    -3.5, 75.5,
+    3.5, 77,
+    3.5, 87.5,
+    -18, 93,
+    -45, 94,
+    -86, 102.5,
+    -87, 93,
+    -80, 89.5,
+    -88, 85.5,
+    -88, 79.5,
+    -85.5, 75.5,
+    -85.5, 48.5,
+    -78, 47,
+    -74.5, 37.5,
+    -66, 33.5,
+    -28.5, 34,
+    -36.5, 21.5,
+    -58.5, 14.5,
+    -65.5, 6,
+    -65.5, -6,
+    -58.5, -14.5,
+    -36.5, -21.5,
+    -28.5, -34,
+    -66, -33.5,
+    -74.5, -37.5,
+    -78, -47,
+    -85.5, -48.5,
+    -85.5, -75.5,
+    -88, -79.5,
+    -88, -85.5,
+    -80, -89.5,
+    -87, -93,
+    -86, -102.5,
+    -45, -94,
+    -18, -93,
+    3.5, -87.5,
+    3.5, -77,
+    -3.5, -75.5,
+    16.5, -68,
+    24, -63,
+    17.5, -60,
+    17.5, -44.5,
+    39.5, -33,
+    59.5, -35,
+    84.5, -30,
+    117, -14,
+    122, -13.5
+  ]
+}

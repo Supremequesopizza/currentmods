@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://drive.google.com/uc?id=1TuEJn1BefpdqhE5QCqw6iFPlu24hMh_Y&export=download",
+  "modName": "Missing Super Ships Addon",
+  "modVersion":
+    {
+      "major": 0,
+      "minor": 0,
+      "patch": 1 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+    },
+  "modThreadId": 31181,
+  "directDownloadURL": "https://drive.google.com/uc?id=17n2bxLM796xvDNz931RU3SF818lDGEt2&export=download",
+}

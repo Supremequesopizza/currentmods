@@ -1,0 +1,34 @@
+{
+  "displayName": "Exalted",
+  "fluxCapacitors": 16,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "anvil_urn",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_urn_exalted",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_ecto",
+        "WS0004": "anvil_ecto",
+        "WS0005": "anvil_ecto",
+        "WS0006": "anvil_ecto"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_varna",
+        "WS0002": "anvil_varna",
+        "WS0007": "anvil_varna"
+      }
+    }
+  ],
+  "wings": []
+}

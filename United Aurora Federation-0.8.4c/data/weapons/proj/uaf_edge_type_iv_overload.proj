@@ -1,0 +1,23 @@
+{
+	#this is for beam
+	"id":"uaf_edge_type_iv_overload",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":350.0,
+	"hitGlowRadius":165,
+	"width":30,
+	"fadeTime":1.50,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[87,11,203,240],
+	"coreColor":[200,255,255,240],
+	"glowColor":[87,11,203,155],
+	"glowRadius":50.5,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"onHitEffect":"data.scripts.weapons.uaf_edge_onhit",
+	#"bulletSprite":"graphics/missiles/shell_small.png"
+}

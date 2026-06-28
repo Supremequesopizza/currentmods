@@ -1,0 +1,71 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 2,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "uaf_seniraja",
+    "hullMods": [
+        "targetingunit",
+        "turretgyros"
+    ],
+    "quality": 0.7,
+    "variantId": "uaf_seniraja_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "uaf_tona_iii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_tona_ii",
+                "WS0002": "uaf_tona_ii",
+                "WS0003": "uaf_tona_ii",
+                "WS0004": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "uaf_rhythm_l_lrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_selemene_s_mrm",
+                "WS0006": "uaf_selemene_s_mrm",
+                "WS0009": "uaf_selemene_s_mrm",
+                "WS0010": "uaf_selemene_s_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_pd_reina",
+                "WS0008": "uaf_pd_reina",
+                "WS0011": "uaf_weiss_flk",
+                "WS0012": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": { }
+        }
+    ]
+}

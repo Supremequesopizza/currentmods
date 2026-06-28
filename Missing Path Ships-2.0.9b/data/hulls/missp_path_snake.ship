@@ -1,0 +1,103 @@
+{
+  "bounds": [
+    -32,
+    -14.5,
+    27,
+    -15.5,
+    27,
+    15.5,
+    -32,
+    14.5
+  ],
+  "center": [
+    19,
+    34
+  ],
+  "collisionRadius": 44,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 35.5,
+      "location": [
+        -33,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 20,
+      "location": [
+        -30,
+        10
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 20,
+      "location": [
+        -30,
+        -10
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    }
+  ],
+  "height": 69,
+  "hullId": "missp_path_snake",
+  "hullName": "Snake",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0.5,
+    0.5
+  ],
+  "shieldRadius": 38,
+  "spriteName": "graphics/ships/fighters/missp_path_snake.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        25,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -6,
+        11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -6,
+        -11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 37
+}

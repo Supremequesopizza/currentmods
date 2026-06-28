@@ -1,0 +1,208 @@
+{
+  "hullName": "Veneer",
+  "hullId": "ork_veneer",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ork_veneer.png",
+  "style": "LOW_TECH",
+  "height": 268,
+  "width": 174,
+  "center": [87, 134],
+  "collisionRadius": 163.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 157,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [76, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 40,
+      "locations": [4, 52]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -40,
+      "locations": [4, -52]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 52,
+      "locations": [78, 47]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -52,
+      "locations": [78, -47]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-45, 71.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-45, -71.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -135,
+      "locations": [-79, -36.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 135,
+      "locations": [-79, 36.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [112, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [110.5, 44]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [110.5, -44]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        20.5, -0,
+        23.5, -0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-135, -0],
+      "length": 77,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-135, 20],
+      "length": 74,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-135, -20],
+      "length": 74,
+      "width": 30,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-97, 59.5],
+      "length": 60.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-97, -59.5],
+      "length": 60.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -133.5, -26.5,
+    -95.5, -47,
+    -95.5, -62.5,
+    -89, -72,
+    -58.5, -72.5,
+    -44.5, -85,
+    -31.5, -72,
+    11, -65,
+    28.5, -41,
+    53, -56.5,
+    93, -56.5,
+    118.5, -52.5,
+    118.5, -36,
+    129.5, -22,
+    129.5, 22,
+    118.5, 36,
+    118.5, 52.5,
+    93, 56.5,
+    53, 56.5,
+    28.5, 41,
+    11, 65,
+    -31.5, 72,
+    -44.5, 85,
+    -58.5, 72.5,
+    -89, 72,
+    -95.5, 62.5,
+    -95.5, 47,
+    -133.5, 26.5
+  ]
+}

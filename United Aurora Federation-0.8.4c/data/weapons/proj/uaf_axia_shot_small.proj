@@ -1,0 +1,21 @@
+{
+	"id":"uaf_axia_shot_small",
+	"onHitEffect":"data.scripts.weapons.uaf_garuda_onhit",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":700,
+	"width":3.0,
+	"fadeTime":0.5, #11
+	"fringeColor":[130,130,240,155],
+	"coreColor":[120,120,240,255],
+	"glowColor":[77,166,255,230],
+	"hitGlowRadius":180,
+	"glowRadius":100,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"textureType":"ROUGH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	"bulletSprite":"graphics/fx/uaf_garuda_shock.png",
+}

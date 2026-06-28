@@ -1,0 +1,4 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
+,,,,,,,,,,,,,
+bt_gestalt_influence,Gestalt Influence,1,1,0,,"You may not see it, but we do. This is not an act of war - nor malice - but preservation. You will.. understand. Truly, you will. This, we promise you.",???,TRUE,,,"npc_only, ai_core_only",graphics/icons/skills/bt_gestalt_echo.png,
+,,,,,,,,,,,,,

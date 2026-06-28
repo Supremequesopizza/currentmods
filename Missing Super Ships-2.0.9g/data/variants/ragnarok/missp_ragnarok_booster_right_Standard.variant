@@ -1,0 +1,33 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 7,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "missp_ragnarok_booster_right",
+    "hullMods": [
+        "expanded_deck_crew",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_ragnarok_booster_right_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "flak",
+            "WS0002": "flak",
+            "WS0003": "vulcan",
+            "WS0004": "vulcan",
+            "WS0005": "vulcan",
+            "WS0006": "vulcan",
+            "WS0007": "flak",
+            "WS0008": "vulcan"
+        }
+    }],
+    "wings": [
+        "perdition_wing",
+        "perdition_wing",
+        "perdition_wing"
+    ]
+}

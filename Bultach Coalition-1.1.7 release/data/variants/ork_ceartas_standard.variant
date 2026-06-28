@@ -1,0 +1,61 @@
+{
+  "variantId": "ork_ceartas_standard",
+  "hullId": "ork_ceartas",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 13,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_diuraidh"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ork_fuadian_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ork_clangtorp_medium",
+        "WS0006": "ork_clangtorp_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_swarmer_small",
+        "WS0007": "ork_swarmer_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ork_lub_pd",
+        "WS0008": "ork_lub_pd",
+        "WS0009": "ork_lub_pd",
+        "WS0010": "ork_lub_pd",
+        "WS0011": "ork_lub_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ork_dion"
+  ]
+}

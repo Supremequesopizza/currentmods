@@ -1,0 +1,107 @@
+{
+  "hullName": "Judgement",
+  "hullId": "ork_judgement",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/judgement/ork_judgement_main.png",
+  "style": "LOW_TECH",
+  "height": 402,
+  "width": 406,
+  "center": [203, 201],
+  "collisionRadius": 247,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 236,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_antiNukeHidden",
+    "BT_linkedhull_three"
+  ],
+  "builtInWeapons": {
+    "WS0003": "bultach_orbbeam_station"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 0,
+      "locations": [63, 55]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": -0,
+      "locations": [63, -55]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [121, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-165, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-49, 176]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-49, -176]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [156, 105]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [156, -105]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -68.5, -64.5,
+    -13.5, -101.5,
+    56.5, -96.5,
+    111, -35.5,
+    111, 35.5,
+    56.5, 96.5,
+    -13.5, 101.5,
+    -68.5, 64.5,
+    -104, -0
+  ]
+}

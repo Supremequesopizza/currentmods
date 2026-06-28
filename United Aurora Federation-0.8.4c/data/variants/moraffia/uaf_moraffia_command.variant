@@ -1,0 +1,54 @@
+{
+    "displayName": "Command",
+    "fluxCapacitors": 4,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_moraffia",
+    "hullMods": [
+        "uaf_squadron_suite"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_moraffia_command",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_clarinet_mirv_small",
+                "WS0004": "uaf_clarinet_mirv_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_oboe_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina",
+                "WS0006": "uaf_pd_reina"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_forlorn"
+    ]
+}

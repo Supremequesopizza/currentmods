@@ -1,0 +1,21 @@
+{
+	"id":"bt_safetyoverrides_toggle",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_pather_assault_ai",
+	
+	"statsScript":"data.scripts.shipsystems.bt_safetyoverrides_toggle",
+
+	"engineGlowLengthMult":1.05,
+	"engineGlowWidthMult":1.05,
+	"engineGlowGlowMult":1.05,
+
+	"useSound":"bt_pather_safetyoverrides_toggle_start",
+	"loopSound":"bt_pather_safetyoverrides_toggle_loop",
+	"deactivateSound":"bt_assault_drive_powerdown",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":250,
+	}
+}

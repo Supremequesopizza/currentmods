@@ -1,0 +1,43 @@
+{
+  "id": "ork_clangtorp_medium",
+  "specClass": "projectile",
+  "projectileSpecId": "ork_clangtorp_srm",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/gestalt/ork_clangtorp_medium_turret.png",
+  "hardpointSprite": "graphics/weapons/gestalt/ork_clangtorp_medium_hardpoint.png",
+  "turretOffsets": [
+    17,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    23.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 5,
+    "cloudDuration": 2,
+    "cloudRadius": 15,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 0.5,
+    "blowbackLength": 15,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      70,
+      170,
+      100
+    ]
+  },
+  "fireSoundTwo": "bt_divine_CLANG_launch"
+}

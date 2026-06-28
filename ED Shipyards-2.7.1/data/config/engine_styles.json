@@ -1,0 +1,28 @@
+{
+	# Reserved engine style ids (can not be used):
+	# "CUSTOM"
+	
+	"ED_SHIPYARD":{						
+		"engineColor":[200,150,200,255],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[150,125,150,25],
+		"contrailCampaignColor":[100,75,100,75],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"ED_SHIPYARD_P":{
+		"engineColor":[100, 20, 20, 255],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[120, 40, 40, 150],
+		"contrailCampaignColor":[120, 40, 40, 150],
+		"type":"SMOKE" # GLOW or SMOKE
+	}
+}
+

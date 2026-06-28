@@ -1,0 +1,189 @@
+{
+  "hullName": "Vaharagiri (SP)",
+  "hullId": "uaf_ai_vaharagiri",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/uaf_ai_vaharagiri.png",
+  "style": "UAF_DESTROYER",
+  "height": 215,
+  "width": 150,
+  "center": [75, 107.5],
+  "collisionRadius": 148.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 116,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+	"uaf_aegis_concord",
+    "uaf_automataSpec",
+    "uaf_atmospheric_entry"
+  ],
+  "builtInWeapons": {
+    "SIRENE_LEFT_1": "uaf_blinker_sirene_1",
+    "SIRENE_LEFT_2": "uaf_blinker_sirene_2",
+    "SIRENE_RIGHT_1": "uaf_blinker_sirene_1",
+    "SIRENE_RIGHT_2": "uaf_blinker_sirene_2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 315,
+      "angle": 0,
+      "locations": [7.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 35,
+      "angle": 0,
+      "locations": [55.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 35,
+      "angle": -0,
+      "locations": [31.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-22.5, 27]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-22.5, -27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [15.5, 30]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": -0,
+      "locations": [15.5, -30]
+    },
+    {
+      "id": "SIRENE_LEFT_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-39, 9.5]
+    },
+    {
+      "id": "SIRENE_RIGHT_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-39, -9.5]
+    },
+    {
+      "id": "SIRENE_LEFT_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-32, 9.5]
+    },
+    {
+      "id": "SIRENE_RIGHT_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-32, -9.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83.5, -0.5],
+      "length": 92,
+      "width": 38,
+      "angle": 180,
+      "contrailSize": 38,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-83.5, -8.5],
+      "length": 38.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-83.5, 8.5],
+      "length": 38.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-83.5, 26],
+      "length": 19,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-83.5, -26],
+      "length": 19,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -91.5, 23.5,
+    -68.5, 31,
+    -60.5, 48,
+    -13, 48,
+    2, 36.5,
+    29, 36,
+    29, 27,
+    88, 14,
+    80.5, 9.5,
+    80.5, -9.5,
+    88, -14,
+    29, -27,
+    29, -36,
+    2, -36.5,
+    -13, -48,
+    -60.5, -48,
+    -68.5, -31,
+    -91.5, -23.5
+  ]
+}

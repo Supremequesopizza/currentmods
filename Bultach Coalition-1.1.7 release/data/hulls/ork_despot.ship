@@ -1,0 +1,377 @@
+{
+  "hullName": "Despot",
+  "hullId": "ork_despot",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/despot/ork_despot.png",
+  "style": "LOW_TECH",
+  "height": 228,
+  "width": 310,
+  "center": [155, 121],
+  "collisionRadius": 245,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 235.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "bt_puncher",
+    "bt_stolen_blastdampeners",
+    "bt_brawler_armour"
+  ],
+  "builtInWeapons": {
+    "LEFTGUIDE": "ork_leftarm_wpn",
+    "RIGHTGUIDE": "ork_rightarm_wpn",
+    "VIEWFINDER": "ork_leftarm_wpn",
+    "VIEWFINDER_ALLY": "ork_leftarm_wpn",
+    "WS0003": "ork_vectorEngineController"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 168,
+      "angle": 45,
+      "locations": [-1, 85]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 168,
+      "angle": -45,
+      "locations": [-1, -85]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": 132,
+      "locations": [-10, 49]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": -132,
+      "locations": [-10, -49]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 93,
+      "angle": 180,
+      "locations": [-27, 14]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 93,
+      "angle": -180,
+      "locations": [-27, -14]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 106,
+      "angle": 45,
+      "locations": [66, 19]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 106,
+      "angle": -45,
+      "locations": [66, -19]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [38, 64]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -0,
+      "locations": [38, -64]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [80.5, 55]
+    },
+    {
+      "id": "WS0019",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [80.5, -55]
+    },
+    {
+      "id": "LEFTARM",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 150,
+      "locations": [38, 111],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "RIGHTARM",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 210,
+      "locations": [38, -111],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "LEFTHAND",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, 141]
+    },
+    {
+      "id": "RIGHTHAND",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, -141]
+    },
+    {
+      "id": "LEFTGUIDE",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -25,
+      "locations": [101, 146.5]
+    },
+    {
+      "id": "RIGHTGUIDE",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 25,
+      "locations": [101, -146.5]
+    },
+    {
+      "id": "VIEWFINDER_ALLY",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [42, 0]
+    },
+    {
+      "id": "VIEWFINDER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [42, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-2, 141.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-2, -141.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-92, 52.5],
+      "length": 111.526123,
+      "width": 33.372082,
+      "angle": 178.5,
+      "contrailSize": 33.372082,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-92, -52.5],
+      "length": 111.526123,
+      "width": 33.372082,
+      "angle": -178.5,
+      "contrailSize": 33.372082,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-101, 23],
+      "length": 137,
+      "width": 40,
+      "angle": -180,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-101, -23],
+      "length": 137,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, 122],
+      "length": 137,
+      "width": 40,
+      "angle": 130,
+      "contrailSize": 40,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [-61, -122],
+      "length": 137,
+      "width": 40,
+      "angle": -130,
+      "contrailSize": 40,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [-73.5, 109.5],
+      "length": 99.089401,
+      "width": 30.824741,
+      "angle": 130,
+      "contrailSize": 30.824741,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73.5, -109.5],
+      "length": 99.089401,
+      "width": 30.824741,
+      "angle": -130,
+      "contrailSize": 30.824741,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, 130],
+      "length": 99.089401,
+      "width": 30.824741,
+      "angle": 130,
+      "contrailSize": 30.824741,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, -130],
+      "length": 99.089401,
+      "width": 30.824741,
+      "angle": -130,
+      "contrailSize": 30.824741,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-17, 142.5],
+      "length": 60.076057,
+      "width": 12.785536,
+      "angle": 108.5,
+      "contrailSize": 12.785536,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [-17, -142.5],
+      "length": 60.076057,
+      "width": 12.785536,
+      "angle": -108.5,
+      "contrailSize": 12.785536,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    }
+  ],
+  "bounds": [
+    -99, -8,
+    -99, -31.5,
+    -90, -36,
+    -89.5, -62.5,
+    -74, -66.5,
+    -96.5, -75.5,
+    -72, -84.5,
+    -75, -104,
+    -34.5, -135.5,
+    -41.5, -150,
+    22, -139,
+    85.5, -96,
+    75.5, -79,
+    65, -78,
+    63, -71,
+    79, -61.5,
+    80.5, -41.5,
+    105, -0,
+    80.5, 41.5,
+    79, 61.5,
+    63, 71,
+    65, 78,
+    75.5, 79,
+    85.5, 96,
+    22, 139,
+    -41.5, 150,
+    -34.5, 135.5,
+    -75, 104,
+    -72, 84.5,
+    -96.5, 75.5,
+    -74, 66.5,
+    -89.5, 62.5,
+    -90, 36,
+    -99, 31.5,
+    -99, 8,
+    -120, -0
+  ]
+}

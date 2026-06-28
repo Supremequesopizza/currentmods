@@ -1,0 +1,20 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 1,
+    "hullId": "supportships_carton(TT)",
+    "hullMods": [
+        "hiressensors",
+        "extendedshieldemitter",
+		"unstable_injector"
+    ],
+	"goalVariant": true,
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "supportships_carton(TT)_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "pdburst"}
+    }]
+}

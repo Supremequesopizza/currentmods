@@ -1,0 +1,40 @@
+{
+    "displayName": "Strategic",
+    "fluxCapacitors": 2,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "uaf_ai_minoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_super_heavy_wing_operation"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_ai_minoria_strategic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_edge_type_i",
+                "WS0002": "uaf_edge_type_i",
+                "WS0003": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_merupaka_epd",
+                "WS0005": "uaf_merupaka_epd"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_menascar_ii"
+    ]
+}

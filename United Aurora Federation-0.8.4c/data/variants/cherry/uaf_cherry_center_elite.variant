@@ -1,0 +1,79 @@
+{
+  "variantId": "uaf_cherry_center_elite",
+  "hullId": "uaf_cherry_center",
+  "displayName": "Cherry Center Port",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_ivory",
+        "WS0007": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_ivory",
+        "WS0008": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_selemene_s_mrm",
+        "WS0010": "uaf_selemene_s_mrm",
+        "WS0019": "uaf_selemene_s_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_yokata_155_cn",
+        "WS0016": "uaf_yokata_155_cn",
+        "WS0017": "uaf_yokata_155_cn",
+        "WS0018": "uaf_yokata_155_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_vocal_l_srm",
+        "WS0002": "uaf_vocal_l_srm",
+        "WS0011": "uaf_chorus_s_amm",
+        "WS0012": "uaf_chorus_s_amm",
+        "WS0013": "uaf_pd_reina",
+        "WS0014": "uaf_pd_reina",
+        "WS0020": "uaf_tona_iii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

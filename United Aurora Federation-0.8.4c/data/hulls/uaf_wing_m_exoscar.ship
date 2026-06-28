@@ -1,0 +1,79 @@
+{
+  "hullName": "Exoscar (M)",
+  "hullId": "uaf_wing_m_exoscar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_m_wing_exoscar.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 58,
+  "width": 46,
+  "center": [23, 29],
+  "collisionRadius": 41.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 6.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 25,
+      "locations": [-11, 8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -25,
+      "locations": [-11, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, 4.5],
+      "length": 44.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-17.5, -4.5],
+      "length": 44.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -13, 22,
+    28, -0,
+    -13, -22,
+    -28, -0
+  ]
+}

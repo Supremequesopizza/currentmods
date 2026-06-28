@@ -1,0 +1,61 @@
+{
+  "id": "ork_old_laser",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.bt_oldbeam_flare_effect",
+  "beamEffect": "data.scripts.weapons.bt_old_beam_effect",
+  "skipIdleFrameIfZeroBurstDelay":true,
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/ork_old_laser_turret.png",
+  "turretGlowSprite": "graphics/weapons/ork_old_laser_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/ork_old_laser_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/ork_old_laser_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    30,
+    0,
+    200
+  ],
+  "hitGlowRadius": 45,
+  "turretOffsets": [
+    25.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    30.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    30,
+    0,
+    200
+  ],
+  "coreColor": [
+    255,
+    255,
+    245,
+    255
+  ],
+  "width": 25,
+  "textureType": LASER,
+  "textureScrollSpeed": 250,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "bt_frag_beam_loop",
+  "mountTypeOverride": "HYBRID"
+}

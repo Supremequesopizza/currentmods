@@ -1,0 +1,47 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 24,
+    "fluxVents": 30,
+    "hullId": "tahlan_midi",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "tahlan_midi_standard",
+	"goalVariant": true,
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0013": "tahlan_ocbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "tahlan_tear_small",
+                "WS0008": "tahlan_tear_small",
+                "WS0009": "tahlan_tear_small",
+                "WS0010": "tahlan_tear_small",
+                "WS0011": "tahlan_tear_small",
+                "WS0012": "tahlan_tear_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "tahlan_lacette",
+                "WS0002": "tahlan_lacette",
+                "WS0003": "tahlan_tousle"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "tahlan_string",
+                "WS0005": "tahlan_string",
+                "WS0006": "pdburst"
+            }
+        }
+    ]
+}

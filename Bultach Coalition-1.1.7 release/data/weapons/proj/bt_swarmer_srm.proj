@@ -1,0 +1,47 @@
+{
+	"id":"bt_swarmer_srm",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/bt_gestalt_micro.png",
+	"size":[1,1],	
+	"center":[4,7],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"onHitEffect":"data.scripts.weapons.bt_dotOnHit_energy",
+	"useHitGlowWhenDestroyed":true,
+	"dudProbabilityOnFlameout":0,
+	"armingTime":0,
+	"flameoutTime":0.5,
+	"noEngineGlowTime":0.5,
+	"fadeTime":0.5,
+	"glowColor":[109,228,255,75],
+	"glowRadius":45,
+	"explosionColor":[109,228,255,125],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"engineSpec":{"turnAcc":2000,
+				  "turnRate":500,
+				  "acc":2000,
+				  "dec":2000},			  
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[109,228,255,255],
+						"glowSizeMult":0.7,
+						"glowAlternateColor":[150,100,255,255],
+						"contrailDuration":.2,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.0, # how far away from engine it starts
+						"contrailColor":[109,228,255,70],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":40.0,
+				    "angle":180.0}]
+}

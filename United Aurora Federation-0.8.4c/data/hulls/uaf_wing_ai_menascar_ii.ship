@@ -1,0 +1,125 @@
+{
+  "hullName": "Menascar II (N/SP)",
+  "hullId": "uaf_wing_ai_menascar_ii",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ai_wing_menascar_ii_nsp.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 127,
+  "width": 104,
+  "center": [52, 63.5],
+  "collisionRadius": 93,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_gunship_mod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-22, 26]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-22, -26]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, 16]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [1.5, -16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [7, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 80,
+      "angle": 50,
+      "locations": [22.5, 9]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 80,
+      "angle": -50,
+      "locations": [22.5, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21, 2.5],
+      "length": 67,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-21, -2.5],
+      "length": 67,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-29, 7.5],
+      "length": 69,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-29, -7.5],
+      "length": 69,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    -41.5, 45,
+    -58.5, 22,
+    -45.5, 7,
+    -45.5, -7,
+    -58.5, -22,
+    -41.5, -45,
+    62, -0
+  ]
+}

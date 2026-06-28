@@ -1,0 +1,31 @@
+{
+	#this is for anti shield large-blue color (Kinetic)
+	"id":"uaf_pu_ash_rotan",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":100.0,
+	"hitGlowRadius":135,
+	"width":10.5,
+	"fadeTime":0.50,
+	"fringeColor":[76, 255, 199,125],
+	"coreColor":[156, 255, 100,120],
+	"glowColor":[100,165,255,20],	
+	"explosionColor":[156, 255, 100,120],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":180, # purely visual
+	"explosionSpec":{"duration":5f, # not visual
+					 "radius":100,
+					 "coreRadius":55, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.0,
+					 "particleSizeRange":7.0,
+					 "particleDuration":3,
+					 "particleCount":200,
+					 "particleColor":[100,165,255,220]},
+	"glowRadius":80,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large.png"
+}

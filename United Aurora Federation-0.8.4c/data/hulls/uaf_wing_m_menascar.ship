@@ -1,0 +1,142 @@
+{
+  "hullName": "Menascar (M)",
+  "hullId": "uaf_wing_m_menascar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_m_wing_menascar.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 122,
+  "width": 90,
+  "center": [45, 55],
+  "collisionRadius": 80.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 67.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_gunship_mod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-12.5, 26]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-12.5, -26]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 32,
+      "angle": 0,
+      "locations": [20, 21.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 32,
+      "angle": -0,
+      "locations": [20, -21.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 32,
+      "angle": 15.5,
+      "locations": [22, 13]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 32,
+      "angle": -15.5,
+      "locations": [22, -13]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 32,
+      "angle": -0,
+      "locations": [26, -10.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 32,
+      "angle": 0,
+      "locations": [26, 10.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [14.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, 4.5],
+      "length": 67,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-18, -4.5],
+      "length": 67,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-22.5, 8.5],
+      "length": 67,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-22.5, -8.5],
+      "length": 67,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -50.5, 21,
+    -35.5, 43.5,
+    65, -0,
+    -35.5, -43.5,
+    -50.5, -21,
+    -37, -0
+  ]
+}

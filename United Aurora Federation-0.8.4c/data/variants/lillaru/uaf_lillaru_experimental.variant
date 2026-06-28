@@ -1,0 +1,69 @@
+{
+    "displayName": "Experimental",
+    "fluxCapacitors": 5,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "uaf_lillaru",
+    "hullMods": [
+        "uaf_special_edge_capacitor_retrofit"
+    ],
+    "quality": 0.7,
+    "variantId": "uaf_lillaru_experimental",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_penulisa_acx"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_minibreve_tnt_s",
+                "WS0008": "uaf_minibreve_tnt_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "uaf_clarinet_mirv_medium",
+                "WS0015": "uaf_oboe_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_hikone_quad",
+                "WS0004": "uaf_hikone_quad",
+                "WS0012": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_deco_mg",
+                "WS0002": "uaf_deco_mg",
+                "WS0011": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_pd_reina",
+                "WS0010": "uaf_pd_reina",
+                "WS0016": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

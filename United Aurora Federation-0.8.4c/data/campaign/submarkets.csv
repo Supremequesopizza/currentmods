@@ -1,0 +1,3 @@
+id,name,faction,desc,script,icon,order
+uaf_novemberSubmarket,November Auxillary,uaf_november,Providing access to upgraded ships and wares of the Auroran Navy's November Fleet.,com.fs.starfarer.api.impl.campaign.submarkets.uaf_novemberSubmarket,,100
+uaf_automataSubmarket,Automata Logistics,uaf_automata,Providing access to upgraded ships and wares of the Auroran Automata Division.,com.fs.starfarer.api.impl.campaign.submarkets.uaf_automataSubmarket,,100

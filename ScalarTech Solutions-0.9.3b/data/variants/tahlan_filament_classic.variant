@@ -1,0 +1,68 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 18,
+    "fluxVents": 50,
+    "hullId": "tahlan_filament",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "tahlan_filament_classic",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "tahlan_seam",
+                "WS0002": "tahlan_seam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabotpod",
+                "WS0006": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "tahlan_lace",
+                "WS0004": "tahlan_lace"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0018": "tahlan_strass"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "tahlan_string",
+                "WS0008": "tahlan_string",
+                "WS0009": "tahlan_string",
+                "WS0010": "tahlan_string",
+                "WS0011": "tahlan_string",
+                "WS0012": "tahlan_string",
+                "WS0013": "tahlan_string",
+                "WS0014": "tahlan_string",
+                "WS0015": "tahlan_string",
+                "WS0016": "tahlan_string",
+                "WS0017": "tahlan_string"
+            }
+        }
+    ],
+    "wings": [
+        "tahlan_dessous_fighter_wing",
+        "tahlan_twine_interceptor_wing",
+        "tahlan_twine_interceptor_wing",
+        "tahlan_twine_interceptor_wing"
+    ]
+}

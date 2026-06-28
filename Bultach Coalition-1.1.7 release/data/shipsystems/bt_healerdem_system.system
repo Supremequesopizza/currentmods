@@ -1,0 +1,9 @@
+{
+	"id":"bt_healerdem_system",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.bt_tempHPAI",
+	
+	"weaponDataId":"ork_aegis_launcher",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

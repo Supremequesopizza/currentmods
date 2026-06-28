@@ -1,0 +1,60 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 5,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "uaf_inazuma",
+    "hullMods": [
+        "targetingunit",
+        "uaf_secondary_focus",
+        "heavyarmor"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_inazuma_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_rotan_452_cn",
+                "WS0009": "uaf_rotan_452_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_medlav_quad",
+                "WS0004": "uaf_ivory_triple",
+                "WS0005": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_pd_reina",
+                "WS0007": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": { }
+        }
+    ]
+}

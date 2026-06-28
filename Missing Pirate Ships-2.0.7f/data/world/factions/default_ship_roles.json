@@ -1,0 +1,13 @@
+{
+	"combatMedium":{
+		"missp_starlinermkii_Standard":10,
+		"missp_starlinermkii_Elite":10
+	},
+	"combatLarge":{
+		"missp_atlasmkiii_Standard":3.7
+	},
+	"combatsmall":{
+		"missp_nebulamkii_Standard":10,
+		"missp_nebulamkii_Brawler":10
+	}
+}

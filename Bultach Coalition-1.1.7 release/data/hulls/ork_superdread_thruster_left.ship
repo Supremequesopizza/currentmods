@@ -1,0 +1,139 @@
+{
+  "hullName": "Thruster Module",
+  "hullId": "ork_superdread_thruster_left",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/superdread/ork_superdread_thruster_left.png",
+  "style": "LOW_TECH",
+  "height": 499,
+  "width": 250,
+  "center": [133, 249],
+  "collisionRadius": 284,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 269,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "always_detaches",
+    "BT_antiNuke"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 135,
+      "locations": [-105, -73]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 135,
+      "locations": [-179, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-104, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 135,
+      "locations": [-17, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [194, -11.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [28, 45.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        66, 41.5,
+        65.5, 42
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        90, 41,
+        90, 41.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        113.5, 41,
+        113, 41
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    246.5, -1.5,
+    221.5, -62,
+    194, -43,
+    166, -52,
+    111, -13,
+    82.5, -12.5,
+    15, -27.5,
+    -16, -48,
+    -25, -94.5,
+    -157.5, -104.5,
+    -228.5, -100.5,
+    -244, -67,
+    -216, -61.5,
+    -217, -42,
+    -152, -18,
+    -79.5, -7,
+    -61.5, 15,
+    -111.5, 124.5,
+    -106, 130,
+    -91.5, 130,
+    19.5, 67.5,
+    121, 65.5,
+    112, 100.5,
+    121.5, 104.5,
+    184, 28.5
+  ]
+}

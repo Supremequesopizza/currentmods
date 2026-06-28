@@ -1,0 +1,25 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 7,
+    "fluxVents": 0,
+    "hullId": "missp_anchor_industrial_left",
+    "hullMods": [
+        "militarized_subsystems",
+        "expanded_deck_crew",
+        "expanded_cargo_holds",
+        "armoredweapons",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_anchor_industrial_left_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "vulcan",
+            "WS0003": "vulcan"
+        }
+    }],
+    "wings": ["thunder_wing"]
+}

@@ -1,0 +1,23 @@
+{
+	"id":"bt_offensive_overdrive",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_assault_ai",
+	
+	"statsScript":"data.scripts.shipsystems.bt_overdrive",
+
+	"jitterUnderColor":[205,095,100,155],
+	"jitterUnderCopies":12,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":5,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"useSound":"fluxbooster_active",
+	"loopSound":"ork_reactor_loop",
+	"deactivateSound":"bt_assault_drive_powerdown",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":250,
+	}
+}

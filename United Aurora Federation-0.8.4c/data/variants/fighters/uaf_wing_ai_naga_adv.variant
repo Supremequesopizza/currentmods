@@ -1,0 +1,39 @@
+{
+  "variantId": "uaf_wing_ai_naga_adv",
+  "hullId": "uaf_wing_ai_naga",
+  "displayName": "Advanced Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "uaf_fw_merupaka_epd",
+        "WS0006": "uaf_fw_merupaka_epd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_fw_edge_type_i",
+        "WS0002": "uaf_fw_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_fw_amssm_class_iii",
+        "WS0004": "uaf_fw_amssm_class_iii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

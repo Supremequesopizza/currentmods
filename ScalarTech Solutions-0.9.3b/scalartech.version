@@ -1,0 +1,11 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/niatahl/tahlan-scalartech/master/scalartech.version",
+    "modName":"ScalarTech Solutions",
+    "modThreadId":"18845",
+    "modVersion":
+    {
+        "major":0,
+        "minor":9,
+        "patch":"3b"
+    },
+}

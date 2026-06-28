@@ -1,0 +1,48 @@
+{
+	#UAF Custom Tailored Ranks and Posts
+	"ranks":{
+		# Queen
+		"uaf_queen_of_yuria":{"name":"Queen of Yuria"},
+		# Robo Queen
+		"uaf_artificial_queen":{"name":"Artificial Queen"},
+		# Administrator
+		"uaf_auroran_administrator":{"name":"Auroran Administrator"},
+		# Misc
+		"uaf_captain_yamazaki":{"name":"Captain"},
+		"uaf_pilot_yimie":{"name":"Lieutenant"},
+		"uaf_researcher":{"name":"Auroran Researcher"},
+		"uaf_admiral_solvy":{"name":"Honorary Admiral"},
+		"uaf_admiral":{"name":"Admiral"},
+		"uaf_rear_admiral":{"name":"Rear Admiral"},
+		"uaf_vice_admiral":{"name":"Vice Admiral"},
+		"uaf_historian":{"name":"Seeker of Knowledge"},
+		"uaf_commodore":{"name":"Commodore"},
+		
+		# Special Neukos
+		"uaf_keycard_shop_title":{"name":"Crown Princess Type Neuko"},
+		"uaf_neuko_combat":{"name":"Combat Type Neuko"},
+	},
+	
+	"posts":{
+		# Queen
+		"uaf_queen_of_yuria":{"name":"Queen of Yuria"},
+		# Robo Queen
+		"uaf_artificial_queen":{"name":"Artificial Queen"},
+		# Administrator
+		"uaf_auroran_administrator":{"name":"Auroran Administrator"},
+		# Misc
+		"uaf_captain_yamazaki":{"name":"Captain"},
+		"uaf_pilot_yimie":{"name":"Lieutenant"},
+		"uaf_researcher":{"name":"Auroran Researcher"},
+		"uaf_admiral_solvy":{"name":"Honorary Admiral"},
+		"uaf_admiral":{"name":"Admiral"},
+        "uaf_rear_admiral":{"name":"Rear Admiral"},
+		"uaf_vice_admiral":{"name":"Vice Admiral"},
+		"uaf_historian":{"name":"Administrator"},
+		"uaf_commodore":{"name":"Commodore"},
+		
+		# Special Neukos
+		"uaf_keycard_shop_title":{"name":"Special Economics Zone Gatekeeper / Narumi Bar Owner"},
+		"uaf_neuko_combat":{"name":"Combat Type Neuko"},
+	},
+}

@@ -1,0 +1,10 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "missp_ragnarok_core":0.03
+		}
+	},
+    "knownShips":{
+        "hulls":[]
+	}
+}

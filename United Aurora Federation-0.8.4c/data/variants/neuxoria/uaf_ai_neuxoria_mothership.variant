@@ -1,0 +1,79 @@
+{
+    "displayName": "Mothership",
+    "fluxCapacitors": 3,
+    "fluxVents": 2,
+    "goalVariant": false,
+    "hullId": "uaf_ai_neuxoria",
+    "hullMods": [
+        "uaf_super_heavy_wing_operation",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_ai_neuxoria_mothership",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "uaf_rhythm_l_lrm",
+                "WS0009": "uaf_rhythm_l_lrm",
+                "WS0008": "uaf_rhythm_base_triple",
+                "WS0007": "uaf_rhythm_base_triple",
+                "WS0006": "uaf_rhythm_base_triple",
+                "WS0005": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "uaf_enyria_pdx",
+                "WS0011": "uaf_enyria_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "uaf_ivory_triple",
+                "WS0017": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0020": "uaf_racun_pod",
+                "WS0019": "uaf_racun_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "uaf_medlav_quad",
+                "WS0013": "uaf_medlav_quad",
+                "WS0016": "uaf_deco_mg",
+                "WS0015": "uaf_deco_mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_pd_reina_ii",
+                "WS0001": "uaf_pd_reina_ii",
+                "WS0004": "uaf_flair_pod",
+                "WS0003": "uaf_flair_pod"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_puterakamu",
+        "uaf_wing_ai_puterakamu",
+        "uaf_wing_ai_puterakamu",
+        "uaf_wing_ai_veronica",
+        "uaf_wing_ai_veronica",
+        "uaf_wing_ai_veronica"
+    ]
+}

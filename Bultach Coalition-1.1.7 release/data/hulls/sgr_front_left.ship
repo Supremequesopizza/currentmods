@@ -1,0 +1,121 @@
+{
+  "hullName": "Prow Module",
+  "hullId": "sgr_front_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Sgriosathar/Sgriosathar_front_left.png",
+  "style": "BULTACH",
+  "height": 219,
+  "width": 108,
+  "center": [51.5, 133.5],
+  "collisionRadius": 164,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 155,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "BT_linkedhull",
+    "bt_sathar_core",
+    "always_detaches",
+    "BT_antiNuke"
+  ],
+  "builtInWeapons": {
+    "WS0005": "ork_blinker_red",
+    "WS0006": "ork_blinker_green",
+    "WS0007": "ork_blinker_green",
+    "WS0008": "ork_blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [45, -4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [-74.5, -19.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 85.5,
+      "locations": [-20.5, -34.5],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-30.5, -5.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15, 7]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [54, 23]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-79, 21]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-113, -12]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    81, -39,
+    40.5, 31,
+    10, 24.5,
+    -70.5, 11.5,
+    -84.5, 13.5,
+    -92.5, 3,
+    -107, 17.5,
+    -131.5, -19.5,
+    -117, -31.5,
+    -83.5, -38.5,
+    -64, -36.5,
+    -40.5, -48,
+    -19, -55,
+    -1, -43.5,
+    20.5, -45,
+    39, -39.5
+  ]
+}

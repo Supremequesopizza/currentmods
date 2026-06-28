@@ -1,0 +1,18 @@
+macro,replace
+$api,com.fs.starfarer.api
+$settings,Global.getSettings()
+$combatEngine,Global.getCombatEngine()
+$sector,Global.getSector()
+$pData,Global.getSector().getPersistentData()
+$cData,Global.getCombatEngine().getCustomData()
+$loc,Global.getSector().getCurrentLocation()
+$playerLoc,(Console.getContext().isInCombat() ? Global.getCombatEngine().getPlayerShip().getLocation() : Global.getSector().getPlayerFleet().getLocation())
+$playerShip,Global.getCombatEngine().getPlayerShip()
+$playerFleet,Global.getSector().getPlayerFleet()
+$playerFaction,Global.getSector().getPlayerFaction()
+$view,(Console.getContext().isInCombat() ? Global.getCombatEngine().getViewport() : Global.getSector().getViewport())
+$entity,Console.getContext().getEntityInteractedWith()
+$market,Console.getContext().getEntityInteractedWith().getMarket()
+$sop,System.out.println
+$print,Console.showMessage
+$context,Console.getContext()

@@ -1,0 +1,21 @@
+{
+	"id":"uaf_acceleratedMissileRack",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.uaf_missileRackAcceleratorAI",
+	
+	"statsScript":"data.shipsystems.scripts.uaf_missileRackAccelerator",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"uaf_missile_rack",
+	#"loopSound":"system_temporalshell_loop",
+	#"deactivateSound":"system_temporalshell_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

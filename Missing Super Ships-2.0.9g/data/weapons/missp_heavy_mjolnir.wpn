@@ -1,0 +1,60 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+  "fireSoundTwo": "hellbore_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/missp_heavy_mjolnir_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    37,
+    -4.5,
+    37,
+    4.5
+  ],
+  "hardpointSprite": "graphics/weapons/missp_heavy_mjolnir_hardpoint_base.png",
+  "hardpointUnderSprite": "graphics/weapons/missp_heavy_mjolnir_hardpoint_under.png",
+  "id": "missp_heavy_mjolnir",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "particleColor": [
+      255,
+      185,
+      215,
+      215
+    ],
+    "particleCount": 18,
+    "particleDuration": 0.14,
+    "particleSizeMin": 27,
+    "particleSizeRange": 40,
+    "spread": 16
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "heavy_mjolnir_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/missp_heavy_mjolnir_turret_recoil.png",
+  "turretOffsets": [
+    42,
+    -7.5,
+    42,
+    7.5
+  ],
+  "turretSprite": "graphics/weapons/missp_heavy_mjolnir_turret.png",
+  "turretUnderSprite": "graphics/weapons/missp_heavy_mjolnir_under.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 18
+}

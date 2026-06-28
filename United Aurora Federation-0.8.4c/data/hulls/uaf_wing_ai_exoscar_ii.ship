@@ -1,0 +1,105 @@
+{
+  "hullName": "Exoscar II (SP)",
+  "hullId": "uaf_wing_ai_exoscar_ii",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ai_wing_exoscar_ii.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 56,
+  "width": 46,
+  "center": [23, 29],
+  "collisionRadius": 41.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 29,
+      "angle": 15,
+      "locations": [11, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 29,
+      "angle": -15,
+      "locations": [11, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 25,
+      "locations": [-11, 8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -25,
+      "locations": [-11, -8]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 0,
+      "locations": [11, 12]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -0,
+      "locations": [11, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, 4.5],
+      "length": 44.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-17.5, -4.5],
+      "length": 44.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-22, -0],
+      "length": 44.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    -13, 22,
+    28, -0,
+    -13, -22,
+    -28, -0
+  ]
+}

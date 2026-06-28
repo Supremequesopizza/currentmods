@@ -1,0 +1,29 @@
+{
+	"id":"uaf_neuko_experimental_optimization",
+	"governingAptitude":"uaf_special",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"CUSTOM",
+	"scopeStr":"piloted UAF Automata/non-Automata ship, non-UAF ship",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skills.uaf_neuko_experimental_optimization$Level1"},
+				{"type":"SHIP", "script":"data.scripts.skills.uaf_neuko_experimental_optimization$Level2"}
+			]
+		},
+		{
+			"name":"Elite",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"data.scripts.skills.uaf_neuko_experimental_optimization$Level3"},
+				{"type":"SHIP", "script":"data.scripts.skills.uaf_neuko_experimental_optimization$Level4"},
+				{"type":"SHIP", "script":"data.scripts.skills.uaf_neuko_experimental_optimization$Level5"}
+			]
+		},
+
+	],
+}

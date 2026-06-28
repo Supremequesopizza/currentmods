@@ -1,0 +1,56 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "uaf_m_lovela",
+    "hullMods": [
+        "targetingunit",
+        "reinforcedhull",
+        "autorepair",
+        "armoredweapons"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_m_lovela_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_flair_pod"
+            }
+        }
+    ],
+    "modules": {
+        "WS0006": "uaf_m_lovela_left_armor_plating",
+        "WS0007": "uaf_m_lovela_right_armor_plating"
+    }
+}

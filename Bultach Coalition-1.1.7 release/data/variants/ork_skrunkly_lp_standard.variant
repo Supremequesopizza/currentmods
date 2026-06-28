@@ -1,0 +1,23 @@
+{
+  "variantId": "ork_skrunkly_lp_standard",
+  "hullId": "ork_skrunkly_lp",
+  "displayName": "Standad",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "chaingun",
+        "WS0003": "chaingun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

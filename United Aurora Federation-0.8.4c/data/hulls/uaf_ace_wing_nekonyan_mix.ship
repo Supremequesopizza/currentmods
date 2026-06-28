@@ -1,0 +1,101 @@
+{
+  "hullName": "Nekonyan MIX (FE)",
+  "hullId": "uaf_ace_wing_nekonyan_mix",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ace_wing_nekonyan_mix.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 47,
+  "width": 41,
+  "center": [20.5, 23.5],
+  "collisionRadius": 35,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_ace",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": 0,
+      "locations": [4.5, -10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": -0,
+      "locations": [4.5, 10]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": -0,
+      "locations": [7.5, 5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": 0,
+      "locations": [7.5, -5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 49,
+      "angle": -0,
+      "locations": [13, 2]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 28,
+      "angle": 0,
+      "locations": [-10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13.5, 3],
+      "length": 30,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-13.5, -3],
+      "length": 30,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    -23, 10.5,
+    -6, 20,
+    3.5, 6,
+    23.5, -0,
+    3.5, -6,
+    -6, -20,
+    -23, -10.5
+  ]
+}

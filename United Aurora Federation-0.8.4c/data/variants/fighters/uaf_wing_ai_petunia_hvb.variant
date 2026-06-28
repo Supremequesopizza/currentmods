@@ -1,0 +1,34 @@
+{
+  "variantId": "uaf_wing_ai_petunia_hvb",
+  "hullId": "uaf_wing_ai_petunia",
+  "displayName": "Super Heavy Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_fw_gsb_class_iii",
+        "WS0004": "uaf_fw_gsb_class_iii",
+        "WS0005": "uaf_fw_gsb_class_iii",
+        "WS0006": "uaf_fw_gsb_class_iii",
+        "WS0008": "uaf_fw_gsb_class_iii",
+        "WS0009": "uaf_fw_gsb_class_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "uaf_pd_reina_ii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

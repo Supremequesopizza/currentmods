@@ -1,0 +1,46 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_cy_sentry",
+    "hullMods": [
+        "auxiliarythrusters",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_cy_sentry_prototype",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "uaf_sentry_gun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_missile_barrage_catapult",
+                "WS0007": "uaf_missile_barrage_catapult"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_enyria_pdx",
+                "WS0003": "uaf_enyria_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_merupaka_ii_epd",
+                "WS0001": "uaf_merupaka_ii_epd"
+            }
+        }
+    ]
+}

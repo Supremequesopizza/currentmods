@@ -1,0 +1,66 @@
+{
+  "hullName": "Aria (M)",
+  "hullId": "uaf_wing_m_aria",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_m_wing_aria.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 41,
+  "width": 35,
+  "center": [17.5, 18],
+  "collisionRadius": 35.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 26,
+  "viewOffset": 40,
+  "builtInMods": [
+    "uaf_fighter_mod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [8, 2.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [8, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, 3.5],
+      "length": 14,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-9, -3.5],
+      "length": 14,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    0, 8,
+    0.5, 16.5,
+    -17.5, 7.5,
+    -9, 1.5,
+    -9, -1.5,
+    -17.5, -7.5,
+    0.5, -16.5,
+    0, -8,
+    22, -0
+  ]
+}

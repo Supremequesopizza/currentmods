@@ -1,0 +1,6 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Notable,sun_sl_notable,0,,,,,0,,TRUE,,0,0,0,0,starship_legends.hullmods.Reputation,The %s has distinguished itself as having certain notable characteristics.,This ship has a reputation for having certain traits.,sun_sl/graphics/hullmods/notable.png
+Well-Known,sun_sl_wellknown,1,,,,,0,,TRUE,,0,0,0,0,starship_legends.hullmods.Reputation,The %s is a well-known ship within your fleet.,This ship is well-known within your fleet.,sun_sl/graphics/hullmods/wellknown.png
+Famous,sun_sl_famous,2,,,,,0,,TRUE,,0,0,0,0,starship_legends.hullmods.Reputation,The %s has achieved fame within military circles.,This ship is famous. People in military cirles have often heard of it.,sun_sl/graphics/hullmods/famous.png
+Legendary,sun_sl_legendary,3,,,,,0,,TRUE,,0,0,0,0,starship_legends.hullmods.Reputation,The %s is a legend throughout the sector.,This ship is legendary. People across the entire sector tell stories about it.,sun_sl/graphics/hullmods/legendary.png
+Enemy Reputation,sun_sl_enemy_reputation,0,,,,,0,,TRUE,TRUE,0,0,0,0,starship_legends.hullmods.Reputation,The %s is affected by the reputation of it's fleet commander.,,sun_sl/graphics/hullmods/famous.png

@@ -1,0 +1,73 @@
+{
+  "hullName": "Hangar Module",
+  "hullId": "ork_superdread_hangar_right",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/superdread/ork_superdread_hangar_right.png",
+  "style": "LOW_TECH",
+  "height": 136,
+  "width": 69,
+  "center": [34.5, 68],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "always_detaches",
+    "BT_antiNuke"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [16, 20]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11.5, -4]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [15.5, -11]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [41, -4.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    50, -27.5,
+    67, -8,
+    60.5, -0,
+    64, 10.5,
+    59.5, 24,
+    43.5, 23.5,
+    24.5, 33.5,
+    9, 33,
+    -11.5, 22,
+    -52.5, 20,
+    -67.5, 13.5,
+    -41, -3,
+    -39.5, -27.5
+  ]
+}

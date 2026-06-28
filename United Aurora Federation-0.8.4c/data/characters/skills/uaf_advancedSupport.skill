@@ -1,0 +1,25 @@
+{
+	"id":"uaf_advancedSupport",
+	"governingAptitude":"uaf_special",
+	"compressHullmods":false,
+	"elite":true,
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP_FIGHTERS", "script":"data.scripts.skills.uaf_advancedSupport$Level1"},
+				{"type":"SHIP", "script":"data.scripts.skills.uaf_advancedSupport$Level1Ship"},
+			]
+		},
+		{
+			"name":"Elite",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP_FIGHTERS", "script":"data.scripts.skills.uaf_advancedSupport$Level2"},
+			]
+		},
+	],
+}
+

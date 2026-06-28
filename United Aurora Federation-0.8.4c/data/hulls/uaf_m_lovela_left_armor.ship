@@ -1,0 +1,30 @@
+{
+  "hullName": "Reflecta Light Plating(L)",
+  "hullId": "uaf_m_lovela_left_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Lovela/uaf_lovela_armor_left.png",
+  "style": "MIDLINE",
+  "height": 35,
+  "width": 20,
+  "center": [10, 17.5],
+  "collisionRadius": 31,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_reflective_armor_ii"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    16.5, -6.5,
+    1, 9,
+    -1.5, 9,
+    -1.5, -2.5,
+    -12.5, 9,
+    -15.5, 9,
+    -15.5, -3,
+    -10.5, -9,
+    15.5, -9
+  ]
+}

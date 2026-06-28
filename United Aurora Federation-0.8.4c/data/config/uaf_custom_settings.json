@@ -1,0 +1,19 @@
+{
+	#UAF'S CUSTOM JSON VALUES
+
+	#Novaeria
+	#Novy Radar Dome rotation speed value
+	"novaeria_radar_dome_one_speed":25,   #default:25
+	"novaeria_radar_dome_two_speed":35,   #default:35
+	"novaeria_radar_dome_three_speed":50, #default:45
+	#EWAC
+	"novaeria_ewac_radar_speed":20,
+	#Mast Radar
+	"novaeria_mast_radar_speed":80,
+	
+	#LYNX
+	#Example for KEY ONE: LSHIFT | LMENU (Left ALT) | LCONTROL (Left CTRL)
+	#Example for KEY TWO: R | X | T
+	"uaf_lynx_repair_kit_key_one":"LMENU",
+	"uaf_lynx_repair_kit_key_two":"R",
+}

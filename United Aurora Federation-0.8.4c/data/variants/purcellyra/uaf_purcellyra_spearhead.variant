@@ -1,0 +1,81 @@
+{
+    "displayName": "Spearhead",
+    "fluxCapacitors": 4,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "uaf_purcellyra",
+    "hullMods": [
+        "targetingunit",
+        "eccm"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_purcellyra_spearhead",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0023": "uaf_herexa",
+                "WS0024": "uaf_herexa"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "uaf_minirest_asm_l",
+                "WS0020": "uaf_minirest_asm_l",
+                "WS0021": "uaf_minirest_asm_l",
+                "WS0022": "uaf_minirest_asm_l"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_oboe_mirv_medium",
+                "WS0014": "uaf_oboe_mirv_medium",
+                "WS0017": "uaf_clarinet_mirv_medium",
+                "WS0018": "uaf_clarinet_mirv_medium"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_minibreve_tnt_s",
+                "WS0004": "uaf_minibreve_tnt_s",
+                "WS0009": "uaf_typhoon_s_sasm",
+                "WS0010": "uaf_typhoon_s_sasm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_flair_pod",
+                "WS0008": "uaf_flair_pod",
+                "WS0011": "uaf_racun_pod",
+                "WS0012": "uaf_racun_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina_ii",
+                "WS0006": "uaf_pd_reina_ii",
+                "WS0001": "uaf_weiss_flk",
+                "WS0002": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "uaf_ivory_triple",
+                "WS0016": "uaf_hikone_quad"
+            }
+        }
+    ]
+}

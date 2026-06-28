@@ -1,0 +1,28 @@
+{
+	"music":{
+
+
+      "exalted_theme":[  {"file":"Acidic.ogg","source":"sounds/music","volume":0.3,"randomStart":true},
+        ],
+	},
+
+    "anvil_agua_fire":
+	[
+		{"file":"sounds/weapon/anvil_agua_sound.ogg","pitch":0.7,"volume":0.6},
+	],    
+
+    "anvil_fuego_fire":
+	[
+		{"file":"sounds/weapon/anvil_fuego_sound.ogg","pitch":0.7,"volume":0.6},
+	],    
+
+    "anvil_tierra_fire":
+	[
+		{"file":"sounds/weapon/anvil_tierra_sound.ogg","pitch":0.5,"volume":0.3},
+	],    
+
+    "anvil_aire_fire":
+	[
+		{"file":"sounds/weapon/anvil_aire_sound.ogg","pitch":0.7,"volume":0.3},
+	],    
+}

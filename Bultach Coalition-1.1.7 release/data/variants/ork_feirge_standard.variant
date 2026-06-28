@@ -1,0 +1,50 @@
+{
+  "variantId": "ork_feirge_standard",
+  "hullId": "ork_feirge",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ork_tolladh"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ork_diuraidh",
+        "WS0007": "ork_diuraidh"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_swarmer_small",
+        "WS0005": "ork_swarmer_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_lub_pd",
+        "WS0002": "ork_lub_pd",
+        "WS0008": "ork_lub_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

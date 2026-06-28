@@ -1,0 +1,16 @@
+{
+    "graphics":{	
+		"portraits":{
+			"armaa_portrait_shard":"graphics/armaa/portraits/armaa_robot.png",
+			"armaa_portrait_puppet":"graphics/armaa/portraits/armaa_seraph_anim.png",
+			"armaa_portrait_leos":"graphics/armaa/portraits/armaa_leos.png",
+			"armaa_portrait_meat":"graphics/armaa/portraits/armaa_mrcguy.png",
+			"armaa_portrait_crimson":"graphics/armaa/portraits/armaa_crimson.png",
+			"armaa_portrait_christine":"graphics/armaa/portraits/armaa_christine.png",
+			"armaa_portrait_dawna":"graphics/armaa/portraits/armaa_dawn2.png",
+			"armaa_portrait_sarge":"graphics/armaa/portraits/armaa_sarge.png",
+			"armaa_portrait_pariah":"graphics/armaa/portraits/armaa_pariah.png",
+			"armaa_portrait_legioMechPilot":"graphics/armaa/portraits/armaa_legioMechPilot.png",
+		},
+    }
+}

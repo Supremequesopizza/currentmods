@@ -1,0 +1,65 @@
+{
+  "hullName": "Sideboard",
+  "hullId": "supportships_sideboard",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Sideboard_fighter.png",
+  "style": "HIGH_TECH",
+  "height": 37,
+  "width": 40,
+  "center": [20, 18.5],
+  "collisionRadius": 29,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0002": "irpulse",
+    "WS0003": "irpulse"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4.5, 8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [4.5, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, 13],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18, -13],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    17, -4,
+    -16.5, -15,
+    -16.5, 15,
+    17, 4
+  ]
+}

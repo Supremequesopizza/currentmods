@@ -1,0 +1,31 @@
+commodity,group,freq
+luxury_goods,tourism_fleet,2
+lobster,tourism_fleet,1
+domestic_goods,tourism_fleet,3
+drugs,tourism_fleet,1
+crew,tourism_fleet,12
+,,
+,,
+item_uaf_keycard_red,uaf_keycard_drop,1
+item_uaf_keycard_blue,uaf_keycard_drop,10
+item_uaf_keycard_green,uaf_keycard_drop,15
+item_uaf_keycard_orange,uaf_keycard_drop,19
+item_uaf_keycard_violet,uaf_keycard_drop,20
+nothing,uaf_keycard_drop,35
+,,
+,,
+,,
+,,
+,,
+,,
+"item_:{tags:[uaf_colony_item, !no_drop, !restricted]}",uaf_item_tags,15
+nothing,uaf_item_tags	,40
+,,
+"wpn_:{tags:[uaf, !no_drop, !no_drop_salvage, !restricted], weaponSize:SMALL}",uaf_weapons_small,60
+nothing,uaf_weapons_small,40
+,,
+"wpn_:{tags:[uaf, !no_drop, !no_drop_salvage, !restricted], weaponSize:MEDIUM}",uaf_weapons_medium,40
+nothing,uaf_weapons_medium,40
+,,
+"wpn_:{tags:[uaf, !no_drop, !no_drop_salvage, !restricted], weaponSize:LARGE}",uaf_weapons_large,20
+nothing,uaf_weapons_large,40

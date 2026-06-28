@@ -1,0 +1,33 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 35,
+    "goalVariant": true,
+    "hullId": "missp_ragnarok_bow_left",
+    "hullMods": [
+        "armoredweapons",
+        "targetingunit",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_ragnarok_bow_left_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "hellbore"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightdualmg",
+                "WS0002": "lightdualmg",
+                "WS0003": "dualflak",
+                "WS0005": "dualflak",
+                "WS0007": "lightdualmg"
+            }
+        }
+    ]
+}

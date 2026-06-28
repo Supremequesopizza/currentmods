@@ -1,0 +1,63 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "uaf_m_nakiha",
+    "hullMods": [
+        "blast_doors",
+        "targetingunit",
+        "autorepair",
+        "fluxbreakers",
+        "eccm",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_m_nakiha_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_amazoch_s_asrm_single",
+                "WS0007": "uaf_amazoch_s_asrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "uaf_clemente_base"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_selemene_s_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_pd_reina",
+                "WS0001": "uaf_pd_reina"
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "displayName": "Archtype",
+    "fluxCapacitors": 13,
+    "fluxVents": 33,
+    "goalVariant": false,
+    "hullId": "uaf_m_reisen",
+    "hullMods": [
+        "fluxbreakers",
+        "turretgyros",
+        "targetingunit",
+        "auxiliarythrusters"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_reisen_archetype",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_kanshee_sxc",
+                "WS0012": "uaf_kanshee_sxc",
+                "WS0013": "uaf_kanshee_sxc",
+                "WS0014": "uaf_kanshee_sxc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0025": "uaf_amazoch_light_asrm_dual",
+                "WS0026": "uaf_amazoch_light_asrm_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_edge_type_ii",
+                "WS0002": "uaf_edge_type_ii",
+                "WS0015": "uaf_edge_type_ii",
+                "WS0016": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_vocal_s_srm",
+                "WS0010": "uaf_vocal_s_srm",
+                "WS0019": "uaf_vocal_m_srm",
+                "WS0020": "uaf_vocal_m_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_merupaka_epd",
+                "WS0004": "uaf_merupaka_epd",
+                "WS0005": "uaf_merupaka_epd",
+                "WS0006": "uaf_merupaka_epd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "uaf_pd_reina_ii",
+                "WS0018": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_flair_pod",
+                "WS0008": "uaf_flair_pod"
+            }
+        }
+    ],
+    "modules": {
+        "WS0021": "uaf_m_reisen_armor_plating",
+        "WS0022": "uaf_m_reisen_armor_plating",
+        "WS0023": "uaf_m_reisen_armor_plating",
+        "WS0024": "uaf_m_reisen_armor_plating"
+    }
+}

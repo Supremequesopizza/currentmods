@@ -1,0 +1,28 @@
+{
+  "hullName": "Top Right Armor",
+  "hullId": "ork_thrasher_topr_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/thrasher_folder/ork_thrasher_topr_armor.png",
+  "style": "BULTACH",
+  "height": 48,
+  "width": 34,
+  "center": [-26, -65],
+  "collisionRadius": 120.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 118,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ablative_armor",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    86.5, -29,
+    53.5, -48.5,
+    67.5, -59.5,
+    97.5, -45.5,
+    96.5, -34.5
+  ]
+}

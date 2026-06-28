@@ -1,0 +1,148 @@
+{
+  "hullName": "Basaich",
+  "hullId": "ork_basaich",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/gestalt/ork_basaich.png",
+  "style": "GESTALT",
+  "height": 98,
+  "width": 128,
+  "center": [64, 49],
+  "collisionRadius": 83.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 80,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger_Gestalt",
+    "bt_gestalt_automation"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 114.5,
+      "locations": [5, 41]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -114.5,
+      "locations": [5, -41]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -34,
+      "locations": [26, -30]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 34,
+      "locations": [26, 30]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [22, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, -0],
+      "length": 42.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-27, 33.5],
+      "length": 29,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-27, -33.5],
+      "length": 29,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-24, 40.5],
+      "length": 19.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-24, -40.5],
+      "length": 19.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    }
+  ],
+  "bounds": [
+    -43, -5,
+    -39.5, -9,
+    -36, -9.5,
+    -32.5, -15,
+    -48.5, -15.5,
+    -44.5, -20,
+    -35, -20.5,
+    -27, -25.5,
+    -21.5, -43.5,
+    -33.5, -62,
+    -12, -50,
+    7, -51,
+    15, -41,
+    42, -40.5,
+    46.5, -36.5,
+    45, -32.5,
+    18, -15.5,
+    18, 15.5,
+    45, 32.5,
+    46.5, 36.5,
+    42, 40.5,
+    15, 41,
+    7, 51,
+    -12, 50,
+    -33.5, 62,
+    -21.5, 43.5,
+    -27, 25.5,
+    -35, 20.5,
+    -44.5, 20,
+    -48.5, 15.5,
+    -32.5, 15,
+    -36, 9.5,
+    -39.5, 9,
+    -43, 5
+  ]
+}

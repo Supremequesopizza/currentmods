@@ -1,0 +1,80 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 12,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "uaf_reisen",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder",
+        "uaf_secondary_focus"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_reisen_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_tona_iii",
+                "WS0014": "uaf_tona_iii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_tona_iii",
+                "WS0012": "uaf_tona_iii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0019": "uaf_rhythm_base_triple",
+                "WS0020": "uaf_rhythm_base_triple",
+                "WS0021": "uaf_rhythm_base_triple",
+                "WS0022": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_vocal_s_srm",
+                "WS0010": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_ivory",
+                "WS0002": "uaf_ivory",
+                "WS0015": "uaf_medlav_dual",
+                "WS0016": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_deco_mg",
+                "WS0004": "uaf_deco_mg",
+                "WS0005": "uaf_deco_mg",
+                "WS0006": "uaf_deco_mg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_flair_pod",
+                "WS0008": "uaf_flair_pod",
+                "WS0017": "uaf_pd_reina",
+                "WS0018": "uaf_pd_reina"
+            }
+        }
+    ]
+}

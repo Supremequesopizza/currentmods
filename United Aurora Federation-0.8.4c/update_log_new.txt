@@ -1,0 +1,951 @@
+30/07/2020 - ver 0.0.1a
+-First iteration alpha version
+-Added Runnable ships without weapons
+-Added Virtual field mission to test ship's maneuverability
+-Added compatibility with newest starsector version
+-Fighter wings TBA on next iteration
+-Ship Weapons TBA on next iteration
+-Cake ingrediants TBA on next iteration
+
+05/09/2020 - ver 0.9.1.a
+-Second iteration of alpha version
+-Added more ships and fighters
+-Added more effects on ships
+-Added choco lava
+-UAF Keycard implemented
+-Aoi-Ayama star system implemented
+-UAF Faction implemented
+-Added modular ship
+-Fixed wrong gun placements
+-Added more sounds
+
+25/09/2020 - ver 0.9.2.a
+-Third iteration of alpha version
+-Added sekai tanker class
+-Added wo tanker class
+-Added tsutsumu tanker class
+-Added machi apa class
+-Added solvernia V modular ship
+-Added modular engine hullmod, as well as many other buffs hullmod
+-Adjusting the sounds and putting in extra sounds for cyrexa, medlav, tona, and weiss
+-Added new flak weapons, weiss I, weiss II, weiss III
+-Added special proximity fuse and fragmentation mechanic for weiss III
+-Added new railgun weapons, tona I, tona II, tona III
+-Added new graphical laser sight to tona I, tona II, tona III, Quad cyrexa, triple cyrexa
+-Added new medium mount weapon, hikone
+-Added turret version of exoscar, rhythm, clemente, selene and vocals
+-Added xs weapon mount decorative MG
+-Added missile barrage weapon for solvernia V
+-Adjusted missile barrage stats for solvernia V
+-Rebalancing escort mission to make it harder and test the solvernia V
+-Fixed some bugs regarding third weiss new mechanic
+-Fixed some bugs that causes crash in campaign
+-Improved gfx for weiss III fragmentation, adding randomity into the subminition
+-Added custom sprite for weiss III explosion
+-Buffed some old weapons
+-Adding dozens of description to various entity in game (weapons, planets, faction) (wip)
+-Added diced dried pineapple
+-Added working Nexerelin dependencies
+-Adding an experimental shielded torpedo
+
+22/02/2021
+-Added Lovela assault frigate
+-Added Sentry class artillery destroyer
+-Added RAVENYA and VERNYA drones
+-Added Rama Corvette
+-Replaced nakiha frigate sprites
+-Added egg pudding
+-Added Isenoria hybrid battleship
+-Added Novaeria class command dreadnought
+-Added foundation for blinker decoration systems
+-Added Osela light exploration vessel
+-Added Eyeseau command vessel
+-Experimental Sonar pulse with song abroad Eyeseau
+-Experimental extreme hull modifications for Eyeseau
+-Added a few portraits
+-Shielded Torpedo message Fix
+-Fixed bug existing in Weiss III
+-Replaced Auroria planet's sprite with the new one
+
+
+22/03/2021
+-Added Shinoria and the variants
+-Added Zepporia and variants
+-Added donuts
+-Added Semibreve weapon
+-Added Triyia PDX
+-Added Herexa
+-Updated some ship sprites to the remade one
+-Added new 8 sprites
+
+26/04/2021
+-Added more portraits
+-Remade Aoi-Ayama star system
+-Remake the market into a workable market
+-Added choco lava (real)
+-Adjusted uaf as a faction
+-Readjusted uaf with nex
+-Added dynamic starting relation of uaf and various factions
+-Remaking gfx for lower tier weiss
+-Remaking laser of cannons and railguns
+-Remaking projectile of various versions
+-Discarded all missions and added two mission for warship and carrier each
+-Added CY's rebalancing
+
+04/05/2021
+-Adjusted stations and station names
+-Added Cy's hulls
+-Added Cy's Variants
+-Rebalanced a few weapons
+-Rebalanced fighters
+-Added shipsystem to the ships
+-Added keycard to droprates
+-Fixed Triyia
+-Nerfed reisen system
+-Correcting automata and military spec descriptions
+
+07/07/2021
+-Added minirest
+-Added chorus
+-Minor adjustments to missile stats
+-Added purcyllera
+-Added scinaut
+-Added music
+-Added new sfx
+
+21/07/2021
+-Remade weapons for fighter with streamlined naming convention and stats
+-Reworked and rebalanced fighters
+-Added new ships and fighters
+-Pending variants on osela and purcellyra
+
+25/07/2021
+-Added new sounds
+-Removed old weapons
+-Tweaking some weapons stats
+-Adjusted sounds
+-Added tracers and readjusting bullet tracers
+
+27/07/2021
+-Fixed bug on scinaut
+-Added new sounds
+-Adjusted some sounds volume
+
+09/08/2021
+-Added new Stjarna system
+-Added 2 more administrators
+
+20/08/2021
+-Sounds update!
+
+13/09/2021
+-New ships update, fusoreina and junyo
+-Rebalanced solv maneuverability
+-Buffed Machi's drones
+-Replaced various variants and tweaked ship files with CY's and naggy's
+
+20/09/2021
+-Reduced chargeups for 1s+ weapons by 60%-ish to help with AI
+-Added new tags to some weapons to prevent them from showing in the game as lootable
+-Readjusted stjarna indusries
+-Added piercing capabilities (v1) to Tona I - IV + Phenex
+-Added new sfx for eyeseau
+-Switched decom space to uaf instead of neutral
+
+26/09/2021
+-Cleaned files for unused sounds
+-Merged with Cy updates
+-Fixed semibreve bugs
+-Fixed auroran engineering missing
+-Fixed planet size bugs
+-Added new industry in new auroria and condition in vermilion market
+-Switched decom station back to neutral
+-Fixed stjarna population
+-Changed tona tracer to match phenex
+-Uaf Flagship now grants 100% ballistic weapon range and 50% ballistic projectile speed
+
+11/10/2021
+" Ever since Vermy doesn't wanna write this one, I'll do it myself. :T "
+
+-Added Novayu class Frigate
+-Added Supolev Alpha class S-Freighter
+-Added Miyo Juliet class M-Freighter
+-Adjusted all S/M/L-Tankers back to normal stats ( placeholder cargo capacity have been removed )
+-Added new portraits
+-Readjusted some minor stats
+
+12/10/2021
+"Hotfix Edition"
+
+-Added Solvernia, Novaeria and Cherry Vanguard into campaign
+-Added Purcellyra into campaign
+-Fixed Minoria and Exoria's stats
+-Improved Rillaru and Sentry's stats slightly
+-UAF will now deploy nuclear weapons in large ships
+
+17/10/2021
+"CY been pouting because I didn't write this last time xD"
+
+-Reworked UAF Bakery into Confectionery
+-Reworked naming for all UAF Bakery items to now have a "uaf_bakery_" prefix for compatibility purpose
+-Renamed Packaged Choco Lava to Premium Choco Lava
+-Added Half-Dozen Donuts Box and Pretzels & Croissant Bundle with temporary icon placeholder
+-Added Kitten
+-Added 3 new installable items with various effects
+-Rewritten some script to tidy things up a little bit
+-Centralized Communication no longer causes crash
+-Fixed Stjarna's stations problem
+-Aoi - Stjarna is no longer cloudy
+-Added gravity well for Auroria
+-Readjusted namnlos station to be more outwards
+-Fixed keycard drop rates
+-Added new sound effects for bakery items
+-Added Orbital/Battle/Star stations to some planets
+-Added minerals condition to vermilion market
+-Fixed decom space habitat (hopefully this one fix it for real)
+-Removed high tech stations from several planets
+
+18/10/21
+"What do you mean I'm pouting? I'm just doing you a favor and write it on your behalf. :V"
+
+-more stat changes
+
+24/10/2021
+-Attempting to fix semibreve nuke, I hope my additional line works
+-Added new mini emp pulse for osela centered on its tail
+-Removed Angel System for now
+-Added black market to lunamun
+-Added UAF November Royal Navy and Automata Expeditionary Division as their own sub-faction that spawns through structure, similar to Sindikat's Lions
+-Added both subfaction into nex
+-Added blueprint package, hopefully they work as intended
+-Remade Eyeseau System by merging 3 different hullmods + a sensor buff
+-Buffed automata specification with sensor profile -20%
+-Added new hullmod Atmospheric entry to help with ground assault
+-Buffed auroran engineering
+-Relocated both star systems to down right of starmaps
+-Added new texture for lunamun
+
+27/10/2021
+" Vermy worked overtime for this one. "
+
+Note: Not all ships have their descriptions yet, sorry!
+
+-Added descriptions to various ships
+-Adjusted NexerelinConfig for the new mini-factions
+-Mini factions will now field their own ships and exports from the main faction.
+
+31/10/2021
+-Added market for november military and automata logistics
+-Added gravity well for auroria and nur
+-Fixed bug regarding piercing attribute
+-Buffed piercing attribute of Tona to also damage on exit
+-Reduced eyeseau's sensor range to 350
+-Separated 4 prototype ships to have their own tags
+-Changed the default trigger for semibreve to on hit instead of proximity
+-Changed anti armour (HE) weapon tracers
+-Changed chorus and semibreve tracer
+-Added Rillaru lil sister
+-Added new trails for fighters 
+
+11/12/2021 - Release Ver
+-Erased loggings except the important ones
+-Added compatibility with VNSector
+-Added new questlines
+-Added new interactions with admins of UAF
+-Added Xenenhu and Tarandii star system
+-Added new ship
+-Rebalanced ship stats
+-Rebalanced weapon stats
+-Added first part of Yimie's quest
+
+12/12/2021 - Hotfix
+-Fixed galaxy naming systems showing incorrect
+
+28/12/2021
+-Added Caelia system
+-Added favonius resort world
+-Added new akatsuzuma cruiser
+-Added tourism event for favonius
+-Added strawberries
+
+30/12/2021
+-Fixed missing portrait
+-Fixed fleet requests not appearing
+
+04/01/2022
+-Adjusted caelia star system to be smaller
+-Adjusted chance of tourism by 5% and made them leave quicker
+-Added ship system nuke rounds for slv
+-Added favonius ring
+-Fixed bug with nex
+
+08/01/2022
+-Added ai script for nuke munition system so it won't crash
+-Adjusted nuke rounds visual 
+-Riots are raging in Favonius for how long it took for us to put ingredients one by one over the years.
+
+23/01/2022
+-New effects for eyeseau
+-Change explosion radius of fighter bombs appropriately
+-Add an extra clip to phenex nuke
+-Add a new claris but HE
+-Add replacement for RG 76
+-Decor mg sounds
+-Adjusted again caeli system
+-Moved ring to lachesis
+-Fixed some naming errors in caeli
+-Add sounds for uaf flares
+-Added new sfx for eyeseau
+-Added new sfx for semibreve launching
+-Known bug: SLV capital if you ever found her can't be damaged by ballistic on her engine  module, we are looking into this issues
+
+28/01/22
+-remastered the entire fighter arsenal
+-HVAR Class 1R added for rocket salvo attacks
+-realigned all ballistic weapons
+
+30/01/2022
+- Exoscar wont ever appear again on market
+- HVAR changed to not friendly firing
+- Smooth out the turning of minirest
+- Removed 20mm autocannon
+- Removed old solvy
+- Changed behavior of vernya to be a normal defensive drones and its numbers down to 2+4
+- Added tim's fix to our large turret getting slowed while aiming
+- Buffed large turret (herexa, cyrexa, phenex) chargeup by 0.2 to allow AI using it easier
+- Added new hullmod for machi, ground support and advanced ground support
+- Reworked projectile positioning for triyia slightly and boost its ROF
+- Nerfed atmospheric capable hullmod to 30 / 60 / 90 / 150
+- Reworked the way custom admins on markets generated to comply with nex's
+- Added removal of yimie's wreckage once player discovered and clicked on it (hopefully it fixes the bug ava is facing)
+- Removed decorative MG from droppable or available in campaign market
+- Removed colossus sub 
+- Changed projectile effects for the following medium guns: Hikone, Ivory, Medlav Q/D
+-increased projectile speed for railguns and capital weapons at the cost of higher flux ( experiment )
+
+31/1/22
+-nexerelin start have been adjusted, no more capital starts outside of grand fleet
+-black rillaru mount adjustment
+-minoria major rebalancing + variants
+-HVAR description fixed
+-Triyia PDX given chargeup/down by 1 second
+-chorus and AMSSM speed reverted
+-hyacinth cost reduced from 25 > 20
+-all missile costs re-adjusted
+-fusoreina flux buffed from
+-fighter missiles were given far less impact
+-nakiha built in torpedoes given more tags
+
+3/2/22
+( I just realized we typed 2021 in previous dates, I gotcha covered :P )
+-Reisen 2 entered service with new variants
+-weiss 1 nerfed hard but revoked
+-Weapon rebalanced again
+-Herexa Triple and Ivory Triple added
+-Sentry class rebuffed
+-more tips added
+-more ship names added
+
+6/2/22
+-Fixes ghost slv engine (hopefully)
+-fixes various bugs on slv engines
+-fixed top speed stats for slv
+-fixed intel on accessing level 2 inf of uaf
+-Added reisen mini radar
+-Added Queen and Roboqueen
+-Independence from IS
+-fixed glitch on triyia muzzle
+-Added new sounds from yimie (except nuke1.ogg)
+-noversky op to 20
+-made weiss 1 explosion spread to be tighter and smaller
+-added new BP for rare standard, rare military, rare automata
+-changed how ordnance assembly works, removed missile reload, added missile regen increase
+-x2 chance for keycard drop
+
+15/2/22
+-Removed fighter manager for new hullmod
+-Revamped yimie quests
+-Adjusted a few things in ship_data
+-its just that
+-I am sorry ;_;
+
+17/2/22
+-remade all variants once again
+-readjusted some ship's performances
+-all capitals are somewhat buffed considerably, approval given by many
+-weapons are readjusted, missile reload timer are now consistent?
+-more blinkers are given to black ships
+-new Neuxoria!
+
+22/2/22
+-Release! xD
+-New Exoria remastered
+-Missile and weapons readjusted again
+-Solvernia speed slightly faster now
+-Yimie Quest fixed?
+
+24/2/22
+-I finally understand what weapon flux efficiency is, but its gonna take some time to adjust
+-fixed rare crash, something to do with UAFeventmanager hopefully?
+-fixed missing bounty from UAF
+-scinaut given suitable price
+-novayu full potential realized, given 12 DP instead
+-purcellyra undervalued, given 60 DP instead
+-Solvernia to 110 DP
+
+27/02/2022
+- Pending ship bp package and weapons bp package can crash the game 
+> The game actually needs a second parameter (if you are using console command to spawn the bp, you have to put a ship data (second param) into a bp, spawning it individually without the second parameter is still possible (possibly because console command doesn't handle uaf's ship bp) but will crash due to null ship value). until further report of it spawning naturally (with proper ship data) and still crash, I will delay this bugfix
+
+- Fixed cherry vanguard malfunctioning guns
+- Fixed descriptions missing on UAF 3 installable items
+- Fixed alexandra ore gifting error
+- Fixed pandora's dialogue error on 75+ rep
+- Added check for audience with the queen based on alliance
+- Reworked ordnance assembly with proper numbers instead of 33% into 5/10/15/20
+- Switched weiss puff damage into proper fragmentation
+- Fixed colony item effect not being unapplied
+- Added uaf_standard_bp to UAF starting item
+- Added income for uaf_bakery
+
+13/03/2022
+- Fixed number description for ordnance assembly
+- Adjusted marine quest sfx
+- Adjusted yimie's quest green card sfx
+- Removed old practice bar event
+- Small hotfix for solvy crash (hopefully it works)
+- Fixed conversation bugging out upon exiting market
+- Added Taufan (NX) and its new missile Minibreve nuke ( for testing purposes, its readily available in the shop )
+- Extended flagship ballistic weapon range boost by 50%
+-donated a few more flux vents to Lovela to solve local flux hunger.
+-capital ship price changes accordingly to local stock exchange rates.
+
+26/03/2022
+- Added damage description to semibreve in tooltip
+- Removed some old unused hullmods
+- Added more numbers describing various hullmods to add clarity
+- Buffed flagship hullmod range by 50%
+- Fixed bug where nia rep would off-shoot and didn't give access to outer administrators
+- Added a ceiling cap for favonius tourism
+- Boosted favonius tourist spawn rate by 10x
+
+4/4/2022
+- Nerfed a lot of things including my heart and fingers due to typing and 'emotional damage'.
+- Also buffed a couple things too like missile reloads and maybe re-fire delay.
+-All missiles will now generate weapon flux.
+- Re-written the whole tips for all UAF weapons.
+- Adjusted all ships' PPT, they will now reflected accordingly to vanilla scale except for super capitals.
+- Reisen(M) flux dissipation reduced from 1700 > 1600
+- Fusoreina's maneuverability have been buffed slightly for easier chance of disengagement
+- Purcellyra DP increased from 40 to 60
+- Solvernia's loadout fixed and hopefully its FighterAI crash problem as well.
+- 6 new portraits
+
+10/4/2022
+- Fixed solv, novaeria, and cherry engine sounds not appearing
+- Added 6 death sounds for fighters on random
+- Fixed sensor profile for automata
+- Changed solv / novaeria maneuverability editable from ship_data.csv
+- Extended yimie quest to 120 days
+- Fixed misplaced sfx playing during quest
+- Added mizuki as reward officer (for testing)
+
+28/4/2022
+-added Pengawas and her 30mm Class III
+-added Stratos Chaetura as a guest feature
+
+30/04/2022
+-Added toggle-able damper for uaf
+-Removed xenenhu and tarandi from sector generation
+-Reduced minibreve glow
+-Disabled penetration capabilities through hulk due to weird behavior
+-Fixed mizuki's skills
+
+02/05/2022
+-Fixed penetrating capabilities on hulk, still wonky on some area, wip
+-Added 155mm and 57mm cannon for fighters
+-added Neoscar gunship
+-given more time to Yimie quest from 40 days to 120 days.
+
+04/05/2022
+-Added favonius casino (experimental)
+-Disabled shielded torpedo until further notice
+-Added missing skill for mizuki
+
+07/05/2022
+-Converted favonius casino (experimental) into affiliate program
+-Added an explicit request to access region in case natural rep progression is disrupted
+
+-Yokata 155 added
+-Reina II added
+
+16/05/2022
+-Added a bunch of new stuff, "manual trigger" for most of the features in Nia including faction progression
+-notifications are now dismissable
+-Rama and Nakiha upgrades now received +25' degree arc for their composite mounts
+
+18/6/2022
+-Maisya(SP) added, its a fast energy cruiser.
+-Maisya's systems added
+-CCB, Aircraft Modification hullmod are now available.
+-Lovela class Destroyer re-mastered and given new stats.
+-Various changes happened in ship_data, too much to count.
+-Triyia is now a medium in preparation for a new larger rotary weapon.
+-Shinoria(SP) remade once again.
+
+27/6/2022
+-Inazuma remade but variant edit pending.
+-Precisia 304 added
+-new weapons;
+-Edge series, Kanshee, Cyrexa II, Merupaka, Penulisa, Swaras
+-faction file adjusted
+-new sounds too!
+fixed crash when using Swaras
+-Fusoreina's Reflection Armor added
+
+18/7/2022
+-fighter rebuffed as we nerfed them too hard
+-30mm given faster ROF and projectile speed
+-Naga and Lumayan (mFA) added as energy fighters
+-Reflecta(EXA) now working as intended!
+
+24/7/2022
+-tourism updated, they will now drop expectable loots
+-tourism given new limiter to prevent fleet spam
+
+08/08/2022
+-Added new skill for solvy
+-Renamed custom market
+-Lowered rep requirement for custom markets
+-Something is lurking in verm station
+-Fix yimie intel not disappearing
+-Fix minor bug dialogue for commissioning into UAF
+-Tweaked Minirest AI to be more useful
+-Triyia and Penulisa adjusted, they now have interruptible reloads
+-fixed a rare crash in randomized sector
+-Rillaru(SP) buffed slightly just to please a certain someone who just cant resist her at all :D
+-Sunami(P) added
+-Isenoria(P) remastered
+
+11/8/2022
+-4 new icons!
+
+27/08/2022
+-Added a new flair pd weapon
+-Added a new shotgun racun pd
+-Fix whats your favourite snack to just target UAF
+-Remastered inari dialogues
+-Fix error for the mismatched filename for linux users
+-Added new fighter weapon AWP Bomb
+-Added a wing rafflesya and the whole ecosystem implemented on isenoria with love
+-Fix uaf bakery product modifier stacking before its built
+-Allow bakery to be buildable on player colony
+
+30/08/2022
+-rafflesya given first draft stat, bombs are tougher and drops at much slower rate.
+-new Minime drone system, basically mitsurei reskinned but for drones
+-Isenoria given more variants
+-Purcellyra remastered, nerfed a lot but she will still yield nuclear arms!
+-Purcellyra also "nerfed" from 4 large missiles to 6, deal with it.
+-Minirest nerfed damage as she'll be built-in main weapons for Purcellyra.. sadly.
+-ice cream!
+-ships that are suspiciously big for their sizes are now given speed tickets and nerfed.
+-Semibreve will now explode gloriously and accordingly to proper size.
+-two new dark skin girl portraits.
+-bakery product remake!
+
+6/9/22
+-Nice.
+-Bakery gift adjusted and given to all npcs.
+-Favonius timer fixed
+-pastry fixes, hopefully that includes the population upkeep thingy.
+
+11/9/22
+-All ships' fleet points re-adjusted according to vanilla stats.
+-Due to inflations, Solvernia and Novaeria were given higher price along with additional 50 cents for transaction fees.
+-Most of the weapons are given faster projectile speed, especially the point defenses.
+-We have more than 100 tips now, yay!
+-New ship names too.
+-Triyia and Penulisa's ammo restrictions are removed and given higher projectile speed for better accuracy.
+-Chorus given new trail and explosions
+-Racun APS new sfx
+-Rafflesya, Helicopter drones and Minime removed from blueprint and autofit I hope.
+
+19/9/22
+-added hints for alexandra to tell player to mine in nur with special function (save compatible)
+-Added leona banford upon request, base commander of hem fayette (requires new campaign)
+-colony items fixed, they'll now provide what they're suppose to do.
+-Balance adjustment suggested by Ironclad Lion; Automata gets strong but narrow shield while November gets stronger armor but weaker and wider shield. Additionally, Standard ships will now recover CR a lot faster like vanilla.
+-Several ships are given new DP changes, i.e Rillaru and Reisen.
+
+21/9/22
+-Semibreve blows up more gloriously now with juicier distant sfx.
+-Reisen(M) reduced rotation speed.
+
+22/9/22
+-New Naming Convention!
+-Minibreve (M) added for maximum nuclear fun.
+
+27/9/22
+-New weapon sprite remake! .. not all of them though. YET.
+-New projectile remake for most projectile weapons! 
+-New stat changes in accordance to Histidine's advise i.e, Rillaru and Reisen new shield upkeep.
+-Semibreve can be heard across the whole sector now.
+-Cherry Vanguard have a default loadout that lazy people can use now.
+
+2/10/22
+-Edge series will now deal small arc damage if overloaded
+-Weiss 3 improved, it should perform like proper large flak now
+
+7/10/22
+-Crash hotfix, I dont know what exactly. I hope its fixed.
+
+17/10/22
+-Honestly I don't know what's new, why are we in this version even?
+-Cyrexa II and Kanshee reduced damage by 50.
+-The annoying .PNG ( capital letters for linux users ) have been fixed hopefully???
+-Solvernia's 608 damage reduced from 1950 to 1300, I think its projectile speed is also slower now? I don't remember.
+-Edge weapon series nerfed by reducing damage and projectile speed, however overloaded status remain the same. That means, the weapon's performance will remain true only when ship flux went over 50%.
+-Minibreve (S) is now small, heh.
+
+04/11/2022
+-Happy Halloween
+-Added Candy
+-Added eyeseau omniscan (test)
+-Fixed Cyrexa II description crash
+-Minibreve (S) is now guided, just like old times.
+
+7/11/2022
+-Painstakingly edited up to 239 ship variants which finally updated the UAF's arsenal for good and ill purposes.
+I hope this is the last time we'll do this kind of changes at least for a long while.
+-Changed a lot of weapon mount types, angling and arc on various ships.
+-Nearly all ships saw nerfs across the board, ranging from -20 ~ -120 OP depending on sizes.
+-Automata fleets will now field energy weapons while November ships will commonly have hybrid sets.
+-More portraits added.
+-Solvernia and Novaeria's modules now downgraded to destroyer ~ cruiser size as experimentation whether it helps on balancing or AI trickery or not. ( fyi, they're still WIP and more like a duct tape solution to see if it holds or not )
+
+12/11/2022
+(Vermy)
+-updated the simulator and solvernia's fleet.
+- added outlets and higher chance for keycard drop.
+- added a new fetch quest for nia.
+- fixed the pray meet me (xD)
+- added dialog model for when you pay 100k for queen phone
+- Scinaut SUV and Perwira remastered.
+- Triyia and Penulisa no longer have burst delays and interruptible burst.
+
+13/11/2022
+- new dialogues for both queens and even for Solvernia!
+- new dialogues for favonius ice cream event.
+- new intro that at least shows general pros and cons of the faction.
+
+18/11/2022
+- fixed a keycard exploit.
+- Inazumas given new hullmod, "Weapon Calibration"
+- Hullmods with new fancy descriptions!
+
+28/11/2022
+- Eyeseau system split into two and now rebranded as command or survey package. Lootable as well!
+- Added temporary end-game quest to give player the ability to purchase supercaps without RNG.
+
+15/12/2022
+- Rillaru, Lillaru, Nakiha, Minoria and Fusoreina remake added
+- Reflecta I and II re-adjusted
+- New sound effects such as engines and missiles thanks to Yimie
+
+29/12/2022
+-New dialogues again
+-New extended neutral and hostile market theme
+
+2/1/2023
+- Fusoreina II nerfed slightly, losing armor and hit points especially its external armor plating.
+- Reisen remake that also comes with its own armor plating
+- November HQ given new looks
+- Keycard glitch fixed hopefully?
+- November and Automata market weapon production multiplied by 5x to further benefit the player if they unlock them.
+- Added green text hint for the eyeseau quest
+- Queens no longer refund AND give you the supercaps
+- Puterakamu and Puterisaya gunships added
+- All fighters are given at least 14' degrees of weapon arc for their guns
+- Multiple ship / weapon nerfs and buffs, again
+- Amazoch, Exoscar and bombs given new explosion specs
+- Rafflesya temporary hotfix added, 'Engage' to launch the bomber
+
+15/01/2022
+- Added new purcy shipsystem
+- Added Meitou / AMSSMX Class IV
+- Added blueberries
+- Added Zeppy III
+- Neoscar and Pengawas buffed by adding EMP resistance to them
+- Puterakamu and Puterisaya received higher shield coverage 
+- All Chorus missile characteristics are adjusted to be less faster and agile
+
+28/01/2022
+- Remastered Inazuma and Akatsuzuma
+- Removed INA(SP) and AKA(M)
+
+29/01/2023
+- Added lily
+- Added hangar lights and fixed blinkers for zeppy
+- Fix static prices for uaf bakery and switch their production rates
+- Added MOAB and atmo munition for future ground battles
+- Added strategic bombing for ground battles
+
+1/2/2023
+- Added Minibreve Pod, Exoscar Pod, Shimata 155
+- Reworked Hikone to be paired with Shimata
+
+06/02/2023
+- Added rogue wave landing, artillery bombardment and siren song
+- Added the new Rama and Lovela
+- Removed Lovela(SP) and Rama(M)
+- Made rafflesya HP to recover when docked
+- Fixed some bugs on rafflesya bombing abilities
+- Painstakingly added Aeria Charlotte(YRN) class Royal Battlecruiser
+- Added queen's new new new portrait.
+
+12/02/2023
+- Added laser pointer for akatsuzuma entropy amplifier
+- Added a new weapon flairplosion
+- Adjusted reflected beam width for reflecta on the armor
+- Added player built interdimensional bakery
+- Added space microwave
+- Made overloaded edge to go purple
+
+13/02/2023
+- Removed flairplosion
+- Added uaf targeting feed
+- Added uaf entropy amplifier
+- Adjusted akatsuzuma laser tail accordingly
+
+18/02/2023
+- Merged with Nia's VFX ( data/weapons and magic_trail )
+- Isenoria II, Sunami, Shinoria, Seniraja remake added
+- Their respective variants updated too
+
+19/02/2023
+- Fixed the crash
+- Added some interaction in rules csv
+- Added and changed multiple descriptions
+- Merged nia tahls vfx on multiple guns
+- Made new AI to force uaf targeting feed to work
+- Fusoreina II adjusted and given a new ship system
+
+22/02/2023
+- Secretly buffed Weiss 1 :V
+- Perwira II (SP) gained Laser Targeting System for testing and ac* c*mbat reasons.
+- Panik hours ensured
+- All three supercapitals are now obtainable via character rep grind as campaign are not ready.
+- Unboardable tag removed too.
+- (known bug) You can't buy things from queen if you skip the queue and your credits down to 0 in memory
+
+25/2/2023
+-Hotfix added
+-Nia's weiss adjustment added and more VFX stuff
+-Automata HQ given its own icon
+
+4/3/2023
+-Exoscar M Pod was missing on faction file and now added
+-Minibreve launchers does no longer have slight trigger delay
+
+9/3/2023
+-UAF_VFX.jar updated to fix a very rare crash.
+
+11/3/2023
+-Added router, transmitter and oven
+-Added base functionality for lion roar
+
+18/3/2023
+-Tweaks to lions roar effect, gfx, and sfx
+-Known semibreve glitch ( duplicate ghost nuke ) fixed?
+
+2/4/2023
+-affiliate program and bakery now given permission to alliance
+-affiliate refresh tick fixed?
+-UAF bakery should be able to deposit into player storage now
+-weiss 1, 2, 3 have changed slightly
+
+made weiss 2 not having micro flak and increase core explosion to match weiss 1
+made weiss 1 aligns the core explosion and made it bigger
+
+-Nia's commission resignation punishment are slightly lightened
+-added Lyora
+
+13/4/2023
+
+-added exoria's ship systems
+-fixed the said ship systems
+-also balanced the lyora's ship a little
+-added a bunch of quality of life and suffering ( prism, indevo )
+-generally added 100 range to the large energy guns, for experimentation reasons
+
+28/4/2023
+
+- finally finalize the final version of lyora, at long last. surely.
+basically, reduced the bomb's hp from 3000 > 2000 and reduced some weapon arcs on Lyora for balancing reasons.
+- eyeseau's hullmod finally included incompatible hullmods in its info 
+- Revere and Surreal have got rid of their extra seats and now single seat fighter.
+
+15/5/2023
+
+- added descriptions for Exoria / II, Roria Esvernia
+
+>The following changes have been added to Roria Esvernia
+   - flux dissipation buffed from 1450 to 1595
+   - added two cents in her price tag for taxation reasons
+   - skeleton crew reduced from 550 to 450 because neukos
+   - receives melody syncore instead of AEGIS system
+   - edge type 4 damage reduced by 150 on both modes and projectile speed by 100
+   - gets royal vector drive instead of rangefinder system
+
+- added Roria-chan and Lyora into Supership Start
+- my planned vacation gone in seconds from disaster
+- royal rillaru now available at lowered reputation condition
+
+31/5/23
+
+-implemented Nexerelin's hotfix, thats all really.
+
+25/6/23
+
+>UAF capital boats have been re-buffed to its 0.72 days, this is also requested by fans backed by vanilla ship comparisons.
+   - Isenoria DP from 58 to 53
+   - Reisen STD / M DP from 55 / 65 to 50 / 55
+   - Rillaru II DP from 60 to 55
+   - Aeria Charlotte DP from 50 to 47
+   - Fusoreina II DP from 55 to 50
+   - Purcellyra / Persephone DP from 70 / 80 to 60 / 70
+
+- bad news for Inari fans, female_62 have claimed the biggest 'assets' competitive ranking. ( 2 new portraits added )
+- new sound effects by Shigure, a renowned War Thunder sfx mod developer
+
+19/7/2023
+
+- Osela have been remade into a destroyer.
+- Minersky converted into AP Rocket Attacker.
+- Akatsuzuma rebuffed to its original version, the front hardpoint upgraded to large version.
+
+> Missile buff!
+   - All Chorus are given higher base ammo counts, they will now fire in large burst but takes forever to reload.
+   - Chorus missile performance buffed, it can decelerate a bit better now.
+   - Semibreve and its Meitou upgrade reload timer increased slightly.
+   - Swaras given DO_NOT_AIM hint, it should fire regardless if its in cone of fire or not.
+
+17/8/2023
+
+- Procastria (MP) and it's Ivory SG added
+- Merged Myo's stuff with the main build
+
+17/10/2023
+
+// Old Solvernia and Neuxoria stayed in the mod for now in order to test with or against them. They will be removed before the release.
+
+- Solvernia remake added, still missing main elements though ( spawn only )
+- Neuxoria remake added ( spawn only )
+- Cyrexa II and Kanshee perma-onhit bug fixed, it will now deal randomized damage ( weapon flux reduced by 200 for compensation )
+- Medium and large support guns are too efficient, given slightly weapon flux for balancing
+
+21/10/2023
+
+-Sekai and Wo added
+-Sekai's class upgraded to Destroyer, given appopriate stat changes too such as increased storage and maintenance cost.
+-UAF's engineering hullmod does no longer provide free repair during combat. 
+You can no longer free repair during combat, there is a limited regeneration based on 40%/30%/25%/15% percentage of total ship HP. Its only activatable after zero-flux as there also are 3 ~ 5 seconds delay after it too.
+
+17/11/2023
+
+- Solvernia's 808mm cannons received major changes.
+ It does no longer require a ship system to swap ammunition, instead relying on ship flux to do so. Currently capped at 50%. 
+- Eyeseau's major remake implemented
+ The first of its kind to have five ship systems, spread across four vulnerable sub-modules. TGT is a mini entropy amplifier while ECM is a nerfed version of its previous iteration for balancing reason.
+- Roria Esvernia's decorative sprites added, awaiting final ship system implementation.
+- Sakura VLMS receives new visual gfx update thanks to Nia Tahl.
+
+- Lillaru II (SP) remake implemented, it lost 6 small mounts in return for superior flux management and weapon arcs. Given extra HP due to increased size.
+- Lillaru (IRS) added, serving as the 'armored midline' choice between STD and SP. ( This means there'll be more captured variants for narrative purposes in the future )
+
+- Auroran Engineering and Auroran Advanced Engineering added
+3/6/9/12/20 HP regeneration per 1.5 seconds, a limiter have been placed across all UAF ships in order to prevent them from receiving free repairs during active combat. Only activable when zero-flux boost is in effect and only after several seconds of delay afterwards.
+
+- Neuxoria and Zepporia are now considered as 'super capitals'.
+- Solvernia and her modules receives the brand new 'Auroran Advanced Engineering'
+
+- (Note for later) All ships with maneuverability ship systems will receive new engine contrails, that means some engines are off by default and only activated when ship system is on.
+
+- All 'mini supercaps' receives double the armor value due to supercap_engineering for testing purposes.
+
+28/11/2023
+
+- UAF's PDs have been nerfed by half for balancing reasons. ( onhit effects )
+> Triyia now uses its own dedicated script
+ - Extra damaged reduced from 20 to 8 fragmentation damage against fighters and missiles
+> Penulisa's extra damage reduced from 20 to 10 fragmentation damage and its explosion width from 20 to 15
+> Merupaka's damage calculation has been changed.
+ - Extra damage reduced from 10 to 5 ~ 10 fragmentation damage while fighters and missile damage modifier from 35 to 10 ~ 20.
+
+Kaysaar have changed how Confectionary works now.
+Food  = size of market ( for example size 6 market will generate 6 demand for food ) 
+Domestic Goods = size of market - 2 
+Heavy Machinery = size of market 
+Adjust - Now deficit of any commodity needed by confectionary won't cause full stop of production but rather it's reduction by amount of units missing in demand section 
+
+Supply Section
+Choco Lava Cake = 2 + size of market 
+Chocolate Donut Bundle 1 + (size of market -3)
+Croissant and Pretzel Box 1 + (size of market - 5) : Here calculation is done so on size 3 and 4 worlds it will produce 1 unit of croissant and only after crossing size 5 it will increase production 
+
+Added Monthly generation of bakery goods to player's storage
+For this example supply here will be max of what you can have on size 6 world with 10 stability (without including ai cores)
+Max size of market  = 6 
+Max stability = 10 
+Divider = (Max size - current market size)+(Max Stability - current stability) -> Divider lowest value will always be 1 
+Production unit of Choco Lava Cake = 40
+Production unit of Chocolate Donut Bundle = 30
+Production unit of Croissant and Pretzel Box = 20
+Calculation  (supply * productionUnit)/divider
+
+Examples : 
+Choco Lava Cake = (840)/1 = 320 monthly
+Chocolate Donut Bundle = (430)/1 = 160 monthly
+Croissant and Pretzel Box  = (2*20)/1 = 20 monthly
+
+Nerfed effects of confectionary market upkeep reduciton to be from 80% on max to 35% (instead of mult of 0.2 you got mult of 0.75)
+Nerfed effects of confectionary market income multiplier to be 50% less of what used to be
+
+-Added multiple dialogues to queen's interaction, mainly chat ( unfinished )
+-Added additional tier 1 rewards to Alexandra and robo queen ( persephone and roria esvernia
+-Added ECCM to Menascar
+-Added Super Nakiha, a super destroyer armed with built-in HVAR launchers
+
+-Changed Exoscar's acceleration from 200 to 250
+-Changed Meitou Chorus AAMX damage from 750 to 375
+-Applied limiters to Eyeseau's modules ( OP down to 0 and shield eff. up to 2.5 )
+-Fixed Solvernia's engine hull style
+-Fixed Lillaru SP's front mount
+
+17/12/2023
+
+- Vaharagiri (SP) added
+- Seiichi (M) added
+
+2/1/2024
+
+-Nia Tahl's VFX converted to .java
+-Slight buff to Super Nakiha by enhancing its built-in rocket pods
+-Fixed a weird sfx problem from Vector Jets(?)
+
+18/1/2024
+
+-Added Royal Arithmetic Control hullmod for Neuxoria
+-Added High Alert Readiness ship system for Eyeseau
+-Added Evasive Maneuver ship system for Seiichi
+-Finally fixed Optimized Ordnance Assembly after 2 years of waiting
+
+-Removed the obsolete Solvernia VI and Neuxoria from the roster as they're being replaced by the new ones
+
+-Triyia will now fire two Chorus missiles as secondary fire mode every 8 ~ 12 seconds
+
+6/3/2024
+
+-More fixes implemented
+

@@ -1,0 +1,47 @@
+{
+	"id":"bt_forcedphase",
+	"type":"PHASE_CLOAK",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_murtach_bioAI",
+
+	"statsScript":"data.scripts.shipsystems.BrutePhaseStatsAlt",
+	"blockActionsWhileChargingDown":false,
+
+	"phaseHighlight":"_glow1",
+	"phaseDiffuse":"_glow2",
+
+	"canNotCauseOverload":true,
+
+	#"effectColor1":[255,175,255,255],
+	#"effectColor2":[255,0,255,150],
+		
+	"alwaysAccelerate":false,
+	"clampMaxSpeedAfter":false,
+
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.35,
+
+	"engineGlowColor":[179,59,59,60],
+	"engineGlowContrailColor":[179,59,59,60],
+	"engineGlowLengthMult":0.5,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":0.7,
+	
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"bt_murtach_p_incursion",
+	"loopSound":"bt_murtach_tunneling",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"shipAlpha":0.25,
+	
+	"aiHints":{
+		"activeSpeedIncrease":9000,
+		"burstMovementPotential":9000,
+		"averageSpeedIncrease":9000,
+		"threatRange":500,
+		"threatAmount":3000,
+		"threatAngle":360,
+		"threatArc":360,
+	}
+}

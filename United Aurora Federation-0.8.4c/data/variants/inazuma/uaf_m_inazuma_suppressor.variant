@@ -1,0 +1,69 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 13,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "uaf_m_inazuma",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_inazuma_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_rotan_452_cn",
+                "WS0009": "uaf_rotan_452_cn"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_tona_ii",
+                "WS0004": "uaf_tona_ii",
+                "WS0005": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_tona_i",
+                "WS0007": "uaf_tona_i"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0010": "uaf_m_inazuma_left_armor_plating",
+        "WS0011": "uaf_m_inazuma_right_armor_plating"
+    }
+}

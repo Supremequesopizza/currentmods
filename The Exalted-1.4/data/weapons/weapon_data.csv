@@ -1,0 +1,28 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Mordare Siege Laser,anvil_mordare,2,0.3,8000,850,,2500,,15,12,30,,,,FRAGMENTATION,700,,0.5,1,,,,,,,,900,,,700,"STRIKE,USE_VS_FRIGATES","energy8, exalted_weapon_bp",,Exalted,,Anti Capital,,,,,,,,,,27
+Gleam Cannon,anvil_gleam,0,,6000,800,,250,1400,0,30,22,,,,ENERGY,350,,0.5,1,,,,,,,,1000,,,,,"energy8, exalted_weapon_bp",,Exalted,,Suppression,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",50%,,,,19
+Tierra Burst Cannon,anvil_tierra,1,,5500,750,,350,,0,25,25,,,,HIGH_EXPLOSIVE,450,,0.1,4,5,0.1,0,10,1,5,,850,,,,,"energy18, exalted_weapon_bp",,Exalted,,Anti Armor,,,,,,,,,,25
+Hielo heavy Shredder,anvil_hielo,1,,5100,750,,35,,0,15,25,,,,KINETIC,30,,0,0.1,,,0,10,0.1,1,,1000,,,,,"energy18, exalted_weapon_bp",,Exalted,,Anti Shield,,,,,,,,,,11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Agua Blaster,anvil_agua,0,,1400,700,,100,,0,20,13,,,,KINETIC,110,,0.1,0.3,,,,,,,,1000,,,,,"energy13, exalted_weapon_bp",,Exalted,,Anti Shield,,,,,,,,,,22
+Fuego Blaster,anvil_fuego,0,,1500,700,,75,,0,25,11,,,,HIGH_EXPLOSIVE,60,,0.2,0,,,,5,2,,,1100,,,,,"energy13, exalted_weapon_bp",,Exalted,,Anti Armor,,,,,,,,,,22
+Plasma Mortar,anvil_plasma,0,,2000,350,,300,,10,30,12,,,,ENERGY,400,,0,0.7,1,,0,10,2,10,,700,,,30,PD,"pd7, energy8, exalted_weapon_bp",,Exalted,,Point Defense,,,,,,,,,,4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Trueno Bolt Gun,anvil_trueno,1,,750,550,,200,100,0,76,8,,,,HIGH_EXPLOSIVE,190,,0,0.8,1,,,,,,,10000,,,,,"energy8, exalted_weapon_bp",,Exalted,,Anti Armor,,,,,,Perfect,Fires an EMP arc at the nearest target close to the weapon's current facing. The arc always hits.,,,
+Aire Burst Laser,anvil_aire,0,,250,500,,25,,0,50,5,,,,KINETIC,20,,0.7,0,3,,,,,,,1000,,,,,"energy8, exalted_weapon_bp",,Exalted,,Anti Shield,,,,,,,,,,19.25
+Ecto Beam,anvil_ecto,0,,200,650,110,,,0,25,5,,,,HIGH_EXPLOSIVE,,95,0.1,0.1,,,,,,,2200,,,,,,"beam9, LR, exalted_weapon_bp",,Exalted,,Anti Armor,,,,,,,,,,18
+Varna PD Laser,anvil_varna,0,,550,500,,20,10,0,60,4,,,,FRAGMENTATION,5,,0.10,0,,,1,5,1,1,,1000,,,,PD,"pd7, energy8, exalted_weapon_bp",,Exalted,,Point Defense,,,,,,,,,,19.25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Voodoo Launcher,anvil_voodoo_launcher,1,,5000,2500,,500,150,15,10,24,40,,,KINETIC,0,,0,12,8,0.20,0,0,0,,,550,100,12.5,200,,"missile13, strike9, exalted_weapon_bp",,Exalted,,Anti Shield,Medium,Medium,,,,,,,TRUE,12
+Voodoo MRM Pod,anvil_voodoo_pod,0,,1200,2500,,500,150,15,10,12,12,,,KINETIC,0,,0,8.25,4,0.25,0,0,0,,,550,100,12.5,200,,"missile13, strike9, exalted_weapon_bp",,Exalted,,Anti Shield,Medium,Medium,,,,,,,TRUE,12
+Voodoo MRM,anvil_voodoo,0,,200,2500,,500,150,15,30,4,3,,,KINETIC,0,,0,1,1,,0,0,0,,,550,100,12.5,200,,"missile8, strike3, exalted_weapon_bp",,Exalted,,Anti Shield,Medium,Medium,,,,,,,TRUE,11.5
+Voodoo MRM (Single),anvil_voodoo_single,0,,200,1000,,500,150,15,30,5,1,,,KINETIC,0,,0,1,1,,0,0,0,,,550,100,12.5,200,SYSTEM,"missile8, strike3",,Exalted,,Anti Shield,Medium,Medium,,,,,,,TRUE,11.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Halvete Cannon,anvil_halvete,3,,7500,800,,450,,,20,0,,,,ENERGY,400,,0,0.80,1,,0,10,2,5,,700,,,500,"SYSTEM,SHOW_IN_CODEX",,,Exalted,,Anti Ship,,,,,,,,,,23
+Exorcists Light,anvil_exorcist,1,,1,1000,450,,,0,1,0,,,,ENERGY,,500,0.1,0.1,,,,,,,2400,,,,,"SYSTEM,SHOW_IN_CODEX",,,Exalted,,,,,,,,,,,,24
+Hex-class Torpedo,anvil_hex,0,,250,1200,,4000,,75,10,2,0,,,KINETIC,,,0,5,1,,0,0,0,0,,550,150,3.5,500,"SYSTEM,SHOW_IN_CODEX",,,Exalted,,Torpedo,Fast,None,,,,,,,TRUE,9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Diluted Ecto Beam,anvil_ecto_fighter,0,,200,650,35,,,0,25,5,,,,HIGH_EXPLOSIVE,,95,0.1,0.1,,,,,,,2200,,,,,SYSTEM,,,Exalted,,Anti Armor,,,,,,,,,,18
+Blinker Purple,anvil_purple,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

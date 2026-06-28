@@ -1,0 +1,165 @@
+{
+  "hullName": "Minoria(M)",
+  "hullId": "uaf_m_minoria",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Minoria_Military.png",
+  "style": "MIDLINE",
+  "height": 204,
+  "width": 131,
+  "center": [65, 99.5],
+  "collisionRadius": 133,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 110.5,
+  "viewOffset": 80,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_melodyEngine",
+    "uaf_militaryGrade",
+    "uaf_atmospheric_entry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 90,
+      "locations": [0.5, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -90,
+      "locations": [0.5, -29]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        46.5, -4,
+        46.5, 3.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        17, -4,
+        24, 4.5,
+        24.5, -4,
+        16.5, 4.5
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75.5, -15.5],
+      "length": 40.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-75.5, 16],
+      "length": 40.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-85.5, 0.5],
+      "length": 80,
+      "width": 34,
+      "angle": -180,
+      "contrailSize": 34,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-54.5, 35],
+      "length": 26.5,
+      "width": 11,
+      "angle": 143,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-54.5, -35],
+      "length": 26.5,
+      "width": 11,
+      "angle": -143,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -85.5, 9,
+    -73, 22.5,
+    -88, 27,
+    -87, 31,
+    -69, 28,
+    -65.5, 32,
+    -58, 32,
+    -52, 41,
+    -61.5, 41,
+    -54, 52,
+    -32, 52,
+    -18, 40.5,
+    -10.5, 37,
+    -6, 46.5,
+    -10, 61.5,
+    -6, 61.5,
+    15, 41,
+    21, 42,
+    41, 32.5,
+    43.5, 30,
+    92.5, 14.5,
+    101, 7.5,
+    83.5, 6,
+    83.5, -6,
+    101, -7.5,
+    92.5, -14.5,
+    43.5, -30,
+    41, -32.5,
+    21, -42,
+    15, -41,
+    -6, -61.5,
+    -10, -61.5,
+    -6, -46.5,
+    -10.5, -37,
+    -18, -40.5,
+    -32, -52,
+    -54, -52,
+    -61.5, -41,
+    -52, -41,
+    -58, -32,
+    -65.5, -32,
+    -69, -28,
+    -87, -31,
+    -88, -27,
+    -73, -22.5,
+    -85.5, -9
+  ]
+}

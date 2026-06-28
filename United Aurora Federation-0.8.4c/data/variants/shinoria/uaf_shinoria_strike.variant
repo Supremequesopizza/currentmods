@@ -1,0 +1,61 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_shinoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_light_wing_operation"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_shinoria_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_tona_ii",
+                "WS0008": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_clarinet_mirv_medium",
+                "WS0012": "uaf_oboe_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_chorus_s_amm",
+                "WS0010": "uaf_chorus_m_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_flair_pod",
+                "WS0006": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina",
+                "WS0003": "uaf_weiss_flk",
+                "WS0004": "uaf_weiss_flk"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_exoscar",
+        "uaf_wing_m_exoscar"
+    ]
+}

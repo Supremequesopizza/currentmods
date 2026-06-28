@@ -1,0 +1,30 @@
+{
+  "variantId": "uaf_yrn_mooparia_module_strategic",
+  "hullId": "uaf_yrn_mooparia_module",
+  "displayName": "Strategic",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "recovery_shuttles",
+    "uaf_reserve_wing_operation"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_triyia_pdx"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_ai_menascar_ii",
+    "uaf_wing_ai_menascar_ii",
+    "uaf_wing_ai_exoscar_ii",
+    "uaf_wing_m_exoscar"
+  ]
+}

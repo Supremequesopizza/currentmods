@@ -1,0 +1,39 @@
+{
+  "variantId": "uaf_wing_m_menascar_torpedo",
+  "hullId": "uaf_wing_m_menascar",
+  "displayName": "Heavy Torpedo Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_fw_exoscar_class_ii",
+        "WS0004": "uaf_fw_exoscar_class_ii",
+        "WS0005": "uaf_fw_hvar_class_iap",
+        "WS0006": "uaf_fw_hvar_class_iap",
+        "WS0007": "uaf_fw_hvar_class_iap",
+        "WS0008": "uaf_fw_hvar_class_iap"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

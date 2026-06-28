@@ -1,0 +1,18 @@
+{
+	"id":"uaf_precisia_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":70.0,
+	"hitGlowRadius":50,
+	"width":12,
+	"fadeTime":0.45,
+	"fringeColor":[30,165,255,250],
+	"coreColor":[255,255,175,170],
+	"glowColor":[63,186,255,30],
+	"glowRadius":50,	
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":100.0,
+	"pixelsPerTexel":1.0,
+}

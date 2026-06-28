@@ -1,0 +1,75 @@
+{
+    "displayName": "Strategic",
+    "fluxCapacitors": 9,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "uaf_yrn_mooparia",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_special_emergency_automated_assistance",
+        "uaf_reserve_wing_operation",
+        "hardenedshieldemitter",
+        "extendedshieldemitter",
+        "ecm",
+        "eccm"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_yrn_mooparia_strategic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_minirest_asm_l"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_rhythm_base_triple",
+                "WS0009": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_ivory",
+                "WS0007": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina",
+                "WS0004": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_triyia_pdx",
+                "WS0002": "uaf_triyia_pdx"
+            }
+        }
+    ],
+    "modules": {
+        "MOO_MODULE": "uaf_yrn_mooparia_module_strategic"
+    },
+    "wings": [
+        "uaf_wing_m_hyacinth_ii",
+        "uaf_wing_m_hyacinth_ii",
+        "uaf_wing_m_sakurai",
+        "uaf_wing_m_sakurai"
+    ]
+}

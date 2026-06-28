@@ -1,0 +1,58 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 4,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "uaf_sunami_prototype",
+    "hullMods": [
+        "uaf_reserve_wing_operation",
+        "recovery_shuttles",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_sunami_prototype_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_vocal_m_srm",
+                "WS0002": "uaf_vocal_m_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina",
+                "WS0005": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_weiss_flk",
+                "WS0008": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_vocal_s_srm"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_neoscar",
+        "uaf_wing_m_superaria"
+    ]
+}

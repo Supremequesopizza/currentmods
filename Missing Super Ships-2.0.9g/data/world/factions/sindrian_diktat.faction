@@ -1,0 +1,10 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "missp_triumph_core":0.001
+		}
+	},
+    "knownShips":{
+        "hulls":[]
+	}
+}

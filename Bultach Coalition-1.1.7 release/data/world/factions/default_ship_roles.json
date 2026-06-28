@@ -1,0 +1,155 @@
+{	
+	"combatCapital":{
+		"ork_dreadnotv2_standard":5,
+		"ork_dreadnotv2_siege":3,
+		"ork_bigscrap_standard":6,
+		"ork_spacehulk_standard":9,
+		"ork_battlecruiser_harasser":5,
+		"ork_logistics_p_standard":8,
+		"ork_battlecruiser_aggressive":8,
+		"ork_judgement_standard":4,
+		"ork_sgr_main_standard":5,
+		"ork_sgr_main_doomsday":5,
+		"ork_battlecruiser_disabler":4,
+		"ork_drednot_manic":4,
+		"ork_drednot_standard":6,
+		"ork_sisyphus_standard":7,
+		"ork_apsis_standard":4,
+		"ork_bigscrap_path_manic":9,
+		"ork_sacrilege_wrath":9,
+		"ork_detritus_hellborn":7,
+		"ork_despot_standard":3,
+
+
+		"ork_feregether_standard":10,
+		"ork_freiceadan_standard":10,
+
+	
+	},
+	"combatLarge":{
+		"ork_vencha_standard":3,
+		"ork_bigscrap_standard":0.5,
+		"ork_bigscrap_path_manic":0.5,
+		"ork_interdictor_standard":3,
+		"ork_crusher_standard":6,
+		"ork_tail_standard":4,
+		"ork_bigracer_standard":8,
+		"ork_loota_p_standard":5,
+		"ork_mining_p_standard":2,
+		"ork_mining_p_manic":6,
+		"ork_ramshackle_standard":9,
+		"ork_vencha_pather_standard":9,
+		"ork_faster_standard":7,
+		"ork_thrasher_standard":1,
+		"ork_thrasher_overidden":2,
+		"ork_faster_elite":5,
+		"ork_scrapheap_standard":5,
+		"ork_veneer_standard":5,
+		"ork_subjugator_standard":10,
+		"ork_dangerous_standard":3,
+		"ork_zealot_standard":7,
+		"ork_zealot_angy":7,
+		"ork_criterion_standard":5,
+		"ork_cyclops_standard":7,
+		"ork_vocifer_standard":6,
+
+		# this is a capital but it has to be here not to break the cryosleeper guardian fight
+		"ork_meshuga_standard":3,
+
+
+		"ork_nasairde_standard":8,
+		"ork_ceartas_standard":8,
+		
+	},
+	"combatMedium":{
+		"ork_smasha_standard":4,
+		"ork_prong_standard":7,
+		"ork_hammah_standard":6,
+		"ork_speeder_standard":9,
+		"ork_mule_mk3_standard":9,
+		"ork_hammah_pather_standard":5,
+		"ork_bees_p_standard":7,
+		"ork_prong_p_standard":4,
+		"ork_concoct_standard":5,
+		"ork_dregs_standard":9,
+		"ork_supermule_standard":7,
+
+
+		"ork_fulang_standard":7,
+		"ork_feirge_standard":6,
+		"ork_ceartas_standard":4,
+
+	},
+	"combatSmallForSmallFleet":{
+		"ork_grot_standard":3,
+		"ork_scrimb_standard":8,
+		"ork_bastard_standard":5,
+		"ork_racer_standard":8,
+		"ork_skrunkly_standard":7,
+		"ork_skrunkly_lp_standard":6,
+		"ork_sally_standard":5,
+		"ork_arke_standard":5,
+		"ork_supermule_standard":2,
+
+
+		"ork_ifrinn_standard":7,
+		"ork_basaich_standard":7,
+
+
+	},
+	"combatSmall":{
+		"ork_grot_standard":4,
+		"ork_scrimb_standard":8,
+		"ork_bastard_standard":5,
+		"ork_racer_standard":8,
+		"ork_skrunkly_standard":7,
+		"ork_skrunkly_lp_standard":6,
+		"ork_sally_standard":5,
+		"ork_arke_standard":5,
+		"ork_supermule_standard":3,
+
+
+		"ork_ifrinn_standard":7,
+		"ork_basaich_standard":7,
+
+
+	},
+	"carrierSmall":{
+		"ork_bees_standard":8,
+		"ork_grot_standard":4,
+	},
+	"carrierMedium":{
+		"ork_bees_standard":8,
+	},
+	"carrierLarge":{
+		"ork_bigscrap_standard":1.5,
+	},
+	"phaseSmall":{
+	},
+	"phaseLarge":{
+		"ork_dangerous_standard":7,
+		"ork_vocifer_standard":10,
+	},
+	"freighterLarge":{
+		"ork_logistics_standard":1,
+	},
+	"freighterMedium":{
+		"ork_loota_standard":1,
+	},
+	"tankerMedium":{
+		"ork_tanka_standard":1,
+		"phaeton_Standard":5,
+	},
+	"tankerLarge":{
+		"ork_logistics_standard":1,
+	},
+	"freighterSmall":{
+		"ork_tiny_freighter_standard":5,
+	},
+	"combatFreighterMedium":{
+		"mule_Standard":5,
+	},
+	"tankerSmall":{
+		"dram_Light":5,
+	},
+}

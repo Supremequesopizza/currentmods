@@ -1,0 +1,87 @@
+{
+  "hullName": "FAST",
+  "hullId": "ork_skrunkly_lp",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/skrunkly_pather.png",
+  "style": "BULTACH",
+  "height": 86,
+  "width": 106,
+  "center": [53, 37.5],
+  "collisionRadius": 71.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 67,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger",
+    "Ork_low_Maintenance",
+    "ork_redfasta",
+    "safetyoverrides",
+    "bt_shieldArching"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ork_skrunkly_top_lp"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14.5, 22]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [14.5, -22]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-16, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-37.5, -0],
+      "length": 75.5,
+      "width": 54,
+      "angle": 180,
+      "contrailSize": 54,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23, 35.5],
+      "length": 43.434486,
+      "width": 14.099015,
+      "angle": 153,
+      "contrailSize": 14.099015,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-23, -35.5],
+      "length": 43.434486,
+      "width": 14.099015,
+      "angle": -153,
+      "contrailSize": 14.099015,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -17.5, -53,
+    46, -0,
+    -17.5, 53,
+    -38.5, -0
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "variantId": "ork_judgement_standard",
+  "hullId": "ork_judgement",
+  "displayName": "Holy Fervor",
+  "goalVariant": true,
+  "fluxCapacitors": 34,
+  "fluxVents": 45,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9",
+        "WS0002": "mark9"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0008": "ork_judgement_engine_standard"
+    },
+    {
+      "WS0006": "ork_judgement_middle_left_standard"
+    },
+    {
+      "WS0007": "ork_judgement_middle_right_standard"
+    },
+    {
+      "WS0004": "ork_judgement_front_left_standard"
+    },
+    {
+      "WS0005": "ork_judgement_front_right_standard"
+    }
+  ],
+  "wings": []
+}

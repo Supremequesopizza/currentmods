@@ -1,0 +1,48 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 400,
+  "fireSoundTwo": "flak_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/plasma/anvil_plasma_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    33,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/plasma/anvil_plasma_hardpoint_base.png",
+  "id": "anvil_plasma",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "particleColor": [0, 171, 17, 205
+    ],
+    "particleCount": 30,
+    "particleDuration": 0.4,
+    "particleSizeMin": 16,
+    "particleSizeRange": 20,
+    "spread": 30
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "anvil_plasma_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/plasma/anvil_plasma_turret_recoil.png",
+  "turretOffsets": [
+    28,
+    0
+  ],
+  "turretSprite": "graphics/weapons/plasma/anvil_plasma_turret_base.png",
+  "type": "ENERGY",
+  "visualRecoil": 8
+}

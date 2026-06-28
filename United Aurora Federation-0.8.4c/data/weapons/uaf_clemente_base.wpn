@@ -1,0 +1,35 @@
+{
+	"id":"uaf_clemente_base",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"SMALL",
+	"renderHints":[RENDER_LOADED_MISSILES_UNLESS_HIDDEN],
+	"turretSprite":"graphics/weapons/Missiles/clemente_s_mrm_single/missile_rack_open_s_1x_turret_base.png",
+	"hardpointSprite":"graphics/weapons/Missiles/clemente_s_mrm_single/missile_rack_open_s_1x_turret_base.png",
+	"hardpointOffsets":[
+		4.5,0
+	],
+	"turretOffsets":[
+		4.5,0
+	],
+	#"hardpointAngleOffsets":[-20, -10, 10, 20],
+	#"turretAngleOffsets":[-20, -10, 10, 20],
+	"hardpointAngleOffsets":[0],
+	"turretAngleOffsets":[0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"SMOKE",
+	"interruptibleBurst":false,
+	"displayArcRadius":500,
+	"smokeSpec":{"particleSizeMin":10.0,
+				 "particleSizeRange":16.0,
+				 "cloudParticleCount":3,
+				 "cloudDuration":0.9,
+				 "cloudRadius":8.0,
+				 "blowbackParticleCount":4,
+				 "blowbackDuration":1.1,
+				 "blowbackLength":20.0,
+				 "blowbackSpread":10.0,
+				 "particleColor":[170,160,150,130]},
+	"projectileSpecId":"uaf_clemente_mssl",
+	"fireSoundTwo":"uaf_missile_1",
+}

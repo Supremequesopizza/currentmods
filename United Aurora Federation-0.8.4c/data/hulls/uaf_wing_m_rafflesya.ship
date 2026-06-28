@@ -1,0 +1,233 @@
+{
+  "hullName": "Rafflesya (MP)",
+  "hullId": "uaf_wing_m_rafflesya",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_wing_rafflesya.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 152,
+  "width": 188,
+  "center": [94, 69],
+  "collisionRadius": 111,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 99.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_gunship_mod_1",
+    "uaf_noLanding",
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_fw_125mm_class_i",
+    "WS0002": "uaf_fw_125mm_class_i",
+    "WS0003": "uaf_weiss_flk",
+    "WS0004": "uaf_weiss_flk",
+    "WS0005": "uaf_pd_reina",
+    "WS0006": "uaf_pd_reina",
+    "WS0007": "uaf_flair_pod",
+    "WS0008": "uaf_flair_pod",
+    "WS0009": "uaf_fw_awp_class_i_revamped",
+    #"WS0010": ""
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -35.5,
+      "locations": [2, -17]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 251,
+      "angle": 35.5,
+      "locations": [2, 17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": 0,
+      "locations": [29, 31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": -0,
+      "locations": [29, -31]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 251,
+      "angle": 35.5,
+      "locations": [-2, 58]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 251,
+      "angle": -35.5,
+      "locations": [-2, -58]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-39.5, 31]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-39.5, -31]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -35.5, -11,
+        -31, -16
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -36, 11,
+        -31, 16
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 47,
+      "angle": -0,
+      "locations": [25, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 47,
+      "angle": 0,
+      "locations": [25, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, -44.5],
+      "length": 30,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-10, 44.5],
+      "length": 30,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-10, -35.5],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-10, 35.5],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-10, 38.5],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-10, -38.5],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-10, -41.5],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-10, 41.5],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    -66.5, 2,
+    -51.5, 16.5,
+    -54, 19,
+    -54, 35,
+    -26.5, 61.5,
+    -35, 76.5,
+    -21, 93,
+    63.5, 5.5,
+    59, 1,
+    59, -1,
+    63.5, -5.5,
+    -21, -93,
+    -35, -76.5,
+    -26.5, -61.5,
+    -54, -35,
+    -54, -19,
+    -51.5, -16.5,
+    -66.5, -2
+  ]
+}

@@ -1,0 +1,31 @@
+commodity,group,freq
+alpha_core,techmining,1
+beta_core,techmining,2
+gamma_core,techmining,5
+"wpn_:{weaponType:BALLISTIC, tags:[!no_drop, !restricted, !no_sell]}",techmining,150
+"wpn_:{weaponType:MISSILE, tags:[!no_drop, !restricted, !no_sell]}",techmining,150
+"wpn_:{weaponType:ENERGY, tags:[!no_drop, !restricted, !no_sell]}",techmining,150
+"ftr_:{tags:[!remnant, !no_drop, !restricted]}",techmining,150
+"item_modspec:{tags:[!no_drop_salvage, !restricted]}",techmining,9
+"item_ship_bp:{tags:[rare_bp, !no_drop, !restricted]}",techmining,45
+"item_weapon_bp:{tags:[rare_bp, !no_drop, !restricted]}",techmining,45
+"item_fighter_bp:{tags:[rare_bp, !no_drop, !restricted]}",techmining,45
+"item_:{tags:[package_bp, !no_drop, !restricted]}",techmining,9
+item_synchrotron,techmining,5
+item_pristine_nanoforge,techmining,5
+item_corrupted_nanoforge,techmining,10
+item_orbital_fusion_lamp,techmining,5
+item_mantle_bore,techmining,5
+item_catalytic_core,techmining,5
+item_soil_nanites,techmining,5
+item_biofactory_embryo,techmining,5
+item_fullerene_spool,techmining,5
+item_plasma_dynamo,techmining,5
+item_cryoarithmetic_engine,techmining,5
+item_drone_replicator,techmining,5
+item_dealmaker_holosuite,techmining,5
+item_coronal_portal,techmining,5
+"wpn_:{weaponType:BALLISTIC, tags:[sw_techmining]}",techmining,5
+"wpn_:{weaponType:MISSILE, tags:[sw_techmining]}",techmining,5
+"wpn_:{weaponType:ENERGY, tags:[sw_techmining]}",techmining,5
+nothing,techmining,1000

@@ -1,0 +1,52 @@
+{
+  "variantId": "ork_redemption_prow_left_standard",
+  "hullId": "ork_redemption_prow_left",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "devastator",
+        "WS0006": "flak",
+        "WS0008": "vulcan",
+        "WS0009": "lightdualmg",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0005": "shredder",
+        "WS0007": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mark9",
+        "WS0004": "arbalest",
+        "WS0012": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "hammerrack"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

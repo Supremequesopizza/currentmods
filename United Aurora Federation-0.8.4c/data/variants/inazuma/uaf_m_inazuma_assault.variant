@@ -1,0 +1,60 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "uaf_m_inazuma",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "auxiliarythrusters",
+        "reinforcedhull"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_inazuma_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_rotan_452_cn",
+                "WS0008": "uaf_rotan_452_cn"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_clarinet_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_medlav_quad",
+                "WS0005": "uaf_ivory_triple",
+                "WS0004": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_weiss_flk",
+                "WS0006": "uaf_weiss_flk"
+            }
+        }
+    ],
+    "modules": {
+        "WS0010": "uaf_m_inazuma_left_armor_plating",
+        "WS0011": "uaf_m_inazuma_right_armor_plating"
+    }
+}

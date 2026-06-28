@@ -1,0 +1,60 @@
+{
+  "id": "ork_mininglaser",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect":"com.fs.starfarer.api.impl.combat.TachyonLanceEffect",
+  "turretSprite": "graphics/weapons/ork_miningbeam_turret.png",
+  "turretGlowSprite": "graphics/weapons/ork_miningbeam_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/ork_miningbeam_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/ork_miningbeam_hardpoint_glow.png",
+    "glowColor": [
+    178,
+    0,
+    0,
+    255
+  ],
+  "turretOffsets": [
+    4.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    9.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+    "fringeColor": [
+    178,
+    255,
+    255,
+    255
+  ],
+  "coreColor": [
+    178,
+    0,
+    0,
+    255
+  ],
+  "width": 20,
+  "textureType": [
+    "graphics/fx/doublehelix_trail_beam.png",
+    "graphics/fx/bt_beam_fluid.png"
+  ],
+  "textureScrollSpeed": 200,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "mining_beam_start",
+  "fireSoundTwo": "ir_autolance_loop",
+  "mountTypeOverride": "HYBRID"
+}

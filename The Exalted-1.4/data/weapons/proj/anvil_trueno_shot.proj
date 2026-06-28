@@ -1,0 +1,17 @@
+{
+	"id":"anvil_trueno_shot",
+	"onFireEffect":"com.fs.starfarer.api.impl.combat.ShockRepeaterOnFireEffect",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"NONE",
+	"length":0,
+	"hitGlowRadius":0,
+	"width":0,
+	"fadeTime":0,
+	"fringeColor":[255,255,0, 255],
+	"coreColor":[132,132,0,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":""
+}

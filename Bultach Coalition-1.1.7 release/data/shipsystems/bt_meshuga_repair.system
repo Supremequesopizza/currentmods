@@ -1,0 +1,23 @@
+{
+	"id":"bt_meshuga_repair",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_meshuga_repairAI",
+	
+	"statsScript":"data.scripts.shipsystems.bt_meshuga_repair",
+	
+	"weaponGlowColor":[255,165,90,0],
+	"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"bt_meshuga_repair",
+	#"loopSound":"system_damper_loop",
+	#"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+

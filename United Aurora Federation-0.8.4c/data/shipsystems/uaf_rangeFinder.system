@@ -1,0 +1,18 @@
+{
+    "id":"uaf_rangeFinder",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	#"statsScript":"com.fs.starfarer.api.impl.combat.TargetingFeedStats",
+	"statsScript":"data.shipsystems.scripts.uaf_rangeFinder",
+
+	"useSound":"system_targeting_feed",
+	#"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+		"threatRange":1500,
+		"threatArc":270,
+	}
+}

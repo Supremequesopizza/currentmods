@@ -1,0 +1,62 @@
+{
+  "id": "uaf_meitou_chorus_nt",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_missile_chorus_nt",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/Missiles/chorus_l_amm/uaf_meitou_chorus.png",
+  "hardpointSprite": "graphics/weapons/Missiles/chorus_l_amm/uaf_meitou_chorus.png",
+  "turretOffsets": [
+    11,
+    7.5,
+    11,
+    4,
+    11,
+    -7.5,
+    11,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    19,
+    7.5,
+    19,
+    4,
+    19,
+    -7.5,
+    19,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      128,
+      128,
+      128,
+      105
+    ]
+  },
+  "fireSoundTwo": "uaf_missile_5"
+}

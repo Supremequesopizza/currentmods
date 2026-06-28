@@ -1,0 +1,67 @@
+{
+  "hullName": "Rosea (SP)",
+  "hullId": "uaf_wing_ai_rosea",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ai_wing_rosea.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 47,
+  "width": 44,
+  "center": [22, 23.5],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 74,
+      "angle": 0,
+      "locations": [-13.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 93,
+      "angle": 40,
+      "locations": [8.5, 6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 93,
+      "angle": -40,
+      "locations": [8.5, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14.5, -11],
+      "length": 15.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-14.5, 11],
+      "length": 15.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    2.5, 20.5,
+    -21.5, -0,
+    2.5, -20.5,
+    22.5, -0
+  ]
+}

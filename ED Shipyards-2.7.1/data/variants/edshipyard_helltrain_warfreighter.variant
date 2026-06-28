@@ -1,0 +1,77 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 20,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "edshipyard_helltrain",
+    "hullMods": [
+        "dedicated_targeting_core",
+        "defensive_targeting_array",
+        "reinforcedhull",
+        "shield_shunt",
+    ],
+  "modules": [
+    {
+      "SEGMENT5": "edshipyard_helltrain_combatfreighter_standard"
+    },
+    {
+      "SEGMENT4": "edshipyard_helltrain_combatfreighter_standard"
+    },
+    {
+      "SEGMENT3": "edshipyard_helltrain_combatfreighter_standard"
+    },
+    {
+      "SEGMENT2": "edshipyard_helltrain_combatfreighter_standard"
+    },
+    {
+      "SEGMENT1": "edshipyard_helltrain_combatfreighter_standard"
+    }
+  ],
+  "permaMods": [
+      "defective_manufactory",
+      "comp_storage",
+      "degraded_shields"
+  ],
+  "quality": 0,
+  "variantId": "edshipyard_helltrain_warfreighter",
+  "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "hydra",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "edshipyard_GS2",
+                "WS0004": "edshipyard_GS2",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "flak",
+                "WS0006": "flak",
+                "WS0008": "vulcan",
+                "WS0009": "vulcan",
+                "WS0010": "vulcan",
+                "WS0011": "vulcan",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "hephag",
+                "WS0003": "hephag",
+            }
+        },
+    ],
+    "wings": [
+        "mining_drone_wing",
+    ]
+}

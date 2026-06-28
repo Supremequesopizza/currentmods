@@ -1,0 +1,21 @@
+{
+	"id":"uaf_midway_protocol",
+	"type":"STAT_MOD",
+	#"aiType":"TARGETING_FEED",
+	"aiType":"RESERVE_DEPLOYMENT",
+	#"aiScript":"data.shipsystems.scripts.uaf_targetingFeedAI",
+	
+	"statsScript":"data.shipsystems.scripts.uaf_midway_protocol",
+	
+	"useSound":"system_targeting_feed",
+	#"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

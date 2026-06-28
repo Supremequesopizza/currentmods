@@ -1,0 +1,48 @@
+{
+  "id": "ork_sathar_gigashotgun",
+  "specClass": "projectile",
+  "projectileSpecId": "gigashotgun_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.bt_artillery_onfire2",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/ork_artillery_xl.png",
+  "turretGunSprite": "graphics/weapons/ork_artillery_xl_recoil.png",
+  "hardpointSprite": "graphics/weapons/ork_artillery_xl.png",
+  "hardpointGunSprite": "graphics/weapons/ork_artillery_xl_recoil.png",
+  "visualRecoil": 15,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    93,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    140,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 50,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.8,
+    "particleCount": 25,
+    "particleColor": [
+      255,
+      50,
+      50,
+      220
+    ]
+  },
+  "fireSoundTwo": "gigashotgun_fire"
+}

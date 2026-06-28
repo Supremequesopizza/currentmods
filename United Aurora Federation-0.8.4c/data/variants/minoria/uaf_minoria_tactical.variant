@@ -1,0 +1,33 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 1,
+    "fluxVents": 3,
+    "goalVariant": false,
+    "hullId": "uaf_minoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_light_wing_operation"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_minoria_tactical",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina_ii"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_hyacinth_ii",
+        "uaf_wing_m_aria"
+    ]
+}

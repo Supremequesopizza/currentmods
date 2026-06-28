@@ -1,0 +1,19 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+"# Remember that we are all in this to have fun. Reverse Engineering is neither easy nor cheap, and forbidding too much takes away from player experience."
+anvil_nightmare
+anvil_wendigo
+anvil_fantasma
+anvil_urn
+anvil_wraith
+anvil_lich
+anvil_apparition
+anvil_phylactery
+anvil_phylactery_b
+anvil_cielo
+anvil_vampire
+anvil_spirit
+anvil_eerie
+anvil_omen_ex

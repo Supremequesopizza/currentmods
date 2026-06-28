@@ -1,0 +1,77 @@
+{
+  "hullName": "Reflecta Armor Plating (XL)",
+  "hullId": "uaf_xl_reflecta_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Solvii/uaf_xl_reflecta_right.png",
+  "style": "UAF_FLAGSHIP",
+  "height": 149,
+  "width": 108,
+  "center": [54, 74.5],
+  "collisionRadius": 118,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 98,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_reflective_armor_ii"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_flair_pod",
+    "WS0002": "uaf_racun_pod",
+    "WS0003": "uaf_deco_mg",
+    "WS0004": "uaf_deco_mg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -40.5,
+      "locations": [40.5, 32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -40.5,
+      "locations": [6, -2.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -40.5,
+      "locations": [-17.5, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -40.5,
+      "locations": [-51.5, -19]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -8.5, -35,
+    73, 46,
+    68.5, 52.5,
+    34.5, 41.5,
+    19.5, 26.5,
+    11, 35,
+    -22, 25,
+    -61, -13.5,
+    -72, -47,
+    -67, -51.5,
+    -1.5, 10,
+    -8, -8,
+    -15, -30
+  ]
+}

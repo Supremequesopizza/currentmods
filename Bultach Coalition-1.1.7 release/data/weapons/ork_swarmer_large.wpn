@@ -1,0 +1,45 @@
+{
+  "id": "ork_swarmer_large",
+  "specClass": "projectile",
+  "projectileSpecId": "bt_holydem_proj",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.bt_holydem_wep_EveryFrameEffect",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/gestalt/ork_swarmer_large.png",
+  "hardpointSprite": "graphics/weapons/gestalt/ork_swarmer_large.png",
+  "turretOffsets": [
+    9,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    19.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 26,
+    "blowbackSpread": 8,
+    "particleColor": [
+      235,
+      205,
+      255,
+      100
+    ]
+  },
+  "fireSoundTwo": "bt_holydem_launch"
+}

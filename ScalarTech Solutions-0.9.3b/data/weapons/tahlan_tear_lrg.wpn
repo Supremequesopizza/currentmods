@@ -1,0 +1,51 @@
+{
+  "id": "tahlan_tear_lrg",
+  "specClass": "projectile",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/tahlan/weapons/tahlan_tear_lrg_launcher_turret.png",
+  "hardpointSprite": "graphics/tahlan/weapons/tahlan_tear_lrg_launcher_hp.png",
+  "turretOffsets": [
+    15.5,
+    7.5,
+    15.5,
+    -7.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    7.5,
+    17,
+    -7.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "projectileSpecId": "tahlan_tear_msl",
+  "renderAboveAllWeapons": 0,
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 6,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      205,
+      220,
+      235,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "reaper_fire"
+}

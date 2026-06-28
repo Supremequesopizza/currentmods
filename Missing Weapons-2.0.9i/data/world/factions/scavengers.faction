@@ -1,0 +1,11 @@
+{
+  "knownWeapons":{
+	"tags":[""],
+	"weapons":[
+    "missp_atropostvc",
+    "missp_mjolnirsb",
+    "missp_swarmerpod",
+    "missp_atropospod"
+  ],
+  },
+}

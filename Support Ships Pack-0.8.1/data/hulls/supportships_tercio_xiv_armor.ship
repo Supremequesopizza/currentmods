@@ -1,0 +1,36 @@
+{
+  "hullName": "Tercio (XIV) Armor",
+  "hullId": "supportships_tercio_xiv_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Tercio (XIV) Armor.png",
+  "style": "LOW_TECH",
+  "height": 184,
+  "width": 116,
+  "center": [58, 149],
+  "collisionRadius": 75.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 39.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+    "always_detaches",
+    "reduced_explosion",
+    "supportships_ArmorChildModule"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    33, 1.5,
+    20, 30,
+    -47, 52,
+    -53, 43.5,
+    -26, 39,
+    11.5, 7.5,
+    11.5, -7.5,
+    -26, -39,
+    -53, -43.5,
+    -47, -52,
+    20, -30,
+    33, -1.5
+  ]
+}

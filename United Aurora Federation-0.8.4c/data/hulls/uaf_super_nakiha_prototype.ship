@@ -1,0 +1,286 @@
+{
+  "hullName": "Pr. Super Nakiha(MP)",
+  "hullId": "uaf_super_nakiha_prototype",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Special/super_nakiha/uaf_super_nakiha_prototype.png",
+  "style": "UAF_DESTROYER",
+  "height": 253,
+  "width": 160,
+  "center": [80, 126.5],
+  "collisionRadius": 166,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 131,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_militaryGrade",
+    "uaf_auroranEngineering",
+    "uaf_atmospheric_entry",
+    "uaf_super_nakiha_special_script"
+  ],
+  "builtInWeapons": {
+    "BACKLEFT_BLINKER1": "uaf_blinker_forward_vertical_1",
+    "BACKLEFT_BLINKER2": "uaf_blinker_forward_vertical_2",
+    "BACKRIGHT_BLINKER1": "uaf_blinker_forward_vertical_1",
+    "BACKRIGHT_BLINKER2": "uaf_blinker_forward_vertical_2",
+    "PORTFRONT_BACKLEFT_BLINKER1": "uaf_blinker_forward_vertical_1",
+    "PORTFRONT_BACKLEFT_BLINKER2": "uaf_blinker_forward_vertical_2",
+    "SBFRONT_BACKRIGHT_BLINKER1": "uaf_blinker_forward_vertical_1",
+    "SBFRONT_BACKRIGHT_BLINKER2": "uaf_blinker_forward_vertical_2",
+    "WS0007": "uaf_hvar_class_nk",
+    "WS0008": "uaf_hvar_class_nk"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": 0,
+      "locations": [-4.5, -0],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [30.5, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 214,
+      "angle": 80,
+      "locations": [-54.5, 29]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 214,
+      "angle": -80,
+      "locations": [-54.5, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-15.5, 38]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [-15.5, -38]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [5.5, 12]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": -0,
+      "locations": [5.5, -12]
+    },
+    {
+      "id": "PORTFRONT_BACKLEFT_BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [49, 5]
+    },
+    {
+      "id": "SBFRONT_BACKRIGHT_BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [49, -5]
+    },
+    {
+      "id": "PORTFRONT_BACKLEFT_BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11.5, 5]
+    },
+    {
+      "id": "SBFRONT_BACKRIGHT_BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11.5, -5]
+    },
+    {
+      "id": "BACKLEFT_BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-35, 48]
+    },
+    {
+      "id": "BACKRIGHT_BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-35, -48]
+    },
+    {
+      "id": "BACKLEFT_BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-86.5, 27]
+    },
+    {
+      "id": "BACKRIGHT_BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-86.5, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-74, 37],
+      "length": 23,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-74, -37],
+      "length": 23,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-97, -9],
+      "length": 44,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-97, 9],
+      "length": 44,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-97, -0],
+      "length": 82,
+      "width": 34,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-97, 23.5],
+      "length": 47.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-97, -23.5],
+      "length": 47.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-82, -37],
+      "length": 53.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-82, 37],
+      "length": 53.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "MELODY_ENGINE"
+    }
+  ],
+  "bounds": [
+    -107.5, 16.5,
+    -97, 19.5,
+    -95, 40,
+    -78.5, 55,
+    -78.5, 61.5,
+    -52.5, 61.5,
+    -42.5, 50,
+    -21.5, 50,
+    -21.5, 61.5,
+    -17.5, 64.5,
+    14.5, 34,
+    16.5, 29,
+    23.5, 29,
+    100, 5.5,
+    79, 3,
+    79, -3,
+    100, -5.5,
+    23.5, -29,
+    16.5, -29,
+    14.5, -34,
+    -17.5, -64.5,
+    -21.5, -61.5,
+    -21.5, -50,
+    -42.5, -50,
+    -52.5, -61.5,
+    -78.5, -61.5,
+    -78.5, -55,
+    -95, -40,
+    -97, -19.5,
+    -107.5, -16.5
+  ]
+}

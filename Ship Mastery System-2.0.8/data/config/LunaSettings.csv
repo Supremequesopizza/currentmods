@@ -1,0 +1,43 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+sms_HeaderFeatures,Features,Header,Features,,,,,General
+sms_DisableMainFeatures,Disable Main Features (requires reload),Boolean,false,,"If this option is enabled, the main features of this mod will be disabled, re-enabling building in hullmods with story points and disabling all mastery effects.
+
+Note that this does not disable additional content not related to the mastery system.
+",,,General
+sms_RandomMode,Enable Random Mode (requires new game),Boolean,false,,"If enabled, all masteries are randomized except for the guaranteed 2 S-mod capacity masteries, which may appear at any level. Disables tier requirements from mastery selection criteria and removes the option to select between two different masteries at certain levels.
+
+Requires main mod features to be enabled.
+",,,General
+sms_PlayerShipGraveyards,Enable Player Ship Graveyards,Boolean,true,,"If enabled, player ships that are lost in battle but not recovered will be spawned as derelicts. When losing or disengaging from a battle, ships that would have been recoverable if the player had decisively won are spawned as derelicts.",,,General
+sms_RecentBattles,Recent Battle Replay,Radio,On,"Off,On,Precise","If enabled, saves the 10 most recent player battles, allowing them to be replayed at any time with your current fleet. Battles can also be pinned, saving them permanently.
+
+If precise mode is enabled, exact ship variants will be saved to file, ensuring that the same ships that were fought in the field are fought in replay, but this may make your save file noticeably larger.
+Otherwise, only the fleets' inflaters will be saved, meaning variations in ship loadouts may occur due to setting changes, or poorly-seeded or unseeded inflaters.",,,General
+sms_SModAutofitOption,Add S-Mod Autofit Option,Boolean,true,,"If enabled, adds a checkbox to the autofit window that, when checked, will attempt to copy installed S-mods from the goal variant during the autofit process. May conflict with other mods that modify the refit screen autofit behavior.",,,General
+sms_CrPenaltyPerExcessOPPercent,Excess OP Penalty,Double,0.1,,"For each percent of excess OP on a ship, the ship's maximum combat readiness is reduced by this amount. Relevant when disabling mastery effects that decrease OP costs. Set to 0 to support mods that enable exceeding max OP as a feature.",0,1,General
+,,,,,,,,
+,,,,,,,,
+sms_HeaderGameplay,Gameplay,Header,Gameplay,,,,,Mastery
+sms_CombatMPGainMultiplier,Combat XP Gain Multiplier,Double,1,,Multiplies the amount of mastery XP gained for non-civilian ship hulls. Doesn't apply to mastery XP gained from items or other miscellaneous sources.,0,5,Mastery
+sms_CivilianMPGainMultiplier,Civilian XP Gain Multiplier,Double,1,,Multiplies the amount of XP gained for civilian ship hulls. Doesn't apply to mastery XP gained from items or other miscellaneous sources.,0,5,Mastery
+sms_SModCreditCostMultiplier,S-Mod Credits Cost Multiplier,Double,1,,Multiplies the credits cost of building in hullmods by the specified amount.,0,5,Mastery
+sms_RandomMasterySeed,Mastery Generation Seed (requires new game),String,,,"Seed to use for randomly generated mastery effects, applied to all new games. If left empty or whitespace only, the sector seed will be used instead.",,,Mastery
+sms_DisplayLockedMasteries,Display Locked Mastery Effects,Boolean,false,,"If enabled, all mastery effects will be shown in the mastery interface, even if you lack the required level to unlock them.",,,Mastery
+,,,,,,,,
+,,,,,,,,
+sms_HeaderUI,Interface,Header,Interface,,,,,Mastery
+sms_DoubleClickInterval,Double-Click Interval,Double,0.75,,"For options that require a double-click to confirm, sets the time window for a subsequent click to register as a double-click.",0.1,5,Mastery
+sms_RefitScreenDisplay,Fleet/Refit Screen Display,Boolean,true,,"If enabled, displays mastery level info next to each ship while in the fleet and refit screens.",,,Mastery
+sms_EnableCopySeedButton,Copy Seed Button,Boolean,false,,"If enabled, the mastery panel will include a button to copy the current save's mastery generation seed, for debugging purposes.",,,Mastery
+sms_MasteryColor,Mastery Color,Color,#60e1ff,,Sets the highlight color for mastery-related text and popup messages..,,,Mastery
+,,,,,,,,
+,,,,,,,,
+sms_DifficultyText,Difficulty Text,Text,All settings in this category only apply to NPC fleets that have not yet been processed by this mod.,,,,,Difficulty
+sms_HeaderProgression,Progression,Header,Progression,,,,,Difficulty
+sms_ProgressionEnabled,Enable Progression,Boolean,true,,"If [enabled], NPC fleet difficulty settings will [gradually progress] from their initial to their final values. If [disabled], difficulty settings will [remain at their initial values indefinitely].",,,Difficulty
+sms_TotalProgressionMP,Total Ship XP to Cap,Int,30000,,"If progression is enabled, controls the [rate] at which NPC fleets' mastery settings progress. The final settings are reached when the player gains the selected amount of [XP across all combat ship hulls]. This number only counts XP gained directly from combat, and not XP gained through constructs or passively for skins of a ship hull.",100,100000,Difficulty
+,,,,,,,,
+,,,,,,,,
+sms_HeaderDifficulty,Difficulty Settings,Header,Difficulty Settings,,,,,Difficulty
+sms_DifficultyLevelMod,Initial Level Modifier,Int,-2,,"The initial [flat modifier] to the [average mastery level] that ship hulls in NPC fleets will spawn with.",-10,10,Difficulty
+sms_DifficultyLevelModCap,Final Level Modifier,Int,4,,"The final [flat modifier] to the [average mastery level] that ship hulls in NPC fleets will spawn with.",-10,10,Difficulty

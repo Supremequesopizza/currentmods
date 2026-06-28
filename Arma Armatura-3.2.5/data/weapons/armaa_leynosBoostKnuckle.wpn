@@ -1,0 +1,60 @@
+{
+  "id": "armaa_leynosBoostKnuckle",
+  "specClass": "projectile",
+  "projectileSpecId": "armaa_boostKnuckle_missile",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.armaa_knuckleEffect",
+  "turretSprite": "graphics/armaa/weapons/armaa_leynos_boostKnuckle_00.png",
+  "turretGlowSprite": "graphics/armaa/weapons/armaa_leynos_rocketPunch_glow.png",
+  "hardpointSprite": "graphics/armaa/weapons/armaa_leynos_boostKnuckle_00.png",
+  "hardpointGunSprite": "graphics/weapons/assault_chaingun_hardpoint_recoil.png",
+  "specialWeaponGlowHeight": 1,
+  "specialWeaponGlowWidth": 1,
+"numFrames":3,	
+"frameRate":0,
+"autocharge": true,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    23,
+    14
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    26,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "glowColor": [
+    255,
+    155,
+    0,
+    255
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "cloudParticleCount": 8,
+    "cloudDuration": 1,
+    "cloudRadius": 20,
+    "blowbackParticleCount": 8,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 20,
+    "particleColor": [
+      155,
+      155,
+      155,
+      155
+    ]
+  },
+  "fireSoundTwo": "harpoon_fire"
+}

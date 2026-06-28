@@ -1,0 +1,48 @@
+{
+  "id": "armaa_chaingun",
+  "specClass": "projectile",
+  "projectileSpecId": "armaa_chaingun_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.armaa_valkenXEffect",
+  "turretSprite": "graphics/armaa/weapons/armaa_valkenchainGunBarrel00.png",
+  "turretGunSprite": "graphics/armaa/weapons/armaa_valkenchainGunBarrel00.png",
+  "hardpointSprite": "graphics/armaa/weapons/armaa_valkenchainGunBarrel00.png",
+  "hardpointGunSprite": "graphics/weapons/mg_light_hardpoint_recoil.png",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    31,
+    -14
+  ],
+  "turretAngleOffsets": [
+    1
+  ],
+  "hardpointOffsets": [
+    17,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 20,
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 15,
+    "particleSizeMin": 8,
+    "particleSizeRange": 24,
+    "particleDuration": 0.05,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "light_assault_gun_fire"
+}

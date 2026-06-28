@@ -1,0 +1,77 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_ai_rillaru",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_rillaru_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_kanshee_ii_sxc",
+                "WS0001": "uaf_kanshee_ii_sxc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "uaf_exoscar_torpedo_base",
+                "WS0014": "uaf_exoscar_torpedo_base"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0021": "uaf_vocal_l_srm",
+                "WS0020": "uaf_vocal_l_srm",
+                "WS0017": "uaf_vocal_m_srm",
+                "WS0016": "uaf_vocal_m_srm",
+                "WS0011": "uaf_vocal_m_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "uaf_merupaka_ii_epd",
+                "WS0009": "uaf_merupaka_ii_epd",
+                "WS0006": "uaf_merupaka_ii_epd",
+                "WS0003": "uaf_merupaka_ii_epd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_pd_reina_ii",
+                "WS0007": "uaf_pd_reina_ii",
+                "WS0005": "uaf_pd_reina_ii",
+                "WS0004": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "uaf_weiss_flk",
+                "WS0018": "uaf_weiss_flk",
+                "WS0013": "uaf_flair_pod",
+                "WS0010": "uaf_flair_pod"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_nekonyan",
+        "uaf_wing_ai_nekonyan"
+    ]
+}

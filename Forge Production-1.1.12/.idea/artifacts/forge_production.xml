@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="forge_production">
+    <output-path>$PROJECT_DIR$/jars/</output-path>
+    <root id="archive" name="forge_production.jar">
+      <element id="module-output" name="Forge Production_CrewReplacerCombatability2" />
+    </root>
+  </artifact>
+</component>

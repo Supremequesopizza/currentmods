@@ -1,0 +1,72 @@
+{
+    "displayName": "Efficient",
+    "fluxCapacitors": 6,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "uaf_tsutsumu_l",
+    "hullMods": [
+        "efficiency_overhaul"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_tsutsumu_l_efficient",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_iii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_claris_cn",
+                "WS0003": "uaf_claris_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_shimata_155_cn",
+                "WS0010": "uaf_shimata_155_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_rhythm_base_triple",
+                "WS0008": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina_ii",
+                "WS0006": "uaf_pd_reina_ii",
+                "WS0011": "uaf_flair_pod",
+                "WS0012": "uaf_flair_pod",
+                "WS0015": "uaf_flair_pod",
+                "WS0016": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_aria"
+    ]
+}

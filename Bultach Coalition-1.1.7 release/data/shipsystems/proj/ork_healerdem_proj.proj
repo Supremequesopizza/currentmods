@@ -1,0 +1,37 @@
+{
+    "id":"ork_healerdem_proj",
+    "specClass":"missile",
+    "missileType":"MISSILE",     
+    "maxFlightTime":8,
+    "armingTime":1,
+    "sprite":"graphics/missiles/missile_gazer.png",
+    "size":[6,16],
+    "center":[3,8],
+    "collisionRadius":8,
+    "collisionClass":"MISSILE_FF",
+    "explosionColor":[43,255,0,255],
+    "explosionRadius":120, # purely visual
+    "engineSpec":{"turnAcc":800,
+                  "turnRate":200,
+                  "acc":100,
+                  "dec":100},
+    "engineSlots":[{"id":"ES1",
+                      "loc":[-7, 0],
+                      "style":"CUSTOM",
+                      "styleSpec":{
+                            "mode":"QUAD_STRIP",
+                            "engineColor":[43,255,0,255],
+                            "contrailDuration":1,
+                            "contrailWidthMult":1,
+                            "contrailWidthAddedFractionAtEnd":2.5,
+                            "contrailMinSeg":5,
+                            "contrailMaxSpeedMult":0.5f,
+                            "contrailAngularVelocityMult":0.5f,
+                            "contrailColor":[43,255,0,75],
+                            "glowSizeMult":3,
+                            "type":"SMOKE"
+                      },
+                      "width":4.0,
+                      "length":20.0,
+                      "angle":180.0}]
+}

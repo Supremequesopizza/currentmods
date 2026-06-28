@@ -1,0 +1,460 @@
+0.9.3
+- Updated to 0.98a
+- Spindle will now regenerate correctly on existing saves if it somehow went missing (mid-campaign installs)
+- Spindle planets are now pre-surveyed on system generation
+- Verge
+	- DP 26 -> 21
+- Skye
+	- DP 28 -> 26
+- Sateen
+	- Armor 1200 -> 1400
+- Hanakaze (HVB)
+	- DP 30 -> 28
+- Vestige (IBB)
+	- DP 32 -> 28
+- Kimono (HVB)
+	- Armor 1200 -> 1400
+	- OP 600 -> 720
+
+0.9.2
+- uuuuuh, updated to new game version? Kinda forgot about that
+- think I also fixed some linux stuff
+- there may be other changes but I forgor
+
+0.9.1
+- Maps, so many maps
+- Fixed Sateen not using built-in missiles under AI control
+
+0.9
+- Updated to 0.96a
+- Updated to MagicLib 1.0.0
+- Refactored package structure
+
+0.8.7
+- Frock
+	- System changed to magmine strike
+
+0.8.6
+- Added Frock-class Missile Cruiser
+- Tear
+	- Base damage 1400 -> 1000
+	- EMP damage 1400 -> 1000
+	- Launcher ammo 1/5/20 -> 2/8/30
+	- Cooldown of medium and large version 9s -> 6s
+- Lace/Lacette
+	- Efficiency 1.2/1.1 -> 1.0
+- Strass/Strassette
+	- Efficiency 0.9 -> 0.7
+- Garter
+	- Top speed 160 -> 200
+- Tineola
+	- HP 900 -> 800
+	- Halved turn rate
+- Midi
+	- Halved Overcharge Beam cooldown
+- Dessous
+	- Refit 20s -> 25s
+	- Hull 800 -> 700
+	- Shields 800 -> 700
+- Verge
+	- Top speed 60 -> 70
+- Skye
+	- Top speed 80 -> 90
+- Belt
+	- Dissipation 350 -> 400
+	- Capacity 5500 -> 6000
+	- hitpoints 4500 -> 5000
+- Brim
+	- Armor 400 -> 500
+- Frill
+	- Armor 500 -> 700
+- Skirt
+	- DP 10 -> 12
+- Twine
+	- HP 600 -> 500
+- Stocking
+	- Top speed 260 -> 300
+
+
+0.8.5
+- Gown
+	- Minimum Crew increased from 650 to 800
+- Hem
+	- Increased dissipation from 150 to 200
+	- Increased flux capacits from 2200 to 2300
+	- Increased chain skimmer range from 100su to 150su
+- Curl
+	- Reduced DP from 4 to 3
+- Corset
+	- Armor increased from 1100 to 1400
+- Fixed Silken Banshee bounty id
+- Added new illustrations
+- Added new flavour text
+	
+
+0.8.4
+- Added Silken Banshee bounty ship
+- Added large mount Tear torpedo variants
+- Renamed medium Tear launcher
+- Tear torpedo (all variants)
+	- Range increased from 1200 to 1500
+	- Damage increased from 1200 to 1400
+	- Arc count reduced from 12 to 10
+	- HP reduced from 400 to 300
+
+
+0.8.3
+- Fixed Camisette not spawning
+- Fixed Silvys Renham contact reputation check
+- Angora
+	- Flux capacity reduced from 5500 to 5000
+	
+
+0.8.2
+- Added Angora-class Phase Destroyer
+- Added Camisette-class Freighter
+- Percale
+	- DP reduced from 30 to 28
+- EMP Relay system
+	- Increased range of emp arcs from 300 to 500
+	- Increased emp amount from 100 to 200
+- Updated some code for better compatibility	
+- Updated ScalarTech phase cloak to new mechanics
+	- ScalarTech phase cloak speed loss bottoms out at 50%
+	
+
+0.8.1
+- Adds Silvys Renham contact in Charkha
+- Twine
+	- Increased hp from 300 to 600
+	- Increased armor from 20 to 30
+	- Increased top speed from 240 to 280
+- Stocking
+	- Reduced wing size from 3 to 2
+	- Increased top speed from 240 to 260
+- Garter
+	- Reduced shield hp from 500 to 300
+- Tear Torpedo
+	- Reduced damage from 2000 to 1200
+	- Arc damage changed from 300 frag to 100 energy
+	
+
+0.8
+- Added Dessous-class Assault Fighter
+- Added Twine-class Interceptor
+- Added Strass and Strassette low-energy blasters
+- Thread swarmer
+	- Increased hp from 200 to 300
+	- Removed shields
+- Fiber bomber
+	- Bombs no longer have proximity fuse
+	- Now drops 3 bombs per fighter
+	- Bomb hp and damage reduced
+- Skye
+	- System no longer affects ballistic weapons
+	- Increased debuff duration from 3s to 3.5s
+	- Lowered top speed from 90 to 80
+- Seam
+	- Reduced spread a bit
+	- Improved projectile spread from 800 to 900
+- Stocking
+	- Increased OP cost from 12 to 14
+	- Lowered shield hp from 400 to 300
+- Red rings on engines now disappear when engine is flamed out
+- Updated variants
+- Improved turn rates on various weapons
+	- Did these in one pass and was too lazy to write down which ones
+- Various Rate of Fire increasing effects now also increase charge regeneration:
+	- Cycle Accelerator system
+	- Limit Release system
+	- Dual Capacitor Banks hullmod
+	- Upscaled Capacitor Banks hullmod
+- Updated fighter credit costs
+- Touched up some sprites
+
+
+0.7
+- Camise
+    - Now civilian-grade
+    - Lowered supply cost to 9
+    - Lowered burn level to 8
+- Culotte
+	- Now civilian-grade
+    - Lowered supply cost to 6
+- Percale
+	- Can no longer overload from phasing
+- Sateen
+	- Slightly reduced system duration
+	- Increased DP from 40 to 45
+- Corset
+	- Lowered DP from 45 to 40
+	- Increased armor from 1000 to 1200
+	- Increased dissipation from 900 to 1000
+	- Improved shield efficiency from 0.8 to 0.6
+- Belt
+	- Increased shield efficiency from 0.9 to 0.8
+- Filament
+	- Increased shield efficiency from 0.8 to 0.7
+	- Increased armor from 900 to 1000
+	- Increased flux capacity from 15000 to 18000
+	- Tripled system duration
+	- Halved system flux cost
+- Strand
+	- Increased shield efficiency from 0.8 to 0.7
+- Tress
+	- Increased shield efficiency from 0.8 to 0.7
+- Midi
+	- Increased shield efficiency from 0.9 to 0.8
+	
+
+0.6a
+- 0.95a compatibility, mostly
+
+
+0.6
+- Added Garter bomber
+	- Carries a single Tear-torp
+	- Wing of 2
+- Fixed Version Checker support
+- Strand
+	- Lowered DP from 24 to 18
+- Fiber
+qu	- Increased wing size from 3 to 5
+	- Lowered bomb damage from 1500 to 1200
+	- Lowered shield hp from 600 to 300
+	- Lowered hp from 400 to 200
+	- Increased top speed from 160 to 180
+- Stocking
+	- Lowered OP from 14 to 12
+- Thread
+	- Lowered OP from 8 to 4
+- Cord
+	- Lowered OP from 12 to 10
+- Stocking
+	- Lowered OP cost from 16 to 14
+
+0.5
+- Added Percale-class phase cruiser
+- Increased the number of weapons and fighters available at Requisitions submarket
+- HVBs will now properly appear in High End Seller when defeated
+- Magmine Strike
+	- Charge regen reduced by 20%
+- Stitch/Stitchette
+	- Added Strike and Use vs Frigates tags (will no longer target fighters)
+	- Reduced magazine reload time from 10s to 8s
+- Gown
+	- DP reduced from 120 to 100
+	- Module dissipation reduced from 500 to 400
+	- Module capacity reduced from 10000 to 9000
+	- Modules can no longer vent individually
+	- Modules now overload with main hull
+	- Modules now vent when main hull vents
+	- Now has a visible hullmod explaining the above mechanics
+- Fiber
+	- OP reduced from 20 to 18
+- Stocking
+	- OP reduced from 18 to 16
+- Tress
+	- System changed to PD Suppression
+	- DP lowered from 14 to 12
+- Belt
+	- Increased armor from 500 to 750
+	- Increased hitpoints from 4000 to 4500
+- Brim
+	- Increased dissipation from 350 to 400
+	- Increased capacity from 6000 to 7000
+	- Reduced shield upkeep ratio from 0.4 to 0.3
+	- DP reduced from 12 to 11
+- Frill
+	- DP reduced from 13 to 12
+- Filament
+	- Shield efficiency reduced from 0.7 to 0.8
+	- System changed from Second Wave to EMP Relay
+	- DP reduced from 55 to 50
+
+
+
+0.4.3
+- Added Belt-class Destroyer
+- Gown
+	- Increased DP from 100 to 120
+- Skye
+	- Lowered DP from 30 to 28
+- Curl
+	- Lowered DP from 5 to 4
+- Fiber
+	- Increased bomb speed by 50
+- Ruffle Diffusion Cannon
+	- Projectile velocity reduced from 1500 to 1200
+- Lace Pulse Repeater
+	- Increased flux/damage from 1.1 to 1.2
+- Tear-type Torpedoes
+	- Reduced speed from 400 to 350
+- Seam Storm Pulser
+	- OP increased from 24 to 25
+	- Range reduced from 650 to 600
+- Tousle Flechette Gun
+	- Lowered combined projectile speed average from 1200 to 1000
+
+
+0.4.2
+- Fixed Sateen spawning
+
+
+0.4.1
+- Added Stocking bomber
+- Updated GraphicsLib lighting data for new weapons
+- Fixed Kimono HVB ship dropping as BP
+- Crinkle
+	- EMP arc count reduced from 10 to 5
+	- EMP arc damage increased from 100 to 150
+	
+
+0.4
+- Added Sateen-class Battlecruiser
+- Added Kimono HVB
+- Added Stitchette medium beamlance
+- Added Baste Ion Discharger
+- Added Sew Diffusion Gun
+- Added Seam Storm Pulser
+- Added Crinkle Disruptor
+- Added Tear Torpedo in small and medium mount variants
+- Increased rarity of Gowns in both STDF fleets and the requisitions market
+- Added new autofit variants for most ships
+- Filament
+	- Top speed reduced from 50 to 40
+- Ruffle
+	- Renamed to Ruffle Diffusion Cannon
+- String Pulser
+	- Added 25 EMP damage to projectile
+- Corset
+	- Flux capacity increased from 14000 to 16000
+
+
+0.3.2
+- Filament
+	- Reduced OP from 360 to 320
+- Corset
+	- Reduced top speed from 60 to 40
+- Strand
+	- System changed to PD Suppression
+- Curl
+	- Armor increased from 150 to 200
+- Margin
+	- Dissipation increased from 200 to 225
+- Gown
+	- Added a 33% dissipation penalty to Supercruise Mode
+	- Supercruise Mode speed increased reduced from 50 to 40
+	
+
+0.3.1
+- Increased range of Swarmer Strike shipsystem
+- Fixed Midi-class not spawning properly
+- Stitch
+	- Reduced direct damage component of emp arcs
+- Gown
+	- Reduced OP of main hull from 420 to 400
+	- Reduced OP of modules from 130 to 120
+	- Reverted to 1 fighter bay on main hull. No longer built-in
+	- Centralized targeting core now increases PD weapon range by only 60%
+	- Shield efficiency reduced from 0.7 to 0.8
+
+
+0.3
+- Added Midi-class beam cruiser
+- Added Camise-class freighter
+- Added Culotte-class tanker
+- Added Corset-class battlecruiser
+- Gown
+	- Built-in wing replaced by two Plaid drone wings
+- Filament
+	- Increased DP from 50 to 55
+- Ruffle
+	- Increased refire delay to 2.5s
+- Skirt
+	- Fixed system being able to hit phased ships with emp arcs
+	- Increased DP from 8 to 10
+- Fiber
+	- Increased launch velocity of bomb from 200 to 300
+- Frill
+	- Reduced shield efficiency from 0.6 to 0.7
+	
+
+0.2
+- Changed faction name to "Spindle Protectorate" to better convey its political nature
+- Added Vestige-class IBB
+- Updated faction nex alignments
+- Updated faction relationships
+- Updated ship logistics stats
+- Added a Corrupted Nanoforge to Charkha's Orbital Works (only applies to new saves)
+- STDF Requisitions market now always offers scalartech weaponry for sale (only applies to new saves)
+- Fixed some weapon sounds
+- Fixed second wave system spawning extra fighters for single fighter wings
+- Removed carrier tags from Filament so it fights properly
+- Lowered String Pulser projectile velocity
+- Lowered Strand DP to 24
+- Increased Tress DP to 14
+- Tousle
+	- Increased dps to 200
+	- Increased efficiency to 1.1
+- Lace
+	- Increased efficiency to 1.1
+	- Lowered range to 600
+- Verge
+	- Reduced top speed to 60
+	- Increased shield efficiency to 0.7
+	- Lowered shield upkeep to 0.3
+	- Increased armor to 1000
+- Skye
+	- Reduced shield efficiency to 0.8
+	- Increased shield upkeep to 0.4
+- Hanakaze
+	- Can no longer be found as BP
+	- System changed to Energy Surge
+
+
+0.1.4a
+- Actually added the frigate to the faction
+
+
+0.1.4
+- Added Skirt-class superfrigate
+- Added HVB Hanakaze
+- Added new STDF HQ industry icon
+
+
+0.1.3b
+- Fixed Stitch Beamlance flux cost being way too high
+- Fixed ScalarTech not handing out bounties
+
+
+0.1.3a
+- Crash hotfix
+
+
+0.1.3
+- Fixed some inconsistent acceleration values
+- Increased Gown's targeting core range bonus from 60% to 80%
+- Fixed special forces naming in Nexerelin
+- Cycle Accelerator cooldown increased from 10s to 15s
+- Stitch Beamlance
+	- Halved beam damage
+	- Doubled maximum charges
+	- Doubled charge regen
+	- Buffed power of emp arcs relative to the beam
+- Fixed Limit Release not properly applying speed debuff in cooldown phase
+- Tweaked weapon sound volumes
+- Spiced up Limit Release visuals
+
+
+0.1.2
+- Removed Gremlin from STS fleets
+- Added STDF Requisitions market so you can actually buy Gowns (requires cooperative standing to access)
+
+
+0.1.1
+- Hotfix to remove unintended dependency
+
+
+0.1
+- Initial beta release

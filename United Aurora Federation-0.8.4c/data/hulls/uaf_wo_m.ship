@@ -1,0 +1,158 @@
+{
+  "hullName": "Wo",
+  "hullId": "uaf_wo_m",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/uaf_m_wo.png",
+  "style": "UAF_CRUISER",
+  "height": 309,
+  "width": 204,
+  "center": [102, 152],
+  "collisionRadius": 208,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 161.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_increased_explosion",
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-33, 37]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-33, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-139.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": 180,
+      "locations": [-71, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 180,
+      "locations": [-114, -0],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [66, -33]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [66, 33]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-122, 40.5],
+      "length": 95.5,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "MELODY_ENGINE_D"
+    },
+    {
+      "location": [-122, -40.5],
+      "length": 95.5,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "MELODY_ENGINE_D"
+    },
+    {
+      "location": [30.5, 44],
+      "length": 48.091335,
+      "width": 19.206615,
+      "angle": 140.5,
+      "contrailSize": 19.206615,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [30.5, -44],
+      "length": 48.091335,
+      "width": 19.206615,
+      "angle": -140.5,
+      "contrailSize": 19.206615,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -150, 4,
+    -146, 10,
+    -137, 10,
+    -118, 29,
+    -134, 29,
+    -134, 51,
+    -117.5, 52,
+    -105.5, 58,
+    -79, 59,
+    -79, 49,
+    -53, 49,
+    -51.5, 60,
+    -16.5, 60,
+    8.5, 40,
+    36, 50,
+    67.5, 48,
+    128, 23,
+    122.5, 13,
+    128.5, 4,
+    128.5, -4,
+    122.5, -13,
+    128, -23,
+    67.5, -48,
+    36, -50,
+    8.5, -40,
+    -16.5, -60,
+    -51.5, -60,
+    -53, -49,
+    -79, -49,
+    -79, -59,
+    -105.5, -58,
+    -117.5, -52,
+    -134, -51,
+    -134, -29,
+    -118, -29,
+    -137, -10,
+    -146, -10,
+    -150, -4
+  ]
+}

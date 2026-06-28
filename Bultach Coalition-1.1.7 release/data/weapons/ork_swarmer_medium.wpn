@@ -1,0 +1,68 @@
+{
+  "id": "ork_swarmer_medium",
+  "specClass": "projectile",
+  "projectileSpecId": "bt_swarmer_srm",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/gestalt/ork_swarmer_medium.png",
+  "hardpointSprite": "graphics/weapons/gestalt/ork_swarmer_medium.png",
+  "turretOffsets": [
+    2.5,
+    8,
+    5.5,
+    4,
+    8.5,
+    0,
+    5.5,
+    -4,
+    2.5,
+    -8
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    9,
+    8,
+    12,
+    4,
+    15,
+    0,
+    12,
+    -4,
+    9,
+    -8
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      100
+    ]
+  },
+  "fireSoundTwo": "bt_swarmer_launch"
+}

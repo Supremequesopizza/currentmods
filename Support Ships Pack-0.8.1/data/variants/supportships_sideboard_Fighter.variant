@@ -1,0 +1,23 @@
+{
+  "variantId": "supportships_sideboard_Fighter",
+  "hullId": "supportships_sideboard",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "irpulse",
+        "WS0003": "irpulse"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

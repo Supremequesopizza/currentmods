@@ -1,0 +1,36 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 2,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "uaf_ai_perwira",
+    "hullMods": [
+        "hardened_subsystems",
+        "eccm"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_ai_perwira_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_clarinet_mirv_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_oboe_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina_ii"
+            }
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+  "hullName": "Sally",
+  "hullId": "ork_sally",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ork_sally.png",
+  "style": "LOW_TECH",
+  "height": 108,
+  "width": 108,
+  "center": [54, 54],
+  "collisionRadius": 76.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 71,
+  "viewOffset": 0,
+  "builtInWings": [
+    "ork_defense_drone"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [9, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10.5, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [10.5, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [42.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -6, -0,
+        -10, -0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, 13],
+      "length": 35.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -13],
+      "length": 35.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, 31.5],
+      "length": 20.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, -31.5],
+      "length": 20.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -35, -9,
+    -23, -37.5,
+    -3, -52,
+    -4, -40,
+    16.5, -12.5,
+    42.5, -12.5,
+    42.5, 12.5,
+    16.5, 12.5,
+    -4, 40,
+    -3, 52,
+    -23, 37.5,
+    -35, 9,
+    -52.5, -0
+  ]
+}

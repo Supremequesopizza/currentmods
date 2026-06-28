@@ -1,0 +1,48 @@
+{
+    "knownHullMods": {
+        "hullMods": [
+            "mhmods_antiarmorgammunition",
+            "mhmods_bombardmentpackage",
+            "mhmods_emergencyventingsystem",
+            "mhmods_explorationrefit",
+            "mhmods_fluxbooster",
+            "mhmods_fluxgenerator",
+            "mhmods_fluxoverdrive",
+            "mhmods_FuelAdditive",
+            "mhmods_hullfoam",
+            "mhmods_hyperengineupgrade",
+            "mhmods_integratedarmor",
+            "MHMods_prefabricator",
+            "mhmods_particleaccelerator",
+            "mhmods_reloader",
+            "mhmods_splitChamber",
+            "mhmods_stiffMounts",
+            "mhmods_torpedospec",
+            "mhmods_unstableshields",
+            "mhmods_voltageregulationsystem",
+            "mhmods_weaponinhibitor"
+        ]
+    },
+    "hullmodSellFrequency": {
+        "mhmods_antiarmorgammunition": 10,
+        "mhmods_bombardmentpackage": 10,
+        "mhmods_emergencyventingsystem": 10,
+        "mhmods_explorationrefit": 10,
+        "mhmods_fluxbooster": 10,
+        "mhmods_fluxgenerator": 10,
+        "mhmods_fluxoverdrive": 10,
+        "mhmods_FuelAdditive": 10,
+        "mhmods_hullfoam": 10,
+        "mhmods_hyperengineupgrade": 10,
+        "mhmods_integratedarmor": 10,
+        "MHMods_prefabricator": 10,
+        "mhmods_particleaccelerator": 10,
+        "mhmods_reloader": 10,
+        "mhmods_splitChamber": 10,
+        "mhmods_stiffMounts": 10,
+        "mhmods_torpedospec": 10,
+        "mhmods_unstableshields": 10,
+        "mhmods_voltageregulationsystem": 10,
+        "mhmods_weaponinhibitor": 10
+    }
+}

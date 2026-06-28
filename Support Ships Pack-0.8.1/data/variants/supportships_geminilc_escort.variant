@@ -1,0 +1,23 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 19,
+    "fluxVents": 20,
+    "hullId": "supportships_geminilc",
+    "hullMods": ["militarized_subsystems"],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "supportships_geminilc_escort",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "hveldriver",
+            "WS 002": "hveldriver"
+        }
+    }],
+    "wings": [
+        "gladius_wing",
+        "gladius_wing"
+    ]
+}

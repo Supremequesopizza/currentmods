@@ -1,0 +1,241 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME Tahlan,,,,,,
+,,,,,,
+# LEGIO,,,,,,
+greetingLegioInfernalisFriendly,OpenCommLink,"$faction.id == tahlan_legioinfernalis
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Stalking the same prey, buddy? Try not to get hit in a crossfire.""
+OR
+""Well if it isn't a green blip for once. Almost a shame that.""",,
+greetingLegioInfernalisHostileWeaker,OpenCommLink,"$faction.id == tahlan_legioinfernalis
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""How about you find yourself a proper fight, eh buddy?""
+OR
+""How about a little race? Think you can beat Legio tuning?""",cutCommLink:Cut the comm link,
+greetingLegioInfernalisHostileWeakerDefiant,OpenCommLink,"$faction.id == tahlan_legioinfernalis
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""Bet you think you're so though. Let's see how you feel once your frozen corpse is floating out in the void.""
+OR
+""You thought I'd run? I don't need much of a fleet to clean up with punks like you.""",cutCommLink:Cut the comm link,
+greetingLegioInfernalisHostileStronger,OpenCommLink,"$faction.id == tahlan_legioinfernalis
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Oh look, the food is talking!""
+OR
+""Hoping to beg for your life? Don't make me laugh, shithead!""",cutCommLink:Cut the comm link,
+greetingLegioInfernalisNeutral,OpenCommLink,"$faction.id == tahlan_legioinfernalis
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""How'd someone like you make it onto the don't kill on sight list? Whatever.""
+OR
+""Can't stand it when the bosses tell me not to shoot someone. Go fuck off.""",,
+#END LEGIO,,,,,,
+,,,,,,
+# KASSADARI,,,,,,
+greetingKassadariFriendly,OpenCommLink,"$faction.id == tahlan_greathouses
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Friendly""
+OR
+""FriendlyAlt""",,
+greetingKassadariHostileWeaker,OpenCommLink,"$faction.id == tahlan_greathouses
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""HostileWeaker""
+OR
+""HostileWeakerAlt""",cutCommLink:Cut the comm link,
+greetingKassadariHostileWeakerDefiant,OpenCommLink,"$faction.id == tahlan_greathouses
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""HostileWeakerDefiant""
+OR
+""HostileWeakerDefiantAlt""",cutCommLink:Cut the comm link,
+greetingKassadariHostileStronger,OpenCommLink,"$faction.id == tahlan_greathouses
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""HostileStronger""
+OR
+""HostileStrongerAlt""",cutCommLink:Cut the comm link,
+greetingKassadariNeutral,OpenCommLink,"$faction.id == tahlan_greathouses
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Neutral""
+OR
+""NeutralAlt""",,
+#END KASSADARI,,,,,,
+,,,,,,
+# LEGIO_BLACKWATCH_BAR,,,,,,
+legioBlackwatchBarEventAdd,AddBarEvents,"$faction.id == pirates
+!$market.isHidden
+$global.tahlan_haslegio == true
+$global.tahlan_metLegioAtBar == false
+RollProbability 0.5","AddBarEvent legioBlackwatchBarEvent ""Approach the Legio officer"" ""A young woman in a uniform bearing the Legio sigil is sitting in a secluded corner of the bar, seemingly annoyed and waiting for someone, staring daggers at anyone who dares approach.""",,,
+,,,,,,
+legiobareventencounter_intro1,DialogOptionSelected,$option == legioBlackwatchBarEvent,"$global.tahlan_metLegioAtBar = true
+BeginConversation ""tahlan_devil"" true true","The woman looks you over dismissively then raises an eyebrow as it is clear you aren't just walking past.
+
+""You are clearly not my contact here, but none of the usual pirate rabble either. What do you want?""","legiobareventencounter_intro1res1: ""Just thought I'd have a little chat.""
+legiobareventencounter_intro1res2:""Apologies, I must have mistaken you for someone else.""",
+legiobareventencounter_intro2,DialogOptionSelected,$option == legiobareventencounter_intro1res1,,"""Just a chat?""
+
+She looks at you, bemused.
+
+""Sure, why not, I suppose. My contact seems to be running late anyhow and none of the inbred human refuse usually frequenting this place is worth talking to in the meantime.""",legiobareventencounter_intro2res1:Take a seat,
+legiobareventencounter_intro3,DialogOptionSelected,$option == legiobareventencounter_intro1res2,,"The woman chuckles.
+
+""Like I would believe that. Don't think I don't know how much I stand out among the .. scenery, I suppose. Please, do take a seat, entertain me a little while I wait here.""","legiobareventencounter_intro2res1:Take a seat
+legiobareventencounter_exit:""No thanks.""",
+legiobareventencounter_intro4,DialogOptionSelected,$option == legiobareventencounter_intro2res1,,"""Well then, Captain, I presume that's what you are, yes? Commander of the independent fleet that just arrived? We do keep eyes on such things.""
+
+She smirks, not bothering to wait for you to confirm what she clearly already believes to be facts, and you get the feeling she quite likes the sound of her own voice.
+
+""Now, I can only guess what drove you my way, but I'm guessing it is this fashionable uniform of mine.""
+","legiobareventencounter_intro4res1:""It does stand out, yes""",
+legiobareventencounter_intro5,DialogOptionSelected,$option == legiobareventencounter_intro4res1,,"""So I can only assume that since I don't know you, you have some business with our great Legion. I could see why you'd be eager to join our cause, but I'm not the one to talk to, you know.""
+
+She pauses for a moment.
+
+""Or is there something else you want? Do tell, if so.""","legiobareventencounter_hub1:""Do you always just hang around seedy bars all by yourself?""
+legiobareventencounter_hub2:""Why would I ever wish to join you?""
+legiobareventencounter_hub3:""Actually, those eyes, genemods or implants?""
+legiobareventencounter_exit:""I think that'll be all.""",
+legiobareventencounter_introexit,DialogOptionSelected,$option == legiobareventencounter_exit,AddPotentialContact,"""Suit yourself.""
+
+As you are about to leave, she tosses you a data chip.
+
+""Whatever you think of me, you seem like a capable individual. I might have some work for you in the future.""",backToBar:Return to the bar,
+,,,,,,
+legiobareventencounter_black1,DialogOptionSelected,$option == legiobareventencounter_hub1,,"""Clearly not""
+
+She scoffs at the insinuation.
+
+""I'm here on Blackwatch business, but clearly my contact is incapable of reading a basic timekeeper. We should just get rid of these pirate buffoons already.""","legiobareventencounter_black1res1:""Blackwatch, yes? The infamous Legio elite corps, is it?""",
+legiobareventencounter_black2,DialogOptionSelected,$option == legiobareventencounter_black1res1,,"""I suppose that's an accurate enough description for the likes of you. We are the ones carrying on the legacy of the glorious Nightwatch. Not that I think you've ever heard of our great progenitors, but it's of little importance to you.""
+
+Her eyes tell you clearly, she has no interest to further discuss this topic.
+
+""So, anything else?""","legiobareventencounter_hub2:""Why would I ever wish to join you?""
+legiobareventencounter_hub3:""Actually, those eyes, genemods or implants?""
+legiobareventencounter_exit:""I think that'll be all""",
+,,,,,,
+legiobareventencounter_uber1,DialogOptionSelected,$option == legiobareventencounter_hub3,,"She raises an eyebrow at the question.
+
+""Implants, actually. What an odd question to ask, though, I must say. Don't you have plenty of cybermods yourself? Not to mention those abominations watching your back, more machine than man by the looks of it.""","legiobareventencounter_uber1res1:""Blackwatch standard issue, are they?""",
+legiobareventencounter_uber2,DialogOptionSelected,$option == legiobareventencounter_uber1res1,,"""An astute observation, I'll give you that. You wouldn't understand but the crimson eyes that see the truth are a great honor bestowed only upon our best. Not to praise myself, but that is how it is.""","legiobareventencounter_uber1res2:""I see.""",
+legiobareventencounter_uber3,DialogOptionSelected,$option == legiobareventencounter_uber1res2,,"""So, anything else then?""","legiobareventencounter_hub1:""Do you always just hang around seedy bars all by yourself?""
+legiobareventencounter_hub2:""Why would I ever wish to join you?""
+legiobareventencounter_exit:""I think that'll be all""",
+,,,,,,
+legiobareventencounter_rant1,DialogOptionSelected,$option == legiobareventencounter_hub2,,"""Because we are the sector's only genuine hope at becoming something great?""","legiobareventencounter_rant1res1:""Last I checked, your people were going around murdering anyone they come across.""",
+legiobareventencounter_rant2,DialogOptionSelected,$option == legiobareventencounter_rant1res1,,"She scoffs at you before clearing her throat and continuing.
+
+""Do you not comprehend the magnitude of our vision? Perhaps your perspective is limited, preventing you from grasping the profound impact of our actions. We, the torchbearers of the future, are forging a path towards a superior mankind, destined to succeed the illustrious Domain. Embrace the privilege of participating in our ascent and rejoice in the marvel of witnessing humanity reach its true potential.
+
+As she continues her speech, you get the distinct feeling you are witnessing a well-practiced speech, not unlike what you are used to hearing on Sindrian Diktat broadcasts.
+
+Undeniably, this process necessitates sacrifices, but consider the remarkable rewards awaiting us. Can we not perceive the value of investing in boundless prosperity for the denizens of this sector and the worlds that lie beyond? The price we pay pales in comparison to the immense benefits we shall bestow. Once we conclude our endeavors here, a new era will dawn, a splendid new order surpassing even the achievements of the antiquated Domain.""","legiobareventencounter_rant2res1:""Do you even hear yourself talking?""
+legiobareventencounter_rant2res2:""I can't deny the decrepit state of the sector, but is this really the way?""",
+legiobareventencounter_rant3,DialogOptionSelected,$option == legiobareventencounter_rant2res1,,"""Of course, and clearly at that. Take it as you see fit, but don't think we are merely a band of murderous pirates like the wastes of oxygen that frequent these premises. We have a vision and the ability to bring it to fruition. Time will be our witness."" ","legiobareventencounter_rant3res1:""Sounds to me like the ramblings of madmen.""
+legiobareventencounter_uber1res2:""I suppose we will see.""",
+legiobareventencounter_rant3b,DialogOptionSelected,$option == legiobareventencounter_rant2res2,,"She chuckles at the question.
+
+""Only time will tell, won't it?"" ","legiobareventencounter_uber1res2:""So it will.""",
+legiobareventencounter_rant4,DialogOptionSelected,$option == legiobareventencounter_rant3res1,,"The woman sighs heavily, then leans back again, a look of disappointment in her eyes.
+
+""Forget it. Maybe you will see the light one day and maybe you won't.""","legiobareventencounter_hub1:""Do you always just hang around seedy bars all by yourself?""
+legiobareventencounter_hub3:""Actually, those eyes, genemods or implants?""
+legiobareventencounter_exit:""I think that'll be all.""",
+#END LEGIO_BLACKWATCH_BAR,,,,,,
+,,,,,,
+# DEVIL_GENERIC_MISSIONS,,,,,,
+,,,,,,
+tahlan_devilDaemonSurplusBlurb,tahlan_devilDaemonSurplus_blurb,$id == tahlan_devil score:10,,"""There's a hangar here with a now ownerless $sShip_hullSize looking for a new owner. A spicy one.""",,
+tahlan_devilDaemonSurplusOfferOption,tahlan_devilDaemonSurplus_option,,,,sShip_start:Ask about the $sShip_hullSize,
+tahlan_devilDaemonSurplusOfferTextContact,DialogOptionSelected,"$option == sShip_start
+$id == tahlan_devil score:10","$missionId = tahlan_devilDaemonSurplus
+SetTextHighlights $sShip_price","""Can you imagine someone lost a brand-new $sShip_hullClass by gambling it away on a three day bender of drugs and alcohol?""
+
+$HeOrShe gives that familiar predatory smile again and pulls out a datachip.
+
+""Got some access codes for a local hangar for sale, heard there's an abandoned $sShip_hullSize sitting around. Wanna buy?""","sShip_look:Ask for detailed info on the ship
+contact_decline:Decline",
+tahlan_devilDaemonSurplusLookAtFreighter,DialogOptionSelected,"$option == sShip_look
+$id == tahlan_devil score:10","Call $sShip_ref showShip
+DoCanAffordCheck $sShip_price contact_accept","$personLastName slides over the datachip. ""Just take a look. Think you'll like it.""","contact_accept:Buy the $sShip_hullSize for $sShip_price credits
+contact_decline:Decline",
+tahlan_devilDaemonSurplusPostAccept,ContactPostAccept,"$missionId == tahlan_devilDaemonSurplus score:5
+$id == tahlan_devil score:10","RemoveCommodity credits $sShip_price
+AddShip $sShip_member
+Call $sShip_ref2 repSuccess
+Call $sShip_ref2 addContacts
+ShowPersonVisual",,,
+,,,,,,
+tahlan_devilCBBlurb,tahlan_devilCB_blurb,,,"""You have warships and you know best what those are good for"", she says, tapping a datachip on the table, ""dealing with undesirables.""",,
+tahlan_devilCBOfferOption,tahlan_devilCB_option,,,,tahlan_devilCB_start:Ask if she needs anyone taken care of,
+tahlan_devilCBOfferTextContact,DialogOptionSelected,"$option == tahlan_devilCB_start
+$id == tahlan_devil score:10","$missionId = tahlan_devilCB
+$option = tahlan_devilCB_showOptions 0
+FireBest DialogOptionSelected","With a devil's smile, she slides over the datachip. ""Always"", she says, ""just take your pick, Captain.""
+
+You slot the datachip into your TriPad and are presented with a list of target dossiers.",,
+tahlan_devilCBGoBackSel,DialogOptionSelected,$option == tahlan_devilCB_showOptions,"# removes map
+ShowPersonVisual",,"tahlan_devilCB_low:Check the dossier marked as low priority
+tahlan_devilCB_normal:Check the dossier marked as high priority
+tahlan_devilCB_high:Check the dossier marked as high risk
+contact_decline:""Maybe another time."" (decline)",
+tahlan_devilCBLowSel,DialogOptionSelected,$option == tahlan_devilCB_low,"$tahlan_devilCB_difficulty = LOW 0
+FireBest devilCBShowBounty",,,
+tahlan_devilCBNormalSel,DialogOptionSelected,$option == tahlan_devilCB_normal,"$tahlan_devilCB_difficulty = NORMAL 0
+FireBest devilCBShowBounty",,,
+tahlan_devilCBHighSel,DialogOptionSelected,$option == tahlan_devilCB_high,"$tahlan_devilCB_difficulty = HIGH 0
+FireBest devilCBShowBounty",,,
+tahlan_devilCBShowBounty,devilCBShowBounty,,Call $tahlan_devilCB_ref showBountyDetail,,tahlan_devilCB_showIntel:Continue,
+tahlan_devilCBShowBountyShowShips,DialogOptionSelected,$option == tahlan_devilCB_showIntel,Call $tahlan_devilCB_ref showBountyAssessment,,"contact_accept:Accept
+contact_decline:Decline
+tahlan_devilCB_showOptions:Ask about one of the other targets",
+,,,,,,
+tahlan_CBPatherDevil,CBPatherOfferDesc,$id == tahlan_devil score:10,Highlight $bcb_dist $bcb_reward $bcb_days,"""Ah yes, that Pather"", $heOrShe rolls her eyes, ""they hate us as much as anyone in the sector. Blackwatch NIS tracked this one to the $bcb_systemName system, about $bcb_dist light-years from here.""
+
+""$bcb_reward credits if $bcb_targetHeOrShe is dealt with within the next $bcb_days days. Sound good?""",,
+tahlan_CBMercDevil,CBMercOfferDesc,$id == tahlan_devil score:10,Highlight $bcb_dist $bcb_reward $bcb_days,"""Spicy,"" $heOrShe grins, ""another free Captain, just like you. I'm sure you can handle it, right?""
+
+$HeOrShe flicks through $hisOrHer copy of the dossier, then continues, all business.
+
+""Bounty is $bcb_reward credits for completion within $bcb_days days. You decide, though.""",,
+tahlan_CBPirateDevil,CBPirateOfferDesc,$id == tahlan_devil score:10,Highlight $bcb_dist $bcb_reward $bcb_days,"""Someone forgot they made a deal with us and now I have to collect by force. $bcb_targetHeOrShe already knows what's coming to $bcb_targetHimOrHer, but $bcb_targetHeOrShe doesn't yet know by whose hand. Could be yours.""
+
+""Name's $bcb_targetName, currently hiding out in the $bcb_systemName system,  $bcb_dist light-years from here. You know how this works.""
+
+""I can offer you $bcb_reward credits to get it done within the next $bcb_days days before I have to send one of my underlings to take care of it instead.""",,
+tahlan_CBRemnantDevil,CBRemnantOfferDesc,$id == tahlan_devil score:10,Highlight $bcb_dist $bcb_reward $bcb_days,"""Now that's a fun one. A fleet of remnant droneships that needs to be removed. Simple enough, right? No-one's even going to come looking for it if it goes missing. I'd call that the perfect job.""
+
+$HeOrShe seems entirely unconcerned for your safety despite the well-known danger of dealing with remnant dronefleets and continues to flick through the data.
+
+""The reward is a generous $bcb_reward credits, just get it done within $bcb_days days and everyone is happy.""",,
+,,,,,,
+tahlan_devilDaemonCoreBlurb,tahlan_devilDaemonCore_blurb,,,"""I have some spare pieces of critical hardware that might be of use to you. Red, round and probably smarter than both of us combined, if you catch my drift.""",,
+tahlan_devilDaemonCoreOption,tahlan_devilDaemonCore_option,,,,tahlan_devilDaemonCore_start:Ask about the core,
+tahlan_devilDaemonCoreOfferText,DialogOptionSelected,$option == tahlan_devilDaemonCore_start,"$missionId = tahlan_devilDaemonCore
+FireBest tahlan_devilDaemonCoreOfferText
+DoCanAffordCheck $tahlan_devilDaemonCore_price contact_accept true",,"contact_accept:Accept
+contact_decline:Decline",
+tahlan_devilDaemonCoreTextAlpha,tahlan_devilDaemonCoreOfferText,$tahlan_devilDaemonCore_variation == ALPHA,SetTextHighlights $tahlan_devilDaemonCore_commodityName,"""Since you are smart enough not to ask the wrong questions, I happen to have a $tahlan_devilDaemonCore_commodityName that I'm sure you can find a nice use for. A sign of gratitude for your services. For a price, of course.""",,
+tahlan_devilDaemonCoreTextBeta,tahlan_devilDaemonCoreOfferText,$tahlan_devilDaemonCore_variation == BETA,SetTextHighlights $tahlan_devilDaemonCore_commodityName,"""Looks like someone misplaced a $tahlan_devilDaemonCore_commodityName that was intended for their newly delivered task force. They are surely going to find themselves in a lot of trouble.""
+
+$HeOrShe slides over a datapad.
+
+""Now, on another note, I have a crate of spare parts for sale. Interested?""",,
+tahlan_devilDaemonCoreTextBetaWithGamma,tahlan_devilDaemonCoreOfferText,$tahlan_devilDaemonCore_variation == BETA_WITH_GAMMA,SetTextHighlights $tahlan_devilDaemonCore_commodityName $tahlan_devilDaemonCore_commodityName2,"""Interested in a $tahlan_devilDaemonCore_commodityName2? In fact I have two of those for sale. Package deal only, but one of them is especially red, if you catch my drift.""",,
+tahlan_devilDaemonCorePostAccept,ContactPostAccept,$missionId == tahlan_devilDaemonCore,"Call $tahlan_devilDaemonCore_ref2 transact
+Call $tahlan_devilDaemonCore_ref2 repSuccess
+Call $tahlan_devilDaemonCore_ref2 addContacts",,,
+tahlan_devilDaemonCorePrintAcceptText,ContactPrintAcceptText,"$id == tahlan_devil score:10
+$missionId == tahlan_devilDaemonCore",,"""Pleasure doing business.""
+OR
+""I'll look forward to hearing what you do with that.""",,
+,,,,,,
+tahlan_aiCores_turnInOptionDevil,PopulateOptions,$id == tahlan_devil score:10,FireBest DisableTurnInCoresOptionIfNeeded,,10:aiCores_startTurnIn:Offer to sell some AI cores,
+tahlan_aiCores_turnInOptionSelDevil,DialogOptionSelected,"$option == aiCores_startTurnIn
+$id == tahlan_devil score:10",FireAll PopulateCoresTurnInOptions,"""AI cores? For me? Oh, you shouldn't have.""",,
+tahlan_aiCores_turnInResponseDevil,AICoresTurnedIn,$id == tahlan_devil score:10,FireAll PopulateOptions,"""These will find a good use, I assure you.""
+OR
+""So much better than letting them rot in a Hegemony vault, isn' it?""",,
+,,,,,,
+,,,,,,
+,,,,,,
+#END DEVIL_GENERIC_MISSIONS,,,,,,

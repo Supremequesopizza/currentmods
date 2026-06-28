@@ -1,0 +1,39 @@
+{
+  "hullName": "Right Divine Ward",
+  "hullId": "ork_tribulation_armor_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ork_bigjunk_armor_right.png",
+  "style": "LOW_TECH",
+  "height": 174,
+  "width": 170,
+  "center": [-29, 21],
+  "collisionRadius": 228.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 226,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion",
+    "ablative_armor"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    137, -70.5,
+    149.5, -84.5,
+    143.5, -96,
+    149.5, -139,
+    147.5, -167.5,
+    130.5, -177.5,
+    116, -179,
+    62.5, -198.5,
+    47, -192.5,
+    49.5, -189,
+    65.5, -186,
+    85.5, -165,
+    118, -159.5,
+    136.5, -139.5,
+    136.5, -88.5,
+    128, -78
+  ]
+}

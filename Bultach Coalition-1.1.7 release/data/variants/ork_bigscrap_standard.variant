@@ -1,0 +1,57 @@
+{
+  "variantId": "ork_bigscrap_standard",
+  "hullId": "ork_bigscrap",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_rotary_pd",
+        "WS0002": "ork_thumpa",
+        "WS0003": "ork_noshield_medium",
+        "WS0004": "ork_rotary_pd_small",
+        "WS0006": "ork_rotary_pd_small",
+        "WS0007": "ork_noshield_medium",
+        "WS0009": "ork_thumpa",
+        "WS0013": "ork_rotary_pd_small",
+        "WS0014": "ork_noshield_medium",
+        "WS0015": "ork_noshield_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "ork_thumpa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "ork_big_shotgun",
+        "WS0012": "ork_big_shotgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ork_light_fighter",
+    "ork_light_fighter"
+  ]
+}

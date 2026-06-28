@@ -1,0 +1,14 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/Alaricdragon/ForgeProduction/master/ForgeProduction.version",
+    "modName":"Forge Production",
+    "modThreadId":29778,
+    "modVersion":
+    {
+        "major":1,
+        "minor":1,
+        "patch":"12"
+    },
+	"starsectorVersion":"0.98a-RC5",
+	"directDownloadURL":"https://github.com/Alaricdragon/ForgeProduction/archive/refs/heads/master.zip",
+	"changelogURL":"https://raw.githubusercontent.com/Alaricdragon/ForgeProduction/master/changelog/changelog"
+}

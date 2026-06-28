@@ -1,0 +1,32 @@
+{
+  "variantId": "uaf_wing_m_sakurai_mb",
+  "hullId": "uaf_wing_m_sakurai",
+  "displayName": "Medium Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "uaf_fw_usb_class_ii",
+        "WS0004": "uaf_fw_usb_class_ii",
+        "WS0005": "uaf_fw_usb_class_ii",
+        "WS0006": "uaf_fw_usb_class_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

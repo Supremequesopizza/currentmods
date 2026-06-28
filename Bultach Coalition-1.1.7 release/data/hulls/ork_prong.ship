@@ -1,0 +1,279 @@
+{
+  "hullName": "Crow",
+  "hullId": "ork_prong",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ork_prong.png",
+  "style": "BULTACH",
+  "height": 160,
+  "width": 150,
+  "center": [75, 72],
+  "collisionRadius": 109.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 102.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "Ork_low_Maintenance",
+    "BT_shieldsChanger",
+    "bt_shieldArching"
+  ],
+  "builtInWeapons": {
+    "WS0007": "ork_blinker_red",
+    "WS0010": "ork_blinker_green",
+    "WS0011": "ork_blinker_green",
+    "WS0012": "ork_blinker_red",
+    "WS0013": "ork_blinker_red",
+    "WS0014": "ork_blinker_red",
+    "WS0015": "ork_blinker_green",
+    "WS0016": "ork_vectorEngineController"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [21.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [-2, 63]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [-2, -63]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [6, 39]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [6, -39]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-5.5, -20.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-5.5, 20.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [48.5, 0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, 17]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [46, -17]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-11.5, 48]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-11.5, -48]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-9.5, 0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [57, -26]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [57, 26]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69, 0],
+      "length": 85.5,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-50.5, -28],
+      "length": 37.54866,
+      "width": 17.731096,
+      "angle": -163,
+      "contrailSize": 17.731096,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-50.5, 28],
+      "length": 37.54866,
+      "width": 17.731096,
+      "angle": 163,
+      "contrailSize": 17.731096,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-44, -44],
+      "length": 47.052654,
+      "width": 18.362732,
+      "angle": -161,
+      "contrailSize": 18.362732,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-44, 44],
+      "length": 47.052654,
+      "width": 18.362732,
+      "angle": 161,
+      "contrailSize": 18.362732,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-26, 75],
+      "length": 42,
+      "width": 16,
+      "angle": 90,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [-26, -75],
+      "length": 42,
+      "width": 16,
+      "angle": -90,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [41.5, 36],
+      "length": 37,
+      "width": 11,
+      "angle": 90,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [41.5, -36],
+      "length": 37,
+      "width": 11,
+      "angle": -90,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    }
+  ],
+  "bounds": [
+    -70.5, -13,
+    -53.5, -24.5,
+    -42, -46,
+    -53, -56.5,
+    -36, -63,
+    -4.5, -67.5,
+    12.5, -31.5,
+    48.5, -29,
+    85.5, -6,
+    85.5, 6,
+    48.5, 29,
+    12.5, 31.5,
+    -4.5, 67.5,
+    -36, 63,
+    -53, 56.5,
+    -42, 46,
+    -53.5, 24.5,
+    -70.5, 13
+  ]
+}

@@ -1,0 +1,21 @@
+{
+	  "missp_linked_targeting": {
+		"cycle_left": {
+		  "key": "F5",
+		  "ctrl": false,
+		  "alt": false
+		},
+
+		"cycle_right": {
+		  "key": "F6",
+		  "ctrl": false,
+		  "alt": false
+		},
+
+		"module_vent": {
+		  "key": "K",
+		  "ctrl": false,
+		  "alt": false
+		}
+	  },
+	}

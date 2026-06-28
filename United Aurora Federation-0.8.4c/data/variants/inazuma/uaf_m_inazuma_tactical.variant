@@ -1,0 +1,70 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 9,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "uaf_m_inazuma",
+    "hullMods": [
+        "targetingunit",
+        "reinforcedhull",
+        "uaf_secondary_focus",
+        "autorepair"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_m_inazuma_tactical",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_rotan_452_cn",
+                "WS0009": "uaf_rotan_452_cn"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_minibreve_tnt_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_ivory_triple",
+                "WS0004": "uaf_medlav_quad",
+                "WS0005": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "uaf_claris_cn",
+                "WS0007": "uaf_cantata_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0010": "uaf_m_inazuma_left_armor_plating",
+        "WS0011": "uaf_m_inazuma_right_armor_plating"
+    }
+}

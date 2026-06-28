@@ -1,0 +1,71 @@
+{
+  "id": "uaf_axia_type_iii",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_axia_shot_large",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.uaf_garuda_808_xlc_onfire",
+  "displayArcRadius": 900,
+  "turretSprite": "graphics/weapons/Axia/axia_type_3_turret.png",
+  "turretGunSprite": "graphics/weapons/Axia/axia_type_3_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/Axia/axia_type_3_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/Axia/axia_type_3_hardpoint_recoil.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "specialWeaponGlowHeight": 25,
+  "specialWeaponGlowWidth": 10,
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    29.5,
+    8,
+    29.5,
+    0,
+    29.5,
+    -8
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    43,
+    8,
+    43,
+    0,
+    43,
+    -8
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "interruptibleBurst":false,
+  "muzzleFlashSpec": {
+    "length": 85,
+    "spread": 10,
+    "particleSizeMin": 20,
+    "particleSizeRange": 30,
+    "particleDuration": 0.12,
+    "particleCount": 20,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundOne": "uaf_axia_iii_charge",
+  "fireSoundTwo": "uaf_axia_iii_fire"
+}

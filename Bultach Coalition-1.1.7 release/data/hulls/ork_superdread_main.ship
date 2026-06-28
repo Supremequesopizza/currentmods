@@ -1,0 +1,255 @@
+{
+  "hullName": "Super Dreadnought",
+  "hullId": "ork_superdread_main",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/superdread/ork_superdread_main.png",
+  "style": "LOW_TECH",
+  "height": 764,
+  "width": 446,
+  "center": [223, 418],
+  "collisionRadius": 611.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 595,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "advancedcore",
+    "bt_dread_discount",
+    "BT_antiNuke"
+  ],
+  "builtInWeapons": {
+    "WS0025": "ork_dorn_siege_laser",
+    "WS0026": "ork_dorn_siege_laser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 180,
+      "locations": [-319.5, -0]
+    },
+    {
+      "id": "WS0021",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [351, 66]
+    },
+    {
+      "id": "WS0027",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [351, -66]
+    },
+    {
+      "id": "WS0028",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [108, 140],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0029",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [107, -140],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0030",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-250, 199]
+    },
+    {
+      "id": "WS0031",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-250, -199]
+    },
+    {
+      "id": "WS0025",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 65,
+      "locations": [-157, 136],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0026",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -65,
+      "locations": [-157, -136],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        108, -0.5,
+        108.5, -0.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        141.5, -0,
+        141, -0
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        176.5, 0.5,
+        177, -0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 45,
+      "locations": [-47, 103]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [-47, -103]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 45,
+      "locations": [55, 74]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [55, -74]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-16, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-375, 72],
+      "length": 172.5,
+      "width": 31,
+      "angle": -180,
+      "contrailSize": 31,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-375, -72],
+      "length": 172.5,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-419, -0],
+      "length": 241.5,
+      "width": 178,
+      "angle": -180,
+      "contrailSize": 178,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -415.5, -52,
+    -373.5, -64.5,
+    -373, -85.5,
+    -363.5, -117.5,
+    -272.5, -127.5,
+    -228.5, -183,
+    -143, -210,
+    -74.5, -166,
+    4, -164,
+    73, -140,
+    107, -93.5,
+    134, -79,
+    167, -98,
+    260.5, -55.5,
+    341, -25.5,
+    306.5, -16.5,
+    306.5, 16.5,
+    341, 25.5,
+    260.5, 55.5,
+    167, 98,
+    134, 79,
+    107, 93.5,
+    73, 140,
+    4, 164,
+    -74.5, 166,
+    -143, 210,
+    -228.5, 183,
+    -272.5, 127.5,
+    -363.5, 117.5,
+    -373, 85.5,
+    -373.5, 64.5,
+    -415.5, 52
+  ]
+}

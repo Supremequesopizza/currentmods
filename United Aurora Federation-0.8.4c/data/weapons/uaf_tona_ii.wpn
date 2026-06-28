@@ -1,0 +1,43 @@
+{
+  "id": "uaf_tona_ii",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_ash_md_piercing",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "everyFrameEffect":"org.niatahl.uaf.weapons.uaf_railWeaponEffect",
+  "turretSprite": "graphics/weapons/Tona II RG/med_tonaii_rg_turret_base.png",
+  "turretGunSprite": "graphics/weapons/Tona II RG/med_tonaii_rg_dual_recoil.png",
+  "hardpointSprite": "graphics/weapons/Tona II RG/med_tonaii_rg_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/Tona II RG/med_tonaii_rg_hardpoint_recoil.png",
+  "visualRecoil": 7,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    10.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 70,
+    "spread": 6,
+    "particleSizeMin": 15,
+    "particleSizeRange": 30,
+    "particleDuration": 0.2,
+    "particleCount": 40,
+    "particleColor": [132,183,255,255]
+  },
+  "fireSoundOne": "uaf_ru_tona_iii_254",
+  "fireSoundTwo": "uaf_tona_iii_254"
+}

@@ -1,0 +1,28 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": false,
+    "hullId": "condor",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "variantId": "armaa_condor_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightmg"
+            }
+        }
+    ],
+    "wings": [
+        "armaa_valkenmp_wing",
+        "warthog_wing"
+    ]
+}

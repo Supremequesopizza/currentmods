@@ -1,0 +1,24 @@
+{
+  "id":"missp_varunastra_shot",
+  "specClass":"projectile",
+  "spawnType":"BALLISTIC",
+  "onFireEffect": "data.scripts.missp_varunastra_onfire",
+  "onHitEffect": "data.scripts.missp_varunastra_onhit",
+  "collisionClass":"PROJECTILE_FF",
+  "collisionClassByFighter":"PROJECTILE_FIGHTER",
+
+  "length":50,
+  "width":3.5,
+
+  "coreColor":[255,220,80,140],
+  "fringeColor":[255,220,80,140],
+
+  "glowColor":[255,255,255,255],
+  "glowRadius":25,
+  
+  "fadeTime":0.2,
+  "hitGlowRadius":35,
+
+  "bulletSprite":"graphics/missiles/am_srm.png",
+  "everyFrameEffect": "data.scripts.missp_varunastra_proj"
+}

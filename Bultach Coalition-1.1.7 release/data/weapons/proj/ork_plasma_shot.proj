@@ -1,0 +1,17 @@
+{
+	"id":"ork_plasma_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.plasma_onhit",
+	"length":11.0,
+	"width":38,
+	"fadeTime":0.5,
+	"fringeColor":[255,0,0,255],
+	"coreColor":[255,255,255,200],
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"passThroughMissiles":true,
+}

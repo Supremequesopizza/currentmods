@@ -1,0 +1,61 @@
+{
+	"resort_world":{
+		"name":"Resort",
+		"tilt":4, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels - used when radius * atmosphereThickness is really low
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/favonius/uaf_planet_favonius.png",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[45,98,174,255],
+		"isStar":false,
+		"lightPosition":[12,-2,-3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"glowTexture":"graphics/planets/favonius/uaf_planet_favonius_light.png",
+		"cloudTexture":"graphics/planets/favonius/uaf_planet_favonius_cloud.png",
+		"cloudColor":[255,255,255,250],
+		"cloudRotation":-3, # degrees/second, optional
+	},
+	"aurorian":{
+		"name":"Terran",
+		"tilt":4, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/uaf_planet_new_auroria.png",
+		"cloudTexture":"graphics/planets/uaf_planet_new_auroria_clouds.png",
+		"cloudColor":[255,255,255,250],
+		"cloudRotation":-3, # degrees/second, optional
+		"glowTexture":"graphics/planets/uaf_planet_new_auroria_glow.png",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[225,225,255,255],
+		"isStar":false,
+		"lightPosition":[12,-2,-3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"lunamun":{
+		"name":"Barren",	
+		"tilt":-27, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/lunamun/uaf_planet_lunamun.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"glowTexture":"graphics/planets/lunamun/uaf_planet_lunamun_glow.png",
+		"iconColor":[120,125,130,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	}
+}
+
+
+
+
+

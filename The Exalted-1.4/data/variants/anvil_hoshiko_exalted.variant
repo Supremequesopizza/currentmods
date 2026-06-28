@@ -1,0 +1,32 @@
+{
+  "variantId": "anvil_hoshiko_exalted",
+  "hullId": "anvil_hoshiko",
+  "displayName": "Exalted",
+  "goalVariant": false,
+  "fluxCapacitors": 14,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "anvil_ecto",
+        "WS0008": "anvil_ecto"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "anvil_varna"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

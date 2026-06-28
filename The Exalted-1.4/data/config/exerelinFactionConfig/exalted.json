@@ -1,0 +1,109 @@
+{
+  "playableFaction":true,
+  "corvusCompatible":true,
+  "showIntelEvenIfDead":false,
+
+  "rebelFleetSuffix":"Traitors",
+
+  "marketSpawnWeight":0.5,
+
+    "startRelationships":{
+        "pirates": -1.0,
+        "hegemony": -1.0
+    },
+
+
+    "maxRelationships":{
+        "pirates": -1.0,
+        "hegemony": -1.0,
+        "new_galactic_order": -1.0
+    },
+
+	"factionsLiked":[
+    		"keruvim",
+    		"persean_league"],
+    "factionsDisliked":[
+    		"luddic_path",
+    		"pirates",
+    		"tritachyon",
+    		"hegemony",
+    		"tritachyon",
+    		"luddic_church",
+                "new_galactic_order"],
+
+  "diplomacyTraits":["envious", "paranoid", "selfrighteous", "lowprofile", "devious"],
+  "morality":"good",
+  "alignments":{
+    "technocratic":1,
+    "militarist":1,
+    "ideological":1,
+  },
+
+
+  "miningVariantsOrWings":[],
+
+  "colonyExpeditionChance":2,	# baseline expansion behaviour
+  "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+
+
+    "startShipsSolo":[
+        ["anvil_omen_ex_exalted"],
+        ["anvil_eerie_standard"],
+    ],
+    "startShipsCombatSmall":[
+        "anvil_vampire_exalted",
+        "anvil_omen_ex_exalted",
+        "anvil_witch_exalted"
+  ],
+    "startShipsCarrierSmall":[
+        "anvil_apparition_exalted", "anvil_spirit_exalted", "anvil_eerie_exalted"
+    ],
+
+    "startShipsCombatLarge":[
+        "anvil_wraith_exalted", "anvil_shrike_ex_exalted", "anvil_eerie_exalted", "anvil_omen_ex_exalted"
+],
+    "startShipsCarrierLarge":[
+        "anvil_fantasma_strike",
+        "anvil_vampire_exalted",
+        "anvil_omen_ex_exalted",
+        "anvil_eerie_standard"
+    ],
+    "startShipsGrandFleet":[[
+        "anvil_wendigo_assault",
+        "anvil_wraith_support",
+        "anvil_apparition_assault",
+        "anvil_apparition_exalted",
+        "anvil_vampire_exalted",
+        "anvil_omen_ex_exalted",
+        "anvil_omen_ex_exalted",
+        "anvil_eerie_standard",
+        "anvil_eerie_exalted",
+        "anvil_spirit_exalted",
+        "anvil_urn_exalted",
+        "anvil_phylactery_exalted",
+        "anvil_phylactery_exalted"]],
+
+    "startShipsSuper":[["anvil_odyssey_ex_exalted",]],
+
+  "startSpecialItems":[
+    [["exalted_weapon_package", ""]],
+  ],
+
+  "defenceStations":[
+    {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+  ],
+
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":1.5},
+    ],
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "uaf_wing_minime_drone",
+  "hullId": "uaf_wing_minime",
+  "displayName": "Defense Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_fw_30mm_class_i"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

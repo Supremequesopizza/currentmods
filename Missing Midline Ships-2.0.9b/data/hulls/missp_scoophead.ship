@@ -1,0 +1,231 @@
+{
+  "hullName": "Scoophead",
+  "hullId": "missp_scoophead",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/scoophead/missp_scoophead.png",
+  "style": "MIDLINE",
+  "height": 250,
+  "width": 140,
+  "center": [70, 111],
+  "collisionRadius": 153.5,
+  "shieldCenter": [6, -0],
+  "shieldRadius": 146.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 45,
+      "locations": [9, 46]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -45,
+      "locations": [9, -46]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 85,
+      "locations": [-34, 48]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -85,
+      "locations": [-34, -48]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 139,
+      "angle": 153.5,
+      "locations": [-85, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 139,
+      "angle": -153.5,
+      "locations": [-85, -29]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 169,
+      "angle": 58.5,
+      "locations": [87, 16]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 169,
+      "angle": -58.5,
+      "locations": [87, -16]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [117, 31]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [117, -31]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [119, 11]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [119, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-110, 44],
+      "length": 32.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-110, -44],
+      "length": 32.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, 35.5],
+      "length": 54.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, -35.5],
+      "length": 54.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, 24],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, -24],
+      "length": 80,
+      "width": 16,
+      "angle": -180180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107, 13.5],
+      "length": 31,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107, -13.5],
+      "length": 31,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    107, -0,
+    122, -7,
+    122, -15,
+    109, -21,
+    120, -22,
+    120, -40,
+    107, -41,
+    96, -59,
+    82, -57,
+    53, -30,
+    31, -30,
+    7, -57,
+    -63, -69,
+    -67, -60,
+    -78, -53,
+    -104, -53,
+    -110, -44,
+    -107, -10,
+    -74, -10,
+    -69, -5,
+    -69, 5,
+    -74, 10,
+    -107, 10,
+    -110, 44,
+    -104, 53,
+    -78, 53,
+    -67, 60,
+    -63, 69,
+    7, 57,
+    31, 30,
+    53, 30,
+    82, 57,
+    96, 59,
+    107, 41,
+    120, 40,
+    120, 22,
+    109, 21,
+    122, 15,
+    122, 7
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "hullName": "Left Rear Armor",
+  "hullId": "ork_thrasher_btml_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/thrasher_folder/ork_thrasher_btml_armor.png",
+  "style": "BULTACH",
+  "height": 78,
+  "width": 42,
+  "center": [71, 20],
+  "collisionRadius": 75.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 73,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ablative_armor",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    56, 40.5,
+    26, 59,
+    -10, 69.5,
+    -17, 52.5,
+    28, 31,
+    57, 34
+  ]
+}

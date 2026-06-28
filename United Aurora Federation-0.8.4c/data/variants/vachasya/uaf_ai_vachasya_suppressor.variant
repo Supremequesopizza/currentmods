@@ -1,0 +1,55 @@
+{
+    "displayName": "Suppressor",
+    "fluxCapacitors": 6,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "uaf_ai_vachasya",
+    "hullMods": [
+        "targetingunit",
+        "auxiliarythrusters",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_vachasya_suppressor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "uaf_catun_ii_erg",
+                "WS0009": "uaf_catun_ii_erg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_minibreve_tnt_s",
+                "WS0004": "uaf_minibreve_tnt_s"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_edge_type_i",
+                "WS0002": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_weiss_flk",
+                "WS0006": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "adminSalaryTier3":50000,
+	
+	"designTypeColors":{
+		"United Aurora Federation":[0,165,255,255],
+		"Auroran Logistics":[50,150,250,250],
+		"Auroran Royal Complex":[30,105,255,255],
+		"Auroran Administrative Bureau":[200,175,250,255],
+		"Auroran Tech":[0,165,255,255],
+		"Advanced Auroran Tech":[0,110,205,255],
+		"Experimental Auroran Tech":[80,140,245,255],
+		"Auroran Automata Expeditionary Division":[30,100,195,255],
+		"Auroran November Royal Navy":[30,105,255,255],
+		"Auroran Federation Self-Defense Force":[0,120,150,255],
+     	"Nova Drive Yards R&D":[189,191,224,255],
+		"Auroran Top Gun Flight Academy":[110,125,200,255]
+	},
+	
+    "plugins":{
+        "uaf_map_field":"data.scripts.plugins.uaf_mapField",
+        "uaf_weiss_flak_plugin":"data.scripts.plugins.uaf_weissFlakExplosionPlugin",
+    },
+	
+    "ruleCommandPackages":[
+        "data.campaign.rulecmd",
+    ],
+	
+    "graphics":{
+        "background":{
+            "test":"graphics/backgrounds/test.png",
+        },
+
+        "nex_groundbattle":{
+			"icon_uafBomb":"graphics/icons/intel/uaf_rafflesya_bombardment.png",
+			"icon_uafArtillery":"graphics/icons/intel/uaf_naval_support.png",
+			"icon_uafRogue":"graphics/icons/intel/uaf_sunami_assault.png",
+			"icon_uafPurcy":"graphics/icons/intel/uaf_purcy_strike.png",
+		},
+		
+		"ui":{
+			"keypad_bg":"graphics/ui/keypad.png"
+		},
+	  
+        "illustrations":{
+			"yimie_final_encounter_1":"graphics/illustrations/yimie_final_encounter_1.png",
+            "yimie_final_encounter_2":"graphics/illustrations/yimie_final_encounter_2.png",
+            "hyperaria_hangar":"graphics/illustrations/hyper_aria_hangar.png",
+            "auroria_city":"graphics/illustrations/newaurora.png",
+            "nur_refinery":"graphics/illustrations/nur.png",
+            "persephone_cg":"graphics/illustrations/persephone_recruitment.png",
+            "solvernia_cg":"graphics/illustrations/solvernia_recruitment.png",
+            "meiyu_cg":"graphics/illustrations/meiyu_recruitment.png",
+			
+			# Start Kot Minigame
+			"uaf_cat_encounter_start":"graphics/illustrations/cat_encounter/uaf_cat_encounter_start.png",
+			"uaf_cat_encounter_start_alt":"graphics/illustrations/cat_encounter/uaf_cat_encounter_start_alt.png",
+			"uaf_cat_encounter_fork_begin":"graphics/illustrations/cat_encounter/uaf_cat_encounter_fork_begin.png",
+			# Area A
+			"uaf_cat_encounter_route_a_start_fork":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_start_fork.png",
+			"uaf_cat_encounter_route_a_second_fork_right":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_fork_right.png",
+			"uaf_cat_encounter_route_a_second_down":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_down.png",
+			"uaf_cat_encounter_route_a_second_down_intersection":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_down_intersection.png",
+			"uaf_cat_encounter_route_a_second_down_intersection_proceed":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_down_intersection_proceed.png",
+			"uaf_cat_encounter_route_a_second_down_intersection_proceed_deadend":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_down_intersection_proceed_deadend.png",
+			"uaf_cat_encounter_route_a_second_down_intersection_proceed_deadend_log_acquired":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_down_intersection_proceed_deadend_log_acquired.png",
+			"uaf_cat_encounter_route_a_second_fork_top_intersection_2_proceed":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_fork_top_intersection_2_proceed.png",
+			"uaf_cat_encounter_route_a_second_fork_top_intersection":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_fork_top_intersection.png",
+			"uaf_cat_encounter_route_a_second_fork_top_intersection_2":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_fork_top_intersection_2.png",
+			"uaf_cat_encounter_route_a_second_fork_top_end":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_a_second_fork_top_end.png",
+			# Area B
+			"uaf_cat_encounter_route_b":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_b.png",
+            "uaf_cat_encounter_route_b_deadend":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_b_deadend.png",
+			# Area C
+			"uaf_cat_encounter_route_c_begin":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_c_begin.png",
+			"uaf_cat_encounter_route_c_fork":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_c_fork.png",
+			"uaf_cat_encounter_route_c_deadend_top":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_c_deadend_top.png",
+		    "uaf_cat_encounter_route_c_deadend_a_route":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_c_deadend_a_route.png",
+			"uaf_cat_encounter_route_c_deadend_a_route_deadend":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_c_deadend_a_route_deadend.png",
+            "uaf_cat_encounter_route_c_deadend_top_left_deadend":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_c_deadend_top_left_deadend.png",
+            "uaf_cat_encounter_route_c_deadend_top_left_deadend_item_acquired":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_c_deadend_top_left_deadend_item_acquired.png",
+			"uaf_cat_encounter_route_c_deadend_top_right_deadend":"graphics/illustrations/cat_encounter/uaf_cat_encounter_route_c_deadend_top_right_deadend.png",
+			# Shitpost
+			"uaf_cat_encounter_solvy_wornout_poster":"graphics/illustrations/cat_encounter/uaf_cat_encounter_solvy_wornout_poster.png",
+            "pre_temp":"graphics/illustrations/pre_temp.png",
+			
+			# Favonius Casino Gacha
+            #"favonius_casino":"graphics/illustrations/uaf_casino.png",
+            "favonius_supplies":"graphics/illustrations/casino/uaf_favonius_casino_reward_supplies.png",
+            "favonius_fuel":"graphics/illustrations/casino/uaf_favonius_casino_reward_fuel.png",
+	        "favonius_supplies_fuel":"graphics/illustrations/casino/uaf_favonius_casino_reward_supplies_fuel.png",
+	        "favonius_keycard":"graphics/illustrations/casino/uaf_favonius_casino_reward_keycard.png",
+			
+			# Favonius War Memorial
+			"uaf_favonius_tourism_war_remembrance":"graphics/illustrations/war_memorial/uaf_favonius_tourism_war_remembrance.png",
+        },
+		
+        "shop_graphics":{
+            "exchange1":"graphics/shop_graphics/exchange1.png",
+            "exchange2":"graphics/shop_graphics/exchange2.png",
+            "exchange3":"graphics/shop_graphics/exchange3.png",
+            "exchange4":"graphics/shop_graphics/exchange4.png",
+            "exchange5":"graphics/shop_graphics/exchange5.png",
+            "card1":"graphics/shop_graphics/card1.png",
+            "card2":"graphics/shop_graphics/card2.png",
+            "card3":"graphics/shop_graphics/card3.png",
+            "card4":"graphics/shop_graphics/card4.png",
+            "card5":"graphics/shop_graphics/card5.png",
+            "bp1":"graphics/shop_graphics/bp1.png",
+            "bp2":"graphics/shop_graphics/bp2.png",
+            "bp3":"graphics/shop_graphics/bp3.png",
+            "bp4":"graphics/shop_graphics/bp4.png",
+            "bp5":"graphics/shop_graphics/bp5.png",
+            "bp6":"graphics/shop_graphics/bp6.png",
+            "survey1":"graphics/shop_graphics/survey1.png",
+            "survey2":"graphics/shop_graphics/survey2.png",
+            "survey3":"graphics/shop_graphics/survey3.png",
+            "survey4":"graphics/shop_graphics/survey4.png",
+            "survey5":"graphics/shop_graphics/survey5.png",
+            "zepporia":"graphics/shop_graphics/zepporia.png",
+            "constelyria":"graphics/shop_graphics/constelyria.png",
+            "mooparia":"graphics/shop_graphics/mooparia.png",
+            "black_sorceress":"graphics/shop_graphics/black_sorceress.png",
+            "eyeseau":"graphics/shop_graphics/eyeseau.png",
+            "fusoreina":"graphics/shop_graphics/fusoreina.png",
+            "isenoria":"graphics/shop_graphics/isenoria.png",
+            "lillaru_hg":"graphics/shop_graphics/lillaru_hg.png",
+            "lillaru_mary_su":"graphics/shop_graphics/lillaru_mary_su.png",
+            "procastria_gh":"graphics/shop_graphics/procastria_gh.png",
+            "lyora":"graphics/shop_graphics/lyora.png",
+            "maisya":"graphics/shop_graphics/maisya.png",
+            "sentry":"graphics/shop_graphics/sentry.png",
+            "sunami":"graphics/shop_graphics/sunami.png",
+            "super_nakiha":"graphics/shop_graphics/super_nakiha.png",
+            "roria_esvernia":"graphics/shop_graphics/roria_esvernia.png",
+            "ularaya":"graphics/shop_graphics/ularaya.png",
+            "akatsazuka":"graphics/shop_graphics/akatsazuka.png",
+            "neuko_core_courtesan":"graphics/shop_graphics/officer_banners/neuko_core_courtesan.png",
+            "neuko_core_princess":"graphics/shop_graphics/officer_banners/neuko_core_princess.png",
+            "neuko_core_crown_princess":"graphics/shop_graphics/officer_banners/neuko_core_crown_princess.png",
+            "banner_officer_1":"graphics/shop_graphics/officer_banners/banner_officer_1.png",
+            "test_banner":"graphics/shop_graphics/test_banner.png",
+            "special_overlay_mooparia":"graphics/shop_graphics/special_overlay_mooparia.png",
+            "special_overlay_sbr":"graphics/shop_graphics/special_overlay_sbr.png",
+            "special_overlay_sorc":"graphics/shop_graphics/special_overlay_sorc.png",
+            "banner1":"graphics/shop_graphics/banner1.png",
+            "banner3":"graphics/shop_graphics/banner3.png",
+            "banner4":"graphics/shop_graphics/banner4.png",
+            "banner5":"graphics/shop_graphics/banner5.png",
+            "banner6":"graphics/shop_graphics/banner6.png",
+            "banner7":"graphics/shop_graphics/banner7.png",
+            "resupply1":"graphics/shop_graphics/shop_resupply.png",
+            "resupply2":"graphics/shop_graphics/shop_resupply_t2.png",
+            "resupply3":"graphics/shop_graphics/shop_resupply_t3.png"
+        },
+		
+        "tooltip":{
+			"uaf_engineering":"graphics/icons/tooltip/uaf_auroran_engineering.png",
+			"uaf_engineering_halted":"graphics/icons/tooltip/uaf_auroran_engineering_halted.png",
+			
+            "uaf_temporal_drive":"graphics/icons/tooltip/uaf_temporal_device.png",
+            "uaf_royalarith_weapon":"graphics/icons/tooltip/uaf_royalarith_weapon.png",
+            "uaf_royalarith_fighter":"graphics/icons/tooltip/uaf_royalarith_fighter.png",
+            "uaf_sec_lg":"graphics/icons/tooltip/uaf_sec_lg.png",
+            "uaf_sec_lg_ballistic":"graphics/icons/tooltip/uaf_sec_lg_ballistic.png",
+            "uaf_sec_lg_energy":"graphics/icons/tooltip/uaf_sec_lg_energy.png",
+            "uaf_sec_lg_hybrid":"graphics/icons/tooltip/uaf_sec_lg_hybrid.png",
+            "uaf_sec_med":"graphics/icons/tooltip/uaf_sec_med.png",
+            "uaf_sec_med_ballistic":"graphics/icons/tooltip/uaf_sec_med_ballistic.png",
+            "uaf_sec_med_energy":"graphics/icons/tooltip/uaf_sec_med_energy.png",
+            "uaf_sec_med_hybrid":"graphics/icons/tooltip/uaf_sec_med_hybrid.png",
+            "uaf_optimized_ordnance_assembly":"graphics/icons/tooltip/uaf_optimized_ordnance_assembly.png",
+            "uaf_hullmod_incompatible":"graphics/icons/tooltip/uaf_hullmod_incompatible.png",
+            "uaf_fighterpilot":"graphics/icons/tooltip/uaf_fighterpilot.png",
+            "uaf_reserve_wing_operation":"graphics/icons/tooltip/uaf_reserve_wing_operation.png",
+            "uaf_reserve_wing_operation_alt":"graphics/icons/tooltip/uaf_reserve_wing_operation_alt.png",
+			"uaf_reflectia":"graphics/icons/tooltip/uaf_reflectia.png",
+			"uaf_rafflesya_manual_override":"graphics/icons/tooltip/uaf_rafflesya_manual_override.png",
+			
+			"uaf_eyeseau_exploration":"graphics/icons/tooltip/uaf_eyeseau_exploration.png",
+			"uaf_eyeseau_combat":"graphics/icons/tooltip/uaf_eyeseau_combat.png",
+			"uaf_eyeseau_missile":"graphics/icons/tooltip/uaf_eyeseau_missile_enhanced.png",
+			
+            "vanilla_marine":"graphics/icons/tooltip/vanilla_marine.png",
+			
+			"uaf_module_broken":"graphics/icons/tactical/broken.png",
+			
+			"uaf_lynx_emergency_repair_kit":"graphics/icons/tooltip/uaf_lynx_repair_kit.png",
+            "uaf_lynx_second_wind":"graphics/icons/tooltip/uaf_lynx_second_wind.png",
+            "uaf_lynx_cosmo_grazer":"graphics/icons/tooltip/uaf_lynx_cosmo_grazer.png",
+			
+			"uaf_lynx_ui_divider":"graphics/icons/tooltip/ui/uaf_lynx_tooltip_divider.png",
+			"uaf_lynx_ui_locked_ability":"graphics/icons/tooltip/ui/uaf_lynx_locked_ability.png",
+			"uaf_lynx_missile_reticule_warning":"graphics/icons/tooltip/ui/uaf_lynx_missile_reticule_warning.png",
+	
+            "neuko_fearless":"graphics/icons/tooltip/neuko_directive/uaf_neuko_directive_fearless.png",
+            "neuko_reckless":"graphics/icons/tooltip/neuko_directive/uaf_neuko_directive_reckless.png",
+            "neuko_aggressive":"graphics/icons/tooltip/neuko_directive/uaf_neuko_directive_aggressive.png",
+            "neuko_steady":"graphics/icons/tooltip/neuko_directive/uaf_neuko_directive_steady.png",
+            "neuko_cautious":"graphics/icons/tooltip/neuko_directive/uaf_neuko_directive_cautious.png",
+            "neuko_timid":"graphics/icons/tooltip/neuko_directive/uaf_neuko_directive_timid.png"
+        },
+
+        "blueprint_packages":{
+			"uaf_automata_bp":"graphics/icons/cargo/bp_auroran_auto.png",
+			"uaf_automata_rare_bp":"graphics/icons/cargo/bp_auroran_auto.png",
+			"uaf_military_bp":"graphics/icons/cargo/bp_auroran_mil.png",
+			"uaf_military_rare_bp":"graphics/icons/cargo/bp_auroran_mil.png",
+			"uaf_standard_bp":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_standard_rare_bp":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_prototype_bp":"graphics/icons/cargo/bp_auroran_prt.png",
+			"uaf_elite_bp":"graphics/icons/cargo/bp_auroran_elite.png",
+			"uaf_missile_package":"graphics/icons/cargo/bp_auroran_msl.png",
+			"uaf_ship_bp_item":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_fighter_bp_item":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_weapon_bp":"graphics/icons/cargo/bp_auroran_wpn.png",
+            "uaf_weapon_package":"graphics/icons/cargo/bp_auroran_msl.png",
+            "uaf_fighter_package":"graphics/icons/cargo/bp_auroran_std.png"
+        },
+		
+        "uaf_overdrive":{
+            "cherry":"graphics/ships/Cherry/uaf_cherry_xxl_core_overdrive.png"
+        },
+		
+        "uaf_normal":{
+            "cherry":"graphics/ships/Cherry/uaf_cherry_xxl_core.png"
+        },
+		
+        "uaf_herexa_flash":{
+            "herexa_flash":"graphics/weapons/Herexa 609mm Dual/uaf_herexa_flash.png"
+        },
+		
+        "uaf_nuke":{
+            "aftermath_1":"graphics/fx/semibreve_gfx/nuke_aftermath_1.png",
+            "aftermath_2":"graphics/fx/semibreve_gfx/nuke_aftermath_2.png",
+            "explosion_1":"graphics/fx/semibreve_gfx/nuke_explosion_1.png",
+            "explosion_2":"graphics/fx/semibreve_gfx/nuke_explosion_2.png",
+            "explosion_2a":"graphics/fx/semibreve_gfx/nuke_explosion_2a.png",
+            "glow_1":"graphics/fx/semibreve_gfx/nuke_glow_1.png",
+            "glow_2":"graphics/fx/semibreve_gfx/nuke_glow_2.png",
+            "glow_3":"graphics/fx/semibreve_gfx/nuke_glow_3.png",
+            "particle_1":"graphics/fx/semibreve_gfx/nuke_particle_1.png",
+            "particle_2":"graphics/fx/semibreve_gfx/nuke_particle_2.png",
+            "shockwave_1":"graphics/fx/semibreve_gfx/nuke_shockwave_1.png",
+            "shockwave_2":"graphics/fx/semibreve_gfx/nuke_shockwave_2.png",
+            "shockwave_3":"graphics/fx/semibreve_gfx/nuke_shockwave_3.png"
+        },
+		
+        "uaf_sakura_missile":{
+            "fx":"graphics/fx/uaf_sakura_gfx_1.png"
+        },
+		
+        "uaf_hyperbright_flare":{
+            "flare_1":"graphics/fx/hyperbright_1.png",
+            "flare_2":"graphics/fx/hyperbright_2.png",
+            "flare_3":"graphics/fx/hyperbright_3.png",
+        },
+		
+        "uaf_person":{
+            "uafnia":"graphics/portraits/uaf_nia.png",
+            "uafnia2":"graphics/portraits/Old/secret/access_denied/uaf_nia.png",
+            "uafroboqueen":"graphics/portraits/uaf_roboqueen.png",
+			"uafroboempress":"graphics/portraits/uaf_empress_128.png",
+            "uafqueen":"graphics/portraits/uaf_queen.png",
+            "uafalexandra":"graphics/portraits/uaf_alexandra.png",
+            "uafinari":"graphics/portraits/uaf_inari.png",
+            "uafmaggy":"graphics/portraits/uaf_sup_maggy_128.png",
+            "uafmarty":"graphics/portraits/uaf_sup_marty_128.png",
+            "uafyimie":"graphics/portraits/uaf_yimie.png",
+            "uafmizuki":"graphics/portraits/uaf_mizuki.png",
+            "uafsolvernia_old":"graphics/portraits/uaf_sup_solvernia_128.png",
+            "uafsolvernia":"graphics/portraits/uaf_sup_solvernia.png",
+            "uaf_shady_informant":"graphics/portraits/uaf_td_informant.png",
+            "uaf_leona":"graphics/portraits/uaf_female22_128.png",
+            "uaf_narumi":"graphics/portraits/uaf_narumi_128.png",
+            "uaf_mayu":"graphics/portraits/uaf_sup_mayu_128.png",
+            "uaf_sophia":"graphics/portraits/uaf_sup_sophia_128.png",
+			"uaf_mantis":"graphics/portraits/uaf_xp_mantis_128.png"
+        },
+
+		#WARDROBE TEST
+        "characters":{
+			#"uafsolvernia_bunny":"graphics/portraits/uaf_sup_solveria_bunny.png",
+			#"uafsolvernya":"graphics/portraits/uaf_sup_solvernya.png",
+            "uafsolvernia":"graphics/portraits/uaf_sup_solvernia.png",
+		},
+
+		"uaf_neuko_cores":{
+            "uaf_courtesan":"graphics/portraits/neuko_core/uaf_neuko_courtesan.png",
+            "uaf_princess":"graphics/portraits/neuko_core/uaf_neuko_princess.png",
+            "uaf_crown_princess":"graphics/portraits/neuko_core/uaf_neuko_crown_princess.png"
+		},
+		
+        "uaf_rafflesya_sprite":{
+            "normal":"graphics/ships/fighters/uaf_wing_rafflesya.png",
+            "docked":"graphics/ships/fx/uaf_rafflesya_prop.png",
+            "_docked":"graphics/weapons/null.png"
+        },
+		
+        "emp":{
+            "uaf_eyeseau_pulse":"graphics/fx/uaf_eyeseau_suv_radar_ring.png",
+            "uaf_secondary_pulse":"graphics/fx/uaf_eyeseau_suv_radar_ring_2.png",
+        },
+		
+        "muzzle":{
+            "uaf_cyrexase_0":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_00.png",
+            "uaf_cyrexase_1":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_01.png",
+            "uaf_cyrexase_2":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_02.png",
+            "uaf_cyrexase_3":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_03.png",
+            "uaf_cyrexase_4":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_04.png",
+            "uaf_cyrexase_5":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_05.png",
+            "uaf_cyrexase_6":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_06.png",
+            "uaf_cyrexase_7":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_07.png",
+            "uaf_cyrexase_8":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_08.png",
+            "uaf_cyrexase_9":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_09.png",
+            "uaf_cyrexase_10":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_10.png",
+            "uaf_cyrexase_11":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_11.png",
+            "triyia_pdx_fire_glow_1":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_1.png",
+            "triyia_pdx_fire_glow_2":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_2.png",
+            "triyia_pdx_fire_glow_3":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_3.png",
+            "triyia_pdx_fire_glow_4":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_4.png",
+            "triyia_pdx_fire_glow_5":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_5.png",
+        },
+		
+        "flak_puff":{
+            "puff_sprite1":"graphics/fx/flak_explosion.png",
+            "puff_sprite2":"graphics/fx/flak_explosion_2.png"
+        },
+		
+        "trail":{
+            "uaf_melody_trail":"graphics/fx/uaf_melody_trail.png",
+        },
+		
+		"uaf_mimic_smoke":{
+			"1":"graphics/fx/mimic/uaf_mimic_smoke_1.png",
+			"2":"graphics/fx/mimic/uaf_mimic_smoke_2.png",
+			"3":"graphics/fx/mimic/uaf_mimic_smoke_3.png",
+		},
+		
+        "fx":{
+            "uaf_shockwave":"graphics/fx/uaf_shockwave_fx.png",
+            "uaf_eyeseau_scan":"graphics/fx/uaf_eyeseau_search_scanner_fx.png",
+            "uaf_ularaya_lockon":"graphics/fx/uaf_ularaya_target_fx.png",
+            "uaf_sentry_muzzle":"graphics/fx/uaf_sentry_muzzle_fx.png",
+			"uaf_super_nakiha_prototype_iframe":"graphics/fx/uaf_super_nakiha_prototype_iframe.png",
+			"uaf_ai_black_sorceress_mimic_ghost":"graphics/fx/black_sorceress/uaf_ai_black_sorceress_mimic_ghost.png",
+			#"uaf_garuda_808_xlc_explosion_fx":"graphics/fx/uaf_garuda_808_xlc_explosion_fx.png",
+
+			"uaf_helix_trail":"graphics/fx/uaf_helix_trail.png",
+			
+			"uaf_squadron_suite_aura":"graphics/fx/uaf_squadron_suite_aura.png",
+			"uaf_squadron_suite_affected_aura":"graphics/fx/uaf_squadron_suite_affected_aura.png",
+			
+			#Super Nakiha
+			"uaf_super_nakiha_mimic_glow":"graphics/ships/Special/super_nakiha/uaf_super_nakiha_prototype_glow1.png",
+			"uaf_super_nakiha_ghost":"graphics/ships/Special/super_nakiha/uaf_super_nakiha_prototype_phantom.png",
+        },
+		
+        "uaf_ship_ability":{
+            "solvii":"graphics/icons/shipability/samplesolvii.png",
+			"novaeria":"graphics/icons/shipability/samplenovi.png"
+        },
+		
+        "uaf_ship_ability_section":{
+            "solvii_b1":"graphics/icons/shipability/ability/samplesolvii_ap.png",
+			"solvii_b2":"graphics/icons/shipability/ability/samplesolvii_n.png",
+			"solvii_b3":"graphics/icons/shipability/ability/samplesolvii_s.png"
+        },
+		
+        "glow":{
+            #"reisen_reactor":"graphics/ships/fx/reisen_g_a.png",
+            "triyia_pdx_glow":"graphics/weapons/Triyia PDX/triyia_pdx_turret_glow.png",
+            "enryia_pdx_glow":"graphics/weapons/Enyria PDX/enyria_pdx_turret_glow.png"
+        },
+		
+        "abilities":{
+			"eyeseau_omniscan":"graphics/fx/omniscan_texture.png"
+		},
+		
+        "hullmod_icons":{
+            "uaf_light_wing_operation_gray":"graphics/hullmods/uaf_light_operation_gray.png",
+            "uaf_super_heavy_wing_operation_gray":"graphics/hullmods/uaf_heavy_operation_gray.png",
+            "uaf_reserve_wing_operation_gray":"graphics/hullmods/uaf_reserve_operation_gray.png",
+			"uaf_edge_capacitors_gray":"graphics/hullmods/uaf_edge_capacitors_gray.png",
+			
+            "uaf_fighterpilot":"graphics/icons/tooltip/uaf_fighterpilot.png",
+            "uaf_hullmod_incompatible":"graphics/icons/tooltip/uaf_hullmod_incompatible.png",
+			"uaf_hullmod_warning":"graphics/icons/tooltip/uaf_hullmod_warning.png",
+            "vanilla_marine":"graphics/icons/tooltip/vanilla_marine.png"
+        },
+		
+		"extra":{
+			"uaf_alexandra_signature":"graphics/misc/uaf_alexandra_signature.png",
+		},
+		
+		"uaf_banners":{
+			"uaf_smodremoval_banner":"graphics/misc/uaf_meiyu_smodremoval_service.png",
+			"uaf_dmodremoval_banner":"graphics/misc/uaf_meiyu_dmodremoval_service.png",
+			"uaf_adcs_automated_conversion_banner":"graphics/misc/uaf_nova_banner_1.png",
+			"uaf_adcs_human_conversion_banner":"graphics/misc/uaf_nova_banner_2.png",
+		},
+		
+        "rendering":{
+            "GlitchSquare":"graphics/fx/solid_square.png",
+		}
+    }
+	
+}

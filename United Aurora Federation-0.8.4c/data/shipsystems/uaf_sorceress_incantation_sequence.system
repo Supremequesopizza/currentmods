@@ -1,0 +1,24 @@
+{
+	"id":"uaf_sorceress_incantation_sequence",
+	"type":"STAT_MOD",
+	"aiType":"TEMPORAL_SHELL",
+	
+	"statsScript":"data.shipsystems.scripts.uaf_sorceress_incantation_sequence_stats",
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"uaf_sorceress_system_activate",
+	"loopSound":"system_temporalshell_loop",
+	"deactivateSound":"uaf_sorceress_system_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":100,  # not right since it's ship-dependent, but hopefully close enough
+		"burstMovementPotential":0,
+		"averageSpeedMult":1.5,
+	}
+	
+}

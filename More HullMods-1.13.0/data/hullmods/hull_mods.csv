@@ -1,0 +1,43 @@
+name,id,tier,rarity,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,tech/manufacturer,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,sModDesc,short,sprite
+Anti Armor Ammunition,mhmods_antiarmorgammunition,2,,"special, offensive",Weapons,15000,,,,MHM,5,10,15,25,data.hullmods.MHMods_ArmorPiercingAmmunition,Increases hit strength for armor damage reduction calculation of all weapons by %s but reduces damage to shield of all weapons by %s.,,more dmg to armor,graphics/hullmods/MHMods_Armor Piercing Ammunition.png
+Bombardment Package,mhmods_bombardmentpackage,1,,"special, req_spaceport","Requires Dock, Logistics",7500,,,,MHM,5,10,15,25,data.hullmods.MHMods_BombardmentPackage,"Package for precision orbital bombardment. Increases the effective strength of planetary raids by %s/%s/%s/%s depending on hull size, up to the total number of marines in the fleet, also reduces bombardment cost for the same amount.
+
+Not compatible with Ground Support Package.",,,graphics/hullmods/MHMods_Bombardment.png
+Emergency Venting System,mhmods_emergencyventingsystem,3,,"special, req_spaceport",Requires Dock,15000,,,,MHM,3,6,9,15,data.hullmods.MHMods_EmergencyVentingSystemV2,"If overload duration exceeds %s seconds, overload is shortened to %s seconds, when overload ends, ship immediately begins active venting. %s
+
+Has no effect on ships that cannot use active venting.",Increases venting rate by %s if venting was triggered by this hullmod.,,graphics/hullmods/MHMods_Emergency Venting System.png
+Exploration Refit,mhmods_explorationrefit,1,,"special, req_spaceport","Requires Dock, Logistics",10000,,,,MHM,3,6,9,15,data.hullmods.MHMods_ExplorationRefit,"A modification used by deep space exploration fleets.
+Reduces fuel usage by %s, supply use for maintenance by %s and increases sensor strength by %s.
+Reduces maximum combat readiness by %s. And reduces combat readiness recovery rate by %s.
+Also reduces max fuel and cargo capacity by %s.",Decreases the effect operating in a solar corona has on combat readiness by %s; also has the same effect against storms in deep hyperspace.,,graphics/hullmods/MHMods_Exploration Refit.png
+Flux Booster,mhmods_fluxbooster,2,,"special, engines","Special, Engines",12500,,,,MHM,4,8,12,20,data.hullmods.MHMods_FluxBooster,"Increases venting speed by %s (reduced to %s if Resistant Flux Conduits is installed). While venting increases speed and maneuverability by %s/%s/%s/%s depending on the hull size and flux level at moment of venting start, for %s seconds or until ship stops venting whichever is faster.",Increases speed boost duration to %s seconds.,,graphics/hullmods/MHMods_Flux Booster.png
+Flux Generator,mhmods_fluxgenerator,1,,special,Weapons,5000,TRUE,,,MHM,1,2,3,5,data.hullmods.MHMods_fluxGenerator,"If ship below %s flux generate flux equal to %s times ship's dissipation.
+
+Allow 0-flux speed boost to be active at any flux level, as long as the ship is not generating flux (Flux generated from this hullmod doesn't count towards this effect).
+
+Disabled while ship venting.",,,graphics/hullmods/MHMods_fluxGenerator.png
+Flux Overdrive,mhmods_fluxoverdrive,2,,"special, offensive",Weapons,15000,,,,MHM,5,10,15,25,data.hullmods.MHMods_FluxOverdrive,Increase damage and flux cost of energy and ballistic weapons as flux level rise up to %s at max flux.,,,graphics/hullmods/MHMods_Flux Overdrive.png
+Fuel Additive,mhmods_FuelAdditive,2,,"special, req_spaceport","Requires Dock, Logistics",10000,,,,MHM,5,10,15,25,data.hullmods.MHMods_FuelAdditive,"Special additive for anti-matter fuel increase its efficiency.
+
+Reduces fuel consumption by %s and increase maximum burn by %s. But increases maintenance by %s.",Negates increased maintenance.,,graphics/hullmods/MHMods_Fuel Additive2.png
+Hardlight Focus,mhmods_hardlightFocus,2,,"special, offensive",Weapons,10000,,,,MHM,4,8,12,20,data.hullmods.MHMods_HardlightFocus,Reduces base range of beam weapons to %s/%s/%s and increses base thier base damage by %s/%s/%s for every %s base range before reduction depending in weapon size.,,,graphics/hullmods/MHMods_HardlightFocus.png
+Hullfoam Dispenser,mhmods_hullfoam,2,,"special, req_spaceport, defensive",Defenses,7500,,,,MHM,5,10,15,25,data.hullmods.MHMods_hullfoam,Repair ship's hull at rate of %s/%s/%s/%s max hull per second. Repairs limited to %s of base hull per combat. As hull foams runs out maximum hull level it can bring ship will linearly decrese to %s.,,,graphics/hullmods/MHMods_Hullfoam.png
+Hyper Engine Upgrade,mhmods_hyperengineupgrade,3,,"special, req_spaceport, engines","Requires Dock, Engines",10000,,,,MHM,4,8,12,20,data.hullmods.MHMods_HyperEngineUpgrade,"Increases zero-flux engine boost when ship below %s flux, slower ships get greater effect. %s
+Speed boost is: %s","The 0-flux speed boost is activated at any flux level, as long as the ship is not generating flux or is venting / overloaded",,graphics/hullmods/MHMods_Engiens Overloadt.png
+Integrated Armor,mhmods_integratedarmor,3,,defensive,Defenses,15000,,,,MHM,5,10,15,25,data.hullmods.MHMods_IntegratedArmor,Increases minimum armor value by %s but reduces maximum armor by %s.,,,graphics/hullmods/MHMods_IntegratedArmor.png
+Missile Prefabricator,MHMods_prefabricator,2,,"special, offensive",Weapons,10000,,,,MHM,3,6,9,15,data.hullmods.MHMods_prefabricator,"Replaces missile autoloader with prefabricated ammo stores. Increases ammo capacity of missile weapons by equivalent of %s/%s/%s/%s second of ammo reload but %s their ammo recharge.
+
+Does not affect weapons without magazines and build-in weapons.",Instead of removing ammo recharge reduces it by %s.,,graphics/hullmods/MHMods_prefabricator.png
+Particle Accelerator,mhmods_particleaccelerator,1,,"special, offensive",Weapons,5000,,,,MHM,3,6,9,15,data.hullmods.MHMods_ParticleAccelerator,Increases projectile travel speed of energy and ballistic weapons by %s.,,,graphics/hullmods/MHMods_ParticleAccelerator.png
+Reloader,mhmods_reloader,1,,"special, offensive",Weapons,5000,,,,MHM,3,6,9,15,data.hullmods.mhmods_reloader,Increases ammo reload speed of energy and ballistic by %s.,Increases ammo reload speed to %s but reduces maximum ammo by %s,,graphics/hullmods/mhmods_reloader.png
+Split Chamber,mhmods_splitChamber,2,,"special, offensive",Weapons,7500,,,,MHM,3,6,9,15,data.hullmods.MHMods_splitChamber,"Increases fire rate, ammo reload speed and ammo cappacity of energy and ballistic weapons by %s.
+Reduces flux generation of energy and ballistic weapons by %s.
+Reduces damage of energy and ballistic weapons by %s.",,,graphics/hullmods/MHMods_SplitChamber.png
+Stiff Mounts,mhmods_stiffMounts,2,,"special, offensive",Weapons,7500,,,,MHM,2,4,5,8,data.hullmods.MHMods_stiffMounts,Reduces weapon recoil by %s but also reduces weapon turn rate by %s.,,,graphics/hullmods/MHMods_stiffMounts.png
+Torpedo Spec,mhmods_torpedospec,1,,"special, offensive",Weapons,5000,,,,MHM,3,6,9,15,data.hullmods.MHMods_TorpedoSpec,"Modify missiles propulsion system to be forward focused, increasing their speed by %s and hitpoints by %s, at the cost of reducing their maneuverability by %s.",,,graphics/hullmods/MHMods_torpedo speck.png
+Unstable Shields,mhmods_unstableshields,3,,"special, shields, defensive",Shields,7500,,,,MHM,3,6,9,15,data.hullmods.MHMods_UnstableShields,"Overcharges shield projectors with energy, reducing shield damage taken by %s for %s seconds after it was deployed. Subsequently, shield starts taking more damage, up to maximum of %s after being deployed for %s seconds. Shield starts to gain charge after shield was disabled for %s second and returns to fully charged state after %s seconds.",Increases max damage reduction to %s and reduces max damage increase to %s.,,graphics/hullmods/MHMods_Unstable Shields.png
+Voltage Regulation System,mhmods_voltageregulationsystem,1,,"special, offensive",Weapons,5000,TRUE,,,MHM,2,4,6,10,data.hullmods.MHMods_VoltageRegulationSystem,"Reduces beam weapons flux cost by %s.
+Reduces beam weapon range by %s.",,,graphics/hullmods/MHMods_Voltage Regulation System.png
+Weapon Inhibitor,mhmods_weaponinhibitor,1,,"special, offensive",Weapons,5000,TRUE,,,MHM,2,4,6,10,data.hullmods.MHMods_WeaponInhibitor,"Reduces ballistic weapon flux generated by %s.
+Reduces ballistic weapon damage by %s.
+Reduces ballistic weapon rate of fire by %s.",,,graphics/hullmods/MHMods_weaponinhibitor.png

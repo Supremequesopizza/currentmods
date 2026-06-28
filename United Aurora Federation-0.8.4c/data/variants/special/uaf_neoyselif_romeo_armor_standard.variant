@@ -1,0 +1,59 @@
+{
+  "variantId": "uaf_neoyselif_romeo_armor_standard",
+  "hullId": "uaf_neoyselif_romeo_armor",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_herexa_triple",
+        "WS0002": "uaf_herexa_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_medlav_quad",
+        "WS0005": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_weiss_flk",
+        "WS0007": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "uaf_claris_cn",
+        "WS0009": "uaf_claris_cn"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_m_neoscar"
+  ]
+}

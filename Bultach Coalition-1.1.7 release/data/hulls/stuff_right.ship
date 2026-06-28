@@ -1,0 +1,177 @@
+{
+  "hullName": "Gunna",
+  "hullId": "stuff_right",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/spacehulk/stuff_right.png",
+  "style": "LOW_TECH",
+  "height": 324,
+  "width": 124,
+  "center": [53.5, 162],
+  "collisionRadius": 203.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 194.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "degradedcore",
+    "always_detaches",
+    "BT_linkedhull_two"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -97,
+      "locations": [-65, 24]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [80, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -78.5,
+      "locations": [108, -3.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -17, -10.5,
+        -17, -16
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        21.5, -10.5,
+        21, -16
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -81.5,
+      "locations": [119, -30]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -36.5,
+      "locations": [63, -16.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -6,
+      "locations": [116.5, 33]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -136.5,
+      "locations": [-95, -7.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -162,
+      "locations": [-119.5, 4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-161, 4],
+      "length": 82.5,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-158, -14.5],
+      "length": 55.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-156, -30.5],
+      "length": 71.5,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-98, -64.5],
+      "length": 71.5,
+      "width": 27,
+      "angle": -143.5,
+      "contrailSize": 27,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    129, -29,
+    127.5, 4.5,
+    144.5, 30.5,
+    129, 51.5,
+    108, 49.5,
+    36, 27,
+    -8, 16,
+    -44.5, 35,
+    -66, 37,
+    -134, 14,
+    -158, 11.5,
+    -152, -41,
+    -136.5, -53,
+    -98.5, -52.5,
+    -95, -66,
+    -64.5, -67,
+    -48, -57,
+    -43, -61,
+    7, -49,
+    77.5, -51.5,
+    81.5, -41.5,
+    80, -30,
+    90.5, -23,
+    117.5, -40.5
+  ]
+}

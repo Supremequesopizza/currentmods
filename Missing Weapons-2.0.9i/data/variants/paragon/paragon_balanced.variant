@@ -1,0 +1,74 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 3,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "paragon",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "advancedoptics",
+        "fluxdistributor",
+        "converted_hangar",
+        "turretgyros",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "paragon_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "heatseeker",
+                "WS 014": "heatseeker",
+                "WS 018": "heatseeker",
+                "WS 020": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "hil",
+                "WS 003": "hil",
+                "WS 004": "hil"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pulselaser",
+                "WS 008": "pulselaser",
+                "WS 009": "phasebeam",
+                "WS 010": "phasebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "missp_heavygraviton",
+                "WS 005": "gravitonbeam",
+                "WS 006": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "pdburst",
+                "WS 013": "pdburst",
+                "WS 015": "pdlaser",
+                "WS 016": "pdburst",
+                "WS 017": "pdburst",
+                "WS 019": "pdburst",
+                "WS 021": "pdlaser",
+                "WS 022": "pdburst",
+                "WS 023": "pdlaser"
+            }
+        }
+    ],
+    "wings": ["xyphos_wing"]
+}

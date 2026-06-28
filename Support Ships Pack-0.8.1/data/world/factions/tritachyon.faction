@@ -1,0 +1,17 @@
+{
+	"knownShips":{
+		"hulls":[
+			"supportships_carton(TT)",
+			"supportships_revoker",
+			"supportships_geoid",
+			"supportships_hospice",
+			]
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"supportships_revoker",
+		],
+	},
+},
+

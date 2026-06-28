@@ -1,0 +1,707 @@
+id,type,text1,text2,text3,notes
+,,,,,
+# Ships,,,,,
+,,,,,
+tahlan_Yukikaze,SHIP,"Part of the Tri-Tachyon Corporations secret ""Project Kaze"", the Yukikaze is a unique blackops cruiser designed to operate in tandem with the smaller Korikaze frigates and autonomously carry out its objectives. While the Tri-Tachyon corporation still denies being responsible for the development and construction of this ship, its appearance being almost exclusively linked to incidents that have been of great benefit to the corporation, few have any doubts about this connection.",,,
+tahlan_Korikaze,SHIP,"Designed as a support craft for the Yukikaze, these small drone frigates can be linked with the Yukikaze’s neural network to improve the performance of all linked vessels in combat and allow for complex attack maneuvers that require precise cooperation.",,,
+tahlan_Firemane,SHIP,"A modification of the Colossus born from a demand for a cheap platform for heavy weaponry. As the energy demand of these weapons surpasses the flux grid of the Colossus, the shield generator was removed and replaced with additional armour plating. While the Firemane’s combat performance is questionable, it is undeniably a cheaper heavy weapons platform than a Dominator.",,,
+tahlan_Castigator,SHIP,"Presumably a precursor design to the modern Eagle, the Castigator was, for its time, an overengineered assault cruiser that never made it into large-scale production due to numerous issues. Not only was it overpriced, but the downscaled TPCs in its forward prongs suffered from reliability issues with their magnetic containment systems. These issues aside, however, the performance of the Castigator is without question impressive. Combining heavy armor, numerous weapon mounts and adequate maneuverability in a heavy cruiser package designed to fight at the frontlines of any battle. Charging into combat with its visually spectacular Assault Burn, the Castigator is an awe-inspiring sight to behold and an enemy most would prefer to avoid facing head-on.",,,
+tahlan_Castigator_xiv,SHIP,"When in trials with the Domain Navy, a number of Castigator-class vessels were manufactured to alternate specifications suiting the needs of the various battlegroups' combat doctrines. For the Fourteenth Battlegroup, a variant equipped with a pair of standard TPCs was developed and although it was dismissed by Domain Navy for impracticality due to requiring the sacrifice of two of its medium-sized weapon mounts to make room for the additional hardware and supplementary power generators, it was well-loved by some of the battlegroup's higher-ups. While the variant ultimately never went into production and there are no known surviving ships of the variant, rumours have it that the constructions plans are still out there in the Persean Sector.
+
+Presumably a precursor design to the modern Eagle, the Castigator was, for its time, an overengineered assault cruiser that never made it into large-scale production due to numerous issues. Not only was it overpriced, but the downscaled TPCs in its forward prongs suffered from reliability issues with their magnetic containment systems. These issues aside, however, the performance of the Castigator is without question impressive. Combining heavy armor, numerous weapon mounts and adequate maneuverability in a heavy cruiser package designed to fight at the frontlines of any battle. Charging into combat with its visually spectacular Assault Burn, the Castigator is an awe-inspiring sight to behold and an enemy most would prefer to avoid facing head-on.",,,
+tahlan_Bento,SHIP,"Lovingly called ""Lunchbox"" by many a captain for feeding their hungry ship drives, the Bento-class combat tanker is a sturdy little craft that can hold its own in battle. Often found in smaller flotillas that can't spare escorts for their logistics vessels or trade fleets that wish to be better defended against pirate attacks on long-haul routes, the Bento is a solid alternative to the ever-present Dram. While it obviously has to sacrifice fuel capacity, it is often a viable option to simply bring a second Bento.",,,
+tahlan_Bento_rg,SHIP,"Beneath the bright coat of Red Guards livery, this ship has been stripped down and rebuilt for maximum durability at minimal cost. Elaborate sensor arrays and failure-prone high-tech communication consoles have been pared away, leaving only those systems absolutely necessary to the vessel's function as a mercilessly efficient weapon of war. Most notably, however, this particular Bento-class hull had its large fuel tank removed and replaced by a jury-rigged large mount.
+
+Lovingly called ""Lunchbox"" by many a captain for feeding their hungry ship drives, the Bento-class combat tanker is a sturdy little craft that can hold its own in battle. Often found in smaller flotillas that can't spare escorts for their logistics vessels or trade fleets that wish to be better defended against pirate attacks on long-haul routes, the Bento is a solid alternative to the ever-present Dram. While it obviously has to sacrifice fuel capacity, it is often a viable option to simply bring a second Bento.",,,
+tahlan_Bento_lp,SHIP,"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.
+
+Lovingly called ""Lunchbox"" by many a captain for feeding their hungry ship drives, the Bento-class combat tanker is a sturdy little craft that can hold its own in battle. Often found in smaller flotillas that can't spare escorts for their logistics vessels or trade fleets that wish to be better defended against pirate attacks on long-haul routes, the Bento is a solid alternative to the ever-present Dram. While it obviously has to sacrifice fuel capacity, it is often a viable option to simply bring a second Bento.",,,
+tahlan_Vale,SHIP,"""With holy furor he searches the land for any who would defy the will of his god, bringing carnage and death upon them. He is the holy warrior, guided by his unshakable faith.""",,,
+tahlan_Exa_Pico,SHIP,"Rumours say the origin of this unusual craft was a bet between engineers of the Great Houses to turn the Kite into a fearsome combat vessel. True or not, the Exa Pico exists and is indeed a fearsome vessel in its own right. Probably taking inspiration from the Tempest, the Exa Pico heavily relies on its drones to provide the majority of its combat potential while the modified Kite itself serves primarily as control unit. Each drone is equipped with a powerful fractal laser, capable of engaging multiple targets at once and wiping outs whole swarms of missiles and strikecraft. 
+Powerful as these capabilities are, however, the ship is still small and quite fragile while also being unable to deploy its drones from range, requiring close proximity to retain control of the advanced hardware.",,,
+tahlan_Kodai,SHIP,"Based on the chassis of a reliable mining cruiser, the Kodai was overhauled from ground up for military use. Upgraded with more proper armor plating and modern hybrid weapon mounts, the only relic of its predecessor's role is the nose-mounted mining lance, as it proved to be surprisingly effective in combat. Originally designed to safely maneuver in and survey asteroid fields, the Kodai's chassis still comes equipped with state-of-the-art surveying equipment and a drive assembly that allows for swift movement. The focus on medium hardpoints is another artifact of its origins, once meant to hold a number of mining blasters, it now gives the Kodai menacing frontal firepower while its mobility mitigates risks of being flanked effectively.",,,
+tahlan_raba,SHIP,"Rarely still seen in active service, the Raba is an old mining barge that never enjoyed much popularity and proved a commercial failure. Only through the later adaption of its chassis for the Kodai-class cruiser did the manufacturer avert financial ruin.
+
+In the years after the collapse, the ship has found a second lease on life as a cheap and rugged craft that as easily built and maintained, often in the hands of less fortunate mercenaries and salvagers.",,,
+tahlan_Ambrosia,SHIP,"An unusual design, the Ambrosia was seemingly constructed around the salvaged hangar module of an unknown carrier design. While its exact origins are unknown, the hangar module is filled to the brim with state-of-the-art technology, including a recall system. Connecting the hangar module to a colorful mixture of salvaged ship parts has allowed it to operate as a standalone ship with surprising effectiveness, even though it is likely that whatever engineers are responsible for the design barely understood even half the technologies hidden inside the module.",,,
+tahlan_Castella,SHIP,"An outdated carrier design, the Castella had mostly been replaced by the Legion in fleets of the Domain, but found itself popular with smaller system defense forces or independent fleets. Salvagers in particular took a liking to the antiquated design.",,,
+tahlan_Castella_lp,SHIP,"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war. Sacrificing its intended carrier role, Pathers have instead refitted this ship with a hammer barrage launcher and autoloader system, as well as a pair of massive additional thrusters to carry them into battle at speeds the Castella was never designed for.
+
+An outdated carrier design, the Castella had mostly been replaced by the Legion in fleets of the Domain, but found itself popular with smaller system defense forces or independent fleets. Salvagers in particular took a liking to the antiquated design.",,,
+tahlan_Nessie,SHIP,"What madness drove scavengers to create this abomination of a phase ship remains unknown, but the crude amalgamation of two Gremlins and a Lasher has somehow come out to be a functional design. Presumably meant to emulate the Doom, this makeshift design falls short of that goal in just about every way imaginable. Its makeshift construction renders it remarkably fragile and noticeably limits mobility potential. Truly, the only thing it has going for it is the rather surprising firepower it can muster.",,,
+tahlan_Bungalow,SHIP,"An early competitor of the Mora, the Bungalow's designers favoured the idea of maximizing fighter projection capability at the cost of durability. Unremarkable in its design, the ship is essentially little more than a flying hangar and relies on escorts to keep enemies at bay.
+
+The ship has gained some recognition amongst mercenaries and privateers for its ability to provide good fighter support at a low price for smaller flotillas, though it can be argued that many a captain has severely overestimated the Bungalow's capabilities, attempting to take on opponents far above their capabilities. One particular tale that has found some fame is that of an aspiring pirate captain who sought to break through a Hegemony fleet with his trusty Bungalow leading the charge, allegedly trying to emulate the deeds of a famous space pirate from an old Earth videodrama, and finding his ship's fragile hull no match for Hegemony firepower.",,,
+tahlan_Yosei,SHIP,"A modification of the Tempest, the Yosei is a heavier frigate that sacrifices some mobility for additional firepower.",,,
+tahlan_Skola,SHIP,"Small and fast, the Skola is a fast attack frigate built around a pair of prism coils, high-powered arc weapons that can fry ships and missiles alike. While these weapons lack range, the Skola's high mobility is more than capable of compensating for this weakness.",,,
+tahlan_Haelequin,SHIP,"An aggressive frame combined with a temporal shell, the Haelequin is a frightening opponent to face. While the design's origins are unknown, it is assumed to be a discarded Tri-Tachyon prototype design that was later picked up and finished by an unknown Kassadari House.",,,
+tahlan_Izanami,SHIP,"The final ship design created by Kassadari shipwrights before the collapse, the Izanami is the pinnacle of Kassadari engineering. Constructed around a fully-integrated 6th generation Temporal Circuit Grid it is the only ship of its kind as the majority of engineers involved in the project lost their life during the chaos that followed the collapse, leaving the Houses with only a partial understanding of the Izanami's inner workings.
+
+Few of these ships were ever produced as its blueprints are likely lost to time and Kassadar's production capacity is only a faint shadow of its former self. The remaining operable vessels are a closely guarded treasure of the Houses, only deployed if of utmost necessity.
+
+While outwardly only a light cruiser, the advanced temporal technology of the Izanami makes it punch far above its weight class, capable of taking on any other cruiser in the sector. Any captain capable of efficiently making use of its ability to almost stop time for a short duration will find the ship capable of unleashing terrifying barrages and dodging almost any kind of incoming fire. This power comes at a cost however, as the high-powered temporal field puts heavy strain on the ship's spaceframe, making it more susceptible to damage while active. Careless use of the system is a surefire way to an early grave.",,,
+tahlan_Renki,SHIP,"A dedicated missile and support frigate, equipped with an active ECCM system that can provide ECCM benefits for nearby allies while active. Especially popular with missile-heavy fleets, the Renki is a workhorse frigate, that can also pack a punch by itself.",,,
+tahlan_Timeless,SHIP,An unusual drone ship of unknown design and origins.,,,
+tahlan_Timeless_retro,SHIP,"Based on a blueprint found in a hidden data vault, this unusual design appears to be a prototype for a drone mothership. While not capable of the same feats as the finished design, due to having to sacrifice hangar space and armor plating for crew space, it is still an impressive piece of technology.",,,
+tahlan_Nameless,SHIP,An unusual drone ship of unknown design and origins.,,,
+tahlan_Fragmenta,SHIP,An unusual drone fighter deployed in swarms by larger drone ships.,,,
+tahlan_Defiance,SHIP,"Designed after the collapse using parts of existing ship designs, the Defiance was meant to be a cheaper alternative to the Gryphon for a decent missile cruiser. While the resulting ship doesn't quite achieve the same level of missile firepower, it makes up for it with more ballistic mounts.",,,
+tahlan_Torii,SHIP,"A small destroyer designed purely for the purpose of pointing as many guns at the enemy as possible on a lightweight platform. It may achieve this goal quite well, but the extremely wide profile makes the ship quite fragile and easy to hit.",,,
+tahlan_Eagle_P,SHIP,"This Eagle has been enthusiastically ""upgraded"" by a merry band of pirates with larger weapons mounts and a fighter bay. Concerns about the lack of point defense mounts have been happily ignored since ""the fighters can deal with that crap"".
+
+Eagle-class cruisers are often found at the core of military fleets headed for battle. It is not hard to see why: A strong overall profile, with a robust engine, the Eagle's deadly weapons package is a threat to all enemies.
+
+The Eagle can deliver a strong tactical punch to enemy formations. Its numerous turret and hardpoint emplacements make it very dangerous to smaller foes. Decent armor and a strong shield emitter let it hold space while outnumbered, or even when faced with the rare larger ship. 
+
+These strengths are somewhat countered by strike craft - an Eagle captain must always watch their scopes for an approaching strike squadron, since their ship will be easily crippled by multiple hits from modern strike weapons. 
+
+The embodiment of the sleek and powerful space cruiser from the time of the Domain, the Eagle-class ships are a beautiful reminder of the technological and aesthetic achievements of humanity's past. ",,,
+tahlan_Tempest_P,SHIP,"Rarely found in the hands of pirates, the Tempest is popular with those who do manage to come into possession of one. This particular example has been ""enhanced"" in proper pirate fashion, enabling it to mount some ballistic weaponry and replacing its engine block with a bigger, albeit not necessarily better, one. Sadly the original Terminator drone autoforge was damaged beyond repair during acquisition and had to be replaced with a Pirate imitation of questionable quality.
+
+An asymmetric, advanced design from the late Expansion Epoch, the Tempest-class is the quintessential attack frigate - fast, deadly and difficult to destroy.",,,
+tahlan_Castigator_commie,SHIP,"An extremely unusual variant of the Castigator, this model has been converted into a dedicated carrier, replacing most of its weapon hardpoints with launch decks and hangar space. Surprisingly effective, but suffers from slower fighter maintenance due to the cramped nature of the improvised hangars.
+
+Presumably a precursor design to the modern Eagle, the Castigator was, for its time, an overengineered assault cruiser that never made it into large-scale production due to numerous issues. Not only was it overpriced, but the downscaled TPCs in its forward prongs suffered from reliability issues with their magnetic containment systems. These issues aside, however, the performance of the Castigator is without question impressive. Combining heavy armor, numerous weapon mounts and adequate maneuverability in a heavy cruiser package designed to fight at the frontlines of any battle. Charging into combat with its visually spectacular Assault Burn, the Castigator is an awe-inspiring sight to behold and an enemy most would prefer to avoid facing head-on.",,,
+tahlan_Hresvelgr,SHIP,"Preceding the adoption of the Legion as mainstay battlecarrier, the Hresvelgr saw fairly widespread use in the Domain navy, owing to its excellent fighter capacity. The design fell out of favour over the years, however, as Domain battlegroups that favoured fleet carriers began adopting the Astral for its superior striking power.
+
+Not many of these ships were present in the Persean Sector at the time of the collapse, but they have come back into use by various navies due to their lower production requirements and ability to project large and reliable fighter screens that had proven invaluable during the AI wars.",,,
+tahlan_Hresvelgr_rg,SHIP,"Beneath the bright coat of Red Guards livery, this ship has been stripped down and rebuilt for maximum durability at minimal cost. Elaborate sensor arrays and failure-prone high-tech communication consoles have been pared away, leaving only those systems absolutely necessary to the vessel's function as a mercilessly efficient weapon of war. This particular hull has additionally been retrofitted with a pair of large ballistic mounts and a flux distributor to handle the additional flux strain.
+
+Preceding the adoption of the Legion as mainstay battlecarrier, the Hresvelgr saw fairly widespread use in the Domain navy, owing to its excellent fighter capacity. The design fell out of favour over the years, however, as Domain battlegroups that favoured fleet carriers began adopting the Astral for its superior striking power.
+
+Not many of these ships were present in the Persean Sector at the time of the collapse, but they have come back into use by various navies due to their lower production requirements and ability to project large and reliable fighter screens that had proven invaluable during the AI wars.",,,
+tahlan_Glint,SHIP,"The Yari is what some would classify as a showpiece, supposedly designed as a weapons demonstration platform for executives. With a sleek hull and luxurious interior, it is more akin to a private yacht than a purpose-built warship. While originally not intended for general production, the design found some popularity with private security forces and independent fleets for both its design and impressive dual large energy mounts, which brought it on the general market.",,,
+tahlan_Bronco,SHIP,"Originally designed as a light freighter, the Bronco saw little commercial success in its intended configuration. Pirates however commonly repurposed the ship into a missile destroyer and thus inspired a proper redesign of the hull, replacing its cargo bays with large missile storage units linked to a pair of nose-mounted missile hardpoints. A singular medium ballistic mounts for self-defense was also added and outfitted with a state-of-the-art ammo feeder system to give it some additional punch when forced into close quarters combat.",,,
+tahlan_Nibelung,SHIP,"An ancient design, the Nibelung-class battleship predates even the venerable Onslaught and harkens back to a different school of ship design. Built around a powerful broadside to be employed as part of a massive battle line, the Nibelung fell out of favor with a shift in Domain military doctrine.
+
+While the design predates the age of modular weaponry and shields, its turret-focused design proved well-suited for the adaption of modular weapon mounts and a number of major refits kept the ship relevant for a great many years in planetary defense or paramilitary forces. 
+
+A particular oddity of the hull is the pair of autoloader-equipped torpedo-tubes in the prow of the ship. Once intended for long-range missiles, these original weapons were made obsolete by modern armor technology and are now commonly replaced with easily available Hammer-class torpedoes. While often disregarded by lesser captains, experienced Nibelung commanders are known to employ the tubes to surprising effect by using the ship's maneuvering thrusters to swing the bow around and deliver a crippling blow to vulnerable opponents.",,,
+tahlan_Phoca,SHIP,"The Phoca is a light cruiser that heavily focuses on a powerful ballistic broadside equipped with advanced ammo feeders. While fielding impressive firepower, the ship itself is quite fragile and relies on hit-and-run fly-by maneuvers to stay alive while dealing its damage.",,,
+tahlan_Ristreza,SHIP,"A rare example of Kassadari pre-collapse ship design, the Ristreza dates back to the early development of the Great Houses' signature temporal circuit grid technology. Equipped with the first fully operational grid and a number of other prototype designs, she served as the testbed for numerous Kassadari technologies over her lifetime. The exact number of vessels of this type ever constructed remains a mystery, but it is known that they once formed the backbone of the Kassadari fleet prior to the adoption of their refit doctrine in the wake of the collapse.
+
+While originally intended as an experimental vessel, the Ristreza is a highly capable warship in her own right and was operated as such for a large portion of her service history.",,,
+tahlan_Ristreza_b,SHIP,"A rare variant of the Ristreza-class Battlecruiser fitted with a pair of micromissile VLS arrays. Specialized for missile saturation attacks, these arrays come equipped with large magazines and an integrated nanoforge to provide sustained missile barrage capability. As a result of the space requirements, however, the spinal Gleipnir cannon had its secondary capacitor array removed and comes with kinetic rounds only, relying on the missiles for high-explosive firepower.
+
+A rare example of Kassadari pre-collapse ship design, the Ristreza dates back to the early development of the Great Houses' signature temporal circuit grid technology. Equipped with the first fully operational grid and a number of other prototype designs, she served as the testbed for numerous Kassadari technologies over her lifetime. The exact number of vessels of this type ever constructed remains a mystery, but it is known that they once formed the backbone of the Kassadari fleet prior to the adoption of their refit doctrine in the wake of the collapse.
+
+While originally intended as an experimental vessel, the Ristreza is a highly capable warship in her own right and was operated as such for a large portion of her service history.",,,
+tahlan_Trill,SHIP,"The Trill was once a prototype vessel for a new type of flux core. Many an engineer has been looking for ways to make use of flux buildup over the centuries and the Trill is one of the more successful attempts at such a ship. Seemingly heavily underarmed, the ship uses built-up flux to boost its singular weapon to perform at excessive performance levels.
+
+While the experiment was technically successful, attempts at upscaling the technology to more than a single small mount ran into too many major issue and funding was eventually cut. A few of the prototype vessels remain, strewn across the sector and sought after by many a collector.",,,
+tahlan_Flagellator,SHIP,"Built for speed and equipped with an early variant of graviton beam, the Flagellator is a dedicated hunter-killer designed to chase down and eliminate fast targets.",,,
+tahlan_Nightingale,SHIP,"An offshoot of the AI fleet development program of Tri-Tachyon, the Songbird was designed as a highly resilient support ship. Armed to the teeth and carrying three wings of swarmer drones, it can be a nightmare for any fleet lacking in point-defense.",,,
+tahlan_Prim,SHIP,A small drone fighter equipped with swarmer SRMs. Weak on its own it relies on numbers to pose a threat.,,,
+tahlan_darnus,SHIP,"The origins of the Darnus are shrouded in mystery. Likely a prototype design given its unusual spatial jaunt drive, it possesses excellent combat capabilities.",,,
+tahlan_providence,SHIP,"Decently agile, well-armored and surprisingly heavily armed, the Providence is a remarkably flexible battlecruiser that would likely have found more use in the Domain navies if it was not for its high price tag and the existence of cheaper alternatives. 
+
+Astra Mechanica's Providence-class battlecruiser is often described as a confused ship. Originally imagined along what is now commonly referred to as ""midline"" design doctrine, the development project found itself going through bureaucratic hell as funding became unsteady and the committee responsible for overseeing everything went through numerous changes in membership. Initially intended for standard head-on engagement tactics, the introduction of the Conquest lead to the project specifications now demanding potent broadside striking capability which was achieved through the addition of an array of small side-facing mounts and the addition of missile compatibility for the large mount on the opposite side of the hull, yet an omni-type shield generator was never fitted to complement this engagement method. Shielding in general suffered as the ship's shield generator was downsized multiple times to accommodate increasingly heavy armor requirements, likely born out of the continued admiration of the venerable Onslaught-class battleship amongst committee members.
+
+Despite being a prime example of a ship designed by committee, the final result was a remarkably solid ship, if a bit expensive in production, likely thanks to some remarkable talent amongst the engineers that designed and built it. The true standout features of the design are a remarkably lightweight construction paired with with excellent drive units, given it a remarkable top speed for a capital grade vessel, and the unique Induction Ammo Feeder, giving the ship a terrifying punch.",,,
+tahlan_blockhead,SHIP,"The result of PDF ingenuity, the Blockhead is a modified civilian design that can be found quite commonly in the defense fleets of smaller independent worlds. Offering exceptional firepower and sturdy armor plating, this ugly duckling of a ship is an attractive package for anyone looking to scare off pirates with a display of firepower that is otherwise reserved to those with the funds to deploy far costlier ships.
+
+There is a good amount of speculation as to where this particular modification originated, but it is said that variants of the design date back to the first introduction of the Onslaught in the Domain navy and possibly further back. The design has since gone through many informal revisions so far as one can speak of such when dealing with a makeshift warship like this.",,,
+tahlan_throne,SHIP,"Combining agility and remarkable armor, this tough cruiser can handle most any combat situation reliably despite a struggling flux core. With flexible loadout options, it is a favourite of many privateers, but ultimately not a common sight due to its limited production run prior to the Collapse.
+
+Presumably an offshoot of the Providence program, the Throne was blessed with much more focused design specifications than her designed-by-committee big sister. Repurposing many of the components developed for the Providence, the two ships share many attributes, in particular the excellent top speed and remarkably heavy armor. The resulting design is an effective stike cruiser that can hit hard and retreat, but has limited staying power due to limited shielding.",,,
+tahlan_Cobalt,SHIP,"Quick and heavily armed, the Cordite is a devastating assault cruiser, capable of outgunning most opponents in a direct gunfight.
+
+While the powerful large mount boosted by a High-Energy Focus system is exceptionally strong, the hull is otherwise slightly undergunned, with especially the available PD grid being heavily limited.",,,
+tahlan_Poltergeist,SHIP,"Equipped with numerous missile hardpoints and an autoforge to keep them supplied in combat, the Poltergeist is an elusive and devastating barrage platform, but only carries a limited amount of standard weaponry. While capable of flexible tactical positioning thanks to its phasing capabilities, it lacks the baseline speed of other phase ships and can be prone to overextending.",,,
+tahlan_skyrend,SHIP,"The Skysplitter-class battlecruiser is a technologically-advanced warship investing heavily in frontal firepower. Inspired by the Sunder-class destroyer, the Skysplitter was initially developed by Red Monarch Starworks as a cruiser, meant to shore up some of the weaknesses of the Sunder-class. As more and more weaknesses were ""solved"", the project's scope rapidly crept out of control, resulting in an expansive list of features which could only fit in a capital-scale hull. Overall, the project culminated in a surprisingly nimble, heavily armed, and powerful ship capable of delivering exceptional firepower against any who would oppose it.
+
+However, these strengths would come with a cost. Maintaining the Skysplitter's high speed within its size category would require reducing its armor to a relatively frail shell. The weapon overcharge system became mutually exclusive to more efficient and flexible shielding systems. Extensive and expensive automation had to be integrated in nearly every facet the ship's operation in order to offset the extended crew requirements of two hangar bays. Perhaps most damning of all, scope creep and compromise after compromise in the Skysplitter's development would lead to the project budget being extended far beyond its limits. While the Skysplitter-class has since proven itself, in its time the class's high unit cost and unproven status led to a limited inventory being adopted.
+
+The few ships of this class which have made their way into the Persean sector have nonetheless performed admirably under pressure. Production of the hulls is still limited, but those few which circulate are coveted as truly fearsome battlecruisers.",,,
+tahlan_nelson,SHIP,"Few ships embody boldness quite like the Nelson. Armed to the teeth with a varied arsenal of weaponry, this heavy cruiser can lay waste to just about anything that would dare approach it from the front. Built for aggressive assault tactics, the Nelson comes equipped with a massive Starburn Mk.69 heavy boost thruster that allows for rapid advances, letting it easily exploit any weak points in enemy formations.
+
+Often described as the Champion's more aggressive cousin due to some layout similarities, captains of both of these classes have been known to be in a long-standing rivalry over the perceived superiority of their respective ships, but the two are generally agreed to serve different and complementary fleet roles. Often employed in tandem in League warfleets for hammer and anvil tactics, it is unlikely that this rivalry will fade anytime soon.",,,
+tahlan_tower,SHIP,"The result of efforts to marry a heavy cruiser with an escort carrier, the Tower is a messy design that came about from a need to counter carrier-heavy fleets. To this purpose it was outfitted with a pair of fully integrated dual flak cannons and fighter bays capable of carrying two wings of interceptors, giving it the theoretical capability to fend off fighter attacks.
+
+The design ultimately fell short of its goals due to the simple inability to actually catch the carriers it was meant to counter, but found some new love with commanders who appreciated the ability to carry a small strike package aboard a capable frontline combatant.",,,
+tahlan_equinox,SHIP,"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. So the official histories say.
+
+Combining a powerful fighter complement with effective shipborne weaponry, this ship is a credible threat to any vessel employed within the Persean Sector. By no means a backline combat unit, the Equinox can easily hold her own on the frontlines of combat, providing either considerable strike capabilities or fighter dominance.",,,
+tahlan_flare,SHIP,"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. So the official histories say.
+
+Playing host to two wings of Terminator drones, the Flare is a point defense powerhouse that does not have to compromise on firepower.",,,
+tahlan_landsknecht,SHIP,"An ill-fated attempt to revive the concept of the Retribution-class battlecruiser in a more compact package to fit within the cruiser school line of thinking. Trying to improve on the failings of the Retribution, the Landsknecht's designers created a ship that was to be less fragile for its size while retaining the outstanding mobility the Orion Device conveys. While these enhancements were achieved, they came at the cost of firepower, leaving the Landsknecht a somewhat confused design.
+
+As part of the project, the Orion Device itself saw some modification to adapt it to the new hull. The updated antimatter charges possess a wider blast radius, making them particularly dangerous to fighter craft in the vicinity.",,,
+,,,,,
+,,,,,
+#LosTech,,,,,
+tahlan_karma,SHIP,"A seemingly jury-rigged design based on a Brilliant-class cruiser. While appearing like a crude modification at first sight, closer inspection has revealed the ship to be anything but. The complex Remnant tech has been flawlessly integrated with the custom-built central hull section and shows a number of unusual modifications using what appears to be late Domain-level hardware that current databases fail to identify.
+
+Who built this ship and for what purpose remains a mystery.",,,
+tahlan_samsara,SHIP,"A seemingly jury-rigged design based on a Brilliant-class cruiser. While appearing like a crude modification at first sight, closer inspection has revealed the ship to be anything but. The complex Remnant tech has been flawlessly integrated with the custom-built central hull section and shows a number of unusual modifications using what appears to be late Domain-level hardware that current databases fail to identify.
+
+Who built this ship and for what purpose remains a mystery.",,,
+tahlan_Castigator_relic,SHIP,"While clearly built around a Castigator hull as base, this ship appears to be heavily modified with a truly colorful array of technologies. Many of the modified hull components appear to be scavenged from Explorarium drone units, but the internals are of astonishingly high spec, some cannibalized from Remnant drone ships, others of entirely unknown design. The flux grid in particular has been heavily fortified with what is most likely late Domain-era lostech. The result of these modifications is a ship that performs at levels far beyond what anyone would expect upon seeing it.
+
+Who built this ship and for what purpose remains a mystery.",,,
+tahlan_nirvana,SHIP,"An unusual amalgamation of ship designs. While visually similar to Domain Explorarium drone ships, its internals are far more advanced.
+
+Who built this ship and for what purpose remains a mystery.",,,
+tahlan_rigveda,SHIP,"What initially seems like a heavily modified Remnant droneship has turned out to only share superficial similarity with Remnant designs. Built around unknown and highly advanced technology, its full capabilities are unknown.
+
+Who built this ship and for what purpose remains a mystery.",,,
+tahlan_yajurveda,SHIP,"Seemingly a hybrid of Lasher and Remnant hulls, this unusual frigate is outfitted with technology of unknown origin.
+
+Who built this ship and for what purpose remains a mystery.",,,
+tahlan_sutra,SHIP,An unusual drone fitted with a capacitor-fed variant of the Project Velvet.,,,
+tahlan_samaveda,SHIP,"Clearly based on a Remnant hull design, this unusual ship acts primarily as a host for Sutra-class attack drones.",,,
+tahlan_kelpia,SHIP,"A terrifyingly aggressive design, this unusual amalgamation of technologies features a strange semi-phased drive system, seemingly designed for the sole purpose of piercing through other ships.",,,
+tahlan_melusia,SHIP,"An offensive destroyer of unknown design, combining high speed with impressive firepower.",,,
+tahlan_asria,SHIP,"A battlecruiser with incredible mobility and strong firepower. Its inertialess drive system seems to defy all laws of physics, making it a terrifying foe to face.",,,
+tahlan_impia,SHIP,"An apparent modification of a Remnant droneship, this fast skimming frigate is a remarkable skirmisher.",,,
+,,,,,
+,,,,,
+,,,,,
+#Legio Infernalis,,,,,
+tahlan_lasher_pi,SHIP,"Following great popularity with Legio fleet commanders, the Lasher has seen an extensive overhaul by the Infernal Engineering Corps. Upgunning the ship with a pair of medium mounts, the Lasher (PI) is particularly vicious, combining its aggressive ammo feeder system in combination with the ability to mount medium-sized missiles for terrifying striking power.",,,
+tahlan_Castigator_P,SHIP,"An uncommon design to begin with, not many Castigator hulls find their way into the hands of pirates and none of them in proper working order. Lacking the technical ability to restore the ship's signature UTPCs, the crew of this particular hull has opted to rip them out and make room for a large hardpoint while also bypassing the auxiliary thrusters to run them well above safety limits.
+
+Presumably a precursor design to the modern Eagle, the Castigator was, for its time, an overengineered assault cruiser that never made it into large-scale production due to numerous issues. Not only was it overpriced, but the downscaled TPCs in its forward prongs suffered from reliability issues with their magnetic containment systems. These issues aside, however, the performance of the Castigator is without question impressive. Combining heavy armor, numerous weapon mounts and adequate maneuverability in a heavy cruiser package designed to fight at the frontlines of any battle. Charging into combat with its visually spectacular Assault Burn, the Castigator is an awe-inspiring sight to behold and an enemy most would prefer to avoid facing head-on.",,,
+tahlan_Hresvelgr_p,SHIP,"Modified by pirates to give it more striking power, this unusual variant of the Hresvelgr comes with a greatly increased capacity for missile weaponry at the cost of its ballistic potential and fighter reserves. While highly dangerous, the underlying hull design remains on the fragile end for capital ships.
+
+Preceding the adoption of the Legion as mainstay battlecarrier, the Hresvelgr saw fairly widespread use in the Domain navy, owing to its excellent fighter capacity. The design fell out of favour over the years, however, as Domain battlegroups that favoured fleet carriers began adopting the Astral for its superior striking power.
+
+Not many of these ships were present in the Persean Sector at the time of the collapse, but they have come back into use by various navies due to their lower production requirements and ability to project large and reliable fighter screens that had proven invaluable during the AI wars.",,,
+tahlan_Dominator_PH,SHIP,"While pirates are known to be quite fond of aftermarket modifications for their ships, the fewest are as ambitious as whatever deranged mind had the idea and ability to transplant a set of salvaged phase coils into a Dominator hull and hook them up to a comically oversized power core. The result can only be described as an absurdity, possessing unusual agility while phased with the firepower and armor one would expect of a dominator while unphased. What effects this overtuned phase field must have on the mental stability of the ship's crew can only be guessed, but it is unlikely that whoever willingly signs on to a ship such as this is already past rational thought and common sense.
+
+Ponderous and menacing, the Dominator-class is one of the most widespread system defense cruisers in Hegemony space. 
+
+While not the most technologically advanced hull, it relies on a plethora of ballistic hardpoints to accomplish its mission, which is more often than not defending orbital installations and vital points of intra-system trade routes. A poor shield emitter which is difficult to manage and thus, rarely engaged, gives way to an almost impregnable interlocking armor belt system making the Dominator safe from most weapons. Even strike craft cannot overcome the hail of projectiles that can be launched to intercept their payloads. This hull proves that tried and true military engineering is difficult to overcome by new ideas and technologies, especially when in the hands of tough, determined crews and experienced officers.
+
+Dependable, durable, and a constant presence in home space around civilized worlds and outposts, the Dominator is perhaps most hated and feared by pirates and law-breaking corporate agents. ",,,
+tahlan_Castella_pirates,SHIP,"This rarely seen refit of a Castella-type hull is regarded as a small legend amongst pirates, showing many signs of competent engineering rarely seen amongst these lawless groups. Its most striking feature is a massive spinally-mounted cannon that will strike fear into any poor merchant finding himself in its sights.
+
+An outdated carrier design, the Castella had mostly been replaced by the Legion in fleets of the Domain, but found itself popular with smaller system defense forces or independent fleets. Salvagers in particular took a liking to the antiquated design.",,,
+tahlan_Bronco_p,SHIP,"In an ironic twist of fate, this Bronco has been refitted once again by pirates. Ever the clear thinkers, these pirates took note of the excellent ammo feeder system and thusly converted the nose missile hardpoints into another pair of ballistic mounts to take full advantage. Not wanting to let the large missile storage space go to waste, they also modified the intended forward point defense turret mounts to accept missiles instead and finished off the conversion with some souped-up thrusters as they are ever so popular with the unlawful masses.
+
+Originally designed as a light freighter, the Bronco saw little commercial success in its intended configuration. Pirates however commonly repurposed the ship into a missile destroyer and thus inspired a proper redesign of the hull, replacing its cargo bays with large missile storage units linked to a pair of nose-mounted missile hardpoints. A singular medium ballistic mounts for self-defense was also added and outfitted with a state-of-the-art ammo feeder system to give it some additional punch when forced into close quarters combat.",,,
+tahlan_DunScaith,SHIP,"Constructed around the carcass of an Onslaught-class battleship, the Dun Scaith is a colossal warmachine like it could only have been conceived by the minds behind the Legio Infernalis. Clad in heavy armour and covered in weapons, this massive dreadnought is an imposing sight to behold and the nightmare of any patrol commander in civilized space. Where it goes, destruction follows and few have survived an encounter with this beast.
+
+While the exact specifications of the design are unknown, it is clear that it follows no strict blueprint and individual examples of this class are constructed with whatever parts are available to create the closest possible approximation of the intended design. Their total number is unknown, although it can't be very high, given the extensive difficulty of even procuring the necessary salvage without directly preying upon Hegemony patrol fleets.
+
+Rare sources from within the Legio Infernalis imply that the Dun Scaith class is to be the vanguard of a new battlefleet, by which the Persean sector is to one day be subjugated and brought under the heels of its self-proclaimed rightful owners.",,,
+tahlan_Flagellator_pi,SHIP,"Seeing the Flagellator's design as ideal for pirate action, the Legio have converted a great number of these ships to even better suit their needs, replacing the graviton beam with a burst-fire variant of the Goll Overcharge Cannon to disable their prey.
+
+Built for speed and equipped with an early variant of graviton beam, the Flagellator is a dedicated hunter-killer designed to chase down and eliminate fast targets.",,,
+tahlan_eagle_nw,SHIP,"Retrofitted with stealth plating and an enhanced missile armament, this unusual variant of the Eagle once belonged the the infamous Nightwatch, or so its logs would have you believe. Many of the technologies incorporated in this craft are long lost to time now, relics of the Domain era.
+
+Not much is known of the Nightwatch, one of the many arms of the Domain's military apparatus. Rumors have it they were elite enforcers, operating covertly to root out dissidents and persons deemed problematic within the Domain navy, but officially they never even existed. What business one of their cells had in the Persean sector is surely anyone's guess, but with the XIVth Battlegroup en route to the sector just before the collapse, it can be assumed there is a connection.",,,
+tahlan_falcon_nw,SHIP,"Retrofitted with stealth plating, this unusual variant of the Falcon once belonged the the infamous Nightwatch, or so its logs would have you believe. Many of the technologies incorporated in this craft are long lost to time now, relics of the Domain era.
+
+It is said, the Nightwatch happened to be particularly fond of the Falcon, often favouring it over the Eagle for its lightweight and swift design. Direct firepower was never of particular concern for an organisation that preferred to work in the shadows and solve problems without directly engaging in ship-to-ship combat. While this philosophy hasn't exactly carried over to the Nightwatch's presumed successor, a preference for smaller, more agile craft has remained.",,,
+tahlan_mora_pi,SHIP,"Common as the Mora is, it was only a matter of time before Legio engineers laid their hands on the hull to produce a variant that would better suit the faction's combat doctrine. The resulting variant is tuned towards offense, sacrificing the damper field, that gives its base model its renowned durability, to greatly augment the missile armament.
+
+With one of the medium missile turrets replaced by a large hardpoint and the addition of a missile loader system, the alpha strike potential of the carrier's combined missile and strike craft capacity is indeed terrifying.",,,
+tahlan_imperator,SHIP,"In the pre-collapse era it was common knowledge that every once in a while the mighty Domain navy would proudly present a new latest and greatest warship to the galaxy at large, an act of both audacity and calculated propaganda to remind all under the Domain's rule of its absolute power. The Imperator is one such warship, massive in scale and capable of fielding a truly staggering amount of firepower, a prestige project like many before it.",,,
+tahlan_illustrious,SHIP,"The Illustrious-class battlestars were for the longest time regarded as a myth, massive starships built only secondarily for warfare, covered in stealth plating and equipped with state-of-the-art command and control suites, sensor arrays and electronic warfare suits alike. Coated in the black and red colors of the Nightwatch, these massive vessels served as mobile headquarters for the shadowy organisation's many branches across the vastness of Domain space.
+
+Had one asked before the collapse, no one would've thought a Nightwatch branch might possibly be operating in the backwater that was the Persean Sector, not that the name would've meant anything to anyone but high-ranking Domain officials and those working on the edges of Domain law.
+
+According to recovered logs, this particular Illustrious served as command headquarters of Bureau 83 of the Nightwatch, tasked with investigating and persecuting a number of concerning individuals within the XIVth Battlegroup, an assignment that would never go fulfilled when the gate network shut down. Their objective seemingly lost well out of reach, Nightwatch leadership quickly descended into infighting as moderate and radical elements of the group collided over the question what the group's course of action should be.
+
+While moderate elements wished to lend their assets to stabilising the sector in cooperation with local leaderships, the more radical elements saw only one correct choice, the subjugation of the sector under the only true successor to the Domain government. Disagreements continued for many years as small detachments of Nightwatch forces took independent action to clear the paths for the respective goals, but no consensus could be found and struggles for power within the organisation began turning to violence.
+
+It wasn't until the arrival of the XIVth Battlegroup that matters escalated, setting in motion a path of events that would spell the end of the Nightwatch and the birth of what is now known as the Legio Infernalis.",,,
+tahlan_raven,SHIP,"Fast, decently armed and carrying its own fighter complement, the Raven is a ship built to be self-sufficient and capable of handling any situation it is likely to find itself in, capabilities further bolstered by the Domain-era electronic warfare suite it carries.
+
+The Raven was, without doubt, designed and built directly to the specifications of Nightwatch BlackOps command, intended primarily as primary hub and base of operations for agents in the field, far away from core Domain military infrastructure. It is therefore little surprise, that the Nightwatch detachment in the Persean Sector had a good number of these vessels to their avail. Sadly, despite their excellent performance, these ships have become quite rare due to intermittent losses and difficulty in constructing replacements.",,,
+tahlan_raven_phantom,SHIP,"This ship of unknown origins is clearly a variant of the Raven, heavily upgraded with what appears to be salvaged experimental tech, possibly taken from one of the Tri-Tachyon Corporation's all too many secret blacksites. Who exactly assembled the final product remains a mystery.",,,
+,,,,,
+,,,,,
+tahlan_vanguard_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Vanguard-class Frigate : 72% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_centurion_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Centurion-class Frigate : 67% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_hammerhead_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Hammerhead-class Destroyer : 59% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_manticore_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Manticore-class Destroyer : 78% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_champion_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Champion-class Cruiser : 81% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_dominator_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Dominator-class Cruiser : 68% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_sunder_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Sunder-class Destroyer : 62% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_hound_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Hound-class Frigate : 81% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_kodai_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Kodai-class Cruiser : 84% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_afflictor_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Afflictor-class Frigate: 68% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_mudskipper_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Mudskipper-class Frigate: 74% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_doom_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Doom-class Cruiser: 84% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_retribution_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest match.
+#> Match found.
+#> >> Retribution-class Battlecruiser : 73% match
+#> WARNING: Analysis shows sign of [REDACTED]
+#> >> Target capabilities: Unknown
+#> .
+#> ALERT. System intrusion attempt detected.
+#> .
+#> .
+#> .",,,
+tahlan_DunScaith_dmn,SHIP,"#> Ship Classification: Unknown
+#> Query closest mat5##6sf...
+#> .
+#> ..
+#> ...
+#> ....
+#> _do_not_be_afraid_
+",,,
+tahlan_miasma,SHIP,"#> Object Classification: Unknown
+#> Query closest match.
+#> No Match found.
+#> Query predictive capabilities.
+#> >> Autonomous fighter craft
+#> >> Capabilities: unknown",,,
+,,,,,
+tahlan_spark_dmn,SHIP,"A variant of the Spark-class interceptor drone, trading its burst laser for a pair of standard PD lasers.",,,
+tahlan_lux_dmn,SHIP,"A variant of the Lux-class fighter drone, armed with a needler for shield suppression.",,,
+tahlan_flash_dmn,SHIP,"A variant of the Flash-class strike drone, carrying a devastating Reaper-class torpedo.",,,
+tahlan_thunder_dmn,SHIP,"A drone variant of the Thunder-class interceptor, upgraded with a shield generator and heavily upgunned.",,,
+tahlan_gaze_dmn,SHIP,A heavy attack drone carrying a single thumper.,,,
+,,,,,
+#HVBs,,,,,
+tahlan_Cuchulainn,SHIP,"The Cuchulainn is an experimental craft built around a massively upscaled tachyon beam weapon. Originally intended as a potential siege weapon for engaging stations and orbital bombardment, the final prototype never produced the expected results and the project was abandoned. The remaining prototypes have since found their way into the hands of various collectors around the sector.",,,
+tahlan_Ristreza_g,SHIP,"Originally envisioned as a bespoke battleship design taking after the Ristreza-class Battlecruiser, the concept of the Numistri was shelved indefinitely some decades prior to the collapse. In late c+201, however, the design was recovered by an independent captain who subsequently spent a small fortune on having their own Ristreza retrofitted in its image. The Gleipnir cannon has been painstakingly removed, with its massive capacitor banks instead serving to drive a high-powered beam weapon, and a number of elements of the ship now possess a gilded finish to boot.
+
+Despite lacking some of the staying power of a true battleship, the Numistri should not be underestimated - flanking is crucial when fighting this vessel, as the spinal beam is a credible threat to even the largest warship.",,,
+tahlan_Nibelung_n,SHIP,"A true rarity in the current day and age, this particular Nibelung must be centuries old, still carrying its original integrated main battery cannons. Having been only partially refitted to allow for the installation of modular weaponry on the secondary weapon emplacements, the refit is clearly a custom job performed by an individual who prized the massive singularity warhead batteries.
+
+An ancient design, the Nibelung-class battleship predates even the venerable Onslaught and harkens back to a different school of ship design. Built around a powerful broadside to be employed as part of a massive battle line, the Nibelung fell out of favor with a shift in Domain military doctrine.
+
+While the design predates the age of modular weaponry and shields, its turret-focused design proved well-suited for the adaption of modular weapon mounts and a number of major refits kept the ship relevant for a great many years in planetary defense or paramilitary forces.",,,
+tahlan_Castigator_NC,SHIP,"A unique, heavily upgraded variant of the Castigator of unknown origin. Retrofitted with what appears to be Remnant technology and controlled by a single pilot, neurally linked to the ship's systems.
+
+Presumably a precursor design to the modern Eagle, the Castigator was, for its time, an overengineered assault cruiser that never made it into large-scale production due to numerous issues. Not only was it overpriced, but the downscaled TPCs in its forward prongs suffered from reliability issues with their magnetic containment systems. These issues aside, however, the performance of the Castigator is without question impressive. Combining heavy armor, numerous weapon mounts and adequate maneuverability in a heavy cruiser package designed to fight at the frontlines of any battle. Charging into combat with its visually spectacular Assault Burn, the Castigator is an awe-inspiring sight to behold and an enemy most would prefer to avoid facing head-on.",,,
+tahlan_Sophrosyne,SHIP,-CLASSIFIED-,,,
+tahlan_Phronesis,SHIP,-CLASSIFIED-,,,
+tahlan_Andreia,SHIP,-CLASSIFIED-,,,
+tahlan_Hresvelgr_X,SHIP,"A hybrid AI refit of the Hresvelgr, putting the majority of systems under the control of an alpha core, only requiring a minimal human or robotic crew, the freed up space was used for the installation of a state-of-the-art fortress shield generator, giving this new variant unrivalled defenses compared to its base variant.
+
+Preceding the adoption of the Legion as mainstay battlecarrier, the Hresvelgr saw fairly widespread use in the Domain navy, owing to its excellent fighter capacity. The design fell out of favour over the years, however, as Domain battlegroups that favoured fleet carriers began adopting the Astral for its superior striking power.
+
+Not many of these ships were present in the Persean Sector at the time of the collapse, but they have come back into use by various navies due to their lower production requirements and ability to project large and reliable fighter screens that had proven invaluable during the AI wars.",,,
+tahlan_DunScaith_gh,SHIP,"Exactly how a Dun Scaith class dreadnought has made its way into the hands of Kassadari Engineers remains a mystery, but their work on this terrifying vessel is what seems truly unbelievable. Having fully reconstructed major sections of the ship and adding the typical Kassadari upgrades, the ship has been transformed from a powerful dreadnought into a warmachine the likes of which were once only wielded by the best of the Domain navy legions.
+
+Since its acquisition and retrofit, the Scathach has entered service in the Royal Guard Fleet of House Vund, serving at the family's personal flagship, carrying the red markings of the Houses.",,,
+tahlan_Metafalica,SHIP,"The Metafalica is an old prototype vessel predating the collapse. She was the first and only vessel to incorporate a new variant of Temporal Circuit Grid that was directly integrated with her protective plating, using excess energies from the grid's operation to project an anomalous temporal field around itself, diverting incoming damage into alternate timelines. While the initial tests looked promising, the system was still too unrefined for extended use and the collapse cut short any further development into the technology branch.",,,
+,,,,,
+,,,,,
+#fighters,,,,,
+tahlan_Acastus,SHIP,A fast interceptor armed with a pair of impactor guns. Possesses impressive striking power against shielded targets.,,,
+tahlan_Caliver,SHIP,"Designed for the sole purpose of delivering a single Hekaton-class torpedo within strike distance, the Caliver is a relatively simple design by Kassadari standards.",,,
+tahlan_Exec_M,SHIP,A highly advanced drone equipped with a multi-beam emitter capable of targeting multiple incoming threats at once.,,,
+tahlan_Dikaiosyne,SHIP,"A unique point-defense drone, presumably based on a Kassadari design. Features a multi-beam emitter and temporal circuits.",,,
+tahlan_Valacor,SHIP,"An unusual heavy fighter of Kassadari design, equipped with a pair of large underslung ion pulse weapons. Their sturdiness makes them excellent harassers that can maintain pressure and severely impact a target's combat capability.",,,
+tahlan_Scoralis,SHIP,"A superheavy bomber of Kassadari design, carrying a massive payload of 4 guided torpedoes based on the Hekaton. Their high-explosive warhead has been downscaled to accommodate guidance systems. While the Scoralis carries some truly impressive firepower, the fighter itself is fairly slow and a large target, requiring escorts to reliably deliver its payload. To increase chances after survival, a set of afterburners kick in once the torpedo ordnance has been depleted, granting the bomber increased mobility for its return flight.",,,
+tahlan_turrmy,SHIP,"A poor imitation of the Tempest's signature Terminator drone, this haphazardly assembled drone may carry the same armament, but is sorely lacking the original's advanced AI core.",,,
+,,,,,
+,,,,,
+#Great House refits,,,,,
+,,,,,
+tahlan_monitor_gh,SHIP,"Heavily modified and overhauled by Kassadari engineers, this ship has been upgraded with the most advanced technologies of the Great Houses.
+
+An oddity among ships, the Monitor is the result of the line of thought that “sometimes the best defense is indeed the best defense”. Features turret mounts angled to provide wide arcs and a unique “flux shunt” modification to its power systems specially constructed to relieve flux generated by shields. Indeed, the Monitor makes up for a lack of maneuverability and firepower with the ability to withstand prolonged bombardment from enemy ordnance.
+
+Though its experimental nature is perhaps a sign of the innovation that eras of turmoil seem to inspire, whether the Monitor’s radical defensive focus is a boon or pitfall remains contentious. Several dramatic failures in convoy protection patrols were explained by Ko Combine PR representatives to be the fault of improper tactics employed by convoy commanders. Ko Combine maintains that when positioned correctly in a combat situation and supported by strikecraft - as the anvil and hammer, respectively - simulations demonstrate that the Monitor significantly enhances convoy survivability against the average pirate attack. Prominent critics remain.",,,
+tahlan_legion_gh,SHIP,"Heavily modified and overhauled by Kassadari engineers, this ship has been upgraded with the most advanced technologies of the Great Houses.
+
+Classified as a battlecarrier, the Legion mounts an impressive array of heavy weapons, hangar-space, and command-control sufficient to field four fighter wings. Later models were upgraded with nanoforges keyed to replacement of fightercraft, significantly increasing tooth-to-tail ratio on distant deployments.
+
+After the legendary success of the Onslaught design it became clear that rebellious systems without ultraheavy industry were able to develop carrier-based strike-craft capable of countering the 'Old Man' of the Armada. Alongside new weapons - nimble anti-fighter missiles and rapid-tracking point defense cannon - the Strategic Council decided to deploy a carrier worthy of service alongside the Onslaught. Thus the Legion was designed to provide a platform for interceptors and strike-craft while standing on the line of battle. 
+
+Proponents of the 'Cruiser School' criticized the Legion for insufficient specialization, maintaining that similar fighter volume can be fielded at less cost and greater flexibility if combat roles are separated into distinct ship hulls. These economic arguments do pale in the face of an incoming Legion engaging its burn drive to deliver crushing firepower at the key point of battle.",,,
+tahlan_onslaught_gh,SHIP,"Heavily modified and overhauled by Kassadari engineers, this ship has been upgraded with the most advanced technologies of the Great Houses.
+
+A venerable design, the Onslaught-class battleships were first created to serve the Domain Armada long ago, before the development of advanced strike weapons, modern energy weapons, and shield systems. 
+
+When first launched from orbital dock, they must have surely dwarfed any other ship in existence and intimidated entire systems. Some even say that they were built to combat non-humans in a long forgotten war. Much later, Domain engineers made modifications to the blueprints to include a shield system, upgraded the FTL drives, and reduced the necessary crew complement through automation and iterative engineering. Even though more advanced blueprints are available, the Onslaught remains the easiest to manufacture due to the brutal simplicity of its systems. 
+
+A ship designed without shields in mind, built to be able to withstand a heavy barrage of enemy fire and strike back while protecting its crew is much loved by its officers and crew. And strike back it can; the Onslaught's unmatched ballistic potential can devastate entire fleets in minutes, its only drawback a logistical dependency on ammunition. 
+
+The Onslaught-class proudly serves as the backbone of the Hegemony Navy.",,,
+tahlan_vendetta_gh,SHIP,"Heavily modified and overhauled by Kassadari engineers, this ship has been upgraded with the most advanced technologies of the Great Houses.
+
+A dated but imposing battleship with a storied service history, the Vendetta is the Yang to the mighty Onslaught's Yin. While the Onslaught plays the part of blunt, chaotic sledgehammer, the Vendetta is a more precise “wedge” of a ship; steadier, more agile, and capable of concentrated bursts of fire with an ordnance package that favors capital-grade missile and torpedo weaponry.
+
+Like its sibling battleship, the first production models of the Vendetta lacked shield generators, relying on their thick armor and arsenal of turreted weaponry for defense against attackers. Later versions of the hull were modernized and featured a mid-grade Omni shield, though unlike the Onslaught this would require a slight reduction in its armor package. Nonetheless, the Vendetta remains a highly durable ship. What it lacks in berserker speed and raw firepower it makes up for with improved capacity for situational weapons systems and a potential tactical punch that an Onslaught could simply never match.",,,
+tahlan_dominator_gh,SHIP,"Heavily modified and overhauled by Kassadari engineers, this ship has been upgraded with the most advanced technologies of the Great Houses.
+
+Ponderous and menacing, the Dominator-class is one of the most widespread system defense cruisers in Hegemony space. 
+
+While not the most technologically advanced hull, it relies on a plethora of ballistic hardpoints to accomplish its mission, which is more often than not defending orbital installations and vital points of intra-system trade routes. A poor shield emitter which is difficult to manage and thus, rarely engaged, gives way to an almost impregnable interlocking armor belt system making the Dominator safe from most weapons. Even strike craft cannot overcome the hail of projectiles that can be launched to intercept their payloads. This hull proves that tried and true military engineering is difficult to overcome by new ideas and technologies, especially when in the hands of tough, determined crews and experienced officers.
+
+Dependable, durable, and a constant presence in home space around civilized worlds and outposts, the Dominator is perhaps most hated and feared by pirates and law-breaking corporate agents. ",,,
+tahlan_enforcer_gh,SHIP,"Heavily modified and overhauled by Kassadari engineers, this ship has been upgraded with the most advanced technologies of the Great Houses.
+
+The Enforcer-class ships commonly serve in system or convoy defense roles. The design features good armor and multiple ballistic hardpoints, while shield performance is somewhat underwhelming. 
+
+The blueprints of the ship call for many components similar to those found in the Onslaught-class battleships, suggesting that the designs were created during a similar period of military expansion in the Domain. The Enforcer-class features similar no-nonsense weapon system design choices, tough bulkheads, and is well regarded by its crews.
+
+Tough to beat in a destroyer to destroyer fight, the Enforcer rarely takes part in larger battles due to the common view that its low speed makes it a liability. Nonetheless, Hegemony order of battle doctrines mandate an attached Enforcer squadron as a screen for Onslaught-class battleships. The logistical ease with which shared components can be used by both ship types is exactly the type of detail that excites Hegemony Logisticarum bureaucrats.",,,
+tahlan_Castigator_knight,SHIP,"Heavily modified and overhauled by Kassadari engineers, this ship has been upgraded with the most advanced technologies of the Great Houses.
+
+Presumably a precursor design to the modern Eagle, the Castigator was, for its time, an overengineered assault cruiser that never made it into large-scale production due to numerous issues. Not only was it overpriced, but the downscaled TPCs in its forward prongs suffered from reliability issues with their magnetic containment systems. These issues aside, however, the performance of the Castigator is without question impressive. Combining heavy armor, numerous weapon mounts and adequate maneuverability in a heavy cruiser package designed to fight at the frontlines of any battle. Charging into combat with its visually spectacular Assault Burn, the Castigator is an awe-inspiring sight to behold and an enemy most would prefer to avoid facing head-on.",,,
+,,,,,
+,,,,,
+#Rosenritter,,,,,
+tahlan_stahlherz,SHIP,"First introduced 127 years before the collapse, the Silberblut is one of the older Regalia still in use by the Rosenritter Orden. Powered by a first-generation Silberherz unit, it was the first Regalia equipped with a core of this type and as such spearheaded a new generation of Regalia designs. Utilizing the incredible energy capacity and computational power of its core opened up a new level of modularity, leading to the Silberblut Regalia coming in a wide variety of configurations with vastly differing capabilities and armaments.
+
+Like every Regalia featuring a Silberherz unit, the Silberblut relies on a direct neural interface for proper control of its complex systems. With only individuals of exceptional skill and mental fortitude capable of handling the stress of such a device, only few can actually bring out the true performance of this machine, a limitation that has since shaped Rosenritter culture. The need for such gifted individuals has given rise to a selective breeding program.
+
+The gifted few who achieve the noble title of ""Graf"" for their mastery of the Silberblut Regalia are objects of reverence within Rosenritter culture and few have more say than them in the Order's leadership. So great is this reverence that even serving as the supporting maintenance crew aboard a Regalia is seen as close to nobility and the life-dream of many a child which did not qualify for the Regalia Corps training program.",,,
+tahlan_halbmond,SHIP,"Introduced only half a decade prior to third generation Regalia, the Halbmond was designed in anticipation of the need for a vessel capable of servicing Silberherz-equipped Regalia on extended deployments. Being primarily a maintenance vessel, it is not primarily designed for combat, but carries enough weaponry to defend itself in emergency situations and can hold four squadrons of Jagdregalia within its massive hangar bay.
+
+As the specialized equipment of these ships is essential to the maintenance of Regalia, they have become the lifeblood of the Rosenritter fleet and given birth to a number of variant designs. Some enlarged designs have been designed as massive arkships carrying the civilian population of the Order and housing many major institutions that once had their seat on planets aligned with the Order. These massive vessels now form the core of the Rosenritter home fleet as it travels between sectors that are home to their patron Houses.",,,
+tahlan_eisenflug,SHIP,"The most common Jadgregalia and standard strikecraft of Rosenritter carriers. Based on the Eisenblut frame, it mounts a pair of high-velocity pulse lasers effective against most targets. Robust defenses ensure a survival rate uncommon amongst standard fightercraft and many a famous Graf's career has its beginnings in the pilot seat of an Eisenflug.",,,
+tahlan_kupferflug,SHIP,"A heavier variant of Jagdregalia not commonly employed outside of specialized strike groups. Carrying a single Kriegsmesser HASM and downsized Strahl-type beam cannon, it is heavily armed and serves as a de-facto bomber. While quite sturdy, its low top speed limits the number of payloads it can deliver and the inability to screen for larger Regalia has left it in the Eisenflug's shadow.",,,
+tahlan_schneefall,SHIP,"Following the success of the Silberblut Regalia and their successor models, Rosenritter doctrine became even more focused on Regalia-centric combat tactics. This new shift in doctrine called for a unique kind of capital to serve as an anchor and supporting unit for Regalia in combat and eventually gave birth to the Nachtgesang. To take advantage of the computational capabilities of the Silberherz, the Nachtgesang was outfitted with a massive sensor and scanner array at its core, capable of feeding combat data to nearby Regalia to boost their combat performance further.
+
+While primarily designed for its support role, the ship is by no means to be underestimated in combat. Light in gun mounts, it makes up for this with an impressive array of missile hardpoints and above average speed. Capable of taking on most capitals head to head, it can effectively hold the line while its allied Regalia tear through the enemy flanks.
+
+Despite service aboard a conventional ship being generally seen as less prestigious, the Nachtgesang class has since earned itself a shining reputation as the mighty backbone of any noteworthy Rosenritter task force. What was once regarded as an undesirable post has transformed into a highly-respected position within the social hierarchy and service aboard one of these ships is now the goal of many crewmen who are denied a career path amongst the prestigious Regalia Corps.",,,
+tahlan_schneefall_traum,SHIP,"A variant design of the Nachtgesang intended as a fleet command ship, or rather the Rosenritter idea of such. Replacing the Nachtgesang's two flight decks with a pair of large universal mounts and adding a missile autoforge, likely begrudgingly purchased from the Kassadari Houses, the Traumtänzer is meant to lead from the front, laying down heavy fire.
+
+The Traumtänzer project was exceedingly unique by many standards, most notably due to the involvement of the Great Houses of Kassadar, who had been long-standing rivals of the Rosenritter Order. It was presumed at the time that the cooperation was spearheaded by a new generation of engineers on both sides who put little value in old rivalries and instead saw the potential in sharing their expertise, an assumption that appears to have held true when one considers the first and only outcome. With the help of the Kassadari Temparchs of House Tahl, the Rosenritter team was able to massively upscale the advanced R-type Phase Skimmer previously exclusive to Silberblut-type Regalia and make it functional on a capital ship scale, while the Bladesmiths of House Vund adapted a Vund-pattern missile autoforge to the Rosenritter system, providing the ship with an effectively unlimited supply of missile ammunition in combat.
+
+Having been in drydock above Kassadar at the date of the collapse, the Traumtänzer and the small Rosenritter task force meant to escort it back to the Rosenritter Home Fleet ended up stranded in the Persean Sector. Sadly for everyone involved, the task force commander was very much fond of the old ways and refused to further cooperate with the Kassadari Houses and thus set out on his own with the Traumtänzer in tow, never to be seen again since.",,,
+tahlan_glanzwurf,SHIP,"Developed after the Silberblut Regalia, the Glanzwurf was the first successful attempt of integrating the Silberherz in a smaller frame. While its performance characteristics are naturally lower than those of its big sister, it can hold its own in battle. Intended to act in a supportive role alongside Silberblut units, it was equipped with a wing of Dorn-class support funnels that allow it to provide point-defense support for allies.
+
+Generally seen as a stepping stone for aspiring Regalia pilots on their path to the title of Graf, the Glanzwurf is notorious for having an unusually high mortality rate as these pilots are often eager to prove their mettle and can succumb to overconfidence in their abilities. Grim as this may sound, it is seen as an effective filter for potential future Grafs.",,,
+tahlan_dorn,SHIP,"A remote-controlled drone weapon, the Dorn is controlled by Regalia pilots via their neural uplink. Armed with a weak but versatile burst beam, it primarily serves as point defense weapon, but can also provide fire support in close-range engagements.",,,
+tahlan_mondlicht,SHIP,"In many ways the ugly duckling of the Rosenritter fleet, the Mondlicht was conceived as a smaller support cruiser to replace the larger Nachtgesang in smaller taskforces. Essentially a downscaled version of her big sister, it has the same capacity for Jagdregalia in its two bays, but sacrifices most of its own strike potential. Service aboard these less ships is notoriously unpopular, but for many a necessary step on the career ladder towards service on the more prestigious Nachtgesang-class battlecruisers.",,,
+,,,,,
+,,,,,
+# Weapons,,,,,
+,,,,,
+tahlan_shiva,WEAPON,"A prototype pulse beam developed for the Yukikaze. Incredibly efficient and destructive for a beam weapon, it suffers from extreme beam dispersal at range, limiting it to extremely short range engagements.",Assault,,
+tahlan_garuda,WEAPON,A prototype seeking pulse weapon developed for the Yukikaze. Fully integrated into the Yukikaze this odd weapon fires high energy plasma blasts that are then guided using EM-fields projected by the ship. The result is a unique energy weapon with missile-like properties.,Strike,,
+tahlan_jigoku,WEAPON,"Replacing the Thermal Pulse Cannons, this beam weapon was adapted from salvaged stricture-type pulse beams, but remodulated to be equally efficient against shields and armour and fed by an oversized capacitor array capable of storing multiple charges, ready to be fired in quick succession.",Strike,,
+tahlan_utpc,WEAPON,"A downscaled version of the Thermal Pulse Cannon, this unique weapon is notorious for its unreliability. While technically a defective design, many gunnery officers familiar with the weapon regard its temperamental nature as a feature rather than a flaw. Often discharging additional splinter bolts with each shot, the weapon's output will often exceed its intended firepower by vast amounts, albeit in a chaotic nature.",,,
+tahlan_utpc_l,WEAPON,"Surely driven by some kind of madness, scientists of Kassadar have adapted the design of the Thermal Blast Cannon back to a modified Onslaught blueprint, scaling the weapon back to the full size of a Thermal Pulse Cannon, but retaining its unstable nature for a truly absurd weapon. Often discharging additional splinter bolts with each shot, the weapon's output will often exceed its intended firepower by vast amounts, albeit in a chaotic nature.",,,
+tahlan_magaera,WEAPON,"In essence little more than a pair of twin-linked Gallant-type magnetic accelerator cannons with extended barrels, the Magaera improves on the range and firepower of its smaller sibling.",,,
+tahlan_gallant,WEAPON,"Technically a fairly standard magnetic accelerator cannon, the Gallant is however a technological showpiece. Equipped with a miniaturized Temporal Circuit, the entire charging and firing mechanism is put under constant time acceleration, boosting the weapon's cycle rate compared to similar weapons.",,,
+tahlan_porph,WEAPON,A heavy cannon firing plasma igniter shells that are effective against virtually any target.,,,
+tahlan_volkite,WEAPON,"The preferred point-defense solution of the Great Houses, this magazine-fed dual cannon fires highly effective voidburst rounds.",,,
+tahlan_dualvolkite,WEAPON,"Effectively just a pair of Volkites linked together, the Volkite Battery excels at saturating an area with voidburst rounds, shredding just about any missiles attempting to pass through.",,,
+tahlan_hekaton,WEAPON,"Designed as a more refined alternative to the more brutish torpedoes commonly used in the sector, this Kassadari design carries a dual stage warhead, supplementing its explosive power with a plasma burst discharge.",,,
+tahlan_hekaton_rack,WEAPON,"Designed as a more refined alternative to the more brutish torpedoes commonly used in the sector, this Kassadari design carries a dual stage warhead, supplementing its explosive power with a plasma burst discharge.",,,
+tahlan_hekaton_fighter,WEAPON,"Designed as a more refined alternative to the more brutish torpedoes commonly used in the sector, this Kassadari design carries a dual stage warhead, supplementing its explosive power with a plasma burst discharge.",,,
+tahlan_styrix,WEAPON,"A Kassadari alternative to the common railgun. The Styrix fires a 3-round burst of high-velocity projectiles with decent accuracy, that are commonly timed to cover the impact window of high-explosive weaponry to suppress shields. The impactor rounds are also loaded with a micro warhead that can cause additional damage if the round manages to pierce the outer layers of armor.",,,
+tahlan_atrapos,WEAPON,A medium railcannon firing an armor-piercing dual warhead projectile featuring an experimental temporal fragmentation warhead.,,,
+tahlan_armiger,WEAPON,"Reliable and effective, the Armiger is a medium-caliber cannon that prioritizes projectile velocity and range over sheer firepower, making for a weapon that pairs well with high-velocity kinetic armaments.",,,
+tahlan_prismcoil,WEAPON,"An integrated arc-discharge weapon, rapidly discharging bolts of energy to any enemies within its targeting cone. Effective against all targets, it can also function as a point-defense weapon.",,,
+tahlan_astrix,WEAPON,A twin-linked heavy cannon with good striking power. Its secondary plasma burst warhead grants it slightly improved performance against shields.,,,
+tahlan_teltrite,WEAPON,"Designed to supplement Volkite-type PD weapons against harder targets, this micro-railgun fires hypervelocity kinetic slugs to intercept incoming missiles and strikecraft. Being particularly effective against shielded fighters, it truly shines when paired with Volkite-class PD solutions as intended.",,,
+tahlan_fusor,WEAPON,"Originally designed for shipbreaking operations, these industrial fusion torches have found great popularity amongst pirates for their destructive potential when sufficiently modified. While their range is severely limited, the damage potential and electromagnetic interference of the bluehot flame makes it a terrifying weapon on fast attack ships.",,,
+tahlan_mininglance,WEAPON,"Designed for mining operations, this lance was never intended for combat use, but is no less effective at cutting apart spaceships than any other high-powered directed energy beam.",,,
+tahlan_disparax,WEAPON,"A heavy plasma cannon of unknown origin. Boasting solid firepower and fast projectiles, it has a strong general purpose profile.",,,
+tahlan_relparax,WEAPON,A medium energy blaster of unknown origin. A versatile and flexible weapon that is effective against most targets.,,,
+tahlan_nenparax,WEAPON,"A small energy beam emitter of unknown origin. Fires a powerful and high-impact beam that is highly effective against small targets. While potent as a PD weapon, it lacks the internal targeting systems to act as a PD weapon without an external PD system.",,,
+tahlan_eradicator,WEAPON,"An icon of pirate hubris, the Deathgaze is a heavily modified asteroid mining laser, supercharged to dangerous levels and about as likely to blow out the flux grid of whatever ship it is mounted on with a feedback spike as it is to cut its prey apart. When it functions, however, it does so quite well and to devastating effect.",,,
+tahlan_eradicator_dmn,WEAPON,"Fully integrated and supplied by the ship's reactor, this variant of the Deathgaze features an enhanced capacitor charge rate over its modular cousin.
+
+An icon of pirate hubris, the Deathgaze is a heavily modified asteroid mining laser, supercharged to dangerous levels and about as likely to blow out the flux grid of whatever ship it is mounted on with a feedback spike as it is to cut its prey apart. When it functions, however, it does so quite well and to devastating effect.",,,
+tahlan_fray,WEAPON,"Based on the hellbore, this upscaled heavy cannon is fully integrated into the ship's hull and outfitted with numerous recoil stabilizers to prevent it from ripping the ship apart when firing. Despite the major upscaling, its actual performance isn't that much superior to a standard hellbore, but the psychological impact of such a massive weapon pointing at a lightly-armored freighter is exceedingly useful in piracy actions.",,,
+tahlan_pendragon,WEAPON,"Designed for long-range engagements, the Pendragon is a unique MIRV launcher that utilizes a fast but barely maneuverable carrier missile to deliver a swarm of agile micromissiles into effective range.",,,
+tahlan_efreet,WEAPON,"A somewhat outdated design, the Efreet fires a constant barrage of kinetic impact shells over long ranges. While generally effective, the simple design lacks adequate recoil compensation for its massive propelling charge and suffers from subpar projectile velocity and bad accuracy during extended firing.",,,
+tahlan_titanomachy,WEAPON,"Going back to an antiquated design, this unique beam weapon uses a synthetic crystal as focus for a powerful sustained directed energy beam. While powerful in and of itself, the weapon can operate at an increased powerlevel when the mounting ship's flux grid is under heavy load, presumably due to the unique properties of its focus crystal.",,,
+tahlan_tpc_s,WEAPON,"A bulky energy weapon from an early epoch, the TPC is built directly into the Castigator's hull and provides overwhelming frontal firepower.
+
+Designed before modular energy weapons were universally trusted by Domain naval architects, this weapon was coded into the Onslaught's blueprint because no other hull of the time was large enough or had reactors capable of generating the requisite power.
+
+This particular variant was later adapted to the Castigator chassis and while it possesses the same firepower as those used on an Onslaught, the more limited power supply of the smaller Castigator limits its charge capacity.",Assault,,
+tahlan_gardas,WEAPON,"Like many Kassadari weapons, the Gardas is a design never truly intended for mass production. A heavily overengineered railcannon firing an armor-piercing round with a temporal fragmentation warhead, this massive weapon is highly effective against armor and causality itself, but lacks the technological refinement of a mainline combat weapon.
+",,,
+tahlan_dragonslayer,WEAPON,An integrated torpedo tube for hammer-class torpedoes. Equipped with an autoloader for extended engagements.,,,
+tahlan_fafnir,WEAPON,"A massive artillery cannon predating the era of modular weaponry, the Fafnir was designed specifically for the Nibelung-class and is an early ancestor of the Mjolnir. The weapon fires a long-range shell with a singularity warhead that is effective against all targets and the fully integrated nature of the weapon makes it more flux-efficient than the contemporary Mjolnir. Few of these weapons can still be found as the majority of remaining Nibelung-class battleships have since been refitted to accommodate modular weaponry, yet a few captains out there held on to these mighty weapons.",,,
+tahlan_nuboko_l,WEAPON,An integrated missile battery firing 5 agile multi-purpose missiles for use against most targets.,,,
+tahlan_nuboko_r,WEAPON,An integrated missile battery firing 5 agile multi-purpose missiles for use against most targets.,,,
+tahlan_volkite_s,WEAPON,Fighter-grade Volkite variant,,,
+tahlan_valdes_r,WEAPON,Hypercharged ion blaster mounted on the Valacor. The high rate of fire makes it an excellent suppression weapon.,,,
+tahlan_heraton,WEAPON,"A modification of the Hekaton-class torpedo. The primary high-explosive warhead has been downscaled to accommodate guidance systems and the required thrusters. The resulting weapon still packs a punch, but sacrifices speed and damage for improved accuracy.",,,
+tahlan_ronka,WEAPON,"A versatile twin cannon firing voidburst charges. Effective against most targets and capable of substituting as point-defense weapon, the Ronka is a true all-rounder, but fails to excel at any particular role.",,,
+tahlan_anumis,WEAPON,"A pair of superheavy cannons in a twin mount, the Anumis fires accurate high-explosive rounds equipped with a miniaturized version of the Hekaton's signature secondary plasma burst warhead, granting it slightly improved performance against shields.",,,
+tahlan_ramun,WEAPON,"A light anti-armor weapon with extended range thanks to an advanced trajectory correction system. Sadly this system comes at the cost of projectile velocity, limiting the weapon's effectiveness against more nimble targets.",,,
+tahlan_gleipnir,WEAPON,"A massive spinal hyperrail cannon that served as an early prototype for what is now the Gardas. Unlike the later modular production versions, the Gleipnir is equipped with two capacitor banks and can fire both kinetic impactor rounds and high-explosive fracture warheads, allowing for a devastating double-tap with a shield-breaking shot followed by an armor-breaker. The weapon however suffers from a high power demand, requiring the ship's assault mode to be fully active in order to fire.",,,
+tahlan_karion,WEAPON,An advanced suppression weapon firing drone-guided ionizing charges. Due to the small scale of the drones their ammo supply is virtually unlimited. This heavier variant is unique to the Ristreza and boasts improved range over modular variants.,,,
+tahlan_gaebolg,WEAPON,"The core of the Cuchulainn is a massive tachyon beam projector with impressive output, but suffering from a difficult to maintain design.",,,
+tahlan_karionbat,WEAPON,An advanced suppression weapon firing drone-guided ionizing charges. Due to the small scale of the drones their ammo supply is virtually unlimited.,,,
+tahlan_gleipnir_s,WEAPON,"While generally identical to the Gleipnir found on a standard Ristreza, this model had its secondary capacitor bank and alternate ammunition storage units removed to make room for the two Fountainfall arrays. It now serves primarily as anti-shield weapon to supplement the heavy missile barrages.",,,
+tahlan_fountainfall_r,WEAPON,"One of two massive VLS missile arrays built into this variant of the Ristreza, capable of saturating large sections of battlespace with micromissiles.",,,
+tahlan_fountainfall_l,WEAPON,"One of two massive VLS missile arrays built into this variant of the Ristreza, capable of saturating large sections of battlespace with micromissiles.",,,
+tahlan_fountain,WEAPON,"A large pair of micromissile batteries, designed to overwhelm point-defense systems through sheer volume. While the individual missiles aren't exceptionally powerful against larger vessels, they pose a deadly threat to smaller targets.",,,
+tahlan_fount,WEAPON,A medium-sized micromissile battery. Quite effective at saturating point-defense systems for a weapon of its size and deadly to smaller ships.,,,
+tahlan_xs_beamer,WEAPON,An integrated PD solution mounted just above the Fountainfall arrays to compensate for the lack of standard small mounts.,,,
+tahlan_hekaton_repeater,WEAPON,A large launcher for Hekaton-class torpedoes. Features a fast reloading mechanism to allow for the firing of torpedoes in rapid succession and ample ammunition capacity.,,,
+tahlan_praxus,WEAPON,"An old design by Kassadari standards, the Praxus is a fairly conventional rotary cannon. Very effective against shields.",,,
+tahlan_alteria,WEAPON,"The result of efforts to further upscale the ever-reliable Magaera, the Alteria is the Kassadari main general-purpose kinetic option for large weapon mounts. Virtually every aspect of the weapon has been upscaled from its smaller cousin, firing a larger, heavier impactor round with devastating effectiveness against shields.",,,
+tahlan_gigantomachy,WEAPON,"Based on the Titanomachy, this beam weapon has been integrated with the hull of the Numistri. Replacing the Gleipnir of a standard Ristreza, it now operates in a burst rather than sustained fire, and can only be brought to bear when the vessel’s assault systems are active. While already potent on paper, in practice it tends to outperform even the intended properties, as the immense power throughput causes the focus crystal to near-constantly fire off arcs of violent energy capable of damaging and frying weapons and engines alike.",,,
+tahlan_balor,WEAPON,"A surprisingly sophisticated weapon for something designed by apparent pirates, the Balor is an advanced smart weapon firing self-propelled shells with limited tracking ability. Despite low shell velocity, these tracking capabilities make the weapon extremely accurate at long range.",,,
+tahlan_tethra,WEAPON,"A medium-sized smartgun of the Legio Infernalis. Possessing excellent range, accuracy and rate of fire, it is only held back by its low projectile velocity and subpar armor penetration capability.",,,
+tahlan_goll,WEAPON,"The Goll fires a spread of overcharge spikes that lack any real direct damage potential, but discharge a powerful electromagnetic pulse on impact.",,,
+tahlan_conand,WEAPON,"Firing small caliber high-velocity kinetic rounds from its 4 barrels, the Conand is exceptionally efficient against shields, but lacks any kind of armor penetration ability.",,,
+tahlan_burstgoll,WEAPON,A burst-fire variant of the Goll designed to cripple most ships in a single burst in advance of boarding actions.,,,
+tahlan_flood,WEAPON,"A massive array of fountain-type micromissile tubes built into the Scathach's bow, capable of firing enough missiles to overwhelm all but the mightiest of PD arrays.",,,
+tahlan_phira_burst,WEAPON,"A heavy triple-barrel turret integral to the Metafalica. Linked to its variable ammo system, it can adapt to any situation.",,,
+tahlan_amboss,WEAPON,"The result of scaling up an autocannon to excessive size and loading it with high-explosive ammunition. While limited by relatively short range, the sheer firepower and armor-breaking potential makes this weapon fairly effective.",,,
+tahlan_sol_dios,WEAPON,"A massive omnidirectional beam emitter central to the Songbird's design. Functioning both as point-defense and anti-ship weapon, it gives the Songbird excellent flexibility in combat.",,,
+tahlan_ppa,WEAPON,"Officially called the Parallel Energized Particle Pulse Array, this large energy weapon fires diffuse but heavily ionized projectiles. While struggling to deal effective damage against shields or armor, it can effectively suppress ship weapons and engines.",,,
+tahlan_atropos_tube,WEAPON,An integrated torpedo tube for Atropos-class torpedoes. Equipped with an autoloader.,,,
+tahlan_cashmere,WEAPON,"""I do not know how they managed to scale up what is essentially an Antimatter Blaster to this level of output, but if this thing ever malfunctions, I want to be in a different constellation.""",- Overheard in Engineering,,
+tahlan_silk,WEAPON,"""Whatever you do, stay clear of whatever general area that lightning gun is aiming at. Good luck trying to tell an electric charge of that scale what an IFF is.""",- Intercepted Pilot Comms,,
+tahlan_velvet,WEAPON,"""I heard the guys on deck 4 still have some numb limbs because gunnery couldn't stop themselves from keeping that new gun firing on full tilt. Got chewed out by the FO for that one.""",- Unknown Crewmember,,
+tahlan_diffusegraviton,WEAPON,"An early variant graviton beam, built into the Flagellator's hull. While its damage output is laughable at best, it primarily serves as interdiction device to slow down smaller ships and hinder their movement.",,,
+tahlan_reloadinghammers,WEAPON,"A modified Hammer Barrage launcher built into the ship's hull and attached to an improvised autoloader. While this setup negates the usual long-term ammunition limitations, it's capacity for ready-to-fire torpedoes is reduced.",,,
+tahlan_pastel,WEAPON,"An obscure offspring of the PEPPA, the Pastella Blaster had its pulse emitter core heavily modified to massively increase the power output. The result is an exceedingly potent weapon that fires a burst of powerful energy blasts at extremely short ranges. While technically quite efficient, the burst still generates an excessive amount of flux, too much to handle for many ships and interferences limit the number of these weapons that can be effectively mounted on a single hull.",,,
+tahlan_taffeta,WEAPON,"""I have no idea what that gun is even firing, but it fucks up shields real good. Best part though? I've got a buddy in logistics and he told me they don't even know where it gets the ammo from. Some nanoforge bullshit I swear.""",- Gunnery Officer Hawkins,,
+tahlan_breaker,WEAPON,"The insane result of bundling three naval rifles into a rotary cannon, the Breaker can fire large caliber anti-armor shells at a terrifying rate. Practicality may be debated, but a rotary weapon of this scale is valuable for psychological impact alone.",,,
+tahlan_aetnos,WEAPON,"Heavy anti-armor shells, a massive propellant charge and horribly undersized recoil dampeners are the three components that define the Aetnos. A single salvo from this weapon can cause remarkable damage to even heavily armored ships, if it can manage to hit, that is.",,,
+tahlan_ryza,WEAPON,"While technically an antiquated design, this particular type of plasma cannon has seen countless revisions over the ages. With high alpha damage and a solid output, it has managed to stay relevant for decades of technological progress.",,,
+tahlan_mezoa,WEAPON,"Old but reliable, this plasma weapon variant boasts excellent striking power for a weapon of its size.",,,
+tahlan_cinder_swivel_l,WEAPON,"Attempts to downscale thermal pulse weaponry are about as old as the original Thermal Pulse Cannon itself, but rarely found much success. The Thermal Pulse Blaster was a partial success, at least, in that it allowed for the use of an articulated emitter linked to a ship-internal power source. This particular example seems to have been found in some old Hegemony spare part storage facility and jury-rigged to the TPC-internals that were left in the hull in the Legio conversion process.",,,
+tahlan_cinder_swivel_r,WEAPON,"Attempts to downscale thermal pulse weaponry are about as old as the original Thermal Pulse Cannon itself, but rarely found much success. The Thermal Pulse Blaster was a partial success, at least, in that it allowed for the use of an articulated emitter linked to a ship-internal power source. This particular example seems to have been found in some old Hegemony spare part storage facility and jury-rigged to the TPC-internals that were left in the hull in the Legio conversion process.",,,
+tahlan_vesuvio,WEAPON,"With a high rate of fire and fast ionized shells, the Vesuvio has the potential to be terrifying to most vessels, but is held back by its below average range and high flux overhead.
+
+Supposedly designed to supplant the Mk.IX Autocannon, this fast-cycling magnetic accelerator cannon is really just an example of a solution in search of a problem. While the EMP capabilities and excellent output are surely nice attributes, the weapon it was meant to replace just continues to prove that simplicity of design will often triumph.",,,
+tahlan_hammertube,WEAPON,"An integrated launch tube for Hammer-type torpedoes, feeding from an internal reserve at the cost of taking a short while to reload after firing.",,,
+tahlan_sabottube,WEAPON,"An integrated launch tube for Sabot SRMs, feeding from an internal reserve at the cost of taking a short while to reload after firing.",,,
+tahlan_helrazer,WEAPON,"The massive spinal gun of the Hel Scaith fires a large supercritical antimatter projectile with devastating destructive potential. Taking even a single hit from this weapon can cripple or destroy many ships, but the weapon's low projectile velocity limits its use to more cumbersome targets.",,,
+tahlan_manannan,WEAPON,"A weapon of last resort, the Manannan is only ever deployed in the face of equivalent escalation of firepower, an act quite unusual of Legio leadership and testament to the sheer devastating power of this weapon.",,,
+tahlan_novaspear,WEAPON,"""If she is to be the all-mother, we must grant her the blade with which to defend her children until the day they can take up their own arms.""",- [Source unknown],,
+tahlan_sunspear,WEAPON,"""Did they seriously get the approval for this? You know as much as I that all of it goes against standing law, even if high command signed off on it.""",- [Source unknown],,
+tahlan_mortarbattery,WEAPON,"Essentially a pair of heavy mortars in a shared mounting. While otherwise unremarkable, the more spacious housing allows for better autoloaders, improving the rate of fire over that of two individual heavy mortars, and a slight increase in range.",,,
+tahlan_dreadsabot,WEAPON,"Based on an older Domain-era variant of the Sabot SRM, this Legio-built version of the weapon uses a single submunition for enhanced performance against small craft and armor at cost of reduced total kinetic payload.",,,
+tahlan_dreadsabotpod,WEAPON,"Based on an older Domain-era variant of the Sabot SRM, this Legio-built version of the weapon uses a single submunition for enhanced performance against small craft and armor at cost of reduced total kinetic payload.",,,
+tahlan_hellspitter,WEAPON,"A variant of the common Plasma Cannon modified for close combat, the Hellspitter sacrifices range to greatly reduce its strain on the flux grid, allowing it to unleash a relentless barrage of plasma fire.
+
+The workings of the modification are ultimately incredibly simple, as reducing the strength of the plasma containment field inherently makes the firing process less demanding and allows for more rapid capacitor recharge, negating the need for burst fire.",,,
+tahlan_omna,WEAPON,"While lightweight, the Omna's missiles carry a surprisingly potent EMP warhead for their size and employ a fanning attack pattern to strike targets from multiple angles.",,,
+tahlan_massresonance_lrg,WEAPON,The dreadful AM-warhead of a Reaper-class torpedo wed to a mass resonance field generator. A weapon designed for the sole purpose of bringing down even the largest of warships.,,,
+tahlan_massresonance_med,WEAPON,The dreadful AM-warhead of a Reaper-class torpedo wed to a mass resonance field generator. A weapon designed for the sole purpose of bringing down even the largest of warships.,,,
+,,,,,
+,,,,,
+# Rosenritter,,,,,
+,,,,,
+tahlan_sturmkanone_r,WEAPON,"The Sturmkanone is a venerated design within Rosenritter circles and standard on many Regalia, being regarded as a knightly weapon and often chosen over more specialized armaments for this reason alone. Based on an old and simple plasma cannon design, the weapon has been refined over centuries and boasts excellent efficiency against all kinds of targets.",,,
+tahlan_sturmkanone_l,WEAPON,"The Sturmkanone is a venerated design within Rosenritter circles and standard on many Regalia, being regarded as a knightly weapon and often chosen over more specialized armaments for this reason alone. Based on an old and simple plasma cannon design, the weapon has been refined over centuries and boasts excellent efficiency against all kinds of targets.",,,
+tahlan_sturmkanone_m2,WEAPON,"An older, more compact model of the Sturmkanone for use on modular weapon mounts. While possessing the same firepower as the Mk.3, it is incapable of maintaining this output and suffers from significantly reduced range.",,,
+tahlan_stahlhagel_r,WEAPON,"A design as old as time, the Stahlhagel is a reliable rotary cannon that traces its roots back to the Elder Houses. Many variations of its basic designs have found use as anti-shield weaponry on Regalias going back to their first generation.",,,
+tahlan_stahlhagel_l,WEAPON,"A design as old as time, the Stahlhagel is a reliable rotary cannon that traces its roots back to the Elder Houses. Many variations of its basic designs have found use as anti-shield weaponry on Regalias going back to their first generation.",,,
+tahlan_stahlhagel_zwilling,WEAPON,"Combining two lower caliber Stahlhagel variants into a single turret, this Zwilling variant achieves an impressive rate of fire. While the individual projectiles are lighter and less accurate than on other variants of the weapon, it remains highly effective against shields. The weapon system's main disadvantage is its complex ammo feeder system which fails to keep up with the weapon's output without additional modifications.",,,
+tahlan_hagelsturm,WEAPON,"Effectively a pair of Stahlhagel rotary cannons upgraded to a larger caliber in a larger mount, the Hagelsturm is a devastating suppression weapon. Powerful as it may be, however, the weapon ultimately found only limited use due to generally only being mounted on supplementary vessels as Rosenritter ship design tends to forego large mounts.",,,
+tahlan_panzerfaust_r,WEAPON,"Few weapons are as simple yet effective as a heavy combat rifle. Loaded with heavy high-explosive rounds, the Panzerfaust performs true to its name, delivering a devastating punch to even the heaviest armor. While commonly mounted on Regalia that are expected to encounter heavy armor, excessive use of this weapon is sometimes frowned upon for its brutish nature.",,,
+tahlan_panzerfaust_l,WEAPON,"Few weapons are as simple yet effective as a heavy combat rifle. Loaded with heavy high-explosive rounds, the Panzerfaust performs true to its name, delivering a devastating punch to even the heaviest armor. While commonly mounted on Regalia that are expected to encounter heavy armor, excessive use of this weapon is sometimes frowned upon for its brutish nature.",,,
+tahlan_schwalbenflug_r,WEAPON,"While the primary weapon arms on Regalia are rarely used for missile weaponry, the Schwalbenflug is one of the few exceptions. Often mounted as a complementary weapon on range-focused Regalia, it allows for target saturation with a salvo of 15 MstRkt.21 ""Schwalbe"" with excellent flight characteristics.",,,
+tahlan_schwalbenflug_l,WEAPON,"While the primary weapon arms on Regalia are rarely used for missile weaponry, the Schwalbenflug is one of the few exceptions. Often mounted as a complementary weapon on range-focused Regalia, it allows for target saturation with a salvo of 15 MstRkt.21 ""Schwalbe"" with excellent flight characteristics.",,,
+tahlan_nadel_r,WEAPON,"Highly respected for its pinpoint accuracy, the Nadel is much beloved as an elegant weapon by Rosenritter Grafs who have the privilege of mounting one on their Regalia. The weapon fires a semi-armor-piercing sabot round that delivers high kinetic damage against shields and can wound even armored targets.",,,
+tahlan_nadel_l,WEAPON,"Highly respected for its pinpoint accuracy, the Nadel is much beloved as an elegant weapon by Rosenritter Grafs who have the privilege of mounting one on their Regalia. The weapon fires a semi-armor-piercing sabot round that delivers high kinetic damage against shields and can wound even armored targets.",,,
+tahlan_hueter,WEAPON,"Designed primarily for use on Regalia, the Hüter is a smart point-defense system that fires interceptor micromissiles. While rather ineffective against larger targets, the missiles are also too small to be tracked by enemy point-defense when used to supplement primary firepower.",,,
+tahlan_glanzwurf_pulse_l,WEAPON,"Developed specifically for the Glanzwurf Regalia, this advanced pulse blaster was based on the common pulse laser, but upgraded with a dual chamber system and auxiliary capacitor banks that allow it to switch to a powerful plasma blast mode similar to the Sturmkanone. While extremely powerful, this functionality is limited in its uses due to limited charge capacity.",,,
+tahlan_glanzwurf_pulse_r,WEAPON,"Developed specifically for the Glanzwurf Regalia, this advanced pulse blaster was based on the common pulse laser, but upgraded with a dual chamber system and auxiliary capacitor banks that allow it to switch to a powerful plasma blast mode similar to the Sturmkanone. While extremely powerful, this functionality is limited in its uses due to limited charge capacity.",,,
+tahlan_glanzwurf_gun_r,WEAPON,"A long-range voidburst cannon designed specifically for the escort configuration of the Glanzwurf Regalia. Effective against most targets and capable of serving as point-defense weapon, it is ideal for its intended role.",,,
+tahlan_glanzwurf_gun_l,WEAPON,"A long-range voidburst cannon designed specifically for the escort configuration of the Glanzwurf Regalia. Effective against most targets and capable of serving as point-defense weapon, it is ideal for its intended role.",,,
+tahlan_kriegsmesser,WEAPON,"One of the few Rosenritter weapons developed primarily for use on regular warships rather than Regalia, the Kriegsmesser is a heavy anti-ship missile with a volatile plasma warhead. The multiple secondary explosions caused on impact are said to be particularly pleasant to observe.",,,
+tahlan_dolch,WEAPON,"Originally intended for Regalia use, this anti-ship missile ultimately found more use as the standard armament of Nachtgesang-class battlecruisers. The missile is aimed via lightweight single-use microthrusters before engaging its main thruster, giving it excellent top speed at the cost of continuous guidance.",,,
+tahlan_dolch_rack,WEAPON,"Originally intended for Regalia use, this anti-ship missile ultimately found more use as the standard armament of Nachtgesang-class battlecruisers. The missile is aimed via lightweight single-use microthrusters before engaging its main thruster, giving it excellent top speed at the cost of continuous guidance.",,,
+tahlan_doppellicht_r,WEAPON,"A further development on the Lichtkanone, taking advantage of the Silberblut's increased power, to combine two blasters into a single arm weapon. While each weapon has reduced individual rate of fire, the overall fire output has increased substantially while retaining the dual chamber system to allow for plasma round mode.",,,
+tahlan_doppellicht_l,WEAPON,"A further development on the Lichtkanone, taking advantage of the Silberblut's increased power, to combine two blasters into a single arm weapon. While each weapon has reduced individual rate of fire, the overall fire output has increased substantially while retaining the dual chamber system to allow for plasma round mode.",,,
+tahlan_ethniu,WEAPON,A heavily charged plasma beam that branched off the Sturmkanone development. The heavy charge is known to cause explosive reactions when the beam comes in contact with a ship's structure.,,,
+tahlan_strahlhammer,WEAPON,The twin-linked variant of a charged plasma beam that branched off the Sturmkanone development. The heavy charge is known to cause explosive reactions when the beam comes in contact with a ship's structure.,,,
+tahlan_strahlfaust_r,WEAPON,"A heavily charged plasma beam that branched off the Sturmkanone development. The heavy charge is known to cause explosive reactions when the beam comes in contact with a ship's structure. Using the high power output of the Silberherz, this arm-mounted variant can achieve higher firepower and range than its modular counterpart.",,,
+tahlan_strahlfaust_l,WEAPON,"A heavily charged plasma beam that branched off the Sturmkanone development. The heavy charge is known to cause explosive reactions when the beam comes in contact with a ship's structure. Using the high power output of the Silberherz, this arm-mounted variant can achieve higher firepower and range than its modular counterpart.",,,
+,,,,,
+,,,,,
+tahlan_daemoncore,RESOURCE,"Just how exactly the Legio Infernalis has modified this AI core is uncertain, but it houses a Beta-level AI that has been twisted into a pure machine of war. Terrifying in command of any ship, it is no longer capable of performing other tasks.",,,
+tahlan_archdaemoncore,RESOURCE,"The design of this AI core can only be described as arcane, seemingly the product of lost Domain-era technology. The machine mind contained in the device exists solely to destroy, an Alpha-level intellect made to revel in violence alone.",,,
+tahlan_neurallink,RESOURCE,[This should never be visible],,,
+,,,,,
+# Ship Systems,,,,,
+,,,,,
+tahlan_stormdrive,SHIP_SYSTEM,Divert power from shields to drives to quickly charge forward while an integrated damper field reduces all damage to hull and armor by half for the duration.,Mobility,,
+tahlan_holyfuror,SHIP_SYSTEM,"""By his holy grace your weapons shall strike harder, your feet shall be swift and your faith shall shield you from all harm""",Assault,,
+tahlan_assaultlockdown,SHIP_SYSTEM,Divert power from drives to weapons to boost ballistic RoF by 25%.,Assault,,
+tahlan_sentrymode,SHIP_SYSTEM,Boost weapon range by 300su and halve shield damage taken at cost of most mobility.,Defense,,
+tahlan_errantdrive,SHIP_SYSTEM,"Accelerate timeflow by 100%, halve damage taken and supercharge drives for a short time.",General,,
+tahlan_navigationfeed,SHIP_SYSTEM,Boosts mobility of equipped fighters by 50%. Generates hard flux while active.,Fighters,,
+tahlan_dodgynavigationfeed,SHIP_SYSTEM,Boosts mobility of equipped fighters by 10%-40%. Amount fluctuates roughly evers 5 seconds. Generates hard flux while active.,Fighters,,
+tahlan_temporaldrift,SHIP_SYSTEM,Heavily accelerates time by a factor of 20 for a moment then quickly returns to normal timeflow. Doubles damage taken and halves energy weapon damage and ballistic weapon rate of fire while active.,General,,
+tahlan_activeeccm,SHIP_SYSTEM,Provides ECCM benefits to self and allies within 1000su while active and increases fleet ECM rating by 3%. Generates soft flux while in use.,Support,,
+tahlan_strongholdshield,SHIP_SYSTEM,"Reduces damage taken by shield by 90%, unfolds it instantly and increases its arc. Also slightly boosts top speed.",Defense,,
+tahlan_cavalrycharge,SHIP_SYSTEM,"Charges forward while weapons fire 50% faster and armor and hull damage are halved, but with limited maneuverability.",Assault,,
+tahlan_temporalcoordinator,SHIP_SYSTEM,Accelerates timeflow of ship and its fighters simultaneously.,General,,
+tahlan_raiderjets,SHIP_SYSTEM,Grants a strong boost to maneuverability that decays over time.,Mobility,,
+tahlan_raidestjets,SHIP_SYSTEM,Grants a massive but short boost to maneuverability and top speed. More effective when moving forward.,Mobility,,
+tahlan_weaponsoverdrive,SHIP_SYSTEM,Increases damage of all non-missile weapons by 50%.,Weapons,,
+tahlan_weaponsoverdrive_phase,SHIP_SYSTEM,Increases damage of all non-missile weapons by 50%. Can be activated while phased but blocks phase cloak while active.,Weapons,,
+tahlan_absolutevirtue,SHIP_SYSTEM,"Doubles dissipation and allows dissipations of hard flux with active shields at half the normal rate, halves, shield damage taken, boosts mobility and accelerates timeflow by 20%. Prevents firing and shield deactivation while active.",Defense,,
+tahlan_divinemight,SHIP_SYSTEM,"Grants a short boost to ballistic and energy weapon damage, dissipation and mobility.",Boost,,
+tahlan_divinemight_nc,SHIP_SYSTEM,"Grants a short boost to ballistic and energy weapon damage, dissipation and mobility while accelerating timeflow by 200%.",Boost,,
+tahlan_infernalcharge,SHIP_SYSTEM,"Diverts energy from shields to boost engine power and charge forward. Prevents turning, but integrated damper field reduces armor and hull damage taken to 1/3 while active.",Mobility,,
+tahlan_defformation,SHIP_SYSTEM,"Orders fighters to fly in defensive formations, effectively halving all their damage taken for the duration.",Fighters,,
+tahlan_auxthrusters,SHIP_SYSTEM,Engages auxiliary thrusters to massively boost turn rate and slightly improve top speed.,Mobility,,
+tahlan_steamlight,SHIP_SYSTEM,"Grants a short but strong 2 second boost to top speed and ballistic weapon rate of fire, which then returns to normal values over 5 seconds.",Boost,,
+tahlan_assaultmode,SHIP_SYSTEM,Engages the ship's assault mode. Increases ballistic and energy weapon DPS by 50% at cost of halved mobility. Takes 5s to reach full effectiveness and lasts an additional 5s at full power.,Assault,,
+tahlan_fluxoverdrive,SHIP_SYSTEM,"Redirects hard flux load from shields to boost ship systems. Boosts ballistic weapon rate of fire, energy weapon damage and all mobility by up to 50% and reduces all damage taken by up to 50%. Effect scales with current hard flux level, reaching maximum effectiveness at 90% hard flux. Disables shields while active.",Boost,,
+tahlan_royalcharge,SHIP_SYSTEM,"Activates damper fields, reducing all damage by 90%, and charges forward.",Movement,,
+tahlan_variable_ammo,SHIP_SYSTEM,"Switches firing mode of built-in weapons between Shock Cannon, Impact Driver and Type-3 Shells.",Assault,,
+tahlan_weaponstabilization,SHIP_SYSTEM,"Stabilizes weapons for increased lethality. Increases ballistic and energy damage by 25%, range by 200su and projectile velocity and recoil compensation by 50%.",Assault,,
+tahlan_explosiverounds,SHIP_SYSTEM,"Loads microfusion rounds into any equipped Stahlhagel-type cannons, which cause an additional explosion on impact dealing 50 energy damage in a 100su radius and can cause additional arcing EMP damage.",Assault,,
+tahlan_plasmarounds,SHIP_SYSTEM,Switches the built-in arm-weapons to a high-energy plasma mode similar to a Sturmkanone for a short duration. Plasma projectiles do 300 energy damage and detonate for an additional 100 fragmentation aoe damage.,Assault,,
+tahlan_heavydamper,SHIP_SYSTEM,"Briefly activates an energy field that mitigates incoming damage at the cost of disabling weapons and shields. Higher damage mitigation and charge capacity than standard damper fields, but also far shorter duration.",Defense,,
+tahlan_crusherdrive,SHIP_SYSTEM,Diverts all shield power to engines and structural integrity fields to ram current ship target. Halves damage taken and weapon rate of fire while active.,Ramming,,
+tahlan_helcrusherdrive,SHIP_SYSTEM,Diverts all shield power to engines and structural integrity fields to ram current ship target. Halves damage taken and weapon rate of fire while active.,Ramming,,
+tahlan_rrskimmer,SHIP_SYSTEM,A custom variant of phase skimmer with improved cycle rate at cost of reduced range.,Movement,,
+tahlan_shiftdrive,SHIP_SYSTEM,Phases and dashes in the chosen direction.,Movement,,
+tahlan_jauntdrive,SHIP_SYSTEM,Phases and dashes in the chosen direction.,Movement,,
+tahlan_fluxblast,SHIP_SYSTEM,"Violently vents flux, causing damage to anything nearby.",Assault,,
+tahlan_realityshell,SHIP_SYSTEM,Accelerates timeflow then reverts to initial state on system shutdown.,Assault,,
+tahlan_inertialessdrive,SHIP_SYSTEM,"Switches to an inertialess propulsion system, greatly improving mobility.",Mobility,,
+tahlan_ltskimmer,SHIP_SYSTEM,An enhanced phase skimmer variant boasting improved range.,Mobility,,
+tahlan_fluxfeeder,SHIP_SYSTEM,"Increases ballistic weapon rate of fire and reduces flux cost accordingly. Becomes more effective at higher ship flux at moment of activation, going from 50% rate of fire increase at 0 flux to 100% at 90% flux.",Assault,,
+tahlan_machinespirit,SHIP_SYSTEM,"Increases ballistic and energy weapon rate of fire and reduces flux cost accordingly. Becomes more effective at higher ship flux at moment of activation, going from 50% rate of fire increase at 0 flux to 100% at 90% flux.",Assault,,
+tahlan_boostthruster,SHIP_SYSTEM,Activates heavy boost thruster to increase forward top speed by up to 80 and enhance maneuverability slightly. Much more effective when moving forward.,Mobility,,
+tahlan_heltempshell,SHIP_SYSTEM,"Modified Temporal Shell system. Only accelerates timeflow by a factor of 2, but increased duration.",General,,
+tahlan_phasebreaker,SHIP_SYSTEM,"Phases the ship for a short moment then enters a quantum superposition of both states, allowing it to retain the temporal flow of phase space while interacting with realspace. Counts as a phase cloak but does not suffer from phase stresses.",General,,
+tahlan_coordinatedstrike,SHIP_SYSTEM,Increases the damage of energy weapons and all fighter weapons by 50%.,Fighters,,
+tahlan_penetrationDrive,SHIP_SYSTEM,Propels the ship forward at high velocity in a pseudo-phased state. Impacting with another ship during the charge inflicts 2000 Kinetic damage directly and another 1000 High-Explosive damage in blast around the point of impact.,Fighters,,
+tahlan_droneoverdrive,SHIP_SYSTEM,"Sends drone wing into overdrive, doubling their rate of fire and causing them to discharge EMP arcs at any nearby enemies.",,,
+tahlan_orion_device_mk2,SHIP_SYSTEM,"Deploys a shaped antimatter charge behind the ship. The explosion applies force to a massive push-plate, which absorbs the shock and spreads the resulting acceleration over a timeframe where it can be handled by the ship's inertial compensators. The ship is briefly propelled forward at a rate very few more ""advanced"" technologies can hope to match.",Mobility,"Explodes a shaped antimatter charge behind the ship, propelling it forward at extreme speed.",
+tahlan_ewarstrike,SHIP_SYSTEM,"Directs the entirety of the ship's electronic warfare suite at the target, interfering with most systems of its system to open it up to attack.",Assault,"Launches an EWAR attack on the target, increasing damage taken and reducing top speed and weapon ranges.",
+tahlan_vectorshift,SHIP_SYSTEM,Modifies spacetime relativity to enhance ship performance. Spacetime interference additionally discharges harmful EMP arcs.,Assault,Boosts ship performance and discharges EMP arcs.,
+,,,,,
+# Campaign,,,,,
+,,,,,
+tahlan_planet_kassadar,CUSTOM,"The last bastion of civilization in the Lethia system, Kassadar is a cold and unfriendly world to most of its inhabitants, but even from space you can see the few massive hive cities, that in their upper levels house the old nobility of the Great Houses. Warships bearing the orange stripes of the Kassadari navy orbit the planet, their temporal systems distorting space around them in an unwelcoming display of power.",,"Before you lies the remnant of the Great Houses' ambitions, its black spires reminiscing the lost glory of what was once set to become a powerful local polity. As the planet draws nearer, you can't help but feel a strange nostalgia for the age of the Domain and the prosperity it once brought.",
+tahlan_planet_heridal,CUSTOM,"Evergreen jungles cover the entirety of Heridal, with the exception of large, now abandoned, agricultural zones that can be seen from orbit. It seems strange that such a world now lies abandoned, but the colony was still too early in its development when the collapse cut off the flow of much-needed supplies. With its untapped riches however, it is only a matter of time till the Kassadari will reclaim this world.",,,
+tahlan_planet_atanor,CUSTOM,"The molten hellscape of Atanor is no place for any human to live, but the planet's rich mineral deposits once fueled the Kassadari infrastructure. Now it lies abandoned, its mines patiently waiting for a time the Kassadari people may return.",,,
+tahlan_gate_lethia,CUSTOM,"Once the lifeline supplying the Lethia system with the materials needed to build and expand its three colonies, the gate has fallen inactive and plunged the system into chaos and despair.",,,
+,,,,,
+tahlan_rubicon_p01,CUSTOM,"Host to a considerable slave population, Melchiresa serves to supply the war factories of Lucifron with the raw materials required. The prospect of ending up in this hellish place has driven many a merchant captain to fight to their death in face of a Legio attack.",,"Like a white marble the planet lies before you on the viewscreen, almost beautiful to behold. For a moment you forget the horrors its population has been subjected to under Legio occupation.",
+tahlan_rubicon_p03,CUSTOM,The presumed headquarters of the Legio Infernalis are buried deep into the surface of Lucifron. The toxic atmosphere of this world has bred a hardened population that eagerly enters the Legio's service in hopes of claiming a greener world for themselves.,,"Just seeing the toxic atmosphere of the planet, you can almost smell the sulphurous stench that you know permeates every corner of Lucifron and look forward to your departure already.",
+tahlan_rubicon_outpost,CUSTOM,A small military outpost at the edge of the system. Extensively used as a training facility for the crews of some of the more advanced Legio vessels.,,"The heavily armed station is barely visible before the red nebula, coated in black metal, its many armaments on full display. In the far distance behind it you behold the black hole at the heart of the system. You have yet to truly decide which of the two is more frightening to behold.",
+,,,,,
+tahlan_legioinfernalis,FACTION,"Pirate groups are aplenty in the post-collapse sector, so it is of little surprise in retrospect that the ambitious Legio Infernalis was seen as just one of many for a great many years. Often better equipped than their contemporaries, they were nonetheless often overlooked due to laying relatively low and greater events keeping the attention of the Sector's primary powers. While Loke ran rampant across the sector, the Legio stuck to its backwater worlds at the very edge of the core. When the AI wars raged, few paid attention to Legio raids on Tri-Tachyon research facilities, and when they did, most appreciated the acts against the power-hungry corporation.
+
+When the dust of the AI wars settled, curious eyes finally cared to take a closer look at the shadowy pirate group which had persisted for longer than one would expected from a band of murderers and thieves. Legio fleets had recently become fighting forces of concerning power and the infamous Rubicon system had made a name for itself as a place of no return among independent starfarers.
+
+The Legio's true ambitions remain hidden to this day, but as more of the brighter minds in the sector have made efforts to dig deeper, one name in particular has surfaced on more occasions than coincidence would permit: The Nightwatch.",,,
+,,,,,

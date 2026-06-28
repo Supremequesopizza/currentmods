@@ -1,0 +1,15 @@
+{
+  "knownWeapons":{
+	"tags":[""],
+	"weapons":[
+    "missp_atropostvc",
+    "missp_heavygraviton",
+    "missp_atropospod"
+  ],
+  },
+	"weaponSellFrequency": {
+	"missp_atropostvc": 4,
+	"missp_heavygraviton": 9,
+	"missp_atropospod": 8
+  }
+}

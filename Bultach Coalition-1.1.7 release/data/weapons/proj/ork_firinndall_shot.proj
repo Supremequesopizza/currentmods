@@ -1,0 +1,17 @@
+{
+	"id":"ork_firinndall_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.plasma_onhit",
+	"length":20.0,
+	"hitGlowRadius":50.0,
+	"width":5.0,
+	"fadeTime":0.15,
+	"fringeColor":[255,0,0,50],
+	"coreColor":[255,0,0,50],
+	"textureType":"ROUGH",
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+}

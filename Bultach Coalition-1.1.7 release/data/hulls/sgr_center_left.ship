@@ -1,0 +1,114 @@
+{
+  "hullName": "Center Module",
+  "hullId": "sgr_center_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Sgriosathar/Sgriosathar_middle_left.png",
+  "style": "BULTACH",
+  "height": 158,
+  "width": 130,
+  "center": [60.5, 82],
+  "collisionRadius": 126.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 122.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "BT_linkedhull",
+    "BT_antiNuke",
+    "BT_shieldsChanger",
+    "bt_sathar_core",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0002": "ork_blinker_red",
+    "WS0003": "ork_blinker_red",
+    "WS0004": "ork_blinker_red",
+    "WS0006": "ork_blinker_green",
+    "WS0007": "ork_blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-25, 10.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 69.5,
+      "locations": [17, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24.5, -13]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [53, -49]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [36.5, 26]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-19.5, 41]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    74, -29.5,
+    51.5, -68.5,
+    11.5, -37,
+    -23, -25,
+    -52, -27,
+    -41.5, -12.5,
+    -57.5, 5,
+    -73, 7,
+    -79.5, 28,
+    -52, 38,
+    -38.5, 56.5,
+    -31.5, 51,
+    -0.5, 18.5,
+    13.5, 31.5,
+    25.5, 30,
+    41.5, 16,
+    52, -8.5
+  ]
+}

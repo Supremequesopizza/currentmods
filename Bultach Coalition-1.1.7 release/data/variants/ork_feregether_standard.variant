@@ -1,0 +1,86 @@
+{
+  "variantId": "ork_feregether_standard",
+  "hullId": "ork_feregether",
+  "displayName": "Blessed",
+  "goalVariant": false,
+  "fluxCapacitors": 24,
+  "fluxVents": 48,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "turretgyros",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "bultach_orbbeam_feregether"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_divine_cleaver",
+        "WS0022": "ork_divine_cleaver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ork_holy_torp",
+        "WS0007": "ork_holy_torp"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ork_tolladh",
+        "WS0021": "ork_tolladh"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "ork_fuadian",
+        "WS0009": "ork_fuadian"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "ork_clangtorp_medium",
+        "WS0013": "ork_clangtorp_medium",
+        "WS0014": "ork_clangtorp_medium",
+        "WS0015": "ork_clangtorp_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_lub_pd",
+        "WS0003": "ork_lub_pd",
+        "WS0011": "ork_swarmer_large",
+        "WS0017": "ork_lub_pd",
+        "WS0018": "ork_lub_pd",
+        "WS0019": "ork_lub_pd",
+        "WS0020": "ork_lub_pd",
+        "WS0027": "ork_lub_pd",
+        "WS0028": "ork_lub_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ork_dion",
+    "ork_dion"
+  ]
+}

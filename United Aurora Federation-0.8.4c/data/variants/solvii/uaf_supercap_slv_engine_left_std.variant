@@ -1,0 +1,48 @@
+{
+  "variantId": "uaf_supercap_slv_engine_left_std",
+  "hullId": "uaf_supercap_slv_engine_left",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "uaf_special_emergency_automated_assistance"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_ii_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_cantata_cn",
+        "WS0003": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_vocal_m_srm",
+        "WS0006": "uaf_vocal_m_srm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

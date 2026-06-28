@@ -1,0 +1,43 @@
+{
+	"bt_ruined":{
+        "name":"Desolated",
+		"tilt":30, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.04, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":30, #  minimum thickness in pixels
+		"atmosphereColor":[230,186,120,150],
+		"texture":"graphics/planets/bt_ruined.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[255,255,255,255],
+		"isStar":false,
+		"lightPosition":[-10,1,0], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[120,210,230,150],
+		"cloudRotation":-5, # degrees/second, optional
+    },
+
+	"bt_divine_star":{
+        "name":"Warped Star",
+		"tilt":30, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[170,190,255,255],
+		"texture":"graphics/planets/bt_divine_star_texture.jpg",
+		"icon":"graphics/icons/blackhole.png",
+		"iconColor":[170,190,255,255],
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[170,190,255,60], # optional, defaults to white
+		"starCoronaSizeMult":5.12, # required, multiplier for star's radius
+		"isStar":true,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[170,190,255,255],
+		"cloudRotation":-9, # degrees/second, optional
+
+	},	
+}

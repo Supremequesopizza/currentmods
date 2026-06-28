@@ -1,0 +1,54 @@
+{
+    "displayName": "Command",
+    "fluxCapacitors": 2,
+    "fluxVents": 4,
+    "goalVariant": false,
+    "hullId": "uaf_m_seiichi_kai",
+    "hullMods": [
+        "heavyarmor",
+        "uaf_squadron_suite"
+    ],
+    "quality": 0.7,
+    "variantId": "uaf_m_seiichi_kai_command",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_merupaka_ii_epd",
+                "WS0004": "uaf_merupaka_ii_epd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_minibreve_tnt_m"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_medlav_quad",
+                "WS0002": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_pd_reina_ii",
+                "WS0008": "uaf_weiss_flk",
+                "WS0009": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

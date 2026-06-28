@@ -1,0 +1,73 @@
+{
+    "displayName": "Spearhead",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "uaf_m_seniraja",
+    "hullMods": [
+        "targetingunit",
+        "auxiliarythrusters"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_m_seniraja_spearhead",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_tona_iii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_swaras_m_mlrs",
+                "WS0006": "uaf_swaras_m_mlrs",
+                "WS0010": "uaf_selemene_l_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_tona_ii",
+                "WS0004": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_catun_ii_erg",
+                "WS0002": "uaf_catun_ii_erg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_edge_type_i",
+                "WS0008": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_pd_reina_ii",
+                "WS0012": "uaf_pd_reina_ii",
+                "WS0015": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0014": "uaf_m_inazuma_left_armor_plating",
+        "WS0016": "uaf_m_inazuma_right_armor_plating"
+    }
+}

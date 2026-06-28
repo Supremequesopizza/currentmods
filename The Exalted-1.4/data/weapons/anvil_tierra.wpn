@@ -1,0 +1,47 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "anvil_tierra_fire",
+  "glowColor": [255, 132, 0,255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/tierra/anvil_tierra_hardpoint_glow.png",
+  "hardpointOffsets": [
+    36.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/tierra/anvil_tierra_hardpoint_base.png",
+  "id": "anvil_tierra",
+  "muzzleFlashSpec": {
+    "length": 5,
+    "particleColor": [
+255, 132, 0, 255
+    ],
+    "particleCount": 9,
+    "particleDuration": 0.12,
+    "particleSizeMin": 5,
+    "particleSizeRange": 8,
+    "spread": 19
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "anvil_tierra_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/tierra/anvil_tierra_turret_glow.png",
+  "turretOffsets": [
+    33,
+    0
+  ],
+  "turretSprite": "graphics/weapons/tierra/anvil_tierra_turret_base.png",
+  "type": "ENERGY"
+}

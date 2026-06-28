@@ -1,0 +1,23 @@
+{
+	"id":"uaf_isenoria_landing_arrow_3",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	"showDamageWhenDecorative":false,
+	"renderBelowAllWeapons":false,
+	"renderHints":["RENDER_ADDITIVE"],	
+	"turretSprite":"graphics/fx/isenoria/arrows/uaf_isenoria_arrow_guide_00.png",
+	"hardpointSprite":"graphics/fx/isenoria/arrows/uaf_isenoria_arrow_guide_00.png",
+	"numFrames":2,
+	"frameRate":0,
+	"alwaysAnimate":"true",
+	"turretOffsets":[-100, -100],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+	"everyFrameEffect":"data.scripts.weapons.blinkers.uaf_isenoria_landing_arrow",
+}

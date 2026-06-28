@@ -1,0 +1,63 @@
+{
+    "displayName": "Ace",
+    "fluxCapacitors": 7,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_super_nakiha_prototype",
+    "hullMods": [
+        "hardened_subsystems",
+        "autorepair"
+    ],
+    "quality": 0.8,
+    "variantId": "uaf_super_nakiha_prototype_ace",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_hvar_class_nk",
+                "WS0008": "uaf_hvar_class_nk"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_minibreve_tnt_m",
+                "WS0006": "uaf_minibreve_tnt_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_claris_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_merupaka_epd",
+                "WS0004": "uaf_merupaka_epd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

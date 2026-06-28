@@ -1,0 +1,49 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 30,
+    "fluxVents": 16,
+    "hullId": "missp_sovereign_core",
+    "hullMods": [
+        "targetingunit",
+        "insulatedengine",
+        "expanded_deck_crew",
+        "heavyarmor",
+        "hardenedshieldemitter",
+        "auxiliarythrusters"
+    ],
+    "modules": [
+        {"WS0008": "missp_sovereign_propulsion_left_Elite"},
+        {"WS0009": "missp_sovereign_propulsion_right_Elite"},
+        {"WS0002": "missp_sovereign_battery_left_Elite"},
+        {"WS0003": "missp_sovereign_battery_right_Elite"},
+        {"WS0010": "missp_sovereign_corner_left_Elite"},
+        {"WS0011": "missp_sovereign_corner_right_Elite"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_sovereign_core_Elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hephag",
+                "WS0004": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "vulcan",
+                "WS0016": "vulcan",
+                "WS0019": "lightdualmg",
+                "WS0020": "lightdualmg"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

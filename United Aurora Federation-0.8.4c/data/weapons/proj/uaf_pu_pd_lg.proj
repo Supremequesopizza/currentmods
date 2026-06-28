@@ -1,0 +1,17 @@
+{
+	#this is for pd large-green color
+	"id":"uaf_pu_pd_lg",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":40,
+	"hitGlowRadius":4,
+	"width":2,
+	"fadeTime":0.30,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[96,255,199,125],
+	"coreColor":[156,255,100,125],
+	"onHitEffect":"data.scripts.weapons.uaf_triyia_onhit",
+}

@@ -1,0 +1,11 @@
+name,secondary,tags,parents,frequency,reusable
+#Deadbolt,,,,,
+Ibzan,,planet,,,
+Vall,,moon,Ibzan,,
+,,,,,
+#OTXO,,,,,
+Ehiztaria,,planet,,,
+Otxo,,moon,Ehiztaria,,
+,,,,,
+#The Void Rains Upon Her Heart,,,,,
+Oudenai,,constellation,,,

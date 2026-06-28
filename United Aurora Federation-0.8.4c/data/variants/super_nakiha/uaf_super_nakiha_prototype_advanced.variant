@@ -1,0 +1,65 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "uaf_super_nakiha_prototype",
+    "hullMods": [
+        "insulatedengine",
+        "uaf_special_emergency_automated_assistance",
+        "hardenedshieldemitter",
+        "autorepair",
+        "advancedshieldemitter"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_super_nakiha_prototype_advanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_tona_ii",
+                "WS0006": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_hvar_class_nk",
+                "WS0008": "uaf_hvar_class_nk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_pd_reina_ii",
+                "WS0004": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_triyia_pdx",
+                "WS0002": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

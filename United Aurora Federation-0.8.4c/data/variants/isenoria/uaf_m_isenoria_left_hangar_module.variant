@@ -1,0 +1,34 @@
+{
+  "variantId": "uaf_m_isenoria_left_hangar_module",
+  "hullId": "uaf_m_isenoria_left_hangar",
+  "displayName": "Modular",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_reserve_wing_operation"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_swaras_m_mlrs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_m_keris",
+    "uaf_wing_ai_parang"
+  ]
+}

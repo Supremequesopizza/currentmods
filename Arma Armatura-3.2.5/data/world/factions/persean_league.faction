@@ -1,0 +1,41 @@
+{
+	"hullFrequency":{
+		"hulls":{
+			"armaa_altagrave":0.2,
+			"armaa_garegga":0.2,
+			"armaa_einhander":0.2,
+			"armaa_record_frig":0.8,
+			"armaa_leynos_frig":0.5,
+			"armaa_valkenx_frig":0.4,
+			"armaa_xyphos":0.2,
+			"armaa_zanac_grey": 0.5,
+		},
+	},
+	"variantOverrides":{
+		"armaa_heron_Attack3":5,
+		"armaa_record_frig_dem":10,
+	},
+	"shipsWhenImporting":{
+		"hulls":[		
+		],
+	},
+	"knownShips":{
+		"hulls":[	
+				"armaa_einhander",
+				"armaa_altagrave",
+				"armaa_garegga",
+				"armaa_leynos_frig",
+				"armaa_valkenx_frig",
+				"armaa_xyphos",
+				"armaa_whitebase",
+				"armaa_record_frig",
+				"armaa_zanac_grey",
+			],
+	},
+	"knownFighters":{
+		"fighters":[
+			"armaa_valkenx_wing",
+			"armaa_record_wing"
+		],
+	},
+},	

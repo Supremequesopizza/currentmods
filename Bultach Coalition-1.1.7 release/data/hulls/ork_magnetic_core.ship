@@ -1,0 +1,31 @@
+{
+  "hullName": "Magnet",
+  "hullId": "ork_magnetic_core",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Sgriosathar/Sgriosathar_magnetic_core.png",
+  "style": "BULTACH",
+  "height": 32,
+  "width": 30,
+  "center": [15, 16],
+  "collisionRadius": 30.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_antiNuke",
+    "BT_antiNukeHidden",
+    "BT_AntiEmpArmor"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -15, -5,
+    -6.5, -14,
+    7, -14,
+    15, -5,
+    15, 5,
+    7, 14,
+    -6.5, 14,
+    -15, 5
+  ]
+}

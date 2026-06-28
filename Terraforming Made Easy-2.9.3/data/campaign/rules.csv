@@ -1,0 +1,46 @@
+id,trigger,conditions,script,text,options,notes
+#START upgrade campaign objective options,,,,,,
+tme_cob_UpgradeCommRelayOpt,COB_AddOptions,"$faction.id == player
+$tag:comm_relay
+$tag:makeshift
+!$objectiveNonFunctional",,,10:TME_COB_Upgrade:Upgrade to Domain-Era Standards,
+tme_cob_UpgradeSensorArrayOpt,COB_AddOptions,"$faction.id == player
+$tag:sensor_array
+$tag:makeshift
+!$objectiveNonFunctional",,,10:TME_COB_Upgrade:Upgrade to Domain-Era Standards,
+tme_cob_UpgradeNavBuoyOpt,COB_AddOptions,"$faction.id == player
+$tag:nav_buoy
+$tag:makeshift
+!$objectiveNonFunctional",,,10:TME_COB_Upgrade:Upgrade to Domain-Era Standards,
+tme_cob_UpgradeSel,DialogOptionSelected,$option == TME_COB_Upgrade,"$crewReq = 50 0
+$metalsReq = 1000 0
+$tpReq = 200 0
+$betaReq = 1 0
+ShowResCost crew $crewReq metals $metalsReq true rare_metals $tpReq true beta_core $betaReq true 120
+FireBest TME_COB_CanUpgrade
+FireBest TME_COB_DisableUpgradeOptionIfNeeded","Your research teams have devised a method to restore makeshift relays to Domain-era standards using structural and scientific data gathered from intact Domain-era relays. Once upgraded, the relay will exhibit enhanced performance, reaching up to twice its original effectiveness.","10:TME_COB_DoUpgrade:Proceed
+100:COB_cancelAction:Never mind",
+tme_cob_canUpgrade,TME_COB_CanUpgrade,"$player.crew >= $crewReq
+$player.metals >= $metalsReq
+$player.rare_metals >= $tpReq
+$player.beta_core >= $betaReq",$canUpgrade = true 0,,,
+tme_cob_disableUpgrade,TME_COB_DisableUpgradeOptionIfNeeded,!$canUpgrade,SetEnabled TME_COB_DoUpgrade false,,,
+tme_cob_BeginUpgradeCommRelay,DialogOptionSelected,"$option == TME_COB_DoUpgrade
+$tag:comm_relay","RemoveCommodity metals $metalsReq
+RemoveCommodity rare_metals $tpReq
+RemoveCommodity beta_core $betaReq
+Objectives build comm_relay
+DismissDialog",,,
+tme_cob_BeginUpgradeSensorArray,DialogOptionSelected,"$option == TME_COB_DoUpgrade
+$tag:sensor_array","RemoveCommodity metals $metalsReq
+RemoveCommodity rare_metals $tpReq
+RemoveCommodity beta_core $betaReq
+Objectives build sensor_array
+DismissDialog",,,
+tme_cob_BeginUpgradeNavBuoy,DialogOptionSelected,"$option == TME_COB_DoUpgrade
+$tag:nav_buoy","RemoveCommodity metals $metalsReq
+RemoveCommodity rare_metals $tpReq
+RemoveCommodity beta_core $betaReq
+Objectives build nav_buoy
+DismissDialog",,,
+#END tme upgrade campaign objective options,,,,,,

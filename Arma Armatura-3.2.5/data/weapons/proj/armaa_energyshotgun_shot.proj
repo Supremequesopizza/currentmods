@@ -1,0 +1,20 @@
+{
+	"id":"armaa_energyshotgun_shot",
+	"specClass":"projectile",
+	"sprite":"graphics/missiles/am_srm.png",
+	"onHitEffect":"data.scripts.weapons.armaa_shotgunEveryFrameEffect2",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":75.0,
+	"width":14,
+	"darkCore":FALSE,
+	"fadeTime":0.25,
+	"fringeColor":[255,150,75,255],
+	"coreColor":[255,200,137,255],
+	#"glowColor":[255,200,25,105],
+	#"glowRadius":10,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+}

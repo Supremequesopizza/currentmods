@@ -1,0 +1,109 @@
+{
+  "hullName": "Center Module",
+  "hullId": "ork_judgement_middle_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/judgement/ork_judgement_middle_left.png",
+  "style": "LOW_TECH",
+  "height": 226,
+  "width": 176,
+  "center": [88, 113],
+  "collisionRadius": 154,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 148,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_antiNukeHidden",
+    "always_detaches",
+    "BT_linkedhull_three",
+    "degradedcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [-19, 25.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-38, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [1, 57.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [63, 65.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [91, 65.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-113, -38],
+      "length": 80,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89, 13],
+      "length": 66,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-80, 41],
+      "length": 43,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    102.5, 78,
+    -15, 78,
+    -20.5, 61,
+    -76.5, 52,
+    -88, -4.5,
+    -112, -18,
+    -111.5, -59,
+    -100.5, -71,
+    -67.5, -84.5,
+    -1, -83.5,
+    57, -55.5,
+    61, -18,
+    89, 2.5,
+    110.5, 35.5
+  ]
+}

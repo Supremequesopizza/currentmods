@@ -1,0 +1,19 @@
+{
+	#this is for emp medium-pink color
+	"id":"uaf_pu_emp_md",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":150.0,
+	"hitGlowRadius":30,
+	"width":7.5,
+	"fadeTime":0.30,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[255, 167, 182,240],
+	"coreColor":[255, 218, 224,240],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_medium.png"
+}

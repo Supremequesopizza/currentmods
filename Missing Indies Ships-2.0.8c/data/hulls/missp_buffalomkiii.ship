@@ -1,0 +1,141 @@
+{
+  "hullName": "Buffalo Mk.II",
+  "hullId": "missp_buffalomkiii",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/buffalomkiii/buffalo_mk3.png",
+  "style": "HIGH_TECH",
+  "height": 150,
+  "width": 100,
+  "center": [50, 63],
+  "collisionRadius": 88.5,
+  "shieldCenter": [10, -0],
+  "shieldRadius": 88,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 0,
+      "locations": [69, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 90,
+      "locations": [
+        31.5, 7,
+        46, 7.5
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -90,
+      "locations": [
+        45, -57,
+        29.5, -57.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-2, 42]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-2, -42]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-59, 24.5],
+      "length": 44.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, -24.5],
+      "length": 44.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, 15.5],
+      "length": 44.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, -15.5],
+      "length": 44.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-61, 6.5],
+      "length": 45,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-61, -6.5],
+      "length": 45,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -60, -3,
+    -58.5, -29,
+    -44.5, -30,
+    -20, -44,
+    16, -49,
+    59, -49,
+    75, -32,
+    76, -15,
+    85, -7,
+    85, 7,
+    76, 15,
+    75, 32,
+    59, 49,
+    16, 49,
+    -20, 44,
+    -44.5, 30,
+    -58.5, 29,
+    -60, 3,
+    -49, -0
+  ]
+}

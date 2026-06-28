@@ -1,0 +1,118 @@
+{
+  "hullName": "Taufan (NXP)",
+  "hullId": "uaf_ace_wing_taufan",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ace_wing_taufan_nxp.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 55,
+  "width": 38,
+  "center": [19, 27.5],
+  "collisionRadius": 40,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_ace",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 46,
+      "angle": 22,
+      "locations": [-5.5, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 37,
+      "angle": -18.5,
+      "locations": [-3.5, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 37,
+      "angle": 18.5,
+      "locations": [-3.5, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 46,
+      "angle": -22,
+      "locations": [-5.5, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": 0,
+      "locations": [9.5, -2.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 99,
+      "angle": -37,
+      "locations": [-5.5, -4.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 99,
+      "angle": 37,
+      "locations": [-5.5, 4.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": 0,
+      "locations": [9.5, 2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, -4.5],
+      "length": 24,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-12.5, 4.5],
+      "length": 24,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    11, 6.5,
+    -14.5, 17.5,
+    -26.5, -0,
+    -14.5, -17.5,
+    11, -6.5,
+    27.5, -0
+  ]
+}

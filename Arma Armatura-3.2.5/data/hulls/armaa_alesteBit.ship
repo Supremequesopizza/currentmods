@@ -1,0 +1,60 @@
+{
+  "hullName": "Bit",
+  "hullId": "armaa_alesteBit",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/armaa/ships/armaa_bit2.png",
+  "style": "MIDLINE",
+  "height": 21,
+  "width": 12,
+  "center": [6, 11],
+  "collisionRadius": 11,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 118,
+      "angle": 0,
+      "locations": [1, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-4, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [6, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -0],
+      "length": 17,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    4, -3,
+    -8, -3,
+    -8, 3,
+    4, 3
+  ]
+}

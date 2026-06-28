@@ -1,0 +1,15 @@
+{
+	"id":"anvil_halvete_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	#"width":45.0,
+	"width":32.0,
+	"fadeTime":0.5,
+	"hitGlowRadius":38,
+	"fringeColor":[252,3,227,255],
+	"coreColor":[119,3,252,255],
+	#"fringeColor":[255,0,0,255],
+	#"coreColor":[255,100,255,255],	
+}

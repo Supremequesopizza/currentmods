@@ -1,0 +1,89 @@
+{
+  "variantId": "ork_sgr_main_doomsday",
+  "hullId": "ork_sgr_main",
+  "displayName": "Doomsday",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "bt_sathar_mode_emp_nuke"
+  ],
+  "weaponGroups": [
+        {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_sathar_emp_nuke",
+        "WS0002": "ork_sathar_emp_nuke"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ork_bigplasma",
+        "WS0008": "ork_bigplasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_rotary_pd",
+        "WS0005": "devastator",
+        "WS0006": "devastator",
+        "WS0007": "ork_rotary_pd",
+        "WS0009": "ork_rotary_pd",
+        "WS0010": "ork_rotary_pd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "WS0016": "sgr_front_left_standard"
+    },
+    {
+      "WS0015": "sgr_center_left_standard"
+    },
+    {
+      "WS0019": "sgr_engine_left_standard"
+    },
+    {
+      "WS0017": "sgr_front_right_standard"
+    },
+    {
+      "WS0018": "sgr_center_right_standard"
+    },
+    {
+      "WS0020": "sgr_engine_right_standard"
+    }
+  ],
+  "wings": []
+}

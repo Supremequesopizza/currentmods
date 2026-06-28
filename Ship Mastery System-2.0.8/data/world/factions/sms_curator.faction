@@ -1,0 +1,135 @@
+{
+	id:"sms_curator",
+	"displayName":"Unknown",
+	"displayNameWithArticle":"the unknown",
+	"displayNameLong":"unknown",
+	"displayNameLongWithArticle":"the unknown",
+	"entityNamePrefix":"???",
+	"personNamePrefix":"???",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"are",
+
+	"logo":"graphics/factions/sms_logo_curator.png",
+	"crest":"graphics/factions/sms_crest_curator.png",
+	"shipNamePrefix":"",
+
+	"color":[100,200,150,255],
+	"baseUIColor":[100,200,150,255],
+
+	"showInIntelTab":false,
+
+	"shipNameSources":{
+		"SPACE":1,
+		"BEASTS":1,
+		"DERELICT_DRONE":1,
+	},
+	"names":{
+		"ai":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{},
+		"hulls":{},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[],
+	},
+	"knownShips":{
+		"tags":[],
+		"hulls":[],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[],
+	},
+	"knownFighters":{
+		"tags":[],
+		"fighters":[],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[],
+	},
+	"knownWeapons":{
+		"tags":[],
+		"weapons":[],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[],
+	},
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":1,
+
+		"shipSize":3,
+
+		"aggression":4,
+
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":1,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"flux_regulation",
+			"coordinated_maneuvers",
+			"crew_training",
+			"electronic_warfare",
+			"wolfpack_tactics"
+		],
+	},
+	"illegalCommodities":[],
+	"music":{
+		"encounter_hostile":"music_encounter_mysterious_non_aggressive",
+		"encounter_neutral":"music_encounter_mysterious_non_aggressive",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/sms_portrait_fractured_gamma_core.png",
+			"graphics/portraits/sms_portrait_gamma_pseudocore.png",
+			"graphics/portraits/sms_portrait_beta_pseudocore.png",
+			"graphics/portraits/sms_portrait_alpha_pseudocore.png",
+		],
+		"standard_female":[
+			"graphics/portraits/sms_portrait_fractured_gamma_core.png",
+			"graphics/portraits/sms_portrait_gamma_pseudocore.png",
+			"graphics/portraits/sms_portrait_beta_pseudocore.png",
+			"graphics/portraits/sms_portrait_alpha_pseudocore.png",
+		],
+	},
+	"ranks":{
+		"ranks":{},
+		"posts":{},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"noAICoresFromAutomatedDefenses": true,
+		"simulatorData":{
+			"showInSimulator":false,
+		},
+	},
+    "fleetTypeNames":{
+        "patrolSmall":"Bundle",
+        "patrolMedium":"Cluster",
+        "patrolLarge":"Matrix",
+    }
+},

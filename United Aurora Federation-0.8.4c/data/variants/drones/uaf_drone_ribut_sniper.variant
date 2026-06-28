@@ -1,0 +1,29 @@
+{
+  "variantId": "uaf_drone_ribut_sniper",
+  "hullId": "uaf_drone_ribut",
+  "displayName": "Sniper",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_fw_56mm_class_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_fw_56mm_class_ii"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

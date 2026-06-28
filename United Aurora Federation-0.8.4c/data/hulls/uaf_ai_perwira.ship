@@ -1,0 +1,157 @@
+{
+  "hullName": "Perwira II(SP)",
+  "hullId": "uaf_ai_perwira",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Perwira_AI.png",
+  "style": "UAF_FRIGATE_AUTOMATA",
+  "height": 104,
+  "width": 96,
+  "center": [48.5, 42],
+  "collisionRadius": 88,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 68,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "shielded_holds",
+    "uaf_atmospheric_entry"
+  ],
+  "builtInWeapons": {
+    "BRIDGELEFT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGELEFT_BLINKER_2": "uaf_blinker_sirene_2",
+    "BRIDGERIGHT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGERIGHT_BLINKER_2": "uaf_blinker_sirene_2",
+    "LASER_GUIDANCE": "uaf_laser_lead"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [11.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": 0,
+      "locations": [-2, 26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": -0,
+      "locations": [-2, -26]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4.5, 8]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4.5, -8]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-14.5, 8]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-14.5, -8]
+    },
+    {
+      "id": "LASER_GUIDANCE",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-9.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, 16],
+      "length": 56.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-7, -16],
+      "length": 56.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-27, 7.5],
+      "length": 37.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-27, -7.5],
+      "length": 37.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-30, -0],
+      "length": 79,
+      "width": 35,
+      "angle": 180,
+      "contrailSize": 35,
+      "style": "MELODY_ENGINE"
+    }
+  ],
+  "bounds": [
+    -34.5, 11,
+    -27, 13.5,
+    -27, 45,
+    -14.5, 44.5,
+    13.5, 22.5,
+    60, 4,
+    60, -4,
+    13.5, -22.5,
+    -14.5, -44.5,
+    -27, -45,
+    -27, -13.5,
+    -34.5, -11
+  ]
+}

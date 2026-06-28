@@ -1,0 +1,50 @@
+{
+	# VARUNASTRA
+	 "varunastra_fire": [
+	  {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.00,"volume":0.85},
+	  {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":0.99,"volume":0.85},
+      {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":0.98,"volume":0.85},
+	  {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":0.96,"volume":0.85},
+	  {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":0.94,"volume":0.85},
+	  {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":0.92,"volume":0.85},
+	],
+    "varunastra_shield_heavy": [
+      { "file": "sounds/sfx_impacts/shield_hit_heavy_01.ogg", "pitch": 1.0, "volume": 0.9 },
+      { "file": "sounds/sfx_impacts/shield_hit_heavy_02.ogg", "pitch": 1.0, "volume": 0.9 },
+      { "file": "sounds/sfx_impacts/shield_hit_heavy_03.ogg", "pitch": 1.0, "volume": 0.9 },
+      { "file": "sounds/sfx_impacts/shield_hit_heavy_04.ogg", "pitch": 1.0, "volume": 0.9 }
+    ],
+
+    "varunastra_shield_light": [
+      { "file": "sounds/sfx_impacts/shield_hit_light_01.ogg", "pitch": 1.0, "volume": 0.7 },
+      { "file": "sounds/sfx_impacts/shield_hit_light_02.ogg", "pitch": 1.0, "volume": 0.7 }
+    ],
+
+    "varunastra_shield_solid": [
+      { "file": "sounds/sfx_impacts/shield_hit_solid_01.ogg", "pitch": 1.0, "volume": 0.85 },
+      { "file": "sounds/sfx_impacts/shield_hit_solid_02.ogg", "pitch": 1.0, "volume": 0.85 },
+      { "file": "sounds/sfx_impacts/shield_hit_solid_03.ogg", "pitch": 1.0, "volume": 0.85 }
+    ],
+
+    "varunastra_hit_heavy": [
+      { "file": "sounds/sfx_impacts/gun_hit_heavy_01.ogg", "pitch": 1.0, "volume": 0.9 },
+      { "file": "sounds/sfx_impacts/gun_hit_heavy_02.ogg", "pitch": 1.0, "volume": 0.9 },
+      { "file": "sounds/sfx_impacts/gun_hit_heavy_03.ogg", "pitch": 1.0, "volume": 0.9 }
+    ],
+
+    "varunastra_hit_light": [
+      { "file": "sounds/sfx_impacts/gun_hit_light_01.ogg", "pitch": 1.0, "volume": 0.7 },
+      { "file": "sounds/sfx_impacts/gun_hit_light_02.ogg", "pitch": 1.0, "volume": 0.7 },
+      { "file": "sounds/sfx_impacts/gun_hit_light_03.ogg", "pitch": 1.0, "volume": 0.7 }
+    ],
+
+    "varunastra_hit_glancing": [
+      { "file": "sounds/sfx_impacts/gun_hit_glancing_01.ogg", "pitch": 1.0, "volume": 0.6 },
+      { "file": "sounds/sfx_impacts/gun_hit_glancing_02.ogg", "pitch": 1.0, "volume": 0.6 },
+      { "file": "sounds/sfx_impacts/gun_hit_glancing_03.ogg", "pitch": 1.0, "volume": 0.6 }
+    ],
+
+    "varunastra_hit_solid": [
+      { "file": "sounds/sfx_impacts/gun_hit_solid_01.ogg", "pitch": 1.0, "volume": 0.85 }
+    ]
+}

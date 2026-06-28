@@ -1,0 +1,48 @@
+{
+    "displayName": "Frontline",
+    "fluxCapacitors": 23,
+    "fluxVents": 30,
+    "hullId": "supportships_parabola",
+    "hullMods": ["defensive_targeting_array"],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "supportships_parabola_Frontline",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "miningblaster",
+                "WS0002": "miningblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "sabot",
+                "WS0007": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser",
+                "WS0008": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

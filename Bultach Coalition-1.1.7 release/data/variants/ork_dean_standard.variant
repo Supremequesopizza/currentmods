@@ -1,0 +1,23 @@
+{
+  "variantId": "ork_dean_standard",
+  "hullId": "ork_dean",
+  "displayName": "Heavy Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_swarmer_small",
+        "WS0002": "ork_swarmer_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

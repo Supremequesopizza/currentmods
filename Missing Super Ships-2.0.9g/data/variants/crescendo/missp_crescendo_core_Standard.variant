@@ -1,0 +1,63 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "missp_crescendo_core",
+    "hullMods": [
+        "insulatedengine",
+        "expanded_deck_crew",
+        "missleracks"
+    ],
+    "modules": [
+        {"WS0019": "missp_crescendo_drive_left_Standard"},
+        {"WS0020": "missp_crescendo_drive_right_Standard"},
+        {"WS0001": "missp_crescendo_bay_left_Standard"},
+        {"WS0002": "missp_crescendo_bay_right_Standard"},
+        {"WS0017": "missp_crescendo_bow_left_Standard"},
+        {"WS0018": "missp_crescendo_bow_right_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_crescendo_core_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "hurricane",
+                "WS0012": "hurricane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "heatseeker",
+                "WS0014": "heatseeker",
+                "WS0015": "heatseeker",
+                "WS0016": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "flak",
+                "WS0004": "flak",
+                "WS0005": "dualflak",
+                "WS0006": "dualflak",
+                "WS0007": "heavyburst",
+                "WS0008": "heavyburst",
+                "WS0009": "pdburst",
+                "WS0010": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "dagger_wing",
+        "dagger_wing",
+        "dagger_wing",
+        "dagger_wing"
+    ]
+}

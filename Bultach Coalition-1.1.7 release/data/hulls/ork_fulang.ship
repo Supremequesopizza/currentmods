@@ -1,0 +1,222 @@
+{
+  "hullName": "Fulang",
+  "hullId": "ork_fulang",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/gestalt/ork_fulang.png",
+  "style": "GESTALT",
+  "height": 124,
+  "width": 188,
+  "center": [94, 62],
+  "collisionRadius": 105.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 103,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger_Gestalt",
+    "bt_gestalt_automation",
+    "ork_redfasta"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 45,
+      "locations": [-1.5, 54]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -45,
+      "locations": [-1.5, -54]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -17.5,
+      "locations": [24.5, -51]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 17.5,
+      "locations": [24.5, 51]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -165,
+      "locations": [-16, -29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 165,
+      "locations": [-16, 29]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [40.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [48.5, 18]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [48.5, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47, -0],
+      "length": 21,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-45.5, 4.5],
+      "length": 21,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-45.5, -4.5],
+      "length": 21,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-44.5, 8.5],
+      "length": 21,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-44.5, -8.5],
+      "length": 21,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-43.5, 12.5],
+      "length": 21,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-43.5, -12.5],
+      "length": 21,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-39, 44.5],
+      "length": 40.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-39, -44.5],
+      "length": 40.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    }
+  ],
+  "bounds": [
+    -41.5, -18.5,
+    -58.5, -20,
+    -41.5, -37,
+    -37, -37,
+    -37, -50.5,
+    -29.5, -56,
+    -30, -60,
+    -8, -91.5,
+    -4, -86.5,
+    2.5, -88.5,
+    18, -72,
+    22, -71.5,
+    33.5, -57.5,
+    39.5, -43,
+    58, -28,
+    57.5, -10.5,
+    50, -10.5,
+    50, 10.5,
+    57.5, 10.5,
+    58, 28,
+    39.5, 43,
+    33.5, 57.5,
+    22, 71.5,
+    18, 72,
+    2.5, 88.5,
+    -4, 86.5,
+    -8, 91.5,
+    -30, 60,
+    -29.5, 56,
+    -37, 50.5,
+    -37, 37,
+    -41.5, 37,
+    -58.5, 20,
+    -41.5, 18.5,
+    -45.5, -0
+  ]
+}

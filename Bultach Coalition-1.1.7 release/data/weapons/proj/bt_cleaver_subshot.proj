@@ -1,0 +1,17 @@
+{
+    "id":"bt_cleaver_subshot",
+    "specClass":"projectile",
+    "spawnType":"BALLISTIC",
+    "collisionClass":"PROJECTILE_FF",
+    "onHitEffect": "data.scripts.weapons.bt_gestalt_punishment_onhit",
+    "collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":36.0,
+	"width":12.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,242,200,1],
+	"coreColor":[255,242,200,1],
+	"hitGlowRadius":50,	
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":""
+}

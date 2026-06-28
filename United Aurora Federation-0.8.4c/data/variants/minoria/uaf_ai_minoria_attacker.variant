@@ -1,0 +1,41 @@
+{
+    "displayName": "Attacker",
+    "fluxCapacitors": 2,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_ai_minoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_super_heavy_wing_operation"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_ai_minoria_attacker",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_oboe_mirv_small",
+                "WS0002": "uaf_clarinet_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_enyria_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_merupaka_epd",
+                "WS0005": "uaf_merupaka_epd"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_veronica"
+    ]
+}

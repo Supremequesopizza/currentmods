@@ -1,0 +1,154 @@
+{
+  "hullName": "Rama(SP)",
+  "hullId": "uaf_ai_rama_corvette",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Rama/uaf_ai_rama.png",
+  "style": "UAF_FRIGATE_AUTOMATA",
+  "height": 131,
+  "width": 93,
+  "center": [46, 62],
+  "collisionRadius": 89,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 73,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "uaf_atmospheric_entry"
+  ],
+  "builtInWeapons": {
+    "BRIDGELEFT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGELEFT_BLINKER_2": "uaf_blinker_sirene_2",
+    "BRIDGERIGHT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGERIGHT_BLINKER_2": "uaf_blinker_sirene_2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": 0,
+      "locations": [17, 11]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-13, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 60,
+      "angle": 0,
+      "locations": [9, 27.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 60,
+      "angle": 0,
+      "locations": [9, -26.5]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": 0,
+      "locations": [-27, 8.5]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": -0,
+      "locations": [-27, -8.5]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": 0,
+      "locations": [-33, 8.5]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": -0,
+      "locations": [-33, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, -0],
+      "length": 73.5,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-52, 4],
+      "length": 30,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-52, -4],
+      "length": 30,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-31, 24],
+      "length": 40.511913,
+      "width": 12.850656,
+      "angle": 145,
+      "contrailSize": 12.850656,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-31, -24],
+      "length": 40.511913,
+      "width": 12.850656,
+      "angle": -145,
+      "contrailSize": 12.850656,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    12.5, -18.5,
+    -24.5, -16.5,
+    -32, -4.5,
+    -57, -1.5,
+    -57, 21.5,
+    -32, 24.5,
+    -24.5, 36.5,
+    12.5, 38.5,
+    11.5, 21,
+    52, 5.5,
+    20.5, 3.5
+  ]
+}

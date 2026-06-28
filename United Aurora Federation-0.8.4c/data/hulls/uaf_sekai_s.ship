@@ -1,0 +1,113 @@
+{
+  "hullName": "Sekai",
+  "hullId": "uaf_sekai_s",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/uaf_s_sekai.png",
+  "style": "UAF_DESTROYER",
+  "height": 234,
+  "width": 166,
+  "center": [83, 109],
+  "collisionRadius": 166.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 133,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_increased_explosion",
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [54, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-68, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 67,
+      "angle": 180,
+      "locations": [23, -32.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-3.5, 44.5],
+      "length": 24.921402,
+      "width": 11.819263,
+      "angle": 142,
+      "contrailSize": 11.819263,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-3.5, -44.5],
+      "length": 24.921402,
+      "width": 11.819263,
+      "angle": -142,
+      "contrailSize": 11.819263,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-73, 24.5],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-73, -24.5],
+      "length": 24,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-94, -0],
+      "length": 92.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
+    }
+  ],
+  "bounds": [
+    1, 48,
+    32, 49.5,
+    93, 22.5,
+    69, 2,
+    62.5, -11,
+    49.5, -13,
+    47, -17,
+    53, -22,
+    11, -50,
+    0.5, -50,
+    -29, -35.5,
+    -43, -35.5,
+    -43, -40,
+    -74, -40,
+    -88, -12,
+    -106, -10.5,
+    -106, 10,
+    -88, 12,
+    -74.5, 40,
+    -43, 40,
+    -43, 36,
+    -30, 36
+  ]
+}

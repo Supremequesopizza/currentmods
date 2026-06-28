@@ -1,0 +1,178 @@
+{
+  "hullName": "Straffia",
+  "hullId": "uaf_straffia",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/uaf_straffia.png",
+  "style": "UAF_DESTROYER",
+  "height": 171,
+  "width": 96,
+  "center": [48, 85.5],
+  "collisionRadius": 122,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 91.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "builtInWeapons": {
+    "WS0005": "uaf_clarinet_mirv",
+    "WS0006": "uaf_clarinet_mirv",
+    "WS0007": "uaf_clarinet_mirv",
+    "WS0008": "uaf_clarinet_mirv",
+    "WS0009": "uaf_clarinet_mirv",
+    "WS0010": "uaf_clarinet_mirv"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [36.5, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [36.5, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 224,
+      "angle": 90,
+      "locations": [-28.5, 26]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 224,
+      "angle": -90,
+      "locations": [-28.5, -26]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -28.5, -0,
+        -30.5, -5,
+        -30.5, 5
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-8.5, 23.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-8.5, -23.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-1.5, 23.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-1.5, -23.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-15.5, 23.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-15.5, -23.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-72.5, 12.5],
+      "length": 69,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-72.5, -12.5],
+      "length": 69,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -70, 4.5,
+    -83, 5,
+    -83, 18.5,
+    -71, 25,
+    -47, 25,
+    -27, 46.5,
+    -18.5, 46.5,
+    -10.5, 38.5,
+    -10, 36,
+    7.5, 32.5,
+    16, 25,
+    82.5, 7.5,
+    85, 3,
+    72.5, 1.5,
+    72.5, -1.5,
+    85, -3,
+    82.5, -7.5,
+    16, -25,
+    7.5, -32.5,
+    -10, -36,
+    -10.5, -38.5,
+    -18.5, -46.5,
+    -27, -46.5,
+    -47, -25,
+    -71, -25,
+    -83, -18.5,
+    -83, -5,
+    -70, -4.5
+  ]
+}

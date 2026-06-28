@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "missp_condor_heg",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_condor_heg_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "vulcan",
+                "WS0003": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "missp_broadswordmkii_wing",
+        "piranha_wing"
+    ]
+}

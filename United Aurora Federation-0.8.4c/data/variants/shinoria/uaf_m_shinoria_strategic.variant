@@ -1,0 +1,63 @@
+{
+    "displayName": "Strategic",
+    "fluxCapacitors": 5,
+    "fluxVents": 18,
+    "goalVariant": false,
+    "hullId": "uaf_m_shinoria",
+    "hullMods": [
+        "targetingunit",
+        "recovery_shuttles",
+        "uaf_super_heavy_wing_operation"
+    ],
+    "quality": 0.7,
+    "variantId": "uaf_m_shinoria_strategic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_shimata_300_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "uaf_vocal_m_srm",
+                "WS0018": "uaf_chorus_s_amm",
+                "WS0017": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_hikone_quad",
+                "WS0007": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "uaf_triyia_pdx",
+                "WS0009": "uaf_triyia_pdx",
+                "WS0006": "uaf_flair_pod",
+                "WS0005": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina_ii",
+                "WS0003": "uaf_pd_reina_ii",
+                "WS0002": "uaf_pd_reina",
+                "WS0001": "uaf_pd_reina"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_hyacinth_ii"
+    ]
+}

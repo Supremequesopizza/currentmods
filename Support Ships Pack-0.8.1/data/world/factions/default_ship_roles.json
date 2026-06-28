@@ -1,0 +1,118 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		
+		"supportships_lpdram_LuddsOwn":5,
+		"supportships_lpdram_Skirmish":5,
+		
+		"supportships_carton_Escort":5,
+		"supportships_carton_Strike":5,
+		
+		"supportships_maunder_Balanced":4,
+		"supportships_maunder_CQC":3,
+		"supportships_maunder_overclocked":3,
+		
+		"supportships_maunderp_Assault":4,
+		"supportships_maunderp_Support":3,
+		"supportships_maunderp_Bargain":3,
+		
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		
+		"supportships_lpdram_LuddsOwn":5,
+		"supportships_lpdram_Skirmish":5,
+		
+		"supportships_carton_Escort":5,
+		"supportships_carton_Strike":5,
+
+		"supportships_carton(TT)_Standard":3,
+		
+		"supportships_cartonp_Barrage":4,
+		"supportships_cartonp_support":3,
+		"supportships_cartonp_Backline":3,
+		
+		"supportships_maunder_Balanced":4,
+		"supportships_maunder_CQC":3,
+		"supportships_maunder_overclocked":3,
+		
+		"supportships_maunderp_Assault":4,
+		"supportships_maunderp_Support":3,
+		"supportships_maunderp_Bargain":3,
+		
+		"supportships_faraday_Balanced":10,
+		
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{
+
+		"supportships_apsis_Standard":4,
+		"supportships_apsis_Support":3,
+		"supportships_apsis_Supression":3,
+		
+		"supportships_lammergeier_Balanced":4,
+		"supportships_lammergeier_Overclocked":3,
+		"supportships_lammergeier_Rushdown":3,
+
+		"supportships_lammergeierlg_Precision":5,
+		"supportships_lammergeierlg_Agressor":5,
+		
+		"supportships_tercio_Assault":5,
+		"supportships_tercio_Shielded":5,
+		
+		"supportships_tercio_xiv_Rushdown":5,
+		"supportships_tercio_xiv_Standard":5,
+
+		"supportships_sidebar_Standard":3,
+		"supportships_sidebar_Elite":3,
+		"supportships_sidebar_Unsafe":3,
+
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{
+		
+		"supportships_ossifrage_Broadsider":5,
+		"supportships_ossifrage_Multipurpouse":5,
+
+		"supportships_aspirant_Ranged":4,
+		"supportships_aspirant_standard":3,
+		"supportships_aspirant_suppresion":3,
+		
+		"fallback":{"combatMedium":1},
+	},
+	"combatCapital":{
+		"supportships_revoker_Standard":3,
+		"supportships_revoker_Independent":2,
+		"supportships_revoker_Elite":2,
+		"supportships_revoker_Disco":2,
+	},
+	"combatFreighterMedium":{
+		
+		"supportships_geminilc_Strike":5,
+		"supportships_geminilc_escort":5,
+
+		"supportships_nebulae_Flak":5,
+		"supportships_nebulae_Support":5,
+	},
+	"civilianRandom":{
+
+		"supportships_maunders_Luxury":1,
+		"supportships_hospice_Hospital":4,
+
+	},
+	"carrierMedium":{
+		
+		"supportships_parabola_Standard":4,
+		"supportships_parabola_shock":3,
+		"supportships_parabola_Frontline":3,
+		"supportships_hospice_Combat":7,
+		
+	},
+	"freighterSmall":{
+		"supportships_gardener_Standard":10,
+	},
+	"freighterLarge":{
+		"supportships_geoid_Survey":5,
+	},
+}

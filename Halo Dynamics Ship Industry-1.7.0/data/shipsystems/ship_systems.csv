@@ -1,0 +1,40 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Time Reversal,HSI_TimeShift,,,,100,,,,,,0,1.5,0.3,8,,,,,,TRUE,TRUE,TRUE,,TRUE,,,graphics/icons/hullsys/temporal_shell.png
+Subspace Walker,HSI_SubSpaceWalker,,,,,,,,,,0.6,,0.3,3,TRUE,,TRUE,TRUE,TRUE,,,,,TRUE,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Fortress Barrier,HSI_FortifiedShield,,,0.025,,,,,,,1.5,,1.5,2,TRUE,,TRUE,TRUE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/fortress_shield.png
+Deploy HMG,HSI_HMGTurretDeploy,,,,,,,,3,0.0333,0.25,,0.25,,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
+Arc Mine Strike,ArcMineStrike,,,,,,0.1,,5,0.05,0.25,,0.25,,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
+Deploy Citadel,HSI_DeployCitadel,,,,5000,,,,,,2.5,,2,10,,,,,,,,,,TRUE,,,graphics/icons/hullsys/drone_pd_high.png
+Torpedo Factory,HSI_TorpedoFactory,,,,,,0.35,,2,0.075,1.6,0,0.4,2,,,,,,,,,,TRUE,,,graphics/icons/hullsys/missile_autoforge.png
+Time Warp,HSI_TimeWarp,,,,,,0.1,,3,0.07,1,,1,2.5,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/displacer.png
+Tactical Teleporter,HSI_TacTeleporter,,,,,,0.15,,2,0.03,1.2,0.3,0.5,25,,,,,,,TRUE,TRUE,,TRUE,,,graphics/icons/hullsys/displacer.png
+Hammer of Humanity,HSI_HOH,,,,,,0.01,,3,0.18,,,,3,,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/high_energy_focus.png
+Siege Mode,HSI_SiegeMode,,0.25,,,,,,,,2.5,,2.5,5,TRUE,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/high_energy_focus.png
+Mourning,HSI_Burial,,,,,,0.05,,,,1.5,,1.5,16,,,,,TRUE,,,,TRUE,TRUE,,restricted,graphics/icons/hullsys/displacer.png
+All-or-nothing,HSI_TheBet,,,,,,0.25,,1,,5,20,1,,,,,,,,,,,TRUE,,,graphics/icons/hullsys/reserve_deployment.png
+Ruin,HSI_ElegySystem,,,,,,0.2,,,,0.5,10,1,15,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
+Metamorphosis,HSI_ButterflyDive,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,restricted,graphics/icons/hullsys/phase_cloak.png
+Asynchronous Time Flow,HSI_UnstableTimeFlow,1,,,,,0.5,,,,3,9,2,10,,,,,,,,,,TRUE,,,graphics/icons/hullsys/temporal_shell.png
+Emergency Barrier,HSI_EmergencyBarrier,,,,,,0.2,,2,0.025,0.05,,2,1,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
+Rapid Reinforcement,HSI_RapidReinforcement,,,,,,0.2,,2,0.0333,0.5,1,2,15,,,,,,,,,,TRUE,,,graphics/icons/hullsys/fortress_shield.png
+IFF Disruptor,HSI_IFFDisruptor,,0.2,,,,,,3,0.04,1,10,2,8,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
+Time Shunt,HSI_TimeShunt,,,,,,,,,,0.2,,0.2,1,,,,,,,,,,TRUE,,,graphics/icons/hullsys/interdictor_array.png
+Thundergod's Wrath,HSI_ThorFury,1,,,,,0.2,,,,0.5,3,0.5,4,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Laminar Flow,HSI_LuminarFlow,,,,,,,,3,0.04,0.25,3,0.25,6,,,,,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Phase Teleporter,HSI_Phaseteleporter,,,,,,,,,,1,,2.5,10.5,,,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Travel Boost,HSI_TravelJump,1,,,,,,,,,2,,2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Hyper Boost,HSI_HyperJump,1,,,,,,,,,2,,0.2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Dreadnought Charge,HSI_DreadnoughtCharge,1,,,,,,,3,0.05,1,2,1,12.5,TRUE,,,,,TRUE,TRUE,TRUE,,,,,graphics/icons/hullsys/burn_drive.png
+Deep Dive,HSI_DeepDive,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/phase_cloak.png
+Space Storm,HSI_SpaceStorm,1,,,,,,,2,0.05,1.5,0.05,1.5,10,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/temporal_shell.png
+Arbalétrier Support,HSI_Arbaletrier_Support,,,,,,,,2,,,,,,,,,,,,,,,,,,
+Maid Support,HSI_Maid_Support,,,,,,,,1,0.05,,,,0.5,,,,,,,,,,,,,
+Raise Shields,HSI_ShieldUp,,,,,,,,,,0.5,,0.5,0.5,TRUE,,,,,,,,,,,,
+OverDrive,HSI_OverDrive,,,0.04,,,,,,,2,10,3,10,,,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Spacetime Manipulation,HSI_TSControl,,,,,,,,3,0.0667,0.5,1,0.5,2,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Evasive Maneuver,HSI_DodgeFighter,,,,,,,,,,0.1,0.3,0.1,2.5,,,,,TRUE,,,,,,,,
+Daylight Aurora,HSI_DayTimeAurora,,,,,,,,,,2,5,1,10,TRUE,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+Uplink Fire Control,HSI_UplinkFireControl,1,,,,,0.2,,1,0.0333,1,20,1,15,,,,,,,,,,,TRUE,,graphics/icons/hullsys/interdictor_array.png
+Full Deck Assault,HSI_DeckLoadStrike,,,,,,0.2,,,,0,0.5,0,360,,,,,,,,,,,TRUE,,graphics/icons/hullsys/reserve_deployment.png
+Final Fortress,HSI_FinalFortress,1,,,,,,,1,0.1,0.8,6.4,0.8,4,,,,,,,,,,,TRUE,,graphics/icons/hullsys/fortress_shield.png
+Overburst Drive,HSI_OverBurstDrive,1,,,,,,,3,0.1,0.4,0.4,0.5,,,,,,,,TRUE,TRUE,,,,restricted,graphics/icons/hullsys/burn_drive.png

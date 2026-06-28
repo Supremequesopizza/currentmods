@@ -1,0 +1,38 @@
+{
+  "hullName": "Vortex",
+  "hullId": "ork_vortex_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fx/empty.png",
+  "style": "GESTALT",
+  "height": 4,
+  "width": 4,
+  "center": [2, 2],
+  "collisionRadius": 2,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 2,
+  "viewOffset": 0,
+    "builtInMods": [
+    "bt_gestalt_vortex"
+  ],
+  "builtInWeapons": {
+    "WS0000": "ork_vortex_weapon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0000",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, 2]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    1, -1,
+    -1, -1,
+    -1, 1,
+    1, 1
+  ]
+}

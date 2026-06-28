@@ -1,0 +1,26 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 6,
+    "hullId": "supportships_gardener",
+    "hullMods": ["expanded_cargo_holds"],
+    "permaMods": [],
+	"goalVariant": true,
+    "sMods": [],
+    "variantId": "supportships_gardener_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "supportships_gardener_massdriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightdualmg",
+                "WS0003": "lightdualmg"
+            }
+        }
+    ]
+}

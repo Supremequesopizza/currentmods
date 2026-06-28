@@ -1,0 +1,68 @@
+{
+  "bounds": [
+    7.5,
+    10,
+    10.5,
+    -6.5,
+    -10,
+    -5.5,
+    -9.5,
+    5
+  ],
+  "center": [
+    14.5,
+    15.5
+  ],
+  "collisionRadius": 20,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 17,
+      "location": [
+        -11,
+        4
+      ],
+      "style": "EXALTED_TECH",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 17,
+      "location": [
+        -11,
+        -4
+      ],
+      "style": "EXALTED_TECH",
+      "width": 9
+    }
+  ],
+  "height": 32,
+  "hullId": "anvil_fairy",
+  "hullName": "Fairy",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 19.5,
+  "spriteName": "graphics/ships/anvil_fairy.png",
+  "style": "EXALTED_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        7,
+        -4.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 26
+}

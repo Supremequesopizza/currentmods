@@ -1,0 +1,87 @@
+{
+  "hullName": "Xyphos",
+  "hullId": "armaa_xyphos",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/armaa/ships/armaa_xyphos.png",
+  "style": "HIGH_TECH",
+  "height": 38,
+  "width": 38,
+  "center": [19, 17],
+  "collisionRadius": 30,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedoptics",
+    "strikeCraft",
+    "armaa_wingCommander",
+	"reduced_explosion"
+  ],
+  "builtInWings": [
+    "xyphos_wing"
+  ],
+  "builtInWeapons": {
+    "BEACON": "armaa_landingBeacon",
+    "WS 001": "ionpulser",
+    "WS 002": "pdburst"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [3, 7]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, 0]
+    },
+    {
+      "id": "BEACON",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [5, -0],
+      "renderOrderMod": 101
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "DRONE_ENGINE"
+    },
+    {
+      "location": [-16, -7],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "DRONE_ENGINE"
+    }
+  ],
+  "bounds": [
+    10, 17,
+    15, -4,
+    5, -15,
+    -15, -9,
+    -8, 1,
+    -15, 10,
+    -3, 10
+  ]
+}

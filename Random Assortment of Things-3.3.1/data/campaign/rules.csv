@@ -1,0 +1,51 @@
+id,trigger,conditions,script,text,options,notes
+greetingRATAbyssalsHostile,OpenCommLink,"$faction.id == rat_abyssals score:1000
+",$entity.ignorePlayerCommRequests = true 1,The opposing fleet does not respond to the comm-request,cutCommLink:Cut the comm link,
+greetingRATSolitude,OpenCommLink,"$faction.id == rat_abyssals_solitude score:1000
+",$entity.ignorePlayerCommRequests = true 1,The opposing fleet does not respond to the comm-request,cutCommLink:Cut the comm link,
+greetingRATSerenity,OpenCommLink,"$faction.id == rat_abyssals_serenity score:1000
+",$entity.ignorePlayerCommRequests = true 1,The opposing fleet does not respond to the comm-request,cutCommLink:Cut the comm link,
+greetingRATHarmony,OpenCommLink,"$faction.id == rat_abyssals_harmony score:1000
+",$entity.ignorePlayerCommRequests = true 1,The opposing fleet does not respond to the comm-request,cutCommLink:Cut the comm link,
+greetingRATWastes,OpenCommLink,"$faction.id == rat_abyssals_wastes score:1000
+","$ignorePlayerCommRequests = true 1
+ShowThreatPersonVisual","???? DELUSE ???? MISGOT
+
+*** ALICIT REIFICATE ***
+
+INTERDICTORATE PROACT: UNFABRICATE",cutCommLink:Cut the comm link,
+,,,,,,
+ratAbyssGateOpt,PopulateGateOptions,"$global.gatesActive
+$global.playerCanUseGates
+$gateScanned
+AbyssGateCMD CanBeAdded",,,15:ABYSSAL_GATE:Travel towards Abyssal Gate,
+ratAbyssGateOptDescription,PopulateGateOptions,"$global.gatesActive
+$global.playerCanUseGates
+$gateScanned
+AbyssGateCMD CanBeAdded",AbyssGateCMD Highlight,,,
+ratAbyssGateUseOpt,DialogOptionSelected,$option == ABYSSAL_GATE,AbyssGateCMD Traverse,,,
+,,,,,,
+ratAbyssSetStart,NewGameOptionSelected,$option == rat_NGCDone_Abyss,"SetAbyssStart
+$option = nex_NGCDone
+FireBest NewGameOptionSelected",,,
+,,,,,,
+,,,,,,
+rat_commander_flavorTextMarket,TradePanelFlavorText,$market.id == rat_station_commander_market score:10000,"AddText ""The humble port concourse is filled with small freighters and freelancers down or up on their luck, identifiable by the shine or grime of ship armor and volume of cargo on-loading. A handful of speculators who all seem to know each other crowd offloading ship captains as they arrive while peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+rat_exoship_flavourTextMarket,TradePanelFlavorText,$faction.id == rat_exotech score:10000,,,,
+,,,,,,
+rat_createSettlement1,PopulateOptions,"ShouldShowSettlementCreationOption
+$menuState == main
+$market.isPlanetConditionMarketOnly == false",,,15:ratCreateSettlement:Establish a new Settlement,
+rat_createSettlement2,PopulateOptions,"ShouldShowSettlementCreationOption
+$market.isPlanetConditionMarketOnly == true",,,8:ratCreateSettlement:Establish a new Settlement,
+rat_createSettlementDisabled,PopulateOptions,"$market.isSurveyed != true
+","SetEnabled ratCreateSettlement false
+SetTooltip ratCreateSettlement ""Planet has to be surveyed.""",,,
+rat_createSettlementScript,DialogOptionSelected,$option == ratCreateSettlement,DelegateToSettlementCreationDialog,,,
+,,,,,,
+rat_visitSettlement1,PopulateOptions,"ShouldShowSettlementOption
+$menuState == main
+$market.isPlanetConditionMarketOnly == false",AutoDescendToSettlement,,2:ratVisitSettlement:Descend towards the settlement,
+rat_visitSettlement2,PopulateOptions,"ShouldShowSettlementOption
+$market.isPlanetConditionMarketOnly == true",AutoDescendToSettlement,,2:ratVisitSettlement:Descend towards the settlement,
+rat_visitSettlementScript,DialogOptionSelected,$option == ratVisitSettlement,DelegateToSettlementDialog,,,

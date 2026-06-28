@@ -1,0 +1,46 @@
+{
+  "variantId": "ork_smasha_standard",
+  "hullId": "ork_smasha",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ork_plasma_shotgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ork_shotgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ork_rotary_pd",
+        "WS0005": "ork_rotary_pd_small"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0015": "ork_smasha_l_standard"
+    },
+    {
+      "WS0016": "ork_smasha_r_standard"
+    }
+  ],
+  "wings": []
+}

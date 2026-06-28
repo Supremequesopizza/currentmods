@@ -1,0 +1,20 @@
+{
+    "id": "GrandColonies",
+    "name": "Grand.Colonies",
+    "author": "SirHartley & Lukas04",
+    "version": "2.1.b",
+    "description": "Adds infinite additional building slots to a colony.",
+    "gameVersion": "0.98a",
+    "jars":["jars/GrandColonies.jar"],
+    "modPlugin":"grandcolonies.plugins.ModPlugin",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+        {
+            "id": "lunalib",
+            "name": "LunaLib",
+        },
+    ]
+}

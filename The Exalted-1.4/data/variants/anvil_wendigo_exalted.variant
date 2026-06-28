@@ -1,0 +1,69 @@
+{
+  "variantId": "anvil_wendigo_exalted",
+  "hullId": "anvil_wendigo",
+  "displayName": "Exalted",
+  "goalVariant": true,
+  "fluxCapacitors": 46,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "anvil_voodoo_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "anvil_fuego",
+        "WS0008": "anvil_fuego",
+        "WS0013": "anvil_fuego",
+        "WS0014": "anvil_fuego",
+        "WS0017": "anvil_mordare",
+        "WS0018": "anvil_tierra"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_ecto",
+        "WS0004": "anvil_ecto",
+        "WS0011": "anvil_ecto",
+        "WS0012": "anvil_ecto",
+        "WS0015": "anvil_ecto",
+        "WS0016": "anvil_ecto"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_agua",
+        "WS0002": "anvil_agua",
+        "WS0009": "anvil_aire",
+        "WS0010": "anvil_aire",
+        "WS0020": "anvil_aire",
+        "WS0021": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "anvil_varna",
+        "WS0006": "anvil_varna",
+        "WS0046": "anvil_plasma"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

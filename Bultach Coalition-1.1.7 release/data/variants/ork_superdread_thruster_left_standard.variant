@@ -1,0 +1,43 @@
+{
+  "variantId": "ork_superdread_thruster_left_standard",
+  "hullId": "ork_superdread_thruster_left",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 22,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "ork_rotary_pd_small",
+        "WS0003": "ork_rotary_pd_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mark9",
+        "WS0005": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ork_noshield_large"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ork_light_fighter",
+    "ork_light_fighter",
+    "ork_light_fighter"
+  ]
+}

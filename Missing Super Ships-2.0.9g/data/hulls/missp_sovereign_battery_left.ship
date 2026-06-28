@@ -1,0 +1,74 @@
+{
+  "hullName": "Sovereign Left Battery Module",
+  "hullId": "missp_sovereign_battery_left",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/sovereign/sovereign battery left module.png",
+  "style": "LOW_TECH",
+  "height": 138,
+  "width": 223,
+  "center": [209, 51],
+  "collisionRadius": 156,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hbi",
+	"missp_linked_hull",
+	"always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": 40,
+      "locations": [0, 165]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 82,
+      "angle": 11,
+      "locations": [21, 58]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 18.5,
+      "locations": [17, 106]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -8, 20,
+    -24, 24,
+    -24, 150,
+    -33, 159,
+    -33, 156,
+    -33, 159,
+    -19.5, 172.5,
+    -14.5, 181.5,
+    -5, 188,
+    -5, 194,
+    -10, 201,
+    33, 201,
+    34, 161,
+    44, 148,
+    45, 82,
+    50, 82,
+    64, 70,
+    70, 2,
+    63, 2,
+    57, 9,
+    31, 9.5,
+    16, 0,
+    0, 0
+  ]
+}

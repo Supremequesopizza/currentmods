@@ -1,0 +1,21 @@
+{
+    "id": "exoticatechnologies",
+    "name": "Exotica Technologies",
+    "author": "Made by President Matt Damon, updated by Lukas04",
+    "utility": "false",
+    "version": { "major":"1", "minor": "8", "patch": "7" },
+    "description": "Use and fight against a vast array of technologies installed on ships.",
+    "gameVersion": "0.98a-RC7",
+    "jars":["jars/Exotica-Technologies.jar"],
+    "modPlugin":"exoticatechnologies.ETModPlugin",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+        },
+    ]
+}

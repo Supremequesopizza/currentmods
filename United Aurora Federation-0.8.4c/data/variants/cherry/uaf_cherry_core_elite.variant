@@ -1,0 +1,95 @@
+{
+  "variantId": "uaf_cherry_core_elite",
+  "hullId": "uaf_cherry_core",
+  "displayName": "Cherry Core",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "solar_shielding",
+    "stabilizedshieldemitter",
+    "blast_doors",
+    "efficiency_overhaul",
+    "uaf_auroranEngineering",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "uaf_weiss_flk",
+        "WS0017": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "uaf_chorus_s_amm",
+        "WS0015": "uaf_chorus_s_amm",
+        "WS0018": "uaf_chorus_s_amm",
+        "WS0019": "uaf_chorus_s_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "uaf_claris_cn",
+        "WS0009": "uaf_claris_cn",
+        "WS0012": "uaf_claris_cn",
+        "WS0013": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_tona_i",
+        "WS0007": "uaf_tona_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_weiss_ii_flk",
+        "WS0004": "uaf_weiss_ii_flk",
+        "WS0005": "uaf_weiss_ii_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_triyia_pdx",
+        "WS0002": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "uaf_flair_pod",
+        "WS0011": "uaf_flair_pod"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "CHERRY_MODULE_CENTER": "uaf_cherry_center_elite"
+    },
+    {
+      "CHERRY_MODULE_LEFT": "uaf_cherry_port_left_elite"
+    },
+    {
+      "CHERRY_MODULE_RIGHT": "uaf_cherry_port_right_elite"
+    }
+  ],
+  "wings": [
+  ]
+}

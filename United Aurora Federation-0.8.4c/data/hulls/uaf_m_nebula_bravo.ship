@@ -1,0 +1,202 @@
+{
+  "hullName": "Nebula Bravo (MP)",
+  "hullId": "uaf_m_nebula_bravo",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/uaf_nebula_bravo.png",
+  "style": "UAF_CAPITAL",
+  "height": 523,
+  "width": 280,
+  "center": [140, 263],
+  "collisionRadius": 329.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 265.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": 0,
+      "locations": [208.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": 0,
+      "locations": [186.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 243,
+      "angle": 90,
+      "locations": [-143, 62.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 243,
+      "angle": -90,
+      "locations": [-143, -62.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": 180,
+      "locations": [44.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": -0,
+      "locations": [-59.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-219, 31],
+      "length": 82,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 27,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-219, -31],
+      "length": 82,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-187, 61],
+      "length": 82,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 27,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-187, -61],
+      "length": 82,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [118, 41.5],
+      "length": 22.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [118, -41.5],
+      "length": 22.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [118, 37.5],
+      "length": 22.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [118, -37.5],
+      "length": 22.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -209.5, 16,
+    -230, 16,
+    -230, 46,
+    -224, 50,
+    -196.5, 50,
+    -196.5, 70,
+    -202, 78,
+    -186, 90,
+    -168.5, 90,
+    -144.5, 110,
+    -78, 110,
+    -60, 107,
+    -60, 79,
+    -78.5, 77,
+    -112.5, 77,
+    -112.5, 67.5,
+    -103.5, 62,
+    -103, 67,
+    -16, 67,
+    -16, 39.5,
+    0, 39.5,
+    0, 67,
+    88, 67.5,
+    88.5, 33,
+    105, 33,
+    114, 48.5,
+    151.5, 48.5,
+    198, 24,
+    201.5, 19,
+    237, 1.5,
+    237, -1.5,
+    201.5, -19,
+    198, -24,
+    151.5, -48.5,
+    114, -48.5,
+    105, -33,
+    88.5, -33,
+    88, -67.5,
+    0, -67,
+    0, -39.5,
+    -16, -39.5,
+    -16, -67,
+    -103, -67,
+    -103.5, -62,
+    -112.5, -67.5,
+    -112.5, -77,
+    -78.5, -77,
+    -60, -79,
+    -60, -107,
+    -78, -110,
+    -144.5, -110,
+    -168.5, -90,
+    -186, -90,
+    -202, -78,
+    -196.5, -70,
+    -196.5, -50,
+    -224, -50,
+    -230, -46,
+    -230, -16,
+    -209.5, -16
+  ]
+}

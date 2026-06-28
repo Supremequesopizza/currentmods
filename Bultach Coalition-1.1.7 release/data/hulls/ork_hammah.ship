@@ -1,0 +1,172 @@
+{
+  "hullName": "Hammah",
+  "hullId": "ork_hammah",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ork_hammah.png",
+  "style": "BULTACH",
+  "height": 128,
+  "width": 152,
+  "center": [76, 61],
+  "collisionRadius": 109.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 99,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "Ork_low_Maintenance",
+    "BT_shieldsChanger",
+    "bt_shieldArching"
+  ],
+  "builtInWeapons": {
+    "WS0003": "blinker_red",
+    "WS0005": "blinker_red",
+    "WS0010": "ork_blinker_red",
+    "WS0012": "ork_blinker_green",
+    "WS0013": "ork_blinker_green",
+    "WS0014": "ork_blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [-5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [33, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [33, -18]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [52, 27.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14, 70.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [14.5, -70.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [27.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 60,
+      "locations": [-8, 37]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -60,
+      "locations": [-8, -37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-61.5, 72]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-61.5, -72]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48, 38],
+      "length": 67.5,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 27,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-48, -38],
+      "length": 67.5,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -32.5, -5,
+    -45.5, -23,
+    -46, -49.5,
+    -36.5, -61,
+    -59, -72,
+    1.5, -73.5,
+    43.5, -58,
+    63.5, -41.5,
+    60, -35,
+    41.5, -34.5,
+    61, -0,
+    41.5, 34.5,
+    60, 35,
+    63.5, 41.5,
+    43.5, 58,
+    1.5, 73.5,
+    -59, 72,
+    -36.5, 61,
+    -46, 49.5,
+    -45.5, 23,
+    -32.5, 5
+  ]
+}

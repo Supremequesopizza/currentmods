@@ -1,0 +1,214 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+#unique bulitin#,,,,,,,,,,,,,,,,,,,
+Light Turret Kit,HSI_LightTurret,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.HSILightTurret,,,,
+Heavy Turret Kit,HSI_HeavyTurret,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIHeavyTurret,,,,
+Turbo Focus,HSI_TurboFocus,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSITurboFocus,"Extends the range of the Turbo Cannon by %s. Conquest's Turbo Cannon matches that of the ship's longest-ranged non-missile weapon, capped at 1000",,,graphics/icons/hullmods/HSI_TurboFocus.png
+Coordinated Maneuvers,HSI_CoordManuvers,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSICoordManuvers,"Fighters are catapult-launched when deployed. When returning or regrouping, their maximum speed increases by %s. Fighter maneuverability increases by %s per wing.",,,graphics/icons/hullmods/HSI_CoordManuvers.png
+Flexible Hangar,HSI_FlexibleHangar,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIFlexibleHangarN,"When a hangar is full, provides additional refit speed and deploys reserve fighters.",,,graphics/icons/hullmods/HSI_FlexibleHangar.png
+Torpedo Scheme,HSI_TorpedoDesign,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSITorpedoDesign,"Reduces the ammo capacity of missile weapons by %s, and increases missile top speed and acceleration by half of the energy weapon range bonus. Reduces the ordnance point cost of missile weapons by %s.",,,graphics/icons/hullmods/HSI_TorpedoDesign.png
+Time Anchor,HSI_TimeAnchor,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSITimeAnchor,Peak performance time is unaffected by the flow of time. Reduces the rate of in-combat CR decay after peak performance time runs out by %s.,,,graphics/icons/hullmods/HSI_TimeAnchor.png
+Pocket Capital,HSI_PocketCapital,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIPocketCapital,All medium non-missile weapons deal %s more damage. Increases ammo/charge regeneration rate for non-missile weapons by %s.,,,graphics/icons/hullmods/HSI_PocketCapital.png
+Fearless Machine,HSI_Apocalypse,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIApocalypse,Significantly reduces the time required to repair weapons and engines (in combat). Increases the ship's top speed when the nearest enemy is more than 800su away.,,,graphics/icons/hullmods/HSI_DGS.png
+Drift System,HSI_Drift,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIDrift,"When near an arc cloud, increases the ship's top speed by %s, maneuverability by %s, boost energy weapon rate of fire by %s and reduce energy weapon flux cost by %s.",,,graphics/icons/hullmods/HSI_Drift.png
+Freischütz,HSI_Freischutz,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIFreischutz,Weapons are used to select the type of magic bullet. All weapons share the same cooldown and ammo capacity. Ammo can only be regenerated while the ship is phased. Every 7th bullet targets a random enemy.,,,
+Flanker Strategy,HSI_FlankerStrategy,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIFlankerStrategy,Order the flanker to maintain a certain distance from the target.,,,graphics/icons/hullmods/HSI_DGS.png
+Spirit,HSI_ElegySystem,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIElegySystem,"""Hear that? They're singing.""",,,graphics/icons/hullmods/HSI_ElegySystem.png
+Spare Part Production,HSI_SparePartProduction,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.LogisticsMod.HSISparePartProduction,"Decreases combat readiness consumed by the fleet for entering combat by %s, up to a maximum of %s.
+Number of available ""Combat Auto-Maintenance Systems"" in the fleet is %s.",,,graphics/icons/hullmods/HSI_SparePartProduction.png
+Leviathan Hunter,HSI_LeviathanHunter,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSILeviathanHunter,"Extends weapon range by %s when the tactical system is fully activated.
++%s damage to capital ships and cruisers
+During %s, the tactical system cannot be activated. The ship instead enters Mobility Mode, increasing the ship's top speed by %s and maneuverability by %s.",,,graphics/icons/hullmods/HSI_LeviathanHunter.png
+Light Torpedo Scheme,HSI_LightTorpDesign,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSILightTorpDesign,"Increases the ordnance point cost of guided missile weapons by %s. Missile weapons that regenerate ammo no longer do so, but their ammo is increased by an equivalent of %s seconds of reserves.
+
+Incompatible with Expanded Missile Racks.
+",,,graphics/icons/hullmods/HSI_TorpedoDesign.png
+Arbalétrier,HSI_Arbaletrier,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIArbaletrier,Greatly reduces the time required to repair weapons and engines (in combat).,,,
+Entrophy Feedback System,HSI_EntrophyFeedbackSystem,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIEntrophyFeedbackSystem,,,,graphics/icons/hullmods/HSI_EntrophyFeedback.png
+Matrix Targeting,HSI_MatrixTargeting,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIMatrixTargeting,"When friendly vessels are within approximately %s of this ship, extend their range by %s. Extends the range of this ship by %s.
+Has a well-balanced range.",,,graphics/icons/hullmods/HSI_MatrixTargeting.png
+Enhanced Sensors,HSI_EnhancedSensor,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIEnhancedSensor,Increases the ship's in-combat vision range.,,,
+Abyssal Stalker,HSI_DeepTorpDesign,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIDeepTorpDesign,"Increases missile top speed and acceleration by an amount equal to the energy weapon range bonus, and extends the range of missile weapons by %s of the energy weapon range bonus.
+
+Increases the ordnance point cost of guided missile weapons by %s.
+",,,graphics/icons/hullmods/HSI_TorpedoDesign.png
+Mirage,HSI_Mirage,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.ShieldMod.HSIMirage,"For every %s damage taken before damage reduction, become invincible for %s seconds and gain %s additional barrier.
+
+For every %s hull damage taken, gain %s of the above effect.
+
+Barrier capacity is set to %s.
+
+",,,graphics/icons/hullmods/HSI_Mirage.png
+Daylight Core,HSI_DayTime_Core,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIDayTimeCore,Greatly increases damage to fighters and missiles. Greatly reduces the time required to repair weapons and engines (in combat) as well as overload duration. Embedded with an intelligence of unknown origin.,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+#universal builtin#,,,,,,,,,,,,,,,,,,,
+Halo System,HSI_Halo,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIHaloV2,A versatile hull framework incorporating a wide range of advanced technologies. Reduces the effectiveness of non-native flux modifications by %s.,,,graphics/icons/hullmods/HSI_Halo.png
+E.G.O,HSI_EGO,2,0,Halo Dynamics L Department,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIEGO,[REDACTED],,,graphics/icons/hullmods/HSI_Halo.png
+Entanglement System,HSI_Entanglement,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIEntanglement,"Ship modules enter combat as independent ships and maintain some connection to the main body. Modules do not consume deployment points, and continue to fight even after the main body is destroyed or retreats.",,,graphics/icons/hullmods/HSI_Halo.png
+Contrail,HSI_ContrailMod,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIContrailMod,Mark this ship as requiring a contrail. No other use.,,,graphics/icons/hullmods/HSI_Halo.png
+Drone Ground Support,HSI_DGS,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIDroneGroundSupport,"The ship's drone units will participate in ground combat. Increases the effectiveness of planetary raids by %s per wing, up to the total number of marines in the fleet.",,,graphics/icons/hullmods/HSI_DGS.png
+Shield Link Framework,HSI_ShieldLinkFrame,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,TRUE,0,0,0,0,data.hullmods.ShieldMod.HSIShieldLinkFrame,"A linked shield framework designed for smaller ships. When friendly vessels that also carry this framework are within approximately %s of this ship, mutually replenish shields, at a rate equal to %s of the lower recovery speed among them.",,,graphics/icons/hullmods/HSI_ShieldLinkFrame.png
+3rd Guards Fleet,HSI_GuardFleet3,2,0,,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIGuardFleet3,Immune to the effect operating in a solar corona has on combat readiness. Increases maximum burn in hyperspace by %s.,,,graphics/icons/hullmods/HSI_GuardFleet3.png
+Stalker,HSI_Stalker,2,0,,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIAvangers,"Specially configured subsystems that are installed drastically reduce weapon ranges past %s, increase barrier regeneration by %s, and allows zero-flux engine boost to take effect regardless of flux level. The flux dissipation rate is increased by a factor of %s.
+Side effects reduce barrier capacity by %s, reduce peak performance time by %s, and prevents the use of active venting.
+Incompatible with %s.",,,graphics/icons/hullmods/HSI_Avangers.png
+Elite Foundry,HSI_EliteForge,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,TRUE,0,0,0,0,data.hullmods.ShieldMod.HSIEliteForge,"An elite ship built with bleeding-edge technology. Equipped with an improved barrier system, increasing barrier capacity by %s and barrier regeneration speed by %s.
+
+This ship's barrier can be controlled like shields and will automatically activate while overloaded or actively venting flux. Its damage reduction is calculated solely based on shield damage reduction. If no shield is present, the barrier remains constantly active.",,,graphics/icons/hullmods/HSI_ShieldLinkFrame.png
+1st Guards Fleet,HSI_GuardFleet1,2,0,,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIGuardFleet1,Increases the ship's top speed in combat by %s and maneuverability by %s.,,,graphics/icons/hullmods/HSI_GuardFleet3.png
+Void Shield,VoidShield,2,0,Unknown,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIDeflectionShieldHullMod,There is nothing to see. It is just an ellipse.,,,graphics/icons/hullmods/HSI_HardenShield.png
+Hyper Shunted Permeable Armor,HSI_HyperShuntArmor,2,0,Halo Dynamics Department of Science and Technology,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIHyperShuntArmor,"An advanced armor system with significant drawbacks. Increases maximum damage reduction by armor by %s and reduces damage from beam weapons by %s.
+Allows reactors to slowly vent through the armor, naturally dissipating %s hard flux.
+The complex structure occupies space meant for weapon systems, reducing weapon damage by %s. Additionally, the intricate materials are difficult to maintain, reducing post-battle repair rates by %s.",,,graphics/icons/hullmods/HSI_TurboFocus.png
+Tactical Center,HSI_TacCenter,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSITacCenter,"Reduces the weapon range reduction due to enemy ECM by %s.
+Grants %s ECM rating.
+Increases the ship's in-combat vision range by %s.",,,graphics/icons/hullmods/HSI_MatrixTargeting.png
+Power Projection,HSI_PowerProjection,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIPowerProjection,"Increases fighter engagement range by %s.
+Fighters launched from this ship inherit all of the ship's combat skills.",,,graphics/icons/hullmods/HSI_DGS.png
+Nanofield,HSI_NanoRepairField,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSINanoRepairField,Friendly vessels within %s of this ship restore %s of lost armor and hull per second. This ship repairs at %s speed.,,,graphics/icons/hullmods/HSI_CombatAutomateRepairSystem.png
+Juggernaut Targeting Core,HSI_JuggernautTargetingCore,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.HSIJuggernautTargetingCore,Extends weapon range by %s. The range of point defense-weapons is only extended by %s.,,,graphics/icons/hullmods/HSI_MatrixTargeting.png
+Juggernaut Core,HSI_JuggernautCore,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIJuggernautCore,Unable to use zero-flux engine boost.,,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
+Armored Barrier,HSI_ArmoredShield,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.ShieldMod.HSIArmoredShield,Increases barrier armor by %s.,,,graphics/icons/hullmods/HSI_HardenShield.png
+Mobility Focus,HSI_ManuverTransfer,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.ShieldMod.HSIManuverTransfer,The propulsion system's heavy energy and space demands increase the damage taken by the barrier by %s.,,,graphics/icons/hullmods/HSI_ManuverTransfer.png
+,,,,,,,,,,,,,,,,,,,
+#normal#,,,,,,,,,,,,,,,,,,,
+Unstoppable,HSI_PowerOverwhelming,2,,Halo Dynamics Ship Industry,"defensive,offensive",,15000,,TRUE,,5,10,15,25,data.hullmods.ShieldMod.HSIPowerOverwhelming,"Increases barrier capacity by %s, decreases barrier regeneration by %s,",,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
+Weapons Industry Adaptation Kit,HSI_WeaponIndAdaption,3,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",Weapons,25000,TRUE,,,0,0,0,0,data.hullmods.HSIWeaponIndAdaption,"Convert some weapons into modified versions provided by the Weapons Industry.
+#Modified weapons cannot be safely removed. Please uninstall this hullmod before attempting removal.
+##Weapons Industry shall not be held liable for any loss incurred as a result of improper procedures.",,,graphics/icons/hullmods/HSI_WeaponIndAdaption.png
+Weapons Industry Upgrade Kit,HSI_WeaponIndUpgrades,3,,Halo Dynamics Ship Industry,"special,req_spaceport,no_drop, no_drop_salvage",,35000,,TRUE,,5,8,14,20,data.hullmods.HSIWeaponIndUpgrades,Activates the weapon's %s effect.,,,graphics/icons/hullmods/HSI_WeaponIndUpgrades.png
+Hardened Barrier,HSI_HardenShield,2,,Halo Dynamics Ship Industry,"defensive,HSI_bp",Shields,12000,,,,5,10,15,25,data.hullmods.ShieldMod.HSIHardenShield,"Increases barrier strength by %s.
+Damage to the barrier above %s is reduced by %s.
+",,,graphics/icons/hullmods/HSI_HardenShield.png
+Enhanced Barrier,HSI_EnhancedShield,2,,Halo Dynamics Ship Industry,"defensive,HSI_bp",Shields,12000,,,,5,10,15,25,data.hullmods.ShieldMod.HSIEnhancedShield,Increases barrier capacity by %s. Increases barrier regeneration by %s.,,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
+,,,,,,,,,,,,,,,,,,,graphics/icons/hullmods/HSI_WeaponIndUpgrades.png
+Meltdown Protocol,HSI_ProtocalMeltDown,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,4,8,12,20,data.hullmods.WeaponMod.HSIProtocalMeltDown,"Beam weapons deal up to %s more damage based on the ratio of weapon slots occupied by Halo Dynamics beam weapons.
+
+Enhances the additional effects of Halo Dynamics beam weapons by %s.
+
+Current weapon slot ratio: %s.",,,graphics/icons/hullmods/HSI_ProtocalMeltdown.png
+Assault Protocol,HSI_ProtocalAssault,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,2,4,6,10,data.hullmods.WeaponMod.HSIProtocalAssault,"Increases the rate of fire of ballistic and energy weapons as flux levels rise, up to a maximum of %s at %s flux.
+",,Also provides a equivalent flux cost reduction of up to %s to the weapons.,graphics/icons/hullmods/HSI_WeaponIndUpgrades.png
+Suppression Protocol,HSI_ProtocalSuppression,2,,Halo Dynamics Ship Industry,"offensive,req_spaceport,HSI_bp",Weapons,12000,,,,2,4,6,10,data.hullmods.WeaponMod.HSIProtocalSuppression,"When dealing damage to a target more than %s su from this ship, the target gains the [Coordinated Suppression] effect for a set duration.
+Each stack of [Coordinated Suppression] increases all damage taken by the target to its %s based on the hull size of the source. The duration of [Coordinated Suppression] can be refreshed, and a maximum of %s stacks from different sources can be applied, with only the highest value being applied.
+",,Applies an extra stack of [Coordinated Suppression] with %s of the effect of a regular stack to the target. Does not count toward the stack limit.,graphics/icons/hullmods/HSI_ProtocalSuppression.png
+净空升级,,,,,,,,,,,,,,,,,,,
+蔽日升级,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+梯度转向系统,,,,,,,,,,,,,,,,,,,
+微型滑流发生器,,,,,,,,,,,,,,,,,,,
+压差感应电场,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+#limit#,,,,,,,,,,,,,,,,,,,
+Automated Combat Repair System,HSI_CombatAutomateRepairSystem,2,0,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage,req_spaceport,no_build_in",,0,TRUE,,,5,10,15,20,data.hullmods.LogisticsMod.HSICombatAutomateRepairSystem,"Automatically repairs armor lost during combat, with total repair up to approximately %s of maximum armor. Total repaired will not be less than %s and will not exceed %s.
+Repairs begin immediately after armor is damaged, restoring armor cells one by one from left to right, bottom to top, at a rate of %s per second.
+Increases the speed at which weapons and engines are repaired (in combat) by %s.",,,graphics/icons/hullmods/HSI_CombatAutomateRepairSystem.png
+,,,,,,,,,,,,,,,,,,,
+#special,,,,,,,,,,,,,,,,,,,
+Hidden Hardpoint,HSI_HiddenHardpoint,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIHiddenHardpoints,The hardpoint is hidden inside the ship's hull.,,,
+Teleport Effect,HSI_DisplacerExtendFx,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIDisplacerExtendFx,Rendering effects.,,,
+Vent Effect,HSI_SpecialVent,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.FxMod.HSISpecialVentMod,Rendering effects.,,,
+Fighter Return,HSI_ReturnFighter,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIReturnFighter,Return when out of ammunition.,,,
+Longevity,HSI_InfiniteSync,2,,??,"special, no_drop, no_drop_salvage",,0,,TRUE,,0,0,0,0,data.hullmods.HSIInfiniteSync,"""I'm tired of your little games.""",,,
+Dreadnought Module,HSI_ModularDreadnought,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.ShieldMod.HSIModularDreadnought,"The Ukiyo-class is an advanced modular dreadnought that can be refitted in any standard dock. While docked, it can switch between three different tactical modes by installing one of three special hullmods. Any switch will unload all system modifications, fighters, and incompatible weapons.",,,graphics/icons/hullmods/HSI_PowerOverwhelming.png
+Self-Destruct Canceller,HSI_ModularArmorSpecial,2,,Halo Dynamics Ship Industry,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIModularArmorSpecial,Virtually no self-detonation.,,,
+Ukiyo-Assault,HSI_Ukiyo_TypeA,2,,Halo Dynamics Ship Industry,"special,req_spaceport,no_drop, no_drop_salvage",,0,TRUE,,,0,0,0,0,data.hullmods.HSIUkiyoSig,"Convert the Ukiyo-class to Assault Mode. This configuration focuses on electronic warfare and fleet firepower enhancement, boosting the performance of friendly vessels in conventional firefights.",,,graphics/icons/hullmods/HSI_MatrixTargeting.png
+Ukiyo-Carrier,HSI_Ukiyo_TypeB,2,,Halo Dynamics Ship Industry,"special,req_spaceport,no_drop, no_drop_salvage",,0,TRUE,,,0,0,0,0,data.hullmods.HSIUkiyoSig,"Convert the Ukiyo-class to Carrier Mode. This configuration focuses on extending fleet awareness and launching full-deck assaults, but requires support from friendly carriers built with similar operational philosophy.",,,graphics/icons/hullmods/HSI_DGS.png
+Ukiyo-Heavy,HSI_Ukiyo_TypeC,2,,Halo Dynamics Ship Industry,"special,req_spaceport,no_drop, no_drop_salvage",,0,TRUE,,,0,0,0,0,data.hullmods.HSIUkiyoSig,Convert the Ukiyo-class to Heavy Mode. This configuration focuses on sustained combat and survivability.,,,graphics/icons/hullmods/HSI_CombatAutomateRepairSystem.png
+Adventure Mode Projection,HSI_AdventureEnemy,2,0,Stella Arena,"special, no_drop, no_drop_salvage",,0,,TRUE,TRUE,0,0,0,0,data.hullmods.HSIAdventureEnemy,Hunting time?,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,

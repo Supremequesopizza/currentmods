@@ -1,0 +1,33 @@
+{
+	"id":"uaf_tona_iv",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/Tona III RG/med_tonaiii_rg_turret_base.png",
+	"turretGunSprite":"graphics/weapons/Tona III RG/med_tonaiii_rg_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/Tona III RG/med_tonaiii_rg_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/Tona III RG/med_tonaiii_rg_hardpoint_recoil.png",
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[-6, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[-6, 0],
+	"hardpointAngleOffsets":[0],
+	"renderHints":[
+		RENDER_BARREL_BELOW
+	],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+  	"muzzleFlashSpec": {
+    	"length": 120,
+    	"spread": 6,
+    	"particleSizeMin": 30,
+    	"particleSizeRange": 60,
+    	"particleDuration": 0.2,
+    	"particleCount": 60,
+    	"particleColor": [132,183,255,255]
+  	},
+	"projectileSpecId":"uaf_pu_ash_xl_piercing",  # projectile that will be fired
+	"fireSoundOne":"uaf_ru_tona_iii_608",
+	"fireSoundTwo":"uaf_tona_iv_608",
+	"everyFrameEffect":"org.niatahl.uaf.weapons.uaf_railWeaponEffect",
+}

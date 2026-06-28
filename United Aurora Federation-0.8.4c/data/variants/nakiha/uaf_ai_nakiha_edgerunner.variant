@@ -1,0 +1,64 @@
+{
+    "displayName": "Edgerunner",
+    "fluxCapacitors": 2,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "uaf_ai_nakiha",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "uaf_special_edge_capacitor_retrofit"
+    ],
+    "quality": 0.8,
+    "variantId": "uaf_ai_nakiha_edgerunner",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_vocal_s_srm",
+                "WS0006": "uaf_exoscar_torpedo_base"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "uaf_clemente_nakiha",
+                "WS0008": "uaf_clemente_nakiha"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_edge_type_i",
+                "WS0002": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_merupaka_epd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

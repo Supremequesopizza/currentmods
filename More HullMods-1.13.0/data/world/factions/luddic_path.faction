@@ -1,0 +1,20 @@
+{
+    "knownHullMods": {
+        "hullMods": [
+            "mhmods_antiarmorgammunition",
+            "mhmods_bombardmentpackage",
+            "mhmods_explorationrefit",
+            "mhmods_hullfoam",
+            "mhmods_integratedarmor",
+            "mhmods_splitChamber",
+            "mhmods_torpedospec",
+            "mhmods_unstableshields",
+            "mhmods_voltageregulationsystem"
+        ]
+    },
+    "hullmodSellFrequency": {
+        "mhmods_bombardmentpackage": 10,
+        "mhmods_integratedarmor": 10,
+        "mhmods_torpedospec": 10
+    }
+}

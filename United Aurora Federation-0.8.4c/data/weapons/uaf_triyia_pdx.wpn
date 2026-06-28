@@ -1,0 +1,65 @@
+{
+  "id": "uaf_triyia_pdx",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_pd_lg",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.weapons.uaf_Triyiagfx",
+  "turretSprite": "graphics/weapons/Triyia PDX/triyia_pdx_turret_recoil_00.png",
+  "turretGlowSprite": "graphics/weapons/Triyia PDX/triyia_pdx_turret_glow.png",
+  "turretGunSprite": "graphics/weapons/Triyia PDX/triyia_pdx_turret.png",
+  "hardpointSprite": "graphics/weapons/Triyia PDX/triyia_pdx_hardpoint_recoil_00.png",
+  "hardpointGlowSprite": "graphics/weapons/Triyia PDX/triyia_pdx_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/weapons/Triyia PDX/triyia_pdx_hardpoint.png",
+  "glowColor": [
+    255,
+    105,
+    95,
+    90
+  ],
+  "visualRecoil": 12,
+  "renderHints": [
+    SUSPEND_RECOIL
+  ],
+  "turretOffsets": [
+    16.5,
+    4.5,
+    16.5,
+    -4.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    24.5,
+    4.5,
+    24.5,
+    -4.5
+  ],
+  "hardpointAngleOffsets": [
+    2,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "GLOW_AND_FLASH",
+  "numFrames": 12,
+  "frameRate": 40,
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 5,
+    "particleSizeMin": 5,
+    "particleSizeRange": 10,
+    "particleDuration": 0.05,
+    "particleCount": 4,
+    "particleColor": [
+      170,
+      160,
+      150,
+      100
+    ]
+  },
+  "fireSoundTwo": "uaf_triyia_30"
+}

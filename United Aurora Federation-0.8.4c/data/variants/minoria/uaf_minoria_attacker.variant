@@ -1,0 +1,33 @@
+{
+    "displayName": "Attacker",
+    "fluxCapacitors": 3,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "uaf_minoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_light_wing_operation"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_minoria_attacker",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina_ii"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_noversky",
+        "uaf_wing_m_aria"
+    ]
+}

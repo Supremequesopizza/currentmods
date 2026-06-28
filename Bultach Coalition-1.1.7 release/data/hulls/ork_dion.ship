@@ -1,0 +1,44 @@
+{
+  "hullName": "Dion",
+  "hullId": "ork_dion",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/gestalt/ork_dion.png",
+  "style": "GESTALT",
+  "height": 18,
+  "width": 18,
+  "center": [9, 9],
+  "collisionRadius": 14,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 13,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger_Gestalt",
+    "no_weapon_flux",
+    "axialrotation",
+    "bt_gestalt_drone_afterimages",
+    "turretgyros"
+  ],
+  "builtInWeapons": {
+    "WS0002": "ork_lub_pd"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -7, -3,
+    0, -8.5,
+    7, -3,
+    7, 3,
+    0, 8.5,
+    -7, 3
+  ]
+}

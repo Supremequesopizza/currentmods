@@ -1,0 +1,178 @@
+{
+  "hullName": "Vachasya (SP)",
+  "hullId": "uaf_ai_vachasya",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/uaf_ai_vachasya.png",
+  "style": "UAF_FRIGATE_AUTOMATA",
+  "height": 246,
+  "width": 164,
+  "center": [82, 123],
+  "collisionRadius": 168.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 129.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "uaf_aegis_concord"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [22, -42.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [22, 42.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [-9, 61]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-9, -61]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-58, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-8, -27]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [22, -0],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [47, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [70, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91, -32.5],
+      "length": 53,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-91, 32.5],
+      "length": 53,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-99, -8.5],
+      "length": 32,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-99, 8.5],
+      "length": 32,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-98.5, -0],
+      "length": 64,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "MELODY_ENGINE"
+    }
+  ],
+  "bounds": [
+    -109.5, 19,
+    -91, 19,
+    -88.5, 21,
+    -102.5, 26,
+    -102.5, 39,
+    -84.5, 52,
+    -54.5, 52,
+    -50.5, 47,
+    -33, 47,
+    -24, 66.5,
+    -12.5, 66.5,
+    9.5, 40,
+    52.5, 24.5,
+    102, 13,
+    82, 3,
+    82, -3,
+    102, -13,
+    52.5, -24.5,
+    9.5, -40,
+    -12.5, -66.5,
+    -24, -66.5,
+    -33, -47,
+    -50.5, -47,
+    -54.5, -52,
+    -84.5, -52,
+    -102.5, -39,
+    -102.5, -26,
+    -88.5, -21,
+    -91, -19,
+    -109.5, -19
+  ]
+}

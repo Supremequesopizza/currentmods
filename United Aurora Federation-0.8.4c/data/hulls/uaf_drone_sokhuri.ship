@@ -1,0 +1,96 @@
+{
+  "hullName": "Sokhuri",
+  "hullId": "uaf_drone_sokhuri",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_drone_sokhuri.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 33,
+  "width": 30,
+  "center": [15, 15],
+  "collisionRadius": 23,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_cantata_cn",
+    "WS0002": "uaf_claris_cn",
+    "WS0003": "uaf_weiss_flk",
+    "WS0004": "uaf_weiss_flk"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -0,
+      "locations": [5, 9]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -0,
+      "locations": [5, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -0,
+      "locations": [8, 7.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": 0,
+      "locations": [8, -7.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, -0],
+      "length": 14,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MELODY_ENGINE_F"
+    },
+    {
+      "location": [-8, 4],
+      "length": 14,
+      "width": 4,
+      "angle": 163.5,
+      "contrailSize": 4,
+      "style": "MELODY_ENGINE_F"
+    },
+    {
+      "location": [-8, -4],
+      "length": 14,
+      "width": 4,
+      "angle": -163.5,
+      "contrailSize": 4,
+      "style": "MELODY_ENGINE_F"
+    }
+  ],
+  "bounds": [
+    -11.5, 7.5,
+    -1, 13.5,
+    3, 13.5,
+    14, -0,
+    3, -13.5,
+    -1, -13.5,
+    -11.5, -7.5
+  ]
+}

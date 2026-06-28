@@ -1,0 +1,19 @@
+{
+	"id":"uaf_du_shot_medium_flame",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	#"onHitEffect":"uaf.data.scripts.weapons.APOnHit",
+	"length":40.0,
+	"hitGlowRadius":38,
+	"width":6.5,
+	"fadeTime":0.20,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[255, 184, 66,240],
+	"coreColor":[255,255,175,240],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_medium.png"
+}

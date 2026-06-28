@@ -1,0 +1,16 @@
+{
+	#this is for pd small-green color
+	"id":"uaf_pu_pd_sm_i",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":65,
+	"hitGlowRadius":5,
+	"width":4.8,
+	"fadeTime":0.30,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[76, 255, 199,125],
+	"coreColor":[156, 255, 100,120],	
+}

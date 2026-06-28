@@ -1,0 +1,16 @@
+{
+    "knownHullMods":{
+        "hullMods":[
+		"mhmods_antiarmorgammunition",
+		"mhmods_bombardmentpackage",
+		"mhmods_emergencyventingsystem",
+		"mhmods_explorationrefit",
+		"mhmods_fluxbooster",
+		"mhmods_FuelAdditive",
+		"mhmods_hullfoam",
+		"mhmods_integratedarmor",
+		"MHMods_prefabricator",
+		"mhmods_particleaccelerator",
+        ],
+    },
+},

@@ -1,0 +1,325 @@
+{
+  "hullName": "Tsutsumu",
+  "hullId": "uaf_tsutsumu_l",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/uaf_l_tsutsumu.png",
+  "style": "UAF_CAPITAL",
+  "height": 528,
+  "width": 322,
+  "center": [161, 262.5],
+  "collisionRadius": 305.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 269,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_increased_explosion",
+    "uaf_auroranEngineering"
+  ],
+  "builtInWeapons": {
+    "WS0011": "uaf_flair_pod",
+    "WS0012": "uaf_flair_pod",
+    "WS0015": "uaf_flair_pod",
+    "WS0016": "uaf_flair_pod"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 90,
+      "locations": [
+        -100, 91,
+        -100, 95.5
+      ]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 90,
+      "locations": [
+        -120.5, 91,
+        -121, 95.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-181, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-205.5, -23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-205.5, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-236.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 90,
+      "locations": [141.5, 64]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -90,
+      "locations": [141.5, -64]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-8.5, 62]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-8.5, -62]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-67.5, 62]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-67.5, -62]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [43, 22]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [43, -22]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-67, 22]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-67, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-154.5, 65.5],
+      "length": 98.5,
+      "width": 41,
+      "angle": 180,
+      "contrailSize": 41,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-154.5, -65.5],
+      "length": 98.5,
+      "width": 41,
+      "angle": -180,
+      "contrailSize": 41,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-154.5, 59],
+      "length": 20.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-154.5, -59],
+      "length": 20.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-154.5, 73],
+      "length": 20.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-154.5, -73],
+      "length": 20.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [123.5, 78.5],
+      "length": 30.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [123.5, -78.5],
+      "length": 30.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [123.5, 83],
+      "length": 30.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [123.5, -83],
+      "length": 30.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [123.5, 98],
+      "length": 30.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [123.5, -98],
+      "length": 30.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [123.5, 102],
+      "length": 30.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [123.5, -102],
+      "length": 30.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -258.5, 14.5,
+    -246, 23,
+    -218, 23,
+    -210, 34.5,
+    -176, 34,
+    -170, 84,
+    -135, 92,
+    -110, 92,
+    -109.5, 118.5,
+    87.5, 118.5,
+    87.5, 77.5,
+    112, 77.5,
+    127, 117.5,
+    164, 117.5,
+    191.5, 42.5,
+    176, 37,
+    231.5, -0,
+    176, -37,
+    191.5, -42.5,
+    164, -117.5,
+    127, -117.5,
+    112, -77.5,
+    87.5, -77.5,
+    87.5, -118.5,
+    -109.5, -118.5,
+    -110, -92,
+    -135, -92,
+    -170, -84,
+    -176, -34,
+    -210, -34.5,
+    -218, -23,
+    -246, -23,
+    -258.5, -14.5
+  ]
+}

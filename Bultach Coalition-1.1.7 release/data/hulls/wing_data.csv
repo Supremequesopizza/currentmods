@@ -1,0 +1,14 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+ork_light_fighter,ork_light_fighter_standard,"fighter5, fighter, low, ork_project_bp",0,,7,8,V,4000,500,,4,FIGHTER,Fighter,7,7000,,,,,,,,,,,,,1
+ork_heavy_fighter,ork_heavy_fighter_standard,"fighter7, fighter, low, ork_project_bp",0,,13,14,V,4000,650,,3,FIGHTER,Heavy Fighter,10,10000,,,,,,,,,,,,,1
+ork_heavy_fighter_drone,ork_heavy_fighter_drone_standard,"fighter9, fighter, low",0,,15,20,V,4000,750,,3,FIGHTER,Heavy Fighter Drone,7,12500,,,,,,,,,,,,,1
+ork_bomber,ork_bomber_standard,"bomber8, bomber, low, ork_project_bp",0,,13,16,V,4000,2000,,2,BOMBER,Bomber,22,10000,,,,,,,,,,,,,1
+ork_defense_drone,ork_defense_drone_standard,"no_drop, no_sell, high",0,,4,0,V,0,500,,2,SUPPORT,Drone,16,1500,,,,,,,,,,,,,17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ork_dion,ork_dion_standard,"stay_in_front_of_ship, support5, fighter, low, drone, auto_fighter, no_drop, no_sell",2,,8,16,BOX,0,400,,2,SUPPORT,Defense Drone,10,15000,,,,,,,,,,,,,
+ork_dean,ork_dean_standard,"fighter12, low, drone, auto_fighter, no_drop, no_sell",2,,9,22,V,0,2000,,3,FIGHTER,Assault Drone,16,17000,,,,,,,,,,,,,
+ork_vortex_drone,ork_vortex_drone_standard,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, independent_of_carrier, restricted, hide_in_codex",0,,6,10,BOX,100000,,,1,FIGHTER,Temporal Vortex,20,20000,,,,,,,,,,,,,34
+ork_convergence_swarm,ork_convergence_swarm_standard,"no_drop, no_sell, swarm_fighter, restricted, hide_in_codex",0,,6,10,BOX,100000,700,,1,FIGHTER,Convergence,20,20000,,,,,,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,33

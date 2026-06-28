@@ -1,0 +1,399 @@
+{
+  "hullName": "Isenoria (MP)",
+  "hullId": "uaf_m_isenoria",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Special/isenoria/uaf_m_isenoria.png",
+  "style": "UAF_CAPITAL",
+  "height": 482,
+  "width": 288,
+  "center": [144, 241],
+  "collisionRadius": 273,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 244.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade",
+    "uaf_isenoria_manual_override"
+  ],
+  "builtInWings": [
+    "uaf_wing_m_rafflesya"
+  ],
+  "builtInWeapons": {
+    "LANDING_ARROW_GUIDE_ONE": "uaf_isenoria_landing_arrow_1",
+    "LANDING_ARROW_GUIDE_TWO": "uaf_isenoria_landing_arrow_2",
+    "LANDING_ARROW_GUIDE_THREE": "uaf_isenoria_landing_arrow_3",
+    "LARGE_CIRCLE_LIGHT_DOCK": "uaf_isenoria_landing_pad_light_circle_large",
+    "SMALL_CIRCLE_LIGHT_DOCK": "uaf_isenoria_landing_pad_light_circle_small",
+    "RAFFLESYA_DOCK": "uaf_rafflesya_anchor"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -32,
+      "locations": [17, -47]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 32,
+      "locations": [17, 47]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 18,
+      "locations": [65, 51]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -18,
+      "locations": [65, -51]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 18,
+      "locations": [102, 43]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -18,
+      "locations": [102, -43]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -45,
+      "locations": [-21, -100]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 45,
+      "locations": [-21, 100]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [143, -42]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [143, 42]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [86, -74]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [86, 74]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [58, -85]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [58, 85]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-109, -118]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-109, 118]
+    },
+    {
+      "id": "PORT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-97, 92],
+      "renderOrderMod": 120
+    },
+    {
+      "id": "STARBOARD",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-97, -92],
+      "renderOrderMod": 120
+    },
+    {
+      "id": "RAFFLESYA_DOCK",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-127.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-118.5, -0]
+    },
+    {
+      "id": "ISENORIA_DECO_COUNTER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-60, -0]
+    },
+    {
+      "id": "LARGE_CIRCLE_LIGHT_DOCK",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-120, -0]
+    },
+    {
+      "id": "SMALL_CIRCLE_LIGHT_DOCK",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-120, -0]
+    },
+    {
+      "id": "LANDING_ARROW_GUIDE_ONE",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-210.5, -0]
+    },
+    {
+      "id": "LANDING_ARROW_GUIDE_TWO",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-194, -0]
+    },
+    {
+      "id": "LANDING_ARROW_GUIDE_THREE",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-176, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-156, -102],
+      "length": 36.653191,
+      "width": 8.436526,
+      "angle": -160,
+      "contrailSize": 8.436526,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-156, 102],
+      "length": 36.653191,
+      "width": 8.436526,
+      "angle": 160,
+      "contrailSize": 8.436526,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-161, -87],
+      "length": 36.653191,
+      "width": 8.436526,
+      "angle": -160,
+      "contrailSize": 8.436526,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-161, 87],
+      "length": 36.653191,
+      "width": 8.436526,
+      "angle": 160,
+      "contrailSize": 8.436526,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-165, -73],
+      "length": 36.653191,
+      "width": 8.436526,
+      "angle": -160,
+      "contrailSize": 8.436526,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-165, 73],
+      "length": 36.653191,
+      "width": 8.436526,
+      "angle": 160,
+      "contrailSize": 8.436526,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-213, -30.5],
+      "length": 62.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-213, 30.5],
+      "length": 62.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-220.5, -5.5],
+      "length": 106.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-220.5, 5.5],
+      "length": 106.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MELODY_ENGINE"
+    }
+  ],
+  "bounds": [
+    -238, 12,
+    -225, 24,
+    -232, 45.5,
+    -162, 45.5,
+    -144.5, 58,
+    -176.5, 71,
+    -164.5, 112.5,
+    -146, 113,
+    -129, 133.5,
+    -114, 133.5,
+    -63.5, 112.5,
+    -34.5, 112.5,
+    -27, 125.5,
+    14, 126,
+    38.5, 99,
+    45, 105.5,
+    193.5, 58,
+    204, 28,
+    115, 25.5,
+    97, 29,
+    90, 23,
+    90, 16,
+    48, 14.5,
+    61, -0,
+    48, -14.5,
+    90, -16,
+    90, -23,
+    97, -29,
+    115, -25.5,
+    204, -28,
+    193.5, -58,
+    45, -105.5,
+    38.5, -99,
+    14, -126,
+    -27, -125.5,
+    -34.5, -112.5,
+    -63.5, -112.5,
+    -114, -133.5,
+    -129, -133.5,
+    -146, -113,
+    -164.5, -112.5,
+    -176.5, -71,
+    -144.5, -58,
+    -162, -45.5,
+    -232, -45.5,
+    -225, -24,
+    -238, -12
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "uaf_exoscar_torpedo_large",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_exoscar_torp",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Missiles/exoscar_dual_large_asm/uaf_exoscar_l_asm.png",
+  "hardpointSprite": "graphics/weapons/Missiles/exoscar_dual_large_asm/uaf_exoscar_l_asm_hardpoint.png",
+  "turretOffsets": [
+    10.5,
+    7.5,
+    12.5,
+    5.5,
+    10.5,
+    -8,
+    12.5,
+    -5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    7.5,
+    22.5,
+    5.5,
+    22.5,
+    -5.5,
+    20,
+    -7.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "SMOKE",
+  "requiresFullCharge": false,
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "uaf_exoscar_missile"
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Supression",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "hullId": "supportships_apsis",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "supportships_apsis_Supression",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ionbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "gazerpod",
+                "WS0005": "gazerpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lrpdlaser",
+                "WS0006": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": ["claw_wing"]
+}

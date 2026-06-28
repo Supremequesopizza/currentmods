@@ -1,0 +1,29 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "hullId": "missp_sovereign_propulsion_right",
+    "hullMods": [
+        "insulatedengine",
+        "expanded_deck_crew",
+        "armoredweapons",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_sovereign_propulsion_right_Elite",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0002": "dualflak",
+            "WS0003": "vulcan",
+            "WS0006": "vulcan"
+        }
+    }],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

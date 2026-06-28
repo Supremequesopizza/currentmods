@@ -1,0 +1,76 @@
+{
+  "variantId": "uaf_supercap_nvi_left_section_standard",
+  "hullId": "uaf_supercap_nvi_left_section",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "targetingunit",
+    "recovery_shuttles",
+    "uaf_reserve_wing_operation"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_edge_type_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_edge_type_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_vocal_m_srm",
+        "WS0008": "uaf_merupaka_epd",
+        "WS0009": "uaf_merupaka_epd",
+        "WS0010": "uaf_chorus_m_amm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_ai_naga",
+    "uaf_wing_ai_naga",
+    "uaf_wing_ai_naga"
+  ]
+}

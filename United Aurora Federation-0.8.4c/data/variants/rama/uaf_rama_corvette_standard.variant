@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "uaf_rama_corvette",
+    "hullMods": [
+        "targetingunit",
+        "insulatedengine",
+        "blast_doors",
+        "armoredweapons"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_rama_corvette_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_vocal_s_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

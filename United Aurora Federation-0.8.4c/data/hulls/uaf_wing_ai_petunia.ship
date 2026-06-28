@@ -1,0 +1,140 @@
+{
+  "hullName": "Petunia (SP)",
+  "hullId": "uaf_wing_ai_petunia",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ai_wing_petunia.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 100,
+  "width": 92,
+  "center": [46, 50],
+  "collisionRadius": 72.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 56.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_gunship_mod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [20.5, -4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [20.5, 4.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 77,
+      "angle": -31.5,
+      "locations": [22, -16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 77,
+      "angle": 31.5,
+      "locations": [22, 16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 50,
+      "angle": -0,
+      "locations": [24, 13]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 50,
+      "angle": 0,
+      "locations": [24, -13]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [14, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 126,
+      "angle": 55,
+      "locations": [20, 19]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 126,
+      "angle": -55,
+      "locations": [20, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, -28],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-27, 28],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-30, 25],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-30, -25],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    1.5, 39,
+    -50, -0,
+    1.5, -39,
+    49, -0
+  ]
+}

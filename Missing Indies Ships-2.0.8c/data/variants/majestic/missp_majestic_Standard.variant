@@ -1,0 +1,59 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 3,
+    "fluxVents": 50,
+    "hullId": "missp_majestic",
+    "hullMods": [
+        "targetingunit",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_majestic_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "harpoonpod",
+                "WS0006": "harpoonpod",
+                "WS0007": "harpoonpod",
+                "WS0008": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hellbore",
+                "WS0002": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mark9",
+                "WS0004": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "flak",
+                "WS0010": "flak",
+                "WS0011": "flak",
+                "WS0012": "flak",
+                "WS0013": "flak",
+                "WS0014": "flak",
+                "WS0015": "mininglaser",
+                "WS0016": "mininglaser",
+                "WS0017": "mininglaser",
+                "WS0018": "mininglaser",
+                "WS0019": "mininglaser",
+                "WS0020": "mininglaser"
+            }
+        }
+    ]
+}

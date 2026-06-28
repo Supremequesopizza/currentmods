@@ -1,0 +1,40 @@
+{
+  "hullName": "Arm Module",
+  "hullId": "ork_despot_bicep_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/despot/ork_despot_bicep_r.png",
+  "style": "LOW_TECH",
+  "height": 116,
+  "width": 72,
+  "center": [27.5, 37.5],
+  "collisionRadius": 103,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 63,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "bt_stolen_blastdampeners"
+  ],
+  "weaponSlots": [
+    {
+      "id": "HAND",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 139,
+      "locations": [53, -3]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    73.5, 4.5,
+    54.5, 22.5,
+    -7.5, 24.5,
+    -27.5, 17,
+    -33.5, -4.5,
+    -15, -23,
+    42, -39,
+    66, -27
+  ]
+}

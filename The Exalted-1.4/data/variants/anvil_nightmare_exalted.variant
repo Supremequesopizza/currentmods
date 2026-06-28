@@ -1,0 +1,63 @@
+{
+  "displayName": "Exalted",
+  "fluxCapacitors": 40,
+  "fluxVents": 21,
+  "goalVariant": true,
+  "hullId": "anvil_nightmare",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_nightmare_exalted",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "anvil_voodoo_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "reaper",
+        "WS0010": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_agua",
+        "WS0002": "anvil_agua",
+        "WS0003": "anvil_fuego",
+        "WS0004": "anvil_fuego"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "anvil_ecto",
+        "WS0006": "anvil_ecto"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "anvil_varna",
+        "WS0008": "anvil_varna"
+      }
+    }
+  ],
+  "wings": [
+    "anvil_delusion",
+    "anvil_delusion",
+    "anvil_delusion",
+    "anvil_wisp",
+    "anvil_delusion",
+    "anvil_delusion"
+  ]
+}

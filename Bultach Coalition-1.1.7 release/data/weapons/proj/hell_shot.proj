@@ -1,0 +1,22 @@
+{
+	"id":"hell_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.scripts.weapons.ork_TripleOnHitEffect",
+	"length":100.0,
+	"hitGlowRadius":250.0,
+	"width":28.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,0,255,150],
+	#"coreColor":[255,175,255,255],
+	"coreColor":[255,175,255,255],
+	"glowColor":[255,0,255,150],
+	"glowRadius":120,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png"
+	#"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}

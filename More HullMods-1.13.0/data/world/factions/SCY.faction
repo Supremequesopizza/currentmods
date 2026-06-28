@@ -1,0 +1,23 @@
+{
+    "knownHullMods":{
+        "hullMods":[
+		"mhmods_antiarmorgammunition",
+		"mhmods_bombardmentpackage",
+		"mhmods_emergencyventingsystem",
+		"mhmods_explorationrefit",
+		"mhmods_fluxbooster",
+		"mhmods_fluxoverdrive",
+		"mhmods_FuelAdditive",
+		"mhmods_hyperengineupgrade",
+		"mhmods_hullfoam",
+		"mhmods_integratedarmor",
+		"MHMods_prefabricator",
+		"mhmods_particleaccelerator",
+		"mhmods_splitChamber",
+		"mhmods_torpedospec",
+		"mhmods_unstableshields",
+		"mhmods_weaponinhibitor",
+		"mhmods_stiffMounts"
+        ]
+    }
+}

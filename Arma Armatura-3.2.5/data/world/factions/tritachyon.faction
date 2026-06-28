@@ -1,0 +1,39 @@
+{
+    "variantOverrides":{
+        "armaa_garegga_tt_standard":5,
+	"armaa_garegga_tt_assault":2,
+    },
+    "hullFrequency":{
+        "hulls":{
+            "armaa_garegga_tt":0.3,
+	    "armaa_altagrave":0.4,
+            "armaa_garegga_tt_carrier":0.2,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "armaa_garegga_tt",
+	    "armaa_aleste_frig",
+	    "armaa_altagrave",
+	    "armaa_einhander",
+            "armaa_garegga_tt_carrier",
+	    "armaa_kouto_frig",
+        ],
+    },
+
+	"knownFighters":{
+		#"tags":["armaa_cataphract_bp"],
+		"fighters":
+		[
+			"armaa_kouto_wing",
+			"armaa_aleste_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":
+		[
+			"armaa_kouto_wing",
+		],
+	},
+},

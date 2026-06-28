@@ -1,0 +1,50 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "uaf_moraffia",
+    "hullMods": [
+        "targetingunit",
+        "reinforcedhull",
+        "blast_doors"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_moraffia_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_clemente_base",
+                "WS0004": "uaf_selemene_s_mrm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_vocal_m_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_ivory",
+                "WS0002": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_pd_reina",
+                "WS0006": "uaf_pd_reina"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_superaria"
+    ]
+}

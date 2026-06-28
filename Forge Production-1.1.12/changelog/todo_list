@@ -1,0 +1,27 @@
+issues presented in forge production:
+1) menu is highly frusterating to alture things in.
+    -solution: move menu into 3 stages.
+        -outser section: shows each forge 'type'. click to enter second section. enable / disable the interer assembly from this window.
+        -middle section lets you enable / disable different types of forged items, as well as a 'bar' for each forged item from this forge (to change the raitio of items forged)
+         also shows a list of ships with this model instaled on them. click on one to open inter layer.
+        -inner layer lets you inable / disable ships (maybe change this to a list on the second layer?)
+
+2) ship forge menu sucks
+    -add in a menu like the in game 'produce a ship' menu for the forge production
+    -right now, the forge requires you to 'click' on each forge module you want to forge with? for some reason?
+        why? this is not ok.
+    -right now, the forge requires basic salvage ships. and only the vanila one.
+        -first, make this a option in the options. so you can fucking disable it!
+        -second, make it so it allows for every ship with a salvage module. should be fine right? RIGHT?!?
+    -right now, it desides on the ships layout for you. 2 options here:
+        a: only print basic hulls. no wepons or fighters or hullmods
+        b: add a refit screen were you have access to infinite amounts of all your blueprints. so you can build your own built refits (cost added to the ship cost.)
+
+
+3) the interear of the mod:
+    change this into a system that allows for some additional data. for example:
+    making this a god dam library. because it has a lot of potential. from there, it should be easy to convert the mod into something that uses that library (that will be installed in this mod.)
+
+4) mod settings:
+    add in mod settings stuff like I did for starlords. would be a lot nicer to use because arg.
+    there is a 'hull cost' modification system in play. no clue were it is stored but it exists (I forgot to mark it). add it to the settings.

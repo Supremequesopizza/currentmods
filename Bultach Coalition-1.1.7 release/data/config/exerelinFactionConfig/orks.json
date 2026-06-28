@@ -1,0 +1,161 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"ngcTooltip":"Life is tough, but by no means impossible in the Bultach Coalition.",
+    "rebelFleetSuffix":"Traitors",
+    
+	"asteroidMiningFleetName":"Mining Fleet",
+    "gasMiningFleetName":"Fueling Siphoning Fleet",
+    "invasionFleetName":"Invasion Force",
+    "responseFleetName":"Relief Fleet",
+    "invasionSupportFleetName":"Support Fleet",
+    "defenceFleetName":"Defensive Line",
+	"suppressionFleetName":"Pacifier Group",
+	"noSyncRelations":false,
+	"noStartingContact":true,
+    "marketSpawnWeight":1.0,
+	"invasionPointMult":1.0, #builds up slower, but much more successful invasion fleet to above
+	"vengeanceFleetSizeMult":1.0,
+	"factionIdForHqResponse":"orks",
+	"freeMarket":false,
+	"specialForcesMaxFleets":2.0,
+	"specialForcesPointMult":1.0,
+	"specialForcesSizeMult":1.0,
+	"stabilizeCommodities":["hand_weapons"],
+	
+	"morality":"good",
+	
+    "startRelationships":{ 
+	    # Vanilla Factions		 
+		"hegemony": 0.3,                                 #The enemy of my enemy is my friend. Best to stay on their good side.
+		"persean": -0.3,                                 #Common partner and ally to Tritach. 
+		"pirates": -0.5,                                 #No good raiders. Not worth talking to.
+		"sindrian_diktat": -0.5,                         #We've experienced life under dictators long enough to know how we should treat these.
+        "lions_guard": -0.5,		                     #Loyal hound dogs of a tyrant.
+		"independent": 0.5,                              #Respectable spacers just making a living.
+		"tritachyon": -1,                                #Former oppressors of our people. Should sooner be eradicated than ever accepted. Liberation of the oppressed masses is first priority.
+		"luddic_church":0.3,                             #Citizens of the Bultach Coalition are welcome to practice their luddic faith in our ranks, as long as they do not try to impose it.
+		"luddic_path":-0.4,                              #Fanatics. Useful Fanatics.
+        "remnant":-1,                                    #Puppet servants of Tritachyon. Eliminate whenever spotted. Make sure to salvage what you can.
+		
+		# Mod factions
+		"exipirated":-0.6,								 # Even more pirates. Same attitude
+		"gmda":-0.6,									 # Thinks they have jurisdiction over the sector.
+		"gmda_patrol":-0.6,								 # Said enforcers of phony jurisdiction.
+		"draco":-0.6,									 # Vampires? Vampires that use Tri-tach tech? Horrid.
+		"fang":-0.6,									 # What the fuck are these things? Burn any corpses.
+		"mess":-0.8,									 # Extremely dangerous swarm of nanites. Better to avoid than risk a fight.
+		"vic":0.1,										 # Better to keep an enemy of Tri Tach on our side, though we should remain wary. Their gene tech is intriguing.
+		"roider":0.2,									 # Honest miners with interesting tech. Should do business with them.
+		"projectsolace":0.5,							 # A fledgling state.
+		"diableavionics":-0.5, 							 # More greedy, corporate scum. They come after Tri-Tach.
+		"sylphon":-0.4,									 # Corporate, with a fondness for all things EMP.
+		"tiandong":0.1,									 # Good traders. Best to keep them on our good side.
+        "blackrock_driveyards":-0.2,					 # Their technology is fascinating, we'll be wary for now. Scour for any derelicts of theirs.
+		"brighton":0.2,									 # We should offer our help. They're just struggling people trying to get by.
+		"hmi":-0.5,										 # Though their amount of riches and resources are vast, the lengths they go to aquiring them is to be shunned.
+		"interstellarimperium":-0.5,					 # Big bombs. AI leaders. For now we have no choice but to leave them be.
+		"kadur_remnant":-0.1,							 # An interesting religious minority. Deeply saddening what the Hegemony did, but we cannot afford to lose them as an ally. Not yet.
+		"al_ars":-0.5,									 # Pirates. Pirates with surprisingly sophisticated tech.
+        "ironshell":-0.35,								 # Strange looking subfaction of the Hegemony. Likely genetic scarring.
+        "apex_design":0.25,								 # They will prove quite useful in our efforts against Tri-Tach and the corporate scum as a whole. Maintain good relations if possible.
+        "star_federation":-0.15,					     # Should the Domain ever return as it once was, they will need to be taken care of. Maintain neutrality for now.
+        "tahlan_legioinfernalis":-0.75,					 # Rightful successors to the domain? Too busy using as many drugs and as much gene editing as possible. 
+        "SCY":0.15,										 # A society born of scientists with interesting tech. Lets try to steer them away from Tri-tach's side.
+        "uaf":-0.65,									 # Born out of nothing, from nowhere. We have no reason to trust them nor do business with them.
+		"HIVER":-0.75,									 # Ewww a bug
+        "default": -0.20								 # Better to be suspicious.
+
+		},
+	
+    "maxRelationships":{
+
+		"tritachyon": -1,    							 # Nothing will change our view of this scum.
+		"uaf": -0.50,									 # Abhor the weeb.
+		"HIVER":-0.75,									 # Ewww a bug
+		
+		},
+
+	"minRelationships":{
+
+		"projectsolace": 0.2,    						 				
+			
+		},
+
+	
+    "alignments":{
+		"corporate":-0.75,
+        "technocratic":0.25,
+        "hierarchial":0.5,
+        "militarist":1.25,
+        "diplomatic":0.5,
+        "ideological":0.25,
+    },
+	
+	"diplomacyTraits":["stalwart", "law_and_order", "paranoid", "selfrighteous"],
+	
+    "groundBattleSettings":{
+		"attackMult":1.25, #They favor an aggressive approach.
+		"damageTakenMult":1.0,
+        "moraleDamageTakenMult":0.75,
+    },
+	
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":0.5,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+    "startShipsSolo":[
+		["ork_racer_standard"],
+		["ork_scrimb_standard"],
+		["ork_grot_standard"],
+	],
+
+    "startShipsCombatSmall":[
+      ["ork_bees_standard", "ork_scrimb_standard", "ork_racer_standard"],
+	  ["ork_prong_standard", "ork_bastard_standard"],
+    ],
+
+	"startShipsCombatLarge":[
+	  ["ork_bigracer_standard", "ork_bees_standard", "ork_racer_standard"],
+    ],
+	
+    #"startShipsCarrierSmall":[],
+
+    "startShipsCarrierLarge":[
+		["ork_vencha_standard", "ork_bees_standard", "ork_racer_standard"],
+	],
+	
+	"startShipsTradeSmall":[
+		["ork_loota_standard"],
+	],
+	
+    "startShipsTradeLarge":[
+		["ork_loota_standard", "ork_prong_standard", "ork_scrimb_standard"],
+	],
+	
+
+    #"startShipsGrandFleet":[],
+	
+    "startSpecialItems":[
+		[["ork_project_package", ""]],
+
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]}, #These are the low tier versions already.
+    ],
+    
+    "industrySeeds":[
+		{"id":"militarybase", "mult":2},
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+        {"id":"ork_prevent_pather", "mult":5},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"ork_wardrive", "count":1},
+    ],
+}

@@ -1,0 +1,61 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 7,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "uaf_m_seiichi",
+    "hullMods": [
+        "autorepair",
+        "armoredweapons",
+        "heavyarmor",
+        "auxiliarythrusters"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_seiichi_escort",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "uaf_shimata_155_cn"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "uaf_hikone_quad",
+                "WS0004": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_exoscar_torpedo_base"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_typhoon_s_sasm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_weiss_flk",
+                "WS0008": "uaf_pd_reina"
+            }
+        }
+    ]
+}

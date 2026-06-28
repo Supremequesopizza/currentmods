@@ -1,0 +1,21 @@
+{
+	"id":"garbage_ball_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":50.0,
+	"hitGlowRadius":200.0,
+	"width":50.0,
+	"fadeTime":2,
+	#"fringeColor":[255,0,255,150],
+	#"coreColor":[255,175,255,255],
+	#"coreColor":[255,175,255,255],
+	#"glowColor":[255,0,255,150],
+	#"glowRadius":0,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/ball_of_garbage.png"
+	#"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}

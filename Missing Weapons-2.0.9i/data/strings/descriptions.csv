@@ -1,0 +1,20 @@
+id,type,text1,text2,text3,notes
+missp_atropospod,WEAPON,The famous Atropos Torpedo fitted with an internal magazine and loader.,,,
+missp_atropostvc,WEAPON,The Atropos Thrust Vectoring Aided Torpedo Launcher pairs the guided Torpedo to launch casing. This launch casing allows the Torpedo to be effectivley utilized by larger or cumbersome vessels.,,,
+missp_assegai,SHIP,"A light and fast bomber. Bane to vessels from light cruisers downwards. Its swiftness and maneuverability are its protection. Capable of quickly approaching and disengaging with a target, it will quickly fall prey when put into a situation where much flak fire can hit it. The light protection is only backed up by a rear-firing Vulcan. The simple yet innovative design allows for replacements and repairs to be affected quickly.",,,
+missp_heavygraviton,WEAPON,"The emitter of the 500 nm tracer beam was upsized to contain, the enlarged brane rift generators bigger throughput of higher dimensional gravitons. 
+
+The absorbers which make up a sizable part of the outer shell of weapon, have been proportionally enlarged to protect the firing ships shield, from adverse effect; which would be smaller than those of the target but could lead to problems in high flux situations.",,,
+missp_mjolnirsb,WEAPON,"Downsized version of the Mjolnir cannon with only one Magneto Gravitic Projector installed. 
+
+While the capability to deal meaningful sustained damage is maintained the halfed firerate and strain put on the firings vessels energy grid are effectivly higher  as the two Magneto Gravitic Projectors of the dual barrel Mjolnir cannon play of each other which the single barrel version cant do.",,,
+missp_octuple_machinegun,WEAPON,"An ancient design of brutal simplicity. The Octuple Point defense machine gun though obsolete in these trying times finds use again by those that have no access or cant afford something more modern. 
+
+There are some alternative neech uses for the weapon which in rare cases gives it a home on well fitted ships.",,,
+missp_salamander_large,WEAPON,"Homes in on the targets engines and disables them with a powerful EMP. A combat-rated autoloader system ensures usefulness in protracted engagements.
+
+The larger chassis allows for one aditional launch rail plus autoloader and on top of that for a ready rack for each autoloader to be fitted.",,,
+missp_swarmerpod,WEAPON,"Two swarmers pods with a enlarged mount coupling to carry the larger mass.
+
+Double the capacity and the possibility for a longer firing burst, make this weapon a bane of unshielded strike craft.",,,
+missp_varunastra,WEAPON,"""At full saturation a total potential conversion occurs, dumping all the explosive potential into the kinetic potential."" ",-Note that was stored with the blueprint in tthe league archives.,,

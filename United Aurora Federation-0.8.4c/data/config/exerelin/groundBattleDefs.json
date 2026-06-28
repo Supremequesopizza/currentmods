@@ -1,0 +1,44 @@
+{
+	"abilities":{
+		"uafIseNuke":{
+			"name":"Strategic Orbital Bombardment",
+			"icon":"graphics/icons/intel/uaf_rafflesya_bombardment.png",
+			"plugin":"data.groundbattles.uaf_GBNuke",
+			"sound":"uaf_nuke_launch",
+			"cooldown":2,
+			"cooldownGlobal":1,
+			"color":[255, 128, 32, 255],
+			"order":6,
+		},
+		"uafAtmoArtillery":{
+			"name":"Atmospheric Artillery Support",
+			"icon":"graphics/icons/intel/uaf_naval_support.png",
+			"plugin":"data.groundbattles.uaf_atmosphericBombardment",
+			"sound":"uaf_artillery_bombardment",
+			"cooldown":2,
+			"cooldownGlobal":1,
+			"color":[255, 128, 32, 255],
+			"order":7,
+		},
+		"uafRogueLanding":{
+			"name":"Rogue Wave Landing",
+			"icon":"graphics/icons/intel/uaf_sunami_assault.png",
+			"plugin":"data.groundbattles.uaf_rogueLanding",
+			"sound":"uaf_rogue_landing",
+			"cooldown":5,
+			"cooldownGlobal":2,
+			"color":[255, 128, 32, 255],
+			"order":8,
+		},
+		"uafSirenSong":{
+			"name":"Purcellyra's Siren Song",
+			"icon":"graphics/icons/intel/uaf_purcy_strike.png",
+			"plugin":"data.groundbattles.uaf_sirenSong",
+			"sound":"uaf_siren_song",
+			"cooldown":8,
+			"cooldownGlobal":2,
+			"color":[255, 128, 32, 255],
+			"order":9,
+		},
+	}
+}

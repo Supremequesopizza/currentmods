@@ -1,0 +1,77 @@
+{
+	"starSystem":"mausoleum",
+	"markets":[
+		{
+			"entities":["anvil_crypt"],
+			"faction":"independent",
+			"size":4,
+			"startingConditions":[
+				"population_4",
+				"organized_crime",
+				"ore_abundant",
+				"rare_ore_sparse",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"orbitalstation",
+				"mining",
+				"grounddefenses",
+				"militarybase",
+			],
+		},
+		{
+			"entities":["anvil_tomb"],
+			"faction":"exalted",
+			"size":7,
+			"startingConditions":[
+				"habitable",
+				"mild_climate",
+				"ruins_vast",
+				"regional_capital",
+				"population_7",
+				"farmland_poor",
+				"ore_moderate",
+				"volatiles_trace",
+				"organics_trace",
+				"rare_ore_moderate",
+			],
+			"industries":[
+				["population", "alpha_core"],
+				"megaport",
+				["orbitalworks", "pristine_nanoforge", "beta_core"],
+				["fuelprod", "gamma_core"],
+				"heavybatteries",
+				["militarybase", "gamma_core"],
+				"starfortress_high",
+				"mining",
+			],
+		},
+		{
+			"entities":["anvil_grave"],
+			"faction":"exalted",
+			"size":4,
+			"startingConditions":[
+				"population_4",
+				"extreme_weather",
+				"hot",
+				"tectonic_activity",
+				"rare_ore_moderate",
+				"ore_moderate",
+
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				["refining", "gamma_core"],
+				"orbitalstation_high",
+				"grounddefenses",
+				"mining",
+			],
+		},
+
+	]
+}
+
+
+

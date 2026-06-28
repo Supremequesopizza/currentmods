@@ -1,0 +1,31 @@
+{
+  "hullName": "Convergence",
+  "hullId": "ork_convergence_swarm",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/gestalt/ork_convergence_swarm.png",
+  "style": "THREAT",
+  "height": 1,
+  "width": 1,
+  "center": [1, 1],
+  "collisionRadius": 4,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 3,
+  "viewOffset": 0,
+  "builtInMods": [
+    "bt_drone_construction_fx"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-1, 1],
+      "length": 34,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 94,
+      "style": "ATTACK_SWARM"
+    }
+  ],
+  "bounds": [
+    0, -0
+  ]
+}

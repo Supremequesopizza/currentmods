@@ -1,0 +1,20 @@
+{
+  "sms_create_construct": [
+    {"file": "sounds/sfx_interface/ui_income_report_negative.ogg", "pitch": 1, "volume": 0.25}
+  ],
+  "sms_add_smod": [
+    {"file": "sounds/sfx_interface/perform_survey_hit_02.ogg", "pitch": 1, "volume": 1}
+  ],
+  "sms_increase_mastery": [
+    {"file": "sounds/sfx_interface/ui_char_increase_aptitude_max.ogg", "pitch": 1, "volume": 1}
+  ],
+  "sms_change_masteries": [
+    {"file": "sounds/sfx_interface/ui_char_increase_aptitude.ogg", "pitch": 1, "volume": 1}
+  ],
+  "sms_dimensional_tether_retreat": [
+    {"file": "sounds/sms_dimensional_tether_retreat.wav", "pitch": 1, "volume": 1}
+  ],
+  "sms_cargo_amorphous_pseudocore_drop": [
+    {"file": "sounds/sms_cargo_amorphous_pseudocore_drop.wav", "pitch": 1, "volume": 0.7}
+  ]
+}

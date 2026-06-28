@@ -1,0 +1,508 @@
+{
+  "hullName": "Rolne",
+  "hullId": "ork_battlecruiser",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/ork_battlecruiser.png",
+  "style": "BULTACH",
+  "height": 348,
+  "width": 280,
+  "center": [140, 175],
+  "collisionRadius": 206.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 198,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "BT_shieldsChanger",
+    "bt_shieldArching",
+    "bt_nadhmor_suite"
+  ],
+  "builtInWeapons": {
+    "WS0021": "ork_battlecruiser_mediums",
+    "WS0022": "ork_blinker_red",
+    "WS0023": "ork_blinker_red",
+    "WS0024": "ork_blinker_red",
+    "WS0025": "ork_blinker_red",
+    "WS0026": "ork_blinker_red",
+    "WS0027": "ork_blinker_red",
+    "WS0028": "ork_blinker_green",
+    "WS0029": "ork_blinker_green",
+    "WS0030": "ork_blinker_green",
+    "WS0031": "ork_blinker_green",
+    "WS0032": "ork_blinker_green",
+    "WS0033": "ork_blinker_green",
+    "WS0034": "ork_vectorEngineController"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        181.5, -12,
+        175.5, -12
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [64, 49.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [64, -49.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [84, 44.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [84, -44.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [104, 39.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [104, -39.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 45,
+      "locations": [41, 47]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [41, -47]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 45,
+      "locations": [12, 46]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [12, -46]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [-30.5, 80]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": -0,
+      "locations": [-30.5, -80]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [0.5, -0]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 135,
+      "locations": [-67, 23]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -135,
+      "locations": [-67, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [134.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [144.5, -0]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 20,
+      "locations": [60.5, 21]
+    },
+    {
+      "id": "WS0019",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -20,
+      "locations": [60.5, -21]
+    },
+    {
+      "id": "WS0020",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 0,
+      "locations": [103, -0],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0021",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [129.5, -0],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [147, -12],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0023",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [147, 12],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0024",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26, -53]
+    },
+    {
+      "id": "WS0025",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [26, 53]
+    },
+    {
+      "id": "WS0026",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-58, -123.5]
+    },
+    {
+      "id": "WS0027",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-58, 123.5]
+    },
+    {
+      "id": "WS0028",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-30.5, 114.5]
+    },
+    {
+      "id": "WS0029",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-30.5, -114.5]
+    },
+    {
+      "id": "WS0030",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [124, 33.5]
+    },
+    {
+      "id": "WS0031",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [124, -33.5]
+    },
+    {
+      "id": "WS0032",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-58.5, 17]
+    },
+    {
+      "id": "WS0033",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-58.5, -17]
+    },
+    {
+      "id": "WS0034",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-24.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-174, -0],
+      "length": 90.5,
+      "width": 33,
+      "angle": -180,
+      "contrailSize": 33,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-128, 49],
+      "length": 127.5,
+      "width": 45,
+      "angle": -180,
+      "contrailSize": 45,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-128, -49],
+      "length": 127.5,
+      "width": 45,
+      "angle": 180,
+      "contrailSize": 45,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-49, 133],
+      "length": 44.5,
+      "width": 12,
+      "angle": 90,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [-49, -133],
+      "length": 44.5,
+      "width": 12,
+      "angle": -90,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [30, -71],
+      "length": 44.5,
+      "width": 12,
+      "angle": -90,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [30, 71],
+      "length": 44.5,
+      "width": 12,
+      "angle": 90,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [154.5, -28],
+      "length": 44.5,
+      "width": 12,
+      "angle": -90,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [154.5, 28],
+      "length": 44.5,
+      "width": 12,
+      "angle": 90,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    },
+    {
+      "location": [-79.5, 122.5],
+      "length": 87.028297,
+      "width": 22.919418,
+      "angle": 149,
+      "contrailSize": 22.919418,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-79.5, -122.5],
+      "length": 87.028297,
+      "width": 22.919418,
+      "angle": -149,
+      "contrailSize": 22.919418,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-82.5, 108.5],
+      "length": 60.362282,
+      "width": 16.540234,
+      "angle": 149,
+      "contrailSize": 16.540234,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-82.5, -108.5],
+      "length": 60.362282,
+      "width": 16.540234,
+      "angle": -149,
+      "contrailSize": 16.540234,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -171.5, -12,
+    -123.5, -31.5,
+    -125, -59,
+    -98, -71.5,
+    -61, -138,
+    -22, -105,
+    -16.5, -67.5,
+    16.5, -54.5,
+    29, -70,
+    53.5, -50.5,
+    156, -22.5,
+    172, -11,
+    150.5, -6.5,
+    150.5, 6.5,
+    172, 11,
+    156, 22.5,
+    53.5, 50.5,
+    29, 70,
+    16.5, 54.5,
+    -16.5, 67.5,
+    -22, 105,
+    -61, 138,
+    -98, 71.5,
+    -125, 59,
+    -123.5, 31.5,
+    -171.5, 12
+  ]
+}

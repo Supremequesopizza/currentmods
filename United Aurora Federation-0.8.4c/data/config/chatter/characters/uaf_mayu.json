@@ -1,0 +1,79 @@
+{
+	"name":"Mei Yu",
+	"personalities":["steady"],
+	"gender":["f"],
+	"chance":0,
+	"talkativeness":1,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Main system, engaging combat mode."},
+			{"text":"I have control."},
+			{"text":"Activating combat mode."},
+			{"text":"Let's do our best!"},
+			{"text":"Let's go. Let's wrap this up quickly."},
+		],
+		"start_boss":[
+			{"text":"An over glorified trash is still trash."},
+			{"text":"Let's tear them apart, captain."},
+			{"text":"Fascinating... I wonder how bright they will burn."},
+		],
+		"retreat":[
+			{"text":"Ah, I get to go home first... lucky me."},
+			{"text":"A retreat order? Understood."},
+		],
+		"out_of_missiles":[
+			{"text":"Missile ordnance empty? Shame, I could use more."},
+			{"text":"Missile racks are now empty. Sad, I want to bury them with it."},
+		],
+		"need_help":[
+			{"text":"Captain, please provide assistance."},
+			{"text":"I need your help, captain."},
+		],
+		"engaged":[
+			{"text":"Poor thing... is there any point in doing this?"},
+			{"text":"Surely you long for the repose of death?"},
+			{"text":"Be dyed in black, and quickly rot in obscurity."},
+			{"text":"Is there any meaning to that life of yours?"},
+			{"text":"I'll start with you. Die!"},
+		],
+		"pursuing":[
+			{"text":"I won't let you go."},
+			{"text":"Worry not, your suffering will be over."},
+			{"text":"Running away is futile. It is your fate to perish here."},
+			{"text":"Run... if you can, that is.."},
+		],
+		"running":[
+			{"text":"I've no intention of stopping here."},
+			{"text":"What an irritating lot..."},
+			{"text":"Still putting up a fight...?!"},
+		],
+		"hull_90":[
+			{"text":"Oh my, a hull breach."},
+			{"text":"So I have erred in my calculations..."},
+		],
+		"hull_50":[
+			{"text":"The hull has sustained considerable damage."},
+			{"text":"I wonder if I can still draw out more efficiency..."},
+		],
+		"hull_30":[
+			{"text":"Huh... there's just too much irregularity..."},
+			{"text":"Ehehehe... Hahahah... AHHAHAHAHAH!"},
+		],
+		"overload":[
+			{"text":"Flux capacitors overloaded."},
+			{"text":"Oh my, this is quite troublesome."},
+		],
+		"death":[
+			{"text":"Failure is our privilege, just as it is yours to be sad."},
+			{"text":"Ah, the sweet release of death. I wonder what lies beyond..."},
+			{"text":"This is it for me, captain. Don't follow me too soon."},
+		],
+		"victory":[
+			{"text":"Tactics as beautiful and refreshing as the guillotine."},
+			{"text":"Mission over. The crushed dreams of the powerless. Pitiful, isn't it?"},
+			{"text":"It's finally over. If just for a little longer, please allow me to be by your side."},
+		],
+	}
+}

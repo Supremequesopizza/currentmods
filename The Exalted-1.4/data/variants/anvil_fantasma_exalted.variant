@@ -1,0 +1,58 @@
+{
+  "displayName": "Exalted",
+  "fluxCapacitors": 30,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "anvil_fantasma",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_fantasma_exalted",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_aire",
+        "WS0002": "anvil_aire",
+        "WS0005": "anvil_aire",
+        "WS0006": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_varna",
+        "WS0004": "anvil_varna"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "anvil_plasma"
+      }
+    }
+  ],
+  "wings": [
+    "anvil_delusion",
+    "anvil_wisp",
+    "anvil_delusion"
+  ]
+}

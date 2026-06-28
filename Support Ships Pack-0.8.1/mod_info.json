@@ -1,0 +1,14 @@
+{
+    "id": "supportships",
+    "name": "Support Ships Pack",
+    "author": "ForestFighters",
+    "version": {"major":0, "minor":8, "patch":1},
+    "description": "A collection of ships that fill mostly supportive roles.",
+    "gameVersion": "0.98a-RC5",
+	"dependencies": [
+	    {
+            "id": "MagicLib",
+            "name": "MagicLib",
+        },
+	],
+}

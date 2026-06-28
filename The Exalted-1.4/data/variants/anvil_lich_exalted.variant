@@ -1,0 +1,60 @@
+{
+  "variantId": "anvil_lich_exalted",
+  "hullId": "anvil_lich",
+  "displayName": "Exalted",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 19,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "anvil_voodoo",
+        "WS0007": "anvil_voodoo",
+        "WS0008": "anvil_voodoo",
+        "WS0010": "anvil_voodoo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_fuego",
+        "WS0002": "anvil_fuego",
+        "WS0006": "anvil_halvete"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_agua",
+        "WS0004": "anvil_agua",
+        "WS0009": "anvil_aire",
+        "WS0011": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "anvil_plasma",
+        "WS0013": "anvil_varna",
+        "WS0014": "anvil_varna"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

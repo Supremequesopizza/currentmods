@@ -1,0 +1,25 @@
+{
+  "variantId": "missp_broadswordmkii_Standard",
+  "hullId": "missp_broadswordmkii",
+  "displayName": "Heavy Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightmg",
+        "WS0003": "lightmg",
+        "WS0004": "swarmer_fighter",
+        "WS0005": "swarmer_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

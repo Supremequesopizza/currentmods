@@ -1,0 +1,39 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "hullId": "eis_renown",
+	"goalVariant": true,
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_renown_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "autopulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "eis_celestials_aster",
+                "WS0003": "eis_celestials_aster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "eis_superheavy_needler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "heavyburst",
+                "WS 007": "heavyburst"
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+,,,,,,,,,,,,,,,
+HSI Blueprint Package,HSI_BP,package_bp,Halo Dynamics Council,,180000,1,1,,graphics/items/blueprint_hsi.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,HSI_bp,Contains the blueprints for most Halo Dynamics designs.,142
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+ Simulacrum,HSISA_ShipProvider,,Arena of Stars,0,100000,1,1,,graphics/icons/cargo/blueprint_shiphull.png,ui_chip_pickup,ui_ship_bp_drop,data.campaign.HSIStellaArena.HSISAShipProvider,,A tiny ship model — she promises it can transform into a real one whenever you need it.,152
+,,,,,,,,,,,,,,,

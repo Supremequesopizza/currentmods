@@ -1,0 +1,47 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "uaf_ai_vaharagiri",
+    "hullMods": [
+        "eccm",
+        "missile_autoloader",
+        "targetingunit"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_ai_vaharagiri_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_clemente_s_mrm_double",
+                "WS0003": "uaf_selemene_m_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_edge_type_i",
+                "WS0007": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_merupaka_epd",
+                "WS0005": "uaf_merupaka_epd"
+            }
+        }
+    ]
+}

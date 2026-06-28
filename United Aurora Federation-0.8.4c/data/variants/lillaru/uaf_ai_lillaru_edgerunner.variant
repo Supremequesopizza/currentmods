@@ -1,0 +1,73 @@
+{
+    "displayName": "Edgerunner",
+    "fluxCapacitors": 2,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "uaf_ai_lillaru",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "extendedshieldemitter",
+        "uaf_secondary_focus"
+    ],
+    "quality": 0.9,
+    "variantId": "uaf_ai_lillaru_edgerunner",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "PD_DECO1": "uaf_exoscar_torpedo_base",
+                "PD_DECO4": "uaf_exoscar_torpedo_base",
+                "WS0016": "uaf_exoscar_torpedo_base",
+                "WS0017": "uaf_exoscar_torpedo_base"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0018": "uaf_oboe_mirv_medium",
+                "WS0019": "uaf_clarinet_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_edge_type_ii",
+                "WS0004": "uaf_edge_type_ii",
+                "WS0012": "uaf_edge_type_ii",
+                "WS0013": "uaf_edge_type_iii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "uaf_amazoch_s_asrm_single",
+                "WS0007": "uaf_amazoch_s_asrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_enyria_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina",
+                "WS0011": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

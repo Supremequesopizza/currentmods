@@ -1,0 +1,108 @@
+{
+  "hullName": "Mudskipper (A)",
+  "hullId": "missp_mudskipper_heg",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mudskipper/missp_mudskipper_hegemony.png",
+  "style": "LOW_TECH",
+  "height": 84,
+  "width": 64,
+  "center": [32, 42],
+  "collisionRadius": 57.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 52,
+  "viewOffset": 0,
+  "builtInMods": [
+    "militarized_subsystems"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-13, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        27.5, -0,
+        25.5, 6.5,
+        24.5, -5.5,
+        23.5, 2.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 135,
+      "locations": [16, 27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -135,
+      "locations": [16, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, -0],
+      "length": 57,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, 25],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -23],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [17, 27],
+      "length": 16,
+      "width": 8,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [17, -27],
+      "length": 16,
+      "width": 8,
+      "angle": -150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -36.5, -28,
+    37, -26.5,
+    37, 26.5,
+    -36.5, 28
+  ]
+}

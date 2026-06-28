@@ -1,0 +1,114 @@
+{
+  "hullName": "Frost",
+  "hullId": "diableavionics_frost",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/da/ships/frost/diableavionics_frost_body.png",
+  "style": "DA_WANZER",
+  "height": 26,
+  "width": 30,
+  "center": [15, 14],
+  "collisionRadius": 18,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18,
+  "viewOffset": 0,
+  "builtInMods": [
+    "diableavionics_wanzer"
+  ],
+  "builtInWeapons": {
+    "ARM": "diableavionics_frostRightArm",
+    "PAULDRON": "diableavionics_frostPauldron",
+    "PAULDRON2": "diableavionics_frostPauldron2",
+    "WS0001": "diableavionics_frosthead",
+    "WS0002": "diableavionics_frostLeftArm",
+    "WS0003": "diableavionics_frostBlade"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 20,
+      "locations": [0, 7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -20,
+      "locations": [0, -7]
+    },
+    {
+      "id": "ARM",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -20,
+      "locations": [0, -7]
+    },
+    {
+      "id": "PAULDRON",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -20,
+      "locations": [0, -7]
+    },
+    {
+      "id": "PAULDRON2",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 20,
+      "locations": [0, 7],
+      "renderOrderMod": 10
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, -4.5],
+      "length": 18,
+      "width": 6,
+      "angle": -175,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-12, 4.5],
+      "length": 18,
+      "width": 6,
+      "angle": 175,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    10.5, -0,
+    -1.5, -13.5,
+    -3.5, -5.5,
+    -12.5, -6.5,
+    -12.5, -2.5,
+    -8, -0,
+    -12.5, 2.5,
+    -12.5, 6.5,
+    -3.5, 5.5,
+    -1.5, 13.5
+  ]
+}

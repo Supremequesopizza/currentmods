@@ -1,0 +1,16 @@
+{
+	"id":"anvil_mordare_shot",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.IonCannonOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":55.0,
+	"width":30.0,
+	"fadeTime":0.5,
+	"hitGlowRadius":45,
+	"fringeColor":[237,17,17,255],
+	"coreColor":[193,17,237,255],
+	#"fringeColor":[255,0,0,255],
+	#"coreColor":[255,100,255,255],	
+}

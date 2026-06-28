@@ -1,0 +1,77 @@
+{
+  "id": "ork_noshield_large",
+  "specClass": "projectile",
+  "projectileSpecId": "ork_antishield_lrm",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/ork_noshield_large_turret.png",
+  "hardpointSprite": "graphics/weapons/ork_noshield_large_hardpoint.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    14,
+    -13,
+    14,
+    13,
+    16,
+    9,
+    16,
+    -9,
+    18,
+    -4,
+    18,
+    4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    23,
+    -13,
+    23,
+    13,
+    25,
+    9,
+    25,
+    -9,
+    27,
+    -4,
+    27,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "sabot_srm_fire"
+}

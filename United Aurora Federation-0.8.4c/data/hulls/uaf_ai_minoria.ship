@@ -1,0 +1,203 @@
+{
+  "hullName": "Minoria(AI)",
+  "hullId": "uaf_ai_minoria",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Minoria_AI.png",
+  "style": "MIDLINE",
+  "height": 209,
+  "width": 130,
+  "center": [65, 97],
+  "collisionRadius": 142.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 116.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "uaf_atmospheric_entry"
+  ],
+  "builtInWeapons": {
+    "BRIDGELEFT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGELEFT_BLINKER_2": "uaf_blinker_sirene_2",
+    "BRIDGERIGHT_BLINKER_1": "uaf_blinker_sirene_1",
+    "BRIDGERIGHT_BLINKER_2": "uaf_blinker_sirene_2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [2, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [2, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11.5, 49.5]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, 12.5]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-0.5, -12.5]
+    },
+    {
+      "id": "BRIDGELEFT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7.5, 12.5]
+    },
+    {
+      "id": "BRIDGERIGHT_BLINKER_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-7.5, -12.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 326,
+      "angle": 0,
+      "locations": [-4, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 326,
+      "angle": 180,
+      "locations": [-29, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        67, 3,
+        67, -2.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        4.5, -42,
+        -10, -42
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73.5, 16],
+      "length": 50.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-74, -16],
+      "length": 50.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-84, -0],
+      "length": 104.5,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-53, -35],
+      "length": 33.484016,
+      "width": 14.152103,
+      "angle": -143,
+      "contrailSize": 14.152103,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-53, 35],
+      "length": 33.484016,
+      "width": 14.152103,
+      "angle": 143,
+      "contrailSize": 14.152103,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -84.5, 9,
+    -73.5, 21.5,
+    -87.5, 29,
+    -65.5, 34,
+    -59, 43.5,
+    -50.5, 56,
+    -25, 56,
+    -19.5, 62.5,
+    -3.5, 62.5,
+    2.5, 54.5,
+    10.5, 54.5,
+    10.5, 42,
+    102, 9.5,
+    88.5, 2,
+    88.5, -2,
+    102, -9.5,
+    15, -39,
+    11.5, -45.5,
+    -2, -45.5,
+    -15, -51,
+    -25, -56.5,
+    -50.5, -56,
+    -59, -43.5,
+    -65.5, -34,
+    -87.5, -29,
+    -73.5, -21.5,
+    -84.5, -9
+  ]
+}

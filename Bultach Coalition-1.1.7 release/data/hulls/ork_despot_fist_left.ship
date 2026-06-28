@@ -1,0 +1,65 @@
+{
+  "hullName": "Fist Module",
+  "hullId": "ork_despot_fist_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/despot/ork_despot_punch_l.png",
+  "style": "LOW_TECH",
+  "height": 160,
+  "width": 84,
+  "center": [55.5, 36],
+  "collisionRadius": 153,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 80,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0002": "ork_vectorEngineController"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22.5, 29]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [2.5, 44],
+      "length": 55.996811,
+      "width": 17.012617,
+      "angle": 146.5,
+      "contrailSize": 17.012617,
+      "style": "CUSTOM",
+      "styleId": "Vectored BT_ENGINE"
+    }
+  ],
+  "bounds": [
+    121.5, -6,
+    98, -20.5,
+    53, -22.5,
+    25, -17,
+    12, -12,
+    12, 4.5,
+    -17, 19,
+    -3, 35,
+    12, 53.5,
+    36, 45.5,
+    69, 31.5,
+    107.5, 27.5
+  ]
+}

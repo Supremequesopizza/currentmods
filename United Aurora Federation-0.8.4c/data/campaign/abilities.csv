@@ -1,0 +1,2 @@
+name,id,type,tags,activationDays,activationCooldown,durationDays,deactivationDays,deactivationCooldown,unlockedAtStart,defaultForAIFleet,musicSuppression,uiOn,uiOff,uiLoop,worldOn,worldOff,worldLoop,icon,plugin,ai,desc,sortOrder
+EYESEAU Omniscan,uaf_omniscan,TOGGLE,"stealth-, sensors+",0.1,,,0.1,,,,,ui_neutrino_detector_on,ui_neutrino_detector_off,,,,,graphics/icons/abilities/eyeseau_omniscan.png,com.fs.starfarer.api.impl.campaign.abilities.uaf_omniscan,,Detect fleets around eyeseau and increase sensor profile by almost double,700

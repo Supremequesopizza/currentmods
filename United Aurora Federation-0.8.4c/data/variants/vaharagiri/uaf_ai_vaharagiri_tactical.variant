@@ -1,0 +1,47 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 2,
+    "fluxVents": 9,
+    "goalVariant": false,
+    "hullId": "uaf_ai_vaharagiri",
+    "hullMods": [
+        "eccm",
+        "pointdefenseai",
+        "targetingunit"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_vaharagiri_tactical",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "uaf_minibreve_tnt_m",
+                "WS0003": "uaf_minibreve_tnt_m"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_claris_cn",
+                "WS0005": "uaf_cantata_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_chorus_s_amm",
+                "WS0007": "uaf_chorus_s_amm"
+            }
+        }
+    ]
+}

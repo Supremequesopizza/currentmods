@@ -1,0 +1,8 @@
+Missing Supers Addon 0.0.1
+readme added
+________________________________________
+Missing Supers Addon 0.0.0
+Addon:
+-Addon created dependent on Missing Supers
+-the addon can be deactivated or activated at any time
+-Adds MSM super redacted ships to the Coronal Taps

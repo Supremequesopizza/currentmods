@@ -1,0 +1,102 @@
+{
+  "hullName": "Super Forlorn (HB)",
+  "hullId": "uaf_ace_wing_forlorn_hb",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ace_wing_forlorn_hb.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 45,
+  "width": 37,
+  "center": [18.5, 22.5],
+  "collisionRadius": 30.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_ace",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 77,
+      "angle": 41,
+      "locations": [-10, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 77,
+      "angle": -41,
+      "locations": [-10, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 24,
+      "angle": 0,
+      "locations": [3.5, 2.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 24,
+      "angle": -0,
+      "locations": [3.5, -2.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 24,
+      "angle": 7,
+      "locations": [-2.5, 8.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 24,
+      "angle": -7,
+      "locations": [-2.5, -8.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 24,
+      "angle": 12.5,
+      "locations": [-5.5, 10.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 24,
+      "angle": -12.5,
+      "locations": [-5.5, -10.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -20.5, 9,
+    -12.5, 17,
+    2.5, 6,
+    21.5, -0,
+    2.5, -6,
+    -12.5, -17,
+    -20.5, -9
+  ]
+}

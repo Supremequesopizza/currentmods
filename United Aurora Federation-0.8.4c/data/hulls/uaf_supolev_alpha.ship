@@ -1,0 +1,91 @@
+{
+  "hullName": "Supolev Alpha",
+  "hullId": "uaf_supolev_alpha",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/uaf_supolev_alpha.png",
+  "style": "UAF_FRIGATE",
+  "height": 177,
+  "width": 136,
+  "center": [68, 81.5],
+  "collisionRadius": 130,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 104.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "builtInWeapons": {
+    "BUILT_IN_WEAPON": "uaf_chorus_m_amm"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 261,
+      "angle": -40,
+      "locations": [42.5, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 261,
+      "angle": 40,
+      "locations": [42.5, 19]
+    },
+    {
+      "id": "BUILT_IN_WEAPON",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 62,
+      "angle": 180,
+      "locations": [11, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [9.5, 38.5],
+      "length": 43,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [9.5, -38.5],
+      "length": 43,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    77.5, -2,
+    67, -7,
+    66.5, -18,
+    58, -19.5,
+    24.5, -66,
+    13.5, -66,
+    5.5, -49,
+    -3.5, -45,
+    -3.5, -30,
+    -80, -30,
+    -67, -20.5,
+    -67, 20.5,
+    -80, 30,
+    -3.5, 30,
+    -3.5, 45,
+    5.5, 49,
+    13.5, 66,
+    24.5, 66,
+    58, 19.5,
+    66.5, 18,
+    67, 7,
+    77.5, 2
+  ]
+}

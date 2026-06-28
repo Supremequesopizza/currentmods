@@ -1,0 +1,110 @@
+Version 4.0.9
+
+- Fixed an issue with a dialog value being set as a float instead of an int.
+
+
+Version 4.0.8
+
+- Fixed a bug where commands that may end combat (i.e Nuke) would prevent the console from being opened again that session.
+
+
+
+Version 4.0.7
+
+- Fixed $ and % not being writeable in the console.
+
+
+
+Version 4.0.6
+
+- Added simple syntax highlighting for runcodes
+- Added an option to disable the syntax highlighting
+- Fixed the runcode compile error message not working correctly when using macros.
+- Fixed runcode errors not displaying if the character after "runcode" was a new line character.
+
+
+
+Version 4.0.5
+
+- Added a config that displays the current commands "help" info below the input text field (disabled by default)
+- Added a config for enabling/disabling the runcode compile error information.
+- When using multiple lines in the input text field, the log will now be offset upwards by the increased size, instead of the input field overlaying the log, same way it worked in the legacy console. This behaviour can be toggled off again in the configs.
+
+
+
+Version 4.0.4
+
+- Added suggestions for some AddSpecial arguments (modspec, ship_bp, fighter_bp, weapon_bp, industry_bp)
+- Replaced the blur shader with a better one by shiozakana.
+- Slightly lowered the default background darkening to match the new shader.
+--> This will reset the background darkening configuration when updating.
+
+For modders
+
+- Added CommandListenerWithSuggestion, enables adding suggestions to existing commands.
+- Check "AddSpecialSuggestionsListener" for an example.
+- Most useful for adding suggestions for special items data.
+
+
+
+Version 4.0.3
+
+- Opening the console now describes a few of the common keybinds in the default chat log.
+- Opening the console no longer interupts the current campaign music.
+- Opening the console no longer hides the campaign UI in the background.
+- Fixed the console not correctly re-pausing the game in the campaign.
+
+
+
+Version 4.0.2
+
+- Goto, Jump and OpenMarket now use ID suggestions instead of name ones.
+- The Goto commands suggestions now filter out some entities that should never be of interest.
+- Fixed a crash with the goto command.
+- Fixed an issue where the console could no longer be opened after using the EndCombat command.
+
+
+
+Version 4.0.1
+
+- Added optional lunalib settings support with a bunch of settings to customise the new UI.
+- Added tab cycling (disbled by default).
+- Added context sentitive command suggestions (disabled by default).
+- The up/down keys will now loop through autocompletions.
+- Readded the RAM/VRAM display.
+- Reverted the name of a class to fix an issue with ShipBrowser.
+- Moved a few things to on application load, should prevent a small lag when first opening the console.
+- Fixed an issue where sometimes the same command would be added to the command history twice in a row.
+
+
+
+Version 4.0.0
+
+- Complete visual overhaul of the legacy UI.
+- Added command and argument autocompletion & suggestion.
+- Added syntax hints for command parameters
+- Now remembers the last 30 commands, even across game restarts.
+- The runcode command now displays live compile error warnings.
+- Reverted the mods version system back to the original format.
+- Added version checker changelog & download support.
+- Added "History" command.
+
+Keybinds
+
+- CTRL + Backspace: open console
+- Enter: confirm command
+- Left/Right: move cursor
+- Up/Down: Scroll through command history/select autocompletion
+- Tab: confirm autocompletion
+
+Legacy UI
+
+- The legacy UI can still be re-enabled in "ConsoleCommands/data/console/console_settings.json".
+- New features added with this version are not available in the legacy UI.
+
+For Modders
+
+- Added "BaseCommandWithSuggestion". Implement it to create a command with autocomplete suggestions.
+- Use the "getSuggestions" method to return a list of the provided suggestions for your command.
+- "parameter" tells you which parameter the suggestions are for (0 is the first arg).
+- "previous" are the other arguments the user entered before the current one.

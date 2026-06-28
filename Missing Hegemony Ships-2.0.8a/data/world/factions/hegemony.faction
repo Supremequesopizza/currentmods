@@ -1,0 +1,29 @@
+{
+	"variantOverrides":{
+	},
+	
+	"hullFrequency":{
+		"tags":{},
+		"hulls":{}
+	},
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		]
+	},
+	"knownShips":{
+		"tags":[],
+		"hulls":[]
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		"missp_mudskipper_heg",
+		"missp_condor_heg"
+		]
+	},
+	"knownFighters":{
+		"tags":[],
+		"fighters":[]
+	}
+}

@@ -1,0 +1,67 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 4,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "uaf_lillaru",
+    "hullMods": [
+        "targetingunit",
+        "uaf_special_emergency_automated_assistance",
+        "autorepair",
+        "turretgyros"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_lillaru_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_weiss_iii_flk"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "uaf_rhythm_base_triple",
+                "WS0014": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "uaf_pd_reina",
+                "WS0009": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "uaf_medlav_dual",
+                "WS0003": "uaf_medlav_dual",
+                "WS0012": "uaf_ivory",
+                "WS0007": "uaf_claris_cn",
+                "WS0008": "uaf_claris_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "uaf_ivory",
+                "WS0002": "uaf_weiss_flk",
+                "WS0001": "uaf_weiss_flk"
+            }
+        }
+    ]
+}

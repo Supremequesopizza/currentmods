@@ -1,0 +1,65 @@
+{
+  "id": "uaf_penulisa_acx",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_pd_lg_penulisa",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.uaf_rotary_gun_animation",
+  "turretSprite": "graphics/weapons/Penulisa ACX/penulisa_acx_turret_recoil_00.png",
+  "turretGlowSprite": "graphics/weapons/Penulisa ACX/penulisa_acx_turret_glow.png",
+  "turretGunSprite": "graphics/weapons/Penulisa ACX/penulisa_acx_turret.png",
+  "hardpointSprite": "graphics/weapons/Penulisa ACX/penulisa_acx_hardpoint_recoil_00.png",
+  "hardpointGlowSprite": "graphics/weapons/Penulisa ACX/penulisa_acx_hardpoint_glow.png",
+  "hardpointGunSprite": "graphics/weapons/Penulisa ACX/penulisa_acx_hardpoint.png",
+  "glowColor": [
+    255,
+    150,
+    60,
+    100
+  ],
+  "visualRecoil": 12,
+  "renderHints": [
+    SUSPEND_RECOIL
+  ],
+  "turretOffsets": [
+    24,
+    7,
+    24,
+    -7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    32.5,
+    7,
+    32.5,
+    -7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "GLOW_AND_FLASH",
+  "numFrames": 12,
+  "frameRate": 40,
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 10,
+    "particleSizeMin": 10,
+    "particleSizeRange": 15,
+    "particleDuration": 0.05,
+    "particleCount": 8,
+    "particleColor": [
+      255,
+      225,
+      225,
+      235
+    ]
+  },
+  "fireSoundTwo": "uaf_penulisa_acx"
+}

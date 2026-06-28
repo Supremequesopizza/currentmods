@@ -1,0 +1,12 @@
+{
+	"id":"bt_explosive_punch",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	"weaponDataId":"ork_boompunch",
+	
+	#"useSound":"system_flare_launcher_active",
+	#"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

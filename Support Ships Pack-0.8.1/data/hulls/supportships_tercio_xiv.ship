@@ -1,0 +1,149 @@
+{
+  "hullName": "Tercio (XIV)",
+  "hullId": "supportships_tercio_xiv",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Tercio (XIV).png",
+  "style": "LOW_TECH",
+  "height": 184,
+  "width": 116,
+  "center": [58, 92],
+  "collisionRadius": 110.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 107.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "fourteenth",
+    "armoredweapons",
+    "supportships_ArmoredProw"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 45,
+      "locations": [22, 25]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -45,
+      "locations": [22, -25]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 45,
+      "locations": [45, 9]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [45, -9]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 112,
+      "locations": [1, 36]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -112,
+      "locations": [1, -36]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [81, 35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [81, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [57, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-82.5, 10.5],
+      "length": 50,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82.5, -10.5],
+      "length": 50,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, 50],
+      "length": 25,
+      "width": 7,
+      "angle": 160.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, -50],
+      "length": 25,
+      "width": 7,
+      "angle": -160.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    64, -14,
+    46.5, -41,
+    -21.5, -57,
+    -92, -19,
+    -82, -18,
+    -82, 18,
+    -92, 19,
+    -21.5, 57,
+    46.5, 41,
+    64, 14
+  ]
+}

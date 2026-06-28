@@ -1,0 +1,108 @@
+{
+  "hullName": "Prow Module",
+  "hullId": "ork_judgement_front_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/judgement/ork_judgement_front_right.png",
+  "style": "LOW_TECH",
+  "height": 256,
+  "width": 154,
+  "center": [77, 128],
+  "collisionRadius": 150,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 144.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_antiNukeHidden",
+    "always_detaches",
+    "BT_linkedhull_three",
+    "degradedcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [50, 33]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [96, 25]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [2, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -45,
+      "locations": [89, -12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -45,
+      "locations": [-5.5, -57]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [-26.5, -43]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -90,
+      "locations": [-43, -61.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -90,
+      "locations": [-67, -54.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    125, -12,
+    125, 44.5,
+    61.5, 67,
+    -57.5, 71.5,
+    -122, -14,
+    -118, -58,
+    -92.5, -68.5,
+    0, -64,
+    6.5, -44.5,
+    53, -44.5,
+    76, -23
+  ]
+}

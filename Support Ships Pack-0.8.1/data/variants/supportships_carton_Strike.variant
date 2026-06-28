@@ -1,0 +1,17 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 3,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "supportships_carton",
+    "hullMods": ["extendedshieldemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "supportships_carton_Strike",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "lightmg"}
+    }],
+    "wings": ["piranha_wing"]
+}

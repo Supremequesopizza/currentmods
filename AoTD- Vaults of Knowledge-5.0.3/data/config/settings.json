@@ -1,0 +1,258 @@
+{
+	
+	"aotd_tier_1_unlock":false, # Unlock vanilla tier of buildings by default
+	"aotd_tier_2_unlock":false, # Unlock tier 2 of industries ( such as the plasma harvester , orbital assembly etc etc) and all bellow this tier.
+	"aotd_tier_3_unlock":false, # Unlock tier 3 of industries (Benefication , sublimation and all using advanced resources) and all bellow this tier.
+	"aotd_tier_4_unlock":false, # Unlock tier 4 of industries (Skunkwork, Fleetwork , and Blast Processing Unit) and all bellow this tier.
+	"aotd_tier_experimental_unlock":false, #Unlock experimental tier of tech tree and all bellow this tier.
+	"aotd_research_speed_multiplier":1.0, #Increase/Decrease multiplier of research speed. If research by default takes 30 days with multiplier 2 will take 60 days etc etc.
+	"aotd_defence_min_val":140, # Incresae/Decrease minimal DP value of PCF defence fleet (should be lower than max)
+	"aotd_defence_max_val":180, # Incresae/Decrease maximal  DP value of PCF defence fleet 
+	"aotd_pcf_amount":50, # Increase/Decrease amount of Pre Collapse Facilities spawning per sector.
+	"aotd_expedition_threshold":240, # Increase/Decrease frequency of research expeditions, conducted by faction. (Days)
+	"aotd_expedition_begin":210, # Increase/Decrease year, where research expeditions are beginning.
+	"aotd_titans_of_industry":true, # Disables/enables total rework of custom production mechanic for colonies NOTE! DEPRECEATED SETTING : DONT SET IT TO FALSE
+	"aotd_scale":10, # Increase/Decrease multiplier of Global Production commodities ( x amount of supply times scale)
+	"aotd_shipyard_pag_per_page":70, # Increase/Decrease amount of items displayed per page ( WARNING : INCREASING THIS NUMBER MIGHT RESULT IN PRODUCTION UI LAGGING )
+"aotd_item_prod": [
+  "corrupted_nanoforge",
+  "pristine_nanoforge",
+  "synchrotron",
+  "orbital_fusion_lamp",
+  "coronal_portal",
+  "mantle_bore",
+  "catalytic_core",
+  "soil_nanites",
+  "biofactory_embryo",
+  "fullerene_spool",
+  "plasma_dynamo",
+  "cryoarithmetic_engine",
+  "drone_replicator",
+  "dealmaker_holosuite",
+  "alpha_core",
+  "beta_core",
+  "gamma_core",
+
+  "uaf_modular_purifier",
+  "uaf_servosync_pump",
+  "uaf_dimen_nanoforge",
+  "uaf_dimen_microwave",
+  "uaf_access_router",
+  "uaf_garrison_transmitter",
+  "uaf_rice_cooker",
+
+  "aotd_shrouded_nanoforge",
+  "aotd_shrouded_synchrotron",
+  "aotd_atmospheric_driver",
+  "aotd_shrouded_catalytic_core"
+],
+	"graphics":{
+		"characters": {
+			"sophia":"graphics/portraits/characters/sophia.png"
+		},
+		"intel": {
+			"respite40":"graphics/icons/markets/respite40.png",
+			"sp_unlock_finish":"graphics/icons/intel/dark_purple.png",
+			"sp_stage_finish":"graphics/icons/intel/purple.png"
+		},
+		"ui_icons_tech_tree":{
+			"farming1":"graphics/icons/tech/farming1.png",
+			"farming2":"graphics/icons/tech/farming2.png",
+			"farming3":"graphics/icons/tech/farming3.png",
+			"farming4":"graphics/icons/tech/farming4.png",
+			"alloy1":"graphics/icons/tech/alloy1.png",
+			"alloy2":"graphics/icons/tech/alloy2.png",
+			"alloy3":"graphics/icons/tech/alloy3.png",
+			"basic":"graphics/icons/tech/basic.png",
+			"bifrostgate":"graphics/icons/tech/bifrostgate.png",
+			"domaintype":"graphics/icons/tech/domaintype.png",
+			"fuelprod":"graphics/icons/tech/fuelprod.png",
+			"gateanalysis":"graphics/icons/tech/gateanalysis.png",
+			"hazmat":"graphics/icons/tech/hazmat.png",
+			"heavyindustry1":"graphics/icons/tech/heavyindustry1.png",
+			"heavyindustry2":"graphics/icons/tech/heavyindustry2.png",
+			"heavyindustry3":"graphics/icons/tech/heavyindustry3.png",
+			"heavyindustry4":"graphics/icons/tech/heavyindustry4.png",
+			"hyperspace":"graphics/icons/tech/hyperspace.png",
+			"logistics":"graphics/icons/tech/logistics.png",
+			"mega_assembly":"graphics/icons/tech/mega_assembly.png",
+			"mining1":"graphics/icons/tech/mining1.png",
+			"mining2":"graphics/icons/tech/mining2.png",
+			"mining3":"graphics/icons/tech/mining3.png",
+			"military1":"graphics/icons/tech/military1.png",
+			"military2":"graphics/icons/tech/military2.png",
+			"military3":"graphics/icons/tech/military3.png",
+			"station1":"graphics/icons/tech/station1.png",
+			"station2":"graphics/icons/tech/station2.png",
+			"station3":"graphics/icons/tech/station3.png",
+			"lobsters_farming":"graphics/icons/tech/lobsters_farming.png",
+			"minorindustry1":"graphics/icons/tech/minorindustry1.png",
+			"minorindustry2":"graphics/icons/tech/minorindustry2.png",
+			"minorindustry3":"graphics/icons/tech/minorindustry3.png",
+			"minorindustry4":"graphics/icons/tech/minorindustry4.png",
+			"ai_core_thesis":"graphics/icons/tech/ai_core_thesis.png",
+			"maglev":"graphics/icons/tech/megalev logistics colorized.png",
+			"oceanology":"graphics/icons/tech/oceanology.png",
+			"dual_market":"graphics/icons/tech/dual_market_system.png",
+			"electronics":"graphics/icons/tech/electronics.png",
+			"spaceportI":"graphics/icons/tech/spaceportI.png",
+			"specialmodifier":"graphics/icons/tech/specialmodifier.png",
+			"macro_industrial_complex":"graphics/icons/tech/macro_industrial_complex.png",
+			"fuelsynth":"graphics/icons/tech/fuelsynth.png",
+			"aotd_resort_center":"graphics/icons/tech/resort_center.png",
+			"hypershunt_energy_distribution":"graphics/icons/tech/hypershunt_energy_distribution.png",
+			"elysium":"graphics/icons/tech/elysium.png",
+			"daedalus":"graphics/icons/tech/daedalus.png",
+			"megastructure_analysis":"graphics/icons/tech/megastructure_analysis.png",
+			"supertensile":"graphics/icons/tech/supertensile.png",
+			"ring":"graphics/icons/tech/ring.png",
+			"special":"graphics/icons/tech/specialmodifier.png",
+			"aquaculture_sub":"graphics/icons/tech/subicon_aquaculture.png",
+			"lightindustry_sub":"graphics/icons/tech/subicon_lightindustry.png",
+			"farming_sub":"graphics/icons/tech/subicon_farming.png",
+			"mining_sub":"graphics/icons/tech/subicon_mining.png",
+			"refining_sub":"graphics/icons/tech/subicon_refinery.png",
+			"heavyindustry_sub":"graphics/icons/tech/subicon_heavyindustry.png",
+			"orbitalworks_sub":"graphics/icons/tech/subicon_orbitalworks.png",
+			"aotd_artisanal_farming_sub":"graphics/icons/tech/subicon_artisinal.png",
+			"aotd_subsidised_farming_sub":"graphics/icons/tech/subicon_subsidised.png",
+			"aotd_monoculture_plots_sub":"graphics/icons/tech/subicon_monoculture.png",
+			"aotd_fishing_harbour_sub":"graphics/icons/tech/subicon_fishing_harbour.png",
+			"purification_sub":"graphics/icons/tech/subicon_purificaiton.png",
+			"aotd_extractive_operation_sub":"graphics/icons/tech/subicon_extractive_operation.png",
+			"aotd_plasma_harvester_sub":"graphics/icons/tech/subicon_plasma_harvester.png",
+			"aotd_resort_center_sub":"graphics/icons/tech/subicon_resort_center.png",
+			"commerce_sub":"graphics/icons/tech/subicon_commerce.png",
+			"aotd_smelting_sub":"graphics/icons/tech/subicon_smelting.png",
+			"aotd_enrichment_facility_sub":"graphics/icons/tech/subicon_enrichment_facility.png",
+			"aotd_crystalizator_sub":"graphics/icons/tech/subicon_crystalizator.png",
+			"aotd_fuel_refinery_sub":"graphics/icons/tech/subicon_fuel_refinery.png",
+			"aotd_light_production_sub":"graphics/icons/tech/subicon_lightproduction.png",
+			"aotd_commercial_manu_sub":"graphics/icons/tech/subicon_commercial_manu.png",
+			"aotd_terminus_sub":"graphics/icons/tech/subicon_terminus.png",
+			"aotd_druglight_sub":"graphics/icons/tech/subicon_bio_drug.png",
+			"aotd_daedalus_array_sub":"graphics/icons/tech/subicon_aotd_daedalus_array.png",
+			"aotd_garden_of_elysium_sub":"graphics/icons/tech/subicon_aotd_garden_of_elysium.png",
+			"aotd_underworld_sub":"graphics/icons/tech/subicon_underworld.png",
+			"aotd_civilian_heavy_prod_sub":"graphics/icons/tech/subicon_civilian_heavy_prod.png",
+			"aotd_maglev_sub":"graphics/icons/tech/subicon_aotd_maglev.png",
+			"triheavy_sub":"graphics/icons/tech/subicon_triheavy.png",
+			"hegeheavy_sub":"graphics/icons/tech/subicon_hegeheavy.png",
+			"megaport_sub":"graphics/icons/tech/subicon_megaport.png",
+			"aotd_macro_industrial_complex_sub":"graphics/icons/tech/subicon_macro_industrial_complex.png",
+			"fuelprod_sub":"graphics/icons/tech/subicon_fuelprod.png",
+			"aotd_hightech_industry_sub":"graphics/icons/tech/subicon_hightech_industry.png",
+			"none":"graphics/icons/tech/generic.png",
+			"researched":"graphics/icons/tech/researched.png",
+			"aotd_mining_megaplex_sub":"graphics/icons/tech/subicon_mining_megaplex.png",
+			"test":"graphics/icons/tech/test.png",
+
+		},
+		"ui_campaign_components":{
+			"tech_panel":"graphics/ui/tech_progression_campaign.png",
+			"tech_button_hide":"graphics/ui/tech_hide_button.png",
+			"tech_hide_button_highlighted":"graphics/ui/tech_hide_button_highlighted.png",
+			"gp_button_hide":"graphics/ui/gp_button.png",
+			"gp_button_hide_highlight":"graphics/ui/gp_button_highlighted.png",
+			"tech_progression":"graphics/ui/tech_progression.png",
+			"tech_button":"graphics/ui/aotd_button.png",
+			"tech_button_highlighted":"graphics/ui/aotd_button_highlighted.png",
+			"dmg_type_kin":"graphics/ui/icons/damagetype_kinetic.png",
+			"dmg_type_ene":"graphics/ui/icons/damagetype_energy.png",
+			"dmg_type_boom":"graphics/ui/icons/damagetype_high_explosive.png",
+			"dmg_type_frag":"graphics/ui/icons/damagetype_fragmentation.png",
+			"dmg_type_other":"graphics/ui/icons/damagetype_other.png",
+						"question":"graphics/ui/more_info.png"
+		},
+		"ui":{
+			"aotd_text_glow":"graphics/ui/buttons/text_glow.png",
+			"aotd_holder":"graphics/ui/holder.png",
+			"sidebar_icon_research":"graphics/ui/atomic-64.png",
+			"hud_circle":"graphics/fx/circ.png",
+			"shimmer":"graphics/fx/shimmer.png",
+			"diagonal":"graphics/fx/squareDiagonal.png",
+			"aotd_shadowlance":"graphics/icons/hud/aotd_shadowlance_icon.png",
+			"aotd_gungnirIcon":"graphics/icons/hud/Gungnir_icon.png"
+		},
+		"rendering":{
+            "GlitchSquare":"graphics/fx/solid_square.png",
+			"aotd_pluto_general_glow":"graphics/fx/aotd_pluto_general_glow.png",
+			"aotd_pluto_laser_glow_white":"graphics/fx/aotd_pluto_laser_glow_white.png",
+			"aotd_pluto_laser_glow":"graphics/fx/aotd_pluto_laser_glow.png",
+			"aotd_pluto_laserfire_glow":"graphics/fx/aotd_pluto_laserfire_glow.png",
+			"aotd_pluto_laserflare_glow":"graphics/fx/aotd_pluto_laserflare_glow.png",
+			"aotd_beam0":"graphics/fx/aotd_beam0.png",
+			"aotd_beam1":"graphics/fx/aotd_beam1.png",
+			"aotd_beam2":"graphics/fx/aotd_beam2.png",
+			"aotd_beam3":"graphics/fx/aotd_beam3.png",
+			"aotd_beam4":"graphics/fx/aotd_beam4.png",
+			"aotd_planet_glow0":"graphics/fx/aotd_planet_glow0.png",
+			"aotd_planet_glow1":"graphics/fx/aotd_planet_glow1.png",
+			"aotd_planet_glow2":"graphics/fx/aotd_planet_glow2.png",
+			"rust_layer":"graphics/fx/rust_overlay.png",
+
+
+		},
+		"fx": {#for magictrails
+			"aotd_gungnir_trail1":"graphics/fx/aotd_gungnir_core_trail.png",
+			"aotd_gungnir_trail2":"graphics/fx/aotd_gungnir_star_trail.png",
+			"aotd_gungnir_trail3":"graphics/fx/aotd_gungnir_stripes_trail.png"
+		},
+		"megastructures":{
+            "hypershunt":"graphics/icons/coronal_shunt.png",
+			"nidavelir":"graphics/icons/nidavelir.png",
+			"bifrost":"graphics/icons/bifrost.png",
+			"pluto":"graphics/icons/aotd_pluto_mining_station.png"
+			
+		},
+		"aotd_icons":{
+            "fleet_ai":"graphics/icons/fleet_ai.png",
+			"fleet_merc":"graphics/icons/fleet_merc.png",
+			"compound_info":"graphics/icons/smoll_icon/comp_smol.png"
+		},
+
+		"sectionImage":{
+			"WormholeGenerator":"graphics/icons/megastructures/aotd_coronal_wormhole.jpg",
+			"CoronalCollector":"graphics/icons/megastructures/aotd_coronal_collector.jpg",
+			"AegisSystem":"graphics/icons/megastructures/coronal_port.png",
+			"NexusCore":"graphics/icons/megastructures/nexus_core_merged.png",
+			"VanguardForge":"graphics/icons/megastructures/vanguard_forge.png",
+			"BulwarkFoundry":"graphics/icons/megastructures/bulwark_foundry.png",
+			"EterniumCore":"graphics/icons/megastructures/nid_1.png",
+			"SentinelCore":"graphics/icons/megastructures/nid_5.png",
+			"BifrostGate":"graphics/icons/megastructures/bifrost.png",
+			"OpticCommandNexus":"graphics/icons/megastructures/aotd_optic_command_nexus.jpg",
+			"PurificationCore":"graphics/icons/megastructures/aotd_purification_core.jpg",
+			"FusionForge":"graphics/icons/megastructures/aotd_fusion_forge.jpg"
+		},
+
+		"megastructureImage":{
+            "hypershunt":"graphics/illustrations/coronal_tap.jpg",
+			"nidavelir":"graphics/illustrations/nidavelir.png",
+			"bifrost":"graphics/illustrations/active_gate.jpg",
+			"pluto":"graphics/illustrations/pluto.png",
+			"pluto_active":"graphics/illustrations/pluto_active.png"
+
+		},
+		"industry":{
+			"pluto_active":"graphics/icons/industry/aotd_pluto_industry_active.png",
+			"aotd_fuel_refinery_no_atmo":"graphics/icons/industry/aotd_fuel_refinery_no_atmo.png",
+			"aotd_daedalus_array_no_atmo":"graphics/icons/industry/aotd_daedalus_array_no_atmo.png"
+		},
+		
+		"illustrations":{
+            "industrial_megafacility":"graphics/illustrations/industrial_megafacility.jpg"
+		},
+		"signalis_ui":{
+            "keypad_bg":"graphics/ui/keypad.png"
+		}
+
+	},
+	"designTypeColors": {
+    "Abyss-Tech": [180, 0, 90, 255],
+	"Nidavelir Reliquary": [205, 173, 0, 255]
+}
+
+	
+}
+

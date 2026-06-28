@@ -1,0 +1,53 @@
+{
+  "displayName": "Exalted",
+  "fluxCapacitors": 20,
+  "fluxVents": 11,
+  "goalVariant": true,
+  "hullId": "anvil_shrike_ex",
+  "hullMods": [
+    "hardened_subsystems"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_shrike_ex_exalted",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "breachpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "anvil_fuego"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "anvil_aire",
+        "WS 001": "anvil_aire",
+        "WS 002": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "anvil_varna",
+        "WS 007": "anvil_varna"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

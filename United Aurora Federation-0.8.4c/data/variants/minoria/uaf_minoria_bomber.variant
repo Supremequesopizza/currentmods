@@ -1,0 +1,28 @@
+{
+    "displayName": "Bomber",
+    "fluxCapacitors": 7,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "uaf_minoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_light_wing_operation",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.6,
+    "variantId": "uaf_minoria_bomber",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_hibiscus",
+        "uaf_wing_m_hibiscus"
+    ]
+}

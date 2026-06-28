@@ -1,0 +1,58 @@
+{
+	"id":"uaf_minibreve_nuke",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/Missiles/minibreve/uaf_minibreve_missile.png",
+	"onHitEffect":"data.scripts.weapons.uaf_nukeHitMini",
+	"size":[14,40],	
+	"center":[7,20],
+	"collisionRadius":50,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":170, # purely visual
+	"explosionSpec":{"duration":10f, # not visual
+					 "radius":150,
+					 "coreRadius":50, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":1,
+					 "particleSizeRange":8.0,
+					 "particleDuration":8,
+					 "particleCount":350,
+					 "particleColor":[255,155,155,255]
+					 },
+	"flameoutTime":3, # total time from flameout to full fadeout
+	"armingTime":0.5,
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+#	"engineSpec":{"turnAcc":30,
+#				  "turnRate":30,
+#				  "acc":150,
+#				  "dec":200},
+	"engineSpec":{"turnAcc":30,
+				  "turnRate":30,
+				  "acc":150,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-16, 0],
+				    #"style":"MELODY_ENGINE",
+					"style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[76,145,255,255],
+						"glowSizeMult":2.5,
+						"contrailDuration":4.0,
+						"contrailWidthMult":1.1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.75f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailColor":[100,100,255,50],
+						"glowAlternateColor":[199,149,255,250],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":60.0,
+				    "angle":180.0},
+				    ]
+}

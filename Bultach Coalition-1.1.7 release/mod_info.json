@@ -1,0 +1,24 @@
+{
+  "id":"ORK",
+	"name":"Bultach Coalition",
+	"author":"Pogre/Noof",
+	"version":"1.1.7 release",
+	"description":"Low tech faction with ships, weapons, and a burning hatred for tritachyon. Maybe more! :)",
+	"gameVersion":"0.98a-RC8",
+	"jars":["jars/ORKS.jar"],
+	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+        },
+		{
+            "id": "shaderLib",
+            "name": "GraphicsLib",
+        }
+    ],
+	"modPlugin":"data.scripts.ork_ModPlugin"
+}

@@ -1,0 +1,34 @@
+{
+	"id":"bt_vocifer_emp",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"aiScript":"data.scripts.shipsystems.ai.bt_vocifer_empAI",
+	"statsScript":"data.scripts.shipsystems.bt_vocifer_emp",
+	
+	"jitterUnderColor":[255,24,143,135],
+	"jitterUnderCopies":15,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":6,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,24,143,35],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_emp_emitter_activate",
+	"loopSound":"system_emp_emitter_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":800,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+

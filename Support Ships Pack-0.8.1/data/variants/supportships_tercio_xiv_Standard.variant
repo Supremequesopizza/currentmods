@@ -1,0 +1,47 @@
+{
+  "variantId": "supportships_tercio_xiv_Standard",
+  "hullId": "supportships_tercio_xiv",
+  "displayName": "Standard",
+  "goalVariant": True,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavymauler",
+        "WS0005": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "railgun",
+        "WS0007": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0006": "vulcan",
+        "WS0008": "lightmg",
+        "WS0009": "lightmg"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0003": "supportships_tercio_xiv_armor_Basic"
+    }
+  ],
+  "wings": []
+}

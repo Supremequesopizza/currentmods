@@ -1,0 +1,106 @@
+{
+  "hullName": "Alcea (SP)",
+  "hullId": "uaf_wing_ai_alcea",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ai_wing_alcea.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 62,
+  "width": 58,
+  "center": [29, 31],
+  "collisionRadius": 56.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 38.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [6.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 104,
+      "angle": 45,
+      "locations": [16.5, 7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 104,
+      "angle": -45,
+      "locations": [16.5, -7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 117,
+      "angle": 52,
+      "locations": [13, 11]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 117,
+      "angle": -52,
+      "locations": [13, -11]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 65,
+      "angle": 45,
+      "locations": [-17.5, 2.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 65,
+      "angle": -45,
+      "locations": [-17.5, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, -15.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-20, 15.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    -1.5, 28,
+    -26, -0,
+    -1.5, -28,
+    30, -0
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "variantId": "ork_despot_standard",
+  "hullId": "ork_despot",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 42,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "LEFTGUIDE": "ork_leftarm_wpn",
+        "RIGHTGUIDE": "ork_rightarm_wpn"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabotpod",
+        "WS0005": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "typhoon",
+        "WS0019": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "heavymg",
+        "WS0017": "heavymg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "lightdualmg",
+        "WS0015": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "LEFTHAND": "bt_despot_leftfist_standard"
+    },
+    {
+      "LEFTARM": "bt_despot_lerm_standard"
+    },
+    {
+      "RIGHTHAND": "bt_despot_rightfist_standard"
+    },
+    {
+      "RIGHTARM": "bt_despot_rirm_standard"
+    }
+  ],
+  "wings": []
+}

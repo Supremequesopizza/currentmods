@@ -1,0 +1,45 @@
+{
+	"id":"uaf_sentry_gun_shell_case_shot",
+	#"onHitEffect":"data.scripts.weapons.uaf_sentry_shell_case_script",
+	"specClass":"missile",
+	"missileType":"BOMB",
+	"sprite":"graphics/weapons/Sentry/uaf_sentry_shell_2.png",
+	"size":[22,8],
+	"center":[11,4],
+	"collisionRadius":6,
+	"fringeColor":[255,55,50,20],
+	"collisionClass":"NONE",
+	"explosionColor":[255,20,10,20],
+    "renderTargetIndicator":false,
+	#"flameoutTime":2, # total time from flameout to full fadeout
+	#"noEngineGlowTime":1, # time spent without the engine glow being rendered
+	#"fadeTime":0, # fadeout duration	
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":0,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, -1],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[240,50,50,50],
+						"contrailDuration":1,
+						"contrailWidthMult":1,
+						"contrailParticleSizeMult":1,
+						"contrailParticleDuration":5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":1, # min segment length, in pixels
+						"contrailMaxSpeedMult":1,
+						"contrailAngularVelocityMult":1.5f,
+						"contrailColor":[240,40,55,100],
+                        #"contrailSpawnDistMult":0.05,
+						"glowSizeMult":0.5,
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode	
+					},
+				    "width":10.0, 	#10
+				    "length":100.0,	#30
+				    "angle":180.0
+					}
+				]
+}

@@ -1,0 +1,74 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 7,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "uaf_m_seniraja",
+    "hullMods": [
+        "reinforcedhull",
+        "autorepair",
+        "auxiliarythrusters"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_m_seniraja_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "uaf_typhoon_l_sasm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "uaf_cyrexa"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_exoscar_torpedo_med",
+                "WS0006": "uaf_exoscar_torpedo_med"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_ivory_triple",
+                "WS0002": "uaf_ivory_triple",
+                "WS0003": "uaf_medlav_quad",
+                "WS0004": "uaf_medlav_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_claris_cn",
+                "WS0008": "uaf_cantata_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_pd_reina_ii",
+                "WS0012": "uaf_pd_reina_ii",
+                "WS0015": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS0014": "uaf_m_inazuma_left_armor_plating",
+        "WS0016": "uaf_m_inazuma_right_armor_plating"
+    }
+}

@@ -1,0 +1,177 @@
+{
+  "hullName": "Space Hulk",
+  "hullId": "ork_spacehulk",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/spacehulk/main_module.png",
+  "style": "LOW_TECH",
+  "height": 544,
+  "width": 250,
+  "center": [125, 175],
+  "collisionRadius": 430,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 422,
+  "viewOffset": 0,
+  "builtInMods": [
+    "degradedcore",
+    "BT_antiNukeHidden",
+    "ork_redfasta",
+    "BT_linkedhull_two"
+  ],
+  "builtInWeapons": {
+    "WS0004": "ork_garbage_catapult",
+    "WS0008": "ork_spacehulk_bridge"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 16,
+      "locations": [92.5, 13]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [227, 0]
+    },
+    {
+      "id": "WS0016",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-74.5, 99.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-73, -97.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [187, -47]
+    },
+    {
+      "id": "WS0019",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [186, 57]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 13.5,
+      "locations": [321.5, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -13.5,
+      "locations": [321.5, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [281.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-52.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-243, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -135,
+      "locations": [-96.5, -37.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -114.5, -0,
+        -119, -0
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [70, 1]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -152, -37.5,
+    -120.5, -84,
+    -26, -90.5,
+    42, -60.5,
+    88.5, -58,
+    179, -36.5,
+    251.5, -41.5,
+    291.5, -34,
+    365.5, -7,
+    365.5, 7,
+    291.5, 34,
+    251.5, 41.5,
+    179, 36.5,
+    88.5, 58,
+    42, 60.5,
+    -26, 90.5,
+    -120.5, 84,
+    -152, 37.5,
+    -169.5, 0.5
+  ]
+}

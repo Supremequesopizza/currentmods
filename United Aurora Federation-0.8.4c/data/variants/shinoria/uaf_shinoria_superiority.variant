@@ -1,0 +1,61 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 13,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "uaf_shinoria",
+    "hullMods": [
+        "uaf_reserve_wing_operation",
+        "recovery_shuttles",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_shinoria_superiority",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_rhythm_base_triple",
+                "WS0012": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_chorus_s_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_weiss_ii_flk",
+                "WS0008": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_flair_pod",
+                "WS0006": "uaf_flair_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina",
+                "WS0003": "uaf_weiss_flk",
+                "WS0004": "uaf_weiss_flk"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_superaria",
+        "uaf_wing_m_superaria"
+    ]
+}

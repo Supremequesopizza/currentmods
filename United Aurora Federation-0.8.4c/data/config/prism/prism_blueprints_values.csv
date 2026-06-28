@@ -1,0 +1,15 @@
+id,value
+# ship/wing/weapon ID or pack ID,100
+uaf_automata_bp,16500
+uaf_military_bp,13000
+uaf_standard_bp,10500
+,
+uaf_automata_rare_bp,24500
+uaf_military_rare_bp,22000
+uaf_standard_rare_bp,20000
+,
+uaf_prototype_bp,23450
+uaf_elite_bp,50000
+,
+,
+,

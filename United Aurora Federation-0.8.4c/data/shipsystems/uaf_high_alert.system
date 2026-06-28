@@ -1,0 +1,10 @@
+{
+	"id":"uaf_high_alert",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.uaf_high_alert_stats",
+	
+	"useSound":"uaf_eyeseau_ping",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

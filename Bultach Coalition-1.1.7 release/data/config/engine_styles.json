@@ -1,0 +1,125 @@
+{
+	
+	"ORK_ENGINE":{
+		"engineColor":[255,60,40,255],
+		"contrailParticleSizeMult":2.2,
+		"contrailParticleDuration":3.5,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.6,
+		"contrailAngularVelocityMult":0.6,
+		"contrailColor":[50,50,50,50],
+		"contrailCampaignColor":[255,60,40,240],
+		"glowAlternateColor":[255,90,20,235],
+		"glowSprite":"graphics/fx/ork_engineglow.png",
+		"glowOutline":"graphics/fx/ork_engineflame.png",
+		"type":"SMOKE"
+	},
+	"GESTALT":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1,
+		"contrailWidthMult":0.47,
+		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[255,196,137,135],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow32b.png",
+		"glowOutline":"graphics/fx/engineflame32b.png",
+		"omegaMode":true,
+		"glowSizeMult":1,
+		"glowAlternateColor":[255,196,137,255],
+		"engineColor":[255,196,137,255],
+	},	
+	"BIO_GESTALT":{
+		"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1,
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":0.4,
+		"contrailParticleFinalSizeMult":0.25,
+		"contrailWidthMult":0.67,
+		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":3f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[160,55,64,55],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/bt_beam_fluid.png",
+		"glowOutline":"graphics/fx/engineflame32b.png",
+		"omegaMode":true,
+		"glowSizeMult":1,
+		"glowAlternateColor":[160,55,64,255],
+		"engineColor":[160,55,64,255],
+	},	
+	"BT_TRAIL":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":0.5,
+		"contrailWidthMult":0.27,
+		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":2, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.3f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[255,60,40,255],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow32b.png",
+		"glowOutline":"graphics/fx/engineflame32b.png",
+		"omegaMode":true,
+		"glowSizeMult":0.5,
+		"glowAlternateColor":[255,60,40,255],
+		"engineColor":[255,60,40,255],
+	},	
+
+	"Vectored BT_ENGINE":{
+		"engineColor":[255,60,40,255],
+		"contrailParticleSizeMult":1.5,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":1.8,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[50,50,50,50],
+		"contrailCampaignColor":[255,60,40,240],
+		"glowAlternateColor":[255,90,20,235],
+		"glowSprite":"graphics/fx/ork_engineglow.png",
+		"glowOutline":"graphics/fx/ork_engineflame.png",
+		"type":"SMOKE"
+   },
+
+   	"Vectored BIO_GESTALT":{
+		"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":0.6,
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":0.3,
+		"contrailParticleFinalSizeMult":0.25,
+		"contrailWidthMult":0.57,
+		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":3, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[160,55,64,75],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/bt_beam_fluid.png",
+		"glowOutline":"graphics/fx/engineflame32b.png",
+		"omegaMode":true,
+		"glowSizeMult":1,
+		"glowAlternateColor":[160,55,64,255],
+		"engineColor":[160,55,64,255],
+	},
+
+		"deco_travel MIDLINE":{
+		"engineColor":[255,145,75,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[100,100,100,25],
+		"contrailCampaignColor":[150,120,100,75],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+
+}
+

@@ -1,0 +1,29 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+
+uaf_nakiha
+uaf_minoria
+uaf_rama_corvette
+uaf_lovela
+uaf_exoria
+uaf_akatsuzuma
+uaf_sentry
+uaf_inazuma
+uaf_seniraja
+uaf_lillaru
+uaf_rillaru
+uaf_reisen
+uaf_m_nebula_bravo
+
+uaf_sekai_s
+uaf_wo_m
+uaf_tsutsumu_l
+
+uaf_junyo_delta
+uaf_miyo_juliet
+uaf_supolev_alpha
+
+uaf_scinaut_suv
+uaf_osela_suv

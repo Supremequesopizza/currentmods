@@ -1,0 +1,94 @@
+{
+  "hullName": "Bastard",
+  "hullId": "ork_bastard",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ork_bastard.png",
+  "style": "BULTACH",
+  "height": 128,
+  "width": 82,
+  "center": [41, 63],
+  "collisionRadius": 96.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 93.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "Ork_low_Maintenance",
+    "BT_shieldsChanger",
+    "bt_shieldArching"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 180,
+      "locations": [-36.5, -9]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [49, 24]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [-2, -20]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        4, -2,
+        6, -2
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63, 20],
+      "length": 71.5,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-47, -25.5],
+      "length": 54.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    64, 22.5,
+    55.5, 4.5,
+    10, 3,
+    9.5, -34.5,
+    -4, -39,
+    -36.5, -37.5,
+    -51.5, 2,
+    -61, 16,
+    -60.5, 25,
+    -20, 39.5,
+    50, 40
+  ]
+}

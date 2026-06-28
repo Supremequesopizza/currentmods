@@ -1,0 +1,189 @@
+{
+  "hullName": "Puterisaya (SP)",
+  "hullId": "uaf_wing_ai_puterisaya",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ai_wing_puterisaya.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 112,
+  "width": 98,
+  "center": [49, 45],
+  "collisionRadius": 84,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 68.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_weaponCalibration",
+    "uaf_gunship_mod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 49,
+      "angle": -29,
+      "locations": [-5.5, -26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 49,
+      "angle": 29,
+      "locations": [-5.5, 26]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 49,
+      "angle": -135,
+      "locations": [-17, -26]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 49,
+      "angle": 135,
+      "locations": [-17, 26]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 58,
+      "angle": 0,
+      "locations": [27.5, -12.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 58,
+      "angle": -0,
+      "locations": [27.5, 12.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 56,
+      "angle": -0,
+      "locations": [18.5, 17.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 56,
+      "angle": 0,
+      "locations": [18.5, -17.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 58,
+      "angle": -0,
+      "locations": [40.5, 7.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 58,
+      "angle": 0,
+      "locations": [40.5, -7.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 63,
+      "angle": 9,
+      "locations": [14, 24]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 63,
+      "angle": -9,
+      "locations": [14, -24]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 63,
+      "angle": 9,
+      "locations": [7.5, 25.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 63,
+      "angle": -9,
+      "locations": [7.5, -25.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, 8],
+      "length": 62,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-11.5, -8],
+      "length": 62,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-29, 20.5],
+      "length": 62,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-29, -20.5],
+      "length": 62,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE_G"
+    }
+  ],
+  "bounds": [
+    -10.5, 37,
+    -43.5, 32.5,
+    -27, 9.5,
+    -27, -9.5,
+    -43.5, -32.5,
+    -10.5, -37,
+    67, -0
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ork_shotgun",
+  "specClass": "projectile",
+  "projectileSpecId": "smallbore_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/ork_shotgun_turret_base.png",
+  "turretGunSprite": "graphics/weapons/ork_shotgun_recoil.png",
+  "hardpointSprite": "graphics/weapons/ork_shotgun_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/ork_shotgun_hardpoint_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    29,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    33.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 10,
+    "particleSizeMin": 12,
+    "particleSizeRange": 16,
+    "particleDuration": 0.5,
+    "particleCount": 16,
+    "particleColor": [
+      255,
+      255,
+      255,
+      200
+    ]
+  },
+  "fireSoundTwo": "smallbore_fire"
+}

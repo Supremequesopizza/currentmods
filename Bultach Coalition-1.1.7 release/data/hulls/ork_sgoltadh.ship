@@ -1,0 +1,163 @@
+{
+  "hullName": "Sgoltadh",
+  "hullId": "ork_sgoltadh",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/gestalt/ork_sgoltadh.png",
+  "style": "BULTACH",
+  "height": 214,
+  "width": 176,
+  "center": [88, 107],
+  "collisionRadius": 121,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 124.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0007": "bultach_orbbeam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 0,
+      "locations": [33, 32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -0,
+      "locations": [33, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -135,
+      "locations": [-49, -42]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 135,
+      "locations": [-49, 42]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 231,
+      "angle": -70,
+      "locations": [-5, -50]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 231,
+      "angle": 70,
+      "locations": [-5, 50]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-14, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102, -0],
+      "length": 63.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-63, -75.5],
+      "length": 63.5,
+      "width": 26,
+      "angle": -142,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-63, 75.5],
+      "length": 63.5,
+      "width": 26,
+      "angle": 142,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-67.5, 79],
+      "length": 70.442139,
+      "width": 13.02391,
+      "angle": 142,
+      "contrailSize": 13.02391,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-67.5, -79],
+      "length": 70.442139,
+      "width": 13.02391,
+      "angle": -142,
+      "contrailSize": 13.02391,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-107, -0],
+      "length": 81,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -101, 9.5,
+    -86, 23.5,
+    -105, 47.5,
+    -94.5, 69.5,
+    -66.5, 53,
+    -56.5, 79,
+    -29.5, 85,
+    -13, 63,
+    9, 77,
+    35, 51,
+    91, 33,
+    106.5, 11.5,
+    34, 6,
+    34, -6,
+    106.5, -11.5,
+    91, -33,
+    35, -51,
+    9, -77,
+    -13, -63,
+    -29.5, -85,
+    -56.5, -79,
+    -66.5, -53,
+    -94.5, -69.5,
+    -105, -47.5,
+    -86, -23.5,
+    -101, -9.5
+  ]
+}

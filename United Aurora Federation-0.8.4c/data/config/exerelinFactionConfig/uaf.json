@@ -1,0 +1,180 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "startingFaction":true,
+    
+    "difficultyString":"WIP / Easy",
+    "ngcTooltip":"The Permaisuri's wishes must survive the onslaught of the Starsector at all cost. We must see through to the end, no matter how grim it might be.",
+    "rebelFleetSuffix":"Renegades",
+
+    "asteroidMiningFleetName":"Mining Flotilla",
+    "gasMiningFleetName":"Gas Mining Flotilla",
+    "invasionFleetName":"Invasion Fleet",
+    "responseFleetName":"Planetary Defense Fleet ",
+    "invasionSupportFleetName":"Support Squadron",
+    "defenceFleetName":"Defense Fleet",
+	"noSyncRelations":false,
+	"noStartingContact":false,
+
+    "invasionFleetSizeMod":0.05,
+	"responseFleetSizeMod":0.65,
+	"invasionPointMult":0.35,
+
+	"vengeanceFleetSizeMult":3.55,
+    "vengeanceLevelNames":["Hunter", "Fanatic", "Revenge"],
+    "vengeanceFleetNames":["Hunter-Killer", "Fanatics", "Revengeance"],
+    "vengeanceFleetNamesSingle":["a Hunter-Killer Fleet", "a Fanatical Armada", "a Revengeance Squadron"],
+
+    "specialForcesPointMult":1.55,
+	"specialForcesSizeMult":1.55,
+
+    "stabilizeCommodities":["food", "hand_weapons", "supplies"],
+    "marketSpawnWeight":2,
+
+    #general tip; no one likes us really for what we are, its already proven by how the sector reacted to our arrival in-game or out there. 
+    #I wonder if anyone will ever approach us and be the first to be allies?
+
+    "startRelationships":{
+        "independent":0.55,
+        "player":-0.15,
+        "scalartech":0.3,
+        "pirates":-0.5,
+        "hegemony":-0.45,
+        "luddic_church":-0.45,
+        "luddic_path":-0.45,
+        "persean":-0.45,
+        "tritachyon":-0.45,
+        "sindrian_diktat":-0.45,
+        "diableavionics":-0.65, 
+        "magellan_protectorate": -0.4,
+		"sylphon":-0.25,
+		"tiandong":-0.5,
+        "blackrock_driveyards":-0.25,
+        "dassault_mikoyan":-0.45,
+        "aic":-0.25,
+		"brighton":-0.15,
+		"hmi":-0.15,
+		"interstellarimperium":-0.5,
+		"kadur_remnant":-0.25,
+		"al_ars":-0.25,
+		"ora":-0.25,
+		"shadow_industry":-0.25,
+        "ironshell":-0.25,
+        "apex_design":-0.15,
+        "star_federation":-0.15,
+        "tahlan_legioinfernalis":-1.00,
+        "xlu":-0.8,
+        "blade_breakers":-1.00,
+        "SCY":-0.45,
+        "approlight":0.05,
+        "bladeofconviction":-0.05,
+        "mayasura":-0.1,
+        "mvs": 0.05,
+        "legionarry":0.25,
+        "batavia":0.25,
+        "rebelrats":-0.15,
+        "unsc":0.05,
+        "default": -0.25
+    },
+
+    "morality":"good",
+    "alignments":{
+        "militarist":0.2,
+        "diplomatic":1.0,
+        "corporate":0.35,
+        "technocratic":0.3
+    },
+    "diplomacyTraits":["pacifist", "stalwart", "helps_allies", "likes_ai", "lowprofile", "neutralist"],
+    
+    "freeMarket":true,
+
+    "factionIdForHqResponse":"uaf_november", 
+
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":0.05,	# We prefer to sell bakery products, for now.
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+	
+	"miningVariantsOrWings":["uaf_scinaut_suv_standard", "uaf_osela_suv_standard"],
+
+    "startShipsSolo":[
+        ["uaf_m_nakiha_standard"],
+		["uaf_m_rama_corvette_standard"],
+        ["uaf_lovela_standard"],
+        ["uaf_minoria_standard"],
+        ["uaf_m_perwira_standard"],
+    ],
+
+    "startShipsCombatSmall":[
+        ["uaf_nakiha_standard", "uaf_nakiha_standard", "uaf_rama_corvette_standard"],
+        ["uaf_rama_corvette_standard", "uaf_rama_corvette_standard"]
+    ],
+    "startShipsTradeSmall":[
+        ["uaf_supolev_alpha_standard", "uaf_sekai_s_standard", "uaf_nakiha_standard"]
+    ],
+    "startShipsCarrierSmall":[
+        ["uaf_minoria_standard", "uaf_nakiha_standard", "uaf_sekai_s_standard", "uaf_supolev_alpha_standard"],
+        ["uaf_exoria_standard", "uaf_nakiha_standard, uaf_sekai_s_standard"],
+        ["uaf_shinoria_standard", "uaf_rama_corvette_standard, uaf_supolev_alpha_standard"]
+    ],
+    "startShipsCarrierLarge":[
+        ["uaf_m_zepporia_standard", "uaf_nakiha_standard", "uaf_wo_m_standard"],
+        #["uaf_ai_neuxoria_standard", "uaf_lovela_standard", "uaf_miyo_juliet_standard"]
+    ],
+
+    "startShipsTradeMedium":[
+        ["uaf_miyo_juliet_standard", "uaf_wo_m_standard", "uaf_nakiha_standard", "uaf_nakiha_standard"]
+    ],    
+
+    "startShipsCombatLarge":[
+        ["uaf_lillaru_standard", "uaf_seniraja_standard", "uaf_nakiha_standard", "uaf_sekai_s_standard", "uaf_supolev_alpha_standard"],
+        ["uaf_inazuma_standard", "uaf_akatsuzuma_standard", "uaf_nakiha_standard", "uaf_novayu_standard", "uaf_rama_corvette_standard", "uaf_rama_corvette_standard"]
+    ],
+    "startShipsTradeLarge":[
+        ["uaf_junyo_delta_standard", "uaf_akatsuzuma_standard", "uaf_sekai_s_standard"],
+        ["uaf_tsutsumu_l_standard", "uaf_minoria_standard", "uaf_supolev_alpha_standard"]
+    ],
+    "startShipsExplorerSmall":[
+        ["uaf_osela_suv_standard", "uaf_rama_corvette_standard", "uaf_sekai_s_standard"],
+        ["uaf_scinaut_suv_standard", "uaf_nakiha_standard", "uaf_supolev_alpha_standard"]
+    ],
+
+    "startShipsSuper":[
+        ["uaf_m_fusoreina_standard"],
+        ["uaf_isenoria_prototype_standard"],
+        #["uaf_ai_maisya_standard"],
+        #["uaf_ai_roria_esvernia_prototype"],
+        ["uaf_hg_lillaru_assault"],
+        ["uaf_yrn_persephone_natasya_elite"],
+        ["uaf_lyora_prototype_standard"]
+    ],
+
+    "startShipsGrandFleet":[
+        ["uaf_rillaru_standard"],
+        ["uaf_reisen_standard"],
+        ["uaf_m_zepporia_standard"],
+        #["uaf_ai_neuxoria_standard"]
+    ],
+    "startSpecialItems":[
+        [["uaf_standard_bp", ""]], [["uaf_standard_rare_bp", ""]]
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    "bonusSeeds":[
+        #{"id":"population_upsize", "count":1},
+        #{"id":"uaf_servosync_pump", "count":1},
+        #{"id":"uaf_dimen_nanoforge", "count":1},
+        #{"id":"uaf_modular_purrifier", "count":1},
+    ],
+}
+}

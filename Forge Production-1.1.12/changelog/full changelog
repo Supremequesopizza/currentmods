@@ -1,0 +1,69 @@
+V0.1.12:
+save compatible with V1.1.4+
+fixed:
+    fixed a crash when pressing f1 on the forge production skill.
+    fixed the crew increase and supply increase being 2x what it should have been.
+V0.1.11:
+save compatible with V1.1.4+
+fixed:
+    missing save combatability
+added new settings:
+    max_cr_decrease
+V0.1.10:
+save compatible with V1.1.4+
+changed forge_production_settings.ini names:
+    bannedHullmods        -> hull_bannedHullmods
+    allowedTags:          -> hull_production_allowedTags
+    allowedManufacturers  -> hull_production_allowedManufacturers
+    allowedFrigate        -> hull_production_allowedFrigate
+    allowedDestroyer      -> hull_production_allowedDestroyer
+    allowedCruiser        -> hull_production_allowedCruiser
+    allowedCapital        -> hull_production_allowedCapital
+    allowForcedVariants   -> hull_production_allowForcedVariants
+    forcedVariants        -> hull_production_forcedVariants
+added new settings:
+    hullmod_allowedFrigate
+    hullmod_allowedDestroyer
+    hullmod_allowedCruiser
+    hullmod_allowedCapital
+    hullmod_allowMultipleForgeMods
+fixes:
+    fixed a bug that prevented the forge production ability from being activated until you clicked on it.
+balance changes:
+    decreased the senser profile debuff from 300 -> 200. I didn't realize that was a percentage increase
+V1.1.9:
+save compatible with V1.1.4+
+added some settings to the forge_production_settings.ini:
+    bannedHullmods
+    allowedTags
+    allowedManufacturers
+    allowedFrigate
+    allowedDestroyer
+    allowedCruiser
+    allowedCapital
+    allowForcedVariants
+    forcedVariants
+balance changes:
+    changed the default settings you are no longer forced to go slow by default. also you can use substance burn and emergency burn now. this is in the settings if you dislike this change.
+    increased the senser profile debuff from 100 -> 300 (again, you can chance this in the settings).
+    hull production no longer requires salvage rigs (this is a temp fix, I will be changing this back soon, but fixed.)
+explanation:
+    I have been messing with the files for a while, just for personal use, when I thought to myself 'what are you doing? you can code??? just make it a setting'.
+    so now you can set what ships you are allowed to make directly from the forge_production_settings.ini file. as apposed to allowing 'restricted' and 'none phased, low tech frigates'
+    I have a lot more work to do on the settings here, before adding in a mod settings tab. a bunch of stuff really. but I don't have time -for now-.
+    I will have a time slot open soon, and this is one of the projects I am going to be putting some real effort into making better. so please be patient.
+V1.1.8:
+    updated to starsector 0.98
+    added a settings to the forge_production_Settings.ini file called 'hull_builder_requires_rigs'. set this to false to forge ships without salvage rigs
+    also the balance changes are based of something suggested on the forms. But I cant put it all into effect -yet-. sorry.
+V1.1.7:
+save compatible with V1.1.4+
+did a temporally fix to the fact that to forge ships you required that one salvage ship. now any ship with a Salvage Gantry will do.
+V1.1.6:
+did a temporally fix to the fact this mods hullmods were unable to be put on ships with the 'UNBOARDABLE' tags (such as automated ships)
+V1.1.5:
+fixed crash on startup when ran without crew replacer
+V1.1.4:
+added version checker support. (hopefully)
+updated to the newest starsector version.
+added some crew replacer stuff. but don't worry, you can still play this without crew replacer.

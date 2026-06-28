@@ -1,0 +1,67 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "uaf_ai_maisya",
+    "hullMods": [
+        "fluxbreakers",
+        "targetingunit",
+        "hardenedshieldemitter",
+        "uaf_special_emergency_automated_assistance"
+    ],
+    "quality": 0.3,
+    "variantId": "uaf_ai_maisya_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "uaf_precisia_dual",
+                "WS0007": "uaf_precisia_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "uaf_edge_type_i",
+                "WS0011": "uaf_edge_type_i",
+                "WS0010": "uaf_edge_type_i",
+                "WS0009": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "uaf_edge_type_ii",
+                "WS0004": "uaf_edge_type_i",
+                "WS0003": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_weiss_flk",
+                "WS0005": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0016": "uaf_merupaka_epd",
+                "WS0015": "uaf_merupaka_epd"
+            }
+        }
+    ]
+}

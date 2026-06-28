@@ -1,0 +1,14 @@
+{
+  "variantId": "uaf_m_reisen_armor_plating",
+  "hullId": "uaf_m_reisen_armor",
+  "displayName": "Reisen Armor Plating",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

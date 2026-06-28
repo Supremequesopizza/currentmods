@@ -1,0 +1,65 @@
+{
+  "id": "uaf_edge_type_ii",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_edge_type_ii",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "org.niatahl.uaf.weapons.uaf_energyWeaponEffect",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Edge Type 2 MPC/edge_type_2_turret_00.png",
+  "turretGunSprite": "graphics/weapons/Edge Type 2 MPC/edge_type_2_recoil.png",
+  "hardpointSprite": "graphics/weapons/Edge Type 2 MPC/edge_type_2_hardpoint_00.png",
+  "hardpointGunSprite": "graphics/weapons/Edge Type 2 MPC/edge_type_2_hardpoint_recoil.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 7.5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    21.5,
+    2.5,
+    21.5,
+    -2.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    28,
+    2.5,
+    28,
+    -2.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "numFrames": 2,
+  "frameRate": 0,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 0,
+    "particleSizeMin": 15,
+    "particleSizeRange": 25,
+    "particleDuration": 0.12,
+    "particleCount": 16,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "uaf_edge_type_ii"
+}

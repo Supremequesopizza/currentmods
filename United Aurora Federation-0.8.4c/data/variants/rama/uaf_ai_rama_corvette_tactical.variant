@@ -1,0 +1,45 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 2,
+    "fluxVents": 1,
+    "goalVariant": false,
+    "hullId": "uaf_ai_rama_corvette",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "reinforcedhull",
+        "hardened_subsystems"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_ai_rama_corvette_tactical",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_minibreve_tnt_m"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_merupaka_epd"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "displayName": "Exalted",
+  "fluxCapacitors": 4,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "anvil_omen_ex",
+  "hullMods": [
+    "nav_relay"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "anvil_omen_ex_exalted",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "anvil_varna"
+      }
+    }
+  ],
+  "wings": []
+}

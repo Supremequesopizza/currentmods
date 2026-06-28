@@ -1,0 +1,27 @@
+{
+  "variantId": "supportships_geoid_Survey",
+  "hullId": "supportships_geoid",
+  "displayName": "Survey",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul",
+    "surveying_equipment"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightdualmg",
+        "WS 002": "lightdualmg",
+        "WS 003": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

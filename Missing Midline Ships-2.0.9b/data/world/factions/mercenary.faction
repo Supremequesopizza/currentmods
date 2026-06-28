@@ -1,0 +1,30 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "missp_paradigm":0.2,
+			"missp_chrysaor":0.1,
+			"missp_allegiant":0.07
+        }
+    },
+    "knownShips":{
+        "hulls":[
+            "missp_paradigm",
+			"missp_chrysaor",
+			"missp_allegiant"
+        ]
+    },
+	"knownFighters":{
+		"fighters":[
+			"missp_cutlass_wing"
+		]
+	},
+	"variantOverrides":{
+		"missp_paradigm_Standard":6,
+		"missp_paradigm_Elite":1,
+		"missp_chrysaor_Strike":1,
+		"missp_allegiant_Fighter":1,
+		"missp_allegiant_Standard":1,
+		"missp_chrysaor_Standard":1,
+		"missp_chrysaor_Elite":0
+	}
+}

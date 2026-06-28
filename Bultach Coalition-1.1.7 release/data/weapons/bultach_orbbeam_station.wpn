@@ -1,0 +1,64 @@
+{
+  "id": "bultach_orbbeam_station",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.bultach_orbbeam_station",
+  "beamEffect": "data.scripts.weapons.bultach_orbbeam_station",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "turretGlowSprite": "",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    178,
+    0,
+    0,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    6.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    178,
+    0,
+    0,
+    255
+  ],
+  "coreColor": [
+    178,
+    255,
+    255,
+    255
+  ],
+  "width": 20,
+  "textureType": [
+    "graphics/fx/doublehelix_trail_beam.png",
+    "graphics/fx/bt_beam_fluid.png"
+  ],
+  "textureScrollSpeed": 450,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "infernal_gaze_charge",
+  "fireSoundTwo": "infernal_gaze_loop"
+}

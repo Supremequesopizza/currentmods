@@ -1,0 +1,109 @@
+{
+  "variantId": "uaf_supercap_slv_core_elite",
+  "hullId": "uaf_supercap_slv_core",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 24,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "uaf_phenex_lrg",
+        "WS0002": "uaf_phenex_lrg",
+        "WS0003": "uaf_phenex_lrg",
+        "WS0004": "uaf_phenex_lrg",
+        "WS0028": "uaf_rhythm_l_lrm",
+        "WS0029": "uaf_rhythm_l_lrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "UAF_SAKURA_BARRAGE_L": "uaf_sakura_barrage",
+        "UAF_SAKURA_BARRAGE_R": "uaf_sakura_barrage"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_herexa_triple",
+        "WS0006": "uaf_herexa_triple",
+        "WS0007": "uaf_herexa_triple",
+        "WS0008": "uaf_herexa_triple",
+        "WS0009": "uaf_medlav_dual",
+        "WS0010": "uaf_medlav_dual",
+        "WS0011": "uaf_medlav_quad",
+        "WS0012": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0026": "uaf_ivory_triple",
+        "WS0027": "uaf_ivory_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_claris_cn",
+        "WS0014": "uaf_claris_cn",
+        "WS0015": "uaf_cantata_cn",
+        "WS0016": "uaf_cantata_cn",
+        "WS0019": "uaf_vocal_s_srm",
+        "WS0020": "uaf_vocal_s_srm",
+        "WS0023": "uaf_meitou_chorus_nt",
+        "WS0024": "uaf_meitou_chorus_nt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "uaf_weiss_flk",
+        "WS0018": "uaf_weiss_flk",
+        "WS0021": "uaf_weiss_ii_flk",
+        "WS0022": "uaf_weiss_ii_flk",
+        "WS0025": "uaf_penulisa_acx"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "SECTION_LEFT": "uaf_supercap_slv_fore_left_std"
+    },
+    {
+      "SECTION_RIGHT": "uaf_supercap_slv_fore_right_std"
+    },
+    {
+      "ENGINE_LEFT": "uaf_supercap_slv_engine_left_std"
+    },
+    {
+      "ENGINE_RIGHT": "uaf_supercap_slv_engine_right_std"
+    },
+    {
+      "ARMOR_LEFT": "uaf_xl_reflecta_left_armor"
+    },
+    {
+      "ARMOR_RIGHT": "uaf_xl_reflecta_right_armor"
+    }
+  ],
+  "wings": []
+}

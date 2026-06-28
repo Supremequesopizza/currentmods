@@ -1,0 +1,21 @@
+{
+
+	"combatCapital":{
+		"missp_paradigm_DEM":0, # PL only variant 3
+		"missp_paradigm_Elite":1,
+		"missp_paradigm_Standard":2,
+		"missp_paradigm_Assault":0 # SD only variant 2
+	},
+	"carrierLarge":{
+		"missp_allegiant_Standard":2,
+		"missp_allegiant_DEM":0, # PL only variant 1
+		"missp_allegiant_Fighter":0, # Merc only variant 2
+		"missp_allegiant_Strike":1,
+		"missp_chrysaor_Standard":2,
+		"missp_chrysaor_Strike":0, # PL only variant 3
+		"missp_chrysaor_Elite":0 # Ind Merc only variant 1
+	},
+		"combatLarge":{
+		"missp_scoophead_Line":5
+	}
+}

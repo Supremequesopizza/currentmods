@@ -1,0 +1,173 @@
+{
+  "hullName": "Anchor Left Propulsion Module",
+  "hullId": "missp_anchor_propulsion_left",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/anchor/anchor propulsion left module.png",
+  "style": "LOW_TECH",
+  "height": 269,
+  "width": 118,
+  "center": [117, 91],
+  "collisionRadius": 197.5,
+  "shieldCenter": [-1, 1],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missp_linked_hull",
+    "civgrade",
+    "solar_shielding",
+	"always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 130,
+      "locations": [47, 69]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 110.5,
+      "locations": [13, 81]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [69, 94]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 107,
+      "angle": 58,
+      "locations": [91, 69]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 144,
+      "angle": 75,
+      "locations": [125, 81]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 204,
+      "angle": 144,
+      "locations": [-34, 58]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 108.5,
+      "locations": [22, 38]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 114,
+      "angle": 73.5,
+      "locations": [160, 56]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, 74.5],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88, 58.5],
+      "length": 64,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88, 44.5],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, 31.5],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -81, 27,
+    -81, 40,
+    -89, 40,
+    -89, 68,
+    -81, 68,
+    -78.5, 81.5,
+    -57, 81,
+    -55, 86,
+    -18, 86.5,
+    -6, 79,
+    8, 92.5,
+    21, 87,
+    34, 97.5,
+    57, 98.5,
+    67, 105.5,
+    79, 99.5,
+    102.5, 98,
+    116, 86.5,
+    126, 93,
+    137, 86,
+    142.5, 67,
+    163.5, 66,
+    171, 58,
+    175, 29.5,
+    164.5, 24,
+    158.5, 33.5,
+    145, 32,
+    130.5, 47,
+    97.5, 47,
+    93, 41,
+    81.5, 41,
+    73, 31,
+    63.5, 31,
+    53, 45,
+    35, 45,
+    28.5, 6,
+    16, 6,
+    3, 10.5,
+    -1, 1,
+    -48, 1,
+    -47, 19,
+    -56, 29,
+    -66.5, 26
+  ]
+}

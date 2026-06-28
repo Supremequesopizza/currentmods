@@ -1,0 +1,60 @@
+{
+  "id": "ork_lub_pd",
+  "specClass": "projectile",
+  "projectileSpecId": "bt_chain_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/gestalt/ork_lub.png",
+  "turretGlowSprite": "graphics/weapons/gestalt/ork_lub_glow.png",
+  "hardpointSprite": "graphics/weapons/gestalt/ork_lub_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/gestalt/ork_lub_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    140,
+    80,
+    155
+  ],
+  "turretOffsets": [
+    4,
+    3,
+    6,
+    0,
+    4,
+    -3
+  ],
+  "turretAngleOffsets": [
+    37,
+    0,
+    -37
+  ],
+  "hardpointOffsets": [
+    6.5,
+    3,
+    8.5,
+    0,
+    6.5,
+    -3
+  ],
+  "hardpointAngleOffsets": [
+    37,
+    0,
+    -37
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 0,
+    "particleSizeMin": 2,
+    "particleSizeRange": 8,
+    "particleDuration": 0.4,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ]
+  },
+  "fireSoundTwo": "shock_repeater_fire"
+}

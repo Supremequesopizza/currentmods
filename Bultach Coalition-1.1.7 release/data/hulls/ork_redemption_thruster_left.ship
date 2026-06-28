@@ -1,0 +1,119 @@
+{
+  "hullName": "Thruster Module",
+  "hullId": "ork_redemption_thruster_left",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/redemption/redemption_thruster_left.png",
+  "style": "LOW_TECH",
+  "height": 306,
+  "width": 169,
+  "center": [84.5, 153],
+  "collisionRadius": 224,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 217.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "degradedcore",
+    "BT_antiNukeHidden"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 135,
+      "locations": [-46, 1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-54.5, -41.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-90, -71.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [33, 9.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [55, 0.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -2.5, -44.5,
+        -3, -35.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-136, -60.5],
+      "length": 66.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-152, -30.5],
+      "length": 103,
+      "width": 55,
+      "angle": 180,
+      "contrailSize": 55,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-153, 8],
+      "length": 70,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    152, -82.5,
+    -102.5, -83,
+    -110.5, -74,
+    -125.5, -73,
+    -150, -49.5,
+    -149.5, 23.5,
+    -141.5, 54.5,
+    -33, 82.5,
+    -14, 81,
+    57, 49.5,
+    94.5, 24.5,
+    96.5, -3.5,
+    116.5, -2.5
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "hullName": "Feirge",
+  "hullId": "ork_feirge",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/gestalt/ork_feirge.png",
+  "style": "GESTALT",
+  "height": 162,
+  "width": 144,
+  "center": [72, 81],
+  "collisionRadius": 121,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger_Gestalt",
+    "bt_gestalt_automation"
+  ],
+  "builtInWeapons": {
+    "WS0009": "ork_feirge_center"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 105,
+      "locations": [-22, 56]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -105,
+      "locations": [-22, -56]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7, -63]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-7, 63]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [50, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [4.5, -42]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -0,
+      "locations": [4.5, 42]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 0,
+      "locations": [15, -0],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [53, -0],
+      "renderOrderMod": 1000
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, -0],
+      "length": 47.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-64, 34],
+      "length": 32.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-64, -34],
+      "length": 32.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-59, 45],
+      "length": 29.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-59, -45],
+      "length": 29.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    }
+  ],
+  "bounds": [
+    -73.5, -8,
+    -71.5, -10.5,
+    -78.5, -17,
+    -76, -20,
+    -66, -20.5,
+    -61.5, -25,
+    -62, -38,
+    -58, -41,
+    -55.5, -56.5,
+    -47, -56.5,
+    -33.5, -64.5,
+    -30, -65,
+    -23.5, -69.5,
+    -7.5, -67.5,
+    -5.5, -44,
+    7.5, -31,
+    22, -28,
+    34.5, -33.5,
+    64, -21.5,
+    75, -21,
+    78.5, -15.5,
+    73, -9,
+    66.5, -8.5,
+    66.5, 8.5,
+    73, 9,
+    78.5, 15.5,
+    75, 21,
+    64, 21.5,
+    34.5, 33.5,
+    22, 28,
+    7.5, 31,
+    -5.5, 44,
+    -7.5, 67.5,
+    -23.5, 69.5,
+    -30, 65,
+    -33.5, 64.5,
+    -47, 56.5,
+    -55.5, 56.5,
+    -58, 41,
+    -62, 38,
+    -61.5, 25,
+    -66, 20.5,
+    -76, 20,
+    -78.5, 17,
+    -71.5, 10.5,
+    -73.5, 8
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "id":"uaf_sentry_rail_cannon_muzzle_left",
+ "type":"DECORATIVE",
+ "specClass":"beam",
+ "size":"SMALL",
+ "showDamageWhenDecorative":false,
+ "turretSprite":"graphics/weapons/Sentry/uaf_sentry_rail_cannon_light_one_00.png",
+ "hardpointSprite":"graphics/weapons/Sentry/uaf_sentry_rail_cannon_light_one_00.png",
+ "renderBelowAllWeapons":"false",
+ "turretOffsets":[0, 0],
+ "turretAngleOffsets":[0],
+ "hardpointOffsets":[0, 0],
+ "hardpointAngleOffsets":[0],
+ "width":1.0,
+ "textureType":ROUGH,
+ "textureScrollSpeed":1.0,
+ "pixelsPerTexel":5.0,	
+}

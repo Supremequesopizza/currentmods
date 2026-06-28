@@ -1,0 +1,17 @@
+{
+	"id":"anvil_tierra_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"width":40.0,
+	"fadeTime":1.5,
+	"fringeColor":[255, 132, 0,255],
+	"coreColor":[127, 66, 0,255],
+	#"coreColor":[175,175,175,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.5
+}

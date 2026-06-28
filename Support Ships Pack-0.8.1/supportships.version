@@ -1,0 +1,21 @@
+{
+    # A link to the raw .version JSON data
+    "masterVersionFile":"https://raw.githubusercontent.com/Forest-Fighters/SupportShipsPack/main/supportships.version",
+    "modName":"Support Ships Pack",
+    "modThreadId":25186,
+    # The ID of the NexusMods page for this mod (optional)
+    # This is used to launch directly to the NexusMods page from in the game.
+    # The ID is the number at the end of the mod's NexusMods page's URL
+    # For example: https://www.nexusmods.com/starsector/mods/3 has a modNexusId of 3
+    "modNexusId":3,
+    # The current patch number
+    # Notation is major.minor.patch; trailing zeros are ignored
+    # This means version 2.1.0 shows up as v2.1, version 4.0.0 as v4, etc
+    # If you use major.minor notation you can just leave patch as 0
+    "modVersion":
+    {
+        "major":0,
+        "minor":8,
+        "patch":0 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+    }
+}

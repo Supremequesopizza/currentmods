@@ -1,0 +1,24 @@
+{
+    "knownHullMods": {
+        "hullMods": [
+            "mhmods_antiarmorgammunition",
+            "mhmods_bombardmentpackage",
+            "mhmods_FuelAdditive",
+            "mhmods_hyperengineupgrade",
+            "mhmods_hullfoam",
+            "MHMods_prefabricator",
+            "mhmods_particleaccelerator",
+            "mhmods_splitChamber",
+            "mhmods_torpedospec",
+            "mhmods_weaponinhibitor",
+            "mhmods_fluxgenerator",
+            "mhmods_stiffMounts"
+        ]
+    },
+    "hullmodSellFrequency": {
+        "mhmods_bombardmentpackage": 10,
+        "mhmods_hullfoam": 10,
+        "MHMods_prefabricator": 10,
+        "mhmods_particleaccelerator": 10
+    }
+}

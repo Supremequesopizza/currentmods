@@ -1,0 +1,194 @@
+{
+  "hullName": "Redemption",
+  "hullId": "ork_redemption_main",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/redemption/redemption_main.png",
+  "style": "LOW_TECH",
+  "height": 782,
+  "width": 277,
+  "center": [138.5, 391],
+  "collisionRadius": 688,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 677,
+  "viewOffset": 0,
+  "builtInMods": [
+    "degradedcore",
+    "ExtensiveMissileRacks",
+    "BT_antiNukeHidden",
+    "increased_explosion",
+    "operations_center"
+  ],
+  "builtInWeapons": {
+    "WS0004": "ork_holy_flame"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-320.5, 0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [11.5, 0.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [353.5, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [356.5, 32.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [356.5, -32.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-221, 154]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-221, -154]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10.5, 165.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-10.5, -165.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [233.5, -135.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [233.5, 135.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": 0,
+      "locations": [267.5, 41.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": -0,
+      "locations": [267.5, -41.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-234.5, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-386, 0.5],
+      "length": 253.5,
+      "width": 107,
+      "angle": -180,
+      "contrailSize": 107,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -384.5, -52,
+    -389, -62,
+    -387.5, -72,
+    -277.5, -105,
+    -253, -96,
+    -38.5, -98.5,
+    -4, -111.5,
+    28, -105.5,
+    38, -122.5,
+    77, -111,
+    190, -110.5,
+    214, -122.5,
+    251, -96,
+    339, -92,
+    367, -71.5,
+    367, 71.5,
+    339, 92,
+    251, 96,
+    214, 122.5,
+    190, 110.5,
+    77, 111,
+    38, 122.5,
+    28, 105.5,
+    -4, 111.5,
+    -38.5, 98.5,
+    -253, 96,
+    -277.5, 105,
+    -387.5, 72,
+    -389, 62,
+    -384.5, 52
+  ]
+}

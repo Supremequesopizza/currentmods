@@ -1,0 +1,44 @@
+{
+  "id": "armaa_ilorin_torso",
+  "specClass": "projectile",
+  "everyFrameEffect": "data.scripts.weapons.armaa_rcl_effect",
+  "projectileSpecId": "armaa_rcl_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "visualRecoil": 1,
+  "turretOffsets": [
+    18,
+    8
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    -5,
+    -5,
+    -5,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    -45,
+    45
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "autocharge": true,
+	"smokeSpec":{
+            "particleSizeMin":10.0,
+            "particleSizeRange":15.0,
+            "cloudParticleCount":5,
+            "cloudDuration":1,
+            "cloudRadius":10.0,
+            "blowbackParticleCount":15,
+            "blowbackDuration":1.5,
+            "blowbackLength":-20.0,
+            "blowbackSpread":10.0,
+            "particleColor":[190,190,190,100]
+        },
+  "fireSoundTwo": "armaa_rcl_fire"
+}

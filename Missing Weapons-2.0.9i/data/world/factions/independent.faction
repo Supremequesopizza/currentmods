@@ -1,0 +1,20 @@
+{
+  "knownWeapons":{
+	"tags":[""],
+	"weapons":[
+    "missp_atropostvc",
+    "missp_salamander_large",
+    "missp_heavygraviton",
+    "missp_swarmerpod",
+    "missp_atropospod",
+    "missp_mjolnirsb"
+  ],
+  },
+  "weaponSellFrequency": {
+	"missp_atropospod": 3,
+	"missp_salamander_large": 6,
+	"missp_heavygraviton": 5,
+	"missp_swarmerpod": 7,
+	"missp_mjolnirsb": 5
+	}
+}

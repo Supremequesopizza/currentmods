@@ -1,0 +1,161 @@
+{
+  "hullName": "Lovela(M)",
+  "hullId": "uaf_m_lovela",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Lovela/uaf_m_lovela.png",
+  "style": "UAF_DESTROYER",
+  "height": 158,
+  "width": 114,
+  "center": [57, 77],
+  "collisionRadius": 105.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 89.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 0,
+      "locations": [14, -30]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": -0,
+      "locations": [14, 30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [3, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [3, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-34, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8.5, 54]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-8.5, -54]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24, -23],
+      "length": 45,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-24, 23],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-23, 25],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-23, -25],
+      "length": 45,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-20.5, 32],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-20.5, -32],
+      "length": 45,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -73, 7.5,
+    -62.5, 12,
+    -37.5, 17,
+    -28.5, 17,
+    -28.5, 23.5,
+    -38, 29.5,
+    -46.5, 45,
+    -14, 51,
+    1, 51,
+    1, 38,
+    11, 38,
+    38.5, 16.5,
+    78, 2,
+    78, -2,
+    38.5, -16.5,
+    11, -38,
+    1, -38,
+    1, -51,
+    -14, -51,
+    -46.5, -45,
+    -38, -29.5,
+    -28.5, -23.5,
+    -28.5, -17,
+    -37.5, -17,
+    -62.5, -12,
+    -73, -7.5
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "hullName": "Lynx",
+  "hullId": "uaf_wing_lynx",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Special/uaf_lynx.png",
+  "style": "UAF_FIGHTER_M",
+  "height": 88,
+  "width": 69,
+  "center": [34.5, 42.5],
+  "collisionRadius": 82.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_experimental_fighter",
+    "uaf_limitedAmmo",
+    "uaf_melodyEngine",
+    "uaf_lynx_extensive_systems",
+    "uaf_automataSpec"
+  ],
+  "builtInWeapons": {
+    "BLINKER1": "blinker_green",
+    "BLINKER2": "blinker_green",
+    "BLINKER_FRONT": "blinker_red",
+    "SAKURA_POD_LEFT": "uaf_missile_barrage_builtin",
+    "SAKURA_POD_RIGHT": "uaf_missile_barrage_builtin",
+    "WS0001": "uaf_deco_mg",
+    "WS0009": "uaf_deco_mg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 92,
+      "angle": 23.5,
+      "locations": [-14, 23.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7.5, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [7.5, -14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8, 24.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-8, -24.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 92,
+      "angle": -23.5,
+      "locations": [-14, -23.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 92,
+      "angle": -23.5,
+      "locations": [-14, -23.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 92,
+      "angle": -23.5,
+      "locations": [-14, -23.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 92,
+      "angle": -23.5,
+      "locations": [-14, -23.5]
+    },
+    {
+      "id": "BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-16.5, 32]
+    },
+    {
+      "id": "BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-16.5, -32]
+    },
+    {
+      "id": "BLINKER_FRONT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -147.5,
+      "locations": [43, 0]
+    },
+    {
+      "id": "SAKURA_POD_LEFT",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-15.5, 14],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "SAKURA_POD_RIGHT",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-15.5, -14],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "LYNX_DECO_COUNTER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-7.5, -0]
+    },
+    {
+      "id": "LYNX_MAIN_WEAPON_SLOT",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15, -0]
+    },
+    {
+      "id": "LYNX_DECO_MAIN_WEAPON_SELECTOR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, 9.5],
+      "length": 45,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "MELODY_ENGINE_F"
+    },
+    {
+      "location": [-35, -9.5],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MELODY_ENGINE_F"
+    }
+  ],
+  "bounds": [
+    24, -4,
+    18, -7,
+    8, -7.5,
+    -5, -20,
+    -14, -28,
+    -14, -31,
+    -18, -31,
+    -23, -26,
+    -19, -21,
+    -22, -17,
+    -34.5, -17,
+    -37, -15,
+    -32.5, -14,
+    -38, -5,
+    -22, -5,
+    -22, 5,
+    -38, 5,
+    -32.5, 14,
+    -37, 15,
+    -34.5, 17,
+    -22, 17,
+    -19, 21,
+    -23, 26,
+    -18, 31,
+    -14, 31,
+    -14, 28,
+    -5, 20,
+    8, 7.5,
+    18, 7,
+    24, 4,
+    41, -0
+  ]
+}

@@ -1,0 +1,29 @@
+{
+	"id":"anvil_emp_ex",
+	"type":"EMP",
+	"aiType":"EMP",
+	
+	"range":1000,
+	
+	"empDamage":1300,
+	"damage":300,
+	"damageType":ENERGY,
+	
+	#"effectColor1":[150,150,255,200],
+	#"effectColor2":[175,175,255,255],
+	"effectColor1":[50,50,50,200],
+	"effectColor2":[28,28,28,255],
+
+
+	"useSound":"system_emp_emitter_activate",
+	"loopSound":"system_emp_emitter_loop",
+	"impactSound":"system_emp_emitter_impact",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":900,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

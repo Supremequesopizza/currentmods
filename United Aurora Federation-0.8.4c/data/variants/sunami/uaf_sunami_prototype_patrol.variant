@@ -1,0 +1,57 @@
+{
+    "displayName": "Patrol",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "uaf_sunami_prototype",
+    "hullMods": [
+        "uaf_reserve_wing_operation",
+        "recovery_shuttles"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_sunami_prototype_patrol",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_clarinet_mirv_medium",
+                "WS0002": "uaf_oboe_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina",
+                "WS0005": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_weiss_flk",
+                "WS0008": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_vocal_s_srm"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_pengawas",
+        "uaf_wing_m_superaria"
+    ]
+}

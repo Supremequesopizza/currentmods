@@ -1,0 +1,191 @@
+{
+  "hullName": "Nakiha(M)",
+  "hullId": "uaf_m_nakiha",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Nakiha_Military.png",
+  "style": "MIDLINE",
+  "height": 152,
+  "width": 112,
+  "center": [56, 74],
+  "collisionRadius": 100.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 82,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_melodyEngine",
+    "uaf_militaryGrade",
+    "uaf_atmospheric_entry"
+  ],
+  "builtInWeapons": {
+    "WS0007": "uaf_amazoch_s_asrm_single",
+    "WS0008": "uaf_amazoch_s_asrm_single"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-10, 18],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-10, -18],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [8, -0],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [33, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": -0,
+      "locations": [9, -27.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [9, 27.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [47, 8]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [47, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63, -0],
+      "length": 59.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-34, 28],
+      "length": 34.439999,
+      "width": 12,
+      "angle": 153.5,
+      "contrailSize": 12,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-34, -28],
+      "length": 34.44228,
+      "width": 11.996566,
+      "angle": -153.5,
+      "contrailSize": 11.996566,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-55, -15.5],
+      "length": 34,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-55, 15.5],
+      "length": 34,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-63, -4],
+      "length": 34,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-63, 4],
+      "length": 34,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -63.5, 7,
+    -54, 18.5,
+    -40, 18.5,
+    -28, 29.5,
+    -32, 36.5,
+    -9, 36.5,
+    -9, 32.5,
+    16.5, 32.5,
+    21, 29.5,
+    21, 24.5,
+    16.5, 19.5,
+    27.5, 25,
+    46.5, 17,
+    48, 14.5,
+    75.5, 5,
+    75.5, -5,
+    48, -14.5,
+    46.5, -17,
+    27.5, -25,
+    16.5, -19.5,
+    21, -24.5,
+    21, -29.5,
+    16.5, -32.5,
+    -9, -32.5,
+    -9, -36.5,
+    -32, -36.5,
+    -28, -29.5,
+    -40, -18.5,
+    -54, -18.5,
+    -63.5, -7
+  ]
+}

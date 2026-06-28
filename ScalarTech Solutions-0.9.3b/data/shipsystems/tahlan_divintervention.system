@@ -1,0 +1,19 @@
+{
+	"id":"tahlan_divintervention",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"org.niatahl.scalartech.shipsystems.DivineInterventionStats",
+	
+	"phaseHighlight":"_glow1",
+	"phaseDiffuse":"_glow2",
+
+	"effectColor1":[0,0,0,0],
+	"effectColor2":[0,0,0,0],
+
+	"fadeActivationSoundOnChargedown":false,
+
+	"shipAlpha":1.0,
+
+	"outOfUsesSound":"system_phase_cloak_collision",
+}

@@ -1,0 +1,62 @@
+{
+  "id": "uaf_chorus_m_amm",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_missile_chorus_s",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/Missiles/chorus_m_amm/chorus_m_amm.png",
+  "hardpointSprite": "graphics/weapons/Missiles/chorus_m_amm/chorus_m_amm.png",
+  "turretOffsets": [
+    9,
+    7.5,
+    9,
+    3.5,
+    9,
+    -7.5,
+    9,
+    -3.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    16.5,
+    7.5,
+    16.5,
+    3.5,
+    16.5,
+    -7.5,
+    16.5,
+    -3.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      128,
+      128,
+      128,
+      105
+    ]
+  },
+  "fireSoundTwo": "uaf_missile_5"
+}

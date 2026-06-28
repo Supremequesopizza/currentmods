@@ -1,0 +1,169 @@
+{
+  "hullName": "Ifrinn",
+  "hullId": "ork_ifrinn",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/gestalt/ork_ifrinn.png",
+  "style": "GESTALT",
+  "height": 107,
+  "width": 108,
+  "center": [54, 53],
+  "collisionRadius": 82,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 79.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger_Gestalt",
+    "bt_gestalt_automation",
+    "ork_redfasta"
+  ],
+  "builtInWings": [
+    "ork_dion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -12.5, -0,
+        -11.5, -0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9.5, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [9.5, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [42.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, 14.5],
+      "length": 36.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-38, -14.5],
+      "length": 36.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-30, 31],
+      "length": 23.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-30, -31],
+      "length": 23.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-22, 48],
+      "length": 19.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-22, -48],
+      "length": 19.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-19, 51],
+      "length": 12,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-19, -51],
+      "length": 12,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    }
+  ],
+  "bounds": [
+    -51, -3,
+    -35, -5.5,
+    -34, -19.5,
+    -24, -20,
+    -27, -32,
+    -21.5, -37.5,
+    -19.5, -48,
+    -16, -51,
+    3.5, -52,
+    6.5, -49,
+    -3, -43,
+    -0.5, -32.5,
+    10, -31.5,
+    17, -14,
+    44.5, -13,
+    44.5, 13,
+    17, 14,
+    10, 31.5,
+    -0.5, 32.5,
+    -3, 43,
+    6.5, 49,
+    3.5, 52,
+    -16, 51,
+    -19.5, 48,
+    -21.5, 37.5,
+    -27, 32,
+    -24, 20,
+    -34, 19.5,
+    -35, 5.5,
+    -51, 3
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "displayName": "Illustrious",
+    "fluxCapacitors": 13,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "tahlan_gown_ringright",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "tahlan_gown_ringright_illus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "tahlan_ruffle"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hveldriver",
+                "WS0002": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "lrpdlaser"}
+        }
+    ],
+    "wings": [
+        "tahlan_cord_fighter_wing",
+        "tahlan_cord_fighter_wing"
+    ]
+}

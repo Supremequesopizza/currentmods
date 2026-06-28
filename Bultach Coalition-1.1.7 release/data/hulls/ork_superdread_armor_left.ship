@@ -1,0 +1,98 @@
+{
+  "hullName": "Armor Module",
+  "hullId": "ork_superdread_armor_left",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/superdread/ork_superdread_armor_left.png",
+  "style": "LOW_TECH",
+  "height": 310,
+  "width": 166,
+  "center": [67, 155],
+  "collisionRadius": 172.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 163,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "always_detaches",
+    "BT_antiNuke"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [93, -57],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [30, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [85, 16]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-53, 4]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-88, 14]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 65,
+      "locations": [124, 5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    131, 33.5,
+    152.5, -6,
+    120.5, -40.5,
+    119, -96.5,
+    45, -90.5,
+    -2.5, -71.5,
+    -15, -45,
+    -149, -1.5,
+    -152.5, 12,
+    -135, 28.5,
+    -137.5, 50,
+    -123.5, 63.5,
+    -81, 45.5,
+    -30, 49.5,
+    -11, 32.5,
+    41.5, 32.5,
+    36, 59.5,
+    44, 64.5,
+    106.5, 20
+  ]
+}

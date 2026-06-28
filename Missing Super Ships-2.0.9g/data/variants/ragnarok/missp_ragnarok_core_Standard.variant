@@ -1,0 +1,61 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "missp_ragnarok_core",
+    "hullMods": ["targetingunit"],
+    "modules": [
+        {"WS0005": "missp_ragnarok_propulsion_left_Standard"},
+        {"WS0006": "missp_ragnarok_propulsion_right_Standard"},
+        {"WS0001": "missp_ragnarok_booster_left_Standard"},
+        {"WS0002": "missp_ragnarok_booster_right_Standard"},
+        {"WS0003": "missp_ragnarok_secondary_hangar_left_Standard"},
+        {"WS0004": "missp_ragnarok_secondary_hangar_right_Standard"},
+        {"WS0007": "missp_ragnarok_gunpod_left_Standard"},
+        {"WS0008": "missp_ragnarok_gunpod_right_Standard"},
+        {"WS0009": "missp_ragnarok_bow_left_Standard"},
+        {"WS0010": "missp_ragnarok_bow_right_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_ragnarok_core_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "mark9",
+                "WS0019": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "mark9",
+                "WS0020": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "devastator",
+                "WS0012": "devastator",
+                "WS0015": "flak",
+                "WS0016": "flak",
+                "WS0017": "flak",
+                "WS0018": "flak",
+                "WS0021": "flak",
+                "WS0022": "flak",
+                "WS0023": "vulcan",
+                "WS0024": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "talon_wing",
+        "perdition_wing"
+    ]
+}

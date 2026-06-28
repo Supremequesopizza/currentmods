@@ -1,0 +1,226 @@
+{
+  "hullName": "Akatsuzuma",
+  "hullId": "uaf_akatsuzuma",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Akatsuzuma/Akatsuzuma_Standard.png",
+  "style": "UAF_CRUISER",
+  "height": 241,
+  "width": 156,
+  "center": [78, 117],
+  "collisionRadius": 147,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 126,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_akatsuzuma_cover"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [1, -35],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [1, 35],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -0,
+      "locations": [85.5, -24.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [85.5, 24.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 33.5,
+      "locations": [38, 24],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -33.5,
+      "locations": [38, -24],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [61, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [-63, 47]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [-63, -47]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [34.5, -0],
+      "renderOrderMod": 5
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-98, 17],
+      "length": 37,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-98, -17],
+      "length": 37,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-97, -23],
+      "length": 35.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-97, 23],
+      "length": 35.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-22, 39],
+      "length": 18.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-22, -39],
+      "length": 18.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-23, 33],
+      "length": 20,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-23, -33],
+      "length": 20,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-18, 44],
+      "length": 19,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-18, -44],
+      "length": 19,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -66, 61.5,
+    -55, 61.5,
+    -49.5, 28.5,
+    -23.5, 28.5,
+    -13, 46,
+    25.5, 61,
+    44.5, 61,
+    53.5, 41,
+    119.5, 21.5,
+    114, 14,
+    91, 14,
+    91, -14,
+    114, -14,
+    119.5, -21.5,
+    53.5, -43,
+    43.5, -60.5,
+    25.5, -60.5,
+    -13, -48,
+    -23.5, -30.5,
+    -49.5, -30.5,
+    -55, -61.5,
+    -66, -61.5,
+    -115, -0
+  ]
+}

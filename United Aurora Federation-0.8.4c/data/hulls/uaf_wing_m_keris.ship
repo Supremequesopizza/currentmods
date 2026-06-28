@@ -1,0 +1,88 @@
+{
+  "hullName": "Keris (M)",
+  "hullId": "uaf_wing_m_keris",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_m_wing_keris.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 45,
+  "width": 38,
+  "center": [19, 22.5],
+  "collisionRadius": 30,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [17.5, 5.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": -0,
+      "locations": [17.5, -5.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [11.5, 9.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": -0,
+      "locations": [11.5, -9.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-1.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12.5, 5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-12.5, -5.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -5, 18.5,
+    -21.5, -0,
+    -5, -18.5,
+    20.5, -0
+  ]
+}

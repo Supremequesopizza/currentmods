@@ -1,0 +1,86 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 11,
+    "fluxVents": 50,
+    "hullId": "missp_continuum",
+    "hullMods": [
+        "missleracks",
+        "advancedshieldemitter",
+        "turretgyros",
+        "armoredweapons",
+        "autorepair",
+        "ecm",
+        "eccm",
+        "hardenedshieldemitter",
+        "insulatedengine",
+        "high_scatter_amp",
+        "targetingunit",
+        "nav_relay",
+        "solar_shielding"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "missp_continuum_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 008": "resonatormrm",
+                "WS0008": "resonatormrm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "amsrm",
+                "WS 005": "amsrm",
+                "WS0002": "amsrm",
+                "WS0003": "amsrm",
+                "WS0011": "amsrm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "rifttorpedo"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "riftcascade"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "disintegrator",
+                "WS 007": "vpdriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "minipulser",
+                "WS0010": "minipulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "riftlance",
+                "WS 002": "shockrepeater",
+                "WS 003": "shockrepeater",
+                "WS 004": "riftlance",
+                "WS 010": "riftbeam",
+                "WS0001": "shockrepeater",
+                "WS0004": "shockrepeater",
+                "WS0005": "shockrepeater",
+                "WS0006": "shockrepeater"
+            }
+        }
+    ]
+}

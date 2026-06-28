@@ -1,0 +1,252 @@
+{
+  "hullName": "Ceartas",
+  "hullId": "ork_ceartas",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/gestalt/ork_ceartas.png",
+  "style": "GESTALT",
+  "height": 254,
+  "width": 194,
+  "center": [97, 128],
+  "collisionRadius": 156,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 152,
+  "viewOffset": 0,
+  "builtInMods": [
+    "BT_shieldsChanger_Gestalt",
+    "bt_gestalt_automation",
+    "ork_redfasta"
+  ],
+  "builtInWings": [
+    "ork_dion"
+  ],
+  "builtInWeapons": {
+    "WS0012": "ork_ceartas_left",
+    "WS0015": "ork_ceartas_right"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [42, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [2, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [85.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-1.5, 70]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-1.5, -70]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [77.5, 20]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [77.5, -20]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [-14, 70],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [-14, -70],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -135,
+      "locations": [-46, -46]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 135,
+      "locations": [-46, 46]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -14, 34,
+        -13, 35
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -14, -34,
+        -13, -35
+      ]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, 71],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3, -71],
+      "renderOrderMod": 1000
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, 50.5],
+      "length": 50,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-76, -50.5],
+      "length": 50,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-90, 33.5],
+      "length": 75.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    },
+    {
+      "location": [-90, -33.5],
+      "length": 75.5,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "GESTALT"
+    }
+  ],
+  "bounds": [
+    -88, -19.5,
+    -88, -39,
+    -73.5, -43.5,
+    -73.5, -53.5,
+    -51.5, -67.5,
+    -74, -72.5,
+    -46, -72.5,
+    -32.5, -82.5,
+    -49, -88,
+    -17.5, -87.5,
+    -26, -95.5,
+    6, -81,
+    -1.5, -55.5,
+    0, -21,
+    44, -28.5,
+    48.5, -42.5,
+    55, -28,
+    78, -24.5,
+    123.5, -6.5,
+    123.5, 6.5,
+    78, 24.5,
+    55, 28,
+    48.5, 42.5,
+    44, 28.5,
+    0, 21,
+    -1.5, 55.5,
+    6, 81,
+    -26, 95.5,
+    -17.5, 87.5,
+    -49, 88,
+    -32.5, 82.5,
+    -46, 72.5,
+    -74, 72.5,
+    -51.5, 67.5,
+    -73.5, 53.5,
+    -73.5, 43.5,
+    -88, 39,
+    -88, 19.5,
+    -121.5, -0
+  ]
+}

@@ -1,0 +1,479 @@
+{ 
+    "starSystems": {
+      
+	},
+	"campaign":{
+		"HSITC0_start":"A young girl sat in a corner, looking out of place in a bar. no one seemed to notice her.",
+		"HSITC0_startopt":"Walk over and stand in front of her",
+		"HSITC0_text0":"Your approach manages to divert her gaze from her Tripad.\"How do you do, Captain $playerName. It seems like you've finally noticed me.\"",
+		"HSITC0_opt1_1":"Say nothing",
+		"HSITC0_opt1_2":"\"It's hard to imagine a lady as dazzling as yourself being ignored.\"",
+		"HSITC0_text1_1":"\"Have a seat, Captain $playerName. There's no need for reservations.\"",
+		"HSITC0_text1_2":"\"I didn't expect you to be such a sweet talker.\"You seem to see her smile, but it is gone as soon as it appeared.\"Have a seat, Captain $playerName, there's no need to be so... I believe you'd dislike formality.\"",
+		"HSITC0_opt2":"Sit",
+		"HSITC0_text2":"Her invitation seemed to have some kind of charm, and you ease into a seat opposite her. She taps her Tripad a few times.\"Have a seat, Captain $playerName, there's no need to be so... I believe you'd dislike formality.\"",
+		"HSITC0_opt3_1":"\"Well... I am indeed very interesting.\"",
+		"HSITC0_opt3_2":"\"I don't think it really interests me.\"",	
+		"HSITC0_text3_1":"\"Then I could have praised you more. However, I'd still like a test of your abilities.\"She pushes a chip towards you.\"This is a little greeting gift.\"She pauses and pushes the glass of wine that was by her hand to you,\"I hope you are as strong as you are eloquent.\"",
+		"HSITC0_text3_2":"\"If you would like, we can talk about it at length. However, I'd still like a test of your abilities.\"She pushes a chip towards you.\"This is a little greeting gift.\"She pours the wine by her hand into two empty glasses, takes a sip from one, and pushes the other to you.\"I hope you that next time we meet, you won't be so guarded.\"",
+		"HSITC0_opt4_1":"Take the chip",
+		"HSITC0_opt4_2":"Take the chip (have a relaxing battle)",
+		"HSITC0_opt4_3":"Express no interest",
+		"HSITC0_text4_1":"Your senses slip away for a moment, and when you snap out of it, the other person is gone. Your Tripad prompts you of a credit transfer, and an odd unread message. Strange...",
+		"HSITC0_text4_2":"The other party said nothing more.",
+		"HSITC0_end":"\"Please come to the Space Bridge for a talk... What does this mean?\"",
+		"HSITC0FightOption": "Enter into a strange battle",
+		"HSITC0FightEngagement": "You decide to shake of the sense of incongruity",
+
+		"HSITC1_NameBefore":"Unknown Anomaly",
+		"HSITC1_NameFinished":"Desperate Knight",
+		"HSITC1_ShortDesc1":"The Director has commissioned you to investigate an anomaly near an uncharted planet.",
+		"HSITC1_ShortDesc2":"Investigate the uncharted planet.",
+
+		"HSIKnight_SkillDesc0":"When present alongside the player ship, both ships +%s damage dealt and -%s damage taken.",
+		"HSIKnight_SkillDesc1":"When the flagship is lost in combat, +%s damage dealt for 30 seconds, but lose corresponding stat permanently afterwards.",
+		"HSIKnight_SkillDesc2":"When piloting Luddic ships, +%s damage taken.",
+		"HSIKnight_SkillDesc3":"When dealing direct hull damage to a target with less than %s hull, destroy the target.",
+
+		"HSIMissionFuseTF33Name":"Halo Dynamics Mercantile Convoy",
+		"HSIMissionFuseTTName":"Lost Tri-Tachyon Security Flotilla",
+		"HSIMissionFuseTarget0":"Silence them. Leave no one alive.",
+		"HSIMissionFuseTarget1":"Ignore the diplomatic risks and get it done.",
+
+		"HSIMissionTheFinaleHSIName": "1st Guards Fleet Task Force",
+		"HSIMissionTheFinaleTTName": "Tri-Tachyon Rear Guard",
+		"HSIMissionTheFinaleTarget0": "Charge!",
+
+		"HSIMissionMCName":"Halo Dynamics\"Supply Fleet\"",
+		"HSIMissionMCTTName":"Tri-Tachyon Commerce Raiders",
+		"HSIMissionMCTarget0":"Save yourself",
+
+		"HSISAShop1":"Select Item",
+		"HSISAShop2":"Confirm",
+		"HSISAShop3":"Cancel",
+		"HSISAShipProviderRightClick":"Right Click to Get",
+		"HSISAShopName":"Arena Point Redemption",
+		"HSISAShipProviderCost":"Point Cost: ",
+		"HSISAShopPicked":"These items will cost %s Arena Points. You currently have %s.",
+
+		"HSISAAdvLevel": "Current Progress: ",
+		"HSISAAdvBuff": "Owned Buffs: ",
+		"HSISAAdvStartBattle": "Begin Adventure!",
+		"HSISAAdvPickBuff": "Select Buffs-",
+
+		"HPSIDIntelName":"HiNet",
+		"HPSIDIntelGuidence":"Proceed to Intrusion to liaise with representatives from various departments.\nThey provide rare items, allow you to place custom orders, and offer opportunities\nto strengthen relations with Halo Dynamics that will increase your HiNet clearance level.\nThe higher the level, the more access and privileges grants, but be warned,\nsubsequent hostilities against Halo Dynamics will be treated as betrayal.",
+		"HPSIDIntelGuidenceHL":"10/50/300",
+		"HPSIDStageJuniorCoop":"Grants a limited stipend.",
+		"HPSIDStageJuniorCoopHL":" stipend",
+		"HPSIDStageSeniorCoop":"Grants some technical equipment and additional stipends.",
+		"HPSIDStageSeniorCoopHL1":"Technical equipment",
+		"HPSIDStageSeniorCoopHL2":" stipend",
+		"HPSIDStageDSSS":"Unlocks access to the Deep Space Supply System.",
+		"HPSIDStageDSSSHL":"Deep Space Supply System",
+		"HPSIDStageSSP":"Unlocks access to elite ships.",
+		"HPSIDStageSSPHL":"Elite ships",
+		"HPSIDFNDesc":"Perks for cooperation with Halo Dynamics",
+
+
+		"HPSIDForgeDesc":"Purchase Orders",
+
+		"HPSIDConfirmText":"Confirm",
+		"HPSIDCancelText":"Cancel",
+		"HPSIDBountyValue":"Reward: ",
+		"HPSIDRepValue":"Reputation: ",
+		"HPSIDTurnInSD":"Select Survey Data to turn in",
+		"HPSIDTurnInSDBounty":"Turn in Survey Data to %s: ",
+		"HPSIDTurnInSDReward":"If you turn in the selected Survey Data, as a reward for working with %s, you will receive a %s bounty and your standing will improve by %s points.",
+		"HPSIDTurnInCore":"Select AI cores to turn in",
+		"HPSIDTurnInCoreBounty":"Turn in AI cores to %s: ",
+		"HPSIDTurnInCoreReward":"If you turn in the selected AI cores, as a reward for working with %s, you will receive a %s bounty and your standing will improve by %s points.",
+		"HPSIDTurnInRS":"Select rare ships to turn in",
+		"HSITurnedInBenefit": "Halo Dynamics recognizes your capabilities.",
+		"HPSIDMonthlyReward":"You have been awarded %s points based on your last submissions.",
+		"HPSID_TurnInString":"Turn In ",
+		"HPSIDTalesTutorial":"Choose messages from the left panel.",
+		"HPSIDTales": "Rumors",
+		"HSI_Failed":"With the fall of their last colony, Halo Dynamics has temporarily withdrawn from the Persean Sector... Only silence answers this channel now.",
+		"HSI_Hostile": "Your poor relationship with Halo Dynamics has resulted in your connection request being denied.",
+		"HSI_Shop_name":"Deep Space Supply System",
+		"HSI_Shop_Deliver_Fee":"Packaging Fee (Free Shipping!)",
+		"HSI_Shop_Reset":"Reset",
+		"HSI_Shop_Total":"Total",
+		"HSI_Shop_Owner_Name":"Skye",
+		"HSI_Shop_Owner_Rank":"Supply Officer (?)",
+		"HSI_Shop_Index":"General Supply",
+		"HSI_Shop_Forge":"Equipment Supply",
+		"HSI_Shop_List":"Cart",
+		"HSI_Shop_Discount":"Discount",
+		"HSI_Shop_Confirm":"Confirm",
+		"HSI_Shop_ConfirmFail":"Confirm failed, insufficient Star Coins",
+		"HSI_Shop_Cancel":"Are you sure you're not buying?",
+		"HSI_Shop_Delay":"%s days until delivery",
+		"HSI_Shop_Arrival":"Your %s order has arrived at %s",
+		"HSI_Shop_Pod_Name":"Deep Space Supply",
+		"HSI_ShopOwner_ChatConfirm0":"Well... alright, it's been sent out... is that good enough?",
+		"HSI_ShopOwner_ChatConfirm1":"You know... it takes real effort to deliver things here, so it's ok to charge a little more, right?",
+		"HSI_ShopOwner_ChatConfirm2":"Sigh... another supply convoy just got hit by pirates, what bad luck... but with our saturation resupply system, we'll still get it to you, okay?",
+		"HSI_ShopOwner_ChatTouch0":"Ah... are you hesitant because of the prices? Actually... with all the losses in transit we incur for this service... we're actually losing money you know?",
+		"HSI_ShopOwner_ChatTouch1":"Okay... I'm watching the Tripad now... but I'm so tired... but I can still, I can wait, right?",
+		"HSI_ShopOwner_ChatTouch2":"Really though, these are already our lowest prices... I would make it cheaper if I could, you know?",
+
+		"HSI_ShopOwner_Normal_ChatConfirm0":"Your order has been dispatched.",
+		"HSI_ShopOwner_Normal_ChatConfirm1":"Payment received. Pleasure doing business.",
+		"HSI_ShopOwner_Normal_ChatConfirm2":"En route now.",
+		"HSI_ShopOwner_Normal_ChatTouch0":"Fixed price, non-negotiable.",
+		"HSI_ShopOwner_Normal_ChatTouch1":"Fine print? There is no fine print.",
+		"HSI_ShopOwner_Normal_ChatTouch2":"Delivery takes time, but still beats sourcing it yourself.",
+		"HSI_Shop_Owner_Normal_Name":"Elisa",
+		"HSI_Shop_Owner_Normal_Rank":"Supply Officer",
+
+		"HPSIDContracts": "Production Order",
+
+		"HPSIDContracts_Title": "Order",
+		"HPSIDContracts_TimeLeft": "Estimated Time: ",
+
+		"HPSIDContracts_Tutorial": "Proceed to the Halo Dynamics Space Bridge to discuss purchases with the Ship Industry contact.",
+
+
+
+		"HSI_HPSIDRelFactor": "Relationship impact",
+
+		"HSIDreadnoughtFleetName": "Main Fleet",
+		"HSIDreadnoughtArtilleryWarning": "Locked on by ground batteries",
+		"HSIDreadnoughtArtilleryWarningCountdown": "Time to next strike-",
+
+
+		"HSI_TTMission_Name": "Peace Mission",
+		"HSI_TTMission_Desc0": "Amid eased tensions and calls not to stereotype Tri-Tachyon based on actions taken by another branch, Halo Dynamics and Tri-Tachyon plan to hold peace talks on Culann.",
+		"HSI_TTMission_Desc1": "Borodinov, Deputy Director of Halo Dynamics and head of Public Relations, is leading the delegation to Tri-Tachyon, underscoring the importance of the talks.",
+
+		"HSI_TTMission_Desc2": "The peace talks went quite well. Both parties signed a framework agreement to foster mutual trust and friendship.",
+		"HSI_TTMission_Desc3": "Although there were some voices of dissent, the Tri-Tachyon board of directors took swift and decisive action to silence them.",
+
+		"HSI_TTMission_Desc4": "Although there were some minor disturbances, the Tri-Tachyon board of directors quickly brought the situation under control.",
+
+		"HSI_TTMission_NextStep": "Culann has become the focus of the sector.",
+		"HSI_TTMission_NextStep2": "It's best to vacation somewhere else.",
+
+		"HSITTMissionStartFight": "\"That was fast.\"",
+
+		"HSI_Continue": "Continue",
+
+		"HSI_JuggeranutFleetName": "Core Retribution Fleet",
+		"HSI_JuggeranutName": "J-01",
+
+		"HSI_Campaign_Destination":"Objective: "
+	},
+	"shipSystem": {
+		"HSIShieldSystem":"Shield System",
+		"HSITurbulanceShieldSuperChargeName":"Shield Recharge",
+		"HSITurbulanceShieldSuperCharge0":"Recharges shields quickly at the cost of generating a large amount of flux. Shields recharge at a rate of %s per second, up to a maximum of %s. When activated, it recharges shields at a rate of %s per second, generating %s flux. Weapons are disabled during this process.",
+		"HSIFortifiedShieldName":"Hardened Barrier",
+		"HSIFortifiedShield0":"Damage to barriers x 0.1 ",
+		"HSIDeployCitadel":"Deploy Citadel",
+		"HSIDeployCitadelRecall":"Recall Citadel",
+		"HSIDeployCitadelBuff":"Citadel - increase range by 200% and rate of fire by 25%",
+		"HSIDeployCitadelRecallBuff":"Citadel - reduce range by 25% and rate of fire by 50%",
+		"HSIEmergencyBarrierName":"Emergency Barrier",
+		"HSIEmergencyBarrier0":"Instantly gain %s additional shields. Additional shields cannot exceed base shields, and taking damage does not interrupt shield regeneration. Immediately begins shield regeneration.",
+		"HSIEmergencyBarrierStatus":"% system charge regeneration rate",
+
+		"HSIBurial0":"Solemn Mourning",
+
+		"HSIPhaseText0":"Phase Coil Stability",
+		"HSIPhaseText1":"Phase Coil Load",
+		"HSIPhaseText2":"Current speed:",
+
+		"HSITimeBoosterHangar":"Reduce fighter refit time",
+		"HSITimeBoosterWeapon":"Increase weapon rate of fire",
+		"HSITimeBoosterWeapon2":"Reduce weapon flux cost",
+		"HSITimeBoosterFighter":"Increase fighter flow of time",
+		"HSITimeBoosterModeHangar":"Focus: Hangar",
+		"HSITimeBoosterModeWeapon":"Focus: Weapons",
+		"HSITimeBoosterModeFighter":"Focus: Fighters",
+
+		"HSIIFFDisruptorHints":"IFF suppression strength",
+
+		"HSIElegyStatusData0":"Target Marked",
+		"HSIElegyStatusData1":"% Damage",
+		"HSIElegyStatusData2":"Marked",
+		"HSIElegyFloaty":"Damage Amplified!",
+
+		"HSILuminarFlowHints":"Reduce damage taken by 50%",
+
+		"HSISpaceWind": "Reduce damage taken",
+
+		"HSIDeepDive": "Entering deep dive, maneuverability and top speed increased",
+
+		"HSIUplinkFireControlTitle": "Uplink Fire Control",
+		"HSIUplinkFireControlContent0": "Immune to ECM penalties",
+		"HSIUplinkFireControlContent1": "Increase range and weapon damage",
+		"HSIUplinkFireControlContent2": "Greatly improve target leading accuracy for autofiring weapons",
+
+		"HSIUTimeFlow": "Time flow change: ",
+
+		"HSITSControl": "Spacetime manipulation active",
+
+		"HSIFF0": "Reduce rate of fire",
+		"HSIFF1": "Reduce damage taken",
+		"HSIFF2": "Increase armor strength due to being locked on",
+
+		"HSIOD0": "Greatly increase maneuverability",
+		"HSIOD1": " top speed",
+
+		"HSIOverBurstDrive": "Engine Overcharged",
+
+		"HSITSControlAName": "SPACETIME MANIP",
+
+		"HSIOutOfRange":"OUT OF RANGE",
+		"HSINoTarget":"NO TARGET",
+		"HSIUsable":"READY"
+	} ,
+    "hullMod": {
+		"HSITurbulanceShieldName":"Energy Barrier",
+		"HSITurbulanceShield0":"BR",
+		"HSITurbulanceShieldSafe":"SAFE",
+		"HSITurbulanceShieldDanger":"DNGR",
+		"HSIShieldControl":"Barrier Control",
+		"HSIShieldControlOn":"Active",
+
+		"HSITurbulanceShieldV2Name":"Energy Barrier",
+		"HSITurbulanceShieldV2Desc1":"Creates an energy barrier on the surface of armor, taking damage in preference to armor and hull. The barrier has a capacity equal to %s of flux capacity, and it recovers at a rate equal to %s of flux dissipation. The barrier has an armor rating equivalent to %s of its capacity.",
+		"HSITurbulanceShieldV2Desc2":"Begins regenerating after a short cooldown when not taking hard flux damage, but generates flux while regenerating.\nThe barrier is immune to EMP effects until its integrity falls below %s. Regeneration cooldown is greatly reduced if few enemies are nearby.",
+		"HSITurbulanceShieldV2Desc2Old":"Begins regenerating after a short cooldown when not taking hard flux damage, but generates flux while regenerating.\nDamage below a certain threshold does not immediately halt or restart the regeneration process. Instead, it depletes a buffer pool equivalent to %s of the barrier capacity. If the buffer is insufficient, even damage below threshold will halt regeneration.\nThe buffer only replenishes when the barrier regenerates, at a rate of %s of the barrier's regeneration speed.\nThis damage threshold scales with the barrier capacity but never exceeds 75.\nRegeneration cooldown is greatly reduced if few enemies are nearby.",
+		"HSITurbulanceShieldV2Desc3":"Regeneration is greatly reduced while the ship is overloaded or while actively venting flux.",
+		"HSITurbulanceShieldV2Desc4":"The barrier gains additional damage reduction equal to the average damage reduction of shield, armor, and hull.\nHard flux dissipation while shields are active is converted to barrier regeneration at a rate of 40%, and takes effect even while barrier regeneration is on cooldown.",
+		"HSITurbulanceShieldV2TableTitle":"Performance parameters",
+		"HSITurbulanceShieldV2TableRowHeadL":"Barrier",
+		"HSITurbulanceShieldV2TableRowHeadR":"Value",
+		"HSITurbulanceShieldV2Row1":"Capacity",
+		"HSITurbulanceShieldV2Row2":"Cap/dmg",
+		"HSITurbulanceShieldV2Row3":"Regen rate",
+		"HSITurbulanceShieldV2Row4":"Regen CD",
+		"HSITurbulanceShieldV2Row5":"Multiplier",
+		"HSITurbulanceShieldV2Row6Old":"Threshold",
+		"HSITurbulanceShieldV2Row6":"Armor",
+		"HSITurbulanceShieldV2Row7":"Regen cost",
+		"HSITurbulanceShieldV2RowDesc1":"#Capacity: Used to absorb damage, increases with flux capacity",
+		"HSITurbulanceShieldV2RowDesc2":"#Cap/dmg: The amount of barrier capacity consumed per point of damage absorbed, excluding other damage reduction effects; shown in the table above as Efficiency x Ship Damage Reduction",
+		"HSITurbulanceShieldV2RowDesc3":"#Regen rate: Barrier capacity increase per second when the barrier is regenerating, increases with flux dissipation",
+		"HSITurbulanceShieldV2RowDesc4":"#Regen CD: The delay before regeneration resumes after taking damage",
+		"HSITurbulanceShieldV2RowDesc5":"#Multiplier: All fixed barrier increases will be multiplied by this value ",
+		"HSITurbulanceShieldV2RowDesc6Old":"#Threshold: Taking damage below this amount does not immediately interrupt barrier regeneration, but instead consumes an additional buffer pool. Once the buffer is depleted, even damage below this threshold will halt regeneration",
+		"HSITurbulanceShieldV2RowDesc6":"#Armor: When the barrier takes damage, damage reduction is calculated based on this value",
+		"HSITurbulanceShieldV2RowDesc7":"#Regen cost: Amount of soft flux generated as the barrier regenerates",
+		"HSITurbulanceDetailedDescTitle":"Energy Barrier Mechanics Explained",
+		"HSITurbulanceDetailedDesc":"Energy barriers absorb all non-fragmentation damage at full value, while fragmentation damage is reduced to one-fourth.\nFor each point of damage sustained by the ship while the barrier is active, a base value is first determined through calculations involving barrier strength, the ship's damage reduction, certain systems, and other special damage reduction mechanics.\nBased on this base value, the effects of relevant hullmods and barrier armor are then applied. In barrier armor calculations, the armor penetration of damage is unaffected by barrier efficiency or damage reduction.",
+		"HSITurbulanceDetailedDescOld":"Energy barriers absorb all non-fragmentation damage at full value, while fragmentation damage is reduced to one-fourth.\nFor each point of damage sustained by the ship while the barrier is active, a base value is first determined through calculations involving barrier strength, half the ship's damage reduction, certain systems, and other special damage reduction mechanics.\nBased on this base value, the effects of relevant hullmods and interrupting regneration are then applied.",
+
+		"HSIShieldModIncompatible":"Barrier upgrade limit reached",
+		"HSIWeaponModIncompatible":"Weapon Industry upgrade limit reached",
+
+		"HSIHardenedShieldName":"Steadfast Shield",
+		"HSIHardenedShield0":"When the shield takes damage exceeding %s, reduce damage to %s, reduction limited to at most %s。",
+		"HSIHardenedShieldSystem0":"Increases shield efficiency by %s during the system's active duration.",
+		"HSIHardenedShieldConflictWarning":"Incompatible with Hardened Barrier",
+
+		"HSIBarrierName":"Hardened Barrier",
+		"HSIBarrier0":"Every %s second(s), gain additional shields equal to %s of max shield capacity. Additional shields cannot exceed %s.",
+		"HSIBarrierSystem0":"Activating the system instantly grants additional shields equal to %s of max shield capacity, but reduces top speed by %s.",
+		"HSIBarrierConflictWarning":"Incompatible with Steadfast Shield",
+
+		"HSIPredictShield":"For beam weapons, calculation is based on the distance from the source; for projectile weapons, it is based on projectile flight time.",
+		"HSIPredictShieldConflictWarning":"Incompatible with Predictive Shield Control",
+
+		"HSIReflectShield0":"Beam weapon attacks count as 5 attacks per second.",
+		"HSIReflectShield1":"The counter resets when shield regeneration begins.",
+		"HSIReflectShieldConflictWarning":"Incompatible with Reflective Shield Control",
+
+		"HSIFlexibleHangar0":"Additional deployment and preparation",
+		"HSIFlexibleHangar1":"Each hangar contributes to a shared preparation cap and reserve deployment cap, affected by fighter ordnance points and refit time.\nWhen a hangar is full, preparation points are accumulated, and when a wing is full, reserve points are accumulated.\nWhen a hangar's preparation is insufficient, consume shared preparation for replenishment. When a wing suffers losses, consume shared reserve deployment for replenishment.",
+		"HSIFlexibleHangar2":"Wing",
+		"HSIFlexibleHangar3":"Prep",
+		"HSIFlexibleHangar4":"Reserve",
+		"HSIFlexibleHangar5":"P/s",
+		"HSIFlexibleHangar6":"R/s",
+		"HSIFlexibleHangar7":"Reserve Deployment cap depends on fighter ordnance points. Base reserve is 3, if fighter ordnance points are more than 7 then 2, and more than 15 then 1.\nReserve Deployment accumulation speed depends on wing refit time. Each reserve deployment requires 3x the refit time of a full hangar (up to 60 seconds) to accumulate.",
+		"HSIFlexibleHangar8":"Shared Preparation cap depends on fighter refit time. Each hangar contributes a maximum shared preparation of 10/refit time (capped at 150%).\nEvery full hangar provides 5% of its own cap per second as shared preparation.\nFor 10s after wing deployment, recover shared preparation at double speed without consuming shared preparation and accumulating reserve deployment.",
+
+		"HSINoSafetyOverridesWarning":"Incompatible with Safety Overrides",
+
+
+
+		"HSIShieldModifier":"Shield Modification",
+		"HSIShieldModConflict": "Only 1 shield mod can be installed",
+
+		"HSISystemModifier":"System Modification",
+
+		"HSIEGOmaintain0":"Current Emotion Level: ",
+
+		"HSIEGO0":"A form of technology unknown within the Domain. This system was designed and constructed by the privately controlled L Department under the Director's authority.",
+		"HSIEGO1":"Emotion system",
+		"HSIEGO2":"The EGO system accumulates emotions when taking and dealing hull damage. Every %s damage taken and %s damage dealt generates %s points of negative/positive emotions. Upon reaching a point threshold, the emotion level increases, with the base threshold being %s points, increasing by %s point(s) per level, with a maximum level of %s.",
+		"HSIEGO3":"Increases flux dissipation, flux capacity, and system cooldown speed by %s per level. Some hulls enhance or unlock abilities as they level up.",
+		"HSIEGO4":"When you receive potentially fatal damage for the first time each battle, instantly restore all ammo, system charges, and combat readiness. During this period, the ship cannot fire or be damaged, gains the ability to pass through solid objects, and gains %s negative emotion. Peak time is unaffected by changes in the ship's flow of time.",
+		"HSIEGO_HUNT": "On destroying a target that has been previously damaged within a certain period of time, instantly restore %s combat readiness. Reduces the rate at which combat readiness degrades to %s of normal. If the combat readiness gained by this effect exceeds maximum, the excess will be halved. Excess combat readiness decays over time and cannot exceed %s.",
+		"HSIEGO5":"Emotion level",
+		"HSIEGO6":"Each time emotion level increases, an additional effect is randomly drawn. Effects can be positive or negative, with their likelihood weighted according to the ratio of negative/positive emotion accumulated in the level-up. Effects cannot be repeated, and some effects have level and EGO type restrictions.",
+		"HSIEGO7":"Career effect",
+		"HSIEGO8":"Cumulative hull and armor damage taken is converted to emotion. The conversion threshold will gradually increase. Current Emotion: %s / %s",
+
+		"HSIEGOButterFly0":"Mourning",
+		"HSIEGOButterFly1":"EGO Level 2: System changed to Solemn Mourning. Greatly reduces cooldown and increases the number of Death Butterflies by %s. Activating the system consumes %s of damage dealt to restore %s of that value as hull and armor.",
+		"HSIEGOButterFly2":"EGO Level 4: Increases the damage Death Butterflies deal by %s.",
+		"HSIEGOButterFly3":"EGO Level 6: Increases the number of Death Butterflies by %s.",
+
+
+		"HSIEGOCardsEffect": "Emotion levels",
+		"HSIEGOCardsEffectPleasure": "Increases CR gain from destroying enemies by 50%",
+		"HSIEGOCardsEffectSteady": "Extends range to 115%",
+		"HSIEGOCardsEffectRIP": "Deal 115% damage to targets below 33% hull",
+		"HSIEGOCardsEffectCoffin": "0.5% chance per point of base damage to disable one engine on hit",
+		"HSIEGOCardsEffectDesire": "Increases damage taken by 10%, but also increases maneuverability and top speed by 10%",
+		"HSIEGOCardsEffectDepression": "Reduces range by 10%, but increases damage dealt by 10%",
+		"HSIEGOCardsEffectAnger": "Increases hull damage taken by 10%, but increases damage dealt by 10%",
+		"HSIEGOCardsEffectMourning": "Increases damage dealt to targets with negative conditions",
+		"HSIEGOCardsEffectGrief": "Reduces damage taken while venting/overloaded, and increases damage dealt to venting/overloaded targets",
+
+
+		"HSITorpDesign1":"Opening torpedo salvo",
+		"HSITorpDesign2":"Upon entering or leaving an engagement, fire a volley of missiles from all forward missile hardpoints. Does not consume ammo, but puts the weapons on cooldown for %s seconds. Increases the flight time of these missiles by %s seconds. The firing cost for burst fire missiles increases every two missiles, resulting in less missiles per burst than when fired normally. Not triggered by enemies of a lower size class or quantity.",
+
+
+		"HSITorpDesign3_Old":"Long-range torpedo strike",
+		"HSITorpDesign4_Old":"Reduces damage dealt by missile weapons by %s, while extending their range by %s.",
+
+		"HSI_LTorpDesign_NoRacks": "Incompatible with Expanded Missile Racks",
+		"HSI_ProtocalMeltdown_NoAMP": "Incompatible with High Scatter Amplifier",
+
+		"HSIAdaption":"Weapons Industry Conversion Kit",
+		"HSIAdaptionText":"The Weapons Industry provides blueprints for the conversion of certain weapons with shipboard maintenance facilities. Some weapons can be converted to modified versions after installation. For details, refer to the %s hullmod.",
+		"HSIAdaptionText_mjolnir": "Mjolnir Cannon",
+		"HSIAdaptionText_needler": "Light/Heavy Needler",
+		"HSIAdaptionText_iral": "IR Autolance. Reduced range, now a PD weapon with fragmentation damage on hit.",
+		"HSIAdaptionText_guardian": "Paladin PD. Increased refire delay. Removed magazine.",
+		"HSIAdaptionText_autopulse": "Autopulse Laser",
+		"HSIAdaptionText_plasma": "Plasma Cannon",
+		"HSIAdaptionText_hil": "High Intensity Laser",
+		"HSIAdaptionText_tachyonlance": "Tachyon Lance",
+		"HSIAdaptionText_phasebeam": "Phase Lance",
+		"HSIAdaptionText_heavyblaster": "Heavy Blaster. Reduced damage but increased flux efficiency.",
+		"HSIAdaptionText_gravitonbeam": "Graviton Beam. Incompatible with Meltdown Protocol.",
+		"HSIAdaptionText_ionbeam": "Ion Beam",
+		"HSIAdaptionText_mininglaser": "Mining Laser",
+		"HSIAdaptionText_heavyac": "Heavy Autocannon. 3 bursts of 3 shells each, increased refire delay and accuracy.",
+		"HSIAdaptionText_ionpulser": "Ion Pulser. Burst-fire and ammo regeneration behavior modified.",
+		"HSIAdaptionText_gauss": "Gauss Cannon",
+		"HSIAdaptionText_amblaster": "Antimatter Blaster",
+		"HSIAdaptionText_hveldriver": "Hypervelocity Driver",
+		"HSIAdaptionText_lightdualac": "Light Dual Autocannon",
+		"HSIAdaptionText_heavymauler": "Heavy Mauler",
+
+
+		"HSIUpgrades":"Upgradable Weapons",
+		"HSIUpgradesEffect":"Upgrade",
+		"HSIUpgradesHWI_Counter":"Gravitational disruption on explosion",
+		"HSIUpgradesHWI_TurbocannonL":"Maintains a minimum 50% charge, and raises the chargr cap by 4",
+		"HSIUpgradesHWI_TurbocannonM":"Maintains a minimum 50% charge, and raises the chargr cap by 4",
+		"HSIUpgradesHWI_TurbocannonS":"Maintains a minimum 50% charge, and raises the chargr cap by 4",
+		"HSIUpgradesHWI_Stella":"Enable ammo regeneration, but reduces damage by 50% ",
+		"HSIUpgradesHWI_Astesia":"Enable ammo regeneration, but reduces damage by 33% ",
+		"HSIUpgradesHWI_mjolnir":"Enable ammo regeneration, but reduces damage by 33% ",
+		"HSIUpgradesEmpty":"No upgrade available. Install a weapon with an upgrade to apply the effects of this hullmod",
+		"HSIUpgradesListTitle":"All Currently Upgradable Weapons",
+
+		"HSINanoRepairContent": "Slow repair in progress",
+
+
+		"HSIElegyHeading0":"Spirit Sight",
+		"HSIElegyDesc0":"The current target and another nearby hostile with the lowest hull take %s damage.",
+		"HSIElegyHeading1":"Spirit Song",
+		"HSIElegyDesc1":"Summons spirits around the ship. Deals %s damage to fighters and missiles, and %s energy damage to ships. When a target of Spirit Sight is destroyed, generates %s additional spirits.",
+
+		"HSILogisticLimitedReached":"Fleet installation limit reached",
+
+		"HSICombatAutomateRepirSystemManager_Title":"Automated Combat Repair System",
+		"HSICombatAutomateRepirSystemWeapon":"Repairing weapons: ",
+		"HSICombatAutomateRepirSystemArmor":"Repairing armor - remaining: ",
+
+		"HSIGuardFleet3Section": "3rd Guards Fleet",
+		"HSIGuardFleet3Intro0": "Awarded the \"Guards\" title for their heroic exploits in the Delta-Kerm war of annihilation. Forty-nine minutes after the 1st Guards launched a desperate assault against three Tri-Tachyon battle groups, the 3rd Fleet forced their way through the pulsar beam that had separated them. Upon receiving intelligence from the 2nd Guards, the 3rd Fleet immediately activated their short-range jump drive. Tri-Tachyon's hopes of preserving their main force were dashed, leading to their unconditional surrender. After reorganization, the 3rd Guards was deployed as a rapid-response force, with intelligence suggesting that at least half of its sub-fleets stationed on the other side of Intrusion's event horizon — a military force potent enough to upend the war-torn Persean Sector.",
+
+		"HSIGuardFleet1Section": "1st Guards Fleet",
+		"HSiGuardFleet1Intro0": "Awarded the \"Guards\" title for crippling the Federation's mercenary fleet during the Nasu Standoff in C+51, completely derailing the Federation's strategic goals. While the 100th Battle Group, stationed at the Research Institute faced off against the Federation's main force in hyperspace, the covertly formed 1st Fleet and the Federation's mercenary fleet were engaged in a stealthy and brutal battle. Ultimately, the core forces of the mercenary fleet: Tri-Tachyon Corporate Guard and Eridani-Utopia Terraforming Corporation Guard chose to withdraw from the battlefield, causing the remaining mercenaries to scatter, and the Federation's offensive to instantly collapse.",
+
+		"HSIStalkerSection": "Stalkers",
+		"HSIStalkerIntro": "An independent, semi-official loose collective operating outside formal fleet hierarchy, made up of assimilated mercenary groups, pirates, and defectors. As long as they do not make enemies of Halo Dynamics, appear to follow dozens of pages of regulations that, in reality, contain only a few lines of actual requirements, and meet the nearly non-existent mission KPIs, the Department of War rarely intervenes in their operations, and may even offer them certain \"conveniences\". Most of the equipment supplied to them consists of expensive lab prototypes or hardware deemed unsuitable for use in the official fleet.",
+
+		"HSIStalkerRandomSection": "'Ad-Hoc Modifications'",
+		"HSIStalkerRandomIntro": "This hull may not be new, and may even be salvaged. Due to a variety of reasons, they were never fully restored to their original specifications, and as a result: ",
+		"HSIStalkerHullModification": "Due to %s, armor %s, hull %s ",
+		"HSIStalkerManuModification": "Due to %s, top speed %s, maneuverability %s ",
+		"HSIStalkerStatsModification": "Due to %s, damage taken %s, damage dealt by weapons %s ",
+
+		"HSIStalkerReasonH0": "a former captain drunkenly insisting that the engineers reinforce the hull",
+		"HSIStalkerReasonH1": "a former crew performing meticulous maintenance and reinforcement",
+		"HSIStalkerReasonH2": "having suffered catastrophic damage",
+		"HSIStalkerReasonH3": "having undergone unspecified upgrades on some world",
+
+		"HSIStalkerReasonM0": "former engineers sourcing the engine from some salvage yard",
+		"HSIStalkerReasonM1": "excellent tuning of the drive field parameters.",
+		"HSIStalkerReasonM2": "having suffered catastrophic damage",
+		"HSIStalkerReasonM3": "having undergone unspecified upgrades on some world",
+
+		"HSIStalkerReasonS0": "the flux grid utilizing non-standard capacitors",
+		"HSIStalkerReasonS1": "the use of high-quality capacitors for weapons systems",
+		"HSIStalkerReasonS2": "having suffered catastrophic damage",
+		"HSIStalkerReasonS3": "having undergone unspecified upgrades on some world",
+
+
+
+		"HSIEntrophyFeedBackBuff":"[Entropy Feedback]",
+		"HSIEntrophyFeedBackBuffIntro":"%s: each stack increases the damage dealt by energy and ballistic weapons by %s, rate of fire by %s, and reduces the flux cost of weapons by %s.",
+		"HSIEntroplyFeedBackSystemIntro0": "%s increases as flux level increases, and when flux is at %s, a maximum of %s stacks is reached.",
+		"HSIEntroplyFeedBackSystemIntro1": "For every %s points of flux generated in excess of dissipation, gain 1 stack of %s, up to a maximum of %s stacks. These stacks persist until flux remains below threshold for %s seconds, then decay at a rate of %s stacks per second.",
+		"HSIEntroplyFeedBackSystemRegen": "Cryogenic Energy Network",
+		"HSIEntroplyFeedBackSystemRegenIntro0": "Increases the flux dissipation rate while venting by a factor of %s, dissipated flux charges a %s barrier.",
+
+		"HSIMatrixTargetingBuff":"Energy and Ballistic Weapon Range",
+		"HSIMatrixTargetingSelfBonus": "x2",
+
+		"HWIDisruptorTitle": "Interference matrix active",
+		"HWIDisruptorWeapon": "System and shield control disabled: ",
+
+		"HSIProtocalSuppressionTitle": "Coordinated Suppression",
+		"HSIProtocalSuppressionContent": "Increased damage taken ",
+
+		"HSIMirageTriggered":"Mirage...",
+
+		"HSIApostleBladeDefenseTitle": "Blade Defense activated",
+		"HSIApostleBladeDefense": "Blade Defense: ",
+
+		"HSITSControlName": "Spacetime Manipulation system",
+		"HSITSControlDesc": "During combat activate the Spacetime Manipulation System to increase the ship's flow of time. While active, it deflects nearby projectiles, missiles, and beams, and grants immunity to reductions in flow of time.",
+
+		"HSIOP":"The Department of War once strictly prohibited the bypassing of safety protocols by way of operational manuals. However, during the early phases of the Fifty-Year War, captains of old Domain era ships, finding themselves hampered by poor maneuverability and pinned down by Tri-Tachyon fleets, quickly began widely overriding safety protocols. /nThis practice ultimately led to a full revision of the manuals, and the development of new hulls compatible with safety overrides. And even though new generation ships now boast ample maneuverability, there are still many captains who remain stubbornly committed to overriding safety protocols.",
+		"HSIFreischutzWarning":"The Devil's Bargain is irrevocable...",
+		"HSINoTurbulanceWarning":"Can only be installed on ships with Energy Barriers",
+		"HSIUnitPercentagePerSec":"%/second",
+		"HSIUnitSec":"second",
+		"HSITypeArc":"50% arc" ,
+		"HSIClickToChange":"Hold [%s] to switch modes",
+		"HSIClickToChangeDetail":"Hold [%s] to view details",
+		"HSIHullModSupplement":"Notes"
+	},
+	"econ":{
+		"HSIHomeRelayDesc0":"Headquarters Production",
+		"HSIShipQuality0":"Increases ship production quality by %s",
+		"HSIShipQuality1":"Only applies to the faction's largest ship production center.",
+		"HSI_SpySat_NAME":"Intelligence Gathering",
+		"HSI_SpySat_0":"We would like a spy satellite deployed to orbit around",
+		"HSI_SpySat_1":", in the ",
+		"HSI_SpySat_2":"."
+	},
+	"weapon":{
+		"HWI_mjolnir":"%s: hits reduce top speed by %s. Effect decays rapidly over %s",
+		"HWI_mjolnir_HL":"Deceleration Field|50%|0.2 seconds"
+	}
+}

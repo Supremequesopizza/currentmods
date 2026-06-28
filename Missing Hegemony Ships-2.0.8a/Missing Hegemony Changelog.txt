@@ -1,0 +1,78 @@
+Bugfix: Missing Hegemony Ships  2.0.8a
+Venture
+-all combatfrighter keys removed from the default ship role files
+________________________________________
+Bugfix: Missing Hegemony Ships  2.0.8
+Bugfix
+-faction and default ship role files reworked
+Venture Heg
+-shield radius enlarged
+________________________________________
+Update: Missing Hegemony Ships 2.0.7d
+Renamed to Missing Hegemony Ships
+Lasher (A) renamed to Lasher (XIV) recolored and stats changed to XIV
+Condor (A)
+-reharmonized with vanilla stats
+-only shipsystem and built in hullmods different
+-sprite changed
+-Shipsystem changed to Damper Field (targetting feed made this version worth more then its current dp value. The accelerated ammo feeds is valid alternative shipsystem id be willing to build in since the Hybrid weapon mount intruduces a higher likely hood of this ship ending up closer at the front)
+-Medium mount arc adjusted to hull shape
+-Hybrid medium mount changed to Composite
+-Lore changes fitting the redesign
+________________________________________
+Bugfix: Missing Heg Aux 2.0.7c
+Broadsword mk2
+-tags removed from hull file
+________________________________________
+Missing Heg Aux: 2.0.7b
+-Ships not spawning possibly fixed
+________________________________________
+Note: Update timescales wont be added to the update header anymore as individual submod updates have fragmented the version numbers to far
+________________________________________
+Update 2.0.7 28.10.25-13.11.25:
+All packs
+-crediting of scarface adjusted
+________________________________________
+Update 2.0.6 12.10.25-28.10.25 
+Missing Heg Auxiliary
+-Following descriptions removed from the csv:
+missp_flak_craft, missp_gun_craft, missp_torpedo_craft, and missp_patrol_craft.
+As always some smaller stuff that shall go unnoted.
+________________________________________
+2.0.5a Hotfix:
+-smaller fixes
+________________________________________
+2.0.3 Hotfixes:
+Many many bug fixes.
+2.0.3-07.04.25-20.04.25:
+Ergonomics:
+Added Version Checker intigration added
+Direct download link added to version checker file
+________________________________________
+2.0.2-09.03.25-30.03.25:
+Condor (A): visuals adjusted. Stats changed back to vanilla stats. Stats changed back to the vanilla stats
+Lasher (A): visuals adjusted. Stats changed back to vanilla stats. Stats changed back to the vanilla stats. Missile mounts changed to ballistic. Removed ballistic range finder.
+Venture (A): hullmod changed to militarised subsystems. Stats changed back to the vanilla stats
+Mudskipper (A): hullmod changed to militarised subsystems. Stats and arcs changed back to the vanilla stats. Launch bay added shipsystem changed to flare launcher hints to "CARRIER, LINER" behaviour. Mount changed to composite. DP increased to 4. visuals adjusted.
+Colossus (A): hullmod changed to militarised subsystems. Stats changed back to the vanilla stats
+Mule (A): hullmod removed. Stats changed back to the vanilla stats. Build in armored weapon mounts
+Website:
+Old thread changed reverted to 0.96 look due to the emergence of legacy mod index.
+________________________________________
+2.0.1-02.01.25-09.03.25 A Hotfix to add somestuff and to fix mistakes you guys or I find is pretty likely. Just keep the last version around in a backup folder for a while.
+2.0.1-02.01.25-09.03.25
+General Changes:
+-Broadsword MkII: missile position adjusted. Broadsword Mk2 crew increased to 2
+Website:
+-Mod icon changed.
+-Link to version 0.9.1 fixed.
+________________________________________
+2.0.0-18.12.2024 IceFire takes over mod.
+-Lots of small things i did befor taking notes or just where not of note not mentioned here.
+-(hopefully) fixed the msm ships blocking other ships from spawning.
+-Lowered fleet points of all heg aux to one over their regular version, reduced op to vanilla levels.
+-Mule (A) Slower, cargo reduced to 225.
+-Venture (A) speed lowered to 35.
+-Raised condor (A) armor by 200 reduced speed by 5.
+-Colossus (A) should now behave like a civilian freighter, ship speed reduced by 5, reduced Colossus (A) op by 5.
+-Lasher speed lowered by 5.

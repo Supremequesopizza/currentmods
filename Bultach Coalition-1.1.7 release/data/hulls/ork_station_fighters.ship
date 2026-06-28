@@ -1,0 +1,128 @@
+{
+  "hullName": "Support",
+  "hullId": "ork_station_fighters",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/big_station/bt_station_fighters.png",
+  "style": "BULTACH",
+  "height": 140,
+  "width": 320,
+  "center": [160, 68],
+  "collisionRadius": 200,
+  "shieldCenter": [-133, 0],
+  "shieldRadius": 255,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -47,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "chassis_storage",
+    "BT_shieldsChanger",
+    "bt_shieldArching"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 30,
+      "locations": [-24, 111]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [38, 0]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -30,
+      "locations": [-24, -111]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 26.5,
+      "locations": [-19, 140]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -26.5,
+      "locations": [-19, -140]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3, 23,
+        15, 23
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3, -23,
+        15, -23
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3, -0,
+        15, -0
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    48.5, -40.5,
+    45.5, -99.5,
+    9, -123,
+    -1.5, -128,
+    -15, -151,
+    -41, -138,
+    -57, -71,
+    -23, -46,
+    -51, 0,
+    -23, 46,
+    -56, 72,
+    -41, 140,
+    -18, 150,
+    0, 126.5,
+    44.5, 98.5,
+    49, 37.5,
+    61, 0
+  ]
+}

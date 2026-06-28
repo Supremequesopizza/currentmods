@@ -1,0 +1,19 @@
+{
+	"id":"uaf_eyeseau_laser_tgt",
+	"type":"STAT_MOD",
+	"aiType":"ENTROPY_AMPLIFIER",
+
+	"statsScript":"data.shipsystems.scripts.uaf_eyeseau_laser_tgt",
+
+	#"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true, # unapply() never gets called
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"uaf_amplificator",
+	"loopSound":"rubia",
+	"deactivateSound":"system_entropy_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}

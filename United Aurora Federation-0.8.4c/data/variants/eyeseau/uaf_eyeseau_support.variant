@@ -1,0 +1,65 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 7,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "uaf_eyeseau",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder"
+    ],
+    "quality": 0.4,
+    "variantId": "uaf_eyeseau_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "uaf_tona_ii",
+                "WS0002": "uaf_tona_ii",
+                "WS0003": "uaf_tona_ii",
+                "WS0004": "uaf_tona_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "uaf_selemene_m_mrm",
+                "WS0006": "uaf_selemene_m_mrm",
+                "WS0007": "uaf_selemene_m_mrm",
+                "WS0008": "uaf_selemene_m_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "uaf_pd_reina",
+                "WS0010": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_weiss_flk",
+                "WS0012": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "LEFT_TGT": "uaf_eyeseau_left_tgt_pod",
+        "RIGHT_TGT": "uaf_eyeseau_right_tgt_pod",
+        "FRONT_ECM": "uaf_eyeseau_front_ecm_jammer",
+        "REAR_ECM": "uaf_eyeseau_rear_ecm_jammer"
+    },
+    "wings": [
+        "uaf_wing_m_aria"
+    ]
+}

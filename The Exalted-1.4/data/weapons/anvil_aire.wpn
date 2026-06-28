@@ -1,0 +1,55 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "anvil_aire_fire",
+  "glowColor": [
+    55,
+    255,
+    55,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/aire/anvil_aire_hardpoint_glow.png",
+  "hardpointOffsets": [
+    14,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/aire/anvil_aire_hardpoint_base.png",
+  "id": "anvil_aire",
+  "muzzleFlashSpec": {
+    "length": 23,
+    "particleColor": [
+      55,
+      255,
+      55,
+      255
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.12,
+    "particleSizeMin": 10,
+    "particleSizeRange": 12,
+    "spread": 5
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "anvil_aire_shot",
+  "renderAboveAllWeapons": 0,
+  "requiresFullCharge": false,
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/aire/anvil_aire_turret_glow.png",
+  "turretOffsets": [
+    10,
+    0
+  ],
+  "turretSprite": "graphics/weapons/aire/anvil_aire_turret_base.png",
+  "type": "ENERGY"
+}

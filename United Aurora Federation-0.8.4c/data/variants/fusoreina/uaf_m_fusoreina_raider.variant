@@ -1,0 +1,76 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 17,
+    "fluxVents": 6,
+    "goalVariant": false,
+    "hullId": "uaf_m_fusoreina",
+    "hullMods": [
+        "blast_doors",
+        "heavyarmor",
+        "auxiliarythrusters",
+        "unstable_injector",
+        "reinforcedhull"
+    ],
+    "quality": 0.0,
+    "variantId": "uaf_m_fusoreina_raider",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_hikone_ii_quad",
+                "WS0001": "uaf_hikone_ii_quad",
+                "WS0004": "uaf_hikone_quad",
+                "WS0003": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0017": "uaf_oboe_mirv_medium",
+                "WS0018": "uaf_clarinet_mirv_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "HP02": "uaf_shimata_155_cn",
+                "HP04": "uaf_shimata_155_cn",
+                "HP01": "uaf_shimata_155_cn",
+                "HP03": "uaf_shimata_155_cn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "uaf_pd_reina_ii",
+                "WS0013": "uaf_pd_reina_ii",
+                "WS0012": "uaf_pd_reina_ii",
+                "WS0011": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_weiss_ii_flk",
+                "WS0005": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "uaf_weiss_flk",
+                "WS0015": "uaf_weiss_flk"
+            }
+        }
+    ],
+    "modules": {
+        "FUSOREINA_PORT_MODULE": "uaf_m_fusoreina_larmor_standard",
+        "FUSOREINA_STARPORT_MODULE": "uaf_m_fusoreina_rarmor_standard"
+    }
+}

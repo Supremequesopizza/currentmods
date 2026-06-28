@@ -1,0 +1,304 @@
+{
+  "hullName": "Murtach",
+  "hullId": "ork_murtach",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ork_murtach.png",
+  "style": "BIO_GESTALT",
+  "height": 356,
+  "width": 220,
+  "center": [110, 181],
+  "collisionRadius": 225,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 215,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "bt_murtach_tempbuff",
+    "bt_murtach_syntharmor",
+    "delicate",
+    "bt_stolen_blastdampeners",
+    "bt_shieldArching"
+  ],
+  "builtInWeapons": {
+    "WS0011": "ork_vectorEngineController",
+    "WS0012": "ork_bloodflow_deco",
+    "WS0013": "ork_murtach_deco"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": -0,
+      "locations": [129, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [37, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [7, -39]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [7, 39]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-41, 45.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-41, -45.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-33, 0.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 105,
+      "locations": [-78, 95]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -105,
+      "locations": [-78, -95]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-149, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-85.5, -0],
+      "renderOrderMod": 10000
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [122.5, -0],
+      "renderOrderMod": 1000
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91.5, 58.5],
+      "length": 100.398224,
+      "width": 36.507366,
+      "angle": 168.5,
+      "contrailSize": 36.507366,
+      "style": "CUSTOM",
+      "styleId": "BIO_GESTALT"
+    },
+    {
+      "location": [-91.5, -58.5],
+      "length": 100.398224,
+      "width": 36.507366,
+      "angle": -168.5,
+      "contrailSize": 36.507366,
+      "style": "CUSTOM",
+      "styleId": "BIO_GESTALT"
+    },
+    {
+      "location": [-7.5, 73],
+      "length": 24.5,
+      "width": 5,
+      "angle": 90,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "Vectored BIO_GESTALT"
+    },
+    {
+      "location": [-7.5, -73],
+      "length": 24.5,
+      "width": 5,
+      "angle": -90,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "Vectored BIO_GESTALT"
+    },
+    {
+      "location": [-32.5, 79.5],
+      "length": 24.5,
+      "width": 5,
+      "angle": 90,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "Vectored BIO_GESTALT"
+    },
+    {
+      "location": [-32.5, -79.5],
+      "length": 24.5,
+      "width": 5,
+      "angle": -90,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "Vectored BIO_GESTALT"
+    },
+    {
+      "location": [95, 40],
+      "length": 19.326397,
+      "width": 4.467833,
+      "angle": 122.5,
+      "contrailSize": 4.467833,
+      "style": "CUSTOM",
+      "styleId": "Vectored BIO_GESTALT"
+    },
+    {
+      "location": [95, -40],
+      "length": 19.326397,
+      "width": 4.467833,
+      "angle": -122.5,
+      "contrailSize": 4.467833,
+      "style": "CUSTOM",
+      "styleId": "Vectored BIO_GESTALT"
+    },
+    {
+      "location": [89, 37.5],
+      "length": 16.833664,
+      "width": 4.848809,
+      "angle": 122.5,
+      "contrailSize": 4.848809,
+      "style": "CUSTOM",
+      "styleId": "Vectored BIO_GESTALT"
+    },
+    {
+      "location": [89, -37.5],
+      "length": 16.833664,
+      "width": 4.848809,
+      "angle": -122.5,
+      "contrailSize": 4.848809,
+      "style": "CUSTOM",
+      "styleId": "Vectored BIO_GESTALT"
+    },
+    {
+      "location": [-90.5, 58.5],
+      "length": 14.550247,
+      "width": 22.653061,
+      "angle": 168.5,
+      "contrailSize": 22.653061,
+      "style": "CUSTOM",
+      "styleId": "BIO_GESTALT"
+    },
+    {
+      "location": [-90.5, -58.5],
+      "length": 14.550247,
+      "width": 22.653061,
+      "angle": -168.5,
+      "contrailSize": 22.653061,
+      "style": "CUSTOM",
+      "styleId": "BIO_GESTALT"
+    }
+  ],
+  "bounds": [
+    -167.5, -9,
+    -135.5, -24,
+    -121, -25.5,
+    -81, -38,
+    -66, -61,
+    -93.5, -96.5,
+    -89, -107.5,
+    -72, -107,
+    -64.5, -103,
+    -29.5, -77.5,
+    -9.5, -74,
+    0, -69.5,
+    24, -71,
+    34.5, -62.5,
+    15.5, -56.5,
+    28, -42,
+    43.5, -42,
+    70, -27,
+    76, -39,
+    107, -45.5,
+    112, -36,
+    151.5, -19.5,
+    151.5, 19.5,
+    112, 36,
+    107, 45.5,
+    76, 39,
+    70, 27,
+    43.5, 42,
+    28, 42,
+    15.5, 56.5,
+    34.5, 62.5,
+    24, 71,
+    0, 69.5,
+    -9.5, 74,
+    -29.5, 77.5,
+    -64.5, 103,
+    -72, 107,
+    -89, 107.5,
+    -93.5, 96.5,
+    -66, 61,
+    -81, 38,
+    -121, 25.5,
+    -135.5, 24,
+    -167.5, 9
+  ]
+}

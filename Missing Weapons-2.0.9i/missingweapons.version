@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://drive.google.com/uc?id=1DtewIn8suKJxyZ8-RavFmTYx1nhOElQS&export=download",
+  "modName": "Missing Ship Weapons",
+  "modVersion":
+    {
+      "major": 2,
+      "minor": 0,
+      "patch": 9i # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+    },
+  "modThreadId": 31181,
+  "directDownloadURL": "https://drive.google.com/uc?id=1NJ5ubdJ0gKrIO8REJ0DdN2p28SolBBSG&export=download",
+}

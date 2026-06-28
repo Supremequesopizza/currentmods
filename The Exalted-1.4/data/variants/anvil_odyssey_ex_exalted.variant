@@ -1,0 +1,68 @@
+{
+  "variantId": "anvil_odyssey_ex_exalted",
+  "hullId": "anvil_odyssey_ex",
+  "displayName": "Exalted",
+  "goalVariant": true,
+  "fluxCapacitors": 48,
+  "fluxVents": 25,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "anvil_voodoo_launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_tierra",
+        "WS0011": "anvil_tierra"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_aire",
+        "WS0004": "anvil_aire",
+        "WS0007": "anvil_ecto",
+        "WS0015": "anvil_aire",
+        "WS0017": "anvil_agua"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "anvil_ecto",
+        "WS0006": "anvil_ecto",
+        "WS0012": "anvil_aire",
+        "WS0013": "anvil_aire",
+        "WS0014": "anvil_aire",
+        "WS0018": "anvil_fuego"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "heavyburst",
+        "WS0009": "heavyburst",
+        "WS0010": "anvil_varna",
+        "WS0016": "anvil_varna"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "anvil_delusion"
+  ]
+}

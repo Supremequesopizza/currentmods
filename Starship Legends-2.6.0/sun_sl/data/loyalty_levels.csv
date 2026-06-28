@@ -1,0 +1,10 @@
+id,name,name_ai,cr_decay,max_cr_reduction,fame_gain_bonus,trait_adjustment,xp_to_improve,preposition,trait_adjust_desc
+mutinous,Mutinous,Critical,50,60,0,-4,800,toward,greatly worsening
+openly_insubordinate,Openly Insubordinate,Discordant,30,30,0,-2,4000,to,significantly worsening
+insubordinate,Insubordinate,Conflicted,20,15,0,-1,20000,to,worsening
+doubtful,Doubtful,Faulty,10,0,0,0,100000,of,
+indifferent,Indifferent,Nominal,0,0,0,0,500000,to,
+confident,Confident,Cohesive,-10,0,25,0,1500000,in,
+loyal,Loyal,Harmonious,-20,0,50,1,4500000,to,improving
+fiercely loyal,Fiercely Loyal,Optimal,-30,0,100,2,0,to,significantly improving
+inspired,Inspired,Amplified,-50,0,200,4,0,by,greatly improving

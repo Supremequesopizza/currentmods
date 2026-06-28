@@ -1,0 +1,73 @@
+{
+  "officers": [
+    {
+      "id": "officer_alpha",
+      "name": "Elira_Voss",
+      "portraitPath": "graphics/portraits/uaf_sup_mayu_128.png",
+      "unique":false,
+      "isAICore":false,
+      "isAdmin":false,
+      "level":2,
+      "gender": "FEMALE",
+      "descID": "FEMALE",
+      "skills": [
+        { "skillId": "combat_endurance", "level": 2 },
+        { "skillId": "target_analysis", "level": 1 }
+      ],
+      "unlockMemFlags": {
+      }
+
+    },
+    {
+      "id": "uaf_courtesan_core",
+      "name": "Courtesan Type Neuko",
+      "portraitPath": "graphics/portraits/uaf_sup_mayu_128.png",
+      "unique":false,
+      "isAICore":true,
+      "isAdmin":false,
+      "level":5,
+      "gender": "ANY",
+      "descID": "uaf_courtesan_core",
+      "skills": [
+        { "skillId": "combat_endurance", "level": 2 },
+        { "skillId": "target_analysis", "level": 2 }
+      ],
+      "unlockMemFlags": {
+      }
+    },
+      {
+      "id": "uaf_princess_core",
+      "name": "Princess Type Neuko",
+      "portraitPath": "graphics/portraits/uaf_sup_mayu_128.png",
+      "unique":false,
+      "isAICore":true,
+      "isAdmin":false,
+      "level":6,
+      "gender": "ANY",
+      "descID": "uaf_princess_core",
+      "skills": [
+        { "skillId": "combat_endurance", "level": 2 },
+        { "skillId": "target_analysis", "level": 2 }
+      ],
+      "unlockMemFlags": {
+      }
+    },
+      {
+      "id": "uaf_crown_princess_core",
+      "name": "Crown Princess Type Neuko",
+      "portraitPath": "graphics/portraits/uaf_sup_mayu_128.png",
+      "unique":false,
+      "isAICore":true,
+      "isAdmin":false,
+      "level":7,
+      "gender": "ANY",
+      "descID": "uaf_crown_princess_core",
+      "skills": [
+        { "skillId": "combat_endurance", "level": 2 },
+        { "skillId": "target_analysis", "level": 2 }
+      ],
+      "unlockMemFlags": {
+      }
+    }
+  ]
+}

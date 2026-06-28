@@ -1,0 +1,21 @@
+{
+	
+    "hullFrequency":{
+        "hulls":{
+            "missp_paradigm":0.7
+        }
+    },
+    "knownShips":{
+        "hulls":[
+            "missp_paradigm"
+        ]
+    },
+	"knownFighters":{
+		"fighters":[
+			"missp_cutlass_wing"
+		]
+	},
+	"variantOverrides":{
+		"missp_paradigm_Assault":4
+	}
+}

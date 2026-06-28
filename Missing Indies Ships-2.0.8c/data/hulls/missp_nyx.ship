@@ -1,0 +1,118 @@
+{
+  "hullName": "Nyx",
+  "hullId": "missp_nyx",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/nyx/nyx.png",
+  "style": "LOW_TECH",
+  "height": 204,
+  "width": 106,
+  "center": [52.5, 95],
+  "collisionRadius": 116.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 109,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30,
+      "locations": [85, 20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -30,
+      "locations": [85, -20.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 110,
+      "locations": [-56, 40.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -110,
+      "locations": [-56, -40.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 278,
+      "angle": -0,
+      "locations": [29, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 0,
+      "locations": [71, 0.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 180,
+      "locations": [-60, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-94, 18],
+      "length": 50.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-94, -18],
+      "length": 50.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87, -0.5],
+      "length": 47,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -93, -32.5,
+    -56.5, -49.5,
+    75.5, -47.5,
+    94.5, -28.5,
+    94.5, 28.5,
+    75.5, 47.5,
+    -56.5, 49.5,
+    -93, 32.5
+  ]
+}

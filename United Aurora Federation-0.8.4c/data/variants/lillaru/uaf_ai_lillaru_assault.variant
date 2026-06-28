@@ -1,0 +1,73 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "uaf_ai_lillaru",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "extendedshieldemitter"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_lillaru_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "uaf_kanshee_sxc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0016": "uaf_typhoon_s_sasm",
+                "WS0017": "uaf_typhoon_s_sasm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "uaf_amazoch_s_asrm_single",
+                "WS0007": "uaf_amazoch_s_asrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "PD_DECO1": "uaf_exoscar_torpedo_base",
+                "PD_DECO4": "uaf_exoscar_torpedo_base",
+                "WS0018": "uaf_vocal_m_srm",
+                "WS0019": "uaf_vocal_m_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina_ii",
+                "WS0002": "uaf_pd_reina_ii",
+                "WS0005": "uaf_merupaka_ii_epd",
+                "WS0011": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_medlav_quad",
+                "WS0004": "uaf_medlav_quad",
+                "WS0012": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

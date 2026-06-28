@@ -1,0 +1,23 @@
+{
+	"id":"uaf_neuxoria_radar_dome_2",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	"everyFrameEffect":"data.scripts.weapons.blinkers.uaf_generic_spin_ccw",
+	"showDamageWhenDecorative":false,
+	"renderBelowAllWeapons":false,
+	#"renderHints":["RENDER_ADDITIVE"],
+	"turretSprite":"graphics/weapons/Radar/uaf_neux_sec_radar.png",
+	"hardpointSprite":"graphics/weapons/Radar/uaf_neux_sec_radar.png",	
+	"numFrames":0,
+	"frameRate":0,
+	"alwaysAnimate":"false",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	"width":0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":5.0,	
+}

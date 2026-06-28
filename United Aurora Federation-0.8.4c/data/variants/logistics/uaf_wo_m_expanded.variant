@@ -1,0 +1,45 @@
+{
+    "displayName": "Expanded",
+    "fluxCapacitors": 3,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "uaf_wo_m",
+    "hullMods": [
+        "auxiliary_fuel_tanks"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_wo_m_expanded",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_triyia_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_weiss_flk",
+                "WS0005": "uaf_chorus_m_amm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_pd_reina",
+                "WS0007": "uaf_pd_reina"
+            }
+        }
+    ]
+}

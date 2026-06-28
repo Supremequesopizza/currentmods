@@ -1,0 +1,10 @@
+{
+	"id":"uaf_fortress_protocol",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.uaf_fortress_protocol_stats",
+	
+	"useSound":"uaf_eyeseau_ping",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

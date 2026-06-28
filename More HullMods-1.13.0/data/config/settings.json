@@ -1,0 +1,12 @@
+{
+	"mhmods_SmodBonusesWithoutBDSM":true,
+    "designTypeColors":{
+	"MHM":[247, 170, 0, 255]
+	},
+	"graphics":{
+		"systems":{
+			"mhmods_fluxbooster":"graphics/icons/hullsys/mhmods_fluxbooster.png",
+			"mhmods_hullfoam":"graphics/icons/hullsys/mhmods_hullfoam.png",
+		}
+	}
+}

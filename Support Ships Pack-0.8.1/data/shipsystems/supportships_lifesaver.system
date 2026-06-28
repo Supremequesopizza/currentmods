@@ -1,0 +1,13 @@
+{
+	"id":"supportships_lifesaver",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST", #it is really not, but whatever keeps the game happy
+	
+	"statsScript":"data.shipsystems.scripts.supportships_lifesaver_stats",
+
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	"loopSound":"system_high_energy_focus_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+}

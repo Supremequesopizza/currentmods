@@ -1,0 +1,78 @@
+{
+    "displayName": "Siege",
+    "fluxCapacitors": 10,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "uaf_supercap_roria_esvernia",
+    "hullMods": [
+        "uaf_secondary_focus",
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "quality": 1.0,
+    "variantId": "uaf_supercap_roria_esvernia_siege",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_edge_type_iv",
+                "WS0003": "uaf_edge_type_iv",
+                "WS0001": "uaf_edge_type_iv",
+                "WS0021": "uaf_cyrexa_ii_sxc",
+                "WS0016": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "uaf_edge_type_iv",
+                "WS0005": "uaf_edge_type_iv",
+                "WS0002": "uaf_edge_type_iv",
+                "WS0022": "uaf_cyrexa_ii_sxc",
+                "WS0015": "uaf_edge_type_ii"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "uaf_rhythm_base_triple",
+                "WS0019": "uaf_rhythm_base_triple",
+                "WS0018": "uaf_rhythm_base_triple",
+                "WS0017": "uaf_rhythm_base_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "uaf_medlav_quad",
+                "WS0011": "uaf_medlav_quad",
+                "WS0010": "uaf_ivory_triple",
+                "WS0009": "uaf_ivory_triple",
+                "WS0008": "uaf_ivory_triple",
+                "WS0007": "uaf_ivory_triple"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0026": "uaf_merupaka_ii_epd",
+                "WS0014": "uaf_enyria_pdx",
+                "WS0013": "uaf_enyria_pdx"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0023": "uaf_weiss_iii_flk",
+                "WS0025": "uaf_triyia_pdx",
+                "WS0024": "uaf_triyia_pdx"
+            }
+        }
+    ]
+}

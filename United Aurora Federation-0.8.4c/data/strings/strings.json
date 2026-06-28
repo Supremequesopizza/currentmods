@@ -1,0 +1,49 @@
+{
+    "uaf_strings":{
+        "uaf_aceAggressorLv1":"Increased damage to fighters by 60%, Increased damage to ships by 10%",
+        "uaf_aceAggressorLv2":"Increased accuracy of fighters by 100%, Increased maneuverability by 30%",
+        "uaf_aceAggressorLv1_ship":"Fighter resupplying time decreased by 20%",
+        "uaf_advancedSupportLv1":"Increased fighter damage by 30% against missiles and fighters, Increased damage by 5% against ships",
+        "uaf_advancedSupportLv2":"Increased armour against fragmentation by 20%, Increased max speed by 30%",
+        "uaf_advancedSupportLv1_ship":"Fighter resupplying time increased by 20%"
+    },
+    "nex_invasion2":{
+        "uaf_nuke_resultDisrupt":"A giant mushroom cloud appears, disrupted industries: %s",
+        "ability_uaf_nuke_noMember":"No Isenoria available",
+        "ability_uaf_nuke_noMOAB":"Minimum MOAB Carried is 4 for rafflesya to begin bombing",
+		"ability_uaf_nuke_prevented":"Attack prevented",
+		"ability_uaf_nuke_tooltip":"Deploys Rafflesya off from the dock of isenoria carrying a massive ground based nuke",
+		"ability_uaf_nuke_tooltip2":"Distributes %s bombardments with %s damage each on all industries with an enemy presence. Damage is reduced by $market's drop attrition of %s, and further decreased by %s if combat is ongoing on the target industry due to potential friendly fire. If the target has ground defenses and heavy batteries installed, it would also further reduce the effectiveness of the bombing by %s.",
+		"ability_uaf_nuke_tooltip3":"The sheer energy released by the nuke is enough to level large part of the industries",
+		"ability_uaf_nuke_tooltip4":"The selected Isenoria will consume %s CR to conduct this attack. If there is a ground defense avaiable, the CR used will increase to %s, and will increase to %s if heavy batteries are encountered",
+        "ability_bombard_divert_result1":"on the mission, the bombers also diverted to %s and caused damage %s to each industries and %s number of enemies",
+        "uaf_nuke_divert_resultDisrupt":"All the industries also caught in crossfire has been disrupted by %s",
+    
+        "uaf_atmosphericBombardment_blurb":"Summon the might of orbital bombardment towards a selected planet industry, costing 1 atmospheric capable munitions for each atmospheric capable ship participating in the bombardment",
+        "uaf_atmosphericBombardment_tooltip":"The bombardment will deal its damage based on the participating ship hullsize, with the bigger the class causing a bigger devastation, the damage that can be caused is %s/%s/%s/%s, costing %s munitions per ship and causing disruption for %s days with each ship participating",
+        "ability_uafAtmosphericBombardment_noMembers":"No Atmo Capable Ships",
+        "ability_uafAtmosphericBombardment_enemyPresence":"Massive enemy presence detected",
+        "ability_uafAtmoshpericBombardment_prevented":"Bombardment is prohibited by the enemy",
+        "ability_uafAtmosphericBombardment_noMunition":"Fleet is out of atmospheric munition",
+        "uaf_atmosphericBombardment_result1":"The ship %s caused %s amount of damage to the industry",
+        "uaf_atmosphericBombardment_result2":"Disruption caused by %s to the industry is %s days",
+
+        "uaf_rogueLanding_blurb":"Sunami(MP) and two Machi APAs will conduct daring landing operations by dropping into the enemy airspace. They will provide close air support and divert all anti-air fire to themselves, thus protecting their precious ground forces from incoming fire",
+        "uaf_rogueLanding_tooltip":"The operation costed %s atmospheric munitions and the ship's CR by %s, ship might be further damaged if enemy anti air defense are still present in the planet. Overall, the operation will increase the ground troops morale by %s",
+        "ability_uafRogueLanding_noMembers":"Missing required ships to execute the operation",
+        "ability_uafRogueLanding_noMunition":"Fleet is out of atmospheric munition",
+        "uaf_rogueLanding_resultBonusDamage":"The operation managed to cause %s damage to %s industry",
+        "uaf_rogueLanding_resultMoraleBoost":"The Presence of the Sunami and Machi APA managed to boost the morale of the ground troops by %s",
+        "uaf_rogueLanding_resultLostShip":"Unfortunately, some ship are lost during the daring operation and can't be recovered",
+
+
+        "uaf_sirenSong_result1":"The siren song caused %s damage to the selected industry and disrupts it by %s",
+        "uaf_sirenSong_result2":"The siren song caused %s damage to the selected industry",
+        "ability_sirenSong_intro":"Summon the Purcellyra to commence accurate missile strike on enemy air defenses which will provide an opening for other landing operations",
+        "ability_sirenSong_tooltip2":"Distributes missile bombardments with %s damage each on all anti air defenses with an enemy presence. Damage is reduced by $market's drop attrition of %s",
+        "ability_sirenSong_tooltip4":"Operations costed %s CR to selected Purcellyra",
+        "uaf_sirenSong_noMember":"No Purcellyra in the fleet",
+        "uaf_sirenSong_enemyPresence":"Massive enemy presence detected",
+        "uaf_sirenSong_noAmmo":"Fleet is out of atmospheric munition"
+    }
+}

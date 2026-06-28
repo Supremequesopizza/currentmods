@@ -1,0 +1,1105 @@
+{
+  "afflictor": {
+    "levels": {
+      "max": {
+        "A": "EntropyAmplifierChaining",
+        "B": "ModifyStatsFlat 1.4 EnergyWeaponsOPCost"
+      }
+    }
+  },
+
+  "afflictor_d_pirates": {
+    "levels": {
+      "max": {
+        "A": "EntropyAmplifierMobility",
+        "B": "ModifyStatsFlat 1.4 EnergyWeaponsOPCost"
+      }
+    }
+  },
+
+  "brawler": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "VentSpeedFluxLevel"
+      }
+    }
+  },
+
+  "brawler_LG": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "EnergyProjectileRange"
+      }
+    }
+  },
+
+  "brawler_pather": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": "SafetyOverridesPPT"
+      }
+    }
+  },
+
+  "brawler_tritachyon": {
+    "levels": {
+      "max": {
+        "A": "PlasmaJetsDissipation",
+        "B": "ShieldEfficiencyHardFlux"
+      }
+    }
+  },
+
+  "centurion": {
+    "levels": {
+      "max": {
+        "A": "DamageChargesDamperField",
+        "B": "MissileAutoloaderCapacity"
+      }
+    }
+  },
+
+  "centurion_LG": {
+    "levels": {
+      "max": {
+        "A": "DamperFieldDissipation",
+        "B": "MissileAutoloaderCapacity"
+      }
+    }
+  },
+
+  "cerberus": {
+    "levels": {
+      "max": {
+        "A": "MakeshiftShieldBoost",
+        "B": "ArmorRepair 0.05"
+      }
+    }
+  },
+
+  "cerberus_d_pirates": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveImpulse",
+        "B": "BallisticFireRateHullLevel"
+      }
+    }
+  },
+
+  "cerberus_luddic_path": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": "SafetyOverridesPPT"
+      }
+    }
+  },
+
+  "gremlin": {
+    "levels": {
+      "max": {
+        "A": "DecoyFlareBoost",
+        "B": "BallisticFireRateFluxLevel"
+      }
+    }
+  },
+
+  "gremlin_d_pirates": {
+    "levels": {
+      "max": {
+        "A": "DecoyFlareBoost",
+        "B": "BallisticFireRateHullLevel"
+      }
+    }
+  },
+
+  "gremlin_luddic_path": {
+    "levels": {
+      "max": {
+        "A": "DecoyFlareBoost",
+        "B": "HammerLingeringDamage"
+      }
+    }
+  },
+
+  "hound": {
+    "levels": {
+      "max": {
+        "A": "FlareLauncherWhileVenting",
+        "B": "MakeshiftShieldBoost"
+      }
+    }
+  },
+
+  "hound_d_pirates": {
+    "levels": {
+      "max": {
+        "A": "FlareLauncherWhileVenting",
+        "B": "BallisticFireRateHullLevel"
+      }
+    }
+  },
+
+  "hound_hegemony": {
+    "levels": {
+      "max": {
+        "A": "FlareRegen",
+        "B": "ArmorRepair 0.05"
+      }
+    }
+  },
+
+  "hound_luddic_church": {
+    "levels": {
+      "max": {
+        "A": "FlareRegen",
+        "B": "BallisticFireRateFluxLevel"
+      }
+    }
+  },
+
+  "hound_luddic_path": {
+    "levels": {
+      "max": {
+        "A": "SafetyOverridesBoost",
+        "B": "SafetyOverridesPPT"
+      }
+    }
+  },
+
+  "hyperion": {
+    "levels": {
+      "max": {
+        "A": "PhaseTeleporterTimeFlow",
+        "B": "MinimumCR"
+      }
+    }
+  },
+
+  "glimmer": {
+    "levels": {
+      "max": {
+        "A": "HEFShieldEfficiency",
+        "B": "HullThresholdDR"
+      }
+    }
+  },
+
+  "kite": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "NavRelayBoost"
+      }
+    }
+  },
+
+  "kite_hegemony": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsDR",
+        "B": "ECMPackageBoost"
+      }
+    }
+  },
+
+  "kite_luddic_path": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "ECMPackageBoost"
+      }
+    }
+  },
+
+  "kite_original": {
+    "levels": {
+      "max": {
+        "A": "OperationsCenterBoost",
+        "B": "ECMPackageBoost 3"
+      }
+    }
+  },
+
+  "kite_pirates": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "BallisticFireRateHullLevel"
+      }
+    }
+  },
+
+  "lasher": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": "BallisticFireRateFluxLevel"
+      }
+    }
+  },
+
+  "lasher_luddic_church": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": ["ModifyStatsMult 3 ArmorPoints", "LimitedArmorRegen 0.6"]
+      }
+    }
+  },
+
+  "lasher_pather": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": "SafetyOverridesBoost"
+      }
+    }
+  },
+
+  "lumen": {
+    "levels": {
+      "max": {
+        "A": "FastSkimmer",
+        "B": "ECMPackageBoost"
+      }
+    }
+  },
+
+  "monitor": {
+    "levels": {
+      "max": {
+        "A": "ReactiveFortressShield",
+        "B": "ShieldEfficiencyNearbyEnemies"
+      }
+    }
+  },
+
+  "mudskipper": {
+    "levels": {
+      "max": {
+        "A": "ExpandedCrewBoost",
+        "B": "ExpandedCargoBoost"
+      }
+    }
+  },
+
+  "mudskipper2": {
+    "levels": {
+      "max": {
+        "A": "ModifyStatsFlat 10 AllWeaponOPCost",
+        "B": "MakeshiftShieldBoost"
+      }
+    }
+  },
+
+  "omen": {
+    "levels": {
+      "max": {
+        "A": "EMPEmitterFluxBoost",
+        "B": "ShieldEfficiencyHardFlux"
+      }
+    }
+  },
+
+  "ox": {
+    "levels": {
+      "max": {
+        "A": "DriveFieldStabilizerBoost",
+        "B": "EfficiencyOverhaulBoost"
+      }
+    }
+  },
+
+  "scarab": {
+    "levels": {
+      "max": {
+        "A": "TemporalShellCRDegradation",
+        "B": "ModifyStatsFlat 1 AllWeaponOPCost"
+      }
+    }
+  },
+
+  "shade": {
+    "levels": {
+      "max": {
+        "A": "EMPEmitterEnergyDamage",
+        "B": "PhasedCRDegradation"
+      }
+    }
+  },
+
+  "shade_d_pirates": {
+    "levels": {
+      "max": {
+        "A": "EMPEmitterFragDamage",
+        "B": "PhasedArmorRepair"
+      }
+    }
+  },
+
+  "shard_left": {
+    "levels": {
+      "max": "TimeFlowNearbyEnemies"
+    }
+  },
+
+  "shard_right": {
+    "levels": {
+      "max": "TimeFlowNearbyEnemies"
+    }
+  },
+
+  "shepherd": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "ExtraMiningDrones 2"
+      }
+    }
+  },
+
+  "tempest": {
+    "levels": {
+      "max": {
+        "A": "DroneStrikeBoost",
+        "B": "MissileAutoloaderCapacity"
+      }
+    }
+  },
+
+  "vanguard": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveDR",
+        "B": "ArmorRepair 0.05"
+      }
+    }
+  },
+
+  "vanguard_pirates": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveImpulse",
+        "B": "LimitedArmorRegen 0.6"
+      }
+    }
+  },
+
+  "vigilance": {
+    "levels": {
+      "max": {
+        "A": "FMRRegen 0.05",
+        "B": "PilumSalamanderBoost"
+      }
+    }
+  },
+
+  "wayfarer": {
+    "levels": {
+      "max": {
+        "A": "FlareRegen",
+        "B": "ModifyStatsFlat 1 AllWeaponOPCost"
+      }
+    }
+  },
+
+  "wolf": {
+    "levels": {
+      "max": {
+        "A": "FastSkimmer",
+        "B": "VentingSpeedBoost"
+      }
+    }
+  },
+
+  "wolf_d_pirates": {
+    "levels": {
+      "max": {
+        "A": "VentingSpeedBoost",
+        "B": "SpeedHullLevel"
+      }
+    }
+  },
+
+  "wolf_hegemony": {
+    "levels": {
+      "max": {
+        "A": "FastSkimmer",
+        "B": "ModifyStatsFlat 1 AllWeaponOPCost"
+      }
+    }
+  },
+
+  "buffalo2": {
+    "levels": {
+      "max": {
+        "A": "FlareRegen",
+        "B": "ConvertedHangarBays 0"
+      }
+    }
+  },
+
+  "condor": {
+    "levels": {
+      "max": {
+        "A": "FMRFastReplacement",
+        "B": "PilumSalamanderBoost"
+      }
+    }
+  },
+
+  "crig": {
+    "levels": {
+      "max": {
+        "A": "ModifyStatsMult 1 SensorProfile -1",
+        "B": "EfficiencyOverhaulBoost"
+      }
+    }
+  },
+
+  "drover": {
+    "levels": {
+      "max": {
+        "A": "BDeckExtraCharges",
+        "B": "FasterActiveFlares"
+      }
+    }
+  },
+
+  "enforcer": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveCooldown",
+        "B": "ModifyStatsFlat 1.4 BallisticWeaponsOPCost"
+      }
+    }
+  },
+
+  "enforcer_d_pirates": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveImpulse",
+        "B": "BallisticFireRateHullLevel"
+      }
+    }
+  },
+
+  "enforcer_xiv": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveDR",
+        "B": "ModifyStatsFlat 1.4 BallisticWeaponsOPCost"
+      }
+    }
+  },
+
+  "facet": {
+    "levels": {
+      "max": "TimeFlowNearbyEnemies"
+    }
+  },
+
+  "fulgent": {
+    "levels": {
+      "max": {
+        "A": "HEFMissileBoost",
+        "B": "HullThresholdDR"
+      }
+    }
+  },
+
+  "gemini": {
+    "levels": {
+      "max": {
+        "A": "ReserveDeploymentBoost",
+        "B": "FighterCountDR"
+      }
+    }
+  },
+
+  "hammerhead": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": "SafetyOverridesBoost"
+      }
+    }
+  },
+
+  "hammerhead_LG": {
+    "levels": {
+      "max": {
+        "A": "HEFRangeRoF",
+        "B": "SafetyOverridesBoost"
+      }
+    }
+  },
+
+  "harbinger": {
+    "levels": {
+      "max": {
+        "A": "QuantumDisruptorDuration",
+        "B": "PhasedCRDegradation"
+      }
+    }
+  },
+
+  "manticore": {
+    "levels": {
+      "max": {
+        "A": "CanisterFlakWhileVenting",
+        "B": "BallisticFireRateFluxLevel"
+      }
+    }
+  },
+
+  "manticore_pirates": {
+    "levels": {
+      "max": {
+        "A": "CanisterFlakWhileVenting",
+        "B": "BallisticFireRateHullLevel"
+      }
+    }
+  },
+
+  "manticore_luddic_path": {
+    "levels": {
+      "max": {
+        "A": "SafetyOverridesPPT",
+        "B": "HammerLingeringDamage"
+      }
+    }
+  },
+
+  "medusa": {
+    "levels": {
+      "max": {
+        "A": "SkimmerEMP",
+        "B": "ShieldEfficiencyHardFlux"
+      }
+    }
+  },
+
+  "mule": {
+    "levels": {
+      "max": {
+        "A": ["ExpandedCargoBoost", "EfficiencyOverhaulBoost"],
+        "B": ["ConvertedHangarNoPenalty", "ModifyStatsFlat 1 FighterCost"]
+      }
+    }
+  },
+
+  "mule_d_pirates": {
+    "levels": {
+      "max": {
+        "A": ["ExpandedCargoBoost", "EfficiencyOverhaulBoost"],
+        "B": ["ConvertedHangarNoPenalty", "ModifyStatsFlat 1 BomberCost"]
+      }
+    }
+  },
+
+  "phantom": {
+    "levels": {
+      "max": {
+        "A": "GroundSupportBoost",
+        "B": "ExpandedCrewBoost"
+      }
+    }
+  },
+
+  "scintilla": {
+    "levels": {
+      "max": {
+        "A": "RecallDeviceRegeneration",
+        "B": "MinimumReplacementRate"
+      }
+    }
+  },
+
+  "shrike": {
+    "levels": {
+      "max": {
+        "A": "PlasmaBurnEnergyRoF",
+        "B": "ZeroFluxResidue"
+      }
+    }
+  },
+
+  "shrike_pirates": {
+    "levels": {
+      "max": {
+        "A": "PlasmaBurnEnergyRoF",
+        "B": "ModifyStatsFlat 1.4 AllWeaponOPCost"
+      }
+    }
+  },
+
+  "sunder": {
+    "levels": {
+      "max": {
+        "A": "HEFRangeRoF",
+        "B": "VentSpeedFluxLevel"
+      }
+    }
+  },
+
+  "sunder_LG": {
+    "levels": {
+      "max": {
+        "A": "HEFExplosion",
+        "B": "VentSpeedFluxLevel"
+      }
+    }
+  },
+
+  "valkyrie": {
+    "levels": {
+      "max": {
+        "A": "GroundSupportBoost",
+        "B": "ExpandedCrewBoost"
+      }
+    }
+  },
+
+  "anubis": {
+    "levels": {
+      "max": {
+        "A": "TemporalShellCRDegradation",
+        "B": "WeakerDesignCompromises"
+      }
+    }
+  },
+
+  "apex": {
+    "levels": {
+      "max": {
+        "A": "DroneStrikeRegen",
+        "B": "FrontArmorBoost"
+      }
+    }
+  },
+
+  "apogee": {
+    "levels": {
+      "max": {
+        "A": "FlareLauncherWhileVenting",
+        "B": "ShieldEfficiencyNearbyEnemies"
+      }
+    }
+  },
+
+  "aurora": {
+    "levels": {
+      "max": {
+        "A": "VentingSpeedBoost",
+        "B": "PlasmaJetsGrazeChance"
+      }
+    }
+  },
+
+  "brilliant": {
+    "levels": {
+      "max": {
+        "A": "PlasmaBurnEnergyRoF",
+        "B": "ConvertedHangarBays"
+      }
+    }
+  },
+
+  "champion": {
+    "levels": {
+      "max": {
+        "A": "HEFRangeRoF",
+        "B": "StartingRange"
+      }
+    }
+  },
+
+  "colossus2": {
+    "levels": {
+      "max": {
+        "A": "SafetyOverridesBoost",
+        "B": "BuiltInMissileRegen"
+      }
+    }
+  },
+
+  "colossus3": {
+    "levels": {
+      "max": {
+        "A": "ConvertedCargoBayNoPenalty",
+        "B": "ExtraFighterPerWing"
+      }
+    }
+  },
+
+  "dominator": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveCooldown",
+        "B": "DamageTakenNearbyEnemies"
+      }
+    }
+  },
+
+  "dominator_xiv": {
+    "levels": {
+      "max": {
+        "A": "LargeBallisticFragDamage",
+        "B": "BurnDriveDR"
+      }
+    }
+  },
+
+  "doom": {
+    "levels": {
+      "max": {
+        "A": "EnergyMineConversion",
+        "B": "PhasedArmorRepair"
+      }
+    }
+  },
+
+  "eagle": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "RangeNoNearbyEnemies"
+      }
+    }
+  },
+
+  "eagle_xiv": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsDR",
+        "B": "RangeNoNearbyEnemies"
+      }
+    }
+  },
+
+  "eagle_LG": {
+    "levels": {
+      "max": {
+        "A": "RandomBeamIntensity",
+        "B": "EnergyProjectileRange"
+      }
+    }
+  },
+
+  "eradicator": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": "SpeedHullLevel"
+      }
+    }
+  },
+
+  "eradicator_pirates": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveImpulse",
+        "B": "SafetyOverridesBoost"
+      }
+    }
+  },
+
+  "falcon": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "RangeNoNearbyEnemies"
+      }
+    }
+  },
+
+  "falcon_xiv": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsDR",
+        "B": "RangeNoNearbyEnemies"
+      }
+    }
+  },
+
+  "falcon_LG": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsBoost",
+        "B": "EnergyProjectileRange"
+      }
+    }
+  },
+
+  "falcon_p": {
+    "levels": {
+      "max": {
+        "A": "ConvertedHangarBays",
+        "B": "MissileRegenOnKill"
+      }
+    }
+  },
+
+  "fury": {
+    "levels": {
+      "max": {
+        "A": "PlasmaBurnEnergyRoF",
+        "B": "SafetyOverridesPPT"
+      }
+    }
+  },
+
+  "grendel": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": "MissileAutoloaderCapacity"
+      }
+    }
+  },
+
+  "gryphon": {
+    "levels": {
+      "max": {
+        "A": "MissileAutoforgeExtraCharge",
+        "B": "DEMBoost"
+      }
+    }
+  },
+
+  "heron": {
+    "levels": {
+      "max": {
+        "A": "TargetingFeedBoost",
+        "B": "RegroupReplacement"
+      }
+    }
+  },
+
+  "mora": {
+    "levels": {
+      "max": {
+        "A": "DamageChargesDamperField",
+        "B": "DamperFieldFighters"
+      }
+    }
+  },
+
+  "revenant": {
+    "levels": {
+      "max": {
+        "A": "ExpandedCargoBoost",
+        "B": "ExpandedFuelBoost"
+      }
+    }
+  },
+
+  "tesseract": {
+    "levels": {
+      "max": "TimeFlowNearbyEnemies"
+    }
+  },
+
+  "venture": {
+    "levels": {
+      "max": {
+        "A": "ExtraMiningDrones",
+        "B": "LimitedArmorRegen"
+      }
+    }
+  },
+
+  "venture_p": {
+    "levels": {
+      "max": {
+        "A": "FMRNoFlux",
+        "B": "LimitedArmorRegen"
+      }
+    }
+  },
+
+  "venture_pather": {
+    "levels": {
+      "max": {
+        "A": "OrionDeviceDamage",
+        "B": "HammerLingeringDamage"
+      }
+    }
+  },
+
+  "astral": {
+    "levels": {
+      "max": {
+        "A": "RecallDeviceDestruction",
+        "B": "RecallDeviceRegeneration"
+      }
+    }
+  },
+
+  "atlas2": {
+    "levels": {
+      "max": {
+        "A": "AAFRangeDamage",
+        "B": "BallisticFireRateHullLevel"
+      }
+    }
+  },
+
+  "conquest": {
+    "levels": {
+      "max": {
+        "A": "ManeuveringJetsMobility",
+        "B": "ModifyStatsMult 1 FluxCapacity 0.2 FluxDissipation 0.1 ShieldDamage 0.15"
+      }
+    }
+  },
+
+  "executor": {
+    "levels": {
+      "max": {
+        "A": "HEFExplosion",
+        "B": "SystemRegenOnKill"
+      }
+    }
+  },
+
+  "guardian": {
+    "levels": {
+      "max": {
+        "A": "PlasmaJetsDissipation",
+        "B": "MaxCRFloor"
+      }
+    }
+  },
+
+  "invictus": {
+    "levels": {
+      "max": {
+        "A": "LidarArrayRange",
+        "B": "LidarArrayFlux"
+      }
+    }
+  },
+
+  "legion": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveDR",
+        "B": "ModifyStatsFlat 1 NumFighterBays FighterCost AllWeaponOPCost 1"
+      }
+    }
+  },
+
+  "legion_xiv": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveDR",
+        "B": "BurnDriveMissileBoost"
+      }
+    }
+  },
+
+  "nova": {
+    "levels": {
+      "max": {
+        "A": "NovaBurstDamage",
+        "B": "HullThresholdDR"
+      }
+    }
+  },
+
+  "odyssey": {
+    "levels": {
+      "max": {
+        "A": "PlasmaBurnEngineRepair",
+        "B": ["ZeroFluxResidue", "ModifyStatsMult 1 ZeroFluxSpeedBoost"]
+      }
+    }
+  },
+
+  "onslaught": {
+    "levels": {
+      "max": {
+        "A": "HitAngleDR",
+        "B": "TPCUpgrade"
+      }
+    }
+  },
+
+  "onslaught_mk1": {
+    "levels": {
+      "max": {
+        "A": "CombatBurnRegen",
+        "B": "VambraceBonuses"
+      }
+    }
+  },
+
+  "onslaught_xiv": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveDR",
+        "B": "TPCChaining"
+      }
+    }
+  },
+
+  "paragon": {
+    "levels": {
+      "max": {
+        "A": "ShieldDeflection",
+        "B": "ReactiveFortressShield"
+      }
+    }
+  },
+
+  "pegasus": {
+    "levels": {
+      "max": {
+        "A": "TorpedoTracking",
+        "B": "FMRRegen"
+      }
+    }
+  },
+
+  "prometheus2": {
+    "levels": {
+      "max": {
+        "A": "BurnDriveImpulse",
+        "B": "HammerLingeringDamage"
+      }
+    }
+  },
+
+  "radiant": {
+    "levels": {
+      "max": {
+        "A": "FastSkimmer",
+        "B": "SkimmerDR"
+      }
+    }
+  },
+
+  "retribution": {
+    "levels": {
+      "max": {
+        "A": "OrionDeviceDamage",
+        "B": "ArmorRepair"
+      }
+    }
+  },
+
+  "ziggurat": {
+    "levels": {
+      "max": {
+        "A": "HighFrequencyMotes",
+        "B": "PhaseCloakResidue"
+      }
+    }
+  }
+}

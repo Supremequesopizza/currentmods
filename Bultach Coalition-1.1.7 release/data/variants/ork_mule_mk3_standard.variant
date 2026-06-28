@@ -1,0 +1,32 @@
+{
+  "variantId": "ork_mule_mk3_standard",
+  "hullId": "ork_mule_mk3",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "lightag",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualac",
+        "WS0005": "lightdualac",
+        "WS0006": "lightdualmg",
+        "WS0007": "hammer",
+        "WS0008": "hammer",
+        "WS0009": "lightmortar",
+        "WS0010": "lightac",
+        "WS0011": "chaingun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

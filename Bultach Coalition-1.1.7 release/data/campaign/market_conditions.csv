@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Bultach Territory,ork_wardrive,,TRUE,data.campaign.econ.conditions.ork_Wardrive,"$market is occupied by the Bultach Coalition, whose hardiness and general paranoia leads to increased fleet size and defenses.",graphics/icons/markets/ork_wardrive.png,142

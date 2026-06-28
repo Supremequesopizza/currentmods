@@ -1,0 +1,99 @@
+{
+  "bounds": [
+    9,
+    -2.5,
+    3.5,
+    -7,
+    -6,
+    -4,
+    -6,
+    4,
+    3.5,
+    7,
+    9,
+    2.5
+  ],
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "center": [
+    13,
+    14
+  ],
+  "collisionRadius": 20,
+  "engineSlots": [
+    {
+      "angle": 149.5,
+      "contrailSize": 3.718077,
+      "length": 13.992641,
+      "location": [
+        -5,
+        5
+      ],
+      "style": "HIGH_TECH",
+      "width": 3.718077
+    },
+    {
+      "angle": -149.5,
+      "contrailSize": 3.718077,
+      "length": 13.992641,
+      "location": [
+        -5,
+        -5
+      ],
+      "style": "HIGH_TECH",
+      "width": 3.718077
+    }
+  ],
+  "height": 30,
+  "hullId": "anvil_cielo_drone",
+  "hullName": "Cielo Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 19,
+  "spriteName": "graphics/ships/anvil_cielo_drone.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 001",
+      "locations": [
+        4,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        1,
+        -5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        1,
+        5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 26
+}

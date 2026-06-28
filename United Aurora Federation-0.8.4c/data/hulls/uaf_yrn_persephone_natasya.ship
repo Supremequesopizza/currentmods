@@ -1,0 +1,392 @@
+{
+  "hullName": "Persephone Natasya (YRN)",
+  "hullId": "uaf_yrn_persephone_natasya",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Special/uaf_persephone_natasya_yrn.png",
+  "style": "UAF_CAPITAL",
+  "height": 508,
+  "width": 318,
+  "center": [159, 254],
+  "collisionRadius": 322,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 265,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade",
+    "uaf_enhanced_pd",
+    "uaf_ordnanceAssembly"
+  ],
+  "builtInWeapons": {
+    "WS0007": "uaf_meitou_chorus_nt",
+    "WS0008": "uaf_meitou_chorus_nt",
+    "WS0009": "uaf_semibreve_guided",
+    "WS0010": "uaf_semibreve_guided"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 36.5,
+      "locations": [-4.5, 126.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -36.5,
+      "locations": [-4.5, -126.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 36.5,
+      "locations": [-40, 138]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -36.5,
+      "locations": [-40, -138]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [59.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 36,
+      "locations": [-74.5, 62.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -36,
+      "locations": [-74.5, -62.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 17,
+      "angle": 0,
+      "locations": [10, 58.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 17,
+      "angle": -0,
+      "locations": [10, -58.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 45,
+      "locations": [46, 33]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": -45,
+      "locations": [46, -33]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": 45,
+      "locations": [-15, 90]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 50,
+      "angle": -45,
+      "locations": [-15, -90]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-58, 97]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -180,
+      "locations": [-58, -97]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 45,
+      "locations": [-28, 42]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -45,
+      "locations": [-28, -42]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 45,
+      "locations": [-35, 114]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -45,
+      "locations": [-35, -114]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": 0,
+      "locations": [92, 28]
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": -0,
+      "locations": [92, -28]
+    },
+    {
+      "id": "WS0023",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-108, -35]
+    },
+    {
+      "id": "WS0024",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-108, 35]
+    },
+    {
+      "id": "WS0025",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-160, -0]
+    },
+    {
+      "id": "WS0026",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [125, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-141, 60.5],
+      "length": 105,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-141, -60.5],
+      "length": 105,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-119.5, 91],
+      "length": 105,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-119.5, -91],
+      "length": 105,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-140, 66.5],
+      "length": 39,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-140, -66.5],
+      "length": 39,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-140, 54.5],
+      "length": 39,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-140, -54.5],
+      "length": 39,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-119, 86],
+      "length": 39,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-119, -86],
+      "length": 39,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-119, 96],
+      "length": 39,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-119, -96],
+      "length": 39,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    -211.5, 12.5,
+    -202.5, 24.5,
+    -143.5, 34,
+    -135.5, 47,
+    -157.5, 47,
+    -157.5, 75,
+    -118, 75,
+    -118, 102,
+    -152.5, 122,
+    -152, 130,
+    -94.5, 142,
+    95.5, 78.5,
+    45.5, 64,
+    57.5, 53,
+    212.5, 5,
+    212.5, -5,
+    57.5, -53,
+    45.5, -64,
+    95.5, -78.5,
+    -94.5, -142,
+    -152, -130,
+    -152.5, -122,
+    -118, -102,
+    -118, -75,
+    -157.5, -75,
+    -157.5, -47,
+    -135.5, -47,
+    -143.5, -34,
+    -202.5, -24.5,
+    -211.5, -12.5
+  ]
+}

@@ -1,0 +1,146 @@
+Missing Weapons 2.0.9i
+Odyssey
+-variant adjusted
+Paragon
+-variant added
+Variants
+Aurora Paragon Retribution Nova added to changelog (some existed befor but went undocumented)
+________________________________________
+Missing Weapons 2.0.9h
+Odyssey variant campaign intigration fixed
+________________________________________
+Missing Weapons 2.0.9g
+Fighters:
+Assegai
+-ai behaviour adjusted
+Varunastra
+-Op reduced to 16
+-description adjusted
+Atropos Pod
+-typo fixed
+________________________________________
+Missing Weapons: 2.0.9f
+Ikakalaka
+-Range reduced to zero
+________________________________________
+Missing Weapons 2.0.9e
+Varunastra
+-weapon sound changed
++soft release fixed Assegais firing behaviour
+________________________________________
+Missing ship weapons: 2.0.9d
+Assegai
+-Removed alternative sprites
+-Reduced replacement rate to 12
+-description added
+________________________________________
+2.0.9c Missing Weapons:
+New Strike Craft
+-Assegai takes over role and stats of the Zweihänder
+Assegai:
+-Behaviour adjusted
+-OP cost reduced to 13
+-Wing size increased to 3
+-payload decreased to 1
+Zweihänder
+-renamed to Ikakalaka
+-redesignd and return closer to the original role
+-Price adjusted
+________________________________________
+2.0.9b Missing Weapons:
+Weapons:
+Varunastra
+-Weapons impact sounds added
+1.0.1 Missing Defense Drones:
+-Adding Midline and Hightech sprite variants
+________________________________________
+Missing Weapons 2.0.9a
+Variants:
+-Made some variants with mod weapons
+________________________________________
+Missing Weapons 2.0.9
+Octuple Machine Gun
+per shot damage reduced to 15
+Varunastra:
+now working
+Factions:
+weapons added to factions
+________________________________________
+2.0.8 Missing weapons:
+Octuple Machine Gun
+-op reduced to 15
+-flux/shot reduced to 4
+________________________________________
+Missing weapons 2.0.7a:
+Octuple Machine Gun
+-OP reduced to 19
+-Range increased to 500
+-turn rate increased to fast
+-max spread increased
+zweihander
+op points reduced to 17
+________________________________________
+Update 2.0.7 28.10.25-13.11.25:
+All packs
+-crediting of scarface adjusted
+Zweihander
+-Forward facing vulcan removed
+-backwards facing vulcan firing angle reduced
+-OP points reduced to 19
+________________________________________
+Hotfix 2.0.6a:
+Missing Weapons
+missp_atropostriple.wpn and missp_varunastra placed in Experimental folder.
+default ship roles deleted
+There is a redundant default_ship roles file.
+Zweihander added to new faction file for the league
+-Atropos TVAT Launcher
+-Atropos Pod
+-Octuple Machine Gun
+-Mjolnir SB
+-Swarmer Pod
+As always some smaller stuff that shall go unnoted.
+________________________________________
+2.0.5a Hotfix:
+-smaller fixes
+________________________________________
+2.0.4 Hotfixes
+Minor hotfix:
+Weapon Modpack: weapon.csv fixed
+Note
+2.0.4 weapons does not crash but the where errors with the new additions.
+2.0.4-20.04.25-09.05.25:
+Weapons:
+Single Barrel Mjolnir: Weapon Body size increase.
+Octuple Machine Gun: activated. Micro update range increased to 600. Thx scarface.
+Atropos Pod: added.
+________________________________________
+2.0.3 Hotfixes:
+Many many bug fixes.
+2.0.3-07.04.25-20.04.25:
+Website:
+Varunastra plus note added. It was a failure but the files are still accessible.
+2.0.3-07.04.25-20.04.25:
+Weapons:
+Heavy Graviton Beam: Flux per second raised to 260
+Ergonomics:
+Added Version Checker intigration added
+Direct download link added to version checker file
+________________________________________
+2.0.2-09.03.25-30.03.25:
+Weapons:
+Mjolnir SB: shot/energy reduced to 500
+Website:
+Old thread changed reverted to 0.96 look due to the emergence of legacy mod index.
+________________________________________
+2.0.1 Hotfixes:
+Mjolnir SB: flux per shot raised to 550
+2.0.1-02.01.25-09.03.25 A Hotfix to add somestuff and to fix mistakes you guys or I find is pretty likely. Just keep the last version around in a backup folder for a while.
+2.0.1-02.01.25-09.03.25
+General Changes:
+Missing weapons modpack 
+-created contents: Atropos large, salamander large, graviton large, swarmer medium, mjolnir single barrel, atropos medium.
+-Mjolnir sb: name adjusted, per shot flux damage increased to 550
+Website:
+-Mod icon changed.
+-Link to version 0.9.1 fixed.

@@ -1,0 +1,91 @@
+{
+  "id": "missp_octuple_machinegun",
+  "specClass": "projectile",
+  "projectileSpecId": "lightmg_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/octuple_machinegun_turret_base.png",
+  "turretGunSprite": "graphics/weapons/octuple_machinegun_turret_recoil.png",
+  "turretUnderSprite": "graphics/weapons/octuple_machinegun_turret_under.png",
+  "hardpointSprite": "graphics/weapons/octuple_machinegun_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/octuple_machinegun_hardpoint_recoil.png",
+  "hardpointUnderSprite": "graphics/weapons/octuple_machinegun_hardpoint_under.png",
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    22.5,
+    -7,
+    22.5,
+    7,
+    22.5,
+    -3,
+    22.5,
+    3,
+    19.5,
+    -12,
+    19.5,
+    12,
+    19.5,
+    -16,
+    19.5,
+    16
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0,
+    0
+  ],
+  "hardpointOffsets": [
+    33,
+    -6,
+    33,
+    6,
+    33,
+    -2,
+    33,
+    2,
+    31,
+    -10,
+    31,
+    10,
+    31,
+    -13,
+    31,
+    13
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "light_machinegun_fire"
+}

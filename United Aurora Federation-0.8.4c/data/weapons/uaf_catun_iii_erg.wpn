@@ -1,0 +1,65 @@
+{
+  "id": "uaf_catun_iii_erg",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_pu_beam_lg_catun",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "org.niatahl.uaf.weapons.uaf_energyWeaponEffect",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Catun III ERG/catun_iii_erg_turret.png",
+  "turretGunSprite": "graphics/weapons/Catun III ERG/catun_iii_erg_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/Catun III ERG/catun_iii_erg_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/Catun III ERG/catun_iii_erg_hardpoint_recoil.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 4,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    6,
+    4.5,
+    6,
+    -4.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15.5,
+    4.5,
+    15.5,
+    -4.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 55,
+    "spread": 0,
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 25,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "uaf_catun_iii_erg"
+}

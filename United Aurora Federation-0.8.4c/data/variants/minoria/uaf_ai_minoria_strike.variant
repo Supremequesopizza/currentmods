@@ -1,0 +1,41 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 1,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "uaf_ai_minoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_super_heavy_wing_operation"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_ai_minoria_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_vocal_m_srm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_edge_type_i",
+                "WS0002": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_merupaka_epd",
+                "WS0005": "uaf_merupaka_epd"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_puterakamu"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "variantId": "ork_smasha_l_standard",
+  "hullId": "ork_smasha_l",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

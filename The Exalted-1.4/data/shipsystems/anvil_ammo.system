@@ -1,0 +1,13 @@
+{
+	"id":"anvil_ammo",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.anvil_ammo",
+	
+	"weaponGlowColor":[189,0,0,155],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

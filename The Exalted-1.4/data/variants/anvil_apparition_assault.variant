@@ -1,0 +1,32 @@
+{
+  "variantId": "anvil_apparition_assault",
+  "hullId": "anvil_apparition",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "anvil_voodoo_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "anvil_fairy",
+    "anvil_wisp"
+  ]
+}

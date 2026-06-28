@@ -1,0 +1,146 @@
+{
+  "hullName": "Faint",
+  "hullId": "anvil_faint",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/anvil_faint.png",
+  "style": "EXALTED_TECH",
+  "height": 116,
+  "width": 90,
+  "center": [45, 58],
+  "collisionRadius": 65.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 58.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "exalted_subsystems",
+    "turretgyros"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -90,
+      "locations": [0, -14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 90,
+      "locations": [0, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -180,
+      "locations": [-30, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [30, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 20],
+      "length": 9.192388,
+      "width": 4.242641,
+      "angle": 135,
+      "contrailSize": 4.242641,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-23, -20],
+      "length": 9.192388,
+      "width": 4.242641,
+      "angle": -135,
+      "contrailSize": 4.242641,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [23, 20],
+      "length": 9.192388,
+      "width": 4.242641,
+      "angle": 45,
+      "contrailSize": 4.242641,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [23, -20],
+      "length": 9.192388,
+      "width": 4.242641,
+      "angle": -45,
+      "contrailSize": 4.242641,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-15.5, 21.5],
+      "length": 5.656854,
+      "width": 2.828427,
+      "angle": 135,
+      "contrailSize": 2.828427,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [-15.5, -21.5],
+      "length": 5.656854,
+      "width": 2.828427,
+      "angle": -135,
+      "contrailSize": 2.828427,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [15.5, 21.5],
+      "length": 5.656854,
+      "width": 2.828427,
+      "angle": 45,
+      "contrailSize": 2.828427,
+      "style": "EXALTED_TECH"
+    },
+    {
+      "location": [15.5, -21.5],
+      "length": 5.656854,
+      "width": 2.828427,
+      "angle": -45,
+      "contrailSize": 2.828427,
+      "style": "EXALTED_TECH"
+    }
+  ],
+  "bounds": [
+    -44.5, 0.5,
+    -32.5, 11.5,
+    -23.5, 14.5,
+    -22.5, 19.5,
+    -14.5, 20.5,
+    0, 24.5,
+    14.5, 20.5,
+    22.5, 19.5,
+    23.5, 14.5,
+    32.5, 11.5,
+    44.5, 0.5,
+    44.5, -0.5,
+    32.5, -11.5,
+    23.5, -14.5,
+    22.5, -19.5,
+    14.5, -20.5,
+    0, -24.5,
+    -14.5, -20.5,
+    -22.5, -19.5,
+    -23.5, -14.5,
+    -32.5, -11.5,
+    -44.5, -0.5
+  ]
+}

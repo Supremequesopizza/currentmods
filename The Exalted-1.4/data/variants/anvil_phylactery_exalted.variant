@@ -1,0 +1,31 @@
+{
+  "variantId": "anvil_phylactery_exalted",
+  "hullId": "anvil_phylactery",
+  "displayName": "Exalted",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 8,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "anvil_aire",
+        "WS0004": "anvil_aire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "anvil_varna",
+        "WS0002": "anvil_varna"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

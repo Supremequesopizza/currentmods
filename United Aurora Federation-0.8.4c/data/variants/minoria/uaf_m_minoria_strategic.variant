@@ -1,0 +1,33 @@
+{
+    "displayName": "Strategic",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "uaf_m_minoria",
+    "hullMods": [
+        "uaf_super_heavy_wing_operation",
+        "recovery_shuttles"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_m_minoria_strategic",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_weiss_ii_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_pd_reina",
+                "WS0002": "uaf_pd_reina"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_hyacinth_ii"
+    ]
+}

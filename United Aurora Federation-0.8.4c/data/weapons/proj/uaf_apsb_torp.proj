@@ -1,0 +1,39 @@
+{
+	"id":"uaf_apsb_torp",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/Missiles/missile_apsb_torpedo.png",
+	"glowColor":[255,255,255,255],
+	"size":[5,14],	
+	"center":[0,0],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"engineSpec":{"turnAcc":360,
+				  "turnRate":500,
+				  "acc":2500,
+				  "dec":800},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-1, -2.5],
+					#"loc":[-1, -2.5],
+				    #"style":"TORPEDO",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[110,185,255,255],
+						"contrailDuration":2,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":7, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[110,185,255,50],
+						"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						"glowSizeMult":1	
+					},
+				    "width":10.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}

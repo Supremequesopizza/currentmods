@@ -1,0 +1,71 @@
+{
+
+"combatSmall":{
+		"anvil_spirit_exalted":7,
+		"anvil_omen_ex_exalted":6,
+		"anvil_eerie_exalted":7,
+		"anvil_faint_exalted":10,
+		"anvil_faint_assault":7,
+		"anvil_eerie_standard":7,
+	},
+
+
+"tankerSmall":{
+		"anvil_phylactery_exalted":5,
+	},
+
+"freighterSmall":{
+		"anvil_phylactery_exalted":10,
+	},
+
+
+"carrierSmall":{
+		"anvil_apparition_exalted":10,
+		"anvil_apparition_assault":10,
+	},
+
+"combatMedium":{
+		"anvil_vampire_exalted":10,
+		"anvil_cielo_exalted":10,
+		"anvil_cielo_civ_support":10,
+		"anvil_shrike_ex_exalted":10,
+	},
+
+
+"freighterMedium":{
+		"anvil_urn_exalted":10,
+		"anvil_phylactery_exalted":10,
+	},
+
+
+	"carrierMedium":{
+		"anvil_fantasma_exalted":10,
+		"anvil_fantasma_strike":10,
+
+	},
+
+	"combatFreighterMedium":{
+		"anvil_hoshiko_exalted":10,
+		"anvil_hoshiko_civ_support":10,
+	},
+
+
+"combatLarge":{
+		"anvil_wraith_exalted":10,
+		"anvil_wraith_support":10,
+		"anvil_lich_exalted":10,
+
+	},
+
+"freighterLarge":{
+		"anvil_urn_exalted":10,
+	},
+
+
+"combatCapital":{
+		"anvil_wendigo_exalted":10,
+		"anvil_wendigo_assault":10,
+		"anvil_nightmare_exalted":10,
+		"anvil_nightmare_strike":10,
+	},
+ }

@@ -1,0 +1,57 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 4,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "uaf_sunami_prototype",
+    "hullMods": [
+        "uaf_reserve_wing_operation",
+        "recovery_shuttles"
+    ],
+    "quality": 0.5,
+    "variantId": "uaf_sunami_prototype_superiority",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_swaras_m_mlrs",
+                "WS0002": "uaf_swaras_m_mlrs"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_medlav_dual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "uaf_pd_reina",
+                "WS0005": "uaf_pd_reina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "uaf_weiss_flk",
+                "WS0008": "uaf_weiss_flk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_vocal_s_srm"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_m_forlorn",
+        "uaf_wing_m_superaria"
+    ]
+}

@@ -1,0 +1,119 @@
+{
+  "hullName": "Colossus (A)",
+  "hullId": "missp_colossus_heg",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/colossus/missp_colossus_hegemony.png",
+  "style": "LOW_TECH",
+  "height": 224,
+  "width": 184,
+  "center": [92, 112],
+  "collisionRadius": 158,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 147,
+  "viewOffset": 0,
+  "builtInMods": [
+    "militarized_subsystems",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 70,
+      "locations": [85, 74]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -70,
+      "locations": [85, -74]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 110,
+      "locations": [19, 74]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -110,
+      "locations": [19, -74]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-109, -47.5],
+      "length": 43.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109, -55.5],
+      "length": 44.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109, -63.5],
+      "length": 44,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109, 47.5],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109, 55],
+      "length": 44,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109, 63.5],
+      "length": 44,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    3, -86.5,
+    104.5, -86.5,
+    104.5, 86.5,
+    3, 86.5,
+    -22.5, 71,
+    -50, 81.5,
+    -94, 80,
+    -108, 68.5,
+    -108, -68.5,
+    -94, -80,
+    -50, -81.5,
+    -22.5, -71
+  ]
+}

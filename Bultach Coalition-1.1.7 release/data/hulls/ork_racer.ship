@@ -1,0 +1,187 @@
+{
+  "hullName": "Racer",
+  "hullId": "ork_racer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ork_racer.png",
+  "style": "BULTACH",
+  "height": 108,
+  "width": 122,
+  "center": [61, 52],
+  "collisionRadius": 80.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ork_redfasta",
+    "BT_shieldsChanger",
+    "bt_shieldArching",
+    "bt_offensive_core"
+  ],
+  "builtInWeapons": {
+    "WS0006": "ork_vent_deco",
+    "WS0007": "ork_racer_top",
+    "WS0008": "ork_blinker_green",
+    "WS0009": "ork_blinker_green",
+    "WS0010": "ork_blinker_green",
+    "WS0011": "ork_blinker_red",
+    "WS0012": "ork_blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 39,
+      "locations": [3, 22],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -39,
+      "locations": [3, -22],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [39.5, 16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": -0,
+      "locations": [39.5, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [33.5, 0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-20, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-11, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 45]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11, -45]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, -0],
+      "renderOrderMod": 2000
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23.5, 19.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [23.5, -19.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, -30],
+      "length": 63.90945,
+      "width": 23.713455,
+      "angle": -160,
+      "contrailSize": 23.713455,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    },
+    {
+      "location": [-38, 30],
+      "length": 63.90945,
+      "width": 23.713455,
+      "angle": 160,
+      "contrailSize": 23.713455,
+      "style": "CUSTOM",
+      "styleId": "ORK_ENGINE"
+    }
+  ],
+  "bounds": [
+    -31, -9.5,
+    -49.5, -21,
+    -39.5, -22,
+    -27, -42.5,
+    -14, -45,
+    -10, -47.5,
+    -15, -58,
+    10, -46,
+    6, -31,
+    17, -25,
+    42.5, -21.5,
+    42.5, 21.5,
+    17, 25,
+    6, 31,
+    10, 46,
+    -15, 58,
+    -10, 47.5,
+    -14, 45,
+    -27, 42.5,
+    -39.5, 22,
+    -49.5, 21,
+    -31, 9.5
+  ]
+}

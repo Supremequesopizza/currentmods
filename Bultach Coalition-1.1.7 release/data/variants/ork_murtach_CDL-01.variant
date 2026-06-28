@@ -1,0 +1,74 @@
+{
+    "displayName": "CDL-01",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "ork_murtach",
+    "hullMods": [
+        "hardened_subsystems",
+        "augmentedengines",
+        "armoredweapons",
+        "magazines",
+        "reinforcedhull",
+    ],
+    "permaMods": [
+		"malfunctioning_comms",
+		"faulty_grid",
+		"glitched_sensors",
+	],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "ork_murtach_CDL-01",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "autopulse",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ork_noshield_medium",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ork_thumpa",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ork_rotary_pd",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "pdburst",
+                "WS0008": "pdlaser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

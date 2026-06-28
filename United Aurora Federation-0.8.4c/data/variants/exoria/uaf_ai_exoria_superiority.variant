@@ -1,0 +1,51 @@
+{
+    "displayName": "Superiority",
+    "fluxCapacitors": 4,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "uaf_ai_exoria",
+    "hullMods": [
+        "recovery_shuttles",
+        "uaf_special_emergency_automated_assistance",
+        "uaf_reserve_wing_operation"
+    ],
+    "quality": 0.8,
+    "variantId": "uaf_ai_exoria_superiority",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "uaf_merupaka_ii_epd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_merupaka_ii_epd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "uaf_edge_type_i",
+                "WS0006": "uaf_edge_type_i"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "uaf_chorus_s_amm"
+            }
+        }
+    ],
+    "wings": [
+        "uaf_wing_ai_naga",
+        "uaf_wing_ai_naga",
+        "uaf_wing_ai_nekonyan",
+        "uaf_wing_ai_nekonyan"
+    ]
+}

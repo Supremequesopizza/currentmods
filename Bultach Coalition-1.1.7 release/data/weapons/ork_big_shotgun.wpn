@@ -1,0 +1,43 @@
+{
+  "id": "ork_big_shotgun",
+  "specClass": "projectile",
+  "projectileSpecId": "bt_morangne_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.bt_ramping_rotary",
+  "turretSprite": "graphics/weapons/frag_cannon_rotary/ork_morangne_turret_0000.png",
+  "hardpointSprite": "graphics/weapons/frag_cannon_rotary/ork_morangne_hardpoint_0000.png",
+  "turretOffsets": [
+    35,
+    1
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    38,
+    1
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 10,
+  "frameRate": 18,
+  "muzzleFlashSpec": {
+    "length": 50,
+    "spread": 20,
+    "particleSizeMin": 8,
+    "particleSizeRange": 20,
+    "particleDuration": 0.25,
+    "particleCount": 34,
+    "particleColor": [
+      255,
+      140,
+      125,
+      200
+    ]
+  },
+  "fireSoundTwo": "bt_morangne_fire"
+}

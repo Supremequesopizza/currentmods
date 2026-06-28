@@ -1,0 +1,55 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "ion_cannon_fire",
+  "glowColor": [
+    239,
+    10,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/varna/anvil_varna_hardpoint_glow.png",
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/varna/anvil_varna_hardpoint_base.png",
+  "id": "anvil_varna",
+  "muzzleFlashSpec": {
+    "length": 9,
+    "particleColor": [
+      165,
+      10,
+      255,
+      255
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.12,
+    "particleSizeMin": 10,
+    "particleSizeRange": 12,
+    "spread": 5
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "anvil_varna_shot",
+  "renderAboveAllWeapons": 0,
+  "requiresFullCharge": false,
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/varna/anvil_varna_turret_glow.png",
+  "turretOffsets": [
+    11.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/varna/anvil_varna_turret_base.png",
+  "type": "ENERGY"
+}

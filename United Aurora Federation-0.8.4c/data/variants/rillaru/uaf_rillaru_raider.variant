@@ -1,0 +1,62 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 28,
+    "fluxVents": 19,
+    "goalVariant": false,
+    "hullId": "uaf_rillaru",
+    "hullMods": [
+        "magazines",
+        "blast_doors",
+        "reinforcedhull",
+        "nav_relay"
+    ],
+    "quality": 0.8,
+    "variantId": "uaf_rillaru_raider",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "uaf_penulisa_acx",
+                "WS0002": "uaf_penulisa_acx"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "uaf_oboe_mirv_medium",
+                "WS0016": "uaf_oboe_mirv_medium",
+                "WS0017": "uaf_oboe_mirv_small",
+                "WS0018": "uaf_oboe_mirv_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "uaf_hikone_quad",
+                "WS0010": "uaf_hikone_quad"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "uaf_pd_reina_ii",
+                "WS0007": "uaf_pd_reina_ii",
+                "WS0005": "uaf_pd_reina_ii",
+                "WS0006": "uaf_pd_reina_ii",
+                "WS0004": "uaf_pd_reina_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "uaf_flair_pod",
+                "WS0014": "uaf_flair_pod"
+            }
+        }
+    ]
+}

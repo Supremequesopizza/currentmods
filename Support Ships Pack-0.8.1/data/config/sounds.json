@@ -1,0 +1,17 @@
+{
+	#WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _ WEAPONS _
+
+	"supportships_gardener_massdriver_fire":
+	[
+		{"file": "sounds/sfx_wpn_guns/gardener_massdriver_fire.ogg", "pitch": 1.1, "volume": 1},
+		{"file": "sounds/sfx_wpn_guns/gardener_massdriver_fire.ogg", "pitch": 0.9, "volume": 1},
+		{"file": "sounds/sfx_wpn_guns/gardener_massdriver_fire.ogg", "pitch": 1.0, "volume": 1},
+	],
+	"supportships_ion_pulse_cannon_fire":
+	[
+		{"file": "sounds/sfx_wpn_energy/Ion_Pulse_cannon_fire.ogg", "pitch": 1.1, "volume": 1},
+		{"file": "sounds/sfx_wpn_energy/Ion_Pulse_cannon_fire.ogg", "pitch": 0.9, "volume": 1},
+		{"file": "sounds/sfx_wpn_energy/Ion_Pulse_cannon_fire.ogg", "pitch": 1.0, "volume": 1},
+	],
+
+}

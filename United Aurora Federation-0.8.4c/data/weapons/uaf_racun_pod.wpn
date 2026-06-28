@@ -1,0 +1,48 @@
+{
+  "id": "uaf_racun_pod",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_racun_pod_proj",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/Racun APS/uaf_racun_pod_turret.png",
+  "hardpointSprite": "graphics/weapons/Racun APS/uaf_racun_pod_hardpoint.png",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "SMOKE",
+  "requiresFullCharge": false,
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 0,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      150
+    ]
+  },
+  "fireSoundTwo": "uaf_aps"
+}

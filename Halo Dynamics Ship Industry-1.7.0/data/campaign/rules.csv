@@ -1,0 +1,643 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME HSI,,,,,,
+,,,,,,
+# greetings,,,,,,
+greetingHSIFriendly,OpenCommLink,"$faction.id == HSI
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""$personRank greets you, friend."" 
+OR
+""I didn't expect to meet you here, friend.""",,
+greetingHSIHostileWeaker,OpenCommLink,"$faction.id == HSI
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""Continued hostility to Halo Dynamics won't end well, Captain. I hope you've thought this through."" $personRank cut the comms, and the fleet seems intent to disengage.
+OR
+""In the name of Halo Dynamics, I demand that you cease hostilities, Captain."" You notice $heOrShe's fleet attempting to retreat.",cutCommLink:Cut the comm link,
+greetingHSIHostileWeakerDefiant,OpenCommLink,"$faction.id == HSI
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""The support fleet is on its way. Now, we will tie you down — at all costs."" $personRank cut the comms, and weapons begin to charge.
+OR
+""We will not falter."" $personRank cut the comms link. You detect the other side entering combat mode.",cutCommLink:Cut the comm link,
+greetingHSIHostileStronger,OpenCommLink,"$faction.id == HSI
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""We will crush all entities hostile to the Council.""
+OR
+""The Council has authorized the use of deadly force. Please surrender immediately.""",cutCommLink:Cut the comm link,
+greetingHSINeutral,OpenCommLink,"$faction.id == HSI
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Greetings, starfarer. If there's nothing else, I have other tasks.""
+",,
+relLevelNeutralHSI,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == HSI",,Aura Dynamics doesn't feel like you have anything worth their bother.,,
+relLevelFavorableHSI,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == HSI",,The ship and weapons industries offer you some common designs.,,
+relLevelWelcomingHSI,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == HSI",,"Your name appears on the Council's report, and the ship industry and weapons industries will sell you some of the mildly restricted arms.",,
+relLevelFriendlyHSI,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == HSI",,"The Council has granted you temporary employee status, and you enjoy most of the benefits of Halo Dynamics employees.",,
+relLevelCooperativeHSI,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == HSI",,You have the right to meet with the Director with a prior appointment. This means that the Council has accepted you — in the Persean Sector.,,
+relLevelSuspiciousHSI,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == HSI",,A slightly irritating mercenary is not enough to cause for Halo Dynamics to take action.,,
+relLevelInhospitableHSI,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == HSI",,The ship and weapons industries refuse to trade with you.,,
+relLevelHostileHSI,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == HSI",,The Council has authorized the use of lethal force against you. Operating in Halo Dynamics territory will be difficult.,,
+relLevelVengefulHSI,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == HSI",,The Council has instructed the Department of War to put you on a wanted list. A special fleet also appears to be assigned to hunt you down.,,
+flavorTextMarketHSINormal,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == HSI
+$market.id != HSI_SpaceBridge_Market","AddText ""The widespread leisure facilities, unknown energy networks and luxurious interior decor gives this place the ambiance of a vacation resort, but the scurrying starship cadets and captains shatter this facade."" marketFlavorTextColor
+AddText ""Heavily armed guards check your identification before escorting you to the market hall."" marketFlavorTextColor",,,
+flavorTextMarketHSISpaceBridge,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == HSI
+$market.id == HSI_SpaceBridge_Market","AddText ""The facility is almost entirely populated by scientists and guards, with the occasional visitor hoping to find good collaborators."" marketFlavorTextColor
+",,,
+convCommissionerGreetingRefuse,PickGreeting,"HSIPersonIdentityCheck PersonIsTheCommissioner
+!$global.HSITC0Finished
+$isPerson","$contact_printedFirstReturnGreeting = true 0
+ShowDefaultVisual","It is not easy to make an appointment with the Director, and the secretary politely declines your request.",cutCommLink:Leave,
+convCommissionerGreetingAccept,PickGreeting,"HSIPersonIdentityCheck PersonIsTheCommissioner
+$global.HSITC0Finished
+!$faction.HSIisTraitor
+$isPerson","$contact_printedFirstReturnGreeting = true 0
+ShowPersonVisual
+FireAll PopulateOptions","""Greetings, Captain $playerName.""",,
+convCommissionerGreetingTraitor,PickGreeting,"HSIPersonIdentityCheck PersonIsTheCommissioner
+$global.HSITC0Finished
+$faction.HSIisTraitor
+!$faction.HSIforgiven
+$isPerson","$contact_printedFirstReturnGreeting = true 0
+ShowPersonVisual
+FireBest HSITraitor","""Greetings, Captain $playerName. From the mess you've made, I thought you would not return.""",cutCommLink:Leave,
+convCommissionerGreetingTraitor2,PickGreeting,"HSIPersonIdentityCheck PersonIsTheCommissioner
+$global.HSITC0Finished
+$faction.HSIisTraitor
+$faction.HSIforgiven
+$isPerson","$contact_printedFirstReturnGreeting = true 0
+ShowDefaultVisual",No one will forgive betrayal twice. You'd better leave on your own before the patrols come.,cutCommLink:Leave,
+barDesc_HSI,BarPrintDesc,$faction.id == HSI,ShowImageVisual space_bar,"Unknown energy networks weave various patterns on the walls of the bar, clearly for decoration. Air fresheners suppress variety of strange odors, and the bar is designed to be low-profile but luxurious. There are both people who look like executives, as well as spacemen and officers who speak in hushed voices.",,
+,,,,,,
+#END greetings,,,,,,
+#Traitor,,,,,,
+HSITraitor0,HSITraitor,,,,"HSITraitorTryToDeal1:""I did not want things to get this ugly either.""",
+HSITraitor1_1,DialogOptionSelected,"$option == HSITraitorTryToDeal1
+!$faction.HSIFLLostToPlayer",,"""What do you mean by not wanting things to get ugly, Captain $playerName? Attacking Halo Dynamics assets is no small offense, especially for a collaborator to whom we have given benefits.""","HSITraitorTryToDeal2:""Perhaps I can bring even more profit.""",
+HSITraitor1_2,DialogOptionSelected,"$option == HSITraitorTryToDeal1
+$faction.HSIFLLostToPlayer",,"""What do you mean by not wanting things to get ugly, Captain $playerName? Attacking Halo Dynamics assets is no small offense, especially for a collaborator to whom we have given benefits, not to mention the sinking of a dreadnought.""","HSITraitorTryToDeal2:""Perhaps I can bring even more profit.""",
+HSITraitor2,DialogOptionSelected,$option == HSITraitorTryToDeal2,FireAll HSITraitorDealTurnOffOptions,"You almost think you hear a laugh, but it might be your imagination.""How much profit?""","HSITraitorDeal1:""1,000,000 credits.""
+HSITraitorDeal2:""5,000,000 credits.""
+HSITraitorDeal3:""10,000,000 credits.""
+cutCommLink:Leave",
+HSITraitor3_1,DialogOptionSelected,$option == HSITraitorDeal1,FireAll HSITraitorDealTurnOffOptions,"""You have to be sincere, Captain $playerName.""","HSITraitorDeal2:""5,000,000 credits.""
+HSITraitorDeal3:""10,000,000 credits.""
+cutCommLink:Leave",
+HSITraitor3_2,DialogOptionSelected,"$option == HSITraitorDeal2
+!$faction.HSIFLLostToPlayer",HSISetPerson RemoveTraitor,"""5,000,000 credits, deal.""",cutCommLink:Leave,
+HSITraitor3_3,DialogOptionSelected,"$option == HSITraitorDeal2
+$faction.HSIFLLostToPlayer",FireAll HSITraitorDealTurnOffOptions,"""That may have been enough. But it is not enough to account for the dreadnought. Captain $playerName, that would be another cost.""","HSITraitorDeal3:""10,000,000 credits.""
+cutCommLink:Leave",
+HSITraitor3_4,DialogOptionSelected,$option == HSITraitorDeal3,HSISetPerson RemoveTraitor,"""10,000,000 credits, deal.""",cutCommLink:Leave,
+,,,,,,
+,,,,,,
+HSITraitorTurnOff1M,HSITraitorDealTurnOffOptions,$player.credits < 1000000,SetEnabled HSITraitorDeal1 false,,,
+HSITraitorTurnOff5M,HSITraitorDealTurnOffOptions,$player.credits < 5000000,SetEnabled HSITraitorDeal2 false,,,
+HSITraitorTurnOff10M,HSITraitorDealTurnOffOptions,$player.credits < 10000000,SetEnabled HSITraitorDeal3 false,,,
+,,,,,,
+#StellaArena,,,,,,
+HSISA_First,PopulateOptions,"$faction.id == HSI
+$market.id == HSI_SpaceBridge_Market
+$global.HSITC0Finished
+!$global.HSISA_FCFinished
+$isPerson
+HSIPersonIdentityCheck PersonIsTheCommissioner",,,HSISA_FC:Inquire with the Director about the nature of this detailed simulation display.,
+HSISA_FC0,DialogOptionSelected,$option == HSISA_FC,ShowPersonVisual,"""It operates on the same principles as the system used at Sagitta Academy, enabling users to fight simulated enemies.""",HSISA_FC1:May I use it?,
+HSISA_FC1,DialogOptionSelected,$option == HSISA_FC1,,"""Certainly. Think of it as one of the benefits of working with us. Do well, and I'll even throw in some fun rewards. """,HSISA_FC3:Interesting.,
+HSISA_FC3,DialogOptionSelected,$option == HSISA_FC3,"$global.HSISA_FCFinished = true
+$global.HSISACredits = 0
+$global.HSISALevelTraining = 1
+$global.HSISALevelHard = 1","""Why don't I start now?""",HSISA_Join:Visit the Stella Arena,
+HSISA_Greetings,PopulateOptions,"$faction.id == HSI
+$market.id == HSI_SpaceBridge_Market
+$global.HSISA_FCFinished
+$isPerson
+HSIPersonIdentityCheck PersonIsTheCommissioner
+",,,HSISA_Join:Visit the Stella Arena,
+HSISA_Main,DialogOptionSelected,$option == HSISA_Join,FireAll HSISAOptions,,,
+HSISA_Shop,HSISAOptions,,,,3:HSISA_ShopOpen:Visit the arena store (You currently have $global.HSISACredits points),
+HSISA_Battle,HSISAOptions,,,,1:HSISA_BattleOpen:Take on a Training Mode Challenge ($global.HSISALevelTraining Level),
+HSISA_BattleHard,HSISAOptions,,,,2:HSISA_BattleOpenHard:Take on a Hard Mode Challenge ($global.HSISALevelHard Level),
+HSISA_BattleAdventure,HSISAOptionsNN,,,,4:HSISA_BattleOpenAdventure:Check out the Adventure Mode Challenges!,
+HSISA_Leave,HSISAOptions,,,,6:HSISA_LeaveOpen:Leave the arena,
+HSISA_ModeExplain,HSISAOptions,,,,5:HSISA_Explain:About the Stella Arena,
+HSISA_ShopPage,DialogOptionSelected,$option == HSISA_ShopOpen,HSISAShop,"""Look at your rewards.""",,
+HSISA_BattlePage,DialogOptionSelected,$option == HSISA_BattleOpen,HSISABattle Training,,,
+HSISA_BattlePageHard,DialogOptionSelected,$option == HSISA_BattleOpenHard,HSISABattle Hard,,,
+HSISA_LeavePage,DialogOptionSelected,$option == HSISA_LeaveOpen,FireAll PopulateOptions,You remember that you have other things to do and leave the arena.,,
+HSISA_Explain,DialogOptionSelected,$option == HSISA_Explain,FireAll HSISAOptions,"Training Mode: This mode pits you against progressively larger fleets based on normal matchmaking rules. Earn 1 point every 3 levels.
+Hard Mode: This mode features significantly higher quality enemy fleets. Gain 1 point per level.",,
+HSISA_AdventureStatus,DialogOptionSelected,$option == HSISA_BattleOpenAdventure,HSISABattle ShowAdventureStatus,,,
+HSISA_StartBattleAdventure,DialogOptionSelected,$option == HSISA_BattleStartAdventure,HSISABattle Adventure,,,
+HSISA_PickedBuffAdventure,DialogOptionSelected,HSISABattle PickedBuffOption,HSISABattle AddBuff,,,
+,,,,,,
+,,,,,,
+#HPSID,,,,,,
+HSI_startTurnIn,PopulateOptions,"$isPerson
+HSIPersonIdentityCheck PersonIsHPSIDOperator
+!$faction.HSIisTraitor
+$faction.id == HSI",,"""Hello. Security Department Field Operator, how may I be of service?""","10:HSI_aiCores_startTurnIn:""I have these AI cores...""
+11:HSI_specialShip_startTurnIn:""I have these rare ships...""
+13:HSI_surveyData_startTurnIn:""I have some Survey Data...""",
+HSI_startTurnInDenied,PopulateOptions,"$isPerson
+HSIPersonIdentityCheck PersonIsHPSIDOperator
+$faction.HSIisTraitor
+$faction.id == HSI",FireAll PopulateOptions,"""No one trusts someone who has stabbed them in the back, $PlayerSirOrMadam。""",,
+HSI_aiCores_disableTurnInOption,DisableTurnInCoresOptionIfNeeded,"$isPerson
+AICores personCanAcceptCores
+$faction.id == HSI score:1000","SetTooltip aiCores_startTurnIn ""You should find someone else who can take these. Regulations forbid me from handling them.""
+SetEnabled aiCores_startTurnIn false",,,
+HSI_aiCores_turnInOptionSel,DialogOptionSelected,"$option == HSI_aiCores_startTurnIn
+$faction.id == HSI",FireAll HSICoresTurnInOptions,"""You've come to the right person. We will be happy to take these dangerous items off you.""",,
+HSI_aiCores_playerHasOption,HSICoresTurnInOptions,,,"AI cores are converted to 5/10/20/40 progress points according to their level, while also affecting relationships.",0:HSI_aiCores_selectCores:Select AI cores to turn in,
+HSI_aiCores_neverMindOption,HSICoresTurnInOptions,,,,"100:aiCores_neverMind:""Never mind, I don't actually have any.""",
+HSI_aiCores_turnInOptionSelected,DialogOptionSelected,$option == HSI_aiCores_selectCores,HPSIDTurnIn AI_CORE selectCores,,,
+HSI_aiCores_turnInResponse,HSIAICoresTurnedIn,,FireAll PopulateOptions,"Operator $personLastName accepts your submission without a word. ""Well done, I will report your contribution to my superiors.""",,
+HSI_ships_turnInOptionSelected,DialogOptionSelected,$option == HSI_specialShip_startTurnIn,,"""These ships will be converted to 15/30/45/60 progress points based on ship class, and will be purchased at their base price, credited to your account immediately.""","HSI_specialShip_startTurnInContinue:Proceed
+HSI_specialShip_startTurnInBreak:Change the subject",
+HSI_ships_turnInOptionSelectedContinue,DialogOptionSelected,$option == HSI_specialShip_startTurnInContinue,HPSIDTurnIn SPECIAL_SHIP selectRareship,,,
+HSI_ships_turnInOptionSelectedBreak,DialogOptionSelected,$option == HSI_specialShip_startTurnInBreak,FireAll PopulateOptions,,,
+HSI_ships_turnInResponse,HSITurnedInRareShip,,FireAll PopulateOptions,"Operator $personLastName looks up the status of the ship on a Tripad. ""Well done. You won't regret this.""",,
+HSI_surveydata_turnInOptionSelectedContinue,DialogOptionSelected,$option == HSI_surveyData_startTurnInContinue,HPSIDTurnIn SURVEY_DATA selectSurveyData,,,
+HSI_surveydata_turnInOptionSelectedBreak,DialogOptionSelected,$option == HSI_surveyData_startTurnInBreak,FireAll PopulateOptions,,,
+HSI_surveydata_turnInOptionSelected,DialogOptionSelected,$option == HSI_surveyData_startTurnIn,,"Exploration data is converted into 2/4/7/11/15 progress points according to level, while also affecting relationships.","HSI_surveyData_startTurnInContinue:Proceed
+HSI_surveyData_startTurnInBreak:Change the subject",
+HSI_surveydata_turnInResponse,HSISurveyDataTurnedIn,,FireAll PopulateOptions,"Operator $personLastName taps a Tripad a few times. ""Well done. Halo Dynamics thanks you for your exploration.""",,
+,,,,,,
+#HSIContractForge,,,,,,
+HSI_Forge_Start,PopulateOptions,"$isPerson
+HSIPersonIdentityCheck PersonIsHSIForgeContact
+!$faction.HSIisTraitor
+$faction.id == HSI",,"""Hello, our shipbuilding and weapons industries is capable of producing a wide range of ships and weapons. Feel free to browse our product catalog.""",HSI_Forge_Pick:Browse product catalog,
+HSI_Forge_Pick,DialogOptionSelected,$option == HSI_Forge_Pick,HSIContactForge,,,
+HSI_Forge_Picked,HSIForgePicked,,"$option = HSI_Forge_out 0
+FireBest DialogOptionSelected",,,
+HSI_Forge_Out,DialogOptionSelected,$option == HSI_Forge_out,FireAll PopulateOptions,"""Thank you for your order. Production is usually completed within 60 days. Shipping is not included, please collect your order in person or via a representative with a valid certificate at the Space Bridge.""",,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+#HSI_TCEvent0,,,,,,
+HSI_TC0Start,AddBarEvents,"!$global.HSITC0Started
+!$global.HSITC0Finished
+!$market.isHidden
+RepIsAtWorst HSI COOPERATIVE","AddBarEvent HSI_TC0_BarEvent ""A young girl sat in a corner, looking out of place in a bar. No one seemed to notice her."" ""In the crowded bar, for some reason, a quiet corner abruptly appeared."" 255,140,200,255",,,
+HSI_TC0Event1,DialogOptionSelected,$option == HSI_TC0_BarEvent,"AddText ""Your approach manages to divert her gaze from her Tripad. \""How do you do, Captain $playerName. It seems like you've finally noticed me.\"""" 255,140,200,255
+HSISetPerson TheCommissioner
+ShowPersonVisual
+$global.HSITC0Started = true",,"HSI_TC0_1_1:Say nothing
+HSI_TC0_1_2:""It's hard to imagine a lady as dazzling as yourself being ignored.""",
+HSI_TC0Event2_1,DialogOptionSelected,$option == HSI_TC0_1_1,"AddText ""\""Have a seat, Captain $playerName. There's no need for reservations.\"""" 255,140,200,255",,HSI_TC0_2:Sit,
+HSI_TC0Event2_2,DialogOptionSelected,$option == HSI_TC0_1_2,"AddText ""\""I didn't expect you to be such a sweet talker.\"" You seem to see her smile, but it is gone as soon as it appeared. \""Have a seat, Captain $playerName, there's no need to be so... I believe you'd dislike formality.\"""" 255,140,200,255",,HSI_TC0_2:Sit,
+HSI_TC0Event3,DialogOptionSelected,$option == HSI_TC0_2,"AddText ""Her invitation seemed to have some kind of charm, and you ease into a seat opposite her. She taps her Tripad a few times. \""I looked for you purely out of curiosity. To be honest, you are very interesting.\"""" 255,140,200,255",,"HSI_TC0_3_1:""I don't find myself interesting.""
+HSI_TC0_3_2:""Well... I am indeed very interesting.""",
+HSI_TC0Event4_1,DialogOptionSelected,$option == HSI_TC0_3_2,"AddText ""\""Then I could have praised you more. However, I'd still like a test of your abilities.\"" She pushes a chip towards you. \""This is a little greeting gift.\"" She pauses and pushes the glass of wine that was by her hand to you, \""I hope you are as strong as you are eloquent.\"""" 255,140,200,255",,"HSI_TC0_4_1:Take the chip
+HSI_TC0_4_2:""I don't think it really interests me.""",
+HSI_TC0Event_2,DialogOptionSelected,$option == HSI_TC0_3_1,"AddText ""\""If you would like, we can talk about it at length. However, I'd still like a test of your abilities.\"" She pushes a chip towards you. \""This is a little greeting gift.\"" She pours the wine by her hand into two empty glasses, takes a sip from one, and pushes the other to you. \""I hope you that next time we meet, you won't be so guarded.\"""" 255,140,200,255",,"HSI_TC0_4_1:Take the chip
+HSI_TC0_4_2:""I don't think it really interests me.""",
+HSI_TC0Fight,DialogOptionSelected,$option == HSI_TC0_4_1,HSITCEventFight TC0,,,
+HSI_TC0Leave,DialogOptionSelected,$option == HSI_TC0_4_2,"AddText ""The other party said nothing more."" 255,140,200,255
+BarCMD returnFromEvent false",,,
+HSI_TC0End,DialogOptionSelected,$option == HSI_TC0_End,"AddText ""Your senses slip away for a moment, and when you snap out of it, the other person is gone. Your Tripad prompts you of a credit transfer, and an odd unread message. Strange..."" 255,140,200,255
+$global.HSITC0Finished = true",,"backToBar:""Please come to the Space Bridge for a talk... What does this mean?""",
+,,,,,,
+#HSI_TCEvent1,,,,,,
+HSI_TC1_Start,PopulateOptions,"$faction.id == HSI
+$market.id == HSI_SpaceBridge_Market
+$global.HSITC0Finished
+!$global.HSITC1Accepted
+$isPerson
+HSIPersonIdentityCheck PersonIsTheCommissioner",,,HSI_TC1_1:The Director is waiting for you.,
+HSI_TC1_1,DialogOptionSelected,$option == HSI_TC1_1,"AddText ""\""Greetings, Captain $playerName.\"" The Director sat by the window, in a cabin with what may be one of the best views on the space bridge. Behind her lay the yawning gulf of Intrustion. Your eyes meet its unending blackness, unsettling even for the most seasoned spacefarers.\n\""I wouldn't recommend staring at it for too long. The event horizon truly is a fascinating phenomenon, but prolonged observation might trigger a fear of black holes.\"" You hear the Director's voice behind you. Startled, you turn, surprised to find her no longer in her seat. \""Sorry to keep you waiting.\"""" 255,140,200,255
+$global.HSITC1Accepted = true",,HSI_TC1_2:Shake your head.,
+HSI_TC1_2,DialogOptionSelected,$option == HSI_TC1_2,"AddText ""\""You did a good job last time, so this time, I'd like you to help me with something.\"" She takes a look at you, \""The previous test had no effect on you, which is very rare.\"""" 255,140,200,255",,"HSI_TC1_3_1:""Test?""
+HSI_TC1_4_1:""Okay, tell me.""
+HSI_TC1_4_2:""I'll need a clear explanation before I can accept such a vague commission.""",
+HSI_TC1_3_1,DialogOptionSelected,$option == HSI_TC1_3_1,"AddText ""\""It's not a big deal... Captain $playerName, it's better not to ask.\"""" 255,140,200,255",,"HSI_TC1_4_1:""Okay, go ahead and tell me.""
+HSI_TC1_3_2:""I don't intend to take vague commissions.""",
+HSI_TC1_3_2,DialogOptionSelected,$option == HSI_TC1_3_2,"AddText ""The Director frowned slightly. \""You're not making this easy, Captain $playerName.\"" She points towards Intrustion outside the window, \""As we've spoken of before, certain phenomena can influence the human mind. You looked at it, yet remained unaffected, and you won't be affected by similar phenomena either. This isn't an aptitude everyone possesses.\"""" 255,140,200,255",,"HSI_TC1_4_1:""Tell me about your commission.""
+HSI_TC1_4_2:""I am not fond of riddles.""",
+HSI_TC1_4_1,DialogOptionSelected,$option == HSI_TC1_4_1,"AddText ""\""Recover a special entity. I don't know exactly what it looks like.\"" the Director says, \""I only know it's very weak — you should be capable enough to control it. I cannot spare the time, so I can only ask this of you. The coordinates will be sent to your Tripad. It does not seem to be able to move from its location.\"""" 255,140,200,255",,"HSI_TC1_5_1:""Okay, I'll make the trip for you.""",
+HSI_TC1_4_2,DialogOptionSelected,$option == HSI_TC1_4_2,"AddText ""After a long pause, the Director finally said: \""I was being presumptuous. Please return, Captain $playerName.\"""" 255,140,200,255",,cutCommLink:Leave her office,
+HSI_TC1_5_1,DialogOptionSelected,$option == HSI_TC1_5_1,"AddText ""\""Thank you, Captain $playerName. However... as you have seen, most special existences highly sensitive and peculiar. Although presumptuous of me, I hope for your safety.\"" She takes out a small communicator: \""Should an unexpected situation occur, contact me immediately.\"""" 255,140,200,255
+HSITC1Orders ShowMap",,cutCommLink:Take the communicator,
+HSI_TC1_6,OpenInteractionDialog,"$HSI_TC1_MeetTheKnight score:1000
+!$global.HSITC1Finished","ShowDefaultVisual
+FireBest HSITC1MeetTheKnight
+$HSI_TC1_MeetTheKnight = false","Your $shipOrFleet approaches the debris field.
+
+An Invictus-class dreadnought and several smaller ships float powerlessly in the vacuum of space.",,
+HSI_TC1_6_MeetTheKnight,HSITC1MeetTheKnight,,,,HSI_TC1_7:Order sensor technicians to analyze the wreckage,
+HSI_TC1_7,DialogOptionSelected,$option == HSI_TC1_7,,"The sensor technician eventually reported to you, wearing a puzzled expression. He speaks, clearly struggling to convince himself: ""The paint scheme, insignia, and fleet composition all indicate that these are all from the same Luddic Knight fleet.""
+
+The dreadnoughts of the Luddic Church aren't typically abandoned without cause — the surrounding wreckage suggests a major battle took place here. Sensor technicians reported no energy readings, and the Invictus is completely empty — it is unclear what could have caused a Luddic Knight fleet of this size to incur such heavy losses in combat.",HSI_TC1_8:Approach the dreadnought,
+HSI_TC1_8,DialogOptionSelected,$option == HSI_TC1_8,,"You carefully approach the derelict megaship. Upon closer inspection, you and the sensor technician exchange uneasy glances, both feeling something off about the damage. An eerie silence settles over the bridge. Finally, the operations leader speaks: ""Captain, these don't quite look like energy weapon traces, do they?""
+
+You nod in agreement. The scorch marks on the ships' armor were clearly caused by high explosive weapons. The sensor technicians begin to carefully analyze the damage patterns of these wrecks. Considering the circumstances, you have reason to suspect that the wreckage is related to the fleet itself.
+
+After circling in orbit for several hours, the sensor technician returns with his final conclusion: the dreadnought and the rest of the fleet turned on each other, leading to mutual destruction.",HSI_TC1_9:Prepare to board,
+HSI_TC1_9,DialogOptionSelected,$option == HSI_TC1_9,"HSISetPerson Knight
+ShowPersonVisual","You decide to land close to the bridge and head straight for it, hoping to reactivate any sensors that might still be functional.
+
+As you enter the bridge, you catch sight of a figure. Although none of the officers and marines seemed to notice, you stop them anyway.",HSI_TC1_10:Take out the communicator,
+HSI_TC1_10,DialogOptionSelected,$option == HSI_TC1_10,,"The communicator connects almost instantly. You hold it up — half-expecting it to be capable of more than just communication. ""Do you see it?""
+
+""Yes. It looks like... a knight."" You sense the other party being unusually relaxed, ""It's a bit unexpected, but nothing unmanageable. I'm confident your eloquence will get you through it, Captain $playerName.""",HSI_TC1_11:Try to communicate,
+HSI_TC1_11,DialogOptionSelected,$option == HSI_TC1_11,,"A Luddic Knight, pledged to uphold the teachings of Ludd. Obedient to the orders of the Church, eradicator of Moloch's creations, and defender of the spirit of Ludd with sword and hammer.
+
+Stalwart guardian of the Luddic faithful, and purger of heretics and abominations. Over the decades, even as great victories were won, doubt grew. Do all evil creations destroy the human spirit? During the long years of war, not all heretics had their souls taken by the machines, as the bishops had said. In a sector on the brink of collapse, death lurked in many places, independent of the machines.
+
+The deeper the inquiry, the more uncertainty and doubt surfaced. Faith clashed with reality, and she was never able to be as flexible as her peers in dealing with the facts she faced.
+
+Despair consumed the knight.
+
+""I didn't think anyone still held those beliefs in this day and age."" The communicator sounded again, ""Neither did I think there would be such a knight. Maybe after you return, I can share some old Earth literature with you, where such characters occasionally appear.""","HSI_TC1_12:""I believe the main issue now is deciding our next move.""",
+HSI_TC1_12,DialogOptionSelected,$option == HSI_TC1_12,"SetStoryOption HSI_TC1_13_1 general ""Convince the knight that there are still people to protect.""","""The simplest method is to persuade her to act as your guardian.""
+
+""You better be sure there are no side effects.""
+
+""Generally speaking... side effects are not something you should consider. But to prevent unforeseen issues, you should avoid dying in future."" You detect a hint of sarcasm, but now it's time to make a decision.
+","HSI_TC1_13_1:Convince the knight that there are still people to protect.
+HSI_TC1_13_2:Convince the Knight that she had been deceived.",
+HSI_TC1_13_1,DialogOptionSelected,$option == HSI_TC1_13_1,,"You repeatedly reassure the knight that her actions were just. The blame lay not with her, but with the bishops — in contrast to her peers, she stood as a true knight.
+
+Only when you reminded her that someone still needed protecting did the knight finally lift her head. ""Name."" You hear her say.
+
+You hesitate, but cannot think of a way to resolve this. You hear a buzz from the communicator and, in that moment, decide to take a risk.","HSI_TC1_14_1:""$playerName。""",
+HSI_TC1_13_2,DialogOptionSelected,$option == HSI_TC1_13_2,,"You repeatedly reassure the knight that her actions were just. The blame lay not with her, but with the bishops — in contrast to her peers, she stood as a true knight.
+
+Only when you said she had been misled did the knight finally lift her head. ""Name."" You hear her say.
+
+You hesitate, but cannot think of a way to resolve this. You hear a buzz from the communicator and, in that moment, decide to take a risk.","HSI_TC1_14_2:""$playerName。""",
+HSI_TC1_14_1,DialogOptionSelected,$option == HSI_TC1_14_1,"AddText ""\""I will protect you.\"" the knight says to you."" 110,110,250,255
+HSITC1Orders GenKnight_SP
+AddText ""\""So... all's well that ends well?\"" The communicator that had been silent for a long time buzzed again, and you realized that you had never turned it off. You can only guess what kind of expression the Director was wearing while listening to your performance. You quickly switch it off."" 110,110,250,255
+$global.HSITC1Finished = true
+HSITC1Orders ClearImportant HSI_TC1_MeetTheKnight
+$player.KnownByTheCommissioner = true",,defaultLeave:Time to leave,
+HSI_TC1_14_2,DialogOptionSelected,$option == HSI_TC1_14_2,"AddText ""\""I will protect you.\"" the knight says to you."" 110,110,250,255
+HSITC1Orders GenKnight
+AddText ""\""So... all's well that ends well?\"" The communicator that had been silent for a long time buzzed again, and you realized that you had never turned it off. You can only guess what kind of expression the Director was wearing while listening to your performance. You quickly switch it off."" 110,110,250,255
+$global.HSITC1Finished = true
+HSITC1Orders ClearImportant HSI_TC1_MeetTheKnight
+$player.KnownByTheCommissioner = true",,defaultLeave:Time to leave,
+,,,,,,
+#HSITC1_Debriefing,,,,,,
+HSI_TC1_A_0,PopulateOptions,"$global.HSITC1Finished
+!$global.HSITC1AFinished
+$faction.id == HSI
+$market.id == HSI_SpaceBridge_Market
+$isPerson
+HSIPersonIdentityCheck PersonIsTheCommissioner",,,HSI_TC1_A_1:You vaguely recall this secretary wasn't the one who came to pick you up last time...,
+HSI_TC1_A_1,DialogOptionSelected,$option == HSI_TC1_A_1,,"""$playerName $PlayerSirOrMadam, kindly bring the recovered entity with you and follow me.""
+It takes a few seconds for you to realize the ""entity"" is the knight. You command the knight to follow you, then proceed to follow the secretary.",HSI_TC1_A_2:Look around...,
+HSI_TC1_A_2,DialogOptionSelected,$option == HSI_TC1_A_2,,"Even though it has been a while since your last visit, you still feel like you are taking a little too quiet a route today.
+
+The secretary guides you through a slightly winding corridor, and something about your memory feels off.",HSI_TC1_A_3:Did you round this corner last time?,
+HSI_TC1_A_3,DialogOptionSelected,$option == HSI_TC1_A_3,,"Eventually, you stop in front of a familiar door. Instead of knocking, the secretary pushes the door open and gestures for you to enter.",HSI_TC1_A_4:Maybe I'm just unfamiliar with the business...,
+HSI_TC1_A_4,DialogOptionSelected,$option == HSI_TC1_A_4,,"As you enter, something shifts. You move through what appears to be an illusion and find the Director standing at the table, her back to you.
+
+You get the gut feeling that the Director seems colder today, even though you cannot see her expression. The knight begins to grow uneasy, her hand grazing the hilt of her sword as she cautiously moves to your side.
+
+The Director remained silent.",HSI_TC1_A_5:Should I say something and ask?,
+HSI_TC1_A_5,DialogOptionSelected,$option == HSI_TC1_A_5,,"While you were still lost in thought, the blurry-faced 'Director' suddenly charges toward you. It is then that you finally realize how bizarre the entire situation is. Without hesitation, the knight draws her sword. The moment the 'Director' touches its tip, everything around her seems to dissolve, transforming into something entirely different in an instant. You even began to wonder if you are mistaken about what you had just witnessed.
+
+The Director sits at the table, tinkering with a crystal trinket.","HSI_TC1_A_6:""I need an explanation.""",
+HSI_TC1_A_6,DialogOptionSelected,$option == HSI_TC1_A_6,$global.HSITC1AFinished = true,"""This was a safety test. Both for you, and for her."" The Director tosses the trinket to you, which you catch in a panic. The knight did not lower her sword, until the Director urged her to ""put down her weapon"" in a coaxing tone. You get the feeling that the knight's hand suddenly had a will of its own, sheathing the sword despite the knight's deeply reluctant gaze.
+
+""In any case, the results are satisfactory. Captain $playerName, you've gained yourself a dependable ally."" She pauses, ""And perhaps I've gained one as well. Until next time, assistant.""
+
+You still feel like no explanation was given, but somehow follow the secretary back to the space bridge hall.
+",cutCommLink:Maybe there is something else to do,
+,,,,,,
+#HSI_TCEvent2,,,,,,
+HSI_TC2_0,AddBarEvents,"$global.HSITC1AFinished
+!$market.isHidden
+RepIsAtWorst HSI COOPERATIVE
+$global.HSILifeSentBack","AddBarEvent HSI_TC2_BarEvent ""Drink with him."" ""A man, looking deeply depressed and desperate, sits drinking alone."" 255,40,40,255",,,
+HSI_TC2_1,DialogOptionSelected,$option == HSI_TC2_BarEvent,"HSISetPerson Salvation
+ShowPersonVisual","The man sat at the bar, drunk and drinking alone. Taking the seat next to him, you call out to the bartender to serve another round for everyone in the bar. Upon hearing the clink of your glass, the man raises his own in response.",HSI_TC2_1:Raise it back at him,
+HSI_TC2_2,DialogOptionSelected,$option == HSI_TC2_1,,"You raise your glass in return. As the two of you drink, you decide to speak up to ease the tension — and to satisfy your curiosity.","HSI_TC2_2_1:""What's got you looking so down, brother?""
+HSI_TC2_2_2:""Life's been rough lately, buddy.""",
+HSI_TC2_3_1,DialogOptionSelected,$option == HSI_TC2_2_1,,"The man gives you a glance, then goes back to his drink. You figured it best not to press further.
+
+After some time, the man finished his glass and reached for the one you had just offered, ""What would you do if you woke up one day to find yourself in a completely alien world, tens of thousands of light-years away from everything you once knew?""","HSI_TC2_3_1:""Hmm... put on a long face?""
+HSI_TC2_3_2:""Wouldn't that just be starting from scratch?""",
+HSI_TC2_3_2,DialogOptionSelected,$option == HSI_TC2_2_2,,"The man gives you a glance, then goes back to his drink. You figured it best not to press further.
+
+After some time, the man finished his glass and reached for the one you had just offered, ""What would you do if you woke up one day to find yourself in a completely alien world, tens of thousands of light-years away from everything you once knew?""","HSI_TC2_3_1:""Hmm... put on a long face?""
+HSI_TC2_3_2:""Wouldn't that just be starting from scratch?""",
+HSI_TC2_4_1,DialogOptionSelected,$option == HSI_TC2_3_1,,"""That's why I'm so down""",HSI_TC2_4:Invite him to talk elsewhere,
+HSI_TC2_4_2,DialogOptionSelected,$option == HSI_TC2_3_2,,"For a moment, the man is visibly stunned, before he shakes his head, ""That was not my intention, $PlayerSirOrMadam.""",HSI_TC2_4:Invite him to talk elsewhere,
+HSI_TC2_5,DialogOptionSelected,$option == HSI_TC2_4,,"The man seems unwilling to talk about what happened in a bar, so you invite him to a more private restaurant nearby. He agrees.","HSI_TC2_5:""Did you really wake up far away from home?""",
+HSI_TC2_6,DialogOptionSelected,$option == HSI_TC2_5,,"The man smiles bitterly, and begins to share his story.
+
+He took part in a time travel experiment, reassured by the experimenter that he could return even if things went wrong. As a result, he's spent the last three months wandering this world, with no one willing to believe his story.
+
+In case you doubt him as well, he pulls out two items that resemble pocket watches. He explains that they're called Time-Space-Reality Three-Phase Stabilizing Anchors, a technology discovered on an unknown ship that appeared from nowhere, just like the experiment that brought him here.
+
+You can't help but feel he might be a little crazy, but you cannot be sure.","HSI_TC2_6:""How about talking about something else?""",
+HSI_TC2_7,DialogOptionSelected,$option == HSI_TC2_6,,"""When I first arrived, I thought I had landed in some uncivilized backwater, as even newly developed star systems were better than this. When I was new here, I asked about the Domain, only to be told by my boss that it had been gone for two centuries.""
+
+""I did everything I could to verify the date, only to discover I had traveled ten thousand years into the past. Ten thousand years! The Collapse, whose cause no one knows, was truly unheard of.""
+
+""Worse still, I was two hundred years short of when the director said a legendary predecessor vanished in an experiment. Why couldn't it have been set to an earlier time, just a little earlier would have been better.""",HSI_TC2_7:Perhaps he's had a little too much to drink.,
+HSI_TC2_8,DialogOptionSelected,$option == HSI_TC2_7,,"""Being stuck here wouldn't be so bad if I had the chance to meet legendary Director Tamamo."" He ends with those words. You vaguely recall a... contact who served as director before the Collapse, and her name, whether real or not, was Tamamo in public.",HSI_TC2_8:Ask around a bit more,
+HSI_TC2_9,DialogOptionSelected,$option == HSI_TC2_8,,"After a while, the man seems to sober up. You subtly steer the conversation to confirm if the legendary former director he mentioned was the Director, but he said that she disappeared in an experimental accident 27 years before the Collapse.","HSI_TC2_9:Might as well help him realize his dream of meeting his idol
+cutCommLink:In any case, he appears lively and in good spirits, so there doesn't seem to be any more cause for concern.",
+,,,,,,
+,,,,,,
+,,,,,,
+#HSI_PickSkye,,,,,,
+HSI_Skye_Planet,OpenInteractionDialog,"$market.isPlanetConditionMarketOnly
+$tag:HSI_Perureino
+$global.HSITC0Finished
+!$global.HSI_Scythe_Saved",ShowDefaultVisual,"Your $shipOrFleet approaches $entityName.
+
+It seems someone is trying to establish contact with something in orbit, but nothing appears to be there.",HSI_Skye_TryContact:Ask your comms officer if the source can be located,
+HSI_Skye_1,DialogOptionSelected,$option == HSI_Skye_TryContact,,"""This communication mode..."" Your comms officer fiddles with the console, ""Almost... done!""
+
+""Helloo, helloo —— is anyone there..."" You and your officers exchange puzzled glances, as the only thing on the monitor is a fish tail.","HSI_Skye_1:""Are you certain this is the right video feed?""",
+HSI_Skye_2,DialogOptionSelected,$option == HSI_Skye_1,"HSISetPerson Skye
+ShowPersonVisual","Your comms officer urgently gestures to you that the channel is still open. It is clear the other party heard your words, as the camera feed starts shaking violently.
+
+A moment later, a girl appears on the screen. ""Wooow. This box actually talkshh.""","HSI_Skye_2:""Hello?""",
+HSI_Skye_3,DialogOptionSelected,$option == HSI_Skye_2,,"""Weeell, the person who gave us this box said that one day, someone from the sky would speak through itshh."" The girl stares seriously into the camera, ""I kept asking, and finally it spokeshh.""
+
+You see your comms officer review the recent recordings, trying to confirm if he really saw a fish tail, while your operations officer quietly questions if there have been too many hallucinations lately. It's clear neither of them is in any position to offer useful advice.","HSI_Skye_3:""Are you part of the crew of a wrecked ship? Is there anyone else with you?""",
+HSI_Skye_4,DialogOptionSelected,$option == HSI_Skye_3,,"""Crew of a wrecked ship? Are you asking about those people? They returned long agoshh."" It seems that the other party found a place to set the 'box' down. ""I only heard the story of the boxshh, so I asked it something every dayshh.""
+
+You get the sense that the other party struggles with communication, and your operations officer raises an eyebrow in your direction, which you understand. A short while later, a small team descends to the planet's surface aboard a shuttle. Your comms officer leads you to the source of the signal, while reluctantly maintaining contact with the other party.
+
+The planet offers few viable landing spots, so you touch down near a chain of islands. Before long, you spot the communicator resting on a rock, and the 'person' using it.","HSI_Skye_4:""There's no need to review the recordings. It's real.""",
+HSI_Skye_5,DialogOptionSelected,$option == HSI_Skye_4,,"""Ah, it's a sky person."" The other party swishes the tail behind her back, ""Theeey have come downshh.""
+
+The other party latches onto the team and begans bombarding them with questions about how things are up in the ""sky"". Once the barrage of questions subsides and you have a moment to gather your thoughts, you finally ask the question that had been on your mind from the start: ""Who are you?""
+
+""Hmm? Yeshh, and also...""
+
+To spare yourself another onslaught of relentless curiosity, ""I have a suggestion."" You convey 'shut up' with just about every form of body language possible.
+
+","HSI_Skye_5:""Why don't you come with us? It might easier to understand once you've seen it with your own eyes.""",
+HSI_Skye_6,DialogOptionSelected,$option == HSI_Skye_5,,"""But my sisters say that the outside world is very scaryshh, humans always fightshh, and some might try to capture meshh.""
+
+That is true. ""But I still wish to see itshh."" The other party gently tucked away the communicator, ""When can we leavshh.""
+
+You feel like you and your operations officer have been exchanging glances a bit too often today. Stepping to the side, the two of you begin discussing whether taking her back is the right decision, as she seems completely naive about the outside world, and you're worried that even the smallest misstep could be the end of her.
+
+A sudden spark of inspiration struck your operations officer: ""She doesn't look human, so don't you happen to know just the person..."" You feel a wave of relief and as you quickly pull out the communicator given by the Director.
+
+""... Let me get this straight. You found a mermaid girl out there, she wants to come with you to see the outside world, but you think it's too dangerous and want to leave her with me?"" The Director's voice seemed to carry a hint of helplessness, ""Okay, okay. Captain $playername, you really are a natural at this sort of work.""","HSI_Skye_6:""I found you a meal ticket.""",
+HSI_Skye_7,DialogOptionSelected,$option == HSI_Skye_6,"ShowDefaultVisual
+$global.HSI_Scythe_Saved = true
+HSITC1Orders ClearImportant HSI_Skye","""What is a meal ticketshh?""
+
+You feel like you brought this trouble onto yourself. And so, the conversation drifted on aimlessly until the fleet sent by the Director arrived. You watched her board the shuttle, grateful that you wouldn't be bombarded with questions anymore.",defaultLeave:It's time to continue,
+,,,,,,
+HSI_Skye_Random1_Start,PopulateOptions,"$global.HSI_Scythe_Saved
+$faction.id == HSI
+$market.id == HSI_SpaceBridge_Market
+HSIPersonIdentityCheck SkyeRandom1
+!$isPerson
+!$global.HSI_ScytheRandomHappened
+!$global.HSI_ScytheNotInSpaceBridge",,,HSI_Skye_Random1:Is that something swimming outside the window...,
+HSI_Skye_Random1,DialogOptionSelected,$option == HSI_Skye_Random1,"HSISetPerson Skye
+ShowPersonVisual
+$global.HSI_ScytheRandomHappened = true 3","The blue figure draws nearer until it gently bumps against the window. That's when you recognize Skye, floating in space. Was she floating? It looked more like... swimming. Swimming?","cutCommLink:In any case, she looks lively, so there should not be any cause for concern.",
+,,,,,,
+,,,,,,
+#HSI_Stalker,,,,,,
+HSI_Stalker_GreetingTraitor,PickGreeting,"HSIPersonIdentityCheck PersonIsStalkerContact
+$faction.HSIisTraitor
+$isPerson",,"""Still alive? Looks like those old blades aren't as sharp as they used to be.""",defaultLeave:Leave,
+HSI_Stalker_GreetingTooLowLevel,PickGreeting,"HSIPersonIdentityCheck PersonIsStalkerContact
+HSIPersonIdentityCheck PlayerLevelBelow5
+!$global.HSISS_Start
+$isPerson",ShowDefaultVisual,The other party doesn't seem interested in answering your call.,,
+HSI_Stalker_Greeting_Not_Joined,PickGreeting,"HSIPersonIdentityCheck PersonIsStalkerContact
+HSIPersonIdentityCheck PlayerLevelAbove5
+!$global.HSISS_Start
+$isPerson","$contact_printedFirstReturnGreeting = true 0
+ShowPersonVisual
+","""Are you here to register?""","HSI_SS_Ask:""What for?""
+cutCommLink:Leave",
+HSI_Stalker_Ask,DialogOptionSelected,$option == HSI_SS_Ask,,"There was a brief silence from the other party. ""The Stalkers. We're looking for mercenaries. We pay you you for work you've done, and we also offer access to goods you won't find on the open market, that's it. As long as you don't turn on us, the rest is entirely your call.""","HSI_SS_Join:""I'm in.""
+defaultLeave:Not interested",
+HSI_Stalker_Join,DialogOptionSelected,$option == HSI_SS_Join,"$global.HSISS_Start = true
+$global.HSI_Traitor_Base = true","""Welcome aboard, stalker. I'll log your info into the system. Next time you stop by, there might be some new inventory.""",defaultLeave:Leave,
+HSI_Stalker_Contact,PopulateOptions,"$isPerson
+HSIPersonIdentityCheck PersonIsStalkerContact
+$faction.id == HSI
+!$faction.HSIisTraitor",,"""Hello, stalker.""","HSI_Stalker_OpenShop:""See what's new.""",
+HSI_Stalker_Shop,DialogOptionSelected,$option == HSI_Stalker_OpenShop,HSIStalkerShop,,,
+,,,,,,
+#TTMission,,,,,,
+HSI_TTMission_Start,DialogOptionSelected,"$option == marketVisitBar
+$faction.id == tritachyon
+$hasMarket
+$market.id == culann
+!$global.HSI_TTMission_Finished
+!$global.HSI_TTMission_Combat_Finished
+$global.HSI_TTMission_Start
+$player.KnownByTheCommissioner
+!HSIPersonIdentityCheck isTraitor","FireBest BarShuttleDownPrintDesc
+FireBest BarPrintDesc
+$option = HSITTMissionMet 0
+FireBest DialogOptionSelected",,,
+HSI_TTMission_Met0,DialogOptionSelected,$option == HSITTMissionMet,,"Despite being in $marketName's lively entertainment district, the daytime crowd always feels far sparser than at night. You plan to enjoy a drink before checking out more of the city. It's clear that Tri-Tachyon has stepped up security for this visit, and you spot marines and Tri-Tachyon agents in combat gear stationed on major roads, clearly wearing ""high-end gear"" that the armorer mentioned a few days ago.
+
+As if guided by something, you enter the third bar. Compared with the first two, this one was quieter, with only a few people scattered across the booths. The bartender gives you a brief glance before continuing to wipe glasses with his head bowed.
+
+Your briefly make eye contact with a familiar face from the news, someone who shouldn't be in this place, and you quickly avert your eyes.
+",HSI_TTMission_Met1:Walk over and take a seat opposite her,
+HSI_TTMission_Met1,DialogOptionSelected,$option == HSI_TTMission_Met1,"HSISetPerson TheCommissioner
+HSISetPerson ShowCommissionerTTMissionBar","You open your mouth to speak, but the Director silences you with a glance. She rises, takes the seat next to yours, and turns her back to shield you from view of the bartender. Pretending to fix your hair, she slips you a tiny earpiece.
+
+She leans close, and speaks softly into your ear: ""Here there are eyes everywhere. Be careful. A sound jammer keeps them from hearing us as long as we whisper, so keep your voice down.""
+
+You feel her breath in your ear get further away.","HSI_TTMission_Met2:""Looks like I got involved in some kind of a big deal?""",
+HSI_TTMission_Met2,DialogOptionSelected,$option == HSI_TTMission_Met2,,"With a barely noticeable nod, she turns to lean on your shoulder. A few taps on the Tripad reveals a tiny file, showing the title ""Deputy Chief"" of the Security Department Field Division, assigned to Persean Sector 3, a position with understated significance. You quickly grasp the situation, ask for a drink as a cover, and use the chance to discreetly observe everyone in the bar.
+
+You suspect one of the patrons is an agent, and while the bartender seems unremarkable, you feel a sense of dissonance from him that you can't quite explain. You wonder what they're planning. The look in the patron's eyes is sharp enough to keep you on edge. You glance down at the Director, hoping she has more to say.
+
+""Don't overanalyze a madman, Captain $playerName...""","HSI_TTMission_Met3:""... GET DOWN!""",
+HSI_TTMission_Met3,DialogOptionSelected,$option == HSI_TTMission_Met3,ShowPersonVisual,"Before you can react, the Director shoves you beneath the table as a burst of stun rounds tears through the spot you had been sitting. You start to regret trusting the Tri-Tachyon officials' nonsense about a temporary firearms ban as you find yourself pinned in a corner booth with no means of retaliation. You make no effort to lower your voice, ""Alright, what now?""
+
+The Director puts on an overly theatrical display of pondering a plan, her exaggerated performance making it obvious to you that she is not genuinely concerned. ""You're wondering why I picked a spot with no escape route, even though I knew we were exposed, right?""
+
+""Because only by dragging it out long enough will it escalate into something too big for those Tri-Tachyon suits to hide from the delegation.""
+
+
+",HSI_TTMission_Met4:Survey the environment in silence,
+HSI_TTMission_Met4,DialogOptionSelected,$option == HSI_TTMission_Met4,,"You survey the area, trying to find an escape route or anything that can be turned into a weapon. Despite her air of mystery, your instincts tell you that the person next to you lacks real combat prowess. Perhaps there is a trap that can be used...
+
+""Stay focused, Captain $playerName."" The Director prods you with something solid that feels like a folding fan. ""See what's up.""
+
+The moment you peek out, one of them takes aim and fires. You duck back behind the booth to find the Director gone.
+
+",HSI_TTMission_Met5:So I a target all along?,
+HSI_TTMission_Met5,DialogOptionSelected,$option == HSI_TTMission_Met5,,"You hear a pained groan and peek out again just in time to see the Director strike the bartender's throat with a folding fan, and the bartender — or rather, one of the agents — collapses to the ground. The other is already down, most likely the source of the earlier groan.
+
+The other patrons have fled. You decide to...
+","HSI_TTMission_Met6_1:Grab the Director and make a run for it
+HSI_TTMission_Met6_1_pickWeapon:Pick up one of the Tri-Tachyon agent's weapons",
+HSI_TTMission_Met6,DialogOptionSelected,$option == HSI_TTMission_Met6_1,,"You grab the Director and make a dash out of the bar, only to find the signal jammer is still active, and nearby marines and Tri-Tachyon agents already closing in. Fortunately, some panicked civilians fleeing the scene disrupts their movements, allowing you to follow the Director as she darts between buildings.
+
+Just as you had suspected, they weren't friendly, and rounds clip the air close to you. Seizing the opportunity, the Director ducks into an alley and yanks you in after her. The pursuers seem unsure which alley you turned into, buying you a moment of respite.
+
+The quiet of the alley and the commotion outside seems worlds apart. As you pause to catch your breath, the Director's folding fan suddenly clashes with a nearly invisible monomolecular blade right before your eyes. The blade fails to cut through the fan's ribs made of an unknown material, prompting the agent to quickly retreat, his violent movements causing his optical camouflage to deactivate.","HSI_TTMission_Met7:""Be careful, Captain $playerName, there's one more.""",
+HSI_TTMission_Met6_pickWeapon,DialogOptionSelected,$option == HSI_TTMission_Met6_1_pickWeapon,,"The Tri-Tachyon agent is still alive, and you find only stun rounds in the gun. It seems the Tri-Tachyon agents inside knew how to show restraint, but the marines outside may not be as understanding.
+
+It's wiser to stay unarmed.",HSI_TTMission_Met6_1:Grab the Director and make a run for it,
+HSI_TTMission_Met7,DialogOptionSelected,$option == HSI_TTMission_Met7,,"The words of the Marine Corps Commander come back to you, and you dodge the attack of the other cloaked agent, guided by a mix of intuition and muscle memory. The decloaked agent is still parrying the Director's attacks, clearly at a disadvantage. The fight is relatively quiet, but the pursuers are bound to find this place soon. If you take out this agent quickly, you might be able to escape the current wave of pursuers for good.
+
+After you dodge three waves of strikes, the Tri-Tachyon agent shifts tactics, and you begin to lose track of his position. Did he leave, or...?
+
+A synthesized voice comes from behind, nearly overlapping with a muffled groan: ""Step forward, $playerName $PlayerSirOrMadam, and mind the knife behind you.""",HSI_TTMission_Met8:Carefully do as you are told,
+HSI_TTMission_Met8,DialogOptionSelected,$option == HSI_TTMission_Met8,,"You take a few steps before turning around. The Tri-Tachyon agent has been impaled through the heart, his lifeless body being dragged out of sight behind cover. Just then, the Director incapacitates the agent who first appeared and runs toward you.
+
+The Director first looks you over, and after confirming that you were unhurt, shifts her gaze to the air in front of you, ""Master Faris, was this the extent of your preparation?""
+
+The synthesized voice from earlier returns, ""As I recall, you were the one who warned that getting exposed might result in serious diplomatic consequences, Director."" A figure decloaks, revealing what appears to be a ""Dancer"", albeit a variation from the standard model you've seen. It turns towards you, ""Faris.""","HSI_TTMission_Met9_1:""$playerName.""
+HSI_TTMission_Met9_2:""You can call me $playerName.""",
+HSI_TTMission_Met9_1,DialogOptionSelected,$option == HSI_TTMission_Met9_1,"HSISetPerson ShowCommissionerTTMissionDepartment
+FireAll HSITTMissionNewsBrief","You manage to shake off Tri-Tachyon's pursuit and reach the safe house at last. After a brief rest, you learn that Tri-Tachyon has imposed martial law, citing a hunt for ""leftist terrorists attempting to sabotage peace negotiations"".
+
+You glance at the tactical brief the Director is holding.",,
+HSI_TTMission_Met9_2,DialogOptionSelected,$option == HSI_TTMission_Met9_2,"HSISetPerson ShowCommissionerTTMissionDepartment
+FireAll HSITTMissionNewsBrief","You manage to shake off Tri-Tachyon's pursuit and reach the safe house at last. After a brief rest, you learn that Tri-Tachyon has imposed martial law, citing a hunt for ""leftist terrorists attempting to sabotage peace negotiations"".
+
+You glance at the tactical brief the Director is holding.",,
+HSI_TTMission_Ambassadar,HSITTMissionNewsBrief,!$AskedAmbassadar,,,HSI_TTMission_NewsBrief_Ambassadar:Ask if assistance from the delegation is possible,
+HSI_TTMission_Fleet,HSITTMissionNewsBrief,!$AskedFleet,,,HSI_TTMission_NewsBrief_Fleet:Ask if assistance from the visiting fleet is possible,
+HSI_TTMission_Plan,HSITTMissionNewsBrief,,,,HSI_TTMission_NewsBrief_Plan:Ask what comes next,
+HSI_TTMission_Ambassadar_Answer,DialogOptionSelected,$option == HSI_TTMission_NewsBrief_Ambassadar,"$AskedAmbassadar = true 0
+FireAll HSITTMissionNewsBrief","""Tri-Tachyon's reaction was swift. Citing the threat of leftist elements, they tightened security around the delegation to assert control. Councilor Borodinov is no fool, and I'm afraid he'll soon manage to contact the Expeditionary Force, which could spell trouble for the entire Persean Sector.""",,
+HSI_TTMission_Fleet_Answer,DialogOptionSelected,$option == HSI_TTMission_NewsBrief_Fleet,"$AskedFleet = true 0
+FireAll HSITTMissionNewsBrief","""Communications have been fully severed. Since this is Tri-Tachyon's capital, any attempt to transmit a message will eventually lead to our location being discovered, no matter what method we use.""",,
+HSI_TTMission_Plan_Answer0,DialogOptionSelected,"$option == HSI_TTMission_NewsBrief_Plan
+!$AskedFleet
+!$AskedAmbassadar",,"""I'm afraid we have but one way, Captain $playerName. For example... circumventing Tri-Tachyon surveillance to establish direct contact with the fleet.""
+
+Given its impossibility, you start to consider if there's a deeper meaning behind the statement.
+
+""Getting a message from ground to space undetected is impossible, but space to space might be possible.""
+
+The idea strikes you as more frightening than all previous ideas combined.","HSI_TTMission_BattleBrief_0:""Why don't I feel like I have a choice?""",
+HSI_TTMission_Plan_Answer1,DialogOptionSelected,"$option == HSI_TTMission_NewsBrief_Plan
+!$AskedFleet
+$AskedAmbassadar",,"""I'm afraid we have but one way, Captain $playerName. Make direct contact with the fleet.""
+
+Since Tri-Tachyon monitors the delegation, any message that escapes into space is unlikely to go unnoticed. You start to consider if there's a deeper meaning behind the statement.
+
+""Getting a message from ground to space undetected is impossible, but space to space might be possible.""
+
+The idea strikes you as more frightening than all previous ideas combined.","HSI_TTMission_BattleBrief_0:""Why don't I feel like I have a choice?""",
+HSI_TTMission_Plan_Answer2,DialogOptionSelected,"$option == HSI_TTMission_NewsBrief_Plan
+$AskedFleet
+!$AskedAmbassadar",,"""I'm afraid we have but one way, Captain $playerName. Circumvent Tri-Tachyon and make direct contact with the fleet.""
+
+Given what you just discussed, you start to consider if there's a deeper meaning behind the statement. ""Perhaps we should contact the delegation.""
+
+""The delegation is also being monitored, and although getting a message from ground to space undetected is impossible, space to space might be possible.""
+
+The idea strikes you as more frightening than all previous ideas combined.","HSI_TTMission_BattleBrief_0:""Why don't I feel like I have a choice?""",
+HSI_TTMission_Plan_Answer3,DialogOptionSelected,"$option == HSI_TTMission_NewsBrief_Plan
+$AskedFleet
+$AskedAmbassadar",,"""I'm afraid we have but one way, Captain $playerName. We need to make direct contact with the fleet.""
+
+Given its impossibility, you start to consider if there's a deeper meaning behind the statement.
+
+""Getting a message from ground to space undetected is impossible, but space to space might be possible.""
+
+The idea strikes you as more frightening than all previous ideas combined.","HSI_TTMission_BattleBrief_0:""Why don't I feel like I have a choice?""",
+HSI_TTMission_BattleBrief_0,DialogOptionSelected,$option == HSI_TTMission_BattleBrief_0,,"""Not necessarily, Captain $playerName."" The Director tightens her lips.
+
+""However, Councilor Borodinov is certain to inform the Expeditionary Force of my disappearance, and there's no way to reach him without revealing ourselves. Once the news gets out, the 3rd Fleet will take immediate action, and the moment they emerge from the wormhole, the entire Persean Sector will be put on edge.""
+
+""Should that occur, we won't be the only ones who will be losing sleep. That is why —"" She lets her voice stretch,
+
+""The fate of the Persean Sector is in your hands, my dear as-sis-tant.""
+
+You start to devise a plan.
+
+","HSI_TTMission_BattleBrief_1:""Then our first step is to get a ship.""",
+HSI_TTMission_BattleBrief_1,DialogOptionSelected,$option == HSI_TTMission_BattleBrief_1,,"""I know just the thing... in fact, this was the original plan. Covert Ops controls a classified weapons development facility here which houses a humanoid mech of unknown technological origin. It's strong enough to handle anything we might face in low orbit, but when it comes to high orbit, we can only hope they can't outrun us.""
+
+""Lucily for us, it's also a two seater, yet only requires a single operator. The original plan was to retrieve it through other means, but the operation was paused due to the peace talks, just as we happen to need it.""
+
+You suddenly feel like she's been orchestrating this for a while, like an author writing some clichéd hero story eagerly setting the scene for this exact twist, but at this point, there is no other way.","HSI_TTMission_StartBattle:Well, it has to end somehow",
+HSI_TTMission_StartBattle,DialogOptionSelected,$option == HSI_TTMission_StartBattle,"ShowLargePlanet
+HSITCEventFight TTMission",,,
+HSI_TTMission_AfterBattle_0,DialogOptionSelected,$option == HSI_TTMission_CombatEnd,"$global.HSI_TTMission_Combat_Finished = true
+$global.HSI_TTMission_JustFinished = true 20","Your Tri-Tachyon pursuers are still hot on your tail. Once you pass the Kármán line, several low-orbit patrol units join the chase. Given the circumstances, the odds of breaching the blockade and arriving within communication range of the Halo Dynamics Fleet are practically zero. You stick to the course plotted by the onboard computer, trying to push past the blockade.
+
+You hear the Director fiddling with her panel. Suddenly, the route on the HUD changes, pointing you to a vacant spot above the planet. Without allies or cover, it wouldn't occur to anyone as an escape route.","HSI_TTMission_AfterBattle_0:Pose questions
+HSI_TTMission_AfterBattle_1:Focus on piloting",
+HSI_TTMission_AfterBattle_0_1,DialogOptionSelected,$option == HSI_TTMission_AfterBattle_0,,"You yell over the alarm: ""Are you sure about this route!""
+
+""Stay focused on piloting, assistant. That's the escape route I worked out.""","HSI_TTMission_AfterBattle_1:You really don't have a choice, do you?",
+HSI_TTMission_AfterBattle_1,DialogOptionSelected,$option == HSI_TTMission_AfterBattle_1,,"The sharp left turn may have shaken some of the patrols attempting to surround you, but without backup, getting caught is only a matter of time. The fact that the Tri-Tachyon fleet had earlier powered up their weapons did not bode well for the future.
+
+""That's enough, assistant, give me control.""
+
+The tension breaks as the strain from the neural link quickly fades. With your pursuers closing in, you inexplicably begin to slow down. You fix your eyes on the radar, flooded with signals. Right now, all you can do is trust that your temporary weapons officer had really worked out a path to safety.","HSI_TTMission_AfterBattle_2_1:Pray
+HSI_TTMission_AfterBattle_2_2:There is no God",
+HSI_TTMission_AfterBattle_2_1,DialogOptionSelected,$option == HSI_TTMission_AfterBattle_2_1,,"Suddenly, the blaring of the main alarm fills small cockpit, as the HUD warns of a strong energy signature in the space ahead. A never-before-seen phase capital ship emerges from phase space dangerously close to you, its shuttle bay doors facing you.
+
+Five seconds later, you crash into the open shuttle hangar and land safely with the help of the assisted landing facility. With a jolt — which you are unsure comes from the landing gear or the ship moving — the alarms stop.","HSI_TTMission_AfterBattle_3:""Was this what you were counting on?""",
+HSI_TTMission_AfterBattle_2_2,DialogOptionSelected,$option == HSI_TTMission_AfterBattle_2_2,,"Suddenly, the blaring of the main alarm fills small cockpit, as the HUD warns of a strong energy signature in the space ahead. A never-before-seen phase capital ship emerges from phase space dangerously close to you, its shuttle bay doors facing you.
+
+Five seconds later, you crash into the open shuttle hangar and land safely with the help of the assisted landing facility. With a jolt — which you are unsure comes from the landing gear or the ship moving — the alarms stop.","HSI_TTMission_AfterBattle_3:""Was this what you were counting on?""",
+HSI_TTMission_AfterBattle_3,DialogOptionSelected,$option == HSI_TTMission_AfterBattle_3,,"""Yes.""
+
+""How about enjoying the Persean sunrise today?""","HSI_TTMission_AfterBattle_4_1:""I don't care for sunrises like people on the ground do.""
+
+HSI_TTMission_AfterBattle_4_2:""But I won't forget this one.""",
+HSI_TTMission_AfterBattle_4_1,DialogOptionSelected,$option == HSI_TTMission_AfterBattle_4_1,$global.HSI_TTMission_Finished = true,"Overwhelmed by the exhaustion of having narrowly escaped death, you say nothing more. The Director stays silent, considerate of your need for peace.
+
+You spend a few minutes in silence, before opening the hatch of the mech. Several officers freeze upon seeing you, but their expressions quickly turn serious when they recognize the Director seated behind you. A junior officer steps up to help you out of the mech, as a nearby medic starts to perform a basic health scan. After confirming that you are well, the officer politely invites you to proceed to a prepared cabin. You follow him through the ship for quite a while before finally arriving.
+
+Two hours later, the same officer returns and rings your doorbell, informing you that the shuttle is ready to return you to your fleet.",cutCommLink:Board the shuttle and bring the day to a close,
+HSI_TTMission_AfterBattle_4_2,DialogOptionSelected,$option == HSI_TTMission_AfterBattle_4_2,$global.HSI_TTMission_Finished = true,"Overwhelmed by the exhaustion of having narrowly escaped death, you say nothing more. The Director stays silent, considerate of your need for peace.
+
+You spend a few minutes in silence, before opening the hatch of the mech. Several officers freeze upon seeing you, but their expressions quickly turn serious when they recognize the Director seated behind you. A junior officer steps up to help you out of the mech, as a nearby medic starts to perform a basic health scan. After confirming that you are well, the officer politely invites you to proceed to a prepared cabin. You follow him through the ship for quite a while before finally arriving.
+
+Two hours later, the same officer returns and rings your doorbell, informing you that the shuttle is ready to return you to your fleet.",cutCommLink:Board the shuttle and bring the day to a close,
+,,,,,,
+HSI_TTMission_After_0,PopulateOptions,"$faction.id == HSI
+$market.id == HSI_SpaceBridge_Market
+$isPerson
+HSIPersonIdentityCheck PersonIsTheCommissioner
+$global.HSI_TTMission_Combat_Finished
+!$global.HSI_TTMission_JustFinished
+!$global.HSI_TTMission_Apostle_Got",,,"HSI_TTMission_After_0:""I'll make sure to steer clear of you next time.""",
+HSI_TTMission_After_1,DialogOptionSelected,$option == HSI_TTMission_After_0,,"""It was at least an interesting day, Captain $playerName. So, how does being the unsung hero of the entire sector feel?""","HSI_TTMission_After_1:""Not much different.""",
+HSI_TTMission_After_2,DialogOptionSelected,$option == HSI_TTMission_After_1,,"""A pity."" She sounds anything but disappointed, ""The technical department has already analyzed the mech and found it to be slightly technologically outdated, so it's not considered a critical asset.""
+
+""I had planned to give it to a certain unsung hero.""","HSI_TTMission_After_2_1:""Then again, it's good to have a little adventure now and then.""
+HSI_TTMission_After_2_2:""I still feel it was a little too exciting.""",
+HSI_TTMission_After_3_1,DialogOptionSelected,$option == HSI_TTMission_After_2_1,,"""You should read that book. Let me see where I put it.""
+
+The Director walks over to the massive bookshelf in her office. You watch as she idly runs her fingers along the book spines, as though browsing through a collection of history books. You lack the historical knowledge to recognize the entities written on the spines, such as the ""United Earth Directorate"" or the ""Scyldari Confederacy"". Before long, she makes her way to the literature section and pulls out a beautifully printed book from the shelf.","HSI_TTMission_After_3:""<<The Chameleon>>?""",
+HSI_TTMission_After_3_2,DialogOptionSelected,$option == HSI_TTMission_After_2_2,$global.HSI_TTMission_Apostle_Got = true,"""Alright then."" The Director turns her gaze back to the Tripad before her. ""Burn bright, Captain $playerName.""",cutCommLink:Maybe there is something else to do,
+HSI_TTMission_After_4,DialogOptionSelected,$option == HSI_TTMission_After_3,"HSITCEventFight AddShipTTMission
+$global.HSI_TTMission_Apostle_Got = true","""You'll find it useful, Captain $playerName."" The Director speaks with a smirk in her voice. ""But that's not necessarily a bad thing.""
+
+She taps her Tripad a few times, then turns her attention to the trinkets on the table, as if searching for one to give you. You are not particularly eager to add your collection of trinkets, especially those of unknown origin and purpose but are clearly not just decorative.
+
+Fortunately, she quickly abandons the idea, ""Head to the dock, Captain $playerName.""",cutCommLink:Head to the dock,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

@@ -1,0 +1,24 @@
+{
+	"id":"bt_nuclear_cannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"onHitEffect":"data.scripts.weapons.bt_hellburn_dotOnHit",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":70.0,
+	"hitGlowRadius":80,
+	"width":18.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,165,30,175],
+	#"coreColor":[255,225,175,225],
+	"coreColor":[255,255,255,200],
+	"glowColor":[255,165,30,105],
+	"glowRadius":40,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png"
+	#"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}

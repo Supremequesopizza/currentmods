@@ -1,0 +1,108 @@
+{
+  "hullName": "Freesia-EX",
+  "hullId": "uaf_ace_wing_freesia_x",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/uaf_ace_wing_freesia_x.png",
+  "style": "UAF_FIGHTER_S",
+  "height": 48,
+  "width": 39,
+  "center": [19.5, 24],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 28,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_fighter_mod_ace"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_fw_merupaka_epd",
+    "WS0002": "uaf_fw_merupaka_epd",
+    "WS0003": "uaf_fw_vasm_class_i",
+    "WS0004": "uaf_fw_vasm_class_i",
+    "WS0006": "uaf_fw_edge_type_iii"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 41,
+      "angle": 0,
+      "locations": [2.5, 4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 41,
+      "angle": -0,
+      "locations": [2.5, -4.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1, -10.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": 0,
+      "locations": [-11, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 41,
+      "angle": 0,
+      "locations": [6, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, -4],
+      "length": 25.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    },
+    {
+      "location": [-17.5, 4],
+      "length": 25.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_H"
+    }
+  ],
+  "bounds": [
+    -6, 18,
+    -23, 7.5,
+    -18, -0,
+    -23, -7.5,
+    -6, -18,
+    3.5, -4.5,
+    23, -0,
+    3.5, 4.5
+  ]
+}

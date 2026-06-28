@@ -1,0 +1,33 @@
+{
+	"id":"bt_divine_energy_redirector",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.bt_divine_redirectorAI",
+	
+	"statsScript":"data.scripts.shipsystems.bt_divine_redirector",
+	
+	"jitterUnderColor":[255,235,200,100],
+	"jitterUnderCopies":5,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":2,
+	"jitterUnderRangeRadiusFraction":0.1,
+	
+	"weaponGlowColor":[255,165,90,0],
+	"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	#"engineGlowColor":[255,90,255,255],
+	
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"bt_entropy_redirector_activation",
+	"loopSound":"bt_entropy_redirector_loop",
+	#"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"shipAlpha":0.90,
+	
+	"aiHints":{
+	}
+}
+
+
+

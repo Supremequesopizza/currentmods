@@ -1,0 +1,985 @@
+{
+  "hullName": "Neuxoria II (SP)",
+  "hullId": "uaf_ai_neuxoria",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Neuxoria/uaf_ai_neuxoria.png",
+  "style": "UAF_CAPITAL_AUTOMATA",
+  "height": 670,
+  "width": 366,
+  "center": [180, 317],
+  "collisionRadius": 420.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 355.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_supercap_engineering",
+    "uaf_automataSpec",
+    "uaf_atmospheric_entry",
+    "uaf_royal_arithmetic_sys",
+    "uaf_royal_arithmetic_control_configurator"
+  ],
+  "builtInWeapons": {
+    "BLINKERS_BACK_HANGAR_L_1": "uaf_blinker_forward_vertical_1",
+    "BLINKERS_BACK_HANGAR_L_2": "uaf_blinker_forward_vertical_2",
+    "BLINKERS_BACK_HANGAR_L_3": "uaf_blinker_forward_vertical_3",
+    "BLINKERS_BACK_HANGAR_R_1": "uaf_blinker_forward_vertical_1",
+    "BLINKERS_BACK_HANGAR_R_2": "uaf_blinker_forward_vertical_2",
+    "BLINKERS_BACK_HANGAR_R_3": "uaf_blinker_forward_vertical_3",
+    "BLINKERS_BOTTOM_L_1": "uaf_capital_blinker_bottom_2",
+    "BLINKERS_BOTTOM_L_2": "uaf_capital_blinker_bottom_1",
+    "BLINKERS_BOTTOM_R_1": "uaf_capital_blinker_bottom_2",
+    "BLINKERS_BOTTOM_R_2": "uaf_capital_blinker_bottom_1",
+    "BLINKERS_FORE_HANGAR_L_1": "uaf_blinker_forward_vertical_2",
+    "BLINKERS_FORE_HANGAR_L_2": "uaf_blinker_forward_vertical_3",
+    "BLINKERS_FORE_HANGAR_L_3": "uaf_blinker_forward_vertical_4",
+    "BLINKERS_FORE_HANGAR_L_4": "uaf_blinker_forward_vertical_5",
+    "BLINKERS_FORE_HANGAR_R_1": "uaf_blinker_forward_vertical_2",
+    "BLINKERS_FORE_HANGAR_R_2": "uaf_blinker_forward_vertical_3",
+    "BLINKERS_FORE_HANGAR_R_3": "uaf_blinker_forward_vertical_4",
+    "BLINKERS_FORE_HANGAR_R_4": "uaf_blinker_forward_vertical_5",
+    "BLINKERS_FORE_L_1": "uaf_capital_blinker_foremost_1",
+    "BLINKERS_FORE_L_2": "uaf_capital_blinker_foremost_2",
+    "BLINKERS_FORE_L_3": "uaf_capital_blinker_foremost_3",
+    "BLINKERS_FORE_R_1": "uaf_capital_blinker_foremost_1",
+    "BLINKERS_FORE_R_2": "uaf_capital_blinker_foremost_2",
+    "BLINKERS_FORE_R_3": "uaf_capital_blinker_foremost_3",
+    "BLINKERS_MIDDLE_L_1": "uaf_rillaru_blinker_forward_left_0",
+    "BLINKERS_MIDDLE_L_2": "uaf_rillaru_blinker_forward_left_1",
+    "BLINKERS_MIDDLE_L_3": "uaf_rillaru_blinker_forward_left_2",
+    "BLINKERS_MIDDLE_L_4": "uaf_rillaru_blinker_forward_left_3",
+    "BLINKERS_MIDDLE_L_5": "uaf_rillaru_blinker_forward_left_4",
+    "BLINKERS_MIDDLE_R_1": "uaf_rillaru_blinker_forward_right_0",
+    "BLINKERS_MIDDLE_R_2": "uaf_rillaru_blinker_forward_right_1",
+    "BLINKERS_MIDDLE_R_3": "uaf_rillaru_blinker_forward_right_2",
+    "BLINKERS_MIDDLE_R_4": "uaf_rillaru_blinker_forward_right_3",
+    "BLINKERS_MIDDLE_R_5": "uaf_rillaru_blinker_forward_right_4",
+    "BLINKERS_RADAR_L_1": "uaf_blinker_sirene_1",
+    "BLINKERS_RADAR_L_2": "uaf_blinker_sirene_2",
+    "BLINKERS_RADAR_R_1": "uaf_blinker_sirene_1",
+    "BLINKERS_RADAR_R_2": "uaf_blinker_sirene_2",
+    "BLINKERS_SIDE_HANGAR_L_1": "uaf_blinker_forward_vertical_2",
+    "BLINKERS_SIDE_HANGAR_L_2": "uaf_blinker_forward_vertical_3",
+    "BLINKERS_SIDE_HANGAR_RED_1": "uaf_blinker_forward_vertical_1",
+    "BLINKERS_SIDE_HANGAR_RED_2": "uaf_blinker_forward_vertical_1",
+    "BLINKERS_SIDE_HANGAR_R_1": "uaf_blinker_forward_vertical_2",
+    "BLINKERS_SIDE_HANGAR_R_2": "uaf_blinker_forward_vertical_3",
+    "RADAR_LARGE": "uaf_neuxoria_radar_dome",
+    "RADAR_MEDIUM": "uaf_neuxoria_radar_dome_2",
+    "RADAR_SMALL": "uaf_neuxoria_radar_small_1",
+    "RADAR_SMALL_2": "uaf_neuxoria_radar_small_2",
+    "RADAR_SMALL_3": "uaf_neuxoria_radar_small_2",
+    "WS0011": "uaf_enyria_pdx",
+    "WS0012": "uaf_enyria_pdx",
+    "uaf_zepporia_lights1": "uaf_neuxoria_lights1",
+    "uaf_zepporia_lights2": "uaf_neuxoria_lights2",
+    "uaf_zepporia_lights3": "uaf_neuxoria_lights3"
+  },
+  "weaponSlots": [
+    {
+      "id": "uaf_zepporia_lights1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18, -3]
+    },
+    {
+      "id": "uaf_zepporia_lights2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18, -3]
+    },
+    {
+      "id": "uaf_zepporia_lights3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18, -3]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [107, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [107, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 66.5,
+      "locations": [53, 70]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -66.5,
+      "locations": [53, -70]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-12.5, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-12.5, -29]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-39.5, 29]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-39.5, -29]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 13,
+      "angle": 0,
+      "locations": [-83, 110],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 13,
+      "angle": 0,
+      "locations": [-125, 110],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 249,
+      "angle": 90,
+      "locations": [-92, 58],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 249,
+      "angle": -90,
+      "locations": [-92, -58],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 135,
+      "locations": [-176, 30],
+      "renderOrderMod": 7
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -135,
+      "locations": [-176, -31],
+      "renderOrderMod": 7
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 135,
+      "locations": [-203, 45]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -135,
+      "locations": [-203, -45]
+    },
+    {
+      "id": "BLINKERS_FORE_L_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [169.5, 29.5]
+    },
+    {
+      "id": "BLINKERS_FORE_R_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [169.5, -29.5]
+    },
+    {
+      "id": "BLINKERS_FORE_L_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [163.5, 29.5]
+    },
+    {
+      "id": "BLINKERS_FORE_R_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [163.5, -29.5]
+    },
+    {
+      "id": "BLINKERS_FORE_L_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [157.5, 29.5]
+    },
+    {
+      "id": "BLINKERS_FORE_R_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [157.5, -29.5]
+    },
+    {
+      "id": "BLINKERS_FORE_HANGAR_L_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [208, 16.5]
+    },
+    {
+      "id": "BLINKERS_FORE_HANGAR_R_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [208, -16.5]
+    },
+    {
+      "id": "BLINKERS_FORE_HANGAR_L_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [260, 16.5]
+    },
+    {
+      "id": "BLINKERS_FORE_HANGAR_R_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [260, -16.5]
+    },
+    {
+      "id": "BLINKERS_FORE_HANGAR_L_4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [290, 16.5]
+    },
+    {
+      "id": "BLINKERS_FORE_HANGAR_R_4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [290, -16.5]
+    },
+    {
+      "id": "BLINKERS_FORE_HANGAR_L_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [121, 9.5]
+    },
+    {
+      "id": "BLINKERS_FORE_HANGAR_R_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [121, -9.5]
+    },
+    {
+      "id": "BLINKERS_SIDE_HANGAR_RED_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-6.5, -82]
+    },
+    {
+      "id": "BLINKERS_SIDE_HANGAR_RED_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [26.5, -82]
+    },
+    {
+      "id": "BLINKERS_SIDE_HANGAR_R_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 32.5,
+      "locations": [13, 72]
+    },
+    {
+      "id": "BLINKERS_SIDE_HANGAR_L_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 32.5,
+      "locations": [6.5, 82]
+    },
+    {
+      "id": "BLINKERS_SIDE_HANGAR_L_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 32.5,
+      "locations": [28.5, 95.5]
+    },
+    {
+      "id": "BLINKERS_SIDE_HANGAR_R_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 32.5,
+      "locations": [35, 86]
+    },
+    {
+      "id": "BLINKERS_BACK_HANGAR_L_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-110, -104]
+    },
+    {
+      "id": "BLINKERS_BACK_HANGAR_R_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-74, -104]
+    },
+    {
+      "id": "BLINKERS_BACK_HANGAR_L_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-95.5, -104]
+    },
+    {
+      "id": "BLINKERS_BACK_HANGAR_R_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-88.5, -104]
+    },
+    {
+      "id": "BLINKERS_BACK_HANGAR_R_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-88.5, -90]
+    },
+    {
+      "id": "BLINKERS_BACK_HANGAR_L_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-95.5, -90]
+    },
+    {
+      "id": "BLINKERS_BOTTOM_L_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-180.5, 86.5]
+    },
+    {
+      "id": "BLINKERS_BOTTOM_R_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-180.5, -87.5]
+    },
+    {
+      "id": "BLINKERS_BOTTOM_L_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-189.5, 86.5]
+    },
+    {
+      "id": "BLINKERS_BOTTOM_R_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-189.5, -87.5]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_L_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_R_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8, -48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_L_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [17, 48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_R_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [17, -48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_L_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21, 48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_R_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21, -48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_L_4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, 48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_R_4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [25, -48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_L_5",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, 48]
+    },
+    {
+      "id": "BLINKERS_MIDDLE_R_5",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [29, -48]
+    },
+    {
+      "id": "BLINKERS_RADAR_L_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-61.5, 43.5]
+    },
+    {
+      "id": "BLINKERS_RADAR_R_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-61.5, -44.5]
+    },
+    {
+      "id": "BLINKERS_RADAR_L_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-68.5, 43.5]
+    },
+    {
+      "id": "BLINKERS_RADAR_R_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-68.5, -44.5]
+    },
+    {
+      "id": "RADAR_MEDIUM",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-143, -112]
+    },
+    {
+      "id": "RADAR_LARGE",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-160, 111]
+    },
+    {
+      "id": "RADAR_SMALL",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-220.5, -112],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "RADAR_SMALL_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-207, -103.5]
+    },
+    {
+      "id": "RADAR_SMALL_3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 52,
+      "locations": [-35.5, -105.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": -0,
+      "locations": [15, -33],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 105,
+      "angle": 0,
+      "locations": [15, 33],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        10, -76,
+        0, -76,
+        20, -76
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -73, -84,
+        -81.5, -84,
+        -66, -89
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -113, -84,
+        -105.5, -84,
+        -120.5, -88.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        180.5, -0,
+        180, -12,
+        180, 12
+      ]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -6, 61,
+        4.5, 61,
+        -18.5, 63.5,
+        -29.5, 67.5
+      ]
+    },
+    {
+      "id": "LB 6",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -58.5, 69,
+        -37, 67.5
+      ]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [184, 24]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [184, -24]
+    },
+    {
+      "id": "NEUXORIA_DECO_COUNTER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-225, 0],
+      "length": 152.5,
+      "width": 43,
+      "angle": 180,
+      "contrailSize": 43,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-266, -0.5],
+      "length": 152.5,
+      "width": 43,
+      "angle": 180,
+      "contrailSize": 43,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-224.5, 11.5],
+      "length": 25.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-224.5, -11.5],
+      "length": 25.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-224, 7],
+      "length": 25.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-224, -7],
+      "length": 25.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-265, 12],
+      "length": 25.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-265, -12],
+      "length": 25.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-265, 8],
+      "length": 25.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-265, -8],
+      "length": 25.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-234, 84],
+      "length": 69.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-234, -84],
+      "length": 69.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-234, 109],
+      "length": 69.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-234, -109],
+      "length": 69.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
+    }
+  ],
+  "bounds": [
+    -288, 19,
+    -306, 29.5,
+    -305.5, 64.5,
+    -228.5, 64.5,
+    -228.5, 76.5,
+    -240, 90.5,
+    -240, 101.5,
+    -223.5, 128,
+    -187, 128,
+    -187, 146.5,
+    -93.5, 146.5,
+    -14, 117,
+    -14, 83,
+    59.5, 82.5,
+    71.5, 65.5,
+    99, 97,
+    117.5, 97,
+    128, 74,
+    296, 31.5,
+    296.5, 24,
+    212.5, 24,
+    212.5, -24,
+    296.5, -24,
+    296, -31.5,
+    128, -74,
+    117.5, -97,
+    99, -97,
+    71.5, -65.5,
+    63.5, -85,
+    -13.5, -85,
+    -13.5, -105,
+    -35.5, -127,
+    -56, -127,
+    -56, -107.5,
+    -113, -137,
+    -113, -184,
+    -136.5, -184,
+    -187, -128,
+    -223.5, -128,
+    -240, -101.5,
+    -240, -90.5,
+    -228.5, -76.5,
+    -228.5, -64.5,
+    -305.5, -64.5,
+    -306, -29.5,
+    -288, -19
+  ]
+}

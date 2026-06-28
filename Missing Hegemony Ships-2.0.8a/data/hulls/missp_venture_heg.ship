@@ -1,0 +1,166 @@
+{
+  "hullName": "Venture (A)",
+  "hullId": "missp_venture_heg",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/venture/missp_venture_hegemony.png",
+  "style": "LOW_TECH",
+  "height": 190,
+  "width": 194,
+  "center": [97, 81],
+  "collisionRadius": 143.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 134.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "militarized_subsystems"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 90,
+      "locations": [-21, 68]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-21, -68]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [55, 60]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [55, -60]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [27, 80]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [27, -80]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -43.5, 21.5,
+        -53, 22,
+        -51.5, 13,
+        -41.5, 14
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79.5, -54.5],
+      "length": 47,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79.5, 54.5],
+      "length": 47,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79.5, -62.5],
+      "length": 46.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79.5, 62.5],
+      "length": 46.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76, -77.5],
+      "length": 58,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76, 77.5],
+      "length": 58,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    82.5, -36.5,
+    105.5, -18,
+    105.5, 18,
+    82.5, 36.5,
+    60.5, 35.5,
+    58, 69,
+    30.5, 88.5,
+    -4.5, 95.5,
+    -69, 91.5,
+    -77.5, 51.5,
+    -55, 25.5,
+    -55, -25.5,
+    -77.5, -51.5,
+    -69, -91.5,
+    -4.5, -95.5,
+    30.5, -88.5,
+    58, -69,
+    60.5, -35.5
+  ]
+}
