@@ -1,0 +1,11 @@
+{
+	#Configuring the skills is done ingame using lunalib or by changing the default values in LunaSettings.csv in this folder. 
+	#QC will load from the LunaSettings file itself if LL is not present.
+	
+	#Code stuff
+	"plugins":{
+		"coordinatedManeuversPlugin":"dal.impl.campaign.skills.CaptainsCoordinatedManeuversScript",
+		"electronicWarfarePlugin":"dal.impl.campaign.skills.CaptainsElectronicWarfareScript",
+		"neuralLinkPlugin":"dal.impl.campaign.skills.CaptainsNeuralLinkScript",
+	},
+}
